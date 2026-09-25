@@ -1,7 +1,7 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router'
 import { BoardTags, ComplexityStars } from '@/components/board/BoardTags'
 import { Button } from '@/components/ui/button'
-import { getUnit } from '@/content/loader'
+import { getSubject, getUnit } from '@/content/loader'
 import { STATUS_STYLE, topicStatus } from '@/lib/status'
 import { cn } from '@/lib/utils'
 import { useProgress } from '@/stores/progress'
@@ -26,7 +26,7 @@ function UnitPage() {
     <div className="space-y-8">
       <nav className="text-sm text-muted-foreground">
         <Link to="/$subject" params={{ subject: unit.subjectId }} className="hover:underline">
-          Chemistry
+          {getSubject(unit.subjectId)?.title}
         </Link>{' '}
         / Unit {unit.number}
       </nav>

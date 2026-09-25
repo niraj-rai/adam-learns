@@ -1,0 +1,33 @@
+{
+  "id": "time-and-pendulums",
+  "number": "1.5",
+  "title": "Measuring Time: Pendulums and Clocks",
+  "summary": "From sundials and ghatis to pendulum clocks and atomic clocks: how periodic motion keeps time.",
+  "emoji": "🕰️",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 2, "note": "Classic MYP Criterion B/C fair-test investigation" },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 8: Measurement of Time and Motion (simple pendulum, time period)", "verified": true },
+      { "class": 8, "chapter": "Curiosity Ch 11: Keeping Time with the Skies", "verified": true }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can describe how people measured time using periodic events (the Sun, the Moon, water clocks).",
+    "I can define oscillation and time period for a simple pendulum.",
+    "I can plan and carry out a fair test to find what affects a pendulum's time period.",
+    "I can explain why timing many oscillations gives a more accurate result."
+  ],
+  "misconceptions": [
+    "A heavier bob swings faster.",
+    "A bigger swing takes longer.",
+    "Timing one swing is as good as timing ten."
+  ],
+  "prerequisites": ["physics/motion/types-of-motion"],
+  "labs": ["pendulum-lab"],
+  "keyTerms": ["simple pendulum", "oscillation", "time period", "bob", "sundial", "ghati", "second"],
+  "estMinutes": 25
+}

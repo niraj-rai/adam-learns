@@ -1,19 +1,17 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
 import { ComplexityStars } from '@/components/board/BoardTags'
-import { getAllTopics } from '@/content/loader'
+import { getSubjects } from '@/content/loader'
 import { cn } from '@/lib/utils'
 
 export const Route = createFileRoute('/curriculum')({ component: CurriculumPage })
 
-/** Planned chemistry units (from docs/curriculum/chemistry.md) not yet built. */
-const PLANNED = [
-  { unit: '7–16. Grades 9–10 (atomic structure → carbon compounds)', ib: 'MYP 4–5', cbse: '9–10' },
-]
-
 function CurriculumPage() {
+  const subjects = getSubjects()
+  const [subjectId, setSubjectId] = useState(subjects[0]?.id)
   const [view, setView] = useState<'ib' | 'cbse'>('ib')
-  const topics = getAllTopics().sort((a, b) => a.number.localeCompare(b.number, undefined, { numeric: true }))
+  const subject = subjects.find((s) => s.id === subjectId)!
+  const topics = subject.units.flatMap((u) => u.topics)
 
   const groups =
     view === 'ib'
@@ -26,7 +24,7 @@ function CurriculumPage() {
           .map((cls) => ({ label: `CBSE Class ${cls}`, items: topics.filter((t) => t.grades.cbse.some((c) => c.class === cls)) }))
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6" data-subject={subject.id}>
       <header>
         <h1 className="font-heading text-4xl font-bold">🗺️ Curriculum Map</h1>
         <p className="mt-1 max-w-3xl text-muted-foreground">
@@ -34,6 +32,14 @@ function CurriculumPage() {
           <b className="text-cbse">CBSE/NCERT</b> so nothing is missed.
         </p>
       </header>
+
+      <div className="flex flex-wrap gap-2">
+        {subjects.map((s) => (
+          <button key={s.id} type="button" onClick={() => setSubjectId(s.id)} className={cn('rounded-full border-2 px-4 py-1.5 text-sm font-semibold', s.id === subjectId ? 'border-chem bg-chem-soft' : 'hover:bg-muted')} data-subject={s.id}>
+            {s.icon} {s.title}
+          </button>
+        ))}
+      </div>
 
       <div className="inline-flex rounded-xl border p-1">
         {(['ib', 'cbse'] as const).map((v) => (
@@ -73,16 +79,18 @@ function CurriculumPage() {
         </section>
       ))}
 
-      <section>
-        <h2 className="font-heading text-xl font-semibold">Coming next in Chemistry</h2>
-        <ul className="mt-2 space-y-1.5 text-sm">
-          {PLANNED.map((p) => (
-            <li key={p.unit} className="rounded-xl border border-dashed px-4 py-2">
-              <b>{p.unit}</b> <span className="text-ib">· IB {p.ib}</span> <span className="text-cbse">· CBSE {p.cbse}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
+      {subject.planned.length > 0 && (
+        <section>
+          <h2 className="font-heading text-xl font-semibold">Coming next in {subject.title}</h2>
+          <ul className="mt-2 space-y-1.5 text-sm">
+            {subject.planned.map((p) => (
+              <li key={p.unit} className="rounded-xl border border-dashed px-4 py-2">
+                <b>{p.unit}</b> <span className="text-ib">· IB {p.ib}</span> <span className="text-cbse">· CBSE {p.cbse}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </div>
   )
 }

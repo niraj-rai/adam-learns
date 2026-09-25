@@ -1,0 +1,31 @@
+{
+  "id": "speed",
+  "number": "1.3",
+  "title": "Speed",
+  "summary": "How fast is fast? Calculating speed, converting m/s and km/h, and average speed on real Indian journeys.",
+  "emoji": "🚄",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 2, "note": "Extended to velocity and acceleration in MYP 4" },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 8: Measurement of Time and Motion (speed, uniform and non-uniform motion)", "verified": true }
+    ]
+  },
+  "ibCriteria": ["A", "C", "D"],
+  "objectives": [
+    "I can calculate speed using speed = distance ÷ time, and rearrange it to find distance or time.",
+    "I can convert between m/s and km/h.",
+    "I can distinguish uniform and non-uniform motion, and calculate average speed."
+  ],
+  "misconceptions": [
+    "The object that travels furthest is always the fastest (time matters too).",
+    "Average speed is the average of the speeds.",
+    "A speedometer shows average speed (it shows instantaneous speed)."
+  ],
+  "prerequisites": ["physics/motion/types-of-motion"],
+  "labs": ["race-track"],
+  "keyTerms": ["speed", "m/s", "km/h", "uniform motion", "non-uniform motion", "average speed", "speedometer", "odometer"],
+  "estMinutes": 25
+}

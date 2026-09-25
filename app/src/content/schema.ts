@@ -34,8 +34,14 @@ export const SubjectMeta = z.object({
   id: z.string(),
   title: z.string(),
   tagline: z.string(),
+  /** theme token name, e.g. 'chem' or 'phys' (see index.css) */
   color: z.string(),
   icon: z.string(),
+  order: z.number().int().default(0),
+  /** shown at the end of the subject map */
+  comingNext: z.string().optional(),
+  /** planned units not built yet (shown on the curriculum page) */
+  planned: z.array(z.object({ unit: z.string(), ib: z.string(), cbse: z.string() })).default([]),
 })
 
 export const UnitMeta = z.object({

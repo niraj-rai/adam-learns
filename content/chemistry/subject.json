@@ -3,5 +3,14 @@
   "title": "Chemistry",
   "tagline": "What everything is made of, and how it changes",
   "color": "chem",
-  "icon": "⚗️"
+  "icon": "⚗️",
+  "order": 1,
+  "comingNext": "Grades 9–10: atomic structure in depth · chemical bonding · the mole · balancing equations · rates & energy · carbon compounds",
+  "planned": [
+    {
+      "unit": "7–16. Grades 9–10 (atomic structure → carbon compounds)",
+      "ib": "MYP 4–5",
+      "cbse": "9–10"
+    }
+  ]
 }

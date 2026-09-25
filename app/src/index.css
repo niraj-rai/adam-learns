@@ -13,6 +13,9 @@
     --color-chem: var(--chem);
     --color-chem-soft: var(--chem-soft);
     --color-phys: var(--phys);
+    --color-phys-soft: var(--phys-soft);
+    --color-bio-soft: var(--bio-soft);
+    --color-math-soft: var(--math-soft);
     --color-bio: var(--bio);
     --color-math: var(--math);
     --color-success: var(--success);
@@ -92,6 +95,9 @@
     --chem: oklch(0.6 0.12 185);
     --chem-soft: oklch(0.96 0.03 185);
     --phys: oklch(0.55 0.18 275);
+    --phys-soft: oklch(0.96 0.03 275);
+    --bio-soft: oklch(0.96 0.04 145);
+    --math-soft: oklch(0.97 0.04 75);
     --bio: oklch(0.6 0.15 145);
     --math: oklch(0.72 0.15 70);
     --success: oklch(0.6 0.15 150);
@@ -135,6 +141,9 @@
     --chem: oklch(0.72 0.12 185);
     --chem-soft: oklch(0.28 0.04 185);
     --phys: oklch(0.7 0.15 275);
+    --phys-soft: oklch(0.28 0.05 275);
+    --bio-soft: oklch(0.28 0.05 145);
+    --math-soft: oklch(0.3 0.05 75);
     --bio: oklch(0.72 0.14 145);
     --math: oklch(0.8 0.14 75);
     --success: oklch(0.72 0.15 150);
@@ -181,4 +190,18 @@
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* Each subject re-maps the accent (named 'chem' for historical reasons) to its own colour */
+[data-subject='physics'] {
+  --chem: var(--phys);
+  --chem-soft: var(--phys-soft);
+}
+[data-subject='biology'] {
+  --chem: var(--bio);
+  --chem-soft: var(--bio-soft);
+}
+[data-subject='mathematics'] {
+  --chem: var(--math);
+  --chem-soft: var(--math-soft);
 }

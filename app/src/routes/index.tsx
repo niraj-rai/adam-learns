@@ -1,5 +1,6 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
 import { ArrowRight } from 'lucide-react'
+import { useMemo } from 'react'
 import { BoardTags, ComplexityStars } from '@/components/board/BoardTags'
 import { Button } from '@/components/ui/button'
 import { getAllTopics, getSubjects } from '@/content/loader'
@@ -11,12 +12,13 @@ import { currentStreak, dueReviewItems, useProgress } from '@/stores/progress'
 export const Route = createFileRoute('/')({ component: Home })
 
 const COMING = [
-  { title: 'Physics', emoji: '🧲', color: 'var(--phys)', note: 'Forces, light, electricity' },
-  { title: 'Mathematics', emoji: '📐', color: 'var(--math)', note: 'Algebra, geometry, data' },
-  { title: 'Biology', emoji: '🌿', color: 'var(--bio)', note: 'Cells, body, ecosystems' },
+  { id: 'physics', title: 'Physics', emoji: '🧲', note: 'Forces, light, electricity' },
+  { id: 'mathematics', title: 'Mathematics', emoji: '📐', note: 'Algebra, geometry, data' },
+  { id: 'biology', title: 'Biology', emoji: '🌿', note: 'Cells, body, ecosystems' },
 ]
 
 function Home() {
+  const featured = useMemo(() => [...LABS].sort(() => 0.5 - Math.random()).slice(0, 3), [])
   const { xp, topics, activeDays, review, badges } = useProgress()
   const next = nextRecommended(topics)
   const level = levelFor(xp)
@@ -28,17 +30,17 @@ function Home() {
   return (
     <div className="space-y-10">
       <section className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
-        <div className="rounded-3xl bg-gradient-to-br from-teal-500 to-cyan-600 p-7 text-white shadow-lg">
+        <div data-subject={next?.subjectId} className="rounded-3xl bg-chem p-7 text-white shadow-lg" style={{ backgroundImage: 'linear-gradient(135deg, var(--chem), color-mix(in oklch, var(--chem), black 25%))' }}>
           <p className="text-sm font-semibold tracking-wide text-white/80 uppercase">{greeting}, scientist!</p>
           <h1 className="mt-2 font-heading text-3xl leading-tight font-bold sm:text-4xl">What will you discover today?</h1>
           {next ? (
             <div className="mt-6 rounded-2xl bg-white/15 p-4 backdrop-blur">
-              <p className="text-xs font-semibold text-white/80 uppercase">{topics[next.key] ? 'Continue' : 'Up next'}</p>
+              <p className="text-xs font-semibold text-white/80 uppercase">{topics[next.key] ? 'Continue' : 'Up next'} · {getSubjects().find((s) => s.id === next.subjectId)?.title}</p>
               <p className="mt-1 font-heading text-2xl font-semibold">
                 {next.emoji} {next.title}
               </p>
               <p className="mt-1 text-sm text-white/85">{next.summary}</p>
-              <Button asChild size="lg" className="mt-4 bg-white text-teal-800 hover:bg-white/90">
+              <Button asChild size="lg" className="mt-4 bg-white text-slate-900 hover:bg-white/90">
                 <Link to="/$subject/$unit/$topic" params={{ subject: next.subjectId, unit: next.unitId, topic: next.id }}>
                   {topics[next.key] ? 'Keep going' : 'Start lesson'} <ArrowRight />
                 </Link>
@@ -74,6 +76,7 @@ function Home() {
                 key={s.id}
                 to="/$subject"
                 params={{ subject: s.id }}
+                data-subject={s.id}
                 className="group rounded-2xl border-2 border-chem/40 bg-card p-5 transition hover:-translate-y-0.5 hover:border-chem hover:shadow-md"
               >
                 <p className="text-4xl">{s.icon}</p>
@@ -88,7 +91,7 @@ function Home() {
               </Link>
             )
           })}
-          {COMING.map((c) => (
+          {COMING.filter((c) => !getSubjects().some((s) => s.id === c.id)).map((c) => (
             <div key={c.title} className="rounded-2xl border-2 border-dashed bg-muted/30 p-5 opacity-80">
               <p className="text-4xl grayscale-[40%]">{c.emoji}</p>
               <p className="mt-2 font-heading text-xl font-semibold">{c.title}</p>
@@ -107,7 +110,7 @@ function Home() {
           </Link>
         </div>
         <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {LABS.slice(0, 3).map((l) => (
+          {featured.map((l) => (
             <Link key={l.id} to="/labs/$labId" params={{ labId: l.id }} className="flex gap-3 rounded-2xl border bg-card p-4 transition hover:border-chem">
               <span className="text-3xl">{l.emoji}</span>
               <span>

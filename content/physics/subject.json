@@ -1,0 +1,17 @@
+{
+  "id": "physics",
+  "title": "Physics",
+  "tagline": "How things move, and the forces and energy behind them",
+  "color": "phys",
+  "icon": "🧲",
+  "order": 2,
+  "comingNext": "Unit 2: Forces & Pressure · Unit 3: Energy, Heat & Temperature · Unit 4: Light · Unit 5: Sound · Unit 6: Electricity & Magnetism · Unit 7: Earth & Space",
+  "planned": [
+    { "unit": "2. Forces & Pressure", "ib": "MYP 2–3", "cbse": "8 (Curiosity Ch 5, Ch 6)" },
+    { "unit": "3. Energy, Heat & Temperature", "ib": "MYP 1–3", "cbse": "6, 7" },
+    { "unit": "4. Light", "ib": "MYP 1–3", "cbse": "7, 8 (Curiosity Ch 10)" },
+    { "unit": "5. Sound", "ib": "MYP 2", "cbse": "8 (previous NCERT)" },
+    { "unit": "6. Electricity & Magnetism", "ib": "MYP 1–3", "cbse": "6, 7, 8 (Curiosity Ch 4)" },
+    { "unit": "7. Earth & Space", "ib": "MYP 1–3", "cbse": "6, 7, 8 (Curiosity Ch 11, 13)" }
+  ]
+}

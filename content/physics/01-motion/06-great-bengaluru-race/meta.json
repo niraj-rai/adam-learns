@@ -1,0 +1,30 @@
+{
+  "id": "great-bengaluru-race",
+  "number": "1.6",
+  "title": "Boss Challenge: The Great Bengaluru Race",
+  "summary": "A metro, a car, an auto and a cyclist race from Majestic to Whitefield. Read their distance–time graph to find out what really happened.",
+  "emoji": "🚇",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Unit summative-style task: processing data from graphs (Criterion C) and impacts of transport (Criterion D)" },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 8: Measurement of Time and Motion", "verified": true }
+    ]
+  },
+  "ibCriteria": ["C", "D"],
+  "objectives": [
+    "I can extract information from a distance–time graph with several lines.",
+    "I can calculate average speed from graph data, with unit conversion.",
+    "I can compare modes of transport using evidence."
+  ],
+  "misconceptions": [
+    "The fastest vehicle at one moment always arrives first.",
+    "Stops don't count when calculating average speed."
+  ],
+  "prerequisites": ["physics/motion/distance-time-graphs", "physics/motion/speed"],
+  "labs": ["bengaluru-race"],
+  "keyTerms": ["average speed", "gradient", "overtaking", "uniform motion"],
+  "estMinutes": 15
+}

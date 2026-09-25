@@ -17,6 +17,8 @@ export type BadgeId =
   | 'materials-engineer'
   | 'unit-atoms'
   | 'element-detective'
+  | 'unit-motion'
+  | 'race-analyst'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -38,5 +40,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'materials-engineer': { title: 'Materials Engineer', emoji: '👷', description: 'Approved at least 4 of 6 engineering designs (Boss Challenge)' },
   'unit-atoms': { title: 'Atom Architect', emoji: '⚛️', description: 'Mastered every core topic in Unit 6: Atoms & the Periodic Table' },
   'element-detective': { title: 'Element Detective', emoji: '🔎', description: 'Solved the Element Detective mysteries (Boss Challenge)' },
+  'unit-motion': { title: 'Motion Master', emoji: '🏃', description: 'Mastered every core topic in Physics Unit 1: Measurement & Motion' },
+  'race-analyst': { title: 'Race Analyst', emoji: '🏁', description: 'Read the Great Bengaluru Race graph like a scientist (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

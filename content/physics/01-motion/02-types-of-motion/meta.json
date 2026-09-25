@@ -1,0 +1,31 @@
+{
+  "id": "types-of-motion",
+  "number": "1.2",
+  "title": "Types of Motion",
+  "summary": "Linear, circular, oscillatory and periodic: how to describe the way things move, and why a reference point matters.",
+  "emoji": "🎡",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 1 },
+    "cbse": [
+      { "class": 6, "chapter": "Curiosity Ch 5: Measurement of Length and Motion (types of motion)", "verified": true }
+    ]
+  },
+  "ibCriteria": ["A", "C"],
+  "objectives": [
+    "I can explain that motion is a change in position relative to a reference point.",
+    "I can classify motion as linear, circular or oscillatory.",
+    "I can identify periodic motion and give examples."
+  ],
+  "misconceptions": [
+    "An object is either moving or not, no matter who is watching (motion depends on the reference point).",
+    "Circular and oscillatory motion are the same.",
+    "Only living things move."
+  ],
+  "prerequisites": ["physics/motion/measurement"],
+  "labs": ["motion-sorter"],
+  "keyTerms": ["motion", "rest", "reference point", "linear motion", "circular motion", "oscillatory motion", "periodic motion"],
+  "estMinutes": 15
+}

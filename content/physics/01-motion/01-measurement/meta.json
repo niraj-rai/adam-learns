@@ -1,0 +1,31 @@
+{
+  "id": "measurement",
+  "number": "1.1",
+  "title": "Measurement and Units",
+  "summary": "From handspans and angulas to the metre: why standard units matter and how to measure length accurately.",
+  "emoji": "📏",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 1, "note": "Measurement skills are assessed throughout MYP (Criteria B and C)" },
+    "cbse": [
+      { "class": 6, "chapter": "Curiosity Ch 5: Measurement of Length and Motion", "verified": true }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can explain why standard units are needed, using body-based units as an example.",
+    "I can use SI units of length and convert between mm, cm, m and km.",
+    "I can measure length correctly, avoiding zero error and parallax error."
+  ],
+  "misconceptions": [
+    "You always start reading a ruler from its end.",
+    "Where you look from doesn't matter when reading a scale.",
+    "A bigger number always means a bigger length (units matter!)."
+  ],
+  "prerequisites": [],
+  "labs": ["measure-it"],
+  "keyTerms": ["measurement", "unit", "standard unit", "SI unit", "metre", "parallax error", "zero error"],
+  "estMinutes": 20
+}

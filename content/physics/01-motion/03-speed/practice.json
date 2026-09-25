@@ -1,0 +1,132 @@
+{
+  "topicId": "speed",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "A cyclist travels 300 m in 60 s. What is the speed?",
+      "answer": 5,
+      "tolerance": 0,
+      "unit": "m/s",
+      "explain": "300 ÷ 60 = 5 m/s."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Convert 20 m/s into km/h.",
+      "answer": 72,
+      "tolerance": 0,
+      "unit": "km/h",
+      "hint": "Multiply by 3.6.",
+      "explain": "20 × 3.6 = 72 km/h."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Convert 90 km/h into m/s.",
+      "answer": 25,
+      "tolerance": 0,
+      "unit": "m/s",
+      "hint": "Divide by 3.6.",
+      "explain": "90 ÷ 3.6 = 25 m/s."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "A train moves at 80 km/h for 2.5 hours. How far does it travel?",
+      "answer": 200,
+      "tolerance": 0,
+      "unit": "km",
+      "hint": "distance = speed × time",
+      "explain": "80 × 2.5 = 200 km."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A car travels 60 km in the first hour and 20 km in the next hour. What is its average speed?",
+      "answer": 40,
+      "tolerance": 0,
+      "unit": "km/h",
+      "explain": "Total distance 80 km ÷ total time 2 h = 40 km/h."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "How long does it take to walk 1.5 km at 5 km/h? Give your answer in minutes.",
+      "answer": 18,
+      "tolerance": 0,
+      "unit": "minutes",
+      "hint": "time = distance ÷ speed, then convert hours to minutes.",
+      "explain": "1.5 ÷ 5 = 0.3 h = 0.3 × 60 = 18 minutes."
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Uniform or non-uniform motion?",
+      "bins": ["Uniform", "Non-uniform"],
+      "items": [
+        { "label": "A train cruising at a steady 100 km/h", "bin": 0 },
+        { "label": "A bus in city traffic", "bin": 1 },
+        { "label": "A ball rolling to a stop", "bin": 1 },
+        { "label": "A car on cruise control on a straight highway", "bin": 0 },
+        { "label": "A sprinter starting a race", "bin": 1 }
+      ],
+      "explain": "Uniform = equal distances in equal times (constant speed)."
+    },
+    {
+      "id": "q8",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each instrument to what it measures.",
+      "pairs": [
+        { "left": "Speedometer", "right": "Speed at that moment" },
+        { "left": "Odometer", "right": "Total distance travelled" },
+        { "left": "Stopwatch", "right": "Time taken" }
+      ],
+      "explain": "Speedometer → speed; odometer → distance; stopwatch → time."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which is FASTEST?",
+      "options": ["A car at 54 km/h", "A cheetah at 25 m/s", "A scooter at 12 m/s", "A train at 72 km/h"],
+      "answer": 1,
+      "hint": "Convert everything to the same unit first.",
+      "explain": "In m/s: car 15, cheetah 25, scooter 12, train 20. The cheetah wins."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "A car at 50 km/h travels about 14 m in the 1 second a driver takes to react. Explain why lower speed limits near schools make children safer.",
+      "modelAnswer": "At lower speeds, the car travels a shorter distance during the driver's reaction time and while braking, so it can stop sooner. This gives children more chance to be safe if they step onto the road, and a crash at lower speed causes less injury.",
+      "rubric": [
+        "Lower speed → shorter distance travelled while reacting/braking",
+        "The car can stop sooner / before hitting someone",
+        "Less injury if a collision happens"
+      ],
+      "explain": "Physics helps us make evidence-based safety decisions (Criterion D)."
+    }
+  ]
+}

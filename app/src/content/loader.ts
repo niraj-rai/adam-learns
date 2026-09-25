@@ -124,7 +124,7 @@ function build() {
 
 const content = build()
 
-export const getSubjects = () => [...content.subjects.values()]
+export const getSubjects = () => [...content.subjects.values()].sort((a, b) => a.order - b.order)
 export const getSubject = (id: string) => content.subjects.get(id)
 export const getUnit = (subjectId: string, unitId: string) => content.units.get(`${subjectId}/${unitId}`)
 export const getTopic = (subjectId: string, unitId: string, topicId: string) =>

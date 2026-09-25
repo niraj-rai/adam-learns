@@ -1,0 +1,107 @@
+{
+  "topicId": "distance-time-graphs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each line shape on a distance–time graph to its meaning.",
+      "pairs": [
+        { "left": "Flat (horizontal) line", "right": "Stopped" },
+        { "left": "Steep straight line", "right": "Moving fast at constant speed" },
+        { "left": "Gentle straight line", "right": "Moving slowly at constant speed" },
+        { "left": "Line sloping downwards", "right": "Coming back towards the start" }
+      ],
+      "explain": "Slope = speed; flat = zero speed; downward = returning."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A distance–time graph is a straight line from (0 s, 0 m) to (5 s, 20 m). What is the speed?",
+      "answer": 4,
+      "tolerance": 0,
+      "unit": "m/s",
+      "explain": "20 ÷ 5 = 4 m/s."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Two straight lines start at the origin. Line A is steeper than line B. What does this tell you?",
+      "options": ["A travelled for longer", "A is faster than B", "B is faster than A", "A stopped"],
+      "answer": 1,
+      "explain": "A steeper slope means more distance per second: faster."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A graph is flat at 30 m from t = 10 s to t = 25 s. For how long was the object stopped?",
+      "answer": 15,
+      "tolerance": 0,
+      "unit": "s",
+      "explain": "25 − 10 = 15 seconds with no change in distance."
+    },
+    {
+      "id": "q5",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A graph shows: a gentle slope, then flat, then a steep slope. Put the story in order.",
+      "steps": ["Walked slowly", "Stood still", "Ran fast"],
+      "explain": "Gentle slope = slow; flat = stopped; steep = fast."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "On a distance–time graph, a line curves upwards and gets steeper and steeper. What is happening?",
+      "options": ["The object is slowing down", "The object is speeding up", "The object is stopped", "The object is going uphill"],
+      "answer": 1,
+      "feedback": { "3": "The graph shows distance over time, not the shape of the road!" },
+      "explain": "Getting steeper = speed increasing."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "On a distance–time graph, time is plotted on the ___ axis. The slope of the line gives the ___.",
+      "blanks": [["x", "horizontal", "x-axis"], ["speed"]],
+      "wordBank": ["x", "y", "speed", "distance"],
+      "explain": "Time on the x-axis; slope = speed."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A cyclist goes from 400 m at t = 4 min to 1000 m at t = 6 min. What is the speed in m/min?",
+      "answer": 300,
+      "tolerance": 0,
+      "unit": "m/min",
+      "explain": "(1000 − 400) ÷ (6 − 4) = 600 ÷ 2 = 300 m/min (= 5 m/s)."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Describe the journey shown by this data: 0 min, 0 m; 2 min, 400 m; 4 min, 400 m; 6 min, 1000 m.",
+      "modelAnswer": "From 0 to 2 minutes the cyclist moved at a constant speed of 200 m/min. From 2 to 4 minutes they stopped (distance stayed at 400 m). From 4 to 6 minutes they moved faster, at 300 m/min, reaching 1000 m.",
+      "rubric": [
+        "First stage: moving at constant speed (200 m/min)",
+        "Second stage: stopped",
+        "Third stage: moving faster (300 m/min)"
+      ],
+      "explain": "Break the journey into stages and give the speed of each."
+    }
+  ]
+}

@@ -1,33 +1,65 @@
 # Physics Curriculum Map
 
-> Phase 3. Same legend as [chemistry.md](chemistry.md). The detailed topic breakdown (objectives, misconceptions, practice) will be added when this subject starts. Treat the ⚠️ CBSE *Curiosity* chapter tags as unverified.
+> Phase 3. Same legend as [chemistry.md](chemistry.md). IB MYP first, mapped to CBSE/NCERT.
+> ✅ = verified NCERT *Curiosity* chapter numbers (checked 2026-09-25). ⚠️ = to verify.
+> *Curiosity* Class 8 has 13 chapters. The physics ones are Ch 4 (Electricity: Magnetic and Heating Effects), Ch 5 (Exploring Forces), Ch 6 (Pressure, Winds, Storms and Cyclones), Ch 10 (Light: Mirrors and Lenses) and Ch 11 (Keeping Time with the Skies).
 
 ## L0–L2: Up to Grade 8
 
-| Unit | Topics | IB | CBSE | ★ | Signature labs |
+### Unit 1: Measurement & Motion ✅ built
+*IB Key Concept:* **Relationships** · *Related:* Movement, Evidence, Models · *Global Context:* Orientation in space and time
+
+| # | Topic | IB | CBSE | ★ | Lab |
 |---|---|---|---|---|---|
-| 1. Measurement & Motion | Units & SI, measuring length/time, types of motion, speed, distance-time graphs | MYP 1–2 | 6, 7 | ★★ | **Race Track**: set speeds, generate distance-time graphs |
-| 2. Forces | Push/pull, contact & non-contact forces, friction, gravity, balanced vs unbalanced | MYP 2–3 | Cur-8 Ch5 ⚠️, Old-8 Ch11–12 | ★★ | **Force Playground**: drag a box on ice, wood, or carpet with force arrows |
-| 3. Pressure | Pressure = F/A, liquid pressure, atmospheric pressure, winds, cyclones | MYP 3 | Cur-8 Ch6 ⚠️ | ★★★ | **Bed of Nails**, Pressure Depth Tank |
-| 4. Energy | Forms, transformations, conservation, renewable vs non-renewable | MYP 1–3 | 6–9 | ★★ | **Energy Chain** builder (sun → plant → food → you) |
-| 5. Heat & Temperature | Temperature vs heat, conduction/convection/radiation, thermal expansion | MYP 1–2 | 6, 7 | ★★ | **Heat Flow** sim (spoon in chai) |
-| 6. Light | Sources, straight-line travel, shadows, reflection, mirrors, lenses, dispersion | MYP 1–3 | 6, 7, Cur-8 Ch10 ⚠️ | ★★★ | **Optics Bench**: drag mirrors and lenses, trace rays |
-| 7. Sound | Vibration, pitch, loudness, frequency, human ear, noise | MYP 2 | Old-8 Ch13 | ★★ | **Wave Maker** with audio playback |
-| 8. Electricity & Magnetism | Circuits, conductors, series/parallel intro, heating & magnetic effects, electromagnets | MYP 1–3 | 6, 7, Cur-8 Ch4 ⚠️ | ★★★ | **Circuit Builder** (drag components, bulbs light up) |
-| 9. Earth & Space | Solar system, moon phases, seasons, stars, keeping time with the sky | MYP 1–3 | 6, Cur-8 Ch11 ⚠️ | ★★ | **Orbit Sandbox**, Moon Phase dial |
+| 1.1 | Measurement and units (body units → SI, reading scales, parallax) | MYP 1 | Cur-6 Ch 5 ✅ | ★ | **Measure It!**: the handspan problem, reading a ruler, parallax |
+| 1.2 | Types of motion (linear, circular, oscillatory, periodic) | MYP 1 | Cur-6 Ch 5 ✅ | ★ | **Motion Sorter**: animated scenes to classify |
+| 1.3 | Speed | MYP 2 | Cur-7 Ch 8 ✅ | ★★ | **Race Track**: race Adam, a cheetah, an auto, a Vande Bharat train… |
+| 1.4 | Distance–time graphs | MYP 3 | Cur-7 Ch 8 ✅ / Class 9 Motion ⚠️ | ★★★ | **Graph Walker**: program a walk, draw its graph, match targets |
+| 1.5 | Measuring time: pendulums and clocks | MYP 2 | Cur-7 Ch 8 ✅, Cur-8 Ch 11 ✅ | ★★ | **Pendulum Lab**: fair test of length, mass and angle |
+| 1.6 | Boss: The Great Bengaluru Race | MYP 3 | Cur-7 Ch 8 ✅ | ★★★ | Analyse a 4-traveller distance–time graph |
+
+### Unit 2: Forces & Pressure
+| Topics | IB | CBSE | Signature labs |
+|---|---|---|---|
+| Contact and non-contact forces, balanced/unbalanced, friction, gravity and weight, pressure = F/A, liquid and air pressure, winds and cyclones | MYP 2–3 | Cur-8 Ch 5 ✅, Ch 6 ✅ | Force Playground, Friction Ramp, Bed of Nails, Pressure Depth Tank, Cyclone Builder |
+
+### Unit 3: Energy, Heat & Temperature
+| Topics | IB | CBSE | Signature labs |
+|---|---|---|---|
+| Forms and transformations of energy, temperature vs heat, thermometers, conduction/convection/radiation, sea and land breezes | MYP 1–3 | Cur-6 (Temperature) ⚠️, Cur-7 (Heat Transfer in Nature) ⚠️ | Energy Chain, Heat Flow (spoon in chai), Sea Breeze sim |
+
+### Unit 4: Light
+| Topics | IB | CBSE | Signature labs |
+|---|---|---|---|
+| Light travels in straight lines, shadows, reflection laws, plane/concave/convex mirrors, lenses, dispersion | MYP 1–3 | Cur-7 (Light: Shadows and Reflections) ⚠️, Cur-8 Ch 10 ✅ | Optics Bench (ray tracing), Shadow Theatre, Periscope Builder |
+
+### Unit 5: Sound
+| Topics | IB | CBSE | Signature labs |
+|---|---|---|---|
+| Vibration, pitch/frequency, loudness/amplitude, how we hear, noise pollution | MYP 2 | Previous NCERT Class 8 (Sound) ⚠️ | Wave Maker with audio, Jal Tarang simulator |
+
+### Unit 6: Electricity & Magnetism
+| Topics | IB | CBSE | Signature labs |
+|---|---|---|---|
+| Magnets and poles, circuits, conductors/insulators, heating and magnetic effects, electromagnets | MYP 1–3 | Cur-6 (Exploring Magnets) ⚠️, Cur-7 (Electricity: Circuits) ⚠️, Cur-8 Ch 4 ✅ | Circuit Builder, Electromagnet Lab, Compass Field Mapper |
+
+### Unit 7: Earth & Space
+| Topics | IB | CBSE | Signature labs |
+|---|---|---|---|
+| Earth, Moon and Sun, day/night, seasons, moon phases, eclipses, keeping time with the sky (calendars) | MYP 1–3 | Cur-6 (Beyond Earth) ⚠️, Cur-7 (Earth, Moon and the Sun) ⚠️, Cur-8 Ch 11 ✅, Ch 13 ✅ | Orbit Sandbox, Moon Phase dial, Sundial |
 
 ## L3: Grades 9–10
 
 | Unit | Topics | IB | CBSE | ★ |
 |---|---|---|---|---|
-| Motion | Equations of motion, velocity-time graphs, acceleration | MYP 4 | 9 | ★★★★ |
+| Motion | Equations of motion, velocity–time graphs, acceleration | MYP 4 | 9 | ★★★★ |
 | Newton's Laws & Momentum | Three laws, momentum, conservation | MYP 4 | 9 | ★★★★ |
 | Gravitation | Universal law, g, weight, buoyancy, Archimedes | MYP 4 | 9 | ★★★★ |
 | Work, Energy & Power | W = Fs, KE, PE, power, efficiency | MYP 4–5 | 9 | ★★★★ |
 | Waves & Sound | Wave properties, echo, ultrasound | MYP 4 | 9 | ★★★ |
-| Light | Reflection/refraction laws, mirror & lens formulas, human eye, dispersion | MYP 5 | 10 | ★★★★ |
+| Light | Reflection/refraction laws, mirror and lens formulas, human eye, dispersion | MYP 5 | 10 | ★★★★ |
 | Electricity | Ohm's law, resistance, series/parallel, power, heating | MYP 5 | 10 | ★★★★ |
 | Magnetic Effects | Fields, motor rule, electromagnetic induction | MYP 5 | 10 | ★★★★ |
 
 ## L4: Grades 11–12
-IB DP Physics themes A–E (Space/time/motion, Particulate nature, Wave behaviour, Fields, Nuclear & quantum), mapped to CBSE 11–12 chapters when this level starts.
+IB DP Physics themes A–E (Space, time and motion; The particulate nature of matter; Wave behaviour; Fields; Nuclear and quantum physics), mapped to CBSE 11–12 chapters when this level starts.

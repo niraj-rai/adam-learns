@@ -1,7 +1,9 @@
 import { Link } from '@tanstack/react-router'
-import { FlaskConical, Menu, Monitor, Moon, Sun, Volume2, VolumeX } from 'lucide-react'
+import { Menu, Monitor, Moon, Sun, Volume2, VolumeX } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Button } from '@/components/ui/button'
+import { getSubjects } from '@/content/loader'
+import { Logo } from './Logo'
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { levelFor } from '@/lib/levels'
 import { cn } from '@/lib/utils'
@@ -10,12 +12,12 @@ import { applyTheme, useSettings, type Theme } from '@/stores/settings'
 
 const NAV = [
   { to: '/', label: 'Home' },
-  { to: '/$subject', params: { subject: 'chemistry' }, label: 'Chemistry' },
+  ...getSubjects().map((s) => ({ to: '/$subject' as const, params: { subject: s.id }, label: s.title })),
   { to: '/labs', label: 'Labs' },
   { to: '/review', label: 'Review' },
   { to: '/progress', label: 'Progress' },
   { to: '/curriculum', label: 'Curriculum' },
-] as const
+]
 
 export function TopBar() {
   const xp = useProgress((s) => s.xp)
@@ -58,9 +60,7 @@ export function TopBar() {
     <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur">
       <div className="mx-auto flex h-14 max-w-6xl items-center gap-3 px-4">
         <Link to="/" className="flex items-center gap-2 font-heading text-lg font-bold">
-          <span className="grid size-8 place-items-center rounded-xl bg-chem text-white">
-            <FlaskConical className="size-4.5" />
-          </span>
+          <Logo className="size-9 shrink-0 drop-shadow-sm" />
           <span className="hidden sm:inline">AdamLearns</span>
         </Link>
 

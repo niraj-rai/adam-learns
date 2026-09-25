@@ -1,0 +1,69 @@
+<Stage kind="wonder" title="Who is faster?" />
+
+<Hook emoji="🏃">
+Adam runs 100 m in 20 seconds. His cousin Riya cycles 600 m in 2 minutes. Riya went much further, but she also took much longer. How can we fairly compare who was faster?
+</Hook>
+
+<PredictFirst
+  question="Adam: 100 m in 20 s. Riya: 600 m in 120 s. Who is faster?"
+  options={["Adam", "Riya", "They have the same speed", "Can't tell"]}
+  answer={2}
+>
+Work out the **distance covered each second**: Adam 100 ÷ 20 = **5 m/s**; Riya 600 ÷ 120 = **5 m/s**. The same speed! Comparing distance alone, or time alone, can fool you.
+</PredictFirst>
+
+<Stage kind="explain" title="Speed" />
+
+<Formula tex="\text{speed} = \frac{\text{distance}}{\text{time}}" caption="Units: metres per second (m/s) or kilometres per hour (km/h)" />
+
+<ConceptCard title="Rearranging the formula" emoji="🔺">
+- **distance = speed × time**
+- **time = distance ÷ speed**
+
+Tip: cover the quantity you want in the triangle **d / (s × t)** and the rest shows the calculation.
+</ConceptCard>
+
+<Formula tex="1\ \text{m/s} = 3.6\ \text{km/h} \qquad (\times 3.6 \text{ to go from m/s to km/h}; \ \div 3.6 \text{ to go back})" />
+
+<Stage kind="try" title="Race Track" />
+
+<Lab id="race-track" />
+
+<Compare
+  columns={[
+    { title: "Uniform motion", emoji: "➡️", points: ["Covers EQUAL distances in equal times", "Speed stays the same", "e.g. a train cruising steadily on a straight track"] },
+    { title: "Non-uniform motion", emoji: "🔀", points: ["Covers UNEQUAL distances in equal times", "Speed changes: speeding up, slowing down, stopping", "e.g. a bus in city traffic"] }
+  ]}
+/>
+
+<ConceptCard title="Average speed" emoji="📊">
+Most real journeys are non-uniform. **Average speed = total distance ÷ total time.**
+
+Example: a bus travels 150 km from Bengaluru to Mysuru in 3 hours (with traffic and stops). Average speed = 150 ÷ 3 = **50 km/h**, even though it sometimes went 80 km/h and sometimes stood still.
+</ConceptCard>
+
+<MythFact myth="Average speed is the average of the speeds.">
+If you go 60 km/h for 1 hour, then 20 km/h for 3 hours, your average isn't (60 + 20) ÷ 2 = 40 km/h. It's total distance ÷ total time = (60 + 60) ÷ 4 = **30 km/h**, because you spent longer going slowly.
+</MythFact>
+
+<RealLife title="Speedometer and odometer">
+A vehicle's **speedometer** shows its speed at that instant (in km/h). The **odometer** shows the total distance it has travelled (in km). Next time you're in a car or auto, check both!
+</RealLife>
+
+<Stage kind="apply" title="Road safety" />
+
+<Inquiry criterion="D" title="Speed limits and safety">
+Many Indian cities set speed limits of 40–50 km/h, while expressways allow up to 100–120 km/h.
+
+1. Convert 50 km/h into m/s. How many metres does a car travel in the 1 second it takes a driver to react?
+2. Why do you think speed limits near schools are lower (often 25–30 km/h)?
+3. Should speed limits be lowered to reduce accidents, even if journeys take longer? Give arguments for both sides.
+</Inquiry>
+
+<CbseCorner source="Class 7 Curiosity Ch 8">
+- **Speed = distance ÷ time**; SI unit **m/s**; km/h is also common.
+- **Uniform vs non-uniform motion**; average speed = total distance ÷ total time.
+- Speedometer and odometer are mentioned in NCERT.
+</CbseCorner>
+
+<Reflect id="phys-motion-speed" prompt="The Vande Bharat trains can reach 160 km/h. Is faster travel always better? Think about safety, cost, energy use and the environment." />

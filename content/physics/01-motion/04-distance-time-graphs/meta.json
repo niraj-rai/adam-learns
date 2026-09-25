@@ -1,0 +1,32 @@
+{
+  "id": "distance-time-graphs",
+  "number": "1.4",
+  "title": "Distance–Time Graphs",
+  "summary": "Turn a journey into a picture: steep means fast, flat means stopped, and the slope is the speed.",
+  "emoji": "📈",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Velocity–time graphs follow in MYP 4" },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 8: Measurement of Time and Motion (distance–time graphs)", "verified": false },
+      { "class": 9, "chapter": "Motion: graphical representation of motion", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C"],
+  "objectives": [
+    "I can plot a distance–time graph from data.",
+    "I can describe a journey from its distance–time graph (moving, stopped, returning, faster or slower).",
+    "I can calculate speed from the slope (gradient) of a distance–time graph."
+  ],
+  "misconceptions": [
+    "A distance–time graph is a picture of the path (a hill on the graph means going uphill).",
+    "A flat line means moving at a constant speed (it means stopped).",
+    "A steeper line means a longer journey (it means faster)."
+  ],
+  "prerequisites": ["physics/motion/speed"],
+  "labs": ["graph-walker"],
+  "keyTerms": ["distance–time graph", "slope", "gradient", "horizontal line", "axis", "plot"],
+  "estMinutes": 25
+}

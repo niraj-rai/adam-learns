@@ -1,0 +1,124 @@
+{
+  "topicId": "measurement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "What is the SI unit of length?",
+      "options": ["Centimetre", "Metre", "Kilometre", "Handspan"],
+      "answer": 1,
+      "explain": "The metre (m) is the SI unit of length."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why are handspans not good units for measuring?",
+      "options": ["They are too long", "They are different for different people", "They are too small", "Handspans can only measure tables"],
+      "answer": 1,
+      "explain": "Body parts vary in size from person to person, so results don't agree."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Convert 2.5 m into centimetres.",
+      "answer": 250,
+      "tolerance": 0,
+      "unit": "cm",
+      "explain": "1 m = 100 cm, so 2.5 × 100 = 250 cm."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "Convert 3.2 km into metres.",
+      "answer": 3200,
+      "tolerance": 0,
+      "unit": "m",
+      "explain": "1 km = 1000 m, so 3.2 × 1000 = 3200 m."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "A broken ruler is used. The pencil starts at the 2.0 cm mark and ends at the 16.5 cm mark. How long is the pencil?",
+      "answer": 14.5,
+      "tolerance": 0.01,
+      "unit": "cm",
+      "hint": "Subtract the starting mark from the ending mark.",
+      "explain": "16.5 − 2.0 = 14.5 cm."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "To avoid parallax error, where should your eye be when reading a scale?",
+      "options": ["To the left of the mark", "Directly above the mark", "To the right of the mark", "It doesn't matter"],
+      "answer": 1,
+      "explain": "Looking straight down (perpendicular to the scale) avoids parallax error."
+    },
+    {
+      "id": "q7",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Order these units from SMALLEST to LARGEST.",
+      "steps": ["millimetre", "centimetre", "metre", "kilometre"],
+      "explain": "mm < cm < m < km."
+    },
+    {
+      "id": "q8",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Put the steps in order to measure a curved line on a map.",
+      "steps": [
+        "Lay a thread carefully along the curved line",
+        "Mark the thread where the line ends",
+        "Straighten the thread along a ruler",
+        "Read the length between the start and the mark"
+      ],
+      "explain": "A thread turns a curve into a straight length you can measure."
+    },
+    {
+      "id": "q9",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each measurement to the most suitable unit.",
+      "pairs": [
+        { "left": "Thickness of a coin", "right": "millimetres" },
+        { "left": "Length of a notebook", "right": "centimetres" },
+        { "left": "Height of a classroom", "right": "metres" },
+        { "left": "Distance from Bengaluru to Mysuru", "right": "kilometres" }
+      ],
+      "explain": "Choose a unit that gives a sensible-sized number."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Explain why you should measure a length several times and take the average.",
+      "modelAnswer": "Every measurement can have small random errors, for example from placing the ruler slightly differently or reading the scale. Repeating the measurement and averaging reduces the effect of these errors, so the result is more reliable.",
+      "rubric": [
+        "Measurements can have small (random) errors",
+        "Averaging reduces the effect of errors",
+        "The result becomes more reliable/accurate"
+      ],
+      "explain": "Repeating and averaging is a core scientific skill (IB Criterion B)."
+    }
+  ]
+}

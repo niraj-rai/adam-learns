@@ -1,5 +1,5 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
-import { getTopicByKey } from '@/content/loader'
+import { getSubjects, getTopicByKey } from '@/content/loader'
 import { LABS } from '@/labs/registry'
 import { useProgress } from '@/stores/progress'
 
@@ -13,8 +13,11 @@ function LabsPage() {
         <h1 className="font-heading text-4xl font-bold">🧪 Lab Sandbox</h1>
         <p className="mt-1 text-muted-foreground">Free play: every interactive lab in one place. Explore, experiment, break things (safely)!</p>
       </header>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {LABS.map((l) => (
+      {getSubjects().map((s) => (
+        <section key={s.id} data-subject={s.id}>
+          <h2 className="font-heading text-2xl font-semibold">{s.icon} {s.title} labs</h2>
+          <div className="mt-3 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {LABS.filter((l) => l.subject === s.id).map((l) => (
           <Link key={l.id} to="/labs/$labId" params={{ labId: l.id }} className="group rounded-2xl border-2 bg-card p-5 transition hover:-translate-y-0.5 hover:border-chem hover:shadow-md">
             <div className="flex items-start justify-between">
               <span className="text-5xl">{l.emoji}</span>
@@ -25,7 +28,9 @@ function LabsPage() {
             <p className="mt-3 text-xs text-muted-foreground">Used in: {l.topics.map((k) => getTopicByKey(k)?.title).filter(Boolean).join(', ')}</p>
           </Link>
         ))}
-      </div>
+          </div>
+        </section>
+      ))}
     </div>
   )
 }

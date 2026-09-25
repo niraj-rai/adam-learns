@@ -1,4 +1,5 @@
-import { FlaskConical, Info } from 'lucide-react'
+import { Atom, FlaskConical, Info, Leaf, Sigma } from 'lucide-react'
+import { getLab } from '../registry'
 import { useEffect, useState, type ReactNode } from 'react'
 import { cn } from '@/lib/utils'
 import { useProgress } from '@/stores/progress'
@@ -30,10 +31,11 @@ export function LabFrame({ labId, title, subtitle, howTo, children, className }:
         className,
       )}
       aria-label={`${title} lab`}
+      data-subject={getLab(labId)?.subject}
     >
       <header className="flex items-center gap-3 border-b bg-chem-soft px-4 py-3">
         <div className="grid size-9 place-items-center rounded-xl bg-chem text-white">
-          <FlaskConical className="size-5" />
+          <SubjectIcon subject={getLab(labId)?.subject} />
         </div>
         <div className="min-w-0 flex-1">
           <p className="text-xs font-semibold uppercase tracking-wide text-chem">Interactive lab</p>
@@ -64,4 +66,9 @@ export function Readout({ label, value, className }: { label: string; value: Rea
       <p className="font-heading text-lg font-semibold tabular-nums">{value}</p>
     </div>
   )
+}
+
+function SubjectIcon({ subject }: { subject?: string }) {
+  const Icon = subject === 'physics' ? Atom : subject === 'biology' ? Leaf : subject === 'mathematics' ? Sigma : FlaskConical
+  return <Icon className="size-5" />
 }

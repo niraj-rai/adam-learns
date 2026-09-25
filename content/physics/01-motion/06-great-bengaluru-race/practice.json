@@ -1,0 +1,103 @@
+{
+  "topicId": "great-bengaluru-race",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "The auto travels 20 km in 45 minutes. What is its average speed in km/h?",
+      "answer": 26.7,
+      "tolerance": 0.2,
+      "unit": "km/h",
+      "hint": "45 min = 0.75 h.",
+      "explain": "20 ÷ 0.75 ≈ 26.7 km/h."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "The car covers 14 km in 20 minutes after the traffic jam clears. What is its speed in km/h during this stage?",
+      "answer": 42,
+      "tolerance": 0,
+      "unit": "km/h",
+      "explain": "20 min = 1/3 h; 14 ÷ (1/3) = 42 km/h."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Two lines on a distance–time graph cross at (30 min, 12 km). What does this mean?",
+      "options": ["Both travellers stopped", "They were at the same place at the same time", "They had the same speed all the way", "One went backwards"],
+      "answer": 1,
+      "explain": "Same distance at the same time = side by side. After this point, one overtakes the other."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "The car had the highest top speed but arrived after the metro. Why?",
+      "options": [
+        "The car went further",
+        "The car spent 20 minutes stopped in traffic, which lowered its average speed",
+        "The metro was faster at every moment",
+        "The graph is wrong"
+      ],
+      "answer": 1,
+      "explain": "Average speed includes the time spent stopped."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "What does each part of a line show?",
+      "bins": ["Moving", "Stopped"],
+      "items": [
+        { "label": "Metro line flat for 1 minute at 4 km", "bin": 1 },
+        { "label": "Cyclist line: steady slope", "bin": 0 },
+        { "label": "Car line flat from 10 to 30 min", "bin": 1 },
+        { "label": "Auto line rising from 25 to 45 min", "bin": 0 }
+      ],
+      "explain": "Flat = stopped; sloping = moving."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "The cyclist rides at a steady 0.36 km per minute. How many minutes does the 20 km trip take? (Round to one decimal place.)",
+      "answer": 55.6,
+      "tolerance": 0.1,
+      "unit": "minutes",
+      "explain": "20 ÷ 0.36 ≈ 55.6 minutes."
+    },
+    {
+      "id": "q7",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Besides speed, which factors matter when choosing how to travel? Choose all that apply.",
+      "options": ["Cost", "Pollution", "Safety", "Comfort", "The colour of the vehicle"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Real decisions weigh many factors, not just speed."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Using the race, explain one way that more people using the metro could help everyone in Bengaluru, including people who still drive.",
+      "modelAnswer": "If more people take the metro, there are fewer cars and autos on the road, so traffic jams are shorter. Drivers then spend less time stopped, which raises their average speed, and there is less pollution for everyone.",
+      "rubric": [
+        "Fewer vehicles on roads / less traffic",
+        "Less time stuck in jams → higher average speed for drivers",
+        "A wider benefit (e.g. less pollution, less fuel)"
+      ],
+      "explain": "Physics ideas like average speed help explain city-wide effects."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "motion",
+  "number": 1,
+  "title": "Measurement & Motion",
+  "summary": "How do we measure the world, and describe how things move? From handspans to metres, from swings to speeding trains, this unit builds the tools of physics: measurement, speed, graphs and time.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": ["Movement", "Evidence", "Models"],
+    "globalContext": "Orientation in space and time",
+    "statementOfInquiry": "Accurate measurement and clear representations such as graphs help us describe, compare and predict motion."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "Why do we need standard units?",
+      "What are the different types of motion?",
+      "How is speed calculated?"
+    ],
+    "conceptual": [
+      "How does a distance–time graph tell the story of a journey?",
+      "How can a swinging pendulum be used to measure time?"
+    ],
+    "debatable": [
+      "Should India lower speed limits on highways to improve safety?",
+      "Is faster travel always better?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 6 (Curiosity) Ch 5: Measurement of Length and Motion",
+    "Class 7 (Curiosity) Ch 8: Measurement of Time and Motion",
+    "Class 8 (Curiosity) Ch 11: Keeping Time with the Skies",
+    "Class 9: Motion (distance–time graphs; check against the current NCERT edition)"
+  ]
+}

@@ -4,7 +4,7 @@ import { Suspense, lazy, useEffect, useMemo } from 'react'
 import { BoardTags, ComplexityStars } from '@/components/board/BoardTags'
 import { lessonComponents } from '@/components/lesson'
 import { Button } from '@/components/ui/button'
-import { getNextTopic, getPrevTopic, getTopic, getTopicByKey, getUnit } from '@/content/loader'
+import { getNextTopic, getPrevTopic, getSubject, getTopic, getTopicByKey, getUnit } from '@/content/loader'
 import { getLab } from '@/labs/registry'
 import { missingPrereqs } from '@/lib/status'
 import { useProgress } from '@/stores/progress'
@@ -49,7 +49,7 @@ function LessonPage() {
       <article className="min-w-0">
         <nav className="text-sm text-muted-foreground">
           <Link to="/$subject" params={{ subject: topic.subjectId }} className="hover:underline">
-            Chemistry
+            {getSubject(topic.subjectId)?.title}
           </Link>{' '}
           /{' '}
           <Link to="/$subject/$unit" params={{ subject: topic.subjectId, unit: topic.unitId }} className="hover:underline">

@@ -1,0 +1,117 @@
+{
+  "topicId": "time-and-pendulums",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "The time taken by a pendulum to complete one oscillation is called its…",
+      "options": ["speed", "time period", "frequency of sound", "amplitude"],
+      "answer": 1,
+      "explain": "Time period = time for one complete oscillation."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "A pendulum completes 10 oscillations in 18 seconds. What is its time period?",
+      "answer": 1.8,
+      "tolerance": 0.01,
+      "unit": "s",
+      "explain": "18 ÷ 10 = 1.8 s."
+    },
+    {
+      "id": "q3",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "From the Pendulum Lab, which changes affect the time period? Choose all that apply.",
+      "options": ["Making the string longer", "Using a heavier bob", "Pulling it back further (small angles)", "Making the string shorter"],
+      "answer": [0, 3],
+      "explain": "Only the length matters. Mass has no effect, and at small angles the release angle hardly matters."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Why is it better to time 10 oscillations rather than 1?",
+      "options": [
+        "It is more fun",
+        "The error from starting and stopping the stopwatch is shared over 10 swings, so it's smaller per swing",
+        "The pendulum swings faster later",
+        "One swing can't be seen"
+      ],
+      "answer": 1,
+      "explain": "Your reaction time error (say 0.2 s) becomes only 0.02 s per swing when divided by 10."
+    },
+    {
+      "id": "q5",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "In an investigation of pendulum length vs time period, match each variable to its type.",
+      "pairs": [
+        { "left": "Length of string", "right": "Independent variable" },
+        { "left": "Time period", "right": "Dependent variable" },
+        { "left": "Mass of bob", "right": "Controlled variable" }
+      ],
+      "explain": "Change the length, measure the period, keep the mass (and angle) the same."
+    },
+    {
+      "id": "q6",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each timekeeping method to how it works.",
+      "pairs": [
+        { "left": "Sundial", "right": "Position of the Sun's shadow" },
+        { "left": "Ghati (water clock)", "right": "A bowl sinking in water in a fixed time" },
+        { "left": "Pendulum clock", "right": "Regular swinging of a pendulum" },
+        { "left": "Atomic clock", "right": "Vibrations of atoms" }
+      ],
+      "explain": "Every clock uses something that repeats regularly."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A pendulum clock is running slow (its period is too long). What should you do?",
+      "options": ["Make the pendulum shorter", "Make the pendulum longer", "Use a heavier bob", "Swing it harder"],
+      "answer": 0,
+      "explain": "A shorter pendulum has a shorter period, so it ticks faster."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Complete the sentence.",
+      "text": "The SI unit of time is the ___. The time period of a simple pendulum depends on its ___.",
+      "blanks": [["second", "seconds"], ["length"]],
+      "wordBank": ["second", "minute", "length", "mass"],
+      "explain": "Second; length."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Describe a fair test to check whether the mass of the bob affects the time period of a pendulum.",
+      "modelAnswer": "Use the same length of string and the same release angle each time. Hang bobs of different masses (e.g. 50 g, 100 g, 150 g). For each, time 10 oscillations, repeat 3 times and calculate the average time period. Compare the periods: if they are the same, mass does not affect the time period.",
+      "rubric": [
+        "Changed only the mass (independent variable)",
+        "Kept length and angle the same (controlled)",
+        "Timed 10 oscillations and/or repeated for reliability",
+        "Explained how to draw a conclusion"
+      ],
+      "explain": "A fair test changes one variable and controls the rest."
+    }
+  ]
+}

@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 import remarkGfm from 'remark-gfm'
 import { defineConfig } from 'vite'
 
-const contentDir = path.resolve(__dirname, '../content')
+const contentDir = path.resolve(import.meta.dirname, '../content')
 
 export default defineConfig({
   // GitHub Pages serves the site under /<repo-name>/; the deploy workflow sets BASE_PATH
@@ -28,9 +28,9 @@ export default defineConfig({
     // content/*.mdx lives outside the app folder, so force these to resolve from app/node_modules
     dedupe: ['react', 'react-dom'],
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      '@': path.resolve(import.meta.dirname, './src'),
       '@content': contentDir,
     },
   },
-  server: { fs: { allow: [path.resolve(__dirname, '..')] } },
+  server: { fs: { allow: [path.resolve(import.meta.dirname, '..')] } },
 })
