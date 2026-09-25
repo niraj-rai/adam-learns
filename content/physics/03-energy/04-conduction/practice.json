@@ -1,0 +1,160 @@
+{
+  "topicId": "conduction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Good conductor or insulator of heat?",
+      "bins": [
+        "Good conductor",
+        "Insulator"
+      ],
+      "items": [
+        {
+          "label": "Copper",
+          "bin": 0
+        },
+        {
+          "label": "Wood",
+          "bin": 1
+        },
+        {
+          "label": "Aluminium",
+          "bin": 0
+        },
+        {
+          "label": "Plastic",
+          "bin": 1
+        },
+        {
+          "label": "Air",
+          "bin": 1
+        },
+        {
+          "label": "Iron",
+          "bin": 0
+        }
+      ],
+      "explain": "Metals conduct heat well; wood, plastic and air are insulators."
+    },
+    {
+      "id": "q2",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Spoon Race, order the spoons from the handle heating FASTEST to SLOWEST.",
+      "steps": [
+        "Silver",
+        "Copper",
+        "Stainless steel",
+        "Glass",
+        "Wood"
+      ],
+      "explain": "Silver and copper are the best conductors; wood is an insulator."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "On a cool morning, a steel bench feels colder than a wooden bench, although both are at the same temperature. Why?",
+      "options": [
+        "Steel is really colder",
+        "Steel conducts heat away from your skin faster",
+        "Wood produces heat",
+        "Steel absorbs cold"
+      ],
+      "answer": 1,
+      "feedback": {
+        "0": "A thermometer would show the same temperature for both!"
+      },
+      "explain": "Your skin loses heat quickly into the steel, so it feels colder."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Why do cooking pans have plastic or wooden handles?",
+      "options": [
+        "For decoration",
+        "Plastic and wood are insulators, so the handle stays cool",
+        "They are cheaper than metal",
+        "They make the pan heat faster"
+      ],
+      "answer": 1,
+      "explain": "Insulating handles protect your hand; the metal base conducts heat to the food."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Wax holds pins at equal distances along a metal rod. The rod is heated at one end. What happens?",
+      "options": [
+        "All pins fall at once",
+        "Pins fall one by one, starting nearest the flame",
+        "Pins fall starting from the far end",
+        "No pins fall"
+      ],
+      "answer": 1,
+      "explain": "Heat is conducted gradually along the rod from the hot end."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan a fair test to compare how well spoons of steel, wood and plastic conduct heat.",
+      "modelAnswer": "Put the spoons into the same cup of hot water at 80 °C at the same time. Stick a bead with a small blob of wax at the same distance from the water on each spoon. Independent variable: the spoon material. Dependent variable: the time for the bead to fall, measured with a stopwatch. Control variables: the same spoon size and shape, the same water temperature and depth, the same amount of wax at the same height. Repeat three times. Safety: handle hot water carefully.",
+      "rubric": [
+        "Independent variable: material",
+        "Dependent variable: time (or temperature) and how measured",
+        "At least two control variables",
+        "Safety or repeats"
+      ],
+      "explain": "Criterion B: plan a fair test with clear variables."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "In conduction, heat passes from particle to particle as they ___. Materials that let heat through easily are called ___.",
+      "blanks": [
+        [
+          "vibrate"
+        ],
+        [
+          "conductors"
+        ]
+      ],
+      "wordBank": [
+        "vibrate",
+        "conductors",
+        "insulators",
+        "melt"
+      ],
+      "explain": "Hot particles vibrate more and pass energy on to their neighbours."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Spoon Race, the copper handle reached 40 °C in about 4 s of lab time, stainless steel in about 23 s, and wood never did. What can you conclude?",
+      "modelAnswer": "Copper is a much better conductor of heat than stainless steel, and wood is an insulator. Heat travelled along the copper spoon about five times faster than along the steel spoon. The results support the idea that metals conduct heat well and wood does not.",
+      "rubric": [
+        "Ranks copper > steel > wood",
+        "Uses the data (times)",
+        "Links the ranking to conductors and insulators"
+      ],
+      "explain": "Criterion C: use data to reach a conclusion."
+    }
+  ]
+}

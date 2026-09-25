@@ -1,0 +1,149 @@
+{
+  "topicId": "measuring-temperature",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "What is the range of a typical clinical thermometer?",
+      "options": [
+        "−10 °C to 110 °C",
+        "35 °C to 42 °C",
+        "0 °C to 100 °C",
+        "20 °C to 50 °C"
+      ],
+      "answer": 1,
+      "explain": "Human body temperatures lie in a narrow range, so clinical thermometers measure only 35–42 °C, very precisely."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Why shouldn't you use a clinical thermometer to measure boiling water?",
+      "options": [
+        "It will read too low",
+        "Its range only goes up to 42 °C, and it could break",
+        "It is not accurate enough",
+        "Water is not allowed near it"
+      ],
+      "answer": 1,
+      "explain": "Above its range the liquid expands too much and the glass may crack."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Convert 40 °C into °F.",
+      "answer": 104,
+      "tolerance": 0,
+      "unit": "°F",
+      "hint": "°F = °C × 9/5 + 32",
+      "explain": "40 × 9/5 + 32 = 72 + 32 = 104 °F: a very hot Delhi afternoon!"
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Convert 300 K into °C (use K = °C + 273).",
+      "answer": 27,
+      "tolerance": 0,
+      "unit": "°C",
+      "explain": "300 − 273 = 27 °C."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A doctor reads a fever of 102.2 °F. What is this in °C?",
+      "answer": 39,
+      "tolerance": 0.05,
+      "unit": "°C",
+      "hint": "°C = (°F − 32) × 5/9",
+      "explain": "(102.2 − 32) × 5/9 = 70.2 × 5/9 = 39 °C."
+    },
+    {
+      "id": "q6",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each temperature to what it describes.",
+      "pairs": [
+        {
+          "left": "0 °C",
+          "right": "Ice melts"
+        },
+        {
+          "left": "37 °C",
+          "right": "Normal body temperature (about)"
+        },
+        {
+          "left": "100 °C",
+          "right": "Water boils at sea level"
+        },
+        {
+          "left": "98.6 °F",
+          "right": "The same as 37 °C"
+        }
+      ],
+      "explain": "These fixed points help you check your readings."
+    },
+    {
+      "id": "q7",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which are correct precautions when using a laboratory thermometer? Choose all that apply.",
+      "options": [
+        "Keep the bulb fully in the liquid, not touching the container",
+        "Keep your eye level with the top of the liquid when reading",
+        "Hold it by the bulb",
+        "Wait until the reading stops changing",
+        "Shake it hard before use"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explain": "Holding the bulb adds your body heat; lab thermometers are not shaken (that's for clinical thermometers)."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why are mercury thermometers being replaced by digital thermometers?",
+      "options": [
+        "Mercury is toxic if the thermometer breaks",
+        "Mercury freezes at room temperature",
+        "Digital thermometers are heavier",
+        "Mercury is too expensive"
+      ],
+      "answer": 0,
+      "explain": "Mercury is poisonous and harms people and the environment when spilled. Digital thermometers are safer."
+    },
+    {
+      "id": "q9",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Order the steps for using a clinical thermometer.",
+      "steps": [
+        "Wash it with antiseptic",
+        "Shake it until the reading is below 35 °C",
+        "Place the bulb under the tongue for about a minute",
+        "Take it out and read it, holding it by the far end",
+        "Wash it again and store it safely"
+      ],
+      "explain": "Hygiene and shaking it down are important with clinical thermometers."
+    }
+  ]
+}

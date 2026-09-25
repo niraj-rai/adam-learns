@@ -1,0 +1,56 @@
+{
+  "id": "measuring-temperature",
+  "number": "3.3",
+  "title": "Measuring Temperature",
+  "summary": "Clinical, laboratory and digital thermometers, reading scales carefully, and the Celsius, Fahrenheit and kelvin scales.",
+  "emoji": "🌡️",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 1,
+      "note": "Absolute zero is explored in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Curiosity Ch 7: Temperature and its Measurement",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can choose the right thermometer for a job and explain why.",
+    "I can read a thermometer scale accurately, with my eye level with the liquid.",
+    "I can convert temperatures between °C, °F and K."
+  ],
+  "misconceptions": [
+    "A clinical thermometer can measure any temperature.",
+    "Touch is a reliable way to measure temperature.",
+    "0 °C means there is no heat at all."
+  ],
+  "prerequisites": [
+    "physics/energy/heat-and-temperature",
+    "physics/motion/measurement"
+  ],
+  "labs": [
+    "thermometer-lab"
+  ],
+  "keyTerms": [
+    "thermometer",
+    "clinical thermometer",
+    "laboratory thermometer",
+    "digital thermometer",
+    "Celsius",
+    "Fahrenheit",
+    "kelvin",
+    "kink"
+  ],
+  "estMinutes": 20
+}

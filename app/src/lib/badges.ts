@@ -21,6 +21,8 @@ export type BadgeId =
   | 'race-analyst'
   | 'unit-forces'
   | 'force-fixer'
+  | 'unit-energy'
+  | 'cool-house-architect'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -46,5 +48,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'race-analyst': { title: 'Race Analyst', emoji: '🏁', description: 'Read the Great Bengaluru Race graph like a scientist (Boss Challenge)' },
   'unit-forces': { title: 'Force Master', emoji: '💪', description: 'Mastered every core topic in Physics Unit 2: Forces & Pressure' },
   'force-fixer': { title: 'Force Fixer', emoji: '🛠️', description: 'Solved eight real-world force and pressure problems (Boss Challenge)' },
+  'unit-energy': { title: 'Heat Wave', emoji: '🔥', description: 'Mastered every core topic in Physics Unit 3: Energy, Heat & Temperature' },
+  'cool-house-architect': { title: 'Cool House Architect', emoji: '🏡', description: 'Designed comfortable homes for Chennai summers and Delhi winters (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

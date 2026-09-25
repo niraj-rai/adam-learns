@@ -32,10 +32,20 @@
 | 2.7 | Winds, storms and cyclones | MYP 3 | Cur-8 Ch 6 ✅ | ★★★ | **Cyclone Lab**: sea and land breezes, grow a storm using IMD categories |
 | 2.8 | Boss: Force Fixers | MYP 3 | Cur-8 Ch 5, Ch 6 ✅ | ★★★ | Fix 8 real-world problems (3 lives) |
 
-### Unit 3: Energy, Heat & Temperature
-| Topics | IB | CBSE | Signature labs |
-|---|---|---|---|
-| Forms and transformations of energy, temperature vs heat, thermometers, conduction/convection/radiation, sea and land breezes | MYP 1–3 | Cur-6 (Temperature) ⚠️, Cur-7 (Heat Transfer in Nature) ⚠️ | Energy Chain, Heat Flow (spoon in chai), Sea Breeze sim |
+### Unit 3: Energy, Heat & Temperature ✅ built
+*IB Key Concept:* **Change** · *Related:* Energy, Transfer, Environment · *Global Context:* Globalization and sustainability
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 3.1 | Forms of energy, transformations, conservation, efficiency | MYP 2 | Class 9 Work and Energy ⚠️ | ★★ | **Energy Chain**: 5 source-to-goal device chains, with efficiency |
+| 3.2 | Heat vs temperature, thermal equilibrium | MYP 2 | Cur-6 Ch 7 ✅, Cur-7 Ch 7 ✅ | ★★ | **Heat Mixer**: mix hot and cold water; cup vs bucket melting ice |
+| 3.3 | Measuring temperature: thermometers, °C/°F/K | MYP 1 | Cur-6 Ch 7 ✅ | ★ | **Thermometer Lab**: pick the right thermometer, read scales, convert |
+| 3.4 | Conduction: conductors and insulators | MYP 2 | Cur-7 Ch 7 ✅ | ★★ | **Spoon Race**: 7 materials in hot chai, wax-and-pin demo |
+| 3.5 | Convection and radiation | MYP 2 | Cur-7 Ch 7 ✅ | ★★★ | **Convection and Radiation**: dye currents in a pot; black/white/shiny cans |
+| 3.6 | Keeping hot and cold: insulation, flask, matka | MYP 3 | Cur-7 Ch 7 ✅ | ★★ | **Flask Lab**: cooling curves; matka evaporative cooling |
+| 3.7 | Boss: Cool House | MYP 3 | Cur-7 Ch 7 ✅ | ★★★ | Design homes for a Chennai summer (with and without a budget) and a Delhi winter |
+
+Sea and land breezes are taught in Unit 2 (Cyclone Lab) and referenced from 3.5.
 
 ### Unit 4: Light
 | Topics | IB | CBSE | Signature labs |

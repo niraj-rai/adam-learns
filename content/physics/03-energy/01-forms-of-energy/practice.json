@@ -1,0 +1,183 @@
+{
+  "topicId": "forms-of-energy",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each object to the main form of energy it stores or carries.",
+      "pairs": [
+        {
+          "left": "A charged phone battery",
+          "right": "Chemical"
+        },
+        {
+          "left": "A speeding train",
+          "right": "Kinetic"
+        },
+        {
+          "left": "Water held behind a dam",
+          "right": "Gravitational potential"
+        },
+        {
+          "left": "A stretched catapult (gulel)",
+          "right": "Elastic potential"
+        },
+        {
+          "left": "Hot chai",
+          "right": "Thermal"
+        }
+      ],
+      "explain": "Energy is stored in many ways: chemical bonds, motion, height, stretching and heat."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the main energy change in a solar panel?",
+      "options": [
+        "Electrical → light",
+        "Light → electrical",
+        "Chemical → electrical",
+        "Kinetic → electrical"
+      ],
+      "answer": 1,
+      "explain": "Solar panels turn light energy from the Sun into electrical energy."
+    },
+    {
+      "id": "q3",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Put this hydroelectric energy chain in order.",
+      "steps": [
+        "Gravitational potential energy of water behind the dam",
+        "Kinetic energy of falling water",
+        "Kinetic energy of the spinning turbine",
+        "Electrical energy from the generator",
+        "Light energy from a street lamp"
+      ],
+      "explain": "Each step changes energy from one form into the next."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A torch changes 10 J of chemical energy into 2 J of light. What happened to the other 8 J?",
+      "options": [
+        "It was destroyed",
+        "It was changed mostly into heat that spread into the surroundings",
+        "It stayed in the battery",
+        "It turned into mass"
+      ],
+      "answer": 1,
+      "feedback": {
+        "0": "Energy can never be destroyed! Where could it have gone?"
+      },
+      "explain": "Energy is conserved. The ‘wasted’ energy spreads out as heat."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "An LED bulb uses 100 J of electrical energy and gives out 40 J of light. What percentage of the energy is useful (its efficiency)?",
+      "answer": 40,
+      "tolerance": 0,
+      "unit": "%",
+      "hint": "Efficiency = useful energy out ÷ total energy in × 100",
+      "explain": "40 ÷ 100 × 100 = 40%. The other 60 J becomes heat."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "An old filament bulb is only 5% efficient. How many joules of light does it give from 200 J of electrical energy?",
+      "answer": 10,
+      "tolerance": 0,
+      "unit": "J",
+      "explain": "5% of 200 J = 10 J. The remaining 190 J becomes heat, which is why old bulbs got so hot!"
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Is the main useful output of each device light, sound or motion (kinetic)?",
+      "bins": [
+        "Light",
+        "Sound",
+        "Kinetic"
+      ],
+      "items": [
+        {
+          "label": "LED bulb",
+          "bin": 0
+        },
+        {
+          "label": "Speaker",
+          "bin": 1
+        },
+        {
+          "label": "Ceiling fan",
+          "bin": 2
+        },
+        {
+          "label": "Mixer grinder",
+          "bin": 2
+        },
+        {
+          "label": "Temple bell",
+          "bin": 1
+        },
+        {
+          "label": "Phone screen",
+          "bin": 0
+        }
+      ],
+      "explain": "Each device is designed to produce one useful form of energy."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the law.",
+      "text": "Energy cannot be created or ___; it can only be changed from one ___ to another.",
+      "blanks": [
+        [
+          "destroyed"
+        ],
+        [
+          "form"
+        ]
+      ],
+      "wordBank": [
+        "destroyed",
+        "form",
+        "used",
+        "speed"
+      ],
+      "explain": "This is the law of conservation of energy."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Many Indian homes switched from filament bulbs to LED bulbs, helped by the government's UJALA scheme. Explain, using ideas about energy, why this helps families and the environment.",
+      "modelAnswer": "LEDs change a much bigger share of electrical energy into light, and waste far less as heat. So they need less electrical energy for the same brightness, which lowers electricity bills. Less electricity means power stations burn less coal, so less carbon dioxide and air pollution. LEDs also last longer, creating less waste.",
+      "rubric": [
+        "LEDs are more efficient (less energy wasted as heat)",
+        "Lower electricity use and bills",
+        "Less fuel burned or pollution at power stations",
+        "One extra point, e.g. longer life"
+      ],
+      "explain": "Criterion D: link a scientific idea (efficiency) to its impact on people and the environment."
+    }
+  ]
+}

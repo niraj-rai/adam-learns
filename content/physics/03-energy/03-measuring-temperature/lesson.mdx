@@ -1,0 +1,64 @@
+<Stage kind="wonder" title="Can you trust your hands?" />
+
+<Hook emoji="🖐️">
+Put one hand in cold water and the other in warm water for a minute. Then put both hands in a bowl of lukewarm water. One hand says "warm!", the other says "cold!" Same water, two answers. That's why scientists use **thermometers**.
+</Hook>
+
+<PredictFirst
+  question="Can you use a clinical (fever) thermometer to check if water is boiling?"
+  options={["Yes, it works for any temperature", "No, its range only goes up to about 42 °C", "Only if you shake it first", "Only for tap water"]}
+  answer={1}
+>
+A clinical thermometer is designed for the human body: **35 °C to 42 °C**. Put it in boiling water and it could crack. For liquids in the lab, use a **laboratory thermometer** (about −10 °C to 110 °C).
+</PredictFirst>
+
+<Stage kind="explain" title="Thermometers" />
+
+<Compare
+  columns={[
+    { title: "Clinical thermometer", emoji: "🤒", points: ["Range about 35–42 °C", "Very precise: marked in 0.1 °C", "A kink stops the liquid falling back, so you can read it after taking it out", "Shake it down before use"] },
+    { title: "Laboratory thermometer", emoji: "🧪", points: ["Range about −10 to 110 °C", "No kink: read it while it's in the liquid", "Keep the bulb fully in the liquid, not touching the container", "Don't hold it by the bulb"] }
+  ]}
+/>
+
+<ConceptCard title="Mercury is being phased out" emoji="⚠️">
+Older thermometers contained **mercury**, which is toxic if the glass breaks. Hospitals and homes are switching to **digital thermometers** and alcohol-filled thermometers, which are safer.
+</ConceptCard>
+
+<Stage kind="try" title="Thermometer Lab" />
+
+<Lab id="thermometer-lab" />
+
+<ConceptCard title="Three temperature scales" emoji="🔁">
+- **Celsius (°C)**: water freezes at 0 °C and boils at 100 °C.
+- **Fahrenheit (°F)**: water freezes at 32 °F and boils at 212 °F. Still used for fever in many Indian homes: normal is about 98.6 °F.
+- **Kelvin (K)**: the SI unit. 0 K is **absolute zero**, the coldest possible temperature.
+</ConceptCard>
+
+<Formula tex="{}^\circ\text{F} = {}^\circ\text{C} \times \tfrac{9}{5} + 32 \qquad \text{K} = {}^\circ\text{C} + 273" />
+
+<StepReveal>
+<div>
+**Worked example:** Delhi reaches 45 °C in May. What is this in °F and K?
+</div>
+<div>
+°F = 45 × 9/5 + 32 = 81 + 32 = **113 °F**
+</div>
+<div>
+K = 45 + 273 = **318 K**
+</div>
+</StepReveal>
+
+<Stage kind="apply" title="Calculate" />
+
+<Inquiry criterion="C" title="Weather watch">
+Find today's maximum temperature for Bengaluru, Delhi, Chennai and one city in another country. Convert each into °F and K, and present them in a table. Which city is hottest?
+</Inquiry>
+
+<CbseCorner source="Class 6 Curiosity Ch 7">
+- Clinical thermometer range **35–42 °C**; laboratory thermometer range about **−10 to 110 °C**.
+- Precautions: read at eye level, keep the bulb in the substance, don't hold the bulb.
+- Normal human body temperature is about **37 °C**; digital thermometers are replacing mercury ones.
+</CbseCorner>
+
+<Reflect id="phys-energy-measuring" prompt="Why do you think doctors need a thermometer that reads to 0.1 °C, while a chef or a weather station might not?" />

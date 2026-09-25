@@ -1,0 +1,60 @@
+{
+  "id": "heat-and-temperature",
+  "number": "3.2",
+  "title": "Heat and Temperature",
+  "summary": "Temperature measures how hot something is; heat is energy that flows from hotter to colder objects.",
+  "emoji": "🔥",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Specific heat capacity follows in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Curiosity Ch 7: Temperature and its Measurement",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 7: Heat Transfer in Nature",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can distinguish between heat (energy transferred) and temperature (how hot something is).",
+    "I can explain that heat flows from a hotter object to a colder one until they reach the same temperature.",
+    "I can predict the final temperature when hot and cold water are mixed."
+  ],
+  "misconceptions": [
+    "Heat and temperature are the same thing.",
+    "Cold flows into warm objects (it's heat that flows out).",
+    "Mixing 80 °C water with 20 °C water gives 100 °C."
+  ],
+  "prerequisites": [
+    "physics/energy/forms-of-energy",
+    "chemistry/matter/states-of-matter"
+  ],
+  "labs": [
+    "heat-mixer"
+  ],
+  "keyTerms": [
+    "heat",
+    "temperature",
+    "thermal energy",
+    "thermal equilibrium",
+    "hot",
+    "cold"
+  ],
+  "estMinutes": 20
+}

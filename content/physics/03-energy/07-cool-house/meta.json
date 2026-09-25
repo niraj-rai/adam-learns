@@ -1,0 +1,51 @@
+{
+  "id": "cool-house",
+  "number": "3.7",
+  "title": "Boss Challenge: Cool House",
+  "summary": "Design homes that stay comfortable in a Chennai summer and a Delhi winter, without air conditioners or heaters.",
+  "emoji": "🏡",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style design task (Criteria A and D)"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 7: Heat Transfer in Nature",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "D"
+  ],
+  "objectives": [
+    "I can apply conduction, convection and radiation to design a comfortable building.",
+    "I can justify design choices and weigh cost against benefit."
+  ],
+  "misconceptions": [
+    "The only way to cool a house is an air conditioner."
+  ],
+  "prerequisites": [
+    "physics/energy/convection-and-radiation",
+    "physics/energy/keeping-hot-and-cold"
+  ],
+  "labs": [
+    "cool-house"
+  ],
+  "keyTerms": [
+    "insulation",
+    "cool roof",
+    "ventilation",
+    "radiation",
+    "convection",
+    "trapped air"
+  ],
+  "estMinutes": 20
+}

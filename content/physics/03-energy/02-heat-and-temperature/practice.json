@@ -1,0 +1,149 @@
+{
+  "topicId": "heat-and-temperature",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Heat always flows…",
+      "options": [
+        "from a colder object to a hotter one",
+        "from a hotter object to a colder one",
+        "from a bigger object to a smaller one",
+        "only through metals"
+      ],
+      "answer": 1,
+      "explain": "Heat flows from hot to cold until both are at the same temperature."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "200 g of water at 70 °C is mixed with 200 g of water at 30 °C. What is the final temperature (ignore heat lost to the air)?",
+      "answer": 50,
+      "tolerance": 0,
+      "unit": "°C",
+      "explain": "Equal amounts end up halfway: (70 + 30) ÷ 2 = 50 °C."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "100 g of water at 80 °C is mixed with 300 g of water at 20 °C. What is the final temperature?",
+      "answer": 35,
+      "tolerance": 0,
+      "unit": "°C",
+      "hint": "(m₁T₁ + m₂T₂) ÷ (m₁ + m₂)",
+      "explain": "(100 × 80 + 300 × 20) ÷ 400 = 14 000 ÷ 400 = 35 °C."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A cup of water at 90 °C and a bucket of water at 40 °C. Which statement is correct?",
+      "options": [
+        "The cup has more heat energy because it's hotter",
+        "The bucket can have more heat energy because it has much more water, even though it's at a lower temperature",
+        "They have the same heat energy",
+        "The bucket has a higher temperature"
+      ],
+      "answer": 1,
+      "explain": "Temperature is how hot; the total thermal energy also depends on how much matter there is."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Is each statement about HEAT or about TEMPERATURE?",
+      "bins": [
+        "Heat",
+        "Temperature"
+      ],
+      "items": [
+        {
+          "label": "Measured in joules (J)",
+          "bin": 0
+        },
+        {
+          "label": "Measured in °C",
+          "bin": 1
+        },
+        {
+          "label": "Energy that flows from hot to cold",
+          "bin": 0
+        },
+        {
+          "label": "Shown by a thermometer",
+          "bin": 1
+        },
+        {
+          "label": "Tells you how hot or cold something is",
+          "bin": 1
+        },
+        {
+          "label": "Depends on the amount of matter as well",
+          "bin": 0
+        }
+      ],
+      "explain": "Heat is energy (J); temperature is a measure of hotness (°C)."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "You hold an ice cube and your hand feels cold. What is really happening?",
+      "options": [
+        "Cold flows from the ice into your hand",
+        "Heat flows from your hand into the ice",
+        "Nothing flows",
+        "The ice gives your hand energy"
+      ],
+      "answer": 1,
+      "feedback": {
+        "0": "There's no such thing as ‘cold’ flowing. Heat leaves your hand."
+      },
+      "explain": "Your hand loses heat to the ice, so it feels cold."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan an experiment to test this prediction: ‘The more hot water you add to 100 g of cold water, the higher the final temperature.’",
+      "modelAnswer": "Start with 100 g of water at 20 °C in an insulated cup each time. Independent variable: the mass of 80 °C water added (50, 100, 150, 200 g). Dependent variable: the final temperature, measured with a laboratory thermometer after stirring. Control variables: the starting temperatures, the same cup, the same stirring time, reading the thermometer the same way. Repeat each mix three times. Plot final temperature against mass of hot water added.",
+      "rubric": [
+        "Independent variable: mass of hot water added",
+        "Dependent variable: final temperature with a thermometer",
+        "At least two control variables",
+        "Repeats and a graph or table"
+      ],
+      "explain": "Criterion B: turn a prediction into a fair, measurable test."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "When two objects reach the same temperature, heat stops flowing. They are in thermal ___.",
+      "blanks": [
+        [
+          "equilibrium"
+        ]
+      ],
+      "wordBank": [
+        "equilibrium",
+        "energy",
+        "motion"
+      ],
+      "explain": "Thermal equilibrium: no net heat flow."
+    }
+  ]
+}

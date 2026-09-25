@@ -1,0 +1,57 @@
+{
+  "id": "forms-of-energy",
+  "number": "3.1",
+  "title": "Forms of Energy",
+  "summary": "Light, chemical, electrical, kinetic, thermal, sound and stored energy, and how devices change one form into another.",
+  "emoji": "⚡",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Energy stores and transfers are formalised in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Work and Energy (forms of energy, conservation)",
+        "verified": false
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can name and give examples of different forms of energy.",
+    "I can describe energy transformations in everyday devices using energy chains.",
+    "I can state that energy is conserved, and explain where 'wasted' energy goes."
+  ],
+  "misconceptions": [
+    "Energy gets used up and disappears.",
+    "Only moving things have energy.",
+    "A device can give out more energy than it takes in."
+  ],
+  "prerequisites": [
+    "physics/forces/gravity-and-weight"
+  ],
+  "labs": [
+    "energy-chain"
+  ],
+  "keyTerms": [
+    "energy",
+    "joule (J)",
+    "kinetic energy",
+    "potential energy",
+    "chemical energy",
+    "thermal energy",
+    "energy transformation",
+    "conservation of energy",
+    "efficiency"
+  ],
+  "estMinutes": 25
+}

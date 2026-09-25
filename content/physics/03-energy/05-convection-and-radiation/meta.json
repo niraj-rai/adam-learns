@@ -1,0 +1,57 @@
+{
+  "id": "convection-and-radiation",
+  "number": "3.5",
+  "title": "Convection and Radiation",
+  "summary": "Heat moves in currents through liquids and gases, and as radiation even through empty space.",
+  "emoji": "🌀",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Electromagnetic radiation studied in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 7: Heat Transfer in Nature",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain convection currents in liquids and gases using density.",
+    "I can explain that radiation transfers heat without a medium.",
+    "I can compare how black, white and shiny surfaces absorb and give out radiation."
+  ],
+  "misconceptions": [
+    "Heat rises (it is hot fluid that rises).",
+    "Radiation needs air to travel.",
+    "Black clothes are always the best choice in hot weather."
+  ],
+  "prerequisites": [
+    "physics/energy/conduction"
+  ],
+  "labs": [
+    "convection-radiation"
+  ],
+  "keyTerms": [
+    "convection",
+    "convection current",
+    "density",
+    "radiation",
+    "absorb",
+    "reflect",
+    "emit",
+    "sea breeze",
+    "land breeze"
+  ],
+  "estMinutes": 25
+}

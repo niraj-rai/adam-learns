@@ -1,0 +1,176 @@
+{
+  "topicId": "convection-and-radiation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Why does warm water rise in a pot heated from below?",
+      "options": [
+        "Warm water is heavier",
+        "Warm water expands, becomes less dense and floats up",
+        "The flame pushes it",
+        "Cold water pulls it up"
+      ],
+      "answer": 1,
+      "explain": "Less dense fluid rises; denser fluid sinks. This makes a convection current."
+    },
+    {
+      "id": "q2",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Order the steps of a convection current in a pot of water.",
+      "steps": [
+        "Water at the bottom is heated",
+        "It expands and becomes less dense",
+        "It rises to the top",
+        "Cooler, denser water sinks at the sides",
+        "The cooler water reaches the bottom and is heated in turn"
+      ],
+      "explain": "The loop keeps repeating as long as the pot is heated."
+    },
+    {
+      "id": "q3",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Conduction, convection or radiation?",
+      "bins": [
+        "Conduction",
+        "Convection",
+        "Radiation"
+      ],
+      "items": [
+        {
+          "label": "A spoon handle getting hot in chai",
+          "bin": 0
+        },
+        {
+          "label": "Sea breeze on a sunny day",
+          "bin": 1
+        },
+        {
+          "label": "Feeling warmth from a campfire across the room",
+          "bin": 2
+        },
+        {
+          "label": "Sunlight warming the Earth",
+          "bin": 2
+        },
+        {
+          "label": "Water circulating in a heated pot",
+          "bin": 1
+        },
+        {
+          "label": "A tawa heating a dosa",
+          "bin": 0
+        }
+      ],
+      "explain": "Conduction: through touching solids. Convection: moving fluids. Radiation: no medium needed."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How does heat from the Sun reach the Earth?",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "All three equally"
+      ],
+      "answer": 2,
+      "explain": "Space is almost empty, so there are no particles for conduction or convection. Radiation needs no medium."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the lamp experiment, which can warmed up fastest?",
+      "options": [
+        "Shiny foil",
+        "White",
+        "Dull black",
+        "All the same"
+      ],
+      "answer": 2,
+      "explain": "Dull black surfaces are the best absorbers of radiation."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "When the lamp was switched off, which can cooled fastest?",
+      "options": [
+        "Shiny foil",
+        "White",
+        "Dull black",
+        "None of them cooled"
+      ],
+      "answer": 2,
+      "explain": "Good absorbers are also good emitters of radiation."
+    },
+    {
+      "id": "q7",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why are the heating coils of an electric geyser placed near the BOTTOM of the tank? Choose all that apply.",
+      "options": [
+        "Hot water rises, setting up convection currents",
+        "The whole tank heats evenly as the water circulates",
+        "Hot water sinks",
+        "Heat can't travel upward"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explain": "Heating from the bottom uses convection to mix the water."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Some Indian cities, such as Ahmedabad and the state of Telangana, promote ‘cool roofs’ painted white or light colours. Explain how cool roofs work and give one advantage and one limitation.",
+      "modelAnswer": "White roofs reflect most of the Sun's radiation instead of absorbing it, so less heat enters the building and indoor temperatures fall. Advantage: cooler homes and less need for fans or air conditioners, saving electricity and protecting people during heatwaves. Limitation: the paint gets dirty and must be cleaned or repainted; in cold places it can make winters colder, and it costs money to apply.",
+      "rubric": [
+        "White surfaces reflect radiation, so less is absorbed",
+        "A valid advantage (comfort, health, electricity)",
+        "A valid limitation (maintenance, cost, winter)"
+      ],
+      "explain": "Criterion D: evaluate a real solution based on radiation."
+    },
+    {
+      "id": "q9",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Convection happens only in liquids and ___. Radiation can travel through a ___, where there are no particles at all.",
+      "blanks": [
+        [
+          "gases"
+        ],
+        [
+          "vacuum"
+        ]
+      ],
+      "wordBank": [
+        "gases",
+        "vacuum",
+        "solids",
+        "metal"
+      ],
+      "explain": "Convection needs particles free to move; radiation doesn't need particles."
+    }
+  ]
+}

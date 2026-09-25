@@ -1,0 +1,139 @@
+{
+  "topicId": "keeping-hot-and-cold",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each part of a vacuum flask to the heat transfer it reduces.",
+      "pairs": [
+        {
+          "left": "Vacuum between the double walls",
+          "right": "Conduction and convection"
+        },
+        {
+          "left": "Silvered (shiny) inner surfaces",
+          "right": "Radiation"
+        },
+        {
+          "left": "Stopper or lid",
+          "right": "Evaporation and convection from the top"
+        },
+        {
+          "left": "Insulating supports",
+          "right": "Conduction through the base"
+        }
+      ],
+      "explain": "A flask blocks all the ways heat can escape."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Why do woollen clothes keep us warm in winter?",
+      "options": [
+        "Wool makes heat",
+        "Wool traps air, which is a poor conductor of heat",
+        "Wool is black",
+        "Wool absorbs cold"
+      ],
+      "answer": 1,
+      "explain": "Air trapped between the wool fibres insulates your body."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How does water in a clay matka stay cooler than the room?",
+      "options": [
+        "Clay is naturally cold",
+        "Water seeps through pores and evaporates from the outside, taking heat away",
+        "The matka reflects all heat",
+        "The water gets heavier"
+      ],
+      "answer": 1,
+      "explain": "Evaporation takes heat from the pot and the water inside."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Flask Lab, which container kept chai above 60 °C for more than two hours?",
+      "options": [
+        "Steel tumbler",
+        "Clay kulhad",
+        "Thermocol cup with a lid",
+        "Vacuum flask"
+      ],
+      "answer": 3,
+      "explain": "Only the vacuum flask blocks conduction, convection and radiation well enough."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Chai at 90 °C cools to 60 °C in 15 minutes in an open steel tumbler. What is the average rate of cooling?",
+      "answer": 2,
+      "tolerance": 0.01,
+      "unit": "°C per minute",
+      "explain": "(90 − 60) ÷ 15 = 30 ÷ 15 = 2 °C per minute."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "On a cooling curve, the line is steepest at the start. What does this tell you?",
+      "options": [
+        "The chai cools fastest when it's hottest",
+        "The chai heats up at the start",
+        "The thermometer is broken",
+        "It cools at a constant rate"
+      ],
+      "answer": 0,
+      "explain": "The bigger the temperature difference from the room, the faster the heat flows out."
+    },
+    {
+      "id": "q7",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which of these use TRAPPED AIR to insulate? Choose all that apply.",
+      "options": [
+        "A quilt (razai)",
+        "Double-glazed windows",
+        "A thermocol ice box",
+        "A copper pot",
+        "A woollen sweater"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explain": "Copper is a conductor; the others trap air."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "A vendor sells chai in clay kulhads instead of plastic cups. Compare the two using ideas about heat and about the environment.",
+      "modelAnswer": "Heat: both are fairly poor conductors, so the chai stays warm for a while. Plastic cups soften, and chemicals can leach into hot chai. Environment: kulhads are made of natural clay and break down back into soil, while plastic cups pollute land and water for hundreds of years. However, making kulhads uses fuel for firing and topsoil. Overall kulhads are usually the more sustainable choice, especially if reused or returned to the soil.",
+      "rubric": [
+        "Compares heat insulation",
+        "Health or safety point about plastic",
+        "Environmental comparison: biodegradable vs plastic waste",
+        "A balanced point (e.g. firing clay uses energy)"
+      ],
+      "explain": "Criterion D: weigh scientific, health and environmental factors."
+    }
+  ]
+}

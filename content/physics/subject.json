@@ -5,13 +5,8 @@
   "color": "phys",
   "icon": "🧲",
   "order": 2,
-  "comingNext": "Unit 3: Energy, Heat & Temperature · Unit 4: Light · Unit 5: Sound · Unit 6: Electricity & Magnetism · Unit 7: Earth & Space",
+  "comingNext": "Unit 4: Light · Unit 5: Sound · Unit 6: Electricity & Magnetism · Unit 7: Earth & Space",
   "planned": [
-    {
-      "unit": "3. Energy, Heat & Temperature",
-      "ib": "MYP 1–3",
-      "cbse": "6, 7"
-    },
     {
       "unit": "4. Light",
       "ib": "MYP 1–3",

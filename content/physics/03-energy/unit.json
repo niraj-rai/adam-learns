@@ -1,0 +1,36 @@
+{
+  "id": "energy",
+  "number": 3,
+  "title": "Energy, Heat & Temperature",
+  "summary": "Energy changes form but is never lost. Heat flows from hot to cold by conduction, convection and radiation, and good design can keep chai hot, water cool and homes comfortable.",
+  "ib": {
+    "keyConcept": "Change",
+    "relatedConcepts": [
+      "Energy",
+      "Transfer",
+      "Environment"
+    ],
+    "globalContext": "Globalization and sustainability",
+    "statementOfInquiry": "Understanding how energy is transformed and how heat is transferred helps us design solutions that use energy more sustainably."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What forms can energy take?",
+      "What is the difference between heat and temperature?",
+      "How do conduction, convection and radiation transfer heat?"
+    ],
+    "conceptual": [
+      "Why does energy seem to 'disappear' when it is actually conserved?",
+      "How can we control the flow of heat?"
+    ],
+    "debatable": [
+      "Should cities make cool roofs compulsory?",
+      "Is air conditioning a solution or a problem in a warming world?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 6 (Curiosity) Ch 7: Temperature and its Measurement",
+    "Class 7 (Curiosity) Ch 7: Heat Transfer in Nature",
+    "Class 9: Work and Energy (forms of energy and conservation; check against the current NCERT edition)"
+  ]
+}

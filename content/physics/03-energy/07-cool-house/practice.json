@@ -1,0 +1,160 @@
+{
+  "topicId": "cool-house",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each design feature to the heat-transfer idea behind it.",
+      "pairs": [
+        {
+          "left": "White-painted roof",
+          "right": "Reflects radiation"
+        },
+        {
+          "left": "Rat-trap bond walls",
+          "right": "Trapped air insulates against conduction"
+        },
+        {
+          "left": "Windows on opposite walls",
+          "right": "Convection carries hot air away"
+        },
+        {
+          "left": "Shade trees",
+          "right": "Block radiation and cool by evaporation"
+        }
+      ],
+      "explain": "Every good design choice controls one kind of heat transfer."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is a tin-sheet roof a poor choice for a hot place?",
+      "options": [
+        "Tin is too heavy",
+        "Thin metal conducts heat quickly into the room",
+        "Tin reflects too much sunlight",
+        "Tin roofs are too expensive"
+      ],
+      "answer": 1,
+      "explain": "Thin metal is a good conductor, so the room gets very hot under it."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sunshades (chajjas) over south-facing windows block the summer sun but let the winter sun in. Why?",
+      "options": [
+        "The Sun is higher in the sky in summer and lower in winter",
+        "The Sun is hotter in winter",
+        "Chajjas melt in summer",
+        "Winter sunlight has no heat"
+      ],
+      "answer": 0,
+      "explain": "The high summer sun is blocked by the overhang; low winter sunlight shines in beneath it."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "For a hot Chennai summer, does each choice make the house COOLER or HOTTER?",
+      "bins": [
+        "Cooler",
+        "Hotter"
+      ],
+      "items": [
+        {
+          "label": "Glass walls",
+          "bin": 1
+        },
+        {
+          "label": "Light-coloured paint",
+          "bin": 0
+        },
+        {
+          "label": "Dark paving around the house",
+          "bin": 1
+        },
+        {
+          "label": "Cross ventilation",
+          "bin": 0
+        },
+        {
+          "label": "Green roof",
+          "bin": 0
+        },
+        {
+          "label": "Tin roof",
+          "bin": 1
+        }
+      ],
+      "explain": "Reflect radiation, insulate and ventilate to stay cool."
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Air conditioners cool homes but use a lot of electricity and push hot air outside. Suggest how Indian cities could stay cooler with less air conditioning. Give at least three ideas and justify each with physics.",
+      "modelAnswer": "1) Cool roofs: white or reflective roofs reflect solar radiation, so buildings absorb less heat. 2) Plant trees and create parks: shade blocks radiation, and evaporation from leaves cools the air. 3) Design buildings with cross ventilation and courtyards, so convection carries hot air out. 4) Use insulating walls such as rat-trap bond or hollow blocks, so less heat is conducted in. These reduce electricity demand and the heat pumped outdoors by air conditioners, helping during heatwaves.",
+      "rubric": [
+        "At least three distinct ideas",
+        "Each is justified with radiation, conduction, convection or evaporation",
+        "Mentions a benefit such as energy use or health"
+      ],
+      "explain": "Criterion D: apply physics to a real sustainability problem."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Why do thick walls help keep a house warm on a winter night AND cool on a summer afternoon?",
+      "options": [
+        "They make heat",
+        "They slow down the flow of heat through them, in either direction",
+        "They reflect all radiation",
+        "They attract cold air"
+      ],
+      "answer": 1,
+      "explain": "Insulation slows heat flow both ways, keeping the inside steadier."
+    },
+    {
+      "id": "q7",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Which are GOOD reasons to use traditional features like clay tiles, courtyards and jaalis (lattice screens) in new buildings? Choose all that apply.",
+      "options": [
+        "They work with local climate",
+        "They reduce the need for electricity",
+        "They use local materials",
+        "They make houses darker than needed at all times",
+        "They let air move while blocking direct sunlight"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explain": "Traditional designs often solved heat problems with physics, not electricity."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A roof change lowers the indoor temperature from 36 °C to 31 °C. By how many degrees did it cool the room?",
+      "answer": 5,
+      "tolerance": 0,
+      "unit": "°C",
+      "explain": "36 − 31 = 5 °C cooler."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+<Stage kind="wonder" title="Where does the energy go?" />
+
+<Hook emoji="🍚">
+You eat idli for breakfast and cycle to school. At school, the ceiling fan spins using electricity from a power station far away, which may be burning coal dug up from the ground. The coal formed from ancient plants... which grew using sunlight! Is it all the same energy, just changing its costume?
+</Hook>
+
+<PredictFirst
+  question="A torch battery gives 10 J of energy, but only 2 J comes out as light. What happened to the other 8 J?"
+  options={["It was destroyed", "It turned into heat", "It stayed in the battery", "It disappeared into the air"]}
+  answer={1}
+>
+Energy is **never destroyed**. The "missing" 8 J became **heat** in the bulb and wires, and spread into the surroundings. Feel a torch after it has been on for a while: it's warm!
+</PredictFirst>
+
+<Stage kind="explain" title="Energy in many forms" />
+
+<ConceptCard title="What is energy?" emoji="⚡">
+<KeyTerm def="The ability to do work or cause change. Measured in joules (J).">Energy</KeyTerm> is what makes things happen: move, heat up, light up, make sound. It is measured in **joules (J)**.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Energy in action", emoji: "🏃", points: ["Kinetic: moving things (a train, the wind)", "Thermal (heat): hot chai, a hot tawa", "Light: sunlight, an LED", "Sound: a temple bell", "Electrical: current in a wire"] },
+    { title: "Stored energy", emoji: "🔋", points: ["Chemical: food, fuel, batteries", "Gravitational potential: water behind a dam, a mango on a branch", "Elastic potential: a stretched catapult (gulel)", "Nuclear: inside atoms, in the Sun and nuclear power stations"] }
+  ]}
+/>
+
+<ConceptCard title="Conservation of energy" emoji="♻️">
+**Energy cannot be created or destroyed. It can only change from one form to another.** Devices are energy *changers*: a fan turns electrical energy into kinetic energy, and a solar panel turns light into electrical energy. At every step some energy spreads out as **heat**, which is hard to use again. We call this "wasted" energy.
+</ConceptCard>
+
+<Stage kind="try" title="Energy Chain" />
+
+<Lab id="energy-chain" />
+
+<Formula tex="\text{efficiency} = \frac{\text{useful energy out}}{\text{total energy in}} \times 100\%" caption="No device is 100% efficient at producing the output we want, except an electric heater, whose useful output IS heat!" />
+
+<QuickCheck question="In a hydroelectric power station, which order is correct?" options={["Electrical → kinetic → gravitational", "Gravitational potential → kinetic → electrical", "Chemical → thermal → electrical", "Light → electrical → kinetic"]} answer={1}>
+Water stored high up (gravitational potential energy) falls (kinetic energy) and spins a turbine connected to a generator (electrical energy).
+</QuickCheck>
+
+<RealLife title="India's energy mix">
+India makes electricity from coal, hydro (like the dams on the Kaveri and Bhakra Nangal), wind (Tamil Nadu and Gujarat), solar (the huge Bhadla Solar Park in Rajasthan) and nuclear power (Kudankulam, Tarapur). Each is a different energy chain ending in electrical energy.
+</RealLife>
+
+<Stage kind="apply" title="Calculate and evaluate" />
+
+<Inquiry criterion="C" title="Chain efficiency">
+In the Energy Chain lab, record the useful energy left (out of 100 J) for each challenge. Which chain wastes the most energy? Which step wastes the most in that chain?
+</Inquiry>
+
+<Inquiry criterion="D" title="The LED switch">
+Through the UJALA scheme, hundreds of millions of LED bulbs have been distributed across India. Explain, using efficiency, how switching from old filament bulbs to LEDs helps families and the environment.
+</Inquiry>
+
+<CbseCorner source="Class 9 Work and Energy (verify against the current NCERT edition)">
+- Forms of energy: kinetic, potential, chemical, heat, light, sound, electrical, nuclear.
+- **Law of conservation of energy**: energy can neither be created nor destroyed, only transformed.
+- SI unit of energy: the **joule (J)**.
+</CbseCorner>
+
+<Reflect id="phys-energy-forms" prompt="Trace the energy in your breakfast back as far as you can. Where did it come from originally, and where does it end up?" />

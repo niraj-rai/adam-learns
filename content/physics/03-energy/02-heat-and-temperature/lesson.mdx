@@ -1,0 +1,58 @@
+<Stage kind="wonder" title="Hot or heat?" />
+
+<Hook emoji="🪣">
+A cup of steaming chai is hotter than a bucket of warm bath water. But which could melt more ice? Most people guess the chai... and most people are wrong! To see why, we need to separate two ideas that sound alike: **heat** and **temperature**.
+</Hook>
+
+<PredictFirst
+  question="You mix 200 g of water at 80 °C with 200 g of water at 20 °C. What is the final temperature?"
+  options={["100 °C", "60 °C", "50 °C", "20 °C"]}
+  answer={2}
+>
+Heat flows from the hot water to the cold water until they're at the same temperature. Equal amounts meet exactly **halfway: 50 °C**. Temperatures don't add up!
+</PredictFirst>
+
+<Stage kind="explain" title="Two different ideas" />
+
+<Compare
+  columns={[
+    { title: "Temperature", emoji: "🌡️", points: ["How hot or cold something is", "Measured in °C (or K) with a thermometer", "Depends on how fast the particles move", "Doesn't depend on the amount"] },
+    { title: "Heat", emoji: "🔥", points: ["Energy that flows because of a temperature difference", "Measured in joules (J)", "Always flows from hotter to colder", "Depends on the amount of matter too"] }
+  ]}
+/>
+
+<ConceptCard title="Heat flows from hot to cold" emoji="➡️">
+Put a hot object next to a cold one and heat flows from hot to cold. The hot one cools, the cold one warms, until they reach the same temperature: <KeyTerm def="The state reached when objects in contact are at the same temperature, so there is no more net flow of heat.">thermal equilibrium</KeyTerm>.
+</ConceptCard>
+
+<Stage kind="try" title="Heat Mixer" />
+
+<Lab id="heat-mixer" />
+
+<Formula tex="T_\text{final} = \frac{m_1 T_1 + m_2 T_2}{m_1 + m_2}" caption="For mixing two amounts of water (no heat lost to the surroundings)" />
+
+<MythFact myth="When you touch ice, cold flows into your hand.">
+There's no such thing as "cold" flowing. **Heat** flows out of your warm hand into the ice. Your hand loses energy, so it feels cold.
+</MythFact>
+
+<DidYouKnow>
+The temperature of the sparks from a sparkler (phuljhadi) on Diwali can be over 1000 °C, yet they rarely burn you. Each spark is so tiny that it holds very little heat energy!
+</DidYouKnow>
+
+<Stage kind="apply" title="Plan and analyse" />
+
+<Inquiry criterion="B" title="Plan a mixing investigation">
+Plan a fair test: how does the amount of hot water added to 100 g of cold water affect the final temperature? State your variables, equipment and how you'll make it fair.
+</Inquiry>
+
+<Inquiry criterion="C" title="Test the formula">
+In the Heat Mixer, try five different combinations. Calculate your predicted final temperature with the formula first, then check. Were you right each time? What would make a real experiment give a slightly lower result?
+</Inquiry>
+
+<CbseCorner source="Class 6 Curiosity Ch 7 and Class 7 Curiosity Ch 7">
+- **Temperature** is the degree of hotness or coldness, measured with a thermometer.
+- **Heat** flows from a hotter object to a colder object.
+- Our sense of touch is not a reliable way to judge temperature.
+</CbseCorner>
+
+<Reflect id="phys-energy-heat-temp" prompt="Explain to a friend why a bucket of warm water can melt more ice than a cup of very hot water." />
