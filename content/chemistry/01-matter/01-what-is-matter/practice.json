@@ -1,0 +1,138 @@
+{
+  "topicId": "what-is-matter",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which is the best definition of matter?",
+      "options": [
+        "Anything we can see",
+        "Anything that has mass and takes up space",
+        "Anything that is a solid",
+        "Anything that is made in a factory"
+      ],
+      "answer": 1,
+      "feedback": { "0": "Air is matter, but you can't see it!", "2": "Liquids and gases are matter too." },
+      "hint": "Think of the two things every piece of matter has.",
+      "explain": "Matter is anything that has mass and occupies space (volume). Being visible or solid does not matter."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Sort these into matter and not matter.",
+      "bins": ["Matter", "Not matter"],
+      "items": [
+        { "label": "Water", "bin": 0 },
+        { "label": "Light", "bin": 1 },
+        { "label": "Air", "bin": 0 },
+        { "label": "Sound", "bin": 1 },
+        { "label": "Dust", "bin": 0 },
+        { "label": "Heat", "bin": 1 },
+        { "label": "Steam", "bin": 0 },
+        { "label": "Anger", "bin": 1 }
+      ],
+      "hint": "Ask: does it have mass? Does it take up space?",
+      "explain": "Water, air, dust and steam all have mass and volume. Light, sound and heat are forms of energy, and anger is a feeling: none of them are matter."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "You smell a perfume from across the room. What reaches your nose?",
+      "options": ["Nothing, smell is just an idea", "Tiny particles of the perfume", "Light from the bottle", "Sound waves"],
+      "answer": 1,
+      "hint": "Smell must be carried by something real.",
+      "explain": "Tiny particles of perfume travel through the air and reach your nose. Those particles are matter."
+    },
+    {
+      "id": "q4",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Complete the definition.",
+      "text": "Matter is anything that has ___ and occupies ___.",
+      "blanks": [["mass"], ["space", "volume"]],
+      "wordBank": ["mass", "space", "colour", "energy", "light"],
+      "explain": "Matter is anything that has mass and occupies space."
+    },
+    {
+      "id": "q5",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which of these are forms of ENERGY rather than matter? Choose all that apply.",
+      "options": ["Sunlight", "A rainbow's colours", "Oxygen gas", "Sound of thunder", "Rain drops", "Heat from a stove"],
+      "answer": [0, 1, 3, 5],
+      "hint": "Oxygen and raindrops can be weighed. Can the others?",
+      "explain": "Light (including rainbow colours), sound and heat are energy. Oxygen gas and raindrops are matter."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Two balloons balance on a ruler. One is popped and the side with the full balloon goes down. What is the INDEPENDENT variable?",
+      "options": ["Which way the ruler tips", "Whether the balloon contains air", "The length of the ruler", "The colour of the balloons"],
+      "answer": 1,
+      "hint": "The independent variable is the one YOU change on purpose.",
+      "explain": "You changed whether a balloon contained air (independent variable) and observed which way the ruler tipped (dependent variable)."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "A glass with a dry tissue at the bottom is pushed upside-down into water. The tissue stays dry. This shows that air…",
+      "options": ["has a colour", "takes up space", "is lighter than water", "is made of water"],
+      "answer": 1,
+      "explain": "Air trapped in the glass takes up space, so water can't enter and wet the tissue."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "1 m³ of air has a mass of about 1.2 kg. A room is 5 m long, 4 m wide and 3 m high. Roughly what is the mass of air in the room, in kg?",
+      "answer": 72,
+      "tolerance": 1,
+      "unit": "kg",
+      "hint": "First find the volume: length × width × height. Then multiply by 1.2.",
+      "explain": "Volume = 5 × 4 × 3 = 60 m³. Mass = 60 × 1.2 = 72 kg. Air is surprisingly heavy!"
+    },
+    {
+      "id": "q9",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each word to its meaning.",
+      "pairs": [
+        { "left": "Mass", "right": "Amount of stuff in an object" },
+        { "left": "Volume", "right": "Amount of space something takes up" },
+        { "left": "Matter", "right": "Anything with mass and volume" },
+        { "left": "Energy", "right": "Light, heat and sound are forms of this" }
+      ],
+      "explain": "Mass = amount of stuff; volume = space taken up; matter has both; light, heat and sound are energy."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Your friend says, 'A shadow must be matter because I can see it.' Explain why your friend is wrong.",
+      "modelAnswer": "Seeing something does not make it matter. A shadow is just an area where light is blocked by an object. It has no mass and takes up no space, so it is not matter.",
+      "rubric": [
+        "I said a shadow has no mass",
+        "I said a shadow does not take up space",
+        "I explained that a shadow is where light is blocked"
+      ],
+      "explain": "Always test with the two rules: mass and volume. A shadow has neither."
+    }
+  ]
+}

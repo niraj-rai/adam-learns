@@ -1,0 +1,81 @@
+<Stage kind="wonder" title="Same stuff, different behaviour" />
+
+<Hook emoji="🥥">
+On a chilly December morning in Bengaluru, the coconut oil in your bathroom turns **solid and white**. By afternoon it is a clear **liquid** again. Nobody added or removed anything. So what changed?
+</Hook>
+
+<PredictFirst
+  question="Imagine zooming into an ice cube millions of times. What would you see?"
+  options={["Solid ice all the way down, with no gaps", "Tiny particles packed closely together", "Tiny particles very far apart", "Tiny particles, each shaped like a mini ice cube"]}
+  answer={1}
+>
+All matter is made of **tiny particles** far too small to see, even with an ordinary microscope. In a solid like ice, they are packed tightly in a regular pattern.
+</PredictFirst>
+
+<Stage kind="explain" title="The particle model" />
+
+<ConceptCard title="Three big ideas" emoji="⚛️">
+Scientists explain the behaviour of matter with the **particle model**:
+
+1. All matter is made of **tiny particles**.
+2. The particles are **always moving**. The hotter they are, the faster they move.
+3. There are **forces of attraction** between particles, and **spaces** between them.
+
+The model is the same for every state. What changes is **how close** the particles are and **how much they move**.
+</ConceptCard>
+
+<Stage kind="try" title="See the particles move" />
+
+Drag the temperature slider from cold to hot. Watch how the particles are **arranged** and how they **move** in each state.
+
+<Lab id="particle-simulator" substance="water" temperature={-20} mode="slider" lockMode />
+
+<Compare
+  columns={[
+    { title: "Solid", emoji: "🧊", points: ["Particles packed closely in a regular pattern", "They vibrate on the spot", "Strong forces of attraction", "Fixed shape and fixed volume", "Cannot be squashed; does not flow"] },
+    { title: "Liquid", emoji: "💧", points: ["Particles close together, no regular pattern", "They slide past each other", "Weaker forces of attraction", "Takes the shape of its container; fixed volume", "Hard to squash; flows"] },
+    { title: "Gas", emoji: "💨", points: ["Particles far apart, randomly spread out", "They move fast in all directions", "Very weak forces of attraction", "No fixed shape or volume; fills its container", "Easy to squash; flows"] }
+  ]}
+/>
+
+<QuickCheck
+  question="Why can you pour water but not a brick?"
+  options={["Water particles are smaller than brick particles", "Water particles can slide past each other", "Water has no particles", "Bricks are heavier"]}
+  answer={1}
+>
+In a liquid, particles are close but **not fixed in place**, so they can slide past one another and the liquid flows. In a solid, the particles are held in fixed positions.
+</QuickCheck>
+
+<MythFact myth="The particles in a solid don't move at all.">
+Solid particles are **always vibrating** on the spot, even in ice. Slide the simulator down to −40 °C and watch closely: the particles still jiggle. They can't move *past* each other, but they are never still.
+</MythFact>
+
+<MythFact myth="The spaces between gas particles are filled with air.">
+There is **nothing at all** in the spaces between particles: no air, no water. Air *is* the particles (mostly nitrogen and oxygen). The gaps between them are empty space.
+</MythFact>
+
+<DidYouKnow>
+There is a **fourth state of matter** called **plasma**, a super-hot gas where the particles are electrically charged. Lightning, the Sun and neon signs are all plasma. More than 99% of the visible matter in the Universe is plasma!
+</DidYouKnow>
+
+<Stage kind="apply" title="Use the model" />
+
+<Inquiry criterion="C" title="Collect data from the simulator">
+Use the Particle Simulator above with **water**.
+
+1. Set the temperature to **−20 °C**, **50 °C** and **120 °C**.
+2. For each one, record in your notebook: *state*, *arrangement* of particles, *movement* of particles.
+3. **Look for a pattern:** what happens to the particles' movement as the temperature goes up?
+4. Now switch to **oxygen** and set 25 °C. Which state is oxygen at room temperature? Use the melting and boiling points to explain why.
+</Inquiry>
+
+<RealLife title="Bengaluru mornings">
+Coconut oil melts at about **24 °C**. On a cool Bengaluru morning (around 15 °C) it is below its melting point, so it is **solid**. By afternoon (about 28 °C) it is above its melting point, so it becomes **liquid**. Same particles, different amounts of movement!
+</RealLife>
+
+<CbseCorner source="Class 8 Curiosity Ch 7 · Class 9 Ch 1">
+- CBSE loves the **comparison table** of solids, liquids and gases: arrangement, spaces, forces of attraction, shape, volume, compressibility and fluidity. Practise writing it from memory!
+- A common 3-mark question: *"Why do gases completely fill the vessel in which they are kept?"* Answer: particles move fast in all directions, and the forces of attraction are very weak.
+</CbseCorner>
+
+<Reflect id="chem-matter-states" prompt="Nobody has ever seen a single particle of water with their own eyes. Why do scientists still trust the particle model? What evidence supports it?" />

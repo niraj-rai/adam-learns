@@ -1,0 +1,139 @@
+{
+  "topicId": "density",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which formula gives density?",
+      "options": ["mass × volume", "mass ÷ volume", "volume ÷ mass", "mass + volume"],
+      "answer": 1,
+      "explain": "Density = mass ÷ volume."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "A block has a mass of 50 g and a volume of 20 cm³. What is its density?",
+      "answer": 2.5,
+      "tolerance": 0.01,
+      "unit": "g/cm³",
+      "hint": "Divide the mass by the volume.",
+      "explain": "50 ÷ 20 = 2.5 g/cm³."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A piece of wood has a density of 0.6 g/cm³ and a volume of 10 cm³. What is its mass?",
+      "answer": 6,
+      "tolerance": 0.01,
+      "unit": "g",
+      "hint": "Rearrange the formula: mass = density × volume.",
+      "explain": "mass = 0.6 × 10 = 6 g."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Water has a density of 1.0 g/cm³. Sort these objects: will they float or sink in water?",
+      "bins": ["Floats", "Sinks"],
+      "items": [
+        { "label": "Cork (0.24 g/cm³)", "bin": 0 },
+        { "label": "Steel (7.8 g/cm³)", "bin": 1 },
+        { "label": "Ice (0.92 g/cm³)", "bin": 0 },
+        { "label": "Glass (2.5 g/cm³)", "bin": 1 },
+        { "label": "Wood (0.6 g/cm³)", "bin": 0 },
+        { "label": "Honey (1.42 g/cm³)", "bin": 1 }
+      ],
+      "explain": "Less dense than 1.0 → floats; more dense than 1.0 → sinks."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why does a huge steel ship float even though steel is denser than water?",
+      "options": [
+        "Ships are painted with special paint",
+        "The ship contains lots of air, so its average density is less than water",
+        "Sea water has no density",
+        "Steel becomes lighter in water"
+      ],
+      "answer": 1,
+      "explain": "The hollow shape includes lots of air, so the average density of the whole ship is less than water."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is heavier: 1 kg of feathers or 1 kg of iron?",
+      "options": ["Feathers", "Iron", "Same", "Can't tell"],
+      "answer": 2,
+      "explain": "Both are 1 kg. Iron is denser, so the same mass takes up much less volume."
+    },
+    {
+      "id": "q7",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A tower has layers of oil (0.92), water (1.00) and honey (1.42). Order the layers from TOP to BOTTOM.",
+      "steps": ["Oil", "Water", "Honey"],
+      "explain": "The least dense liquid floats on top; the densest sinks to the bottom."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A plastic bead has a density of 0.95 g/cm³. Where will it stop in an oil (0.92), water (1.00), honey (1.42) tower?",
+      "options": ["On top of the oil", "Between the oil and the water", "Between the water and the honey", "At the very bottom"],
+      "answer": 1,
+      "explain": "0.95 is more than oil (0.92), so it sinks through the oil, but less than water (1.00), so it floats on the water."
+    },
+    {
+      "id": "q9",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Ice floats on water because ice is ___ dense than liquid water.",
+      "blanks": [["less"]],
+      "wordBank": ["less", "more", "equally"],
+      "explain": "Ice (0.92 g/cm³) is less dense than water (1.00 g/cm³). This is unusual: most solids are denser than their liquids."
+    },
+    {
+      "id": "q10",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "Convert a density of 2.7 g/cm³ (aluminium) into kg/m³.",
+      "answer": 2700,
+      "tolerance": 0,
+      "unit": "kg/m³",
+      "hint": "1 g/cm³ = 1000 kg/m³.",
+      "explain": "2.7 × 1000 = 2700 kg/m³."
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain why an egg that sinks in plain water floats when enough salt is dissolved in the water.",
+      "modelAnswer": "Dissolving salt increases the mass of the water without increasing its volume much, so the salt water becomes denser. When the salt water becomes denser than the egg, the egg floats.",
+      "rubric": [
+        "I said the salt makes the water denser",
+        "I compared the density of the egg with the salt water",
+        "I said the egg floats when the liquid is denser than the egg"
+      ],
+      "explain": "Floating depends on comparing densities: the liquid must be denser than the object."
+    }
+  ]
+}

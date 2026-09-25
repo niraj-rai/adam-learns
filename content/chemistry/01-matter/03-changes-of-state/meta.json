@@ -1,0 +1,34 @@
+{
+  "id": "changes-of-state",
+  "number": "1.3",
+  "title": "Changes of State",
+  "summary": "Melting, boiling, evaporation, condensation, freezing and sublimation, and why the temperature stops rising while a substance changes state.",
+  "emoji": "♨️",
+  "complexity": 3,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 2, "note": "Heating curves and energy explanations are extended in MYP 3" },
+    "cbse": [
+      { "class": 8, "chapter": "Curiosity Ch 7: Particulate Nature of Matter", "verified": true },
+      { "class": 9, "chapter": "Ch 1: Matter in Our Surroundings, sections 1.4–1.5 (latent heat, evaporation)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C", "D"],
+  "objectives": [
+    "I can name and describe the six changes of state.",
+    "I can read a heating curve and explain why the temperature stays constant during melting and boiling.",
+    "I can compare evaporation and boiling, and list factors that speed up evaporation.",
+    "I can convert between degrees Celsius and kelvin."
+  ],
+  "misconceptions": [
+    "The bubbles in boiling water are air.",
+    "Evaporation only happens at 100 °C.",
+    "The temperature keeps rising steadily while ice melts.",
+    "Steam is the white cloud you see above a kettle (that is tiny droplets of liquid water)."
+  ],
+  "prerequisites": ["chemistry/matter/states-of-matter"],
+  "labs": ["particle-simulator"],
+  "keyTerms": ["melting point", "boiling point", "evaporation", "condensation", "sublimation", "deposition", "latent heat", "heating curve", "kelvin"],
+  "estMinutes": 25
+}

@@ -1,0 +1,161 @@
+{
+  "topicId": "changes-of-state",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each change of state to its name.",
+      "pairs": [
+        { "left": "Solid → liquid", "right": "Melting" },
+        { "left": "Liquid → gas", "right": "Evaporation / boiling" },
+        { "left": "Gas → liquid", "right": "Condensation" },
+        { "left": "Liquid → solid", "right": "Freezing" },
+        { "left": "Solid → gas", "right": "Sublimation" }
+      ],
+      "explain": "Melting, evaporation/boiling, condensation, freezing and sublimation (plus deposition: gas → solid)."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Droplets form on the outside of a cold glass of nimbu pani. This is an example of…",
+      "options": ["Evaporation", "Condensation", "Melting", "Sublimation"],
+      "answer": 1,
+      "feedback": { "0": "The water isn't leaving the glass; it is appearing on it from the air." },
+      "hint": "Where did the water on the OUTSIDE of the glass come from?",
+      "explain": "Water vapour in the air touches the cold glass, cools down and condenses into liquid droplets."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "While ice is melting, the temperature stays at 0 °C even though we keep heating. Where does the heat energy go?",
+      "options": [
+        "It is lost to the air",
+        "It overcomes the forces of attraction between particles",
+        "It makes the particles bigger",
+        "It is destroyed"
+      ],
+      "answer": 1,
+      "explain": "The energy (latent heat) breaks the forces holding the particles in fixed positions, instead of making them move faster."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sort these statements into evaporation or boiling.",
+      "bins": ["Evaporation", "Boiling"],
+      "items": [
+        { "label": "Happens at any temperature", "bin": 0 },
+        { "label": "Happens only at one temperature", "bin": 1 },
+        { "label": "Only at the surface", "bin": 0 },
+        { "label": "Bubbles form throughout the liquid", "bin": 1 },
+        { "label": "Cools the remaining liquid", "bin": 0 },
+        { "label": "Temperature stays constant while it happens", "bin": 1 }
+      ],
+      "explain": "Evaporation: any temperature, surface only, causes cooling. Boiling: at the boiling point, throughout the liquid, with bubbles."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "Convert 27 °C into kelvin.",
+      "answer": 300,
+      "tolerance": 0,
+      "unit": "K",
+      "hint": "Add 273.",
+      "explain": "27 + 273 = 300 K."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "Convert 373 K into degrees Celsius.",
+      "answer": 100,
+      "tolerance": 0,
+      "unit": "°C",
+      "hint": "Going from kelvin to °C, subtract 273.",
+      "explain": "373 − 273 = 100 °C: the boiling point of water."
+    },
+    {
+      "id": "q7",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which of these make wet clothes dry FASTER? Choose all that apply.",
+      "options": ["A sunny day", "A windy day", "Folding the clothes into a pile", "A very humid day", "Spreading the clothes out"],
+      "answer": [0, 1, 4],
+      "hint": "Think about temperature, wind, surface area and humidity.",
+      "explain": "Higher temperature, wind and a larger surface area all speed up evaporation. Humid air slows it down, and folding reduces the surface area."
+    },
+    {
+      "id": "q8",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Ice at −20 °C is heated until it becomes steam at 120 °C. Put the parts of the heating curve in order.",
+      "steps": ["Ice warms up to 0 °C", "Ice melts at 0 °C", "Water warms up to 100 °C", "Water boils at 100 °C", "Steam warms above 100 °C"],
+      "explain": "The curve rises (solid), flattens (melting), rises (liquid), flattens (boiling), then rises again (gas)."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Camphor (kapur) left on a plate slowly disappears without melting. This is…",
+      "options": ["Evaporation", "Condensation", "Sublimation", "Deposition"],
+      "answer": 2,
+      "explain": "Camphor changes directly from solid to gas: sublimation. Naphthalene balls and dry ice do this too."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "On a heating curve for water, the boiling part is LONGER than the melting part. What does this tell you?",
+      "options": [
+        "Boiling happens at a lower temperature",
+        "More energy is needed to separate particles completely into a gas than to loosen them into a liquid",
+        "The thermometer was broken",
+        "Water particles get heavier when hot"
+      ],
+      "answer": 1,
+      "explain": "To become a gas, particles must be separated completely, which needs much more energy than loosening them into a liquid. Water's latent heat of vaporisation is about 7 times its latent heat of fusion."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What are the big bubbles inside boiling water made of?",
+      "options": ["Air", "Oxygen and hydrogen", "Water vapour", "Nothing, they're empty"],
+      "answer": 2,
+      "feedback": { "0": "This is a very common mix-up! Air comes out only in the tiny bubbles before boiling." },
+      "explain": "They are pockets of water vapour: water in the gas state forming inside the liquid."
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Explain how an earthen matka keeps water cool without electricity.",
+      "modelAnswer": "Water seeps through tiny pores in the clay to the outer surface and evaporates. Evaporation needs energy, which is taken from the water in the pot, so the water left inside cools down.",
+      "rubric": [
+        "I said water seeps through the pores to the outside",
+        "I said the water evaporates from the surface",
+        "I explained that evaporation takes energy away, causing cooling"
+      ],
+      "explain": "Evaporation causes cooling, the same reason sweating cools your body."
+    }
+  ]
+}

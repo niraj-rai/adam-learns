@@ -1,0 +1,32 @@
+{
+  "id": "what-is-matter",
+  "number": "1.1",
+  "title": "What Is Matter?",
+  "summary": "Anything that has mass and takes up space is matter, even the air you can't see.",
+  "emoji": "🎈",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 1, "note": "Usually the opening idea of the first MYP science unit" },
+    "cbse": [
+      { "class": 6, "chapter": "Materials around us (introduction)", "verified": false },
+      { "class": 9, "chapter": "Ch 1: Matter in Our Surroundings, section 1.1", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "D"],
+  "objectives": [
+    "I can define matter as anything that has mass and takes up space.",
+    "I can decide whether something is matter or not, and give a reason.",
+    "I can design a simple test to show that air has mass and takes up space."
+  ],
+  "misconceptions": [
+    "Air is 'nothing' and has no mass.",
+    "Light, heat and sound are kinds of matter.",
+    "Only solids are matter."
+  ],
+  "prerequisites": [],
+  "labs": ["matter-or-not"],
+  "keyTerms": ["matter", "mass", "volume", "energy"],
+  "estMinutes": 15
+}

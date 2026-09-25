@@ -1,0 +1,199 @@
+{
+  "topicId": "diffusion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is diffusion?",
+      "options": [
+        "Particles spreading from high concentration to low concentration",
+        "A liquid turning into a gas",
+        "Mixing that only happens when you stir",
+        "Particles getting bigger when heated"
+      ],
+      "answer": 0,
+      "explain": "Diffusion is the net movement of particles from where they are more concentrated to where they are less concentrated, caused by random motion."
+    },
+    {
+      "id": "q2",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Order the states from FASTEST diffusion to SLOWEST.",
+      "steps": [
+        "Gas",
+        "Liquid",
+        "Solid"
+      ],
+      "explain": "Gas particles move fastest and have the most space; solid particles are fixed in place."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Why can we smell hot, sizzling food from far away but have to go close to smell cold food?",
+      "options": [
+        "Hot food has more colour",
+        "Particles of hot food move faster, so they diffuse faster through the air",
+        "Cold food has no particles",
+        "Our nose works better when it's hot"
+      ],
+      "answer": 1,
+      "explain": "Higher temperature means faster-moving particles and faster diffusion. Hot food also releases more particles into the air."
+    },
+    {
+      "id": "q4",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "In a tea bag experiment testing water temperature, match each part of the plan to what it is.",
+      "pairs": [
+        {
+          "left": "Water temperature",
+          "right": "Independent variable"
+        },
+        {
+          "left": "Time for colour to spread",
+          "right": "Dependent variable"
+        },
+        {
+          "left": "Volume of water",
+          "right": "Controlled variable"
+        },
+        {
+          "left": "\"Hotter water will spread colour faster because…\"",
+          "right": "Hypothesis"
+        }
+      ],
+      "explain": "Change one thing (independent), measure one thing (dependent), keep everything else the same (controlled)."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Riya puts dye in cold water in a small glass and in hot water in a big bucket. The hot water mixes first. What is wrong with her experiment?",
+      "options": [
+        "Nothing, it was a fair test",
+        "She changed two variables (temperature and container size)",
+        "She should have used more dye",
+        "Dye doesn't diffuse in water"
+      ],
+      "answer": 1,
+      "hint": "How many things were different between the two set-ups?",
+      "explain": "She changed both temperature and container size, so she can't know which one caused the difference. It isn't a fair test."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which are examples of diffusion? Choose all that apply.",
+      "options": [
+        "Smell of perfume spreading across a room",
+        "Colour spreading from a tea bag",
+        "Oxygen moving from lungs into blood",
+        "Water boiling in a kettle",
+        "Ice melting in a glass"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "Boiling and melting are changes of state, not diffusion."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Robert Brown saw pollen grains jiggling in water. What causes this Brownian motion?",
+      "options": [
+        "The pollen is alive and swimming",
+        "Invisible water particles hitting the pollen from all sides",
+        "Air currents above the water",
+        "Light from the microscope pushing the pollen"
+      ],
+      "answer": 1,
+      "explain": "Fast-moving water particles bump into the pollen unevenly, making it jiggle. This was strong evidence that particles exist."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Complete the sentence.",
+      "text": "The rate of diffusion ___ when the temperature increases, because the particles move ___.",
+      "blanks": [
+        [
+          "increases"
+        ],
+        [
+          "faster"
+        ]
+      ],
+      "wordBank": [
+        "increases",
+        "decreases",
+        "faster",
+        "slower",
+        "stays the same"
+      ],
+      "explain": "Higher temperature → particles have more energy → move faster → diffuse faster."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Once a drop of ink has spread evenly through a glass of water, the ink particles…",
+      "options": [
+        "stop moving",
+        "keep moving randomly",
+        "sink to the bottom",
+        "turn into water"
+      ],
+      "answer": 1,
+      "feedback": {
+        "0": "Particles never stop moving. They are just evenly spread out now."
+      },
+      "explain": "Particles are always moving. When evenly spread, there's no overall change, but the motion continues."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Write a hypothesis for this question: 'How does water temperature affect how fast colour spreads from a tea bag?' Include a scientific reason.",
+      "modelAnswer": "If the water temperature is increased, then the colour will spread faster, because the water particles and colour particles have more energy and move faster, so they mix more quickly by diffusion.",
+      "rubric": [
+        "I used an 'If… then…' structure",
+        "I said what will happen (faster spreading at higher temperature)",
+        "I gave a reason using particles moving faster"
+      ],
+      "explain": "A good hypothesis predicts the effect of the independent variable on the dependent variable AND gives a scientific reason."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A student timed how long a drop of dye took to spread evenly: 10 °C → 42 s, 30 °C → 26 s, 50 °C → 17 s, 70 °C → 11 s. Which conclusion does the data support?",
+      "options": [
+        "Temperature has no effect on diffusion",
+        "As temperature increases, the time to mix decreases, so diffusion is faster",
+        "Diffusion only happens above 50 °C",
+        "Doubling the temperature always halves the time exactly"
+      ],
+      "answer": 1,
+      "hint": "Look at how the time changes as the temperature goes up.",
+      "explain": "The times fall steadily as temperature rises, so diffusion gets faster. The data doesn't show an exact 'halving' rule, so option 4 claims more than the evidence supports."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "states-of-matter",
+  "number": "1.2",
+  "title": "States of Matter & the Particle Model",
+  "summary": "Solids, liquids and gases are made of the same kind of particles, just arranged and moving differently.",
+  "emoji": "🧊",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 2, "note": "Particle model is revisited and deepened in MYP 3" },
+    "cbse": [
+      { "class": 8, "chapter": "Curiosity Ch 7: Particulate Nature of Matter", "verified": true },
+      { "class": 9, "chapter": "Ch 1: Matter in Our Surroundings, sections 1.2–1.3", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C"],
+  "objectives": [
+    "I can state the three main ideas of the particle model.",
+    "I can describe the arrangement and movement of particles in solids, liquids and gases.",
+    "I can use the particle model to explain properties such as shape, flow and compressibility."
+  ],
+  "misconceptions": [
+    "Particles in a solid do not move at all.",
+    "There is air (or something) in the gaps between particles.",
+    "Particles of a substance change size or shape in different states."
+  ],
+  "prerequisites": ["chemistry/matter/what-is-matter"],
+  "labs": ["particle-simulator"],
+  "keyTerms": ["particle", "particle model", "solid", "liquid", "gas", "vibrate", "fixed shape", "fixed volume"],
+  "estMinutes": 20
+}

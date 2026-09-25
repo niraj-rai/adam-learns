@@ -1,0 +1,33 @@
+{
+  "id": "matter",
+  "number": 1,
+  "title": "Matter and Its Nature",
+  "summary": "Everything around you, from air to ice to iron, is made of tiny moving particles. This unit builds the particle model and uses it to explain states of matter, changes of state, diffusion, compressibility and density.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": ["Models", "Form", "Energy"],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Models of tiny, moving particles help us explain and predict the properties of everything around us."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is matter?",
+      "What are the three common states of matter and how are their particles arranged?",
+      "What happens to the temperature of a substance while it melts or boils?"
+    ],
+    "conceptual": [
+      "How does the particle model explain the properties of solids, liquids and gases?",
+      "Why does heating make particles spread out and change state?"
+    ],
+    "debatable": [
+      "Is a model useful if we can never see the particles it describes?",
+      "Should cities limit activities that release particles into the air we all share?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 8 (Curiosity) Ch 7: Particulate Nature of Matter (particles, interparticle attraction, spaces, states)",
+    "Class 9 Ch 1: Matter in Our Surroundings (states, changes of state, latent heat, evaporation, diffusion). Check against the current NCERT edition",
+    "Class 6: Materials around us / changes of state basics",
+    "Class 9: Gravitation (floatation and density, extension topic)"
+  ]
+}

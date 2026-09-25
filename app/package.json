@@ -1,0 +1,53 @@
+{
+  "name": "discovery-lab",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vitest run && tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test": "vitest",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@fontsource-variable/fredoka": "^5.3.0",
+    "@fontsource-variable/geist": "^5.3.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@tanstack/react-router": "^1.170.39",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cn": "^0.4.0",
+    "katex": "^0.18.9",
+    "lucide-react": "^1.48.0",
+    "motion": "^13.4.3",
+    "radix-ui": "^1.6.7",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "recharts": "^3.10.1",
+    "shadcn": "^4.21.0",
+    "tailwind-merge": "^3.7.0",
+    "tailwindcss": "^4.3.3",
+    "tw-animate-css": "^1.4.0",
+    "zod": "^4.6.5",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@mdx-js/rollup": "^3.1.1",
+    "@tailwindcss/typography": "^0.5.20",
+    "@tanstack/router-plugin": "^1.168.40",
+    "@types/katex": "^0.16.8",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "remark-gfm": "^4.0.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "density",
+  "number": "1.6",
+  "title": "Density: Why Things Float or Sink",
+  "summary": "How much mass is packed into a space, and why a steel ship floats while a steel nail sinks.",
+  "emoji": "🚢",
+  "complexity": 3,
+  "level": "L2",
+  "core": false,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Extension: quantitative skills (Criterion C)" },
+    "cbse": [
+      { "class": 9, "chapter": "Gravitation: floatation, density and relative density", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C"],
+  "objectives": [
+    "I can calculate density using density = mass ÷ volume, with correct units.",
+    "I can predict whether an object floats or sinks by comparing densities.",
+    "I can use the particle model to explain differences in density."
+  ],
+  "misconceptions": [
+    "Heavy objects always sink and light objects always float.",
+    "1 kg of iron is heavier than 1 kg of cotton.",
+    "Big objects are always denser."
+  ],
+  "prerequisites": ["chemistry/matter/forces-and-spaces"],
+  "labs": ["density-tower"],
+  "keyTerms": ["density", "mass", "volume", "g/cm³", "float", "sink"],
+  "estMinutes": 25
+}

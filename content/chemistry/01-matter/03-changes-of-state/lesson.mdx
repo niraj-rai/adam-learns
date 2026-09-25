@@ -1,0 +1,106 @@
+<Stage kind="wonder" title="Where does the water go?" />
+
+<Hook emoji="👕">
+Wet school uniforms dry on the balcony in a few hours, even though it's nowhere near 100 °C. Where does the water go, and how does it escape without boiling?
+</Hook>
+
+<PredictFirst
+  question="You heat crushed ice from −20 °C with a steady flame. While the ice is melting, what does the thermometer show?"
+  options={["It keeps rising steadily", "It stays at 0 °C until all the ice has melted", "It drops below −20 °C", "It jumps straight to 100 °C"]}
+  answer={1}
+>
+Surprising but true: while ice melts, the temperature **stays at 0 °C**, even though you keep heating. Let's find out where that energy goes.
+</PredictFirst>
+
+<Stage kind="see" title="Draw a heating curve" />
+
+Choose **Heat & cool**, press **Start cold**, then **Heat**. Watch the graph. Look for the **flat parts**!
+
+<Lab id="particle-simulator" substance="water" mode="heat" />
+
+<Stage kind="explain" title="Six changes of state" />
+
+| Change | From → To | Example |
+|---|---|---|
+| **Melting** | solid → liquid | ice cream melting in your hand |
+| **Freezing** | liquid → solid | making ice in the freezer |
+| **Evaporation / boiling** | liquid → gas | a puddle drying up; water boiling for chai |
+| **Condensation** | gas → liquid | droplets on a cold glass of nimbu pani |
+| **Sublimation** | solid → gas | camphor (kapur) disappearing from the puja thali |
+| **Deposition** | gas → solid | frost forming on a cold window |
+
+<ConceptCard title="Why the temperature stops rising" emoji="📈">
+During melting and boiling, the heat energy is **not** used to make the particles move faster, so the temperature stays the same. Instead, the energy is used to **overcome the forces of attraction** between particles so they can break free into the next state.
+
+This "hidden" energy is called <KeyTerm def="Energy absorbed or released when a substance changes state, without any change in temperature. 'Latent' means hidden.">latent heat</KeyTerm>.
+
+- The **melting point** is the temperature at which a solid melts. It is the same as the freezing point.
+- The **boiling point** is the temperature at which a liquid boils.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Evaporation", emoji: "🌤️", points: ["Happens at ANY temperature", "Only from the surface of the liquid", "Slow and silent, no bubbles", "Cools the liquid left behind"] },
+    { title: "Boiling", emoji: "🫖", points: ["Happens only at the boiling point", "Throughout the whole liquid", "Fast, with bubbles of vapour", "Temperature stays constant while boiling"] }
+  ]}
+/>
+
+<StepReveal>
+<div>
+**Evaporation, step by step.** Particles in a liquid move at different speeds. Some are much faster than average.
+</div>
+<div>
+A fast particle **at the surface** can have enough energy to break away from its neighbours and escape into the air as a gas.
+</div>
+<div>
+The fastest particles leave, so the **average energy of those left behind drops**. The liquid cools down. This is why sweating cools you, and why water stays cool in a clay **matka**!
+</div>
+<div>
+Evaporation is faster with **higher temperature**, **larger surface area**, **wind**, and **lower humidity** (drier air).
+</div>
+</StepReveal>
+
+<MythFact myth="The bubbles in boiling water are air bubbles.">
+The big bubbles in boiling water are **water vapour**: pockets of water in the gas state forming inside the liquid. (The tiny bubbles you see *before* boiling are dissolved air coming out.)
+</MythFact>
+
+<MythFact myth="The white cloud coming out of a pressure cooker is steam.">
+Real steam (water vapour) is **invisible**. Look closely at the gap just above the whistle: it's clear! The white cloud is made of tiny droplets of **liquid** water that form when the steam condenses in the cooler air.
+</MythFact>
+
+<Formula tex="T(\mathrm{K}) = T(^\circ\mathrm{C}) + 273" caption="Scientists often use the kelvin (K) scale. 0 °C = 273 K, and 100 °C = 373 K." />
+
+<QuickCheck question="What is the boiling point of water in kelvin?" options={["100 K", "173 K", "273 K", "373 K"]} answer={3}>
+100 + 273 = **373 K**. On the kelvin scale, there are no negative temperatures. 0 K is the coldest possible temperature!
+</QuickCheck>
+
+<Stage kind="apply" title="Think like a scientist" />
+
+<Inquiry criterion="C" title="Read the heating curve">
+Look at the heating curve you drew in the simulator.
+
+1. Label the five parts: *heating the solid, melting, heating the liquid, boiling, heating the gas*.
+2. Which flat part lasts **longer**, melting or boiling? What does that tell you about how much energy is needed to separate particles completely?
+3. Try **ethanol** and **iron**. Are the flat parts at the same temperatures? Why not?
+</Inquiry>
+
+<TryAtHome
+  title="Evaporation race"
+  materials={["3 teaspoons of water", "a steel plate", "a small cup", "a spot near a fan"]}
+>
+1. Put 1 teaspoon of water on a plate (large surface), 1 in a small cup (small surface), and 1 on a plate under the fan.
+2. Check every 10 minutes. Which one disappears first?
+3. Which **factors** that affect evaporation did you test? Which one did you keep the same?
+</TryAtHome>
+
+<RealLife title="The clay matka">
+Water in an earthen pot (**matka**) stays cool on hot days. The clay has tiny pores, so water seeps to the outer surface and **evaporates**, taking energy away from the water inside. It is a fridge with no electricity, used in India for thousands of years.
+</RealLife>
+
+<CbseCorner source="Class 9 Ch 1">
+- Learn the terms **latent heat of fusion** (solid → liquid) and **latent heat of vaporisation** (liquid → gas).
+- Kelvin conversions (K = °C + 273) appear in almost every Class 9 exam.
+- Popular questions: *"Why do we feel cool after sweating?"*, *"Why are cotton clothes better in summer?"* (cotton absorbs sweat and lets it evaporate), and *"Why does a desert cooler cool better on a dry day?"*
+</CbseCorner>
+
+<Reflect id="chem-matter-changes" prompt="Bengaluru often feels less sweaty than Chennai even on days with the same temperature. Use the idea of evaporation and humidity to explain why." />

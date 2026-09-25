@@ -1,0 +1,32 @@
+{
+  "id": "forces-and-spaces",
+  "number": "1.5",
+  "title": "Forces and Spaces Between Particles",
+  "summary": "Why gases can be squashed into cylinders, why sugar 'disappears' into water, and how strongly particles hold on to each other.",
+  "emoji": "💉",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3 },
+    "cbse": [
+      { "class": 8, "chapter": "Curiosity Ch 7: Particulate Nature of Matter (interparticle attraction and spaces)", "verified": true },
+      { "class": 9, "chapter": "Ch 1: Matter in Our Surroundings, section 1.2", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C"],
+  "objectives": [
+    "I can describe the interparticle forces of attraction and spaces in solids, liquids and gases.",
+    "I can explain compressibility using the particle model.",
+    "I can use evidence (dissolving, compressing, breaking) to support the idea of spaces and forces between particles."
+  ],
+  "misconceptions": [
+    "When a gas is compressed, the particles themselves get smaller.",
+    "Liquids can be squashed easily like gases.",
+    "Sugar is destroyed when it dissolves."
+  ],
+  "prerequisites": ["chemistry/matter/states-of-matter"],
+  "labs": ["syringe-squeeze"],
+  "keyTerms": ["interparticle forces of attraction", "interparticle spaces", "compressibility", "dissolve", "rigidity"],
+  "estMinutes": 20
+}

@@ -1,0 +1,32 @@
+{
+  "id": "diffusion",
+  "number": "1.4",
+  "title": "Diffusion: Particles on the Move",
+  "summary": "Why a smell spreads through a room and ink spreads through water, and what makes it faster.",
+  "emoji": "🪔",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Good vehicle for Criterion B: designing a fair test" },
+    "cbse": [
+      { "class": 8, "chapter": "Curiosity Ch 7: Particulate Nature of Matter", "verified": true },
+      { "class": 9, "chapter": "Ch 1: Matter in Our Surroundings, section 1.2 (particles are moving)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can define diffusion using the particle model.",
+    "I can explain why diffusion is fastest in gases and faster at higher temperatures.",
+    "I can design a fair test with independent, dependent and controlled variables."
+  ],
+  "misconceptions": [
+    "Diffusion stops once things are evenly mixed (particles keep moving).",
+    "Diffusion needs stirring or wind.",
+    "Particles 'want' to spread out."
+  ],
+  "prerequisites": ["chemistry/matter/states-of-matter"],
+  "labs": ["diffusion-race"],
+  "keyTerms": ["diffusion", "concentration", "random motion", "Brownian motion", "fair test", "independent variable", "dependent variable", "controlled variable"],
+  "estMinutes": 20
+}
