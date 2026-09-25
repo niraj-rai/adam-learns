@@ -1,0 +1,170 @@
+{
+  "topicId": "health-and-disease",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Communicable or non-communicable?",
+      "bins": [
+        "Communicable",
+        "Non-communicable"
+      ],
+      "items": [
+        {
+          "label": "Tuberculosis",
+          "bin": 0
+        },
+        {
+          "label": "Type 2 diabetes",
+          "bin": 1
+        },
+        {
+          "label": "Dengue",
+          "bin": 0
+        },
+        {
+          "label": "Heart disease",
+          "bin": 1
+        },
+        {
+          "label": "Common cold",
+          "bin": 0
+        },
+        {
+          "label": "Scurvy",
+          "bin": 1
+        }
+      ],
+      "explain": "Communicable diseases are caused by pathogens and can spread."
+    },
+    {
+      "id": "q2",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each disease to how it spreads.",
+      "pairs": [
+        {
+          "left": "Malaria",
+          "right": "Mosquito bites"
+        },
+        {
+          "left": "Cholera",
+          "right": "Contaminated water"
+        },
+        {
+          "left": "Tuberculosis",
+          "right": "Air (coughs and sneezes)"
+        },
+        {
+          "left": "Ringworm",
+          "right": "Direct contact"
+        }
+      ],
+      "explain": "Knowing the route tells us how to prevent it."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "According to the World Health Organization, health means…",
+      "options": [
+        "Just not being ill",
+        "Complete physical, mental and social wellbeing",
+        "Being very strong",
+        "Never visiting a doctor"
+      ],
+      "answer": 1,
+      "explain": "Mental and social wellbeing matter too."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is a vector?",
+      "options": [
+        "A type of vaccine",
+        "An organism, like a mosquito, that carries a pathogen from one host to another",
+        "A kind of bacterium",
+        "A healthy food"
+      ],
+      "answer": 1,
+      "explain": "Female Anopheles mosquitoes carry malaria; Aedes mosquitoes carry dengue."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the sorter, why is scurvy non-communicable?",
+      "options": [
+        "It's caused by a virus",
+        "It's caused by a lack of vitamin C, not by a germ",
+        "It spreads through air",
+        "It spreads through water"
+      ],
+      "answer": 1,
+      "explain": "Deficiency diseases can't spread between people."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which help prevent diseases spread by mosquitoes? Choose all that apply.",
+      "options": [
+        "Emptying water from coolers, pots and tyres",
+        "Sleeping under mosquito nets",
+        "Using repellents",
+        "Boiling drinking water",
+        "Wearing full-sleeved clothes"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explain": "Boiling water prevents water-borne diseases, not mosquito-borne ones."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Dengue cases in many Indian cities rise sharply after the monsoon. Use your knowledge of how dengue spreads to explain why.",
+      "modelAnswer": "Dengue is caused by a virus carried by Aedes mosquitoes. Mosquitoes lay their eggs in still water, and their larvae and pupae develop in it. After the monsoon, rainwater collects in pots, tyres, coolers and drains, so many more mosquitoes breed. More mosquitoes biting infected and healthy people means the virus spreads faster.",
+      "rubric": [
+        "Dengue is spread by mosquitoes (vector)",
+        "Mosquitoes breed in still water",
+        "Monsoon leaves stagnant water → more mosquitoes → more cases"
+      ],
+      "explain": "Criterion C: explain a pattern in data with science."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "A microorganism that causes disease is called a ___.",
+      "blanks": [
+        [
+          "pathogen"
+        ]
+      ],
+      "wordBank": [
+        "pathogen",
+        "vitamin",
+        "vector"
+      ],
+      "explain": "Bacteria, viruses, fungi and protozoa can all be pathogens."
+    }
+  ]
+}

@@ -5,13 +5,8 @@
   "color": "bio",
   "icon": "🌿",
   "order": 3,
-  "comingNext": "Unit 6: Health & Disease · Unit 7: Reproduction & Adolescence · Unit 8: Ecosystems & Conservation",
+  "comingNext": "Unit 7: Reproduction & Adolescence · Unit 8: Ecosystems & Conservation",
   "planned": [
-    {
-      "unit": "6. Health & Disease",
-      "ib": "MYP 3",
-      "cbse": "8 (Curiosity Ch 3)"
-    },
     {
       "unit": "7. Reproduction & Adolescence",
       "ib": "MYP 2–3",

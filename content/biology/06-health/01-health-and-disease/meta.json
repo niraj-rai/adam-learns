@@ -1,0 +1,59 @@
+{
+  "id": "health-and-disease",
+  "number": "6.1",
+  "title": "Health and Disease",
+  "summary": "What health means, communicable and non-communicable diseases, and the different ways infections spread.",
+  "emoji": "🦠",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Pathogen biology follows in MYP 5 / DP"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 3: Health: The Ultimate Treasure",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 2: Microorganisms: Friend and Foe",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can describe health as physical, mental and social wellbeing.",
+    "I can distinguish communicable and non-communicable diseases.",
+    "I can describe how diseases spread through air, water, contact and vectors."
+  ],
+  "misconceptions": [
+    "If you don't feel ill, you are healthy.",
+    "All diseases are caused by germs.",
+    "Diabetes can be caught from someone else."
+  ],
+  "prerequisites": [
+    "biology/microbes/meet-the-microbes"
+  ],
+  "labs": [
+    "disease-sorter"
+  ],
+  "keyTerms": [
+    "health",
+    "disease",
+    "communicable",
+    "non-communicable",
+    "pathogen",
+    "vector",
+    "infection"
+  ],
+  "estMinutes": 20
+}

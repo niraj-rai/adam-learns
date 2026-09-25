@@ -1,0 +1,35 @@
+{
+  "id": "health",
+  "number": 6,
+  "title": "Health and Disease",
+  "summary": "What keeps us healthy, how diseases spread, how the immune system and vaccines protect us, why herd immunity matters, and how epidemiologists track down outbreaks.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Consequences",
+      "Interaction",
+      "Evidence"
+    ],
+    "globalContext": "Fairness and development",
+    "statementOfInquiry": "Health depends on relationships between our bodies, pathogens, our lifestyles and our communities, and fair access to clean water, vaccines and healthcare benefits everyone."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is the difference between communicable and non-communicable diseases?",
+      "How do vaccines work?",
+      "How do diseases spread?"
+    ],
+    "conceptual": [
+      "Why does vaccinating many people protect those who can't be vaccinated?",
+      "How do scientists use evidence to find the source of an outbreak?"
+    ],
+    "debatable": [
+      "Should vaccination be compulsory for school entry?",
+      "Is it fair that some countries get vaccines much earlier than others?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 8 (Curiosity) Ch 3: Health: The Ultimate Treasure",
+    "Earlier NCERT Class 8 Ch 2: Microorganisms: Friend and Foe (diseases)"
+  ]
+}

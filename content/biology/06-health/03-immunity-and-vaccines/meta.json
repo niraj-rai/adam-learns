@@ -1,0 +1,56 @@
+{
+  "id": "immunity-and-vaccines",
+  "number": "6.3",
+  "title": "Immunity and Vaccines",
+  "summary": "How white blood cells and antibodies fight germs, why the second response is faster, and how vaccines train the body.",
+  "emoji": "🛡️",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Antigens, antibodies and lymphocytes are detailed in MYP 5 / DP"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 3: Health: The Ultimate Treasure",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe how the immune system fights pathogens.",
+    "I can explain primary and secondary immune responses using a graph.",
+    "I can explain how vaccines work and evaluate their benefits."
+  ],
+  "misconceptions": [
+    "Vaccines give you the disease.",
+    "Antibiotics and vaccines do the same job.",
+    "Once vaccinated, you can never get any infection."
+  ],
+  "prerequisites": [
+    "biology/health/health-and-disease",
+    "biology/body/heart-and-circulation"
+  ],
+  "labs": [
+    "immune-memory"
+  ],
+  "keyTerms": [
+    "immunity",
+    "immune system",
+    "white blood cell",
+    "antibody",
+    "memory cell",
+    "vaccine",
+    "vaccination"
+  ],
+  "estMinutes": 25
+}

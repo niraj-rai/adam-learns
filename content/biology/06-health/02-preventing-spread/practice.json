@@ -1,0 +1,131 @@
+{
+  "topicId": "preventing-spread",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which actions reduce the spread of flu in a classroom? Choose all that apply.",
+      "options": [
+        "Washing hands with soap",
+        "Covering coughs and sneezes",
+        "Opening windows for fresh air",
+        "Sharing water bottles",
+        "Staying home when ill"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explain": "Sharing bottles spreads germs."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Germ Spread Classroom, why did we compare averages over 60 outbreaks?",
+      "options": [
+        "It looks nicer",
+        "Chance affects each single outbreak, so averages give a fairer comparison",
+        "The computer needed practice",
+        "Only the last run counts"
+      ],
+      "answer": 1,
+      "explain": "Repeating trials reduces the effect of chance."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Without any measures, an average of 23 pupils caught flu. With all measures, the average was 2. By what percentage did the measures cut cases (to the nearest whole number)?",
+      "answer": 91,
+      "tolerance": 1,
+      "unit": "%",
+      "explain": "(23 − 2) ÷ 23 × 100 ≈ 91%."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why does opening windows help reduce the spread of airborne diseases?",
+      "options": [
+        "Germs are afraid of light",
+        "Fresh air dilutes and carries away tiny droplets containing germs",
+        "It makes the room colder",
+        "It kills all germs instantly"
+      ],
+      "answer": 1,
+      "explain": "Ventilation lowers the concentration of germs in the air."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "The Swachh Bharat Mission built millions of toilets across India. Which diseases does this especially help prevent?",
+      "options": [
+        "Diseases spread through water and food contaminated by faeces, like diarrhoea and typhoid",
+        "Heart disease",
+        "Diabetes",
+        "Malaria only"
+      ],
+      "answer": 0,
+      "explain": "Sanitation keeps faeces out of water and food."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Your school wants to reduce illness during the flu season. Design a plan with three measures and evaluate one limitation of each.",
+      "modelAnswer": "1) Handwashing stations with soap near classrooms and canteens: effective, but pupils may skip washing, so reminders and time are needed. 2) Keep windows open and use fans for ventilation: cheap, but hard in very cold or rainy weather. 3) Ask pupils with fever or cough to rest at home, with homework shared online: reduces spread, but families with working parents may find it hard, and pupils might miss lessons. Also encourage flu vaccination for vulnerable people.",
+      "rubric": [
+        "Three sensible measures",
+        "A limitation for each",
+        "Linked to how flu spreads"
+      ],
+      "explain": "Criterion D: evaluate a real plan."
+    },
+    {
+      "id": "q7",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Order the steps for washing hands properly.",
+      "steps": [
+        "Wet hands with clean water",
+        "Apply soap",
+        "Scrub all surfaces, including between fingers and under nails, for 20 seconds",
+        "Rinse with clean water",
+        "Dry with a clean towel"
+      ],
+      "explain": "Scrubbing for 20 seconds is the key step."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Keeping our surroundings and bodies clean to prevent disease is called ___.",
+      "blanks": [
+        [
+          "hygiene"
+        ]
+      ],
+      "wordBank": [
+        "hygiene",
+        "immunity",
+        "nutrition"
+      ],
+      "explain": "Personal and community hygiene both matter."
+    }
+  ]
+}

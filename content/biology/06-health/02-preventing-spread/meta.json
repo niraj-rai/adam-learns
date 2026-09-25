@@ -1,0 +1,54 @@
+{
+  "id": "preventing-spread",
+  "number": "6.2",
+  "title": "Stopping the Spread",
+  "summary": "How hygiene, masks, ventilation, safe water and staying home break the chain of infection.",
+  "emoji": "🧼",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Epidemiological modelling appears in DP"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 3: Health: The Ultimate Treasure",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain how everyday actions reduce the spread of infections.",
+    "I can interpret data from a simulation, taking chance into account.",
+    "I can evaluate public-health measures."
+  ],
+  "misconceptions": [
+    "Only doctors can stop diseases spreading.",
+    "If one measure works, the others don't matter.",
+    "A single test run proves a measure works."
+  ],
+  "prerequisites": [
+    "biology/health/health-and-disease"
+  ],
+  "labs": [
+    "germ-spread"
+  ],
+  "keyTerms": [
+    "hygiene",
+    "transmission",
+    "ventilation",
+    "sanitation",
+    "isolation",
+    "chain of infection"
+  ],
+  "estMinutes": 25
+}

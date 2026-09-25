@@ -1,0 +1,141 @@
+{
+  "topicId": "outbreak-detective",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In 1854, John Snow stopped a cholera outbreak in London by…",
+      "options": [
+        "Inventing a vaccine",
+        "Mapping cases and removing the handle of the contaminated water pump",
+        "Killing mosquitoes",
+        "Closing schools"
+      ],
+      "answer": 1,
+      "explain": "This founded the science of epidemiology."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "On the map, a few cases were far from well B. What's the most likely explanation?",
+      "options": [
+        "Well B is not the source after all",
+        "Those people visited, worked or drank water near well B",
+        "Cholera spreads through the air",
+        "They had a different disease"
+      ],
+      "answer": 1,
+      "explain": "Outliers often have a hidden link to the source."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is ORS?",
+      "options": [
+        "A vaccine",
+        "Oral rehydration solution: water, salt and sugar that replaces fluids lost through diarrhoea",
+        "An antibiotic",
+        "A mosquito spray"
+      ],
+      "answer": 1,
+      "explain": "ORS is simple and cheap, and it saves lives."
+    },
+    {
+      "id": "q4",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Order the steps an outbreak investigation team would take.",
+      "steps": [
+        "Identify the disease from symptoms and tests",
+        "Find out how it spreads",
+        "Map where the cases are",
+        "Find the likely source",
+        "Remove the source and treat patients",
+        "Educate the community to prevent new cases"
+      ],
+      "explain": "Evidence first, then action."
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain how the map of cases provides evidence for the source of the outbreak.",
+      "modelAnswer": "The cases are not spread evenly across the town; most are clustered around well B, and when counted, far more households are nearest to well B than to any other well. Since cholera spreads through contaminated water, a cluster around one water source suggests that well is contaminated. The few distant cases can be explained if those people used well B. Testing the water in well B would confirm it.",
+      "rubric": [
+        "Describes the cluster pattern",
+        "Uses counts or comparison with other wells",
+        "Links to how cholera spreads",
+        "Suggests confirmation by testing"
+      ],
+      "explain": "Criterion C: evidence-based reasoning."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which measures prevent cholera? Choose all that apply.",
+      "options": [
+        "Safe, treated drinking water",
+        "Proper toilets and sewage systems",
+        "Handwashing with soap",
+        "Mosquito nets",
+        "Cholera vaccine in high-risk areas"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explain": "Cholera is not spread by mosquitoes."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What does an epidemiologist study?",
+      "options": [
+        "Rocks",
+        "The patterns, causes and spread of diseases in populations",
+        "Stars",
+        "Only individual patients' X-rays"
+      ],
+      "answer": 1,
+      "explain": "Epidemiologists are disease detectives."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Cholera is caused by a ___ and spreads through contaminated ___.",
+      "blanks": [
+        [
+          "bacterium",
+          "bacteria"
+        ],
+        [
+          "water"
+        ]
+      ],
+      "wordBank": [
+        "bacterium",
+        "water",
+        "virus",
+        "air"
+      ],
+      "explain": "Vibrio cholerae."
+    }
+  ]
+}

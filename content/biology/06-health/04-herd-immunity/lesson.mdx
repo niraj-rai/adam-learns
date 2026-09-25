@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="Protecting those who can't be protected" />
+
+<Hook emoji="👶">
+A newborn baby is too young for the measles vaccine. A child being treated for cancer has a weakened immune system. How can we keep them safe from diseases that spread so easily? The answer is everyone else.
+</Hook>
+
+<PredictFirst
+  question="If 50% of a town is vaccinated against measles, what happens when a case arrives?"
+  options={["Nobody gets ill", "A large outbreak can still spread", "Only vaccinated people get ill", "The virus dies immediately"]}
+  answer={1}
+>
+Measles is so contagious (each case can infect about 15 others) that around **95%** of people must be immune to stop it spreading. At 50%, a big outbreak can still happen.
+</PredictFirst>
+
+<Stage kind="explain" title="R₀ and herd immunity" />
+
+<ConceptCard title="R₀" emoji="📈">
+<KeyTerm def="The average number of people one infected person infects, in a population where no one is immune.">R₀</KeyTerm> (say "R-nought") tells us how contagious a disease is. If R₀ is 3, one case leads to 3, then 9, then 27... The outbreak grows **exponentially**, until people become immune.
+</ConceptCard>
+
+<Formula tex="\text{herd-immunity threshold} = 1 - \frac{1}{R_0}" caption="e.g. measles: 1 − 1/15 ≈ 93%" />
+
+<Stage kind="try" title="Outbreak Simulator" />
+
+<Lab id="outbreak-sim" />
+
+<ConceptCard title="Herd immunity" emoji="🐄">
+When enough people are immune, each case infects **fewer than one** new person on average, and the outbreak dies out. The germ can't reach those who aren't immune, like babies and people with weak immune systems. That's <KeyTerm def="Protection of a whole community when a large enough share of people are immune, so a disease can't spread easily.">herd immunity</KeyTerm>.
+</ConceptCard>
+
+<Stage kind="apply" title="Calculate and debate" />
+
+<Inquiry criterion="C" title="Find the threshold">
+For each disease in the simulator, find the lowest vaccination rate at which fewer than 200 people catch it. Compare your results with the 1 − 1/R₀ formula.
+</Inquiry>
+
+<Inquiry criterion="D" title="Vaccines for school entry?">
+Should measles vaccination be required to join school? Give arguments on both sides and your conclusion.
+</Inquiry>
+
+<CbseCorner source="Class 8 Curiosity Ch 3">
+- **Vaccination** protects individuals and the community.
+- Mass immunisation programmes (such as Pulse Polio) eliminated polio from India.
+</CbseCorner>
+
+<Reflect id="bio-health-herd" prompt="How is getting vaccinated a way of looking after other people, not just yourself?" />

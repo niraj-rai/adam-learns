@@ -1,0 +1,139 @@
+{
+  "topicId": "herd-immunity",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What does R₀ = 15 mean for measles?",
+      "options": [
+        "15 people die",
+        "One ill person infects about 15 others in a population with no immunity",
+        "It lasts 15 days",
+        "15% of people get it"
+      ],
+      "answer": 1,
+      "explain": "Measles is one of the most contagious diseases."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A disease has R₀ = 4. What percentage of people must be immune for herd immunity? (Use 1 − 1/R₀.)",
+      "answer": 75,
+      "tolerance": 0,
+      "unit": "%",
+      "explain": "1 − 1/4 = 0.75 = 75%."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Outbreak Simulator, what happened to measles when the vaccination rate went above about 93%?",
+      "options": [
+        "It spread to everyone",
+        "The outbreak fizzled out",
+        "Nothing changed",
+        "It became flu"
+      ],
+      "answer": 1,
+      "explain": "Above the threshold, each case infects fewer than one new person."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Who is protected by herd immunity?",
+      "options": [
+        "Only vaccinated people",
+        "Also people who can't be vaccinated, like newborns and people with weak immune systems",
+        "Only doctors",
+        "No one"
+      ],
+      "answer": 1,
+      "explain": "The germ can't find enough people to spread to."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Order these diseases by how high the vaccination rate must be for herd immunity: low or high?",
+      "bins": [
+        "Lower threshold",
+        "Higher threshold"
+      ],
+      "items": [
+        {
+          "label": "Seasonal flu (R₀ ≈ 1.5)",
+          "bin": 0
+        },
+        {
+          "label": "Measles (R₀ ≈ 15)",
+          "bin": 1
+        },
+        {
+          "label": "Polio (R₀ ≈ 6)",
+          "bin": 1
+        },
+        {
+          "label": "A disease with R₀ ≈ 2",
+          "bin": 0
+        }
+      ],
+      "explain": "The higher R₀, the higher the threshold."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Should vaccination against measles be required for children to join school? Give arguments for and against, and your conclusion.",
+      "modelAnswer": "For: measles is extremely contagious and can cause serious illness; about 95% coverage is needed for herd immunity, and schools are places where it spreads easily; requiring vaccination protects babies and children who cannot be vaccinated. Against: it may feel like it removes parents' choice; families without easy access to health centres could be unfairly excluded; there should be exceptions for medical reasons. Conclusion: requiring vaccination, with medical exemptions and free, easy access to vaccines, is reasonable to protect everyone.",
+      "rubric": [
+        "A valid argument for (herd immunity, protection)",
+        "A valid argument against (choice, access)",
+        "A reasoned conclusion with safeguards"
+      ],
+      "explain": "Criterion D: public health ethics."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the difference between an epidemic and a pandemic?",
+      "options": [
+        "No difference",
+        "An epidemic is a big outbreak in one region; a pandemic spreads across many countries or the world",
+        "A pandemic is smaller",
+        "Epidemics only affect animals"
+      ],
+      "answer": 1,
+      "explain": "COVID-19 was declared a pandemic in 2020."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "When enough people are immune that a disease can't spread easily, even unvaccinated people are protected. This is called ___ immunity.",
+      "blanks": [
+        [
+          "herd"
+        ]
+      ],
+      "wordBank": [
+        "herd",
+        "natural",
+        "personal"
+      ],
+      "explain": "Also called community immunity."
+    }
+  ]
+}

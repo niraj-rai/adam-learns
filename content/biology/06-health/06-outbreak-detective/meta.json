@@ -1,0 +1,54 @@
+{
+  "id": "outbreak-detective",
+  "number": "6.6",
+  "title": "Boss Challenge: Outbreak Detective",
+  "summary": "A cholera outbreak hits a town. Identify the disease, map the cases, find the contaminated well and stop it.",
+  "emoji": "🗺️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task: using evidence to solve a public-health problem (Criteria A and C)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 3: Health: The Ultimate Treasure",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 2: Microorganisms: Friend and Foe",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can use a map of cases as evidence to find the source of an outbreak.",
+    "I can recommend actions to stop a water-borne outbreak."
+  ],
+  "misconceptions": [
+    "Outbreaks are just bad luck, with no pattern."
+  ],
+  "prerequisites": [
+    "biology/health/preventing-spread"
+  ],
+  "labs": [
+    "outbreak-detective"
+  ],
+  "keyTerms": [
+    "epidemiology",
+    "cholera",
+    "source",
+    "ORS",
+    "sanitation"
+  ],
+  "estMinutes": 15
+}

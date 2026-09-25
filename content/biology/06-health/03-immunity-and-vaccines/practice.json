@@ -1,0 +1,145 @@
+{
+  "topicId": "immunity-and-vaccines",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which blood cells fight infection?",
+      "options": [
+        "Red blood cells",
+        "White blood cells",
+        "Platelets",
+        "Plasma"
+      ],
+      "answer": 1,
+      "explain": "Some engulf germs; others make antibodies."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Immune Memory graph, how did the second response compare with the first?",
+      "options": [
+        "Slower and smaller",
+        "Faster and much larger",
+        "The same",
+        "It didn't happen"
+      ],
+      "answer": 1,
+      "explain": "Memory cells recognise the germ at once."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How does a vaccine protect you?",
+      "options": [
+        "It kills all germs in your body",
+        "It trains your immune system with a harmless form of the germ, so memory cells are ready",
+        "It is an antibiotic",
+        "It makes blood thicker"
+      ],
+      "answer": 1,
+      "explain": "The vaccine is a safe ‘first meeting’."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Who made the first vaccine, against smallpox, in 1796?",
+      "options": [
+        "Edward Jenner",
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Robert Hooke"
+      ],
+      "answer": 0,
+      "explain": "Smallpox was declared eradicated worldwide in 1980."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In a first response, antibodies peak on day 12. In a second response, they peak on day 5. How many days sooner is the second peak?",
+      "answer": 7,
+      "tolerance": 0,
+      "unit": "days",
+      "explain": "12 − 5 = 7 days sooner."
+    },
+    {
+      "id": "q6",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Antibiotic or vaccine?",
+      "bins": [
+        "Antibiotic",
+        "Vaccine"
+      ],
+      "items": [
+        {
+          "label": "Given to healthy babies to prevent measles",
+          "bin": 1
+        },
+        {
+          "label": "Kills bacteria causing an infection",
+          "bin": 0
+        },
+        {
+          "label": "Trains the immune system",
+          "bin": 1
+        },
+        {
+          "label": "Penicillin",
+          "bin": 0
+        },
+        {
+          "label": "Polio drops",
+          "bin": 1
+        }
+      ],
+      "explain": "Vaccines prevent; antibiotics treat bacterial infections."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Some families hesitate to vaccinate their children because of rumours. As a health volunteer, how would you respond, using science?",
+      "modelAnswer": "Listen to their worries respectfully. Explain that a vaccine contains a weakened, killed or harmless part of a germ, which cannot cause the full disease but trains memory cells so the child is protected. Share evidence: vaccines ended smallpox and made India polio-free, and serious side effects are very rare compared with the dangers of diseases like measles. Explain that vaccinating also protects babies and others who can't be vaccinated. Point them to their local health centre and doctors for trusted information.",
+      "rubric": [
+        "Respectful, listening approach",
+        "Accurate explanation of how vaccines work",
+        "Evidence of benefits (e.g. polio, smallpox)",
+        "Community benefit / trusted sources"
+      ],
+      "explain": "Criterion D: communicate science responsibly."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Proteins made by white blood cells that lock onto specific germs are called ___.",
+      "blanks": [
+        [
+          "antibodies"
+        ]
+      ],
+      "wordBank": [
+        "antibodies",
+        "antibiotics",
+        "enzymes"
+      ],
+      "explain": "Antibodies are made by the body; antibiotics are medicines."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "topicId": "healthy-lifestyle",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which habits lower the risk of heart disease and type 2 diabetes? Choose all that apply.",
+      "options": [
+        "Daily physical activity",
+        "A balanced diet with plenty of vegetables",
+        "Eating fried snacks every day",
+        "Not using tobacco",
+        "Getting enough sleep"
+      ],
+      "answer": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "explain": "Healthy habits prevent many non-communicable diseases."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "The recommended physical activity for teenagers is at least 60 minutes a day. How many hours is that in a week?",
+      "answer": 7,
+      "tolerance": 0,
+      "unit": "hours",
+      "explain": "60 minutes × 7 days = 420 minutes = 7 hours."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Healthy Day Planner, a day with 6 hours of sleep and 5 hours of screen time scored low. Which change helps most?",
+      "options": [
+        "More junk food",
+        "More sleep and less screen time",
+        "Less water",
+        "Skipping breakfast"
+      ],
+      "answer": 1,
+      "explain": "Teenagers need 9–11 hours of sleep; screens before bed disturb sleep."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is type 2 diabetes described as a lifestyle-related disease?",
+      "options": [
+        "It is caused by a virus",
+        "Its risk is strongly linked to diet, activity and weight, as well as genes",
+        "It spreads through touch",
+        "It only affects children"
+      ],
+      "answer": 1,
+      "explain": "Healthy habits greatly reduce the risk."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is part of good mental health?",
+      "options": [
+        "Never talking about feelings",
+        "Talking to trusted people, rest, and time with friends and nature",
+        "Staying on screens all night",
+        "Skipping meals"
+      ],
+      "answer": 1,
+      "explain": "Health includes mental and social wellbeing."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "India has a growing number of people with type 2 diabetes. Suggest three changes a school could make to help students build healthy habits, and justify each.",
+      "modelAnswer": "1) A daily activity period or sports and yoga for all students, since regular activity keeps weight healthy and the body using sugar well. 2) Healthier canteens: millets, fruit, and fewer fried and sugary items, and water instead of cola, which lowers sugar and fat intake. 3) Lessons and campaigns on sleep, screen time and nutrition, involving parents, because habits formed young tend to last for life. These reduce the risk factors for type 2 diabetes.",
+      "rubric": [
+        "Three concrete changes",
+        "Each justified with a risk factor",
+        "Realistic for a school"
+      ],
+      "explain": "Criterion D: prevention in the community."
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Healthy habit or unhealthy habit?",
+      "bins": [
+        "Healthy",
+        "Unhealthy"
+      ],
+      "items": [
+        {
+          "label": "Walking or cycling to school",
+          "bin": 0
+        },
+        {
+          "label": "Using a phone in bed late at night",
+          "bin": 1
+        },
+        {
+          "label": "Five servings of fruit and vegetables",
+          "bin": 0
+        },
+        {
+          "label": "Two cans of cola a day",
+          "bin": 1
+        },
+        {
+          "label": "Nine hours of sleep",
+          "bin": 0
+        }
+      ],
+      "explain": "Small daily choices add up."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Diseases that are not caused by germs and cannot spread from person to person are called ___ diseases.",
+      "blanks": [
+        [
+          "non-communicable"
+        ]
+      ],
+      "wordBank": [
+        "non-communicable",
+        "communicable",
+        "infectious"
+      ],
+      "explain": "Examples: diabetes, heart disease, some cancers."
+    }
+  ]
+}

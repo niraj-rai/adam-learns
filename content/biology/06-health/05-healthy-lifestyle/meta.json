@@ -1,0 +1,56 @@
+{
+  "id": "healthy-lifestyle",
+  "number": "6.5",
+  "title": "A Healthy Lifestyle",
+  "summary": "Sleep, activity, screen time and diet: preventing non-communicable diseases like type 2 diabetes and heart disease.",
+  "emoji": "🗓️",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Links to MYP Physical and Health Education"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 3: Health: The Ultimate Treasure",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe lifestyle factors that affect health.",
+    "I can link habits to the risk of non-communicable diseases.",
+    "I can plan and justify a healthy daily routine."
+  ],
+  "misconceptions": [
+    "Non-communicable diseases only affect old people.",
+    "Sleep is wasted time.",
+    "Being thin always means being healthy."
+  ],
+  "prerequisites": [
+    "biology/health/health-and-disease",
+    "biology/nutrition/balanced-diet"
+  ],
+  "labs": [
+    "lifestyle-planner"
+  ],
+  "keyTerms": [
+    "lifestyle",
+    "non-communicable disease",
+    "type 2 diabetes",
+    "obesity",
+    "physical activity",
+    "sleep",
+    "mental health"
+  ],
+  "estMinutes": 20
+}

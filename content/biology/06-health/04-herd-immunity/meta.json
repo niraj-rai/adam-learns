@@ -1,0 +1,54 @@
+{
+  "id": "herd-immunity",
+  "number": "6.4",
+  "title": "Outbreaks and Herd Immunity",
+  "summary": "R₀, outbreak curves, and why vaccinating most people protects everyone, including newborn babies.",
+  "emoji": "📈",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "SIR modelling links to MYP Maths (exponential growth)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 3: Health: The Ultimate Treasure",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can interpret an outbreak curve.",
+    "I can explain R₀ and calculate the herd-immunity threshold.",
+    "I can evaluate vaccination policies using evidence."
+  ],
+  "misconceptions": [
+    "Vaccination only protects the person vaccinated.",
+    "Every disease needs the same vaccination rate for herd immunity.",
+    "Outbreaks grow at a steady rate."
+  ],
+  "prerequisites": [
+    "biology/health/immunity-and-vaccines"
+  ],
+  "labs": [
+    "outbreak-sim"
+  ],
+  "keyTerms": [
+    "outbreak",
+    "epidemic",
+    "pandemic",
+    "R₀ (basic reproduction number)",
+    "herd immunity",
+    "immunisation"
+  ],
+  "estMinutes": 25
+}

@@ -64,12 +64,23 @@
 | 5.4 | Bones, joints and muscles | MYP 1 | Earlier NCERT 6 Ch 8 ✅ | ★ | **Joints and Muscles**: biceps/triceps arm, 5 joint types |
 | 5.5 | Boss: Marathon Medic | MYP 3 | Cur-7 Ch 9 ✅ | ★★★ | Read a runner's data across 6 checkpoints (3 lives) |
 
-### Units 6–8 (planned)
+### Unit 6: Health and Disease ✅ built
+*IB Key Concept:* **Relationships** · *Related:* Consequences, Interaction, Evidence · *Global Context:* Fairness and development
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 6.1 | Health, communicable and non-communicable diseases | MYP 2 | Cur-8 Ch 3 ✅ | ★ | **How Does It Spread?**: 12 diseases × 5 routes |
+| 6.2 | Stopping the spread | MYP 3 | Cur-8 Ch 3 ✅ | ★★ | **Germ Spread Classroom**: grid simulation, 4 measures, averages over 60 runs |
+| 6.3 | Immunity and vaccines | MYP 3 | Cur-8 Ch 3 ✅ | ★★ | **Immune Memory**: primary vs secondary response graph |
+| 6.4 | Outbreaks and herd immunity | MYP 3 | Cur-8 Ch 3 ✅ | ★★★ | **Outbreak Simulator**: SIR model, R₀, 1 − 1/R₀ |
+| 6.5 | A healthy lifestyle | MYP 2 | Cur-8 Ch 3 ✅ | ★ | **Healthy Day Planner**: sleep, activity, screens, diet |
+| 6.6 | Boss: Outbreak Detective | MYP 3 | Cur-8 Ch 3 ✅ | ★★★ | Cholera map (John Snow style), 6 steps (3 lives) |
+
+### Units 7–8 (planned)
 
 
 | Unit | Topics | IB | CBSE | ★ | Signature labs |
 |---|---|---|---|---|---|
-| 6. Health & Disease | Immunity, communicable diseases, vaccination, hygiene | MYP 3 | Cur-8 Ch3 ⚠️ | ★★ | **Outbreak sim** (vaccination rate slider) |
 | 7. Reproduction & Adolescence | Plant reproduction, animal reproduction, puberty, hormones (age-appropriate) | MYP 2–3 | 7, Old-8 Ch9–10 | ★★★ | Flower dissection (label), Life-cycle sequencer |
 | 8. Ecosystems & Conservation | Food chains and webs, habitats, adaptation, biodiversity, conservation, Western Ghats | MYP 1–3 | 6, 7, Old-8 Ch7 | ★★ | **Ecosystem Balance** sim (predator/prey) |
 
