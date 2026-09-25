@@ -1,0 +1,123 @@
+{
+  "topicId": "inside-the-atom",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each particle to its charge.",
+      "pairs": [
+        { "left": "Proton", "right": "+1" },
+        { "left": "Neutron", "right": "0 (neutral)" },
+        { "left": "Electron", "right": "−1" }
+      ],
+      "explain": "Protons positive, neutrons neutral, electrons negative."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where is each particle found?",
+      "bins": ["In the nucleus", "Around the nucleus (shells)"],
+      "items": [
+        { "label": "Proton", "bin": 0 },
+        { "label": "Neutron", "bin": 0 },
+        { "label": "Electron", "bin": 1 }
+      ],
+      "explain": "Protons and neutrons are in the nucleus; electrons are in shells around it."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "Sodium has atomic number 11 and mass number 23. How many NEUTRONS does it have?",
+      "answer": 12,
+      "tolerance": 0,
+      "unit": "neutrons",
+      "explain": "23 − 11 = 12 neutrons."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "An atom has 17 protons and 18 neutrons. What is its mass number?",
+      "answer": 35,
+      "tolerance": 0,
+      "explain": "Mass number = protons + neutrons = 35 (chlorine-35)."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "How many ELECTRONS are in a magnesium ion, Mg²⁺ (atomic number 12)?",
+      "answer": 10,
+      "tolerance": 0,
+      "unit": "electrons",
+      "hint": "2+ means it LOST 2 electrons.",
+      "explain": "12 − 2 = 10 electrons."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The atomic number of an element tells you the number of…",
+      "options": ["neutrons", "protons", "protons + neutrons", "shells"],
+      "answer": 1,
+      "explain": "Atomic number = number of protons."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "An atom gains one electron. It becomes…",
+      "options": ["a different element", "a positive ion", "a negative ion", "a heavier isotope"],
+      "answer": 2,
+      "feedback": { "0": "Only changing the number of protons changes the element." },
+      "explain": "More electrons than protons → negative ion."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "Mass number = number of protons + number of ___. In a neutral atom, the number of electrons equals the number of ___.",
+      "blanks": [["neutrons"], ["protons"]],
+      "wordBank": ["neutrons", "protons", "electrons", "shells"],
+      "explain": "Electrons are too light to count in the mass number; in a neutral atom, electrons = protons."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Particle X has 8 protons, 8 neutrons and 10 electrons. What is it?",
+      "options": ["A neutral oxygen atom", "An oxide ion, O²⁻", "A neon atom", "An oxygen ion O²⁺"],
+      "answer": 1,
+      "explain": "8 protons = oxygen; 2 extra electrons = 2− charge: the oxide ion O²⁻."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Explain why the mass of an atom is almost all in its nucleus.",
+      "modelAnswer": "The nucleus contains the protons and neutrons, which each have a relative mass of 1. Electrons have a tiny mass (about 1/1840 of a proton), so even though they take up most of the space, they add almost nothing to the mass.",
+      "rubric": [
+        "Protons and neutrons are in the nucleus and have mass 1",
+        "Electrons have a very tiny mass",
+        "So nearly all mass is in the nucleus"
+      ],
+      "explain": "Nucleus = almost all the mass, tiny volume; electrons = almost all the volume, tiny mass."
+    }
+  ]
+}

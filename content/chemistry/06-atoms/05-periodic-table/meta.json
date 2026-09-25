@@ -1,0 +1,33 @@
+{
+  "id": "periodic-table",
+  "number": "6.5",
+  "title": "Meeting the Periodic Table",
+  "summary": "How Mendeleev organised the elements, what groups and periods mean, and where metals and non-metals sit, for the first 20 elements.",
+  "emoji": "🗂️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Periodic trends are developed in MYP 4" },
+    "cbse": [
+      { "class": 11, "chapter": "Ch 3: Classification of Elements and Periodicity in Properties (moved from Class 10 in the rationalised syllabus)", "verified": false },
+      { "class": 9, "chapter": "Ch 4: Structure of the Atom (electron arrangement links to groups)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C", "D"],
+  "objectives": [
+    "I can describe how the periodic table is arranged by atomic number into groups and periods.",
+    "I can locate metals, non-metals and metalloids on the table.",
+    "I can link group number to outer electrons and period number to electron shells.",
+    "I can explain how Mendeleev used the table to predict undiscovered elements."
+  ],
+  "misconceptions": [
+    "The table is arranged in alphabetical order or by discovery date.",
+    "Rows and columns mean the same thing.",
+    "All the elements were known when the table was made."
+  ],
+  "prerequisites": ["chemistry/atoms/electron-shells"],
+  "labs": ["periodic-explorer"],
+  "keyTerms": ["periodic table", "group", "period", "atomic number", "metalloid", "Mendeleev"],
+  "estMinutes": 25
+}

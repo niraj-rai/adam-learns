@@ -2,7 +2,7 @@
 
 An interactive learning website for a Grade 8 student at an IB school in Bengaluru. It is aligned to **IB MYP** and cross-mapped to **CBSE/NCERT**, so each topic works for both boards.
 
-**Status:** Phase 1 in progress. Chemistry **Unit 1: Matter** is live (6 topics, 5 labs).
+**Status:** Phase 1 complete. **Chemistry up to Grade 8** is built: 6 units, 41 topics, 41 labs, 400 practice questions. Next: Physics and Mathematics (Phase 3), or Chemistry Grades 9–10 (Phase 2).
 
 ## Run it locally
 

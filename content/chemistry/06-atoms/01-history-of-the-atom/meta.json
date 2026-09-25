@@ -1,0 +1,31 @@
+{
+  "id": "history-of-the-atom",
+  "number": "6.1",
+  "title": "The Story of the Atom",
+  "summary": "From Kanad's paramanu to Dalton's solid spheres, Thomson's plum pudding, Rutherford's nucleus and Bohr's shells: how evidence changed our model of the atom.",
+  "emoji": "🥇",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Excellent context for the nature of science: models change with evidence" },
+    "cbse": [
+      { "class": 9, "chapter": "Ch 3: Atoms and Molecules (Dalton's atomic theory); Ch 4: Structure of the Atom (Thomson, Rutherford, Bohr)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C", "D"],
+  "objectives": [
+    "I can describe how the model of the atom developed: Kanad, Dalton, Thomson, Rutherford, Bohr.",
+    "I can explain what Rutherford's gold foil experiment showed and why it changed the model.",
+    "I can explain why scientific models change when new evidence appears."
+  ],
+  "misconceptions": [
+    "Atoms are solid little balls with nothing inside.",
+    "Scientists always knew what atoms look like.",
+    "An old model being replaced means those scientists were bad at science."
+  ],
+  "prerequisites": ["chemistry/mixtures/elements-compounds-mixtures"],
+  "labs": ["gold-foil"],
+  "keyTerms": ["atom", "model", "Dalton's atomic theory", "electron", "nucleus", "alpha particle", "plum pudding model", "nuclear model"],
+  "estMinutes": 25
+}

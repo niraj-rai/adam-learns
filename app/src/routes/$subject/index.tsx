@@ -87,8 +87,8 @@ function SubjectPage() {
         <li className="relative">
           <span className="absolute top-3 -left-[42px] grid size-8 place-items-center rounded-full bg-muted font-heading font-bold text-muted-foreground">+</span>
           <div className="rounded-3xl border-2 border-dashed p-5 text-muted-foreground">
-            <p className="font-heading text-lg font-semibold">Coming next</p>
-            <p className="text-sm">Unit 6: Atoms &amp; the Periodic Table · then Grades 9–10: atomic structure, bonding, the mole…</p>
+            <p className="font-heading text-lg font-semibold">Coming next: Grades 9–10</p>
+            <p className="text-sm">Atomic structure in depth · Chemical bonding · The mole · Chemical equations · Rates & energy · Carbon compounds · …</p>
           </div>
         </li>
       </ol>

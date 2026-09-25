@@ -1,0 +1,128 @@
+{
+  "topicId": "history-of-the-atom",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Put the models of the atom in the order they were proposed.",
+      "steps": ["Kanad's paramanu (idea)", "Dalton's solid spheres", "Thomson's plum pudding", "Rutherford's nuclear model", "Bohr's shells"],
+      "explain": "Each model built on or replaced the one before, as new evidence appeared."
+    },
+    {
+      "id": "q2",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each scientist to their discovery or idea.",
+      "pairs": [
+        { "left": "J.J. Thomson", "right": "Discovered the electron" },
+        { "left": "Ernest Rutherford", "right": "Discovered the nucleus" },
+        { "left": "Niels Bohr", "right": "Electrons in fixed shells" },
+        { "left": "James Chadwick", "right": "Discovered the neutron" },
+        { "left": "John Dalton", "right": "First scientific atomic theory" }
+      ],
+      "explain": "Each scientist added a key piece to the atomic model."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "In the gold foil experiment, MOST alpha particles went straight through. This shows that…",
+      "options": ["the atom is mostly empty space", "gold is a liquid", "the atom is a solid ball", "alpha particles are very small"],
+      "answer": 0,
+      "explain": "If most particles meet nothing, most of the atom must be empty space."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A very few alpha particles bounced straight back. What did this suggest?",
+      "options": [
+        "Electrons are very heavy",
+        "There is a tiny, dense, positively charged nucleus",
+        "The foil was too thick",
+        "Atoms are made of pudding"
+      ],
+      "answer": 1,
+      "explain": "Only a tiny, heavy, positive centre could turn a fast positive particle all the way round."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What did Thomson's plum pudding model look like?",
+      "options": [
+        "A solid sphere with nothing inside",
+        "Negative electrons dotted through a ball of positive charge",
+        "A tiny nucleus with electrons in shells",
+        "A cube of protons"
+      ],
+      "answer": 1,
+      "explain": "Like plums (electrons) in a pudding (positive charge)."
+    },
+    {
+      "id": "q6",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The ancient Indian philosopher ___ called the smallest particles of matter ___.",
+      "blanks": [["Kanad", "Kanada", "Maharishi Kanad"], ["paramanu", "parmanu"]],
+      "wordBank": ["Kanad", "paramanu", "Dalton", "atomos"],
+      "explain": "Maharishi Kanad described paramanu over 2,000 years ago."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Why was the plum pudding model replaced?",
+      "options": [
+        "Thomson was a careless scientist",
+        "New experimental evidence (gold foil results) could not be explained by it",
+        "It was too simple to draw",
+        "Rutherford didn't like puddings"
+      ],
+      "answer": 1,
+      "explain": "Models are replaced when new evidence doesn't fit. That's how science progresses."
+    },
+    {
+      "id": "q8",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which were parts of Dalton's atomic theory? Choose all that apply.",
+      "options": [
+        "All matter is made of tiny particles called atoms",
+        "Atoms of the same element are identical",
+        "Atoms combine in simple whole-number ratios to form compounds",
+        "Atoms contain electrons",
+        "Atoms have a tiny nucleus"
+      ],
+      "answer": [0, 1, 2],
+      "explain": "Electrons (1897) and the nucleus (1911) were discovered after Dalton."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Describe the three main observations of Rutherford's gold foil experiment and what each one showed.",
+      "modelAnswer": "1) Most alpha particles passed straight through, so the atom is mostly empty space. 2) Some were deflected by small angles, so there is a positive charge that repels them. 3) Very few bounced back, so the positive charge and most of the mass is concentrated in a tiny, dense nucleus.",
+      "rubric": [
+        "Most went through → mostly empty space",
+        "Some deflected → positive charge inside",
+        "Very few bounced back → tiny, dense nucleus"
+      ],
+      "explain": "Each observation leads to one conclusion. Link them clearly."
+    }
+  ]
+}

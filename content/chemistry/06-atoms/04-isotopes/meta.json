@@ -1,0 +1,31 @@
+{
+  "id": "isotopes",
+  "number": "6.4",
+  "title": "Isotopes",
+  "summary": "Same element, different mass: isotopes, carbon dating, and radioactive isotopes used in medicine and energy.",
+  "emoji": "⚖️",
+  "complexity": 3,
+  "level": "L2",
+  "core": false,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 4, "note": "Extension: relative atomic mass calculations follow in MYP 4" },
+    "cbse": [
+      { "class": 9, "chapter": "Ch 4: Structure of the Atom (isotopes and isobars, applications)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C", "D"],
+  "objectives": [
+    "I can define isotopes and identify them from atomic and mass numbers.",
+    "I can explain why isotopes of an element have the same chemical properties.",
+    "I can describe uses of isotopes in medicine, archaeology and energy."
+  ],
+  "misconceptions": [
+    "Isotopes are different elements.",
+    "All isotopes are radioactive and dangerous.",
+    "Isotopes have different numbers of protons."
+  ],
+  "prerequisites": ["chemistry/atoms/inside-the-atom"],
+  "labs": ["atom-builder"],
+  "keyTerms": ["isotope", "radioactive", "carbon dating", "relative atomic mass", "isobar"],
+  "estMinutes": 20
+}

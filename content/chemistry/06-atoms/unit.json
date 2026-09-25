@@ -1,0 +1,32 @@
+{
+  "id": "atoms",
+  "number": 6,
+  "title": "Atoms & the Periodic Table",
+  "summary": "What is inside an atom, and how did scientists find out without ever seeing one? This unit follows the story from Kanad and Dalton to Rutherford and Bohr, builds atoms from protons, neutrons and electrons, explains electron shells and isotopes, and uses them to make sense of the periodic table.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": ["Models", "Patterns", "Evidence"],
+    "globalContext": "Orientation in space and time",
+    "statementOfInquiry": "Scientific models of the atom have changed over time as new evidence appeared, and the patterns they reveal let us organise and predict the behaviour of every element."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What particles is an atom made of, and where are they?",
+      "What do the atomic number and mass number tell us?",
+      "How is the periodic table arranged?"
+    ],
+    "conceptual": [
+      "Why do scientific models change over time?",
+      "How does the arrangement of electrons explain the patterns in the periodic table?"
+    ],
+    "debatable": [
+      "Is a model 'wrong' if it is later replaced by a better one?",
+      "Should the credit for a discovery go to the person with the idea or the person with the evidence?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 Ch 3: Atoms and Molecules (Dalton, atomic mass). Check against the current NCERT edition",
+    "Class 9 Ch 4: Structure of the Atom (Thomson, Rutherford, Bohr, shells, valency, isotopes). Check against the current NCERT edition",
+    "Class 11 Ch 3: Classification of Elements and Periodicity (the periodic table moved here from Class 10 in the rationalised syllabus)"
+  ]
+}

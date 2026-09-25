@@ -1,0 +1,31 @@
+{
+  "id": "inside-the-atom",
+  "number": "6.2",
+  "title": "Inside the Atom: Protons, Neutrons and Electrons",
+  "summary": "The three subatomic particles, atomic number, mass number, and how atoms become ions.",
+  "emoji": "⚛️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3 },
+    "cbse": [
+      { "class": 9, "chapter": "Ch 4: Structure of the Atom (atomic number, mass number)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C"],
+  "objectives": [
+    "I can describe the charge, mass and location of protons, neutrons and electrons.",
+    "I can use atomic number and mass number to find the numbers of each particle.",
+    "I can explain how atoms become positive or negative ions."
+  ],
+  "misconceptions": [
+    "Changing the number of neutrons or electrons changes the element (only protons do).",
+    "Electrons are in the nucleus.",
+    "An atom with more electrons is a different element."
+  ],
+  "prerequisites": ["chemistry/atoms/history-of-the-atom"],
+  "labs": ["atom-builder"],
+  "keyTerms": ["proton", "neutron", "electron", "nucleus", "atomic number", "mass number", "ion", "cation", "anion"],
+  "estMinutes": 25
+}

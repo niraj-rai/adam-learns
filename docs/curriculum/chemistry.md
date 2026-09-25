@@ -92,7 +92,7 @@
 
 ---
 
-### Unit 6: Atoms & the Periodic Table (bridge to L3)
+### Unit 6: Atoms & the Periodic Table (bridge to L3) ✅ built
 *IB Key Concept:* **Systems** · *Related:* Models, Patterns · *Global Context:* Orientation in space & time (history of the atom)
 
 | # | Topic | IB | CBSE | ★ | Interactive lab / experience | Practice highlights |

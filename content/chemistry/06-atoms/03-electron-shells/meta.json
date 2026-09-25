@@ -1,0 +1,31 @@
+{
+  "id": "electron-shells",
+  "number": "6.3",
+  "title": "Electron Shells and Valency",
+  "summary": "How electrons are arranged in shells (2, 8, 8), why the outer shell matters, and what valency means.",
+  "emoji": "🎯",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Foundation for bonding in MYP 4" },
+    "cbse": [
+      { "class": 9, "chapter": "Ch 4: Structure of the Atom (distribution of electrons, valency)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C"],
+  "objectives": [
+    "I can write the electron arrangement for the first 20 elements.",
+    "I can draw Bohr diagrams of atoms.",
+    "I can work out valence electrons and valency, and explain why full outer shells are stable."
+  ],
+  "misconceptions": [
+    "Electrons can go in any shell in any order.",
+    "Every shell holds 8 electrons (the first holds only 2).",
+    "Valency is always the number of outer electrons (for 5–7 outer electrons it is 8 minus that)."
+  ],
+  "prerequisites": ["chemistry/atoms/inside-the-atom"],
+  "labs": ["shell-builder"],
+  "keyTerms": ["electron shell", "energy level", "electronic configuration", "valence electrons", "valency", "octet"],
+  "estMinutes": 20
+}

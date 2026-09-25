@@ -1,0 +1,97 @@
+{
+  "topicId": "element-detective",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "An element has electronic configuration 2, 8, 7. Which is it?",
+      "options": ["Fluorine", "Chlorine", "Argon", "Sulfur"],
+      "answer": 1,
+      "explain": "2 + 8 + 7 = 17 electrons → chlorine."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "I am a noble gas with 2 electron shells. Who am I?",
+      "options": ["Helium", "Neon", "Argon", "Krypton"],
+      "answer": 1,
+      "explain": "Noble gas + 2 shells (2, 8) → neon."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "I am an alkali metal in period 4. Who am I?",
+      "options": ["Lithium", "Sodium", "Potassium", "Calcium"],
+      "answer": 2,
+      "explain": "Group 1 + period 4 → potassium (2, 8, 8, 1)."
+    },
+    {
+      "id": "q4",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Match each clue to its element.",
+      "pairs": [
+        { "left": "Atomic number 8; about 21% of air", "right": "Oxygen" },
+        { "left": "Metalloid used in computer chips", "right": "Silicon" },
+        { "left": "Lightest element", "right": "Hydrogen" },
+        { "left": "Group 2, period 4; in bones", "right": "Calcium" }
+      ],
+      "explain": "Combine structure, position and properties."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "An element is in group 15 and period 2. What is its atomic number?",
+      "answer": 7,
+      "tolerance": 0,
+      "hint": "Period 2 → 2 shells; group 15 → 5 outer electrons: 2, 5.",
+      "explain": "2 + 5 = 7 → nitrogen."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Element Y forms Y²⁻ ions and has 3 electron shells. Which element is it?",
+      "options": ["Oxygen", "Sulfur", "Magnesium", "Chlorine"],
+      "answer": 1,
+      "explain": "Gains 2 electrons → 6 outer electrons (group 16); 3 shells → period 3 → sulfur."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The number of electron shells tells you the ___, and the number of outer electrons tells you the ___.",
+      "blanks": [["period"], ["group"]],
+      "wordBank": ["period", "group", "mass", "charge"],
+      "explain": "Shells → period; outer electrons → group."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Element Z has 12 protons and 12 neutrons. Identify Z, give its electron arrangement, group and period, and one property.",
+      "modelAnswer": "Z is magnesium (12 protons), mass number 24. Electron arrangement 2, 8, 2, so it is in group 2 and period 3. It is a metal that burns with a bright white light (and reacts with acids to give hydrogen).",
+      "rubric": [
+        "Identified magnesium",
+        "Correct arrangement 2, 8, 2",
+        "Correct group 2 and period 3",
+        "A correct property"
+      ],
+      "explain": "Proton number → element → arrangement → position → properties."
+    }
+  ]
+}

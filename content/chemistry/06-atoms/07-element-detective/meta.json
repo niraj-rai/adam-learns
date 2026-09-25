@@ -1,0 +1,29 @@
+{
+  "id": "element-detective",
+  "number": "6.7",
+  "title": "Boss Challenge: Element Detective",
+  "summary": "Use everything you know about atoms, electron shells and the periodic table to identify 8 mystery elements from clues.",
+  "emoji": "🔎",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Unit summative-style task: applying knowledge of atomic structure and the periodic table (Criteria A and C)" },
+    "cbse": [
+      { "class": 9, "chapter": "Ch 4: Structure of the Atom", "verified": false },
+      { "class": 11, "chapter": "Ch 3: Classification of Elements", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C"],
+  "objectives": [
+    "I can identify an element from its atomic structure, position and properties.",
+    "I can combine several clues to reach a conclusion efficiently."
+  ],
+  "misconceptions": [
+    "One clue is always enough to identify an element."
+  ],
+  "prerequisites": ["chemistry/atoms/element-families", "chemistry/atoms/electron-shells"],
+  "labs": ["element-detective"],
+  "keyTerms": ["clue", "evidence", "periodic table", "electron arrangement"],
+  "estMinutes": 15
+}

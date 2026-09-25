@@ -15,6 +15,8 @@ export type BadgeId =
   | 'mystery-solver'
   | 'unit-metals'
   | 'materials-engineer'
+  | 'unit-atoms'
+  | 'element-detective'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -34,5 +36,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'mystery-solver': { title: 'Mystery Solver', emoji: '🕵️', description: 'Identified all six mystery bottles (Boss Challenge)' },
   'unit-metals': { title: 'Metal Master', emoji: '🔩', description: 'Mastered every core topic in Unit 5: Metals, Non-metals & Materials' },
   'materials-engineer': { title: 'Materials Engineer', emoji: '👷', description: 'Approved at least 4 of 6 engineering designs (Boss Challenge)' },
+  'unit-atoms': { title: 'Atom Architect', emoji: '⚛️', description: 'Mastered every core topic in Unit 6: Atoms & the Periodic Table' },
+  'element-detective': { title: 'Element Detective', emoji: '🔎', description: 'Solved the Element Detective mysteries (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

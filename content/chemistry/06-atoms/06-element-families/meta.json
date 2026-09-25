@@ -1,0 +1,31 @@
+{
+  "id": "element-families",
+  "number": "6.6",
+  "title": "Element Families: Groups 1, 17 and 18",
+  "summary": "The alkali metals, the halogens and the noble gases: same outer electrons, similar properties, and clear trends down each group.",
+  "emoji": "👨‍👩‍👧",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Group trends explained in more depth in MYP 4" },
+    "cbse": [
+      { "class": 11, "chapter": "Ch 3: Classification of Elements and Periodicity (periodic trends)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C"],
+  "objectives": [
+    "I can describe the properties of the alkali metals, halogens and noble gases.",
+    "I can describe the trends in reactivity down group 1 and group 17.",
+    "I can explain the properties of each group using outer electrons."
+  ],
+  "misconceptions": [
+    "Reactivity always increases down every group (it decreases down group 17).",
+    "Noble gases can never react with anything (a few heavy ones can form compounds).",
+    "Halogens are metals."
+  ],
+  "prerequisites": ["chemistry/atoms/periodic-table"],
+  "labs": ["element-families"],
+  "keyTerms": ["alkali metals", "halogens", "noble gases", "inert", "trend", "reactivity"],
+  "estMinutes": 20
+}
