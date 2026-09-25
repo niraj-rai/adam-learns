@@ -1,0 +1,55 @@
+{
+  "id": "vibrations",
+  "number": "5.1",
+  "title": "Sound Comes from Vibrations",
+  "summary": "Every sound starts with something vibrating: a tabla skin, a veena string, the air in a flute or your vocal cords.",
+  "emoji": "🪘",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Waves are formalised in MYP 4"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Class 8 Ch 13: Sound",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can explain that sound is produced by vibrating objects.",
+    "I can identify the vibrating part in different sound sources and instruments.",
+    "I can describe how the length of a vibrating object affects the pitch."
+  ],
+  "misconceptions": [
+    "Sound is made by air only.",
+    "Loud sounds come from big objects only.",
+    "Vibrations are always visible."
+  ],
+  "prerequisites": [
+    "physics/motion/types-of-motion"
+  ],
+  "labs": [
+    "vibration-lab"
+  ],
+  "keyTerms": [
+    "vibration",
+    "oscillation",
+    "vocal cords",
+    "larynx",
+    "membrane",
+    "frequency",
+    "hertz (Hz)"
+  ],
+  "estMinutes": 20
+}

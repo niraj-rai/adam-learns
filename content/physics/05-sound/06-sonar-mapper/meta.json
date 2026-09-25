@@ -1,0 +1,54 @@
+{
+  "id": "sonar-mapper",
+  "number": "5.6",
+  "title": "Boss Challenge: Sonar Mapper",
+  "summary": "Use echoes to map the seabed and find a sunken ship: SONAR in action.",
+  "emoji": "🚢",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task: echo calculations and data interpretation (Criteria A and C)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Class 8 Ch 13: Sound",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Sound (echo, SONAR, range of hearing)",
+        "verified": false
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can use speed = distance ÷ time with echoes to calculate depth.",
+    "I can interpret a depth profile to spot an unusual feature."
+  ],
+  "misconceptions": [
+    "For echoes, distance = speed × time (without halving)."
+  ],
+  "prerequisites": [
+    "physics/sound/how-sound-travels"
+  ],
+  "labs": [
+    "sonar-mapper"
+  ],
+  "keyTerms": [
+    "SONAR",
+    "echolocation",
+    "echo",
+    "speed of sound",
+    "ultrasound"
+  ],
+  "estMinutes": 15
+}

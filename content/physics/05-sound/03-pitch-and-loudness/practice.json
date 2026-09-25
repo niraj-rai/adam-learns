@@ -1,0 +1,173 @@
+{
+  "topicId": "pitch-and-loudness",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each property of a sound to what decides it.",
+      "pairs": [
+        {
+          "left": "Pitch",
+          "right": "Frequency"
+        },
+        {
+          "left": "Loudness",
+          "right": "Amplitude"
+        },
+        {
+          "left": "Unit of frequency",
+          "right": "Hertz (Hz)"
+        },
+        {
+          "left": "Unit of loudness",
+          "right": "Decibel (dB)"
+        }
+      ],
+      "explain": "Frequency → pitch; amplitude → loudness."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "The audible range of human hearing is about…",
+      "options": [
+        "2 Hz to 200 Hz",
+        "20 Hz to 20,000 Hz",
+        "200 Hz to 2,000,000 Hz",
+        "Any frequency"
+      ],
+      "answer": 1,
+      "explain": "Below 20 Hz is infrasound; above 20 kHz is ultrasound."
+    },
+    {
+      "id": "q3",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Infrasound, audible or ultrasound?",
+      "bins": [
+        "Infrasound (below 20 Hz)",
+        "Audible",
+        "Ultrasound (above 20 kHz)"
+      ],
+      "items": [
+        {
+          "label": "10 Hz rumble from an elephant",
+          "bin": 0
+        },
+        {
+          "label": "440 Hz musical note",
+          "bin": 1
+        },
+        {
+          "label": "50,000 Hz bat call",
+          "bin": 2
+        },
+        {
+          "label": "3,000 Hz whistle",
+          "bin": 1
+        },
+        {
+          "label": "Medical scan of a baby at 3 MHz",
+          "bin": 2
+        },
+        {
+          "label": "5 Hz vibration before an earthquake",
+          "bin": 0
+        }
+      ],
+      "explain": "Humans hear only 20–20,000 Hz."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A girl's voice usually has a higher pitch than a man's because…",
+      "options": [
+        "her vocal cords vibrate with a higher frequency",
+        "her voice is louder",
+        "she has bigger lungs",
+        "her amplitude is smaller"
+      ],
+      "answer": 0,
+      "explain": "Shorter, thinner vocal cords vibrate faster."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Wave Maker, the amplitude was doubled but the frequency was kept the same. What happened?",
+      "options": [
+        "The pitch went up",
+        "The sound got louder; the pitch stayed the same",
+        "The sound got quieter",
+        "The waves got closer together"
+      ],
+      "answer": 1,
+      "explain": "Amplitude affects loudness, not pitch."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A note has a frequency of 500 Hz. How long does ONE vibration take, in milliseconds?",
+      "answer": 2,
+      "tolerance": 0,
+      "unit": "ms",
+      "hint": "Time for one vibration = 1 ÷ frequency",
+      "explain": "1 ÷ 500 = 0.002 s = 2 ms."
+    },
+    {
+      "id": "q7",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which are uses of ultrasound? Choose all that apply.",
+      "options": [
+        "Scanning babies before birth",
+        "Cleaning jewellery and delicate parts",
+        "Bats finding insects",
+        "Dog whistles",
+        "Listening to music"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explain": "Music is audible sound."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "A sound with a higher frequency has a higher ___. A sound with a bigger amplitude is ___.",
+      "blanks": [
+        [
+          "pitch"
+        ],
+        [
+          "louder"
+        ]
+      ],
+      "wordBank": [
+        "pitch",
+        "louder",
+        "quieter",
+        "slower"
+      ],
+      "explain": "Frequency ↔ pitch; amplitude ↔ loudness."
+    }
+  ]
+}

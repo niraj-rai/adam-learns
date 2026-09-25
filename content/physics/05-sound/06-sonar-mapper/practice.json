@@ -1,0 +1,125 @@
+{
+  "topicId": "sonar-mapper",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A ship's sonar pulse returns after 0.4 s. Sound travels at 1500 m/s in sea water. How deep is the sea?",
+      "answer": 300,
+      "tolerance": 0,
+      "unit": "m",
+      "explain": "1500 × 0.4 ÷ 2 = 300 m."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "The sea is 750 m deep. How long does a sonar echo take to return? (1500 m/s)",
+      "answer": 1,
+      "tolerance": 0,
+      "unit": "s",
+      "explain": "The sound travels 1500 m (down and back): 1500 ÷ 1500 = 1 s."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What does SONAR stand for?",
+      "options": [
+        "Sound Navigation And Ranging",
+        "Sonic Noise And Radio",
+        "Sea Ocean Navigation And Radar",
+        "Signal Of Natural Acoustic Rays"
+      ],
+      "answer": 0,
+      "explain": "SONAR uses sound echoes to find distances underwater."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do sonar systems use ultrasound rather than audible sound?",
+      "options": [
+        "Ultrasound travels in straight, narrow beams and doesn't disturb people",
+        "Ultrasound is louder",
+        "Ultrasound travels through a vacuum",
+        "Ultrasound is cheaper"
+      ],
+      "answer": 0,
+      "explain": "High-frequency sound makes a narrow beam, good for measuring precisely."
+    },
+    {
+      "id": "q5",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which animals use echolocation? Choose all that apply.",
+      "options": [
+        "Bats",
+        "Dolphins",
+        "Some whales",
+        "Cows",
+        "Butterflies"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "They send out sounds and listen for echoes to find food and obstacles."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Sonar depths along a line: 120, 135, 150, 118, 170, 185 m. What is the most likely explanation for 118 m?",
+      "options": [
+        "A measurement error only",
+        "Something standing up from the seabed, such as a rock or a wreck",
+        "The sea is getting shallower everywhere",
+        "The ship stopped moving"
+      ],
+      "answer": 1,
+      "explain": "A sudden shallow spot on an otherwise sloping seabed suggests an object on the bottom."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A student calculated depth = 1500 × 0.2 = 300 m for an echo time of 0.2 s. Explain the mistake and give the correct depth.",
+      "modelAnswer": "The echo time is for the sound to go down to the seabed AND back up again, so the sound travelled twice the depth. The distance 300 m must be halved: depth = 1500 × 0.2 ÷ 2 = 150 m.",
+      "rubric": [
+        "Identifies the there-and-back journey",
+        "Divides by 2",
+        "Correct depth 150 m"
+      ],
+      "explain": "The most common echo mistake is forgetting to halve."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the formula.",
+      "text": "Depth = speed of sound × echo time ÷ ___",
+      "blanks": [
+        [
+          "2"
+        ]
+      ],
+      "wordBank": [
+        "2",
+        "4",
+        "10"
+      ],
+      "explain": "Divide by 2 for the round trip."
+    }
+  ]
+}

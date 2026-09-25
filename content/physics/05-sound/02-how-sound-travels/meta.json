@@ -1,0 +1,60 @@
+{
+  "id": "how-sound-travels",
+  "number": "5.2",
+  "title": "How Sound Travels",
+  "summary": "Sound needs a medium. It travels fastest through solids, slower through liquids and slowest through gases, and not at all through a vacuum. Echoes are reflected sound.",
+  "emoji": "🔔",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Longitudinal waves formalised in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Class 8 Ch 13: Sound",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Sound (echo, SONAR, range of hearing)",
+        "verified": false
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can explain that sound needs a medium and cannot travel through a vacuum.",
+    "I can compare the speed of sound in solids, liquids and gases.",
+    "I can use echo times to calculate distances."
+  ],
+  "misconceptions": [
+    "Sound travels through empty space.",
+    "The air itself moves from the source to your ear.",
+    "Sound travels fastest in air."
+  ],
+  "prerequisites": [
+    "physics/sound/vibrations",
+    "chemistry/matter/states-of-matter"
+  ],
+  "labs": [
+    "sound-travel"
+  ],
+  "keyTerms": [
+    "medium",
+    "vacuum",
+    "compression",
+    "rarefaction",
+    "speed of sound",
+    "echo",
+    "reflection of sound"
+  ],
+  "estMinutes": 25
+}

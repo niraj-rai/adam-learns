@@ -1,0 +1,117 @@
+{
+  "topicId": "how-sound-travels",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "A ringing bell is placed in a jar and the air is pumped out. What happens?",
+      "options": [
+        "The sound gets louder",
+        "The sound gets fainter and finally can't be heard",
+        "The bell stops vibrating",
+        "Nothing changes"
+      ],
+      "answer": 1,
+      "explain": "Sound needs a medium; it cannot travel through a vacuum."
+    },
+    {
+      "id": "q2",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Order from the FASTEST speed of sound to the SLOWEST.",
+      "steps": [
+        "Steel",
+        "Wood",
+        "Water",
+        "Air"
+      ],
+      "explain": "Sound travels fastest in solids and slowest in gases."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why can't astronauts on a spacewalk talk to each other directly, without radios?",
+      "options": [
+        "Space is too cold",
+        "There is no air (medium) to carry sound",
+        "Their helmets are too thick",
+        "Sound is too slow in space"
+      ],
+      "answer": 1,
+      "explain": "Space is almost a vacuum."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "You shout towards a cliff and hear the echo 2 seconds later. The speed of sound is 340 m/s. How far away is the cliff?",
+      "answer": 340,
+      "tolerance": 0,
+      "unit": "m",
+      "hint": "The sound travels there AND back.",
+      "explain": "Distance = 340 × 2 ÷ 2 = 340 m."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "You see lightning and hear the thunder 6 seconds later. About how far away was the lightning? (Speed of sound = 340 m/s)",
+      "answer": 2040,
+      "tolerance": 10,
+      "unit": "m",
+      "explain": "Light arrives almost instantly; sound takes 6 s: 340 × 6 = 2040 m, about 2 km."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "When a sound wave passes through air, the air particles…",
+      "options": [
+        "travel all the way from the source to your ear",
+        "vibrate back and forth around their positions, passing the vibration on",
+        "stay completely still",
+        "move in circles"
+      ],
+      "answer": 1,
+      "explain": "The vibration travels; the particles only jiggle about their places."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is there no echo in a small, furnished bedroom?",
+      "options": [
+        "Small rooms absorb all sound",
+        "The reflected sound returns in less than 0.1 s and merges with the original sound",
+        "Furniture creates sound",
+        "Echoes only happen outdoors"
+      ],
+      "answer": 1,
+      "explain": "You need to be at least about 17 m from the reflecting surface to hear a separate echo; soft furnishings also absorb sound."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain, using particles, why sound travels faster in steel than in air.",
+      "modelAnswer": "In steel, the particles are packed very closely and strongly bonded to their neighbours, so when one particle vibrates it passes the vibration on almost immediately. In air, the particles are far apart and only pass on the vibration when they collide, so the vibration travels more slowly.",
+      "rubric": [
+        "Particles closer together in solids",
+        "Strong links pass vibrations quickly",
+        "Particles far apart in gases, so slower"
+      ],
+      "explain": "Link the particle model to the speed of sound."
+    }
+  ]
+}

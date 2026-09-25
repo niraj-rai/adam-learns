@@ -1,0 +1,54 @@
+{
+  "id": "hearing-and-noise",
+  "number": "5.5",
+  "title": "Hearing and Noise Pollution",
+  "summary": "How the ear turns vibrations into signals, the decibel scale, safe listening, and India's noise rules.",
+  "emoji": "👂",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Links to MYP Individuals & Societies (urban environments)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Class 8 Ch 13: Sound",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe how the ear detects sound (eardrum, ear bones, cochlea).",
+    "I can use the decibel scale and explain how loud sounds damage hearing.",
+    "I can evaluate ways to reduce noise pollution in my community."
+  ],
+  "misconceptions": [
+    "Hearing loss only happens to old people.",
+    "If a sound doesn't hurt, it can't damage your ears.",
+    "Noise is just annoying, not harmful."
+  ],
+  "prerequisites": [
+    "physics/sound/pitch-and-loudness"
+  ],
+  "labs": [
+    "noise-lab"
+  ],
+  "keyTerms": [
+    "eardrum",
+    "cochlea",
+    "decibel (dB)",
+    "noise pollution",
+    "silence zone",
+    "hearing loss"
+  ],
+  "estMinutes": 25
+}

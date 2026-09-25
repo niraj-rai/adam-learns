@@ -1,0 +1,153 @@
+{
+  "topicId": "hearing-and-noise",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Order the path of a sound through the ear.",
+      "steps": [
+        "Sound waves enter the ear canal",
+        "The eardrum vibrates",
+        "Three tiny ear bones pass on and amplify the vibrations",
+        "The cochlea turns vibrations into nerve signals",
+        "The brain interprets the signals as sound"
+      ],
+      "explain": "Vibrations → eardrum → bones → cochlea → brain."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Above about which sound level can long exposure damage hearing?",
+      "options": [
+        "30 dB",
+        "60 dB",
+        "85 dB",
+        "10 dB"
+      ],
+      "answer": 2,
+      "explain": "Sounds above 85 dB can damage the hair cells in the cochlea."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "85 dB is safe for 8 hours a day, and the safe time halves for every extra 3 dB. How many hours is safe at 91 dB?",
+      "answer": 2,
+      "tolerance": 0,
+      "unit": "hours",
+      "explain": "88 dB → 4 hours; 91 dB → 2 hours."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Does each action REDUCE noise pollution or ADD to it?",
+      "bins": [
+        "Reduces",
+        "Adds"
+      ],
+      "items": [
+        {
+          "label": "Planting trees along busy roads",
+          "bin": 0
+        },
+        {
+          "label": "Unnecessary honking",
+          "bin": 1
+        },
+        {
+          "label": "Using green crackers or none at all",
+          "bin": 0
+        },
+        {
+          "label": "Loudspeakers late at night",
+          "bin": 1
+        },
+        {
+          "label": "Sound barriers along flyovers",
+          "bin": 0
+        },
+        {
+          "label": "Pressure horns on buses",
+          "bin": 1
+        }
+      ],
+      "explain": "Trees and barriers absorb or block sound; horns and speakers add to it."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Under India's Noise Pollution Rules, which area has the LOWEST noise limits?",
+      "options": [
+        "Industrial area",
+        "Commercial area",
+        "Silence zone around hospitals and schools",
+        "Residential area"
+      ],
+      "answer": 2,
+      "explain": "Silence zones: 50 dB by day and 40 dB at night."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Each +10 dB sounds about twice as loud. How much louder does a 90 dB sound seem than a 70 dB sound?",
+      "options": [
+        "About 2 times",
+        "About 4 times",
+        "About 20 times",
+        "The same"
+      ],
+      "answer": 1,
+      "explain": "+10 dB doubles the loudness, and +20 dB doubles it twice: 2 × 2 = 4 times."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Many Indian cities have reported noise levels well above the legal limits during festivals. Propose a plan for your school or neighbourhood to celebrate joyfully with less noise. Justify each idea.",
+      "modelAnswer": "1) Agree a time limit for music and no loudspeakers after 10 pm, following the law and letting people sleep. 2) Point speakers away from homes and hospitals and keep the volume below 75 dB, checked with a sound-meter app. 3) Replace loud crackers with light shows, rangoli competitions or community music, which are joyful without harmful noise. 4) Run an awareness campaign about hearing damage, especially for babies, the elderly and animals. These reduce the harm while keeping the celebration.",
+      "rubric": [
+        "At least three concrete ideas",
+        "Each is justified by health, law or comfort",
+        "Balances celebration and wellbeing"
+      ],
+      "explain": "Criterion D: a responsible, justified solution."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Loudness is measured in ___. Unwanted, harmful sound is called noise ___.",
+      "blanks": [
+        [
+          "decibels",
+          "dB"
+        ],
+        [
+          "pollution"
+        ]
+      ],
+      "wordBank": [
+        "decibels",
+        "pollution",
+        "hertz",
+        "music"
+      ],
+      "explain": "Noise pollution is a real health hazard."
+    }
+  ]
+}

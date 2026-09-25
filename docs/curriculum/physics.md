@@ -60,10 +60,19 @@ Sea and land breezes are taught in Unit 2 (Cyclone Lab) and referenced from 3.5.
 | 4.6 | Colours of light: dispersion, rainbow, Newton’s disc | MYP 2 | Class 10 ⚠️ | ★★ | **Prism and Colour Lab**: prism, recombination, filters, spinning disc |
 | 4.7 | Boss: Laser Maze | MYP 3 | Cur-7 Ch 11, Cur-8 Ch 10 ✅ | ★★★ | 5 mirror-puzzle levels (minimum mirrors verified by brute-force tests) |
 
-### Unit 5: Sound
-| Topics | IB | CBSE | Signature labs |
-|---|---|---|---|
-| Vibration, pitch/frequency, loudness/amplitude, how we hear, noise pollution | MYP 2 | Previous NCERT Class 8 (Sound) ⚠️ | Wave Maker with audio, Jal Tarang simulator |
+### Unit 5: Sound ✅ built
+*IB Key Concept:* **Communication** · *Related:* Energy, Transfer, Function · *Global Context:* Identities and relationships
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 5.1 | Sound comes from vibrations | MYP 2 | Earlier NCERT 8 Ch 13 ✅ | ★ | **Vibration Lab**: ruler twang (real audio), what vibrates in each instrument |
+| 5.2 | How sound travels: medium, speed, echoes | MYP 3 | Earlier NCERT 8 Ch 13 ✅, Class 9 ⚠️ | ★★ | **How Sound Travels**: particle wave, speed race, bell jar, echo timer |
+| 5.3 | Pitch and loudness, hearing ranges | MYP 3 | Earlier NCERT 8 Ch 13 ✅, Class 9 ⚠️ | ★★ | **Wave Maker**: live tone generator, waveform, animal hearing ranges |
+| 5.4 | Music and instruments | MYP 2 | Earlier NCERT 8 Ch 13 ✅ | ★★ | **Music Lab**: tune a jal tarang to the sargam, veena string, bottle puzzle |
+| 5.5 | Hearing and noise pollution | MYP 3 | Earlier NCERT 8 Ch 13 ✅ | ★★ | **Noise Lab**: decibel ladder, safe times, India's noise rules, optional mic meter |
+| 5.6 | Boss: Sonar Mapper | MYP 3 | Earlier NCERT 8 Ch 13 ✅, Class 9 ⚠️ | ★★★ | Echo-time depth calculations, then find the shipwreck |
+
+Sound is not in the new Curiosity series (Classes 6–8), so it maps to the earlier NCERT Class 8 chapter and to Class 9.
 
 ### Unit 6: Electricity & Magnetism
 | Topics | IB | CBSE | Signature labs |

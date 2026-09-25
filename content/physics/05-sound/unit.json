@@ -1,0 +1,35 @@
+{
+  "id": "sound",
+  "number": 5,
+  "title": "Sound",
+  "summary": "Every sound begins with a vibration. Discover how sound travels, what makes pitch and loudness, how instruments from the veena to the jal tarang make music, how we hear, and how to protect our ears.",
+  "ib": {
+    "keyConcept": "Communication",
+    "relatedConcepts": [
+      "Energy",
+      "Transfer",
+      "Function"
+    ],
+    "globalContext": "Identities and relationships",
+    "statementOfInquiry": "Sound is energy carried by vibrations through a medium; understanding it helps us communicate, make music and protect our hearing."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "How is sound produced?",
+      "Why can't sound travel through a vacuum?",
+      "What decides the pitch and loudness of a sound?"
+    ],
+    "conceptual": [
+      "How do musical instruments control the pitch of their notes?",
+      "How do animals and ships use echoes to ‘see’ with sound?"
+    ],
+    "debatable": [
+      "Should festival loudspeakers and firecrackers face stricter noise limits?",
+      "Is noise pollution as serious as air pollution?"
+    ]
+  },
+  "cbseChapters": [
+    "Earlier NCERT Class 8 Ch 13: Sound (not in the Curiosity series)",
+    "Class 9: Sound (check against the current NCERT edition)"
+  ]
+}

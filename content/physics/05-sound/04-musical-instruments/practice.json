@@ -1,0 +1,150 @@
+{
+  "topicId": "musical-instruments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "String, percussion or wind instrument?",
+      "bins": [
+        "String",
+        "Percussion",
+        "Wind"
+      ],
+      "items": [
+        {
+          "label": "Sitar",
+          "bin": 0
+        },
+        {
+          "label": "Tabla",
+          "bin": 1
+        },
+        {
+          "label": "Shehnai",
+          "bin": 2
+        },
+        {
+          "label": "Veena",
+          "bin": 0
+        },
+        {
+          "label": "Mridangam",
+          "bin": 1
+        },
+        {
+          "label": "Bansuri",
+          "bin": 2
+        }
+      ],
+      "explain": "Strings vibrate in string instruments, membranes in drums, air columns in wind instruments."
+    },
+    {
+      "id": "q2",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which changes make a veena string play a HIGHER note? Choose all that apply.",
+      "options": [
+        "Pressing it on a fret to make it shorter",
+        "Tightening it by turning the peg",
+        "Using a thicker, heavier string",
+        "Plucking it harder"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explain": "Plucking harder makes it louder, not higher; thicker strings are lower."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the jal tarang, a bowl sounds too HIGH. What should you do?",
+      "options": [
+        "Pour some water out",
+        "Add a little water",
+        "Strike it harder",
+        "Use a smaller stick"
+      ],
+      "answer": 1,
+      "explain": "More water makes a struck bowl vibrate more slowly: a lower pitch."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "You add water to a bottle and BLOW across its mouth. What happens to the pitch, and why?",
+      "options": [
+        "It goes down, because there is more water to vibrate",
+        "It goes up, because the vibrating air column is shorter",
+        "It stays the same",
+        "It goes down, because the bottle is heavier"
+      ],
+      "answer": 1,
+      "explain": "When blowing, the air column vibrates; less air means higher pitch."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A string plays a 200 Hz note. Its vibrating length is halved (same tension). What is the new frequency?",
+      "answer": 400,
+      "tolerance": 0,
+      "unit": "Hz",
+      "explain": "Halving the length doubles the frequency."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How does a flute player (bansuri) play different notes?",
+      "options": [
+        "By blowing harder only",
+        "By covering and uncovering holes to change the length of the vibrating air column",
+        "By tightening the flute",
+        "By moving the flute faster"
+      ],
+      "answer": 1,
+      "explain": "Shorter air column → higher pitch."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Many traditional Indian instruments are handmade by craftspeople whose families have made them for generations. Explain one way science helps these makers, and one reason their traditional knowledge is valuable to science.",
+      "modelAnswer": "Science helps by explaining how length, tension and the size of the resonating body affect pitch and tone, and by providing electronic tuners to tune instruments accurately. Traditional makers' knowledge is valuable because they have learned, by experience over generations, which woods, skins and shapes give the best sound. Scientists can study these choices to understand acoustics, and preserving the craft keeps cultural heritage and livelihoods alive.",
+      "rubric": [
+        "A valid way science helps (tuning, understanding pitch or materials)",
+        "Traditional knowledge built by experience",
+        "Value to culture, livelihoods or science"
+      ],
+      "explain": "Criterion D: science and culture interact."
+    },
+    {
+      "id": "q8",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Order the sargam from the LOWEST note to the HIGHEST.",
+      "steps": [
+        "Sa",
+        "Re",
+        "Ga",
+        "Ma",
+        "Pa",
+        "Dha",
+        "Ni"
+      ],
+      "explain": "The Indian scale rises Sa Re Ga Ma Pa Dha Ni, then upper Sa."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "topicId": "vibrations",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each sound source to the part that vibrates.",
+      "pairs": [
+        {
+          "left": "Tabla",
+          "right": "Stretched skin (membrane)"
+        },
+        {
+          "left": "Veena",
+          "right": "Strings"
+        },
+        {
+          "left": "Bansuri",
+          "right": "Air column inside"
+        },
+        {
+          "left": "Human voice",
+          "right": "Vocal cords"
+        },
+        {
+          "left": "Temple bell",
+          "right": "The metal body"
+        }
+      ],
+      "explain": "Every sound needs something vibrating."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where is the human voice produced?",
+      "options": [
+        "In the lungs",
+        "In the larynx (voice box), by vibrating vocal cords",
+        "In the nose",
+        "In the ears"
+      ],
+      "answer": 1,
+      "explain": "Air from the lungs makes the vocal cords in the larynx vibrate."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Vibration Lab, what happened when the ruler's overhang was made SHORTER?",
+      "options": [
+        "It vibrated more slowly and the pitch went down",
+        "It vibrated faster and the pitch went up",
+        "It stopped vibrating",
+        "The sound got louder only"
+      ],
+      "answer": 1,
+      "explain": "A shorter vibrating part vibrates faster: higher frequency, higher pitch."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A tuning fork vibrates 256 times per second. What is its frequency?",
+      "answer": 256,
+      "tolerance": 0,
+      "unit": "Hz",
+      "explain": "Frequency = number of vibrations per second, in hertz."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A mosquito's wings beat 3000 times in 5 seconds. What is the frequency of the buzz?",
+      "answer": 600,
+      "tolerance": 0,
+      "unit": "Hz",
+      "explain": "3000 ÷ 5 = 600 vibrations per second = 600 Hz."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How could you show that a sounding tuning fork is vibrating? Choose all that apply.",
+      "options": [
+        "Touch it gently to the surface of water and watch the splashes",
+        "Hang a table-tennis ball touching it and watch it bounce away",
+        "Look at its colour",
+        "Touch it lightly and feel the tingle",
+        "Weigh it"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explain": "Vibrations are often too fast to see, but their effects can be seen and felt."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan an investigation to find how the length of a ruler hanging over a desk affects the pitch of its twang.",
+      "modelAnswer": "Independent variable: overhang length (10, 14, 18, 22, 26 cm). Dependent variable: pitch, measured as frequency with a free phone tuner or sound-analyser app. Control variables: the same ruler, clamped firmly with the same weight, flicked with the same force, in the same quiet room. Repeat each length three times and average. Plot frequency against length.",
+      "rubric": [
+        "Independent variable: overhang length",
+        "Dependent variable: pitch/frequency and how it is measured",
+        "At least two control variables",
+        "Repeats and a graph"
+      ],
+      "explain": "Criterion B: plan a fair, measurable test."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The number of vibrations per second is called the ___ and is measured in ___.",
+      "blanks": [
+        [
+          "frequency"
+        ],
+        [
+          "hertz",
+          "Hz"
+        ]
+      ],
+      "wordBank": [
+        "frequency",
+        "hertz",
+        "amplitude",
+        "metres"
+      ],
+      "explain": "1 Hz = one vibration per second."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "musical-instruments",
+  "number": "5.4",
+  "title": "Music and Instruments",
+  "summary": "Strings, drums and wind instruments control pitch by changing length, tension and the size of the vibrating part. Tune your own jal tarang!",
+  "emoji": "🎶",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Standing waves and harmonics follow in DP"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Class 8 Ch 13: Sound",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can classify instruments as string, percussion or wind, and name the vibrating part.",
+    "I can explain how length, tension and thickness change the pitch of a string.",
+    "I can explain why adding water changes the pitch of a jal tarang bowl and a blown bottle in opposite ways."
+  ],
+  "misconceptions": [
+    "Bigger instruments are always louder.",
+    "Adding water always raises the pitch.",
+    "Tightening a string makes it louder."
+  ],
+  "prerequisites": [
+    "physics/sound/pitch-and-loudness"
+  ],
+  "labs": [
+    "music-lab"
+  ],
+  "keyTerms": [
+    "string instrument",
+    "percussion",
+    "wind instrument",
+    "tension",
+    "air column",
+    "jal tarang",
+    "sargam"
+  ],
+  "estMinutes": 25
+}

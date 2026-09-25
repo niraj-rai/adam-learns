@@ -25,6 +25,8 @@ export type BadgeId =
   | 'cool-house-architect'
   | 'unit-light'
   | 'light-bender'
+  | 'unit-sound'
+  | 'sonar-captain'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -54,5 +56,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'cool-house-architect': { title: 'Cool House Architect', emoji: '🏡', description: 'Designed comfortable homes for Chennai summers and Delhi winters (Boss Challenge)' },
   'unit-light': { title: 'Ray Tracer', emoji: '🔦', description: 'Mastered every core topic in Physics Unit 4: Light' },
   'light-bender': { title: 'Light Bender', emoji: '🪞', description: 'Cleared all five Laser Maze levels (Boss Challenge)' },
+  'unit-sound': { title: 'Sound Wave', emoji: '🎵', description: 'Mastered every core topic in Physics Unit 5: Sound' },
+  'sonar-captain': { title: 'Sonar Captain', emoji: '🚢', description: 'Mapped the seabed with echoes and found the shipwreck (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

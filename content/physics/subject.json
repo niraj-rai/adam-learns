@@ -5,13 +5,8 @@
   "color": "phys",
   "icon": "🧲",
   "order": 2,
-  "comingNext": "Unit 5: Sound · Unit 6: Electricity & Magnetism · Unit 7: Earth & Space",
+  "comingNext": "Unit 6: Electricity & Magnetism · Unit 7: Earth & Space",
   "planned": [
-    {
-      "unit": "5. Sound",
-      "ib": "MYP 2",
-      "cbse": "8 (previous NCERT)"
-    },
     {
       "unit": "6. Electricity & Magnetism",
       "ib": "MYP 1–3",

@@ -1,0 +1,60 @@
+{
+  "id": "pitch-and-loudness",
+  "number": "5.3",
+  "title": "Pitch and Loudness",
+  "summary": "Frequency sets the pitch; amplitude sets the loudness. Audible sound, infrasound and ultrasound, and what different animals can hear.",
+  "emoji": "〰️",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Wave equation v = fλ follows in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Class 8 Ch 13: Sound",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Sound (echo, SONAR, range of hearing)",
+        "verified": false
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can relate pitch to frequency and loudness to amplitude.",
+    "I can state the human range of hearing (about 20 Hz to 20,000 Hz).",
+    "I can describe infrasound and ultrasound, with uses."
+  ],
+  "misconceptions": [
+    "Pitch and loudness are the same thing.",
+    "A high-pitched sound is always loud.",
+    "Humans can hear all sounds."
+  ],
+  "prerequisites": [
+    "physics/sound/vibrations"
+  ],
+  "labs": [
+    "wave-maker"
+  ],
+  "keyTerms": [
+    "pitch",
+    "frequency",
+    "amplitude",
+    "loudness",
+    "audible range",
+    "infrasound",
+    "ultrasound",
+    "decibel (dB)"
+  ],
+  "estMinutes": 25
+}
