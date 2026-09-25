@@ -1,0 +1,151 @@
+{
+  "topicId": "laser-maze",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A beam travelling RIGHT hits a mirror tilted at 45° like this: \\. Where does it go?",
+      "options": [
+        "Up",
+        "Down",
+        "Straight back",
+        "Right"
+      ],
+      "answer": 1,
+      "explain": "A \\ mirror turns a rightward beam downward, through 90°."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A beam travelling UP hits a / mirror. Where does it go?",
+      "options": [
+        "Left",
+        "Right",
+        "Down",
+        "Up"
+      ],
+      "answer": 1,
+      "explain": "A beam going up reflects off / to travel right."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A 45° mirror turns a light beam through how many degrees?",
+      "answer": 90,
+      "tolerance": 0,
+      "unit": "°",
+      "explain": "∠i = ∠r = 45°, so the beam turns through 45° + 45° = 90°."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A laser beam hits a mirror head-on (angle of incidence 0°). Where does it go?",
+      "options": [
+        "Straight back along its path",
+        "At 90°",
+        "Along the mirror",
+        "It disappears"
+      ],
+      "answer": 0,
+      "explain": "0° in, 0° out: the beam returns along the normal."
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "In Laser Maze level 4 (‘Two birds, one beam’), two targets are lit using only two mirrors. Explain the strategy that makes this possible.",
+      "modelAnswer": "A light beam passes through a target and keeps travelling in a straight line. So you place the mirrors so that the beam's path runs through the first target and then, after reflecting, lines up with the second target. By planning the whole path first and lining the targets up along straight sections of the beam, fewer mirrors are needed.",
+      "rubric": [
+        "Beam continues through a target",
+        "Plan the path so both targets lie on straight sections",
+        "Mentions reflection turning the beam"
+      ],
+      "explain": "Criterion C: explain the reasoning behind a successful solution."
+    },
+    {
+      "id": "q6",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which of these rely on the law of reflection?",
+      "bins": [
+        "Uses reflection",
+        "Does not"
+      ],
+      "items": [
+        {
+          "label": "A periscope",
+          "bin": 0
+        },
+        {
+          "label": "A kaleidoscope",
+          "bin": 0
+        },
+        {
+          "label": "A magnifying glass",
+          "bin": 1
+        },
+        {
+          "label": "A car’s rear-view mirror",
+          "bin": 0
+        },
+        {
+          "label": "A prism making a spectrum",
+          "bin": 1
+        },
+        {
+          "label": "A laser show with mirrors",
+          "bin": 0
+        }
+      ],
+      "explain": "Magnifying glasses and prisms work by refraction."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "You need to send a beam travelling right so that it ends up travelling LEFT on a lower row. What is the fewest number of 45° mirrors you need?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explain": "Two mirrors: turn down (\\), then turn left (/) on the lower row."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "A mirror at 45° turns a beam through ___ degrees, just like each mirror in a ___.",
+      "blanks": [
+        [
+          "90"
+        ],
+        [
+          "periscope"
+        ]
+      ],
+      "wordBank": [
+        "90",
+        "periscope",
+        "45",
+        "prism"
+      ],
+      "explain": "Two 45° mirrors make a periscope."
+    }
+  ]
+}

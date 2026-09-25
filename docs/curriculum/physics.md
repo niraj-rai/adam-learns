@@ -47,10 +47,18 @@
 
 Sea and land breezes are taught in Unit 2 (Cyclone Lab) and referenced from 3.5.
 
-### Unit 4: Light
-| Topics | IB | CBSE | Signature labs |
-|---|---|---|---|
-| Light travels in straight lines, shadows, reflection laws, plane/concave/convex mirrors, lenses, dispersion | MYP 1–3 | Cur-7 (Light: Shadows and Reflections) ⚠️, Cur-8 Ch 10 ✅ | Optics Bench (ray tracing), Shadow Theatre, Periscope Builder |
+### Unit 4: Light ✅ built
+*IB Key Concept:* **Relationships** · *Related:* Models, Patterns, Form · *Global Context:* Personal and cultural expression
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 4.1 | Light and shadows, pinhole camera | MYP 1 | Cur-7 Ch 11 ✅ | ★ | **Shadow Theatre**: shadow size, materials, pinhole camera |
+| 4.2 | Reflection and its law | MYP 2 | Cur-7 Ch 11 ✅, Cur-8 Ch 10 ⚠️ | ★★ | **Reflection Lab**: ∠i = ∠r, regular vs diffuse |
+| 4.3 | Plane mirrors: images, lateral inversion, periscope | MYP 2 | Cur-7 Ch 11 ✅ | ★★ | **Mirror Images**: mirror writing, image distance, periscope builder |
+| 4.4 | Concave and convex mirrors | MYP 3 | Cur-8 Ch 10 ✅ | ★★★ | **Optics Bench** (mirror mode): live ray diagrams + challenges |
+| 4.5 | Lenses | MYP 3 | Cur-8 Ch 10 ✅ | ★★★ | **Optics Bench** (lens mode): magnifier, camera, same-size image |
+| 4.6 | Colours of light: dispersion, rainbow, Newton’s disc | MYP 2 | Class 10 ⚠️ | ★★ | **Prism and Colour Lab**: prism, recombination, filters, spinning disc |
+| 4.7 | Boss: Laser Maze | MYP 3 | Cur-7 Ch 11, Cur-8 Ch 10 ✅ | ★★★ | 5 mirror-puzzle levels (minimum mirrors verified by brute-force tests) |
 
 ### Unit 5: Sound
 | Topics | IB | CBSE | Signature labs |

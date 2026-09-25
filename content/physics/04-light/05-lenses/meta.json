@@ -1,0 +1,56 @@
+{
+  "id": "lenses",
+  "number": "4.5",
+  "title": "Lenses",
+  "summary": "Convex lenses bring light together and concave lenses spread it out. Magnifying glasses, cameras, spectacles and your own eye.",
+  "emoji": "🔍",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Lens formula and power are CBSE Class 10 / MYP 5"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 10: Light: Mirrors and Lenses",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can distinguish convex (converging) and concave (diverging) lenses.",
+    "I can describe the images formed by a convex lens for different object positions.",
+    "I can explain uses of lenses, including spectacles."
+  ],
+  "misconceptions": [
+    "A lens reflects light.",
+    "A magnifying glass makes the object itself bigger.",
+    "All lenses magnify."
+  ],
+  "prerequisites": [
+    "physics/light/curved-mirrors"
+  ],
+  "labs": [
+    "optics-bench"
+  ],
+  "keyTerms": [
+    "lens",
+    "convex lens",
+    "concave lens",
+    "converging",
+    "diverging",
+    "focal length",
+    "magnifying glass",
+    "refraction"
+  ],
+  "estMinutes": 30
+}

@@ -1,0 +1,129 @@
+{
+  "topicId": "plane-mirrors",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which describe the image in a plane mirror? Choose all that apply.",
+      "options": [
+        "Virtual",
+        "Upright",
+        "Same size as the object",
+        "Laterally inverted",
+        "Can be caught on a screen"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explain": "Plane mirror images are virtual, so they can't be caught on a screen."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Adam stands 2 m in front of a plane mirror. How far is he from his image?",
+      "answer": 4,
+      "tolerance": 0,
+      "unit": "m",
+      "explain": "The image is 2 m behind the mirror, so 2 + 2 = 4 m from Adam."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Adam walks 0.5 m towards the mirror from 2 m away. Now how far is he from his image?",
+      "answer": 3,
+      "tolerance": 0,
+      "unit": "m",
+      "explain": "He is 1.5 m from the mirror, and the image is 1.5 m behind it: 3 m."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Why is AMBULANCE written in mirror writing on the front of ambulances?",
+      "options": [
+        "For decoration",
+        "So drivers ahead read it correctly in their rear-view mirrors",
+        "Because of a printing mistake",
+        "So it can be read from behind"
+      ],
+      "answer": 1,
+      "explain": "The mirror laterally inverts the mirror writing back to normal."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "You raise your RIGHT hand in front of a mirror. Your image appears to raise its…",
+      "options": [
+        "right hand",
+        "left hand",
+        "both hands",
+        "no hand"
+      ],
+      "answer": 1,
+      "explain": "Lateral inversion swaps left and right."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which words look EXACTLY the same in a plane mirror? Choose all that apply.",
+      "options": [
+        "MOM",
+        "WOW",
+        "ADAM",
+        "TOOT",
+        "BOB"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explain": "Only palindromes made of symmetrical letters (A, H, I, M, O, T, U, V, W, X, Y) work. B isn't symmetrical left to right."
+    },
+    {
+      "id": "q7",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Trace the light through a periscope, from the object to your eye.",
+      "steps": [
+        "Light from the object enters the top opening",
+        "It reflects off the top mirror at 45°",
+        "It travels down the tube",
+        "It reflects off the bottom mirror at 45°",
+        "It enters your eye"
+      ],
+      "explain": "Two parallel mirrors at 45° each turn the light through 90°."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Hill roads in places like Ooty and Shimla have mirrors at sharp bends. Explain how they improve safety, and suggest one limitation.",
+      "modelAnswer": "The mirrors reflect light from vehicles coming around the blind bend, so drivers can see oncoming traffic they couldn't see directly and slow down, preventing head-on collisions. (Many are convex mirrors, which show a wider view.) Limitations: they can get dirty, fogged or damaged; distances look different in a convex mirror; drivers might rely on them and not honk or slow down.",
+      "rubric": [
+        "Mirror lets drivers see around the bend by reflection",
+        "Links to safety (fewer collisions)",
+        "A sensible limitation"
+      ],
+      "explain": "Criterion D: evaluate a real application of mirrors."
+    }
+  ]
+}

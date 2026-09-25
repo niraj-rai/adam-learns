@@ -1,0 +1,54 @@
+{
+  "id": "colours-of-light",
+  "number": "4.6",
+  "title": "The Colours of Light",
+  "summary": "White light is a mixture of seven colours. Prisms, rainbows, Newton’s disc and coloured filters.",
+  "emoji": "🌈",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Wavelength and the electromagnetic spectrum follow in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "The Human Eye and the Colourful World (dispersion)",
+        "verified": false
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can describe how a prism splits white light into a spectrum (dispersion).",
+    "I can explain how a rainbow forms and why the colours appear in the order VIBGYOR.",
+    "I can explain what Newton’s disc and coloured filters show about white light."
+  ],
+  "misconceptions": [
+    "The prism adds the colours to the light.",
+    "White is not a colour made of light.",
+    "A red filter turns light red by adding red."
+  ],
+  "prerequisites": [
+    "physics/light/lenses"
+  ],
+  "labs": [
+    "prism-lab"
+  ],
+  "keyTerms": [
+    "spectrum",
+    "dispersion",
+    "prism",
+    "VIBGYOR",
+    "rainbow",
+    "Newton’s disc",
+    "filter"
+  ],
+  "estMinutes": 20
+}

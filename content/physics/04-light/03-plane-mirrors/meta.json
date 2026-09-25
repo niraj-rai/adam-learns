@@ -1,0 +1,53 @@
+{
+  "id": "plane-mirrors",
+  "number": "4.3",
+  "title": "Plane Mirrors and Their Images",
+  "summary": "Where the image is, why left and right swap, and how periscopes and kaleidoscopes use mirrors.",
+  "emoji": "🪞",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Ray diagrams for plane mirrors are formalised in MYP 4"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 11: Light: Shadows and Reflections",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe the image in a plane mirror: virtual, upright, same size, as far behind as the object is in front.",
+    "I can explain lateral inversion.",
+    "I can explain how a periscope uses two mirrors at 45°."
+  ],
+  "misconceptions": [
+    "The image is on the surface of the mirror.",
+    "A mirror swaps top and bottom.",
+    "You can catch a mirror image on a screen."
+  ],
+  "prerequisites": [
+    "physics/light/reflection"
+  ],
+  "labs": [
+    "mirror-images"
+  ],
+  "keyTerms": [
+    "plane mirror",
+    "virtual image",
+    "lateral inversion",
+    "periscope",
+    "kaleidoscope"
+  ],
+  "estMinutes": 20
+}

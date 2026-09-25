@@ -1,0 +1,54 @@
+{
+  "id": "laser-maze",
+  "number": "4.7",
+  "title": "Boss Challenge: Laser Maze",
+  "summary": "Five levels of mirrors, walls and targets. Bend the laser to light every target.",
+  "emoji": "🎯",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task: applying the law of reflection (Criteria A and C)"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 11: Light: Shadows and Reflections",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 10: Light: Mirrors and Lenses",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can apply the law of reflection to predict the path of a light ray.",
+    "I can plan the fewest mirrors needed to reach a target."
+  ],
+  "misconceptions": [
+    "A mirror sends light back the way it came, whatever the angle."
+  ],
+  "prerequisites": [
+    "physics/light/reflection",
+    "physics/light/plane-mirrors"
+  ],
+  "labs": [
+    "laser-maze"
+  ],
+  "keyTerms": [
+    "law of reflection",
+    "plane mirror",
+    "ray",
+    "periscope"
+  ],
+  "estMinutes": 15
+}

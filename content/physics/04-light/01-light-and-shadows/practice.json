@@ -1,0 +1,180 @@
+{
+  "topicId": "light-and-shadows",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Luminous or non-luminous?",
+      "bins": [
+        "Luminous (gives out its own light)",
+        "Non-luminous"
+      ],
+      "items": [
+        {
+          "label": "The Sun",
+          "bin": 0
+        },
+        {
+          "label": "The Moon",
+          "bin": 1
+        },
+        {
+          "label": "A burning diya",
+          "bin": 0
+        },
+        {
+          "label": "A mirror",
+          "bin": 1
+        },
+        {
+          "label": "A firefly",
+          "bin": 0
+        },
+        {
+          "label": "This page",
+          "bin": 1
+        }
+      ],
+      "explain": "The Moon and mirrors only reflect light; they don't make it."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Transparent, translucent or opaque?",
+      "bins": [
+        "Transparent",
+        "Translucent",
+        "Opaque"
+      ],
+      "items": [
+        {
+          "label": "Clear window glass",
+          "bin": 0
+        },
+        {
+          "label": "Butter paper",
+          "bin": 1
+        },
+        {
+          "label": "A wooden door",
+          "bin": 2
+        },
+        {
+          "label": "Frosted glass",
+          "bin": 1
+        },
+        {
+          "label": "Clean water",
+          "bin": 0
+        },
+        {
+          "label": "A steel plate",
+          "bin": 2
+        }
+      ],
+      "explain": "Transparent: almost all light passes; translucent: some; opaque: none."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which fact about light explains why shadows form?",
+      "options": [
+        "Light is fast",
+        "Light travels in straight lines",
+        "Light is hot",
+        "Light bends around corners"
+      ],
+      "answer": 1,
+      "explain": "Light can't bend around an opaque object, so a dark region forms behind it."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Shadow Theatre, you move the puppet CLOSER to the lamp. What happens to the shadow?",
+      "options": [
+        "It gets bigger",
+        "It gets smaller",
+        "It stays the same",
+        "It disappears"
+      ],
+      "answer": 0,
+      "explain": "The rays spread out from the lamp, so a puppet near the lamp blocks a wider cone of light."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A 10 cm puppet is 20 cm from a small lamp. The screen is 100 cm from the lamp. How tall is the shadow?",
+      "answer": 50,
+      "tolerance": 0,
+      "unit": "cm",
+      "hint": "shadow = object height × (lamp→screen) ÷ (lamp→object)",
+      "explain": "10 × 100 ÷ 20 = 50 cm."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "The image in a pinhole camera is…",
+      "options": [
+        "upright and coloured",
+        "upside down",
+        "always larger than the object",
+        "black and white only"
+      ],
+      "answer": 1,
+      "explain": "Rays from the top of the object pass straight through the hole and reach the bottom of the screen, so the image is inverted."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan an investigation into how the distance between a torch and an object affects the size of its shadow.",
+      "modelAnswer": "Independent variable: distance from the torch to the object (e.g. 10, 20, 30, 40, 50 cm). Dependent variable: height of the shadow on the wall, measured with a ruler. Control variables: the same object and torch, the same distance from torch to wall, a dark room, the object held upright. Repeat each measurement and plot shadow height against distance.",
+      "rubric": [
+        "Independent variable: torch–object distance",
+        "Dependent variable: shadow size and how it is measured",
+        "At least two control variables",
+        "Repeats or a graph"
+      ],
+      "explain": "Criterion B: a clear fair-test plan."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "We see non-luminous objects because they ___ light into our eyes. A shadow forms when an ___ object blocks light.",
+      "blanks": [
+        [
+          "reflect"
+        ],
+        [
+          "opaque"
+        ]
+      ],
+      "wordBank": [
+        "reflect",
+        "opaque",
+        "transparent",
+        "make"
+      ],
+      "explain": "Light from a source bounces off objects into our eyes."
+    }
+  ]
+}

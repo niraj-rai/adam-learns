@@ -1,0 +1,57 @@
+<Stage kind="wonder" title="The bouncing beam" />
+
+<Hook emoji="🔦">
+Shine a torch at a mirror and a bright spot appears on the opposite wall. Move the torch and the spot moves too, always to a very particular place. Is there a rule that tells us exactly where the light will go?
+</Hook>
+
+<PredictFirst
+  question="A light ray hits a mirror at 30° from the normal. At what angle does it bounce off?"
+  options={["60°", "30°", "90°", "0°"]}
+  answer={1}
+>
+**30°.** The angle of reflection always equals the angle of incidence. This is the **law of reflection**.
+</PredictFirst>
+
+<Stage kind="explain" title="The law of reflection" />
+
+<ConceptCard title="Words we need" emoji="📐">
+- **Incident ray**: the ray coming in towards the mirror.
+- **Reflected ray**: the ray bouncing off.
+- <KeyTerm def="An imaginary line drawn at 90° to the mirror where the ray hits it. All angles are measured from it.">Normal</KeyTerm>: a line at 90° to the mirror at the point where the ray hits.
+- **Angle of incidence (∠i)** and **angle of reflection (∠r)** are measured **from the normal**, not from the mirror.
+</ConceptCard>
+
+<Formula tex="\angle i = \angle r" caption="The incident ray, the reflected ray and the normal all lie in the same plane" />
+
+<Stage kind="try" title="Reflection Lab" />
+
+<Lab id="reflection-lab" />
+
+<Compare
+  columns={[
+    { title: "Regular reflection", emoji: "🪞", points: ["Smooth, shiny surfaces", "Parallel rays stay parallel", "Forms clear images", "Mirrors, still water, polished steel"] },
+    { title: "Diffuse reflection", emoji: "📄", points: ["Rough surfaces", "Rays scatter in all directions", "No image, but you see the object from anywhere", "Paper, walls, clothes"] }
+  ]}
+/>
+
+<MythFact myth="Rough surfaces don't obey the law of reflection.">
+They do! Each tiny part of a rough surface obeys ∠i = ∠r. But the tiny parts face in different directions, so the reflected rays scatter everywhere.
+</MythFact>
+
+<Stage kind="apply" title="Measure and conclude" />
+
+<Inquiry criterion="B" title="Test the law">
+You have a mirror, a ray box, a protractor and paper. Write a method to test the law of reflection, including how you will make your measurements accurate.
+</Inquiry>
+
+<Inquiry criterion="C" title="Check the data">
+Record at least five pairs of angles in the Reflection Lab. Plot ∠r against ∠i. What does the graph look like? What would real measurements look like, and why?
+</Inquiry>
+
+<CbseCorner source="Class 7 Curiosity Ch 11 and Class 8 Curiosity Ch 10">
+- **Laws of reflection**: ∠i = ∠r; the incident ray, reflected ray and normal lie in the same plane.
+- Angles are measured from the **normal**.
+- Regular reflection (smooth surfaces) and diffuse/irregular reflection (rough surfaces).
+</CbseCorner>
+
+<Reflect id="phys-light-reflection" prompt="Why can you read a book from any angle but only see your reflection in a mirror from certain places?" />

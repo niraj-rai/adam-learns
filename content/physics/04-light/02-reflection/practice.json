@@ -1,0 +1,150 @@
+{
+  "topicId": "reflection",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Complete the law of reflection.",
+      "text": "The angle of ___ is equal to the angle of ___.",
+      "blanks": [
+        [
+          "incidence"
+        ],
+        [
+          "reflection"
+        ]
+      ],
+      "wordBank": [
+        "incidence",
+        "reflection",
+        "refraction",
+        "normal"
+      ],
+      "explain": "∠i = ∠r, both measured from the normal."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A ray hits a mirror with an angle of incidence of 35°. What is the angle of reflection?",
+      "answer": 35,
+      "tolerance": 0,
+      "unit": "°",
+      "explain": "The angle of reflection equals the angle of incidence."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A ray makes an angle of 50° with the MIRROR SURFACE. What is the angle of reflection?",
+      "answer": 40,
+      "tolerance": 0,
+      "unit": "°",
+      "hint": "Angles are measured from the normal, which is at 90° to the mirror.",
+      "explain": "Angle of incidence = 90° − 50° = 40°, so the angle of reflection = 40°."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The normal is a line…",
+      "options": [
+        "along the mirror surface",
+        "at 90° to the mirror at the point where the ray hits",
+        "parallel to the incident ray",
+        "through the light source"
+      ],
+      "answer": 1,
+      "explain": "The normal is perpendicular to the surface at the point of incidence."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Regular or diffuse reflection?",
+      "bins": [
+        "Regular",
+        "Diffuse"
+      ],
+      "items": [
+        {
+          "label": "A still lake",
+          "bin": 0
+        },
+        {
+          "label": "A page of a book",
+          "bin": 1
+        },
+        {
+          "label": "A polished steel plate",
+          "bin": 0
+        },
+        {
+          "label": "A painted wall",
+          "bin": 1
+        },
+        {
+          "label": "A bathroom mirror",
+          "bin": 0
+        },
+        {
+          "label": "A cotton shirt",
+          "bin": 1
+        }
+      ],
+      "explain": "Smooth surfaces give regular reflection; rough surfaces scatter light."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why can everyone in a classroom read the whiteboard, but a mirror only shows you certain things?",
+      "options": [
+        "The whiteboard is brighter",
+        "The whiteboard's rough surface scatters light in all directions (diffuse reflection)",
+        "Mirrors absorb light",
+        "The whiteboard makes its own light"
+      ],
+      "answer": 1,
+      "explain": "Diffuse reflection sends light everywhere, so everyone can see the board."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "You have a plane mirror, a ray box, a protractor and paper. Describe how you would test the law of reflection.",
+      "modelAnswer": "Place the mirror upright on paper and draw a line along it. Draw the normal at 90° to the mirror. Shine a ray from the ray box at the mirror where the normal meets it, at an angle of incidence of 20°. Mark the reflected ray with two dots and measure the angle of reflection from the normal with the protractor. Repeat for 30°, 40°, 50° and 60°. Record the results in a table and check whether ∠i = ∠r each time.",
+      "rubric": [
+        "Draw the normal",
+        "Vary the angle of incidence over several values",
+        "Measure the angle of reflection from the normal",
+        "Record in a table and compare"
+      ],
+      "explain": "Criterion B: a method that would give reliable data."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Adam's results: ∠i = 20°, 40°, 60°; ∠r = 21°, 39°, 60°. What is the best conclusion?",
+      "options": [
+        "The law of reflection is wrong",
+        "∠i and ∠r are equal within measurement error",
+        "∠r is always bigger",
+        "The mirror was broken"
+      ],
+      "answer": 1,
+      "explain": "Small differences of about 1° come from measuring errors; the pattern supports ∠i = ∠r."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "topicId": "lenses",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "A convex lens is…",
+      "options": [
+        "thinner in the middle and spreads light out",
+        "thicker in the middle and brings light together",
+        "flat",
+        "a kind of mirror"
+      ],
+      "answer": 1,
+      "explain": "Convex lenses are thicker at the centre and converge light."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "You hold a convex lens close to a small ant (inside F). You see…",
+      "options": [
+        "a real, inverted image",
+        "a virtual, upright, magnified image",
+        "no image",
+        "a smaller image"
+      ],
+      "answer": 1,
+      "explain": "This is how a magnifying glass works."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A convex lens forms a sharp image of a distant window on a sheet of paper. The image is…",
+      "options": [
+        "upright and larger",
+        "inverted and smaller",
+        "virtual",
+        "the same size"
+      ],
+      "answer": 1,
+      "explain": "Distant objects form real, inverted, diminished images near the focus: just like a camera or your eye."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Convex or concave lens?",
+      "bins": [
+        "Convex lens",
+        "Concave lens"
+      ],
+      "items": [
+        {
+          "label": "Magnifying glass",
+          "bin": 0
+        },
+        {
+          "label": "Glasses for short-sightedness",
+          "bin": 1
+        },
+        {
+          "label": "Camera lens",
+          "bin": 0
+        },
+        {
+          "label": "Door peephole (wide view)",
+          "bin": 1
+        },
+        {
+          "label": "The lens in your eye",
+          "bin": 0
+        },
+        {
+          "label": "Glasses for long-sightedness",
+          "bin": 0
+        }
+      ],
+      "explain": "Converging lenses magnify and focus; diverging lenses spread light."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is it dangerous to leave a magnifying glass in strong sunlight near paper?",
+      "options": [
+        "It makes the paper wet",
+        "It focuses sunlight into a very hot spot that can start a fire",
+        "It blocks the sunlight",
+        "It turns sunlight blue"
+      ],
+      "answer": 1,
+      "explain": "A convex lens converges the Sun’s rays at its focus."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which statements about a concave lens are TRUE? Choose all that apply.",
+      "options": [
+        "It is thinner in the middle",
+        "It spreads light out (diverges it)",
+        "It always forms a virtual, upright, diminished image",
+        "It can be used as a magnifying glass",
+        "It can form an image on a screen"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "Concave lenses can't magnify or form real images."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Studies suggest many Indian school children are short-sighted and need spectacles, but some never get them. Explain what kind of lens corrects short sight, and suggest how schools could help.",
+      "modelAnswer": "A short-sighted eye focuses light from distant objects in front of the retina. A concave (diverging) lens spreads the light slightly before it enters the eye, so it focuses on the retina and distant things look sharp. Schools could organise free eye tests, provide low-cost spectacles, sit affected children closer to the board, encourage outdoor play (linked to less short-sightedness) and reduce the stigma of wearing glasses.",
+      "rubric": [
+        "Concave (diverging) lens",
+        "Explains it moves the focus back onto the retina",
+        "At least two sensible school actions"
+      ],
+      "explain": "Criterion D: link lenses to health and society."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Lenses work by bending light as it passes from air into glass. This bending is called ___.",
+      "blanks": [
+        [
+          "refraction"
+        ]
+      ],
+      "wordBank": [
+        "refraction",
+        "reflection",
+        "dispersion"
+      ],
+      "explain": "Mirrors reflect; lenses refract."
+    }
+  ]
+}

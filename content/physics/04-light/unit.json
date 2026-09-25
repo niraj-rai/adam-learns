@@ -1,0 +1,36 @@
+{
+  "id": "light",
+  "number": 4,
+  "title": "Light",
+  "summary": "Light travels in straight lines, bounces off mirrors, bends through lenses and hides a rainbow inside white light. From shadows and pinhole cameras to periscopes, magnifying glasses and a laser maze.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Models",
+      "Patterns",
+      "Form"
+    ],
+    "globalContext": "Personal and cultural expression",
+    "statementOfInquiry": "Simple models of how light travels and reflects let us explain what we see and design instruments that extend our vision."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "How does light travel?",
+      "What is the law of reflection?",
+      "What colours make up white light?"
+    ],
+    "conceptual": [
+      "How can a ray model explain shadows, images and rainbows?",
+      "Why do different mirrors and lenses form different kinds of image?"
+    ],
+    "debatable": [
+      "Is what we see ever the ‘real’ object?",
+      "Should mirror-writing (like AMBULANCE) be used more on vehicles and signs?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 7 (Curiosity) Ch 11: Light: Shadows and Reflections",
+    "Class 8 (Curiosity) Ch 10: Light: Mirrors and Lenses",
+    "Class 10: The Human Eye and the Colourful World (dispersion; check against the current NCERT edition)"
+  ]
+}

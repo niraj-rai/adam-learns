@@ -1,0 +1,57 @@
+{
+  "id": "curved-mirrors",
+  "number": "4.4",
+  "title": "Concave and Convex Mirrors",
+  "summary": "Curved mirrors can magnify, shrink or flip images. Explore torches, shaving mirrors and rear-view mirrors.",
+  "emoji": "🥄",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Mirror equation and sign conventions are CBSE Class 10 / MYP 5"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 10: Light: Mirrors and Lenses",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can distinguish concave and convex mirrors and describe their images.",
+    "I can use a ray diagram to find the image formed by a concave mirror for different object positions.",
+    "I can explain everyday uses of concave and convex mirrors."
+  ],
+  "misconceptions": [
+    "Curved mirrors always make things bigger.",
+    "A convex mirror can form a real image.",
+    "The focus is where the object must be placed."
+  ],
+  "prerequisites": [
+    "physics/light/reflection"
+  ],
+  "labs": [
+    "optics-bench"
+  ],
+  "keyTerms": [
+    "concave mirror",
+    "convex mirror",
+    "pole",
+    "focus (F)",
+    "centre of curvature (C)",
+    "real image",
+    "virtual image",
+    "magnified",
+    "diminished"
+  ],
+  "estMinutes": 30
+}

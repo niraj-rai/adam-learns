@@ -1,0 +1,162 @@
+{
+  "topicId": "curved-mirrors",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each mirror to its use.",
+      "pairs": [
+        {
+          "left": "Concave mirror",
+          "right": "Torch reflector"
+        },
+        {
+          "left": "Convex mirror",
+          "right": "Rear-view mirror on a scooter"
+        },
+        {
+          "left": "Plane mirror",
+          "right": "Dressing mirror"
+        },
+        {
+          "left": "Concave mirror (close up)",
+          "right": "Dentist’s mirror"
+        }
+      ],
+      "explain": "Concave mirrors focus light and magnify close objects; convex mirrors give a wide view."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What kind of image does a convex mirror ALWAYS form?",
+      "options": [
+        "Real, inverted, magnified",
+        "Virtual, upright, diminished",
+        "Real, upright, same size",
+        "Virtual, inverted, magnified"
+      ],
+      "answer": 1,
+      "explain": "Convex mirrors spread light out, so the image is always virtual, upright and smaller."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Optics Bench, a candle is placed very close to a concave mirror (between the pole and F). The image is…",
+      "options": [
+        "real and inverted",
+        "virtual, upright and magnified",
+        "at infinity",
+        "diminished"
+      ],
+      "answer": 1,
+      "explain": "This is how shaving and make-up mirrors work."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A candle is placed at C (centre of curvature) of a concave mirror. The image is…",
+      "options": [
+        "at C, real, inverted and the same size",
+        "behind the mirror",
+        "at F",
+        "virtual and magnified"
+      ],
+      "answer": 0,
+      "explain": "At C the image forms at C too, inverted and the same size."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why are the bulbs of torches and headlights placed at the focus of a concave mirror?",
+      "options": [
+        "To make the bulb brighter",
+        "So the reflected rays come out parallel as a strong beam",
+        "To keep the bulb cool",
+        "To make the image upside down"
+      ],
+      "answer": 1,
+      "explain": "Light from the focus reflects parallel to the principal axis."
+    },
+    {
+      "id": "q6",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Can a concave mirror form this image? (Think about where the object is.)",
+      "bins": [
+        "Yes, it can",
+        "No, never"
+      ],
+      "items": [
+        {
+          "label": "Real and inverted",
+          "bin": 0
+        },
+        {
+          "label": "Virtual and upright",
+          "bin": 0
+        },
+        {
+          "label": "Magnified",
+          "bin": 0
+        },
+        {
+          "label": "Diminished",
+          "bin": 0
+        },
+        {
+          "label": "Upright AND real",
+          "bin": 1
+        }
+      ],
+      "explain": "A single mirror's real images are always inverted, so ‘upright and real’ is impossible."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Solar cookers often use a large concave mirror. Explain how it works, and discuss one benefit and one drawback of solar cookers for families in India.",
+      "modelAnswer": "The concave mirror reflects parallel rays of sunlight and concentrates them at its focus, where the cooking pot is placed, so the pot gets very hot. Benefit: free, clean energy with no smoke, saving money on LPG or firewood and reducing indoor air pollution. Drawbacks: it only works on sunny days and during daytime, cooking is slow, and it must be turned to follow the Sun.",
+      "rubric": [
+        "Concave mirror concentrates sunlight at the focus",
+        "A valid benefit (free, clean, no smoke)",
+        "A valid drawback (weather, time, slow)"
+      ],
+      "explain": "Criterion D: connect optics to energy and daily life."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "A mirror that curves inwards like the inside of a spoon is ___. A mirror that bulges outwards is ___.",
+      "blanks": [
+        [
+          "concave"
+        ],
+        [
+          "convex"
+        ]
+      ],
+      "wordBank": [
+        "concave",
+        "convex",
+        "plane"
+      ],
+      "explain": "Concave caves in; convex bulges out."
+    }
+  ]
+}

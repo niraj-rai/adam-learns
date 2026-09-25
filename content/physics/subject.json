@@ -5,13 +5,8 @@
   "color": "phys",
   "icon": "🧲",
   "order": 2,
-  "comingNext": "Unit 4: Light · Unit 5: Sound · Unit 6: Electricity & Magnetism · Unit 7: Earth & Space",
+  "comingNext": "Unit 5: Sound · Unit 6: Electricity & Magnetism · Unit 7: Earth & Space",
   "planned": [
-    {
-      "unit": "4. Light",
-      "ib": "MYP 1–3",
-      "cbse": "7, 8 (Curiosity Ch 10)"
-    },
     {
       "unit": "5. Sound",
       "ib": "MYP 2",

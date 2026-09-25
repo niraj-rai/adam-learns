@@ -1,0 +1,73 @@
+<Stage kind="wonder" title="The funny spoon" />
+
+<Hook emoji="🥄">
+Look into the inside of a shiny steel spoon: your face is upside down! Turn it over and look into the back: now you're the right way up, but tiny. Hold the inside very close to your eye and... a huge upright eyeball. One spoon, three different images. What is going on?
+</Hook>
+
+<PredictFirst
+  question="Scooters and cars use which mirror for rear-view mirrors?"
+  options={["Plane mirror", "Concave mirror", "Convex mirror", "No mirror"]}
+  answer={2}
+>
+A **convex** mirror bulges outwards and always gives an **upright, smaller** image, so it shows a much **wider view** of the road behind.
+</PredictFirst>
+
+<Stage kind="explain" title="Concave and convex" />
+
+<Compare
+  columns={[
+    { title: "Concave mirror", emoji: "🥣", points: ["Curves inwards, like the inside of a spoon", "Brings parallel rays together at the focus (converging)", "Image depends on where the object is: real and inverted when far away, virtual and magnified when very close"] },
+    { title: "Convex mirror", emoji: "🔘", points: ["Bulges outwards, like the back of a spoon", "Spreads rays out (diverging)", "Image is ALWAYS virtual, upright and diminished, with a wide field of view"] }
+  ]}
+/>
+
+<ConceptCard title="Important points" emoji="📍">
+- **Pole (P)**: the centre of the mirror's surface.
+- **Principal focus (F)**: where rays parallel to the axis meet after reflection (concave), or appear to come from (convex).
+- **Centre of curvature (C)**: the centre of the sphere the mirror is part of. C is twice as far as F.
+- **Real image**: light really meets there, so it can be caught on a screen. **Virtual image**: light only appears to come from there.
+</ConceptCard>
+
+<Stage kind="try" title="Optics Bench: mirrors" />
+
+<Lab id="optics-bench" mode="mirror" />
+
+<StepReveal>
+<div>
+**Concave mirror, object far away (beyond C):** real, inverted, diminished image between F and C.
+</div>
+<div>
+**Object at C:** real, inverted, same size image at C.
+</div>
+<div>
+**Object between F and C:** real, inverted, magnified image beyond C.
+</div>
+<div>
+**Object at F:** reflected rays come out parallel, so there is no image. This is how torches make a beam!
+</div>
+<div>
+**Object between P and F:** virtual, upright, magnified image behind the mirror. This is how shaving and make-up mirrors work.
+</div>
+</StepReveal>
+
+<RealLife title="Concave mirrors at work">
+Torch and headlight reflectors, dentists' mirrors, and **solar cookers**: a large concave mirror concentrates sunlight onto a pot at its focus. The Brahma Kumaris solar kitchen near Mount Abu, Rajasthan, uses rows of concave dishes to cook meals for thousands of people.
+</RealLife>
+
+<Stage kind="apply" title="Evaluate" />
+
+<Inquiry criterion="C" title="Image table">
+Use the Optics Bench to fill in a table for a concave mirror with f = 15 cm: object distance, image distance, real or virtual, upright or inverted, magnified or diminished. Try at least five positions. What pattern do you see as the candle moves closer?
+</Inquiry>
+
+<Inquiry criterion="D" title="Cooking with sunlight">
+Evaluate solar cookers for families in India: how they work, their benefits for health and the environment, and their limitations.
+</Inquiry>
+
+<CbseCorner source="Class 8 Curiosity Ch 10">
+- **Spherical mirrors**: concave and convex. Pole, focus, centre of curvature.
+- A concave mirror can form real or virtual images; a convex mirror always forms virtual, erect, diminished images.
+- Uses: concave (torches, headlights, dentists, solar cookers); convex (rear-view mirrors).
+</CbseCorner>
+
+<Reflect id="phys-light-curved" prompt="Rear-view mirrors often say “Objects in mirror are closer than they appear”. Use what you learned about convex mirrors to explain why." />

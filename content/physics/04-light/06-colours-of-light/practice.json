@@ -1,0 +1,137 @@
+{
+  "topicId": "colours-of-light",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Order the colours of the spectrum, from the one bent LEAST to the one bent MOST.",
+      "steps": [
+        "Red",
+        "Orange",
+        "Yellow",
+        "Green",
+        "Blue",
+        "Indigo",
+        "Violet"
+      ],
+      "explain": "Red bends least, violet most."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Splitting white light into its colours is called…",
+      "options": [
+        "reflection",
+        "dispersion",
+        "diffusion",
+        "magnification"
+      ],
+      "answer": 1,
+      "explain": "Dispersion: different colours bend by different amounts."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Prism Lab, a second upside-down prism was added. What came out?",
+      "options": [
+        "Seven brighter colours",
+        "White light again",
+        "Only red light",
+        "No light"
+      ],
+      "answer": 1,
+      "explain": "The colours recombine, proving they were in white light all along."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "When Newton’s colour disc spins fast, it looks…",
+      "options": [
+        "black",
+        "almost white",
+        "red",
+        "rainbow-striped"
+      ],
+      "answer": 1,
+      "explain": "The colours blend in your eye because each image lasts a fraction of a second."
+    },
+    {
+      "id": "q5",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "For a rainbow to appear, which are needed? Choose all that apply.",
+      "options": [
+        "Sunlight",
+        "Water droplets in the air",
+        "The Sun behind you",
+        "A thunderstorm with lightning",
+        "Snow"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "Rain droplets act like tiny prisms; you see the rainbow with the Sun behind you."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "White light passes through a red filter. Which colours come out?",
+      "options": [
+        "All seven",
+        "Only red (and a little orange)",
+        "Only blue",
+        "None"
+      ],
+      "answer": 1,
+      "explain": "A filter absorbs the other colours; it doesn't add colour."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain the evidence from the Prism Lab that white light is a mixture of colours, not a single colour.",
+      "modelAnswer": "A prism splits white light into seven colours (the spectrum). A second upside-down prism combines those colours back into white light. Also, a spinning disc painted with the seven colours looks almost white. If the prism were adding colour, the second prism would add more colours instead of producing white light, so the colours must have been present in the white light all along.",
+      "rubric": [
+        "Prism splits white light into seven colours",
+        "Second prism recombines them into white",
+        "Newton’s disc looks white when spun",
+        "Reasoned conclusion"
+      ],
+      "explain": "Criterion C: use experimental evidence to support a conclusion."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The seven colours of white light are remembered as ___.",
+      "blanks": [
+        [
+          "VIBGYOR",
+          "ROYGBIV"
+        ]
+      ],
+      "wordBank": [
+        "VIBGYOR",
+        "RGB",
+        "CMYK"
+      ],
+      "explain": "Violet, Indigo, Blue, Green, Yellow, Orange, Red."
+    }
+  ]
+}

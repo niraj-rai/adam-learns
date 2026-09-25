@@ -1,0 +1,54 @@
+{
+  "id": "light-and-shadows",
+  "number": "4.1",
+  "title": "Light and Shadows",
+  "summary": "Luminous objects, transparent, translucent and opaque materials, shadows and the pinhole camera.",
+  "emoji": "🎭",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 1,
+      "note": "Wave–particle models come in DP"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 11: Light: Shadows and Reflections",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can classify objects as luminous or non-luminous, and materials as transparent, translucent or opaque.",
+    "I can explain how shadows form, and why their size changes, using the idea that light travels in straight lines.",
+    "I can explain why a pinhole camera gives an upside-down image."
+  ],
+  "misconceptions": [
+    "We see because light comes out of our eyes.",
+    "A shadow shows the colour of the object.",
+    "The Moon is a luminous object."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "shadow-theatre"
+  ],
+  "keyTerms": [
+    "luminous",
+    "non-luminous",
+    "transparent",
+    "translucent",
+    "opaque",
+    "shadow",
+    "rectilinear propagation",
+    "pinhole camera"
+  ],
+  "estMinutes": 20
+}
