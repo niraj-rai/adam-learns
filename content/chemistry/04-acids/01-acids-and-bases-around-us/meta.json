@@ -1,0 +1,31 @@
+{
+  "id": "acids-and-bases-around-us",
+  "number": "4.1",
+  "title": "Acids and Bases Around Us",
+  "summary": "Sour lemons, soapy soap: find the acids and bases in your kitchen and bathroom, and learn to test them safely.",
+  "emoji": "🍋",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 1, "note": "Often the opening lesson of an MYP 2 acids unit" },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 2: Exploring Substances: Acidic, Basic and Neutral", "verified": true }
+    ]
+  },
+  "ibCriteria": ["A", "C"],
+  "objectives": [
+    "I can name common acids and bases found at home and describe their general properties.",
+    "I can explain why we never test substances by tasting or touching them.",
+    "I can use red and blue litmus to classify a substance as acidic, basic or neutral."
+  ],
+  "misconceptions": [
+    "All acids are dangerous and burn you.",
+    "Bases are safe because they are the 'opposite' of acids.",
+    "Anything that dissolves in water is an acid."
+  ],
+  "prerequisites": ["chemistry/changes/signs-of-a-reaction"],
+  "labs": ["kitchen-hunt"],
+  "keyTerms": ["acid", "base", "alkali", "neutral", "litmus", "sour", "soapy"],
+  "estMinutes": 15
+}

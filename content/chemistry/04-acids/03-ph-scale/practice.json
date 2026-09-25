@@ -1,0 +1,126 @@
+{
+  "topicId": "ph-scale",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Sort each pH value.",
+      "bins": ["Acidic", "Neutral", "Basic"],
+      "items": [
+        { "label": "pH 2", "bin": 0 },
+        { "label": "pH 7", "bin": 1 },
+        { "label": "pH 11", "bin": 2 },
+        { "label": "pH 5", "bin": 0 },
+        { "label": "pH 13", "bin": 2 },
+        { "label": "pH 8.5", "bin": 2 }
+      ],
+      "explain": "Below 7 acidic, 7 neutral, above 7 basic."
+    },
+    {
+      "id": "q2",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Order from MOST acidic to MOST basic.",
+      "steps": ["Stomach acid (pH 1)", "Lemon juice (pH 2)", "Tomato juice (pH 4)", "Pure water (pH 7)", "Baking soda (pH 8.4)", "Lime water (pH 12.4)"],
+      "explain": "Lowest pH = most acidic; highest pH = most basic."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A solution at pH 3 is how many times more acidic than one at pH 5?",
+      "answer": 100,
+      "tolerance": 0,
+      "unit": "times",
+      "hint": "Each pH step is a 10× change. How many steps from 5 to 3?",
+      "explain": "Two steps: 10 × 10 = 100 times."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A strong acid at pH 2 is diluted 1000 times with water. What is its new pH?",
+      "answer": 5,
+      "tolerance": 0,
+      "hint": "Each 10× dilution raises the pH by 1. 1000 = 10 × 10 × 10.",
+      "explain": "Three 10× dilutions → pH 2 + 3 = 5. Still acidic!"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "You keep adding water to vinegar. What happens to its pH?",
+      "options": ["It keeps rising past 7 until it's basic", "It rises towards 7 but stays below 7", "It falls towards 0", "It stays exactly the same"],
+      "answer": 1,
+      "feedback": { "0": "Water alone can never make an acid basic." },
+      "explain": "Diluting moves pH towards 7; you'd need a base to go above 7."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "cbseStyle": true,
+      "prompt": "Tooth decay starts when the pH in the mouth falls below about…",
+      "options": ["3.5", "5.5", "7.0", "8.5"],
+      "answer": 1,
+      "explain": "Below pH 5.5, acids from bacteria start dissolving enamel. Basic toothpaste neutralises them."
+    },
+    {
+      "id": "q7",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "cbseStyle": true,
+      "prompt": "Match each situation to how pH helps.",
+      "pairs": [
+        { "left": "Acidity in the stomach", "right": "Take an antacid (mild base)" },
+        { "left": "Bee sting (acid)", "right": "Rub on baking soda" },
+        { "left": "Acidic soil", "right": "Add lime (calcium hydroxide)" },
+        { "left": "Acids in the mouth", "right": "Brush with basic toothpaste" }
+      ],
+      "explain": "Each uses a base to neutralise unwanted acid."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Universal indicator turns GREEN. The pH is about…",
+      "options": ["1", "4", "7", "13"],
+      "answer": 2,
+      "explain": "Green = neutral, about pH 7. Red = strongly acidic, purple = strongly basic."
+    },
+    {
+      "id": "q9",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "Pure water has a pH of ___. The lower the pH, the ___ the acid.",
+      "blanks": [["7", "seven"], ["stronger"]],
+      "wordBank": ["7", "0", "stronger", "weaker"],
+      "explain": "pH 7 is neutral; low pH = strong acid."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain why litmus paper is less useful than universal indicator for comparing lemon juice and vinegar.",
+      "modelAnswer": "Litmus only shows whether something is an acid or a base: both lemon juice and vinegar turn blue litmus red. Universal indicator shows different colours for different pH values, so it can show that lemon juice (pH about 2) is more acidic than vinegar (pH about 3).",
+      "rubric": [
+        "Litmus only tells acid or base, not how strong",
+        "Universal indicator gives a range of colours / a pH value",
+        "I compared lemon juice and vinegar using pH"
+      ],
+      "explain": "Choosing the right tool depends on the question you're asking."
+    }
+  ]
+}

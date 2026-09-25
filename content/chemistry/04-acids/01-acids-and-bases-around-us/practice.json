@@ -1,0 +1,121 @@
+{
+  "topicId": "acids-and-bases-around-us",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Sort these into acids, bases and neutral substances.",
+      "bins": ["Acid", "Base", "Neutral"],
+      "items": [
+        { "label": "Lemon juice", "bin": 0 },
+        { "label": "Soap solution", "bin": 1 },
+        { "label": "Sugar water", "bin": 2 },
+        { "label": "Vinegar", "bin": 0 },
+        { "label": "Baking soda solution", "bin": 1 },
+        { "label": "Salt water", "bin": 2 },
+        { "label": "Curd", "bin": 0 },
+        { "label": "Antacid", "bin": 1 }
+      ],
+      "explain": "Sour foods are acidic; soapy and cleaning substances are usually basic; salt and sugar water are neutral."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "An acid turns blue litmus…",
+      "options": ["green", "red", "stays blue", "yellow"],
+      "answer": 1,
+      "explain": "Acids turn blue litmus red. Bases turn red litmus blue."
+    },
+    {
+      "id": "q3",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each food to the acid it contains.",
+      "pairs": [
+        { "left": "Lemon", "right": "Citric acid" },
+        { "left": "Vinegar", "right": "Acetic acid" },
+        { "left": "Tamarind", "right": "Tartaric acid" },
+        { "left": "Curd", "right": "Lactic acid" },
+        { "left": "Amla", "right": "Ascorbic acid (vitamin C)" }
+      ],
+      "explain": "Many natural acids are named after where they're found."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why should you never identify a lab chemical by tasting it?",
+      "options": ["It might be expensive", "Some acids and bases are corrosive and poisonous", "It wastes the chemical", "Taste doesn't work on liquids"],
+      "answer": 1,
+      "explain": "Strong acids and bases can burn your mouth and skin. Always use indicators."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A liquid does not change the colour of red litmus OR blue litmus. It is…",
+      "options": ["acidic", "basic", "neutral", "a strong acid"],
+      "answer": 2,
+      "explain": "No change in either litmus means neutral."
+    },
+    {
+      "id": "q6",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "Bases that dissolve in water are called ___. Litmus is extracted from ___.",
+      "blanks": [["alkalis", "alkali"], ["lichens", "lichen"]],
+      "wordBank": ["alkalis", "lichens", "lemons", "salts"],
+      "explain": "Soluble bases = alkalis; litmus comes from lichens."
+    },
+    {
+      "id": "q7",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which are properties of BASES? Choose all that apply.",
+      "options": ["Taste bitter", "Feel soapy", "Turn red litmus blue", "Taste sour", "Turn blue litmus red"],
+      "answer": [0, 1, 2],
+      "explain": "Bases are bitter and soapy and turn red litmus blue. Sourness and turning blue litmus red belong to acids."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which statement is TRUE?",
+      "options": [
+        "All acids are dangerous",
+        "Bases are always safe",
+        "Some acids are safe to eat, and some bases can burn skin",
+        "Neutral substances are poisonous"
+      ],
+      "answer": 2,
+      "explain": "Food acids are safe; strong acids and strong bases (like drain cleaner) are dangerous."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Riya dips blue litmus into tomato juice and it turns red. Then she dips red litmus into toothpaste solution and it turns blue. What can she conclude about each? Explain.",
+      "modelAnswer": "Tomato juice is acidic, because acids turn blue litmus red. Toothpaste is basic, because bases turn red litmus blue.",
+      "rubric": [
+        "Tomato juice is acidic, with the litmus evidence",
+        "Toothpaste is basic, with the litmus evidence"
+      ],
+      "explain": "Always link your conclusion to the evidence (colour change)."
+    }
+  ]
+}

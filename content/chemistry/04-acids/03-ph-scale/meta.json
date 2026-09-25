@@ -1,0 +1,32 @@
+{
+  "id": "ph-scale",
+  "number": "4.3",
+  "title": "The pH Scale",
+  "summary": "From 0 to 14: measuring how acidic or basic something is, universal indicator, dilution, and why each step is 10 times bigger.",
+  "emoji": "📏",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Logarithmic nature of pH extended in MYP 5 / DP" },
+    "cbse": [
+      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts (pH scale, importance of pH in everyday life)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C", "D"],
+  "objectives": [
+    "I can describe the pH scale and place common substances on it.",
+    "I can use universal indicator colours to estimate pH.",
+    "I can explain that each pH unit is a 10× change in acidity.",
+    "I can explain the importance of pH in the body, soil and teeth."
+  ],
+  "misconceptions": [
+    "pH 2 is only a little more acidic than pH 3 (it's 10× more).",
+    "Adding water to an acid can make it basic.",
+    "A higher pH number means more acid."
+  ],
+  "prerequisites": ["chemistry/acids/indicators"],
+  "labs": ["ph-explorer"],
+  "keyTerms": ["pH", "pH scale", "universal indicator", "strong acid", "weak acid", "dilute", "concentrated"],
+  "estMinutes": 20
+}

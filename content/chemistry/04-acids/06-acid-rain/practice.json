@@ -1,0 +1,126 @@
+{
+  "topicId": "acid-rain",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which gases cause acid rain? Choose all that apply.",
+      "options": ["Sulfur dioxide", "Nitrogen oxides", "Oxygen", "Water vapour", "Argon"],
+      "answer": [0, 1],
+      "explain": "Sulfur dioxide and nitrogen oxides dissolve in rain to form sulfuric and nitric acids."
+    },
+    {
+      "id": "q2",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Put the steps of acid rain formation in order.",
+      "steps": [
+        "Fossil fuels are burned in power stations and vehicles",
+        "Sulfur dioxide and nitrogen oxides are released",
+        "The gases dissolve in water droplets in clouds",
+        "Sulfuric and nitric acids form",
+        "Acid rain falls, sometimes far away"
+      ],
+      "explain": "Burn → release → dissolve → acids form → acid rain."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Clean, unpolluted rain has a pH of about…",
+      "options": ["2", "5.6", "7", "9"],
+      "answer": 1,
+      "feedback": { "2": "Clean rain is slightly acidic because CO₂ dissolves in it." },
+      "explain": "Dissolved carbon dioxide makes clean rain slightly acidic, about pH 5.6."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why does acid rain damage marble monuments like the Taj Mahal?",
+      "options": [
+        "Marble is a metal",
+        "Marble is calcium carbonate, which reacts with acids",
+        "Rain makes marble expand",
+        "Acid rain is very hot"
+      ],
+      "answer": 1,
+      "explain": "Acid + carbonate → salt + water + carbon dioxide: the marble slowly dissolves."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Would each action INCREASE or DECREASE acid rain?",
+      "bins": ["Increases acid rain", "Decreases acid rain"],
+      "items": [
+        { "label": "Fitting scrubbers to factory chimneys", "bin": 1 },
+        { "label": "Burning more high-sulfur coal", "bin": 0 },
+        { "label": "Switching buses to CNG or electric", "bin": 1 },
+        { "label": "More old diesel vehicles on the road", "bin": 0 },
+        { "label": "Using solar and wind power", "bin": 1 }
+      ],
+      "explain": "Less burning of sulfur-containing fuels and fewer nitrogen oxides means less acid rain."
+    },
+    {
+      "id": "q6",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Complete the sentence.",
+      "text": "The damage caused to marble by acid rain is sometimes called marble ___.",
+      "blanks": [["cancer"]],
+      "explain": "'Marble cancer' describes the pitting and yellowing of marble."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Why is acid rain described as a problem that 'crosses borders'?",
+      "options": [
+        "It only falls at borders",
+        "Winds carry polluting gases far away, so rain can be acidic far from the source",
+        "Countries trade acid rain",
+        "It is caused by border fences"
+      ],
+      "answer": 1,
+      "explain": "Pollution travels with the wind, so the damage may happen in another state or country."
+    },
+    {
+      "id": "q8",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each effect of acid rain to what it harms.",
+      "pairs": [
+        { "left": "Marble and limestone wear away", "right": "Buildings and monuments" },
+        { "left": "Fish eggs fail to hatch", "right": "Lakes and rivers" },
+        { "left": "Nutrients washed out of soil", "right": "Forests and crops" }
+      ],
+      "explain": "Acid rain affects buildings, water life and plants."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Describe TWO actions India took to protect the Taj Mahal from air pollution, and explain how each helps.",
+      "modelAnswer": "1) The Taj Trapezium Zone made coal-based industries switch to cleaner fuels like natural gas or relocate, cutting sulfur dioxide emissions that form acid rain. 2) Restricting petrol and diesel vehicles near the monument reduces nitrogen oxides and soot around the marble.",
+      "rubric": [
+        "One action (e.g. cleaner fuels / industries moved)",
+        "A second action (e.g. vehicle restrictions / multani mitti cleaning)",
+        "Explained how each reduces acid rain or damage"
+      ],
+      "explain": "Real solutions combine science, law and community action."
+    }
+  ]
+}

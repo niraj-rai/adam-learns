@@ -1,0 +1,135 @@
+{
+  "topicId": "reactions-of-acids",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Complete the general word equations.",
+      "text": "acid + metal → salt + ___ ; acid + carbonate → salt + water + ___",
+      "blanks": [["hydrogen"], ["carbon dioxide"]],
+      "wordBank": ["hydrogen", "carbon dioxide", "oxygen", "nitrogen"],
+      "explain": "Metals give hydrogen; carbonates give carbon dioxide."
+    },
+    {
+      "id": "q2",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each gas to its test.",
+      "pairs": [
+        { "left": "Hydrogen", "right": "Burns with a squeaky pop" },
+        { "left": "Carbon dioxide", "right": "Turns lime water milky" }
+      ],
+      "explain": "Pop test for hydrogen; lime water test for carbon dioxide."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What salt is formed when zinc reacts with sulfuric acid?",
+      "options": ["Zinc chloride", "Zinc sulfate", "Zinc nitrate", "Zinc acetate"],
+      "answer": 1,
+      "explain": "Sulfuric acid → sulfate salts: zinc sulfate (+ hydrogen)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which metal does NOT react with dilute hydrochloric acid?",
+      "options": ["Magnesium", "Zinc", "Iron", "Copper"],
+      "answer": 3,
+      "explain": "Copper is too unreactive to react with dilute acids."
+    },
+    {
+      "id": "q5",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Complete the word equation for marble reacting with hydrochloric acid.",
+      "text": "calcium carbonate + hydrochloric acid → calcium ___ + water + carbon ___",
+      "blanks": [["chloride"], ["dioxide"]],
+      "explain": "Carbonate + acid → salt + water + carbon dioxide."
+    },
+    {
+      "id": "q6",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each salt to its use.",
+      "pairs": [
+        { "left": "Baking soda", "right": "Making dhokla and cakes rise" },
+        { "left": "Washing soda", "right": "Softening hard water" },
+        { "left": "Plaster of Paris", "right": "Casts for broken bones" },
+        { "left": "Bleaching powder", "right": "Disinfecting drinking water" }
+      ],
+      "explain": "Each salt has properties that make it useful."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Magnesium fizzes faster in hydrochloric acid (pH 1) than in vinegar (pH 3). The best explanation is:",
+      "options": [
+        "Vinegar is not an acid",
+        "Hydrochloric acid is a stronger acid, so it reacts faster",
+        "Magnesium prefers hydrochloric acid's smell",
+        "Vinegar is colder"
+      ],
+      "answer": 1,
+      "explain": "Stronger acids (lower pH) react faster with metals."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "cbseStyle": true,
+      "prompt": "Why should curd and pickles not be stored in brass or copper vessels?",
+      "options": [
+        "They lose their colour",
+        "The acids in them react with the metal, spoiling the food and possibly making it harmful",
+        "Metal makes them too cold",
+        "It's only a tradition with no reason"
+      ],
+      "answer": 1,
+      "explain": "Acidic foods react with metals such as the copper in brass, forming compounds that spoil the food."
+    },
+    {
+      "id": "q9",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Put the steps in order to show that zinc and acid produce hydrogen.",
+      "steps": [
+        "Put zinc granules in a test tube",
+        "Add dilute acid",
+        "Observe the fizzing",
+        "Hold a lighted splint at the mouth of the tube",
+        "Listen for a squeaky pop"
+      ],
+      "explain": "React → observe → test the gas."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain how baking powder makes idli or cake batter rise.",
+      "modelAnswer": "Baking powder contains baking soda (a hydrogen carbonate) and a dry acid. When water is added and the batter is heated, the acid reacts with the baking soda to release carbon dioxide gas. The gas bubbles get trapped in the batter and make it rise and become soft and fluffy.",
+      "rubric": [
+        "Baking soda + acid react (with water/heat)",
+        "Carbon dioxide gas is produced",
+        "Trapped gas bubbles make the batter rise"
+      ],
+      "explain": "Everyday cooking uses the acid + carbonate reaction."
+    }
+  ]
+}

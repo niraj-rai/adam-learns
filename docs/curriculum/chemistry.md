@@ -64,7 +64,7 @@
 
 ---
 
-### Unit 4: Acids, Bases & Salts
+### Unit 4: Acids, Bases & Salts ✅ built
 *IB Key Concept:* **Relationships** · *Related:* Patterns, Interaction · *Global Context:* Identities & relationships (health, digestion)
 
 | # | Topic | IB | CBSE | ★ | Interactive lab / experience | Practice highlights |

@@ -8,7 +8,6 @@ export const Route = createFileRoute('/curriculum')({ component: CurriculumPage 
 
 /** Planned chemistry units (from docs/curriculum/chemistry.md) not yet built. */
 const PLANNED = [
-  { unit: '4. Acids, Bases & Salts', ib: 'MYP 1–3', cbse: '7, 10' },
   { unit: '5. Metals, Non-metals & Materials', ib: 'MYP 2–3', cbse: '8, 10' },
   { unit: '6. Atoms & the Periodic Table', ib: 'MYP 3', cbse: '9, 10' },
   { unit: '7–16. Grades 9–10 (atomic structure → carbon compounds)', ib: 'MYP 4–5', cbse: '9–10' },

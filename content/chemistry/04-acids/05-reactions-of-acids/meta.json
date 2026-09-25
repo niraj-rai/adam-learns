@@ -1,0 +1,32 @@
+{
+  "id": "reactions-of-acids",
+  "number": "4.5",
+  "title": "Reactions of Acids and Useful Salts",
+  "summary": "Acids react with metals to make hydrogen and with carbonates to make carbon dioxide. Plus the salts in your kitchen and medicine cabinet.",
+  "emoji": "💥",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "General equations and gas tests extended in MYP 4" },
+    "cbse": [
+      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts (reactions with metals and carbonates; common salts)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can write general word equations for acids with metals and with carbonates.",
+    "I can describe the tests for hydrogen (squeaky pop) and carbon dioxide (lime water).",
+    "I can name the salt produced from a given acid and metal or carbonate.",
+    "I can describe everyday uses of common salts (baking soda, washing soda, plaster of Paris, bleaching powder)."
+  ],
+  "misconceptions": [
+    "All metals react with acids (copper, silver and gold don't react with dilute acids).",
+    "The gas from any fizzing reaction is oxygen.",
+    "Baking soda and baking powder are the same thing."
+  ],
+  "prerequisites": ["chemistry/acids/neutralisation", "chemistry/changes/signs-of-a-reaction"],
+  "labs": ["acid-reactions"],
+  "keyTerms": ["hydrogen", "pop test", "carbonate", "hydrogen carbonate", "salt", "baking soda", "washing soda", "plaster of Paris", "bleaching powder"],
+  "estMinutes": 25
+}

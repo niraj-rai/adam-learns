@@ -1,0 +1,33 @@
+{
+  "id": "neutralisation",
+  "number": "4.4",
+  "title": "Neutralisation",
+  "summary": "Acid + base → salt + water. How neutralisation cures indigestion, soothes ant bites, fixes soil and treats factory waste, plus your first titration.",
+  "emoji": "⚗️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Titration technique developed further in MYP 4–5" },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 2: Exploring Substances (neutralisation in everyday life)", "verified": false },
+      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts (reaction of acids with bases)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C", "D"],
+  "objectives": [
+    "I can write the general word equation for neutralisation.",
+    "I can explain everyday uses of neutralisation.",
+    "I can carry out a (virtual) titration and explain the sharp pH change at the end point.",
+    "I can explain why neutralisation is exothermic."
+  ],
+  "misconceptions": [
+    "Neutralisation always gives exactly pH 7 no matter how much base is added.",
+    "Salt means only table salt.",
+    "Mixing an acid and base makes them disappear."
+  ],
+  "prerequisites": ["chemistry/acids/ph-scale"],
+  "labs": ["neutralise-it"],
+  "keyTerms": ["neutralisation", "salt", "titration", "burette", "end point", "antacid"],
+  "estMinutes": 25
+}

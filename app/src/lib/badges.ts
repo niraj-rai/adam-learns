@@ -11,6 +11,8 @@ export type BadgeId =
   | 'well-rescuer'
   | 'unit-changes'
   | 'fire-officer'
+  | 'unit-acids'
+  | 'mystery-solver'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -26,5 +28,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'well-rescuer': { title: 'Well Rescuer', emoji: '🚰', description: 'Made the village well water safe to drink (Boss Challenge)' },
   'unit-changes': { title: 'Change Master', emoji: '⚗️', description: 'Mastered every core topic in Unit 3: Physical & Chemical Changes' },
   'fire-officer': { title: 'Fire Safety Officer', emoji: '🧑‍🚒', description: 'Handled all six fire emergencies (Boss Challenge)' },
+  'unit-acids': { title: 'pH Pro', emoji: '🧫', description: 'Mastered every core topic in Unit 4: Acids, Bases & Salts' },
+  'mystery-solver': { title: 'Mystery Solver', emoji: '🕵️', description: 'Identified all six mystery bottles (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

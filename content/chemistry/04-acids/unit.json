@@ -1,0 +1,32 @@
+{
+  "id": "acids",
+  "number": 4,
+  "title": "Acids, Bases & Salts",
+  "summary": "Lemons, soap, antacids and ant bites: acids and bases are everywhere. This unit uses natural and lab indicators, the pH scale, neutralisation and the reactions of acids to understand them, and looks at acid rain and its impact on India's monuments and lakes.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": ["Patterns", "Interaction", "Balance"],
+    "globalContext": "Identities and relationships",
+    "statementOfInquiry": "Understanding the patterns in how acids and bases interact helps us keep our bodies, our food, our soil and our environment in balance."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What are acids and bases, and how can indicators identify them?",
+      "What does the pH number tell us?",
+      "What is made when an acid reacts with a base, a metal or a carbonate?"
+    ],
+    "conceptual": [
+      "How does neutralisation help keep things in balance, in our stomach, in soil and in lakes?",
+      "Why is the pH scale a 10× scale, and why does that matter?"
+    ],
+    "debatable": [
+      "Should the government restrict industry near historic monuments like the Taj Mahal?",
+      "Are 'natural' products always safer than chemicals?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 7 (Curiosity) Ch 2: Exploring Substances: Acidic, Basic and Neutral",
+    "Class 10 Ch 2: Acids, Bases and Salts (pH, reactions of acids, common salts). Check against the current NCERT edition",
+    "Previous NCERT editions: acid rain in the air and water pollution chapters"
+  ]
+}

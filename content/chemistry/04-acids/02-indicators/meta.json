@@ -1,0 +1,33 @@
+{
+  "id": "indicators",
+  "number": "4.2",
+  "title": "Indicators: Nature's Colour Code",
+  "summary": "Litmus, turmeric, china rose, red cabbage, phenolphthalein and methyl orange: how indicators work and how to choose one.",
+  "emoji": "🌺",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 2, "note": "Good MYP Criterion B/C task: making a natural indicator" },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 2: Exploring Substances: Acidic, Basic and Neutral (litmus, turmeric, china rose)", "verified": true },
+      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts (phenolphthalein, methyl orange, olfactory indicators)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can describe the colour changes of natural and synthetic indicators in acids and bases.",
+    "I can explain why some indicators (like turmeric) can only detect bases.",
+    "I can choose a suitable indicator for a task and justify my choice.",
+    "I can plan how to make and test a natural indicator."
+  ],
+  "misconceptions": [
+    "One indicator can always tell acid, base and neutral apart.",
+    "Turmeric turning red means an acid is present.",
+    "Indicators change the substance they are added to."
+  ],
+  "prerequisites": ["chemistry/acids/acids-and-bases-around-us"],
+  "labs": ["indicator-lab"],
+  "keyTerms": ["indicator", "natural indicator", "synthetic indicator", "litmus", "turmeric", "china rose", "phenolphthalein", "methyl orange", "olfactory indicator"],
+  "estMinutes": 20
+}

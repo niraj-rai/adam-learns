@@ -1,0 +1,102 @@
+{
+  "topicId": "mystery-bottles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Which two solutions can universal indicator NOT tell apart?",
+      "options": ["Hydrochloric acid and vinegar", "Pure water and salt water", "Baking soda and sodium hydroxide", "Vinegar and baking soda"],
+      "answer": 1,
+      "explain": "Both are pH 7 (neutral), so indicators show the same colour."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Which test tells pure water from salt water?",
+      "options": ["Red litmus", "Phenolphthalein", "Evaporating a drop: salt water leaves a white solid", "Magnesium ribbon"],
+      "answer": 2,
+      "explain": "Evaporation leaves dissolved salt behind; pure water leaves nothing."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A bottle turns universal indicator purple (pH 14). It is…",
+      "options": ["A strong acid", "A weak acid", "A weak base", "A strong base"],
+      "answer": 3,
+      "explain": "pH 14 is a strong base, such as sodium hydroxide."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Magnesium ribbon fizzes RAPIDLY in bottle A and SLOWLY in bottle B. Both turn blue litmus red. What are they?",
+      "options": ["A is a weak acid, B is a strong acid", "A is a strong acid, B is a weak acid", "Both are bases", "Both are neutral"],
+      "answer": 1,
+      "explain": "Both are acids (blue litmus → red). Faster fizzing means the stronger acid."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Sort by what each result tells you.",
+      "bins": ["Acid", "Base", "Can't tell yet"],
+      "items": [
+        { "label": "Blue litmus turns red", "bin": 0 },
+        { "label": "Phenolphthalein turns pink", "bin": 1 },
+        { "label": "Turmeric stays yellow", "bin": 2 },
+        { "label": "Magnesium ribbon fizzes", "bin": 0 },
+        { "label": "Red litmus turns blue", "bin": 1 },
+        { "label": "Phenolphthalein stays colourless", "bin": 2 }
+      ],
+      "explain": "Turmeric staying yellow or phenolphthalein staying colourless could mean acid OR neutral."
+    },
+    {
+      "id": "q6",
+      "type": "order-steps",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Put this efficient plan in order.",
+      "steps": [
+        "Test every bottle with universal indicator",
+        "Group the bottles by pH",
+        "Find the two bottles that are both pH 7",
+        "Evaporate a drop from one of them",
+        "Label all six bottles using the evidence"
+      ],
+      "explain": "Use the most informative test first, then only test where needed."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Using universal indicator on all six bottles and then ONE evaporation test, how many tests do you need in total?",
+      "answer": 7,
+      "tolerance": 0,
+      "unit": "tests",
+      "explain": "6 universal indicator tests + 1 evaporation = 7."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Bottle C gives pH 8 with universal indicator and leaves a white solid when evaporated. Which substance is it, and what is your evidence?",
+      "modelAnswer": "It is baking soda solution (a weak base). pH 8 shows it is weakly basic, not a strong base like sodium hydroxide (pH 14), and the white solid shows something was dissolved in it.",
+      "rubric": [
+        "Identified it as baking soda solution / a weak base",
+        "Used the pH 8 evidence",
+        "Used the white-solid evidence (something dissolved)"
+      ],
+      "explain": "Always link each conclusion to specific evidence."
+    }
+  ]
+}

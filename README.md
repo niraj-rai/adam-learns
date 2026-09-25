@@ -16,7 +16,7 @@ npm --prefix app run build      # tests → type-check → production build
 ## Hosting (GitHub Pages)
 
 `.github/workflows/deploy-pages.yml` builds and deploys on every push to `main`.
-Site URL: `https://<github-user>.github.io/<repo-name>/` (e.g. `/AdamLearns/`).
+Site URL: `https://<github-user>.github.io/<repo-name>/` (for this repo: `https://niraj-rai.github.io/Adam-learns/`).
 
 One-time setup after creating the GitHub repo:
 1. Push this folder to the repo (`main` branch).

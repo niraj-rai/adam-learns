@@ -1,0 +1,31 @@
+{
+  "id": "mystery-bottles",
+  "number": "4.7",
+  "title": "Boss Challenge: The Mystery Bottles",
+  "summary": "Six unlabelled bottles, limited tests. Plan like a scientist and use everything from this unit to identify them all.",
+  "emoji": "🕵️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Unit summative-style task: planning (Criterion B) and processing evidence (Criterion C)" },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 2: Exploring Substances: Acidic, Basic and Neutral", "verified": true },
+      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts", "verified": false }
+    ]
+  },
+  "ibCriteria": ["B", "C"],
+  "objectives": [
+    "I can plan an efficient sequence of tests to identify unknown solutions.",
+    "I can use indicator results and other tests as evidence to justify an identification.",
+    "I can explain which tests can and cannot tell two substances apart."
+  ],
+  "misconceptions": [
+    "More tests always means a better investigation.",
+    "Indicators can tell every solution apart (salt water and pure water look identical to indicators)."
+  ],
+  "prerequisites": ["chemistry/acids/ph-scale", "chemistry/acids/reactions-of-acids"],
+  "labs": ["mystery-bottles"],
+  "keyTerms": ["identification", "evidence", "efficient", "universal indicator", "evaporation"],
+  "estMinutes": 20
+}
