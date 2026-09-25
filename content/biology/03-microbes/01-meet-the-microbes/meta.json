@@ -1,0 +1,60 @@
+{
+  "id": "meet-the-microbes",
+  "number": "3.1",
+  "title": "Meet the Microbes",
+  "summary": "Bacteria, fungi, protozoa, algae and viruses: where they live, how big they are, and why viruses are special.",
+  "emoji": "🦠",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Microbial cell structure (prokaryotes) is studied in MYP 5 / DP"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 2: The Invisible Living World: Beyond Our Naked Eye",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 2: Microorganisms: Friend and Foe",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can name the five main groups of microorganisms with an example of each.",
+    "I can describe where microorganisms live.",
+    "I can explain how viruses differ from other microbes."
+  ],
+  "misconceptions": [
+    "All microbes are germs that cause disease.",
+    "Viruses are tiny bacteria.",
+    "Microbes only live in dirty places."
+  ],
+  "prerequisites": [
+    "biology/cells/microscopes-and-cells"
+  ],
+  "labs": [
+    "microbe-zoo"
+  ],
+  "keyTerms": [
+    "microorganism",
+    "bacteria",
+    "fungi",
+    "protozoa",
+    "algae",
+    "virus",
+    "unicellular",
+    "pathogen"
+  ],
+  "estMinutes": 25
+}

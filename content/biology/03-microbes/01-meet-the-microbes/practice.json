@@ -1,0 +1,177 @@
+{
+  "topicId": "meet-the-microbes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each microbe to its group.",
+      "pairs": [
+        {
+          "left": "Lactobacillus",
+          "right": "Bacteria"
+        },
+        {
+          "left": "Yeast",
+          "right": "Fungi"
+        },
+        {
+          "left": "Amoeba",
+          "right": "Protozoa"
+        },
+        {
+          "left": "Chlamydomonas",
+          "right": "Algae"
+        },
+        {
+          "left": "Influenza",
+          "right": "Virus"
+        }
+      ],
+      "explain": "Five main groups of microorganisms."
+    },
+    {
+      "id": "q2",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Order these from smallest to largest.",
+      "steps": [
+        "Poliovirus",
+        "Influenza virus",
+        "Lactobacillus",
+        "Yeast cell",
+        "Amoeba"
+      ],
+      "explain": "Viruses are far smaller than bacteria; protozoa can be hundreds of micrometres long."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do scientists need an electron microscope to see viruses?",
+      "options": [
+        "Viruses are invisible to all light",
+        "Viruses are smaller than about 0.2 µm, too small for a light microscope",
+        "Viruses only come out at night",
+        "Viruses are transparent"
+      ],
+      "answer": 1,
+      "explain": "Light microscopes can’t show details smaller than about 0.2 µm."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which statement about viruses is TRUE?",
+      "options": [
+        "They can reproduce on their own in water",
+        "They can reproduce only inside living cells",
+        "They are a type of fungus",
+        "Antibiotics kill them"
+      ],
+      "answer": 1,
+      "explain": "Viruses take over living cells to make copies of themselves."
+    },
+    {
+      "id": "q5",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Where can microorganisms be found? Choose all that apply.",
+      "options": [
+        "Soil",
+        "Air",
+        "Inside our intestines",
+        "Hot springs",
+        "Pond water"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explain": "Microbes live almost everywhere, even in hot springs and ice."
+    },
+    {
+      "id": "q6",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Useful or harmful?",
+      "bins": [
+        "Mostly useful",
+        "Harmful (disease)"
+      ],
+      "items": [
+        {
+          "label": "Lactobacillus",
+          "bin": 0
+        },
+        {
+          "label": "Plasmodium",
+          "bin": 1
+        },
+        {
+          "label": "Rhizobium",
+          "bin": 0
+        },
+        {
+          "label": "Vibrio cholerae",
+          "bin": 1
+        },
+        {
+          "label": "Yeast",
+          "bin": 0
+        },
+        {
+          "label": "Influenza virus",
+          "bin": 1
+        }
+      ],
+      "explain": "Only a small fraction of microbes cause disease."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "An amoeba is 400 µm long and a Lactobacillus is 3 µm long. About how many times longer is the amoeba?",
+      "answer": 133,
+      "tolerance": 1,
+      "unit": "times",
+      "explain": "400 ÷ 3 ≈ 133."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Living things too small to see with the naked eye are called ___. Those that cause disease are called ___.",
+      "blanks": [
+        [
+          "microorganisms",
+          "microbes"
+        ],
+        [
+          "pathogens"
+        ]
+      ],
+      "wordBank": [
+        "microorganisms",
+        "pathogens",
+        "vitamins",
+        "enzymes"
+      ],
+      "explain": "Pathogens are only a small group of microbes."
+    }
+  ]
+}

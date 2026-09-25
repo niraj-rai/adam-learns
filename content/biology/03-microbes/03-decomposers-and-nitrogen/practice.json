@@ -1,0 +1,155 @@
+{
+  "topicId": "decomposers-and-nitrogen",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Biodegradable or non-biodegradable?",
+      "bins": [
+        "Biodegradable",
+        "Non-biodegradable"
+      ],
+      "items": [
+        {
+          "label": "Vegetable peels",
+          "bin": 0
+        },
+        {
+          "label": "Plastic bag",
+          "bin": 1
+        },
+        {
+          "label": "Dry leaves",
+          "bin": 0
+        },
+        {
+          "label": "Glass bottle",
+          "bin": 1
+        },
+        {
+          "label": "Newspaper",
+          "bin": 0
+        },
+        {
+          "label": "Aluminium foil",
+          "bin": 1
+        }
+      ],
+      "explain": "Decomposers can only break down materials that come from living things."
+    },
+    {
+      "id": "q2",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What do decomposers need to make compost quickly? Choose all that apply.",
+      "options": [
+        "A mix of greens and browns",
+        "Moisture (damp, not soggy)",
+        "Air (turning the heap)",
+        "Plastic",
+        "Complete darkness and no air"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "Decomposers are living things: they need food, water and air."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Compost Lab, why did the soggy, unturned bin smell bad?",
+      "options": [
+        "Too much air",
+        "Without enough oxygen, different bacteria took over and made smelly gases",
+        "It had too many dry leaves",
+        "Plastic was added"
+      ],
+      "answer": 1,
+      "explain": "Turning the heap and adding browns fixes it."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Where do Rhizobium bacteria live?",
+      "options": [
+        "In the leaves of wheat",
+        "In root nodules of pulses like moong and chana",
+        "In milk",
+        "In the air"
+      ],
+      "answer": 1,
+      "explain": "They fix nitrogen for the plant."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do farmers often grow a pulse crop between two cereal crops?",
+      "options": [
+        "Pulses use up all the nitrogen",
+        "Nitrogen-fixing bacteria in pulse roots add nitrogen back to the soil",
+        "It's the law",
+        "Pulses grow faster"
+      ],
+      "answer": 1,
+      "explain": "Crop rotation reduces the need for chemical fertilisers."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Bengaluru produces thousands of tonnes of waste each day, much of it wet kitchen waste. Evaluate home composting as part of the solution.",
+      "modelAnswer": "Advantages: wet waste makes up a large share of household waste, and decomposers can turn it into compost that enriches soil for gardens and farms, reducing the waste sent to landfills (which cause smells, groundwater pollution and methane). It is cheap and teaches responsibility. Limitations: it needs space, time and correct care, otherwise bins smell and attract pests; flats may lack space; plastic and glass still need recycling. Overall it is a valuable part of the solution when combined with waste segregation and community composting.",
+      "rubric": [
+        "Links composting to decomposers",
+        "At least two benefits",
+        "At least one limitation",
+        "A balanced conclusion"
+      ],
+      "explain": "Criterion D: evaluate a real solution."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Bacteria and fungi that break down dead plants and animals are called ___.",
+      "blanks": [
+        [
+          "decomposers"
+        ]
+      ],
+      "wordBank": [
+        "decomposers",
+        "producers",
+        "consumers"
+      ],
+      "explain": "They return nutrients to the soil."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A family makes 1.5 kg of wet kitchen waste every day. How much could they compost in a 30-day month instead of sending it to landfill?",
+      "answer": 45,
+      "tolerance": 0,
+      "unit": "kg",
+      "explain": "1.5 × 30 = 45 kg."
+    }
+  ]
+}

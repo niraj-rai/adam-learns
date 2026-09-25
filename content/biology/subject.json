@@ -5,13 +5,8 @@
   "color": "bio",
   "icon": "🌿",
   "order": 3,
-  "comingNext": "Unit 3: Microorganisms · Unit 4: Nutrition · Unit 5: Human Body Systems · Unit 6: Health & Disease · Unit 7: Reproduction & Adolescence · Unit 8: Ecosystems & Conservation",
+  "comingNext": "Unit 4: Nutrition · Unit 5: Human Body Systems · Unit 6: Health & Disease · Unit 7: Reproduction & Adolescence · Unit 8: Ecosystems & Conservation",
   "planned": [
-    {
-      "unit": "3. Microorganisms",
-      "ib": "MYP 2–3",
-      "cbse": "8 (Curiosity Ch 2)"
-    },
     {
       "unit": "4. Nutrition",
       "ib": "MYP 1–2",

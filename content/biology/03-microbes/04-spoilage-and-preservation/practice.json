@@ -1,0 +1,141 @@
+{
+  "topicId": "spoilage-and-preservation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each food to its preservation method.",
+      "pairs": [
+        {
+          "left": "Mango pickle",
+          "right": "Salt and oil"
+        },
+        {
+          "left": "Jam or murabba",
+          "right": "Sugar"
+        },
+        {
+          "left": "Packet milk",
+          "right": "Pasteurisation"
+        },
+        {
+          "left": "Papad",
+          "right": "Drying"
+        },
+        {
+          "left": "Leftover dal",
+          "right": "Refrigeration"
+        }
+      ],
+      "explain": "Each method stops or slows microbes."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How does a refrigerator keep food fresh longer?",
+      "options": [
+        "It kills all microbes",
+        "It slows down the growth of microbes",
+        "It adds preservatives",
+        "It removes water"
+      ],
+      "answer": 1,
+      "explain": "Microbes survive but grow very slowly in the cold."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do salt and sugar preserve food?",
+      "options": [
+        "They taste nice",
+        "They draw water out of microbes so they can't grow",
+        "They are poisonous to people",
+        "They make food cold"
+      ],
+      "answer": 1,
+      "explain": "Microbes need water to grow."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "In pasteurisation, milk is…",
+      "options": [
+        "frozen",
+        "heated to about 70 °C for a short time and then cooled quickly",
+        "boiled for an hour",
+        "dried into powder"
+      ],
+      "answer": 1,
+      "explain": "This kills most harmful microbes without spoiling the taste. It is named after Louis Pasteur."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "In the Food Preserver, which kept the dal safe the longest (without salting, sugaring or drying)?",
+      "options": [
+        "Left out in a warm kitchen",
+        "Refrigerated",
+        "Boiled, then covered",
+        "Boiled, then refrigerated"
+      ],
+      "answer": 3,
+      "explain": "Boiling reduces the starting number of microbes; cold slows the rest."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Bacteria in warm food double every 30 minutes. Starting with 100, how many are there after 3 hours?",
+      "answer": 6400,
+      "tolerance": 0,
+      "unit": "bacteria",
+      "explain": "3 hours = 6 doublings: 100 × 2⁶ = 6400."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "About a third of all food produced is wasted, some of it through spoilage. Suggest how better food preservation could help farmers in India, and one challenge.",
+      "modelAnswer": "Cold storage and refrigerated transport would let farmers store fruit and vegetables for longer, so they don't have to sell everything at once at low prices, and less food rots on the way to markets. Drying, pickling and making jams add value to extra produce. Challenges: cold storage needs reliable electricity and money to build; small farmers may not be able to afford it; transport in hot weather is difficult.",
+      "rubric": [
+        "How preservation reduces spoilage or waste",
+        "A benefit for farmers (income, storage)",
+        "A realistic challenge"
+      ],
+      "explain": "Criterion D: link science to food security."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Illness caused by eating food spoiled by microbes is called food ___.",
+      "blanks": [
+        [
+          "poisoning"
+        ]
+      ],
+      "wordBank": [
+        "poisoning",
+        "preservation",
+        "fermentation"
+      ],
+      "explain": "Some spoiled food looks and smells fine but is still unsafe."
+    }
+  ]
+}

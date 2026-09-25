@@ -1,0 +1,146 @@
+{
+  "topicId": "idli-master-chef",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "On a cold night, idli batter hasn’t fermented by morning. What is the most likely reason?",
+      "options": [
+        "Too much rice",
+        "The microbes were too cold to work quickly",
+        "The batter had too much air",
+        "Idli batter doesn't need fermenting"
+      ],
+      "answer": 1,
+      "explain": "Many cooks put the batter in a warm spot, such as an oven with the light on."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is boiled milk cooled to lukewarm before adding the curd starter?",
+      "options": [
+        "To save gas",
+        "Hot milk would kill the Lactobacillus bacteria",
+        "Cold milk sets faster",
+        "So it tastes sweeter"
+      ],
+      "answer": 1,
+      "explain": "About 40 °C is ideal."
+    },
+    {
+      "id": "q3",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "In the kitchen, is each microbe activity something we WANT or something to PREVENT?",
+      "bins": [
+        "Want",
+        "Prevent"
+      ],
+      "items": [
+        {
+          "label": "Yeast in dosa batter",
+          "bin": 0
+        },
+        {
+          "label": "Bacteria growing in leftover sambar",
+          "bin": 1
+        },
+        {
+          "label": "Lactobacillus in curd",
+          "bin": 0
+        },
+        {
+          "label": "Mould on bread",
+          "bin": 1
+        },
+        {
+          "label": "Fermenting dhokla batter",
+          "bin": 0
+        }
+      ],
+      "explain": "We control conditions to help friends and stop foes."
+    },
+    {
+      "id": "q4",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain why the same warm kitchen that is great for fermenting batter is bad for storing cooked leftovers.",
+      "modelAnswer": "Warmth speeds up all microbes. In batter, we want the useful fermenting microbes to grow quickly. In cooked leftovers, warmth lets harmful bacteria multiply rapidly (doubling every 20–30 minutes), which can cause food poisoning. So leftovers should be cooled and refrigerated to slow bacterial growth, and reheated thoroughly before eating.",
+      "rubric": [
+        "Warmth speeds microbial growth",
+        "Useful vs harmful microbes",
+        "Correct storage advice"
+      ],
+      "explain": "Same science, different goal."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which is the safest way to keep leftover sambar overnight?",
+      "options": [
+        "Leave it covered on the stove",
+        "Cool it quickly, refrigerate, and boil it again before serving",
+        "Leave it on the counter uncovered",
+        "Add extra salt and leave it out"
+      ],
+      "answer": 1,
+      "explain": "Cooling slows microbes; boiling kills most before eating."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Idli batter filled 1.2 L of a container at night and 2.1 L by morning. By what percentage did it rise?",
+      "answer": 75,
+      "tolerance": 0,
+      "unit": "%",
+      "explain": "(2.1 − 1.2) ÷ 1.2 × 100 = 75%: perfectly fermented."
+    },
+    {
+      "id": "q7",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which microbes are at work in idli batter fermentation? Choose all that apply.",
+      "options": [
+        "Lactic acid bacteria",
+        "Yeasts",
+        "Plasmodium",
+        "Rhizobium"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explain": "Lactic acid bacteria give sourness; yeasts help make gas."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "A spoonful of old curd added to milk to make new curd is called a ___.",
+      "blanks": [
+        [
+          "starter"
+        ]
+      ],
+      "wordBank": [
+        "starter",
+        "stopper",
+        "stabiliser"
+      ],
+      "explain": "It provides the Lactobacillus bacteria."
+    }
+  ]
+}

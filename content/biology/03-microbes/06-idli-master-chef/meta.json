@@ -1,0 +1,54 @@
+{
+  "id": "idli-master-chef",
+  "number": "3.6",
+  "title": "Boss Challenge: Idli Master Chef",
+  "summary": "Run a South Indian kitchen: ferment the idli batter, set curd for lunch and store leftovers safely.",
+  "emoji": "👩‍🍳",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task: applying microbiology (Criteria A and C)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 2: The Invisible Living World: Beyond Our Naked Eye",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 2: Microorganisms: Friend and Foe",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can choose conditions that help useful microbes and hinder harmful ones.",
+    "I can explain kitchen decisions using fermentation and preservation."
+  ],
+  "misconceptions": [
+    "Microbes in the kitchen are always bad."
+  ],
+  "prerequisites": [
+    "biology/microbes/fermentation",
+    "biology/microbes/spoilage-and-preservation"
+  ],
+  "labs": [
+    "idli-chef"
+  ],
+  "keyTerms": [
+    "fermentation",
+    "starter",
+    "preservation",
+    "refrigeration"
+  ],
+  "estMinutes": 15
+}

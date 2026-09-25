@@ -1,0 +1,60 @@
+{
+  "id": "antibiotics-and-hygiene",
+  "number": "3.5",
+  "title": "Antibiotics, Vaccines and Hygiene",
+  "summary": "How Fleming found penicillin, why antibiotics don’t cure colds, antibiotic resistance, and why handwashing matters.",
+  "emoji": "💊",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Immunity and vaccines are developed further in Unit 6"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 2: Microorganisms: Friend and Foe",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 3: Health: The Ultimate Treasure",
+        "verified": false
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain what antibiotics do and why they don’t work against viruses.",
+    "I can explain how antibiotic resistance develops and how to prevent it.",
+    "I can explain how hygiene and vaccination prevent disease."
+  ],
+  "misconceptions": [
+    "Antibiotics cure colds and flu.",
+    "You can stop taking antibiotics when you feel better.",
+    "Rinsing hands with water is as good as washing with soap."
+  ],
+  "prerequisites": [
+    "biology/microbes/meet-the-microbes"
+  ],
+  "labs": [
+    "petri-lab"
+  ],
+  "keyTerms": [
+    "antibiotic",
+    "penicillin",
+    "antibiotic resistance",
+    "vaccine",
+    "hygiene",
+    "pathogen",
+    "communicable disease"
+  ],
+  "estMinutes": 25
+}

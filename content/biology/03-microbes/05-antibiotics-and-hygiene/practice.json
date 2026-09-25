@@ -1,0 +1,127 @@
+{
+  "topicId": "antibiotics-and-hygiene",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Who discovered penicillin, the first antibiotic, from a mould in 1928?",
+      "options": [
+        "Louis Pasteur",
+        "Alexander Fleming",
+        "Edward Jenner",
+        "Robert Hooke"
+      ],
+      "answer": 1,
+      "explain": "Fleming noticed that mould stopped bacteria growing on a plate."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why won't antibiotics cure a cold?",
+      "options": [
+        "Colds are too mild",
+        "Colds are caused by viruses, and antibiotics only work against bacteria",
+        "Antibiotics are too weak",
+        "Colds are caused by fungi"
+      ],
+      "answer": 1,
+      "explain": "Using antibiotics for viral infections also helps resistance spread."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Petri Dish Lab, which disc produced the largest clear zone on the ordinary strain?",
+      "options": [
+        "Water",
+        "Soap",
+        "Sanitiser",
+        "Antibiotic"
+      ],
+      "answer": 3,
+      "explain": "A bigger clear zone means more bacteria were stopped."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "On the resistant strain, the antibiotic disc had NO clear zone. What does this show?",
+      "options": [
+        "The antibiotic had expired",
+        "These bacteria are not affected by that antibiotic",
+        "The plate wasn't incubated",
+        "Bacteria like antibiotics"
+      ],
+      "answer": 1,
+      "explain": "Resistant bacteria survive treatment and multiply."
+    },
+    {
+      "id": "q5",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Which actions help prevent antibiotic resistance? Choose all that apply.",
+      "options": [
+        "Take antibiotics only when prescribed by a doctor",
+        "Finish the whole course",
+        "Save leftover antibiotics for next time",
+        "Don’t ask for antibiotics for colds and flu",
+        "Share antibiotics with family members"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explain": "Misuse helps resistant bacteria survive and spread."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "How does a vaccine protect us?",
+      "options": [
+        "It kills all germs in the body",
+        "It trains the immune system to recognise a pathogen, so the body can fight it quickly later",
+        "It is an antibiotic",
+        "It makes us sweat out germs"
+      ],
+      "answer": 1,
+      "explain": "Vaccines helped India become polio-free in 2014."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the handwashing test, unwashed hands gave 150 colonies and soap-washed hands gave 12. By what percentage did soap reduce the colonies?",
+      "answer": 92,
+      "tolerance": 0,
+      "unit": "%",
+      "explain": "(150 − 12) ÷ 150 × 100 = 92%."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "In many places, antibiotics can be bought without a prescription. Should this be allowed? Give arguments on both sides and your conclusion.",
+      "modelAnswer": "For: people in remote areas far from doctors can get treatment quickly; it is cheaper and saves time. Against: people take antibiotics for viral infections or stop courses early, which speeds up antibiotic resistance, making common infections harder to treat for everyone; wrong doses can cause side effects. Conclusion: antibiotics should require a prescription, while governments improve access to doctors and telemedicine so people aren't left without care.",
+      "rubric": [
+        "A valid argument for",
+        "A valid argument against, linked to resistance",
+        "A reasoned conclusion"
+      ],
+      "explain": "Criterion D: weigh individual and public health."
+    }
+  ]
+}

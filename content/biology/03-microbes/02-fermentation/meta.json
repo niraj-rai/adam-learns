@@ -1,0 +1,60 @@
+{
+  "id": "fermentation",
+  "number": "3.2",
+  "title": "Fermentation: Curd, Idli and Bread",
+  "summary": "How yeast and Lactobacillus turn dough into bread, milk into curd and rice-and-dal into idli batter.",
+  "emoji": "🍞",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Anaerobic respiration equations follow in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 2: The Invisible Living World: Beyond Our Naked Eye",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 2: Microorganisms: Friend and Foe",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can explain how yeast makes dough rise and how Lactobacillus makes curd.",
+    "I can describe the conditions microbes need for fermentation.",
+    "I can plan a fair test on fermentation."
+  ],
+  "misconceptions": [
+    "Yeast is a chemical, not a living thing.",
+    "Hotter is always better for fermentation.",
+    "Curd sets because of the heat of the milk alone."
+  ],
+  "prerequisites": [
+    "biology/microbes/meet-the-microbes"
+  ],
+  "labs": [
+    "fermentation-lab"
+  ],
+  "keyTerms": [
+    "fermentation",
+    "yeast",
+    "carbon dioxide",
+    "Lactobacillus",
+    "lactic acid",
+    "starter",
+    "batter"
+  ],
+  "estMinutes": 25
+}

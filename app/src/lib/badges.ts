@@ -35,6 +35,8 @@ export type BadgeId =
   | 'field-naturalist'
   | 'unit-cells'
   | 'slide-sleuth'
+  | 'unit-microbes'
+  | 'microbe-master'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -74,5 +76,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'field-naturalist': { title: 'Field Naturalist', emoji: '🔭', description: 'Identified eight Western Ghats organisms with a key (Boss Challenge)' },
   'unit-cells': { title: 'Cell Scientist', emoji: '🔬', description: 'Mastered every core topic in Biology Unit 2: Cells' },
   'slide-sleuth': { title: 'Slide Sleuth', emoji: '🧫', description: 'Identified six mystery microscope slides (Boss Challenge)' },
+  'unit-microbes': { title: 'Microbe Hunter', emoji: '🦠', description: 'Mastered every core topic in Biology Unit 3: Microorganisms' },
+  'microbe-master': { title: 'Microbe Master Chef', emoji: '👩‍🍳', description: 'Used friendly microbes and food safety to complete three kitchen orders (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

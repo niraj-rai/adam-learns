@@ -1,0 +1,56 @@
+{
+  "id": "decomposers-and-nitrogen",
+  "number": "3.3",
+  "title": "Decomposers and Nitrogen Fixers",
+  "summary": "Microbes that recycle dead matter into compost, and Rhizobium bacteria that turn air into fertiliser.",
+  "emoji": "♻️",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Nutrient cycles (the nitrogen cycle) follow in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 2: The Invisible Living World: Beyond Our Naked Eye",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain the role of decomposers in recycling nutrients.",
+    "I can describe how nitrogen-fixing bacteria in root nodules help plants.",
+    "I can evaluate composting as a way of managing waste."
+  ],
+  "misconceptions": [
+    "Dead things just disappear by themselves.",
+    "Plants take nitrogen straight from the air.",
+    "All waste can be composted."
+  ],
+  "prerequisites": [
+    "biology/microbes/meet-the-microbes"
+  ],
+  "labs": [
+    "compost-lab"
+  ],
+  "keyTerms": [
+    "decomposer",
+    "decomposition",
+    "compost",
+    "biodegradable",
+    "Rhizobium",
+    "root nodules",
+    "nitrogen fixation",
+    "crop rotation"
+  ],
+  "estMinutes": 25
+}

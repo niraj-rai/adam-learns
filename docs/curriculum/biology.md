@@ -29,12 +29,23 @@
 | 2.5 | Cell division | MYP 3 | Cur-8 Ch 2 ✅, Class 9 ⚠️ | ★★ | **One Cell to Many**: doubling, bacteria in food |
 | 2.6 | Boss: Mystery Slides | MYP 3 | Cur-8 Ch 2 ✅ | ★★★ | Focus and identify 6 unlabelled slides (3 lives) |
 
-### Units 3–8 (planned)
+### Unit 3: Microorganisms: Friend and Foe ✅ built
+*IB Key Concept:* **Change** · *Related:* Interaction, Consequences, Balance · *Global Context:* Globalization and sustainability
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 3.1 | Meet the microbes (5 groups, viruses) | MYP 2 | Cur-8 Ch 2 ✅ | ★ | **Microbe Zoo**: 8 samples, 12 animated microbes |
+| 3.2 | Fermentation: curd, idli, bread | MYP 2 | Cur-8 Ch 2 ✅ | ★★ | **Fermentation Lab**: yeast dough rise, curd setting vs temperature |
+| 3.3 | Decomposers and nitrogen fixers | MYP 2 | Cur-8 Ch 2 ✅ | ★★ | **Compost Lab**: bin sim + Rhizobium root nodules |
+| 3.4 | Spoilage and preservation | MYP 3 | Earlier NCERT 8 Ch 2 ✅ | ★★ | **Food Preserver**: log-scale growth curves for 7 methods |
+| 3.5 | Antibiotics, vaccines and hygiene | MYP 3 | Earlier NCERT 8 Ch 2 ✅, Cur-8 Ch 3 ⚠️ | ★★ | **Petri Dish Lab**: inhibition zones, resistance, handwashing |
+| 3.6 | Boss: Idli Master Chef | MYP 3 | Cur-8 Ch 2 ✅ | ★★★ | Ferment batter, set curd, store leftovers (3 lives) |
+
+### Units 4–8 (planned)
 
 
 | Unit | Topics | IB | CBSE | ★ | Signature labs |
 |---|---|---|---|---|---|
-| 3. Microorganisms | Bacteria, fungi, viruses, useful and harmful microbes, fermentation (idli, curd) | MYP 2–3 | Cur-8 Ch 2 ✅ | ★★ | **Microbe Zoo**, Curd-setting time-lapse |
 | 4. Nutrition | Plant nutrition (photosynthesis), animal nutrition, digestive system, balanced diet | MYP 1–2 | 6, 7 | ★★ | **Photosynthesis Factory** (light/CO₂ sliders), Digestion Journey |
 | 5. Human Body Systems | Respiration, circulation, excretion, skeleton & movement | MYP 2 | 7 | ★★★ | **Heart Pump** animation, Breathing model |
 | 6. Health & Disease | Immunity, communicable diseases, vaccination, hygiene | MYP 3 | Cur-8 Ch3 ⚠️ | ★★ | **Outbreak sim** (vaccination rate slider) |

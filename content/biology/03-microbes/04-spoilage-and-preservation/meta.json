@@ -1,0 +1,56 @@
+{
+  "id": "spoilage-and-preservation",
+  "number": "3.4",
+  "title": "Food Spoilage and Preservation",
+  "summary": "Why food goes bad, and how refrigeration, boiling, salting, sugaring, drying and pasteurisation stop microbes.",
+  "emoji": "🧂",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Growth curves and exponential change link to MYP Maths"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 2: Microorganisms: Friend and Foe",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain food spoilage as the growth of microbes.",
+    "I can explain how common preservation methods stop or slow microbes.",
+    "I can choose suitable preservation methods for different foods."
+  ],
+  "misconceptions": [
+    "Refrigeration kills all microbes.",
+    "Food is safe as long as it looks and smells fine.",
+    "Preservation is a modern invention."
+  ],
+  "prerequisites": [
+    "biology/microbes/fermentation",
+    "biology/cells/cell-division"
+  ],
+  "labs": [
+    "food-preserver"
+  ],
+  "keyTerms": [
+    "spoilage",
+    "preservation",
+    "refrigeration",
+    "pasteurisation",
+    "pickling",
+    "dehydration",
+    "food poisoning"
+  ],
+  "estMinutes": 25
+}

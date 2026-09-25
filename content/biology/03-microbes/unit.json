@@ -1,0 +1,36 @@
+{
+  "id": "microbes",
+  "number": 3,
+  "title": "Microorganisms: Friend and Foe",
+  "summary": "Bacteria, fungi, protozoa, algae and viruses: invisible living things that make curd and idli, recycle waste, feed crops, spoil food and cause disease. Learn to use them and to keep them in check.",
+  "ib": {
+    "keyConcept": "Change",
+    "relatedConcepts": [
+      "Interaction",
+      "Consequences",
+      "Balance"
+    ],
+    "globalContext": "Globalization and sustainability",
+    "statementOfInquiry": "Microorganisms change the world around us; understanding their interactions lets us use them sustainably and protect our health."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What are the main groups of microorganisms?",
+      "How do microbes make curd, idli and bread?",
+      "How do antibiotics work, and why don't they work on viruses?"
+    ],
+    "conceptual": [
+      "How do decomposers and nitrogen-fixing bacteria keep ecosystems in balance?",
+      "How do preservation methods stop microbes from spoiling food?"
+    ],
+    "debatable": [
+      "Should antibiotics be sold only with a doctor's prescription?",
+      "Are microbes more friend or foe to humans?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 8 (Curiosity) Ch 2: The Invisible Living World: Beyond Our Naked Eye",
+    "Earlier NCERT Class 8 Ch 2: Microorganisms: Friend and Foe",
+    "Class 8 (Curiosity) Ch 3: Health: The Ultimate Treasure (diseases; check against your edition)"
+  ]
+}
