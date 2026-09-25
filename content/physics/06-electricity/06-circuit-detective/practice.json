@@ -1,0 +1,170 @@
+{
+  "topicId": "circuit-detective",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each fault to its fix.",
+      "pairs": [
+        {
+          "left": "Open switch",
+          "right": "Close the switch"
+        },
+        {
+          "left": "Dead cell",
+          "right": "Replace the cell"
+        },
+        {
+          "left": "LED the wrong way round",
+          "right": "Turn the LED around"
+        },
+        {
+          "left": "Plastic in the circuit",
+          "right": "Replace it with a conductor"
+        },
+        {
+          "left": "Fused bulb",
+          "right": "Replace the bulb"
+        }
+      ],
+      "explain": "Every fault leaves a gap or a missing push."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A torch doesn't work. You swap in new cells and it still doesn't work. What should you check next?",
+      "options": [
+        "The colour of the torch",
+        "The bulb and the switch",
+        "The brand of cells",
+        "Nothing: throw it away"
+      ],
+      "answer": 1,
+      "explain": "Test one part at a time: the bulb's filament and the switch contacts."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How can you tell which leg of an LED goes towards the + terminal?",
+      "options": [
+        "The shorter leg",
+        "The longer leg",
+        "It doesn't matter",
+        "The red one"
+      ],
+      "answer": 1,
+      "explain": "The longer leg (the anode) connects towards +."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A circuit has one cell and one LED, the right way round, but it doesn't glow. What is the most likely reason?",
+      "options": [
+        "The LED needs about 2 V, but one cell gives only 1.5 V",
+        "LEDs never work in circuits",
+        "The wire is too short",
+        "The circuit is too complete"
+      ],
+      "answer": 0,
+      "explain": "Adding a second cell (3 V) makes it glow."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Will the bulb light?",
+      "bins": [
+        "Lights",
+        "Doesn't light"
+      ],
+      "items": [
+        {
+          "label": "Cell + closed switch + bulb in a loop",
+          "bin": 0
+        },
+        {
+          "label": "Cell + open switch + bulb in a loop",
+          "bin": 1
+        },
+        {
+          "label": "Two cells facing opposite ways + bulb",
+          "bin": 1
+        },
+        {
+          "label": "Cell + aluminium foil + bulb in a loop",
+          "bin": 0
+        },
+        {
+          "label": "Cell + rubber band + bulb in a loop",
+          "bin": 1
+        },
+        {
+          "label": "Two cells facing the same way + bulb",
+          "bin": 0
+        }
+      ],
+      "explain": "A working circuit needs a complete conducting loop and a net push from the cells."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Describe a step-by-step method a detective could use to find the fault in ANY simple circuit that doesn't work.",
+      "modelAnswer": "1) Check the cells: are they working and facing the same way? 2) Check the switch is closed. 3) Check every connection is tight and every part in the loop is a conductor. 4) Check the bulb's filament or the LED's direction, and whether it has enough voltage. 5) Test one change at a time and observe the result, so you know which change fixed it.",
+      "rubric": [
+        "Systematic order of checks",
+        "Covers cells, switch, connections/materials and the bulb/LED",
+        "Changes one thing at a time"
+      ],
+      "explain": "Criterion C: a logical troubleshooting procedure."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why does changing only ONE thing at a time help when fixing a circuit?",
+      "options": [
+        "It is faster",
+        "You know exactly which change fixed the problem",
+        "It uses fewer cells",
+        "It makes the bulb brighter"
+      ],
+      "answer": 1,
+      "explain": "This is the same idea as a fair test."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "A circuit with a gap in it is called an ___ circuit, and no ___ flows.",
+      "blanks": [
+        [
+          "open"
+        ],
+        [
+          "current"
+        ]
+      ],
+      "wordBank": [
+        "open",
+        "current",
+        "closed",
+        "water"
+      ],
+      "explain": "Open circuit = gap = no current."
+    }
+  ]
+}

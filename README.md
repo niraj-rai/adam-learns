@@ -2,7 +2,7 @@
 
 An interactive learning website for a Grade 8 student at an IB school in Bengaluru. It is aligned to **IB MYP** and cross-mapped to **CBSE/NCERT**, so each topic works for both boards.
 
-**Status:** Chemistry up to Grade 8 is complete (6 units). **Physics** is in progress: Units 1–5 (Measurement & Motion; Forces & Pressure; Energy, Heat & Temperature; Light; Sound) are built, with Units 6–7 planned in [docs/curriculum/physics.md](docs/curriculum/physics.md).
+**Status:** Chemistry up to Grade 8 is complete (6 units). **Physics** is in progress: Units 1–6 (Measurement & Motion; Forces & Pressure; Energy, Heat & Temperature; Light; Sound; Electricity & Magnetism) are built, with Unit 7 planned in [docs/curriculum/physics.md](docs/curriculum/physics.md).
 
 ## Run it locally
 
@@ -37,7 +37,7 @@ One-time setup after creating the GitHub repo:
 | 1 | [docs/01-tech-architecture.md](docs/01-tech-architecture.md) | Tech stack, folder structure, content schema, and routes |
 | 2 | [docs/02-learning-experience.md](docs/02-learning-experience.md) | Lesson flow, interactive labs, practice types, and gamification |
 | 3 | [docs/curriculum/chemistry.md](docs/curriculum/chemistry.md) | **Built first.** Chemistry topic by topic, from foundations to Grade 12 |
-| 4 | [docs/curriculum/physics.md](docs/curriculum/physics.md) | Physics topic map (Units 1–5 built) |
+| 4 | [docs/curriculum/physics.md](docs/curriculum/physics.md) | Physics topic map (Units 1–6 built) |
 | 5 | [docs/curriculum/biology.md](docs/curriculum/biology.md) | Biology topic map |
 | 6 | [docs/curriculum/mathematics.md](docs/curriculum/mathematics.md) | Mathematics topic map |
 

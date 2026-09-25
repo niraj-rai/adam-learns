@@ -74,10 +74,17 @@ Sea and land breezes are taught in Unit 2 (Cyclone Lab) and referenced from 3.5.
 
 Sound is not in the new Curiosity series (Classes 6–8), so it maps to the earlier NCERT Class 8 chapter and to Class 9.
 
-### Unit 6: Electricity & Magnetism
-| Topics | IB | CBSE | Signature labs |
-|---|---|---|---|
-| Magnets and poles, circuits, conductors/insulators, heating and magnetic effects, electromagnets | MYP 1–3 | Cur-6 (Exploring Magnets) ⚠️, Cur-7 (Electricity: Circuits) ⚠️, Cur-8 Ch 4 ✅ | Circuit Builder, Electromagnet Lab, Compass Field Mapper |
+### Unit 6: Electricity & Magnetism ✅ built
+*IB Key Concept:* **Systems** · *Related:* Energy, Interaction, Function · *Global Context:* Scientific and technical innovation
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 6.1 | Magnets and magnetic fields | MYP 1 | Cur-6 Ch 4 ✅ | ★ | **Magnet Lab**: magnetic or not, compass field mapper, Earth as a magnet |
+| 6.2 | Electric circuits: components, symbols, series vs parallel | MYP 2 | Cur-7 Ch 3 ✅ | ★★ | **Circuit Builder**: 6-slot loop with CBSE symbols + challenges |
+| 6.3 | Conductors, insulators and safety | MYP 2 | Cur-7 Ch 3 ✅ | ★ | **Circuit Builder** (tester mode): 11 materials |
+| 6.4 | Heating effect: nichrome, fuses, MCBs, units | MYP 3 | Cur-8 Ch 4 ✅ | ★★ | **Heating Effect**: copper vs nichrome, home fuse box with real appliance powers |
+| 6.5 | Electromagnets | MYP 3 | Cur-8 Ch 4 ✅ | ★★ | **Electromagnet Lab**: Ørsted's compass, turns/current/core |
+| 6.6 | Boss: Circuit Detective | MYP 3 | Cur-7 Ch 3, Cur-8 Ch 4 ✅ | ★★★ | 7 broken circuits to diagnose and fix (each verified by the circuit model) |
 
 ### Unit 7: Earth & Space
 | Topics | IB | CBSE | Signature labs |

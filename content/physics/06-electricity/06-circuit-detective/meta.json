@@ -1,0 +1,55 @@
+{
+  "id": "circuit-detective",
+  "number": "6.6",
+  "title": "Boss Challenge: Circuit Detective",
+  "summary": "Seven broken circuits: an open switch, a dead cell, a reversed LED and more. Diagnose and fix them all.",
+  "emoji": "🕵️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task: troubleshooting systems (Criteria A and C)"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 3: Electricity: Circuits and their Components",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 4: Electricity: Magnetic and Heating Effects",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can diagnose why a circuit doesn't work.",
+    "I can explain the fix using the idea of a complete circuit."
+  ],
+  "misconceptions": [
+    "If a bulb doesn't light, the bulb must be broken."
+  ],
+  "prerequisites": [
+    "physics/electricity/electric-circuits",
+    "physics/electricity/conductors-and-insulators"
+  ],
+  "labs": [
+    "circuit-detective"
+  ],
+  "keyTerms": [
+    "complete circuit",
+    "open circuit",
+    "fused bulb",
+    "LED polarity",
+    "insulator"
+  ],
+  "estMinutes": 15
+}

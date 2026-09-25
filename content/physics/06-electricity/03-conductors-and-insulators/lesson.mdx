@@ -1,0 +1,52 @@
+<Stage kind="wonder" title="Copper inside, plastic outside" />
+
+<Hook emoji="🔌">
+Cut open an old charger cable (with an adult, and only one that's unplugged and thrown away) and you'll find shiny copper strands inside a plastic coat. Screwdrivers for electricians have plastic or rubber handles. Why do we need BOTH kinds of material?
+</Hook>
+
+<PredictFirst
+  question="Which of these will let a bulb light if it bridges a gap in a circuit?"
+  options={["A plastic ruler", "A rubber band", "Pencil lead (graphite)", "A wooden stick"]}
+  answer={2}
+>
+**Graphite** (pencil lead) conducts electricity, even though it isn't a metal! The bulb glows dimly because graphite conducts less well than copper.
+</PredictFirst>
+
+<Stage kind="explain" title="Conductors and insulators" />
+
+<Compare
+  columns={[
+    { title: "Conductors", emoji: "✅", points: ["Allow current to flow through them", "Metals: copper, aluminium, iron, silver", "Graphite (a non-metal)", "Salty or impure water, and the human body"] },
+    { title: "Insulators", emoji: "❌", points: ["Do not allow current through", "Plastic, rubber, dry wood, glass, paper", "Used to cover wires and make handles, switches and plugs"] }
+  ]}
+/>
+
+<Stage kind="try" title="Conductor Tester" />
+
+<Lab id="circuit-builder" start="tester" />
+
+<ConceptCard title="Staying safe" emoji="⚠️">
+The 230 V supply in our homes can cause severe shocks, burns and even death, so never experiment with it.
+- Water conducts because of dissolved salts, so **never touch switches or appliances with wet hands**.
+- Don't use damaged or bare wires; don't overload sockets.
+- Stay far away from fallen or overhead power lines, and never fly kites near them.
+- Our experiments use only 1.5 V cells, which are safe.
+</ConceptCard>
+
+<Stage kind="apply" title="Evaluate" />
+
+<Inquiry criterion="C" title="Test and sort">
+Test every material in the Conductor Tester. Make a table: material, conductor or insulator, brightness. Were any results surprising? Which conductor was weakest?
+</Inquiry>
+
+<Inquiry criterion="D" title="Monsoon safety campaign">
+Electric shocks are more common during the monsoon. Design a safety campaign for your school with three key messages, each explained using conductors and insulators.
+</Inquiry>
+
+<CbseCorner source="Class 7 Curiosity Ch 3">
+- **Conductors** allow electric current to pass; **insulators** do not.
+- Using a simple tester (cell, bulb, wires) to classify materials.
+- Safety: never experiment with mains electricity; wires are covered with insulating material.
+</CbseCorner>
+
+<Reflect id="phys-elec-conductors" prompt="Our bodies conduct electricity. How is that useful (think about nerves and the heart), and why does it make mains electricity dangerous?" />

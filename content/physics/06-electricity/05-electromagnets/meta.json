@@ -1,0 +1,55 @@
+{
+  "id": "electromagnets",
+  "number": "6.5",
+  "title": "Electromagnets",
+  "summary": "A current makes a magnetic field. Coils, iron cores and switchable magnets in bells, cranes and motors.",
+  "emoji": "🧷",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Motor effect and induction follow in MYP 5 / CBSE 10"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 4: Electricity: Magnetic and Heating Effects",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can describe Ørsted’s observation that a current produces a magnetic field.",
+    "I can build an electromagnet and explain how to make it stronger.",
+    "I can explain uses of electromagnets."
+  ],
+  "misconceptions": [
+    "An electromagnet stays magnetic after it is switched off.",
+    "Any metal core works as well as iron.",
+    "Electricity and magnetism are unrelated."
+  ],
+  "prerequisites": [
+    "physics/electricity/magnets",
+    "physics/electricity/electric-circuits"
+  ],
+  "labs": [
+    "electromagnet-lab"
+  ],
+  "keyTerms": [
+    "electromagnet",
+    "coil",
+    "turns",
+    "iron core",
+    "magnetic effect of current",
+    "electric bell"
+  ],
+  "estMinutes": 25
+}

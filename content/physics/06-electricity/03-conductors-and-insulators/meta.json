@@ -1,0 +1,53 @@
+{
+  "id": "conductors-and-insulators",
+  "number": "6.3",
+  "title": "Conductors, Insulators and Safety",
+  "summary": "Which materials let current through? Why wires are copper with a plastic coat, and how to stay safe with electricity.",
+  "emoji": "🧪",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Resistance and resistivity follow in MYP 5"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 3: Electricity: Circuits and their Components",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can test and classify materials as conductors or insulators.",
+    "I can explain why wires and appliances use both conductors and insulators.",
+    "I can describe how to use electricity safely."
+  ],
+  "misconceptions": [
+    "All liquids are insulators.",
+    "Pencil lead is a metal.",
+    "It is safe to touch switches with wet hands because the switch is plastic."
+  ],
+  "prerequisites": [
+    "physics/electricity/electric-circuits"
+  ],
+  "labs": [
+    "circuit-builder"
+  ],
+  "keyTerms": [
+    "conductor",
+    "insulator",
+    "electrical safety",
+    "graphite",
+    "earthing"
+  ],
+  "estMinutes": 20
+}

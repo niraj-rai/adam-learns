@@ -1,0 +1,136 @@
+{
+  "topicId": "electromagnets",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "A compass needle is placed under a wire. When current flows, the needle…",
+      "options": [
+        "stays still",
+        "is deflected",
+        "melts",
+        "spins continuously"
+      ],
+      "answer": 1,
+      "explain": "A current produces a magnetic field around the wire."
+    },
+    {
+      "id": "q2",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "How can you make an electromagnet stronger? Choose all that apply.",
+      "options": [
+        "Wind more turns of wire",
+        "Use more cells (more current)",
+        "Use an iron core",
+        "Use an aluminium core",
+        "Use a longer, thinner nail"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "More turns, more current and an iron core all strengthen it."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why are electromagnets used in scrapyard cranes instead of permanent magnets?",
+      "options": [
+        "They are cheaper to paint",
+        "They can be switched off to drop the scrap",
+        "They are lighter",
+        "They attract aluminium"
+      ],
+      "answer": 1,
+      "explain": "Switch off the current and the magnetism disappears."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the lab, the current was reversed. What happened to the compass deflection?",
+      "options": [
+        "It stayed the same",
+        "It reversed direction",
+        "It doubled",
+        "It disappeared"
+      ],
+      "answer": 1,
+      "explain": "Reversing the current reverses the magnetic field."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "An electromagnet with 50 turns and 2 cells holds 10 clips. Assuming clips held is proportional to turns × cells, how many clips would 100 turns and 2 cells hold?",
+      "answer": 20,
+      "tolerance": 0,
+      "unit": "clips",
+      "explain": "Doubling the turns doubles the strength: 20 clips."
+    },
+    {
+      "id": "q6",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Order how an electric bell rings.",
+      "steps": [
+        "Pressing the switch completes the circuit",
+        "Current makes the electromagnet magnetic",
+        "The electromagnet pulls the iron strip and the hammer hits the gong",
+        "Moving the strip breaks the circuit, so the magnet switches off",
+        "The strip springs back, completing the circuit again and repeating"
+      ],
+      "explain": "Making and breaking the circuit repeatedly makes the hammer vibrate."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan an investigation into how the number of turns affects the strength of an electromagnet.",
+      "modelAnswer": "Independent variable: number of turns (20, 40, 60, 80) wound on an iron nail. Dependent variable: the number of paper clips lifted. Control variables: the same nail, the same wire, the same number of cells (current), the same size of paper clips, and switching on for only a few seconds so the wire doesn't overheat. Repeat three times for each number of turns and plot a graph.",
+      "rubric": [
+        "Independent variable: turns",
+        "Dependent variable: clips lifted",
+        "At least two controls, including current",
+        "Safety or repeats"
+      ],
+      "explain": "Criterion B: plan a fair test."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "A coil of wire wound around an iron core becomes a magnet only while ___ flows through it. It is called an ___.",
+      "blanks": [
+        [
+          "current"
+        ],
+        [
+          "electromagnet"
+        ]
+      ],
+      "wordBank": [
+        "current",
+        "electromagnet",
+        "water",
+        "insulator"
+      ],
+      "explain": "Electromagnets are temporary, switchable magnets."
+    }
+  ]
+}

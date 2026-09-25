@@ -27,6 +27,8 @@ export type BadgeId =
   | 'light-bender'
   | 'unit-sound'
   | 'sonar-captain'
+  | 'unit-electricity'
+  | 'circuit-detective'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -58,5 +60,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'light-bender': { title: 'Light Bender', emoji: '🪞', description: 'Cleared all five Laser Maze levels (Boss Challenge)' },
   'unit-sound': { title: 'Sound Wave', emoji: '🎵', description: 'Mastered every core topic in Physics Unit 5: Sound' },
   'sonar-captain': { title: 'Sonar Captain', emoji: '🚢', description: 'Mapped the seabed with echoes and found the shipwreck (Boss Challenge)' },
+  'unit-electricity': { title: 'Live Wire', emoji: '⚡', description: 'Mastered every core topic in Physics Unit 6: Electricity & Magnetism' },
+  'circuit-detective': { title: 'Circuit Detective', emoji: '🕵️', description: 'Found and fixed the fault in seven broken circuits (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

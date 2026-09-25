@@ -1,0 +1,59 @@
+<Stage kind="wonder" title="Why won't it light?" />
+
+<Hook emoji="🔦">
+You have a cell, a torch bulb and one piece of wire. You touch the wire from the cell's + end to the bulb... nothing. Twist it, press harder... still nothing. What is missing?
+</Hook>
+
+<PredictFirst
+  question="What do you need to light the bulb with the cell?"
+  options={["A thicker wire", "A second wire, to make a complete loop back to the other terminal", "A bigger bulb", "Nothing more: it should work"]}
+  answer={1}
+>
+Current needs a **complete, closed loop**: out of one terminal of the cell, through the bulb, and back into the other terminal. One wire is not enough.
+</PredictFirst>
+
+<Stage kind="explain" title="Complete circuits" />
+
+<ConceptCard title="The parts of a circuit" emoji="🔋">
+- A **cell** pushes the current. It has a **positive (+)** and a **negative (−)** terminal. Two or more cells joined + to − make a **battery**.
+- **Wires** connect the parts.
+- A **switch** opens (off) or closes (on) the circuit.
+- A **bulb** or **LED** lights up when current flows. An <KeyTerm def="Light Emitting Diode: a device that lights up when current flows through it in one direction only. Its longer leg goes towards the + terminal.">LED</KeyTerm> works only one way round.
+</ConceptCard>
+
+<ConceptCard title="Circuit diagrams" emoji="✏️">
+Scientists draw circuits with standard **symbols**: a cell is a long thin line (+) and a short thick line (−); a bulb is a circle with a cross; a switch is a gap with a lever. The Circuit Builder uses these symbols.
+</ConceptCard>
+
+<Stage kind="try" title="Circuit Builder" />
+
+<Lab id="circuit-builder" />
+
+<Compare
+  columns={[
+    { title: "Series", emoji: "➡️", points: ["One single path for the current", "Bulbs share the push, so each is dimmer", "If one bulb breaks, they all go out", "Old-style festive light strings"] },
+    { title: "Parallel", emoji: "🔀", points: ["Several separate paths", "Each bulb gets the full push, so each is bright", "If one bulb breaks, the others stay on", "How our homes are wired"] }
+  ]}
+/>
+
+<MythFact myth="The bulb uses up the current.">
+The current is the same all the way round a series circuit: what goes out of the cell comes back in. The bulb changes electrical **energy** into light and heat; the current isn't used up.
+</MythFact>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="More cells, brighter bulb?">
+Plan an experiment to test whether the number of cells affects the brightness of a bulb. How will you measure brightness fairly?
+</Inquiry>
+
+<Inquiry criterion="C" title="Series or parallel?">
+In the Series vs Parallel tab, record what happens to the bulbs with one and two cells, and when one bulb is removed. Present the results in a table and write two conclusions.
+</Inquiry>
+
+<CbseCorner source="Class 7 Curiosity Ch 3: Electricity: Circuits and their Components">
+- An electric **cell** has + and − terminals; a **battery** is a combination of cells.
+- A **closed (complete) circuit** is needed for current to flow; a **switch** opens and closes it.
+- **Circuit diagrams** use symbols; an **LED** glows only when connected the right way round.
+</CbseCorner>
+
+<Reflect id="phys-elec-circuits" prompt="Festival light strings: if one bulb fails and the whole string goes dark, how are they connected? How would you redesign them?" />

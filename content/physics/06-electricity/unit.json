@@ -1,0 +1,36 @@
+{
+  "id": "electricity",
+  "number": 6,
+  "title": "Electricity & Magnetism",
+  "summary": "Magnets and their invisible fields, complete circuits, conductors and insulators, the heating effect that powers irons and fuses, and electromagnets you can switch on and off.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": [
+      "Energy",
+      "Interaction",
+      "Function"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Electrical and magnetic systems work only when every part plays its role, and understanding them lets us design useful and safe technology."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What makes a circuit complete?",
+      "Which materials conduct electricity?",
+      "How does an electromagnet work?"
+    ],
+    "conceptual": [
+      "How are electricity and magnetism connected?",
+      "Why are homes wired in parallel with fuses or MCBs?"
+    ],
+    "debatable": [
+      "Should every Indian home be required to have an earth leakage circuit breaker (RCCB)?",
+      "Is it worth paying more for energy-efficient appliances?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 6 (Curiosity) Ch 4: Exploring Magnets",
+    "Class 7 (Curiosity) Ch 3: Electricity: Circuits and their Components",
+    "Class 8 (Curiosity) Ch 4: Electricity: Magnetic and Heating Effects"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "topicId": "conductors-and-insulators",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Conductor or insulator?",
+      "bins": [
+        "Conductor",
+        "Insulator"
+      ],
+      "items": [
+        {
+          "label": "Copper wire",
+          "bin": 0
+        },
+        {
+          "label": "Plastic ruler",
+          "bin": 1
+        },
+        {
+          "label": "Iron nail",
+          "bin": 0
+        },
+        {
+          "label": "Rubber band",
+          "bin": 1
+        },
+        {
+          "label": "Pencil lead (graphite)",
+          "bin": 0
+        },
+        {
+          "label": "Dry wood",
+          "bin": 1
+        }
+      ],
+      "explain": "Metals and graphite conduct; plastic, rubber and dry wood don't."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why are electric wires made of copper covered in plastic?",
+      "options": [
+        "Copper conducts the current; plastic insulates to keep us safe",
+        "Plastic conducts and copper insulates",
+        "Both conduct",
+        "It looks nicer"
+      ],
+      "answer": 0,
+      "explain": "The conductor carries the current; the insulator prevents shocks and short circuits."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the conductor tester, pencil lead made the bulb glow, but dimly. What does this tell you?",
+      "options": [
+        "Graphite is an insulator",
+        "Graphite conducts, but not as well as metals",
+        "The cell was weak",
+        "Graphite is a metal"
+      ],
+      "answer": 1,
+      "explain": "Graphite is a non-metal that conducts, but with more resistance than copper."
+    },
+    {
+      "id": "q4",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Which are SAFE practices with electricity at home? Choose all that apply.",
+      "options": [
+        "Never touching switches with wet hands",
+        "Not overloading one socket with many plugs",
+        "Poking a screwdriver into a socket to test it",
+        "Replacing damaged wires with insulated ones",
+        "Flying kites near overhead power lines"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explain": "Water conducts; overloading overheats; power lines can kill."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do electricians wear rubber gloves and shoes?",
+      "options": [
+        "To keep warm",
+        "Rubber is an insulator, so current can't pass through their body to the ground",
+        "Rubber is a good conductor",
+        "For better grip only"
+      ],
+      "answer": 1,
+      "explain": "Insulators protect against electric shock."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Pure water is a poor conductor, but tap water and salt water conduct. What explains this?",
+      "options": [
+        "Tap and salt water contain dissolved salts that carry charge",
+        "Tap water is colder",
+        "Salt is a metal",
+        "All liquids conduct equally"
+      ],
+      "answer": 0,
+      "explain": "Dissolved salts allow current to flow, which is why wet hands are dangerous."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Each year, many people in India are injured by electric shocks, for example from hanging clothes on wires or using damaged cables during the monsoon. Suggest a safety campaign for your school: three key messages and how you would share them.",
+      "modelAnswer": "Messages: 1) Never touch switches, plugs or appliances with wet hands: water conducts electricity. 2) Report and replace damaged, bare or sparking wires; never use them. 3) Stay away from fallen power lines and never hang clothes on electric wires, especially in the monsoon. Sharing: posters near taps and switches, a short skit in assembly, a demonstration with a conductor tester using safe 1.5 V cells, and messages to parents on the school app.",
+      "rubric": [
+        "Three clear, accurate messages",
+        "Each linked to conductors or insulators",
+        "A realistic way to share them"
+      ],
+      "explain": "Criterion D: use science to protect your community."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Materials that allow current to pass through are ___; materials that do not are ___.",
+      "blanks": [
+        [
+          "conductors"
+        ],
+        [
+          "insulators"
+        ]
+      ],
+      "wordBank": [
+        "conductors",
+        "insulators",
+        "magnets"
+      ],
+      "explain": "Conductors and insulators are both essential in every circuit."
+    }
+  ]
+}

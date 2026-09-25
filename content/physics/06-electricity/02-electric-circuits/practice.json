@@ -1,0 +1,150 @@
+{
+  "topicId": "electric-circuits",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each component to what it does.",
+      "pairs": [
+        {
+          "left": "Cell",
+          "right": "Pushes current round the circuit"
+        },
+        {
+          "left": "Switch",
+          "right": "Opens or closes the circuit"
+        },
+        {
+          "left": "Bulb",
+          "right": "Glows when current flows"
+        },
+        {
+          "left": "Wire",
+          "right": "Connects the parts"
+        },
+        {
+          "left": "LED",
+          "right": "Lights up, but only one way round"
+        }
+      ],
+      "explain": "Each part of a circuit has a job."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "A bulb lights only when…",
+      "options": [
+        "it touches one terminal of the cell",
+        "it is part of a complete, closed loop with the cell",
+        "the switch is open",
+        "it is near the cell"
+      ],
+      "answer": 1,
+      "explain": "Current needs an unbroken path from one terminal, through the bulb, back to the other terminal."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Circuit Builder, a second cell was added (both facing the same way). The bulb…",
+      "options": [
+        "went out",
+        "got brighter",
+        "stayed the same",
+        "flickered"
+      ],
+      "answer": 1,
+      "explain": "Two cells push more current, making the bulb brighter."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Two cells are placed facing OPPOSITE ways in a circuit. What happens?",
+      "options": [
+        "The bulb is twice as bright",
+        "Their pushes cancel and the bulb doesn't light",
+        "The bulb lights normally",
+        "The cells explode"
+      ],
+      "answer": 1,
+      "explain": "Cells must be joined + to − so their pushes add."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Two bulbs are in series. One is unscrewed. What happens to the other?",
+      "options": [
+        "It gets brighter",
+        "It goes out",
+        "It stays the same",
+        "It flickers"
+      ],
+      "answer": 1,
+      "explain": "A series circuit has only one path; a gap anywhere stops the current."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Why are the lights and fans in your home connected in parallel, not in series?",
+      "options": [
+        "It uses less wire",
+        "Each appliance gets the full voltage and can be switched on and off independently",
+        "Series circuits are illegal",
+        "Parallel circuits have no current"
+      ],
+      "answer": 1,
+      "explain": "In parallel, each branch works on its own."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan an experiment to test whether the number of cells affects the brightness of a bulb. How could you measure brightness fairly?",
+      "modelAnswer": "Independent variable: the number of cells in series (1, 2, 3). Dependent variable: brightness, measured with a light-meter app on a phone held at the same distance from the bulb in a dark room (or by comparing with a reference bulb). Control variables: the same bulb, the same wires, the same phone position, and new cells of the same type. Take readings quickly so the bulb doesn't overheat, and repeat each reading.",
+      "rubric": [
+        "Independent variable: number of cells",
+        "A fair way to measure brightness",
+        "At least two control variables",
+        "Safety or repeats"
+      ],
+      "explain": "Criterion B: turning ‘brightness’ into a measurement."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "A cell has two terminals: positive (+) and ___. Two or more cells joined together make a ___.",
+      "blanks": [
+        [
+          "negative"
+        ],
+        [
+          "battery"
+        ]
+      ],
+      "wordBank": [
+        "negative",
+        "battery",
+        "switch",
+        "bulb"
+      ],
+      "explain": "The long line in the symbol is +, the short thick line is −."
+    }
+  ]
+}

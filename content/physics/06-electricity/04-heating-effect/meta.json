@@ -1,0 +1,56 @@
+{
+  "id": "heating-effect",
+  "number": "6.4",
+  "title": "The Heating Effect of Current",
+  "summary": "Current heats wires. Nichrome heaters, irons and geysers, and how fuses and MCBs protect our homes.",
+  "emoji": "🔥",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Power P = VI and energy calculations are MYP 5 / CBSE 10"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 4: Electricity: Magnetic and Heating Effects",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain that an electric current heats the wire it flows through.",
+    "I can explain why heating elements use nichrome and why a fuse protects a circuit.",
+    "I can calculate current from power (I = P ÷ V) and energy used in units (kWh)."
+  ],
+  "misconceptions": [
+    "Only heaters get hot when current flows.",
+    "A fuse makes appliances work better.",
+    "Using a thicker wire as a fuse is safer."
+  ],
+  "prerequisites": [
+    "physics/electricity/electric-circuits"
+  ],
+  "labs": [
+    "heating-effect"
+  ],
+  "keyTerms": [
+    "heating effect",
+    "nichrome",
+    "element",
+    "fuse",
+    "MCB",
+    "short circuit",
+    "overloading",
+    "kilowatt-hour (unit)"
+  ],
+  "estMinutes": 25
+}

@@ -1,0 +1,57 @@
+{
+  "id": "electric-circuits",
+  "number": "6.2",
+  "title": "Electric Circuits",
+  "summary": "Cells, bulbs, LEDs and switches: what makes a circuit complete, circuit symbols, and series vs parallel.",
+  "emoji": "🔌",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Current, voltage and Ohm’s law are MYP 4–5 / CBSE 10"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 3: Electricity: Circuits and their Components",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can build a complete circuit and explain why current needs a closed path.",
+    "I can draw and interpret circuit diagrams using standard symbols.",
+    "I can explain how cells, switches and LEDs affect a circuit, and compare series and parallel bulbs."
+  ],
+  "misconceptions": [
+    "Current is used up by the bulb.",
+    "Only one wire is needed from the cell to the bulb.",
+    "An LED works either way round."
+  ],
+  "prerequisites": [
+    "physics/energy/forms-of-energy"
+  ],
+  "labs": [
+    "circuit-builder"
+  ],
+  "keyTerms": [
+    "electric circuit",
+    "cell",
+    "battery",
+    "terminal",
+    "switch",
+    "LED",
+    "circuit diagram",
+    "series",
+    "parallel"
+  ],
+  "estMinutes": 30
+}

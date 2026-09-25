@@ -1,0 +1,133 @@
+{
+  "topicId": "heating-effect",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which appliances use the heating effect of current? Choose all that apply.",
+      "options": [
+        "Electric iron",
+        "Geyser",
+        "Toaster",
+        "Ceiling fan",
+        "Electric kettle"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explain": "A fan uses the magnetic effect in its motor."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why are heating coils made of nichrome, not copper?",
+      "options": [
+        "Nichrome is cheaper",
+        "Nichrome has a high resistance and a high melting point, so it gets very hot without melting",
+        "Nichrome is magnetic",
+        "Copper doesn't conduct"
+      ],
+      "answer": 1,
+      "explain": "High resistance produces lots of heat; a high melting point stops it melting."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "How does a fuse protect a circuit?",
+      "options": [
+        "It stores extra current",
+        "Its thin wire melts when the current is too high, breaking the circuit",
+        "It makes the current flow faster",
+        "It cools the wires"
+      ],
+      "answer": 1,
+      "explain": "A fuse is a safety device that breaks the circuit before wires overheat."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A 1150 W electric iron runs on 230 V. What current does it draw? (I = P ÷ V)",
+      "answer": 5,
+      "tolerance": 0,
+      "unit": "A",
+      "explain": "1150 ÷ 230 = 5 A."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A 2000 W geyser runs for 30 minutes every day for 30 days. How many units (kWh) does it use?",
+      "answer": 30,
+      "tolerance": 0,
+      "unit": "units",
+      "hint": "units = kW × hours",
+      "explain": "2 kW × 0.5 h × 30 days = 30 units."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "In the Fuse Box, the geyser (2000 W) and induction cooktop (2000 W) were switched on together with a 15 A fuse. What happened, and why?",
+      "options": [
+        "Nothing: 4000 W is fine",
+        "The fuse blew, because 4000 ÷ 230 ≈ 17 A, which is more than 15 A",
+        "The appliances ran slower",
+        "The fuse got stronger"
+      ],
+      "answer": 1,
+      "explain": "Too much current overloads the circuit, so the fuse cuts it off."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Someone suggests replacing a blown fuse wire with a thick copper wire ‘so it never blows again’. Explain why this is dangerous, and what should be done instead.",
+      "modelAnswer": "A thick copper wire won't melt even when the current is dangerously high. During an overload or short circuit, the house wiring could overheat and cause a fire, or appliances could be damaged. Instead, find and fix the cause (too many appliances or a faulty one), then replace the fuse with one of the correct rating, or install an MCB that trips and can be reset safely.",
+      "rubric": [
+        "Thick wire won't melt at high current",
+        "Risk of overheating or fire",
+        "Correct action: fix the cause and use the right rating or an MCB"
+      ],
+      "explain": "Criterion D: evaluate a dangerous shortcut."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "When current flows through a wire, the wire gets ___. This is called the ___ effect of current.",
+      "blanks": [
+        [
+          "hot"
+        ],
+        [
+          "heating"
+        ]
+      ],
+      "wordBank": [
+        "hot",
+        "heating",
+        "magnetic",
+        "cold"
+      ],
+      "explain": "All wires heat up a little; high-resistance wires heat up a lot."
+    }
+  ]
+}

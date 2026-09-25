@@ -1,0 +1,54 @@
+<Stage kind="wonder" title="Why does the iron get hot?" />
+
+<Hook emoji="👔">
+Switch on an electric iron and in a minute it's hot enough to press clothes. The wire from the socket stays cool. It's the same current flowing through both, so why does only the iron get hot? And why does the whole house go dark if you run the geyser, the iron and the induction cooktop at the same time?
+</Hook>
+
+<PredictFirst
+  question="A thick copper wire and a thin nichrome wire are joined in series, and current flows through both. Which gets hot?"
+  options={["The copper wire", "The nichrome wire", "Both equally", "Neither"]}
+  answer={1}
+>
+The **nichrome** wire. It has a much higher **resistance**, so most of the electrical energy turns into heat there.
+</PredictFirst>
+
+<Stage kind="explain" title="Current makes heat" />
+
+<ConceptCard title="The heating effect" emoji="🔥">
+When current flows through a wire, the wire gets hot: the <KeyTerm def="The production of heat in a wire when an electric current flows through it.">heating effect of current</KeyTerm>. The heat depends on:
+- the **current** (double the current → four times the heat),
+- the **resistance** of the wire (thin nichrome resists much more than thick copper),
+- the **time** the current flows.
+</ConceptCard>
+
+<Stage kind="try" title="Hot wires and fuse boxes" />
+
+<Lab id="heating-effect" />
+
+<ConceptCard title="Fuses and MCBs" emoji="🛡️">
+If too many appliances run together (**overloading**), or bare wires touch (**short circuit**), a very large current flows and the house wiring can overheat and catch fire. A <KeyTerm def="A safety device: a short, thin wire that melts and breaks the circuit when the current is too high.">fuse</KeyTerm> melts first and cuts the circuit. Modern homes use an **MCB** (miniature circuit breaker), which switches off automatically and can be reset.
+</ConceptCard>
+
+<Formula tex="\text{current (A)} = \frac{\text{power (W)}}{\text{voltage (V)}} \qquad \text{units (kWh)} = \text{kW} \times \text{hours}" caption="Indian homes are supplied at about 230 V" />
+
+<RealLife title="Reading the electricity bill">
+Your bill charges for **units**: one unit = 1 kilowatt-hour (kWh), such as a 1000 W iron running for one hour. A 2000 W geyser left on for an extra hour every day adds about 60 units a month!
+</RealLife>
+
+<Stage kind="apply" title="Calculate and evaluate" />
+
+<Inquiry criterion="C" title="The overloaded kitchen">
+In the Fuse Box, find the largest set of appliances that can run together on a 15 A fuse. Show your calculation of the current. Which appliance uses the most current?
+</Inquiry>
+
+<Inquiry criterion="D" title="The dangerous shortcut">
+Why is it dangerous to replace a blown fuse with a thick copper wire? What should be done instead? Present your answer as advice for a family.
+</Inquiry>
+
+<CbseCorner source="Class 8 Curiosity Ch 4: Electricity: Magnetic and Heating Effects">
+- **Heating effect** of current: electric iron, heater, geyser, toaster (nichrome elements).
+- A **fuse** (or MCB) protects circuits from overloading and short circuits.
+- Energy used is measured in **units (kWh)**.
+</CbseCorner>
+
+<Reflect id="phys-elec-heating" prompt="Old filament bulbs wasted most of their energy as heat. Is the heating effect ever a problem rather than a help? Give two examples." />
