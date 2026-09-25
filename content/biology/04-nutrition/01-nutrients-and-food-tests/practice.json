@@ -1,0 +1,176 @@
+{
+  "topicId": "nutrients-and-food-tests",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each nutrient to its main job.",
+      "pairs": [
+        {
+          "left": "Carbohydrates",
+          "right": "Main source of energy"
+        },
+        {
+          "left": "Proteins",
+          "right": "Growth and repair"
+        },
+        {
+          "left": "Fats",
+          "right": "Stored energy and warmth"
+        },
+        {
+          "left": "Vitamins and minerals",
+          "right": "Keep the body healthy and prevent disease"
+        },
+        {
+          "left": "Roughage (fibre)",
+          "right": "Helps food move through the gut"
+        }
+      ],
+      "explain": "Each nutrient has a job."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Iodine solution is added to a food and turns blue-black. What does the food contain?",
+      "options": [
+        "Protein",
+        "Starch",
+        "Fat",
+        "Vitamin C"
+      ],
+      "answer": 1,
+      "explain": "The iodine test detects starch."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Food Test Lab, which food gave a positive result for BOTH protein and fat?",
+      "options": [
+        "Rice",
+        "Groundnuts",
+        "Potato",
+        "Banana"
+      ],
+      "answer": 1,
+      "explain": "Groundnuts are rich in both."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which nutrient is each food a rich source of?",
+      "bins": [
+        "Carbohydrate",
+        "Protein",
+        "Fat"
+      ],
+      "items": [
+        {
+          "label": "Rice",
+          "bin": 0
+        },
+        {
+          "label": "Rajma",
+          "bin": 1
+        },
+        {
+          "label": "Ghee",
+          "bin": 2
+        },
+        {
+          "label": "Potato",
+          "bin": 0
+        },
+        {
+          "label": "Egg white",
+          "bin": 1
+        },
+        {
+          "label": "Coconut oil",
+          "bin": 2
+        }
+      ],
+      "explain": "Most foods contain several nutrients, but each is especially rich in one."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "A food is rubbed on paper and leaves an oily, see-through patch. What does it contain?",
+      "options": [
+        "Starch",
+        "Protein",
+        "Fat",
+        "Water only"
+      ],
+      "answer": 2,
+      "explain": "The paper test shows fat."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan how you would test whether a sample of dhokla contains starch, including a control.",
+      "modelAnswer": "Crush a small piece of dhokla with a little water in a test tube. Add two or three drops of dilute iodine solution and observe the colour. As a control, add the same amount of iodine to a tube of plain water (stays brown) and, for comparison, to a known starch source like boiled rice (turns blue-black). If the dhokla turns blue-black, it contains starch. Handle iodine carefully because it stains.",
+      "rubric": [
+        "Prepare the sample with water",
+        "Add iodine and note the colour",
+        "A control (water or known starch)",
+        "Interpretation of the result"
+      ],
+      "explain": "Criterion B: a clear, controlled test."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "In the protein test, copper sulphate and sodium hydroxide turn ___ if protein is present.",
+      "blanks": [
+        [
+          "violet",
+          "purple"
+        ]
+      ],
+      "wordBank": [
+        "violet",
+        "blue-black",
+        "green"
+      ],
+      "explain": "The colour changes from blue to violet."
+    },
+    {
+      "id": "q8",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is roughage (dietary fibre) important? Choose all that apply.",
+      "options": [
+        "It helps prevent constipation",
+        "It helps food move through the intestines",
+        "It is our main source of energy",
+        "It keeps us feeling full"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explain": "We can’t digest fibre, which is exactly why it's useful."
+    }
+  ]
+}

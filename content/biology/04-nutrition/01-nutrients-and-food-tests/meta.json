@@ -1,0 +1,57 @@
+{
+  "id": "nutrients-and-food-tests",
+  "number": "4.1",
+  "title": "Nutrients and Food Tests",
+  "summary": "Carbohydrates, proteins, fats, vitamins, minerals, fibre and water, and how to test foods for starch, protein and fat.",
+  "emoji": "🧪",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 1,
+      "note": "Biochemical tests (Benedict's, biuret) are named in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Curiosity Ch 3: Mindful Eating: A Path to a Healthy Body",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can name the main nutrients and their functions.",
+    "I can carry out tests for starch, protein and fat and interpret the results.",
+    "I can identify good food sources of each nutrient."
+  ],
+  "misconceptions": [
+    "Fats are always bad for you.",
+    "Only meat contains protein.",
+    "Fibre is useless because we can’t digest it."
+  ],
+  "prerequisites": [
+    "biology/living-things/what-is-alive"
+  ],
+  "labs": [
+    "food-tests"
+  ],
+  "keyTerms": [
+    "nutrient",
+    "carbohydrate",
+    "starch",
+    "protein",
+    "fat",
+    "vitamin",
+    "mineral",
+    "roughage (fibre)",
+    "iodine test"
+  ],
+  "estMinutes": 25
+}

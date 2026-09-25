@@ -1,0 +1,147 @@
+{
+  "topicId": "digestion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Order the path of food through the digestive system.",
+      "steps": [
+        "Mouth",
+        "Food pipe (oesophagus)",
+        "Stomach",
+        "Small intestine",
+        "Large intestine",
+        "Rectum and anus"
+      ],
+      "explain": "The alimentary canal is about 8–9 m long."
+    },
+    {
+      "id": "q2",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each part to what happens there.",
+      "pairs": [
+        {
+          "left": "Mouth",
+          "right": "Chewing; saliva starts digesting starch"
+        },
+        {
+          "left": "Stomach",
+          "right": "Acid kills germs; protein digestion begins"
+        },
+        {
+          "left": "Small intestine",
+          "right": "Digestion is completed; nutrients are absorbed"
+        },
+        {
+          "left": "Large intestine",
+          "right": "Water is absorbed"
+        },
+        {
+          "left": "Liver",
+          "right": "Makes bile to break up fats"
+        }
+      ],
+      "explain": "Each organ has a role."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the saliva test, why did the starch tube with water stay blue-black?",
+      "options": [
+        "Water has starch in it",
+        "It was the control: without saliva, the starch wasn't digested",
+        "The iodine was old",
+        "It was too cold"
+      ],
+      "answer": 1,
+      "explain": "The control shows it was the saliva that digested starch."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is the inner wall of the small intestine covered with millions of finger-like villi?",
+      "options": [
+        "To squeeze food",
+        "To give a huge surface area for absorbing nutrients",
+        "To make acid",
+        "To store food"
+      ],
+      "answer": 1,
+      "explain": "More surface area means faster absorption into the blood."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How does food move down the oesophagus?",
+      "options": [
+        "Only by gravity",
+        "By waves of muscle contraction called peristalsis",
+        "By air pressure",
+        "By saliva pushing it"
+      ],
+      "answer": 1,
+      "explain": "Astronauts can swallow in space!"
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "The small intestine is about 6.5 m long and the whole digestive tract is about 8.75 m. What percentage of the tract is small intestine (to the nearest whole number)?",
+      "answer": 74,
+      "tolerance": 1,
+      "unit": "%",
+      "explain": "6.5 ÷ 8.75 × 100 ≈ 74%."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan an experiment to show that saliva digests starch.",
+      "modelAnswer": "Put equal volumes of starch solution in two test tubes. Add 2 mL of diluted saliva to tube A and 2 mL of water to tube B (the control). Keep both in a warm water bath at about 37 °C. Every 2 minutes, take a drop from each tube and test it with iodine on a white tile. Record the time when tube A no longer turns blue-black. Tube B should stay blue-black, showing saliva, not time or warmth, digested the starch.",
+      "rubric": [
+        "Two tubes: saliva vs water (control)",
+        "Same volumes and 37 °C",
+        "Regular iodine tests",
+        "Interpretation"
+      ],
+      "explain": "Criterion B: a controlled experiment."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Breaking down large food molecules into small, soluble ones is called ___. Taking these into the blood is called ___.",
+      "blanks": [
+        [
+          "digestion"
+        ],
+        [
+          "absorption"
+        ]
+      ],
+      "wordBank": [
+        "digestion",
+        "absorption",
+        "egestion",
+        "respiration"
+      ],
+      "explain": "Digestion comes before absorption."
+    }
+  ]
+}

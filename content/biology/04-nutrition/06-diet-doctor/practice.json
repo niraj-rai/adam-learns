@@ -1,0 +1,159 @@
+{
+  "topicId": "diet-doctor",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A patient has bleeding gums. Which food would you recommend?",
+      "options": [
+        "Amla",
+        "White rice",
+        "Ghee",
+        "Sugar"
+      ],
+      "answer": 0,
+      "explain": "Amla is very rich in vitamin C."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why does eating iron-rich food with lemon juice help people with anaemia?",
+      "options": [
+        "Lemon adds iron",
+        "Vitamin C helps the body absorb iron",
+        "Lemon cures anaemia on its own",
+        "It makes food sour"
+      ],
+      "answer": 1,
+      "explain": "Vitamin C improves iron absorption."
+    },
+    {
+      "id": "q3",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which nutrient is each food especially known for?",
+      "bins": [
+        "Vitamin A",
+        "Vitamin C",
+        "Iron",
+        "Calcium"
+      ],
+      "items": [
+        {
+          "label": "Carrot",
+          "bin": 0
+        },
+        {
+          "label": "Guava",
+          "bin": 1
+        },
+        {
+          "label": "Palak",
+          "bin": 2
+        },
+        {
+          "label": "Ragi",
+          "bin": 3
+        },
+        {
+          "label": "Papaya",
+          "bin": 0
+        },
+        {
+          "label": "Amla",
+          "bin": 1
+        }
+      ],
+      "explain": "Green leafy vegetables are also good sources of several vitamins and minerals."
+    },
+    {
+      "id": "q4",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Anaemia is common among teenage girls in India. Suggest three ways a school could help reduce it, and explain why each would work.",
+      "modelAnswer": "1) Include iron-rich foods in school meals, such as leafy greens, pulses, jaggery and millets, with a vitamin C source like lemon or amla to improve absorption. 2) Support the government's weekly iron and folic acid tablet programme, explaining its purpose to students and parents. 3) Teach nutrition and hygiene, including deworming, since worm infections cause blood loss. 4) Check for anaemia with simple health screenings and refer pupils to doctors.",
+      "rubric": [
+        "At least three actions",
+        "Each linked to iron intake, absorption or loss",
+        "Realistic for a school"
+      ],
+      "explain": "Criterion D: public health solutions."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A child who stays indoors all day develops soft bones. Besides milk, what else would help?",
+      "options": [
+        "More sugar",
+        "Time in morning sunlight",
+        "Less water",
+        "More fried food"
+      ],
+      "answer": 1,
+      "explain": "Sunlight helps the skin make vitamin D."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which foods are good sources of protein for a vegetarian? Choose all that apply.",
+      "options": [
+        "Dal",
+        "Paneer",
+        "Soybean",
+        "Rajma",
+        "Jalebi"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explain": "Pulses and milk products are important protein sources."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Night blindness is caused by a lack of…",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Iodine",
+        "Calcium"
+      ],
+      "answer": 0,
+      "explain": "Vitamin A is needed to see in dim light."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "A disease caused by a lack of a nutrient over a long time is called a ___ disease.",
+      "blanks": [
+        [
+          "deficiency"
+        ]
+      ],
+      "wordBank": [
+        "deficiency",
+        "infectious",
+        "genetic"
+      ],
+      "explain": "Deficiency diseases can be prevented by a balanced diet."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<Stage kind="wonder" title="What's in your tiffin?" />
+
+<Hook emoji="🍱">
+Roti, dal, sabzi, curd and a banana: a typical tiffin. Each food gives your body something different. Some give quick energy, some build muscles, some keep your eyes and bones healthy. How can scientists tell what a food contains? By testing it!
+</Hook>
+
+<PredictFirst
+  question="You add iodine to a slice of raw potato. What colour does it turn?"
+  options={["Blue-black", "Violet", "Green", "It stays brown"]}
+  answer={0}
+>
+**Blue-black**: potato is full of **starch**. Iodine is the classic test for starch.
+</PredictFirst>
+
+<Stage kind="explain" title="The nutrients" />
+
+<Compare
+  columns={[
+    { title: "Energy-giving", emoji: "⚡", points: ["Carbohydrates (starch, sugars): rice, wheat, millets, potato", "Fats: ghee, oil, groundnuts, coconut"] },
+    { title: "Body-building", emoji: "💪", points: ["Proteins: dal, rajma, chana, milk, paneer, eggs, fish, meat"] },
+    { title: "Protective", emoji: "🛡️", points: ["Vitamins and minerals: fruits, vegetables, milk", "Roughage (fibre): whole grains, vegetables, fruits", "Water: about 6–8 glasses a day"] }
+  ]}
+/>
+
+<Stage kind="try" title="Food Test Lab" />
+
+<Lab id="food-tests" />
+
+<ConceptCard title="Three tests" emoji="🧪">
+- **Starch**: add dilute iodine → **blue-black** if present.
+- **Protein**: add copper sulphate solution and sodium hydroxide → **violet** if present.
+- **Fat**: rub the food on paper → an **oily, translucent patch** that lets light through.
+</ConceptCard>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Test a snack">
+Choose a snack (such as dhokla, poha or sprouts). Plan how you would test it for starch, protein and fat, including controls.
+</Inquiry>
+
+<Inquiry criterion="C" title="Results table">
+Complete the results table in the Food Test Lab. Which foods contained more than one nutrient? Which foods are the best sources of each?
+</Inquiry>
+
+<CbseCorner source="Class 6 Curiosity Ch 3: Mindful Eating">
+- **Nutrients**: carbohydrates, proteins, fats, vitamins and minerals; also roughage and water.
+- Tests for **starch** (iodine), **protein** (copper sulphate + caustic soda) and **fat** (paper test).
+</CbseCorner>
+
+<Reflect id="bio-nutrition-tests" prompt="Which nutrients were in your lunch today? Was anything missing?" />

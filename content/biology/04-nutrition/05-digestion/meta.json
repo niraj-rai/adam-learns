@@ -1,0 +1,58 @@
+{
+  "id": "digestion",
+  "number": "4.5",
+  "title": "The Digestive System",
+  "summary": "From mouth to anus: how teeth, saliva, stomach acid, bile and enzymes break food down, and villi absorb it.",
+  "emoji": "🍽️",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Enzyme specificity and villi structure follow in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 9: Life Processes in Animals",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can name the parts of the digestive system in order and describe what happens in each.",
+    "I can explain why food must be digested before it is absorbed.",
+    "I can plan an experiment showing that saliva digests starch."
+  ],
+  "misconceptions": [
+    "Digestion happens only in the stomach.",
+    "The stomach absorbs most nutrients.",
+    "Food goes down by gravity alone."
+  ],
+  "prerequisites": [
+    "biology/nutrition/nutrients-and-food-tests"
+  ],
+  "labs": [
+    "digestion-journey"
+  ],
+  "keyTerms": [
+    "digestion",
+    "saliva",
+    "amylase",
+    "oesophagus",
+    "peristalsis",
+    "stomach",
+    "small intestine",
+    "villi",
+    "absorption",
+    "egestion"
+  ],
+  "estMinutes": 30
+}

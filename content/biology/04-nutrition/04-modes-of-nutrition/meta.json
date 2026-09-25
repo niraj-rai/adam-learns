@@ -1,0 +1,60 @@
+{
+  "id": "modes-of-nutrition",
+  "number": "4.4",
+  "title": "Other Ways to Get Food",
+  "summary": "Autotrophs and heterotrophs: parasites like amarbel, insect-eating pitcher plants, saprotrophs and symbiotic lichens.",
+  "emoji": "🏺",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Food webs and energy flow follow in Unit 8"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 1: Nutrition in Plants",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 10: Life Processes in Plants",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can distinguish autotrophic and heterotrophic nutrition.",
+    "I can describe parasitic, insectivorous, saprotrophic and symbiotic nutrition with examples.",
+    "I can explain why some green plants also trap insects."
+  ],
+  "misconceptions": [
+    "All plants make all their own food.",
+    "Fungi are plants.",
+    "Insectivorous plants don't photosynthesise."
+  ],
+  "prerequisites": [
+    "biology/nutrition/photosynthesis"
+  ],
+  "labs": [
+    "nutrition-modes"
+  ],
+  "keyTerms": [
+    "autotroph",
+    "heterotroph",
+    "parasite",
+    "host",
+    "insectivorous",
+    "saprotroph",
+    "symbiosis",
+    "lichen"
+  ],
+  "estMinutes": 20
+}

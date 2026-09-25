@@ -1,0 +1,149 @@
+{
+  "topicId": "photosynthesis",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Complete the word equation.",
+      "text": "carbon dioxide + ___ → glucose + ___ (with sunlight and chlorophyll)",
+      "blanks": [
+        [
+          "water"
+        ],
+        [
+          "oxygen"
+        ]
+      ],
+      "wordBank": [
+        "water",
+        "oxygen",
+        "nitrogen",
+        "starch"
+      ],
+      "explain": "Plants take in CO₂ through stomata and water through roots."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Photosynthesis Factory, light was 30% while CO₂ and water were 90%. Which change would speed up photosynthesis?",
+      "options": [
+        "More CO₂",
+        "More water",
+        "More light",
+        "Nothing"
+      ],
+      "answer": 2,
+      "explain": "Light was the limiting factor."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the starch test, part of a green leaf was covered with black paper. After testing with iodine, that part stayed brown. What does this show?",
+      "options": [
+        "Photosynthesis needs chlorophyll",
+        "Photosynthesis needs light",
+        "The paper was poisonous",
+        "Starch is black"
+      ],
+      "answer": 1,
+      "explain": "No light, no photosynthesis, no starch."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Through which tiny pores do leaves take in carbon dioxide?",
+      "options": [
+        "Roots",
+        "Stomata",
+        "Veins",
+        "Flowers"
+      ],
+      "answer": 1,
+      "explain": "Stomata are opened and closed by guard cells."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A Hydrilla shoot gave 6 bubbles per minute at a lamp 40 cm away, and 18 bubbles per minute at 20 cm. How many times faster was photosynthesis with the lamp closer?",
+      "answer": 3,
+      "tolerance": 0,
+      "unit": "times",
+      "explain": "18 ÷ 6 = 3 times."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan an investigation to find how light intensity affects the rate of photosynthesis in Hydrilla.",
+      "modelAnswer": "Place a Hydrilla shoot upside down in a test tube of water with a pinch of baking soda (for CO₂). Put a lamp at different distances (10, 20, 30, 40 cm). After letting it settle for 2 minutes at each distance, count the oxygen bubbles released in one minute. Keep the same shoot, water temperature (use a beaker of water as a heat shield), CO₂ level and lamp. Repeat each count three times and plot bubbles per minute against distance.",
+      "rubric": [
+        "Independent variable: light (lamp distance)",
+        "Dependent variable: bubbles per minute",
+        "Controls: temperature, CO₂, same plant",
+        "Repeats and a graph"
+      ],
+      "explain": "Criterion B: a classic fair test."
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Is each one an input (raw material) or an output (product) of photosynthesis?",
+      "bins": [
+        "Input",
+        "Output"
+      ],
+      "items": [
+        {
+          "label": "Carbon dioxide",
+          "bin": 0
+        },
+        {
+          "label": "Oxygen",
+          "bin": 1
+        },
+        {
+          "label": "Water",
+          "bin": 0
+        },
+        {
+          "label": "Glucose",
+          "bin": 1
+        },
+        {
+          "label": "Light energy",
+          "bin": 0
+        }
+      ],
+      "explain": "Light is the energy source; glucose and oxygen are made."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Plants often store the glucose they make as…",
+      "options": [
+        "Protein",
+        "Starch",
+        "Fat only",
+        "Oxygen"
+      ],
+      "answer": 1,
+      "explain": "That's why leaves test positive for starch."
+    }
+  ]
+}

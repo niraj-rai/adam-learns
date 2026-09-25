@@ -37,6 +37,8 @@ export type BadgeId =
   | 'slide-sleuth'
   | 'unit-microbes'
   | 'microbe-master'
+  | 'unit-nutrition'
+  | 'diet-doctor'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -78,5 +80,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'slide-sleuth': { title: 'Slide Sleuth', emoji: '🧫', description: 'Identified six mystery microscope slides (Boss Challenge)' },
   'unit-microbes': { title: 'Microbe Hunter', emoji: '🦠', description: 'Mastered every core topic in Biology Unit 3: Microorganisms' },
   'microbe-master': { title: 'Microbe Master Chef', emoji: '👩‍🍳', description: 'Used friendly microbes and food safety to complete three kitchen orders (Boss Challenge)' },
+  'unit-nutrition': { title: 'Nutrition Ninja', emoji: '🥗', description: 'Mastered every core topic in Biology Unit 4: Nutrition' },
+  'diet-doctor': { title: 'Diet Doctor', emoji: '🩺', description: 'Diagnosed six nutrient deficiencies and prescribed the right foods (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

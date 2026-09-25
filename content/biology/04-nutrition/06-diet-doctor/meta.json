@@ -1,0 +1,48 @@
+{
+  "id": "diet-doctor",
+  "number": "4.6",
+  "title": "Boss Challenge: Diet Doctor",
+  "summary": "Six patients, six mystery symptoms. Diagnose the deficiency and prescribe the right Indian foods.",
+  "emoji": "🩺",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task: applying nutrition knowledge (Criteria A and D)"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Curiosity Ch 3: Mindful Eating: A Path to a Healthy Body",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "D"
+  ],
+  "objectives": [
+    "I can link symptoms to nutrient deficiencies.",
+    "I can recommend affordable local foods to correct them."
+  ],
+  "misconceptions": [
+    "All health problems can be fixed with one food."
+  ],
+  "prerequisites": [
+    "biology/nutrition/balanced-diet"
+  ],
+  "labs": [
+    "diet-doctor"
+  ],
+  "keyTerms": [
+    "deficiency disease",
+    "vitamin",
+    "mineral",
+    "balanced diet"
+  ],
+  "estMinutes": 15
+}

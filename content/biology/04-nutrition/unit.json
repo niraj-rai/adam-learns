@@ -1,0 +1,37 @@
+{
+  "id": "nutrition",
+  "number": 4,
+  "title": "Nutrition in Plants and Animals",
+  "summary": "How plants make food from sunlight, how other organisms get theirs, what our food contains, how we digest it, and how a balanced diet keeps us healthy.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Energy",
+      "Balance",
+      "Function"
+    ],
+    "globalContext": "Identities and relationships",
+    "statementOfInquiry": "All living things depend on a balanced supply of energy and nutrients; understanding nutrition helps us make healthy choices for ourselves and our communities."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What nutrients does food contain?",
+      "What do plants need for photosynthesis?",
+      "What happens to food in each part of the digestive system?"
+    ],
+    "conceptual": [
+      "How does a limiting factor control the rate of photosynthesis?",
+      "How does a balanced diet prevent deficiency diseases?"
+    ],
+    "debatable": [
+      "Should junk food be banned near schools?",
+      "Should millets replace some rice and wheat in Indian diets?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 6 (Curiosity) Ch 3: Mindful Eating: A Path to a Healthy Body",
+    "Class 7 (Curiosity) Ch 9: Life Processes in Animals",
+    "Class 7 (Curiosity) Ch 10: Life Processes in Plants",
+    "Earlier NCERT Class 7 Ch 1: Nutrition in Plants"
+  ]
+}

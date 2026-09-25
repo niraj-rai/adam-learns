@@ -1,0 +1,56 @@
+{
+  "id": "balanced-diet",
+  "number": "4.2",
+  "title": "A Balanced Diet and Deficiency Diseases",
+  "summary": "The food groups, planning a balanced thali, and what happens when nutrients are missing.",
+  "emoji": "🍛",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 1,
+      "note": "Energy requirements and BMI appear in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Curiosity Ch 3: Mindful Eating: A Path to a Healthy Body",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe a balanced diet and plan one using the food groups.",
+    "I can link deficiency diseases to missing nutrients.",
+    "I can evaluate diets and suggest improvements."
+  ],
+  "misconceptions": [
+    "A balanced diet means eating the same amount of everything.",
+    "If you feel full, you're well nourished.",
+    "Only poor people suffer from nutrient deficiencies."
+  ],
+  "prerequisites": [
+    "biology/nutrition/nutrients-and-food-tests"
+  ],
+  "labs": [
+    "thali-builder"
+  ],
+  "keyTerms": [
+    "balanced diet",
+    "food groups",
+    "deficiency disease",
+    "anaemia",
+    "scurvy",
+    "rickets",
+    "goitre",
+    "obesity"
+  ],
+  "estMinutes": 25
+}

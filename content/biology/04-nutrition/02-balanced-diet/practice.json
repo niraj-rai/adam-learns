@@ -1,0 +1,175 @@
+{
+  "topicId": "balanced-diet",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each deficiency disease to its cause.",
+      "pairs": [
+        {
+          "left": "Scurvy",
+          "right": "Lack of vitamin C"
+        },
+        {
+          "left": "Rickets",
+          "right": "Lack of vitamin D and calcium"
+        },
+        {
+          "left": "Night blindness",
+          "right": "Lack of vitamin A"
+        },
+        {
+          "left": "Anaemia",
+          "right": "Lack of iron"
+        },
+        {
+          "left": "Goitre",
+          "right": "Lack of iodine"
+        }
+      ],
+      "explain": "Each vitamin and mineral prevents specific problems."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Thali Builder, a plate of samosa, jalebi and cola was not balanced. What was the main problem?",
+      "options": [
+        "Too many vegetables",
+        "Too much fat and sugar, and no vegetables, fruit, dairy or protein",
+        "Too much protein",
+        "Too little salt"
+      ],
+      "answer": 1,
+      "explain": "Junk food provides energy but few other nutrients."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which pair of foods would best help someone with anaemia?",
+      "options": [
+        "Rice and sugar",
+        "Palak and jaggery",
+        "Butter and cola",
+        "Bread and jam"
+      ],
+      "answer": 1,
+      "explain": "Leafy greens and jaggery contain iron."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why does India add iodine to table salt?",
+      "options": [
+        "To improve taste",
+        "To prevent goitre caused by iodine deficiency",
+        "To preserve it",
+        "To make it white"
+      ],
+      "answer": 1,
+      "explain": "Iodised salt is a simple public-health solution."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which food group is each item from?",
+      "bins": [
+        "Cereals and millets",
+        "Pulses and protein",
+        "Vegetables and fruit",
+        "Milk products"
+      ],
+      "items": [
+        {
+          "label": "Ragi",
+          "bin": 0
+        },
+        {
+          "label": "Chana",
+          "bin": 1
+        },
+        {
+          "label": "Guava",
+          "bin": 2
+        },
+        {
+          "label": "Curd",
+          "bin": 3
+        },
+        {
+          "label": "Jowar",
+          "bin": 0
+        },
+        {
+          "label": "Carrot",
+          "bin": 2
+        }
+      ],
+      "explain": "A balanced thali includes every group."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "The United Nations declared 2023 the International Year of Millets, following India's proposal. Should schools serve more millet dishes (ragi, jowar, bajra) in their meals? Give arguments and a conclusion.",
+      "modelAnswer": "For: millets are rich in fibre, iron, calcium and other minerals (ragi is especially high in calcium); they grow with less water and are hardy in dry, hot climates, so they are good for farmers and the environment; they are part of traditional Indian diets. Against: some children may not like the taste at first; cooks need training; supply and cost may vary. Conclusion: schools should gradually add tasty millet dishes, like ragi dosa or bajra roti, alongside rice and wheat.",
+      "rubric": [
+        "Nutritional benefits",
+        "Environmental or farming benefits",
+        "A challenge",
+        "A balanced conclusion"
+      ],
+      "explain": "Criterion D: evaluate a real food policy."
+    },
+    {
+      "id": "q7",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which habits help prevent obesity? Choose all that apply.",
+      "options": [
+        "Eating a balanced diet",
+        "Regular physical activity",
+        "Drinking lots of sugary drinks",
+        "Eating fried snacks every day",
+        "Getting enough sleep"
+      ],
+      "answer": [
+        0,
+        1,
+        4
+      ],
+      "explain": "Energy in should balance energy used."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "A diet that contains all the nutrients, roughage and water in the right amounts is a ___ diet.",
+      "blanks": [
+        [
+          "balanced"
+        ]
+      ],
+      "wordBank": [
+        "balanced",
+        "junk",
+        "deficient"
+      ],
+      "explain": "Balance is key."
+    }
+  ]
+}

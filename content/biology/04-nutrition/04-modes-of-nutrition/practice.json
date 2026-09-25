@@ -1,0 +1,170 @@
+{
+  "topicId": "modes-of-nutrition",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each organism to its mode of nutrition.",
+      "pairs": [
+        {
+          "left": "Mango tree",
+          "right": "Autotrophic"
+        },
+        {
+          "left": "Amarbel (Cuscuta)",
+          "right": "Parasitic"
+        },
+        {
+          "left": "Pitcher plant",
+          "right": "Insectivorous"
+        },
+        {
+          "left": "Mushroom",
+          "right": "Saprotrophic"
+        },
+        {
+          "left": "Lichen",
+          "right": "Symbiotic"
+        }
+      ],
+      "explain": "Five ways of getting food."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do pitcher plants trap insects even though they are green?",
+      "options": [
+        "They can't photosynthesise",
+        "They grow in soil poor in nitrogen, so insects provide extra nutrients",
+        "They are hungry at night",
+        "To protect their flowers"
+      ],
+      "answer": 1,
+      "explain": "They still photosynthesise but get nitrogen from insects."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "In a lichen, what does the alga provide?",
+      "options": [
+        "Water",
+        "Food made by photosynthesis",
+        "Shelter",
+        "Minerals"
+      ],
+      "answer": 1,
+      "explain": "The fungus provides shelter, water and minerals; both benefit."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Amarbel is yellow and has no leaves. How does it survive?",
+      "options": [
+        "It photosynthesises with its stem",
+        "It wraps around a host plant and absorbs its food",
+        "It eats insects",
+        "It lives on dead matter"
+      ],
+      "answer": 1,
+      "explain": "A parasite harms its host."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Autotroph or heterotroph?",
+      "bins": [
+        "Autotroph",
+        "Heterotroph"
+      ],
+      "items": [
+        {
+          "label": "Neem",
+          "bin": 0
+        },
+        {
+          "label": "Tiger",
+          "bin": 1
+        },
+        {
+          "label": "Mushroom",
+          "bin": 1
+        },
+        {
+          "label": "Tulsi",
+          "bin": 0
+        },
+        {
+          "label": "Human",
+          "bin": 1
+        },
+        {
+          "label": "Spirogyra (alga)",
+          "bin": 0
+        }
+      ],
+      "explain": "Autotrophs make their own food."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A farmer notices yellow threads of amarbel spreading over her crop, and the crop is weakening. Explain what is happening and suggest what she could do.",
+      "modelAnswer": "Amarbel is a parasitic plant. It has no chlorophyll, so it wraps around the crop and sends suckers into its stem to take food and water. The crop loses nutrients and weakens. The farmer should remove the amarbel threads early, including the parts attached to the host, before it flowers and spreads seeds, and destroy them away from the field.",
+      "rubric": [
+        "Identifies parasitism",
+        "Explains how the host is harmed",
+        "A sensible action"
+      ],
+      "explain": "Apply the idea of parasitism."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Organisms that make their own food are ___; those that depend on others for food are ___.",
+      "blanks": [
+        [
+          "autotrophs"
+        ],
+        [
+          "heterotrophs"
+        ]
+      ],
+      "wordBank": [
+        "autotrophs",
+        "heterotrophs",
+        "parasites"
+      ],
+      "explain": "‘Auto’ means self; ‘hetero’ means other."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which organisms feed on dead and decaying matter?",
+      "options": [
+        "Parasites",
+        "Saprotrophs",
+        "Autotrophs",
+        "Insectivores"
+      ],
+      "answer": 1,
+      "explain": "Many fungi and bacteria are saprotrophs."
+    }
+  ]
+}

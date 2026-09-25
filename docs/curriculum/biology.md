@@ -41,12 +41,23 @@
 | 3.5 | Antibiotics, vaccines and hygiene | MYP 3 | Earlier NCERT 8 Ch 2 ✅, Cur-8 Ch 3 ⚠️ | ★★ | **Petri Dish Lab**: inhibition zones, resistance, handwashing |
 | 3.6 | Boss: Idli Master Chef | MYP 3 | Cur-8 Ch 2 ✅ | ★★★ | Ferment batter, set curd, store leftovers (3 lives) |
 
-### Units 4–8 (planned)
+### Unit 4: Nutrition in Plants and Animals ✅ built
+*IB Key Concept:* **Relationships** · *Related:* Energy, Balance, Function · *Global Context:* Identities and relationships
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 4.1 | Nutrients and food tests | MYP 1 | Cur-6 Ch 3 ✅ | ★ | **Food Test Lab**: iodine, protein and paper tests on 10 foods |
+| 4.2 | Balanced diet and deficiency diseases | MYP 1 | Cur-6 Ch 3 ✅ | ★ | **Build a Balanced Thali**: 6 food groups with targets |
+| 4.3 | Photosynthesis | MYP 2 | Cur-7 Ch 10 ✅ | ★★ | **Photosynthesis Factory**: limiting factors + variegated-leaf starch test |
+| 4.4 | Other modes of nutrition | MYP 2 | Earlier NCERT 7 Ch 1 ✅ | ★★ | **Who Feeds How?**: parasites, pitcher plants, saprotrophs, lichens |
+| 4.5 | The digestive system | MYP 2 | Cur-7 Ch 9 ✅ | ★★ | **Digestion Journey**: organ-by-organ + saliva–starch test |
+| 4.6 | Boss: Diet Doctor | MYP 3 | Cur-6 Ch 3 ✅ | ★★★ | Diagnose 6 deficiencies and prescribe Indian foods (3 lives) |
+
+### Units 5–8 (planned)
 
 
 | Unit | Topics | IB | CBSE | ★ | Signature labs |
 |---|---|---|---|---|---|
-| 4. Nutrition | Plant nutrition (photosynthesis), animal nutrition, digestive system, balanced diet | MYP 1–2 | 6, 7 | ★★ | **Photosynthesis Factory** (light/CO₂ sliders), Digestion Journey |
 | 5. Human Body Systems | Respiration, circulation, excretion, skeleton & movement | MYP 2 | 7 | ★★★ | **Heart Pump** animation, Breathing model |
 | 6. Health & Disease | Immunity, communicable diseases, vaccination, hygiene | MYP 3 | Cur-8 Ch3 ⚠️ | ★★ | **Outbreak sim** (vaccination rate slider) |
 | 7. Reproduction & Adolescence | Plant reproduction, animal reproduction, puberty, hormones (age-appropriate) | MYP 2–3 | 7, Old-8 Ch9–10 | ★★★ | Flower dissection (label), Life-cycle sequencer |
