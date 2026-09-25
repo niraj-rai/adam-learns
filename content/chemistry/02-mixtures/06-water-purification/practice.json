@@ -1,0 +1,125 @@
+{
+  "topicId": "water-purification",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Put the stages of water treatment in the correct order.",
+      "steps": ["Screening", "Loading with alum and sedimentation", "Filtration through sand and gravel", "Disinfection with chlorine"],
+      "explain": "Largest things out first, germs last: screening → sedimentation → filtration → disinfection."
+    },
+    {
+      "id": "q2",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each stage to what it removes.",
+      "pairs": [
+        { "left": "Screening", "right": "Leaves, sticks and plastic" },
+        { "left": "Sedimentation with alum", "right": "Mud and clay" },
+        { "left": "Sand filtration", "right": "Fine suspended particles" },
+        { "left": "Chlorination", "right": "Germs" }
+      ],
+      "explain": "Each stage targets smaller and smaller impurities."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Why is alum (phitkari) added to muddy water?",
+      "options": ["To kill germs", "To make tiny mud particles clump together and settle faster", "To make the water taste better", "To dissolve the mud"],
+      "answer": 1,
+      "explain": "This is called loading: alum makes fine particles stick together into heavier clumps that sink."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is disinfection done LAST?",
+      "options": [
+        "Chlorine is the most expensive",
+        "Germs can hide in dirt, so disinfection works best on clear water",
+        "Chlorine removes mud",
+        "It doesn't matter when it's done"
+      ],
+      "answer": 1,
+      "explain": "Suspended particles shield germs and use up chlorine, so solids are removed first."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Water is clear after filtering through sand. Is it safe to drink?",
+      "options": ["Yes, it's clear", "Not yet: germs and dissolved substances may still be in it", "Only if it's filtered twice", "Yes, if it's in a clean bottle"],
+      "answer": 1,
+      "feedback": { "0": "Clear ≠ safe! Germs are invisible." },
+      "explain": "Filtering removes particles, not most germs or dissolved substances. It still needs disinfection."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which methods kill germs in drinking water? Choose all that apply.",
+      "options": ["Boiling", "Chlorination", "UV light", "Sedimentation", "Adding sugar"],
+      "answer": [0, 1, 2],
+      "explain": "Boiling, chlorine and UV light kill germs. Sedimentation only lets solids settle."
+    },
+    {
+      "id": "q7",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "cbseStyle": true,
+      "prompt": "Put the steps in order to make muddy water safe to drink at home.",
+      "steps": ["Let the water stand so mud settles (sedimentation)", "Pour off the clearer water (decantation)", "Filter it through a clean cloth or filter", "Boil it for a few minutes and let it cool"],
+      "explain": "Sediment → decant → filter → boil."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Why don't big cities use distillation to clean all their tap water?",
+      "options": [
+        "Distilled water is poisonous",
+        "Boiling millions of litres every day would need enormous amounts of energy and money",
+        "Distillation doesn't remove salt",
+        "It is illegal"
+      ],
+      "answer": 1,
+      "explain": "Distillation works but is very energy-hungry at a city scale. Screening, sedimentation, filtration and chlorination are far cheaper."
+    },
+    {
+      "id": "q9",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Water that is safe to drink is called ___ water.",
+      "blanks": [["potable"]],
+      "wordBank": ["potable", "distilled", "saturated"],
+      "explain": "Potable water is safe for drinking."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "RO water purifiers remove dissolved salts but waste 2–3 litres of water for every litre they clean. Suggest TWO ways a family could reduce this waste, and say why it matters in a city like Bengaluru.",
+      "modelAnswer": "1) Collect the RO waste water and reuse it for mopping floors, flushing toilets or washing vehicles. 2) Only use RO if the water really has high dissolved salts; otherwise a UV or candle filter plus boiling may be enough. It matters because Bengaluru often faces water shortages in summer and depends on water pumped from far away and on groundwater.",
+      "rubric": [
+        "I gave one practical way to reuse or reduce RO waste",
+        "I gave a second, different way",
+        "I linked it to water shortage / sustainability in Bengaluru"
+      ],
+      "explain": "Criterion D asks you to connect science to real decisions in your community."
+    }
+  ]
+}

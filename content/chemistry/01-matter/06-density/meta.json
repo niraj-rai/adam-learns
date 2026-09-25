@@ -8,12 +8,28 @@
   "level": "L2",
   "core": false,
   "grades": {
-    "ib": { "programme": "MYP", "year": 3, "note": "Extension: quantitative skills (Criterion C)" },
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Extension: quantitative skills (Criterion C)"
+    },
     "cbse": [
-      { "class": 9, "chapter": "Gravitation: floatation, density and relative density", "verified": false }
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 9: The Amazing World of Solutes, Solvents and Solutions (density)",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Gravitation: floatation, density and relative density",
+        "verified": false
+      }
     ]
   },
-  "ibCriteria": ["A", "C"],
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
   "objectives": [
     "I can calculate density using density = mass ÷ volume, with correct units.",
     "I can predict whether an object floats or sinks by comparing densities.",
@@ -24,8 +40,19 @@
     "1 kg of iron is heavier than 1 kg of cotton.",
     "Big objects are always denser."
   ],
-  "prerequisites": ["chemistry/matter/forces-and-spaces"],
-  "labs": ["density-tower"],
-  "keyTerms": ["density", "mass", "volume", "g/cm³", "float", "sink"],
+  "prerequisites": [
+    "chemistry/matter/forces-and-spaces"
+  ],
+  "labs": [
+    "density-tower"
+  ],
+  "keyTerms": [
+    "density",
+    "mass",
+    "volume",
+    "g/cm³",
+    "float",
+    "sink"
+  ],
   "estMinutes": 25
 }

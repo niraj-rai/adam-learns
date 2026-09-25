@@ -1,0 +1,33 @@
+{
+  "id": "advanced-separation",
+  "number": "2.5",
+  "title": "Advanced Separation: Distillation, Chromatography & More",
+  "summary": "The tools real labs use: distillation, fractional distillation, chromatography, crystallisation, centrifugation, separating funnels and sublimation.",
+  "emoji": "⚗️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Chromatography and Rf values extend into MYP 4–5 analysis" },
+    "cbse": [
+      { "class": 9, "chapter": "Ch 2: Is Matter Around Us Pure?, section 2.3 (separating components of a mixture)", "verified": false },
+      { "class": 8, "chapter": "Curiosity Ch 9: Solutes, Solvents and Solutions (crystals from solutions)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C", "D"],
+  "objectives": [
+    "I can explain how simple distillation separates a solvent from a solution, and name the parts of the apparatus.",
+    "I can describe fractional distillation for liquids with different boiling points.",
+    "I can use paper chromatography to separate dyes and calculate an Rf value.",
+    "I can choose between evaporation, crystallisation, centrifugation, a separating funnel and sublimation for a given mixture."
+  ],
+  "misconceptions": [
+    "Distillation destroys the dissolved substance.",
+    "Black ink is a single substance.",
+    "Crystallisation and evaporation are the same thing."
+  ],
+  "prerequisites": ["chemistry/mixtures/everyday-separation", "chemistry/matter/changes-of-state"],
+  "labs": ["chromatography", "distillation", "dissolving-lab"],
+  "keyTerms": ["distillation", "condenser", "distillate", "fractional distillation", "chromatography", "Rf value", "solvent front", "crystallisation", "centrifugation", "separating funnel", "immiscible", "sublimation"],
+  "estMinutes": 30
+}

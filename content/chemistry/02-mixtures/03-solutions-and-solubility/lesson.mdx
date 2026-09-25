@@ -1,0 +1,99 @@
+<Stage kind="wonder" title="Where does the sugar go?" />
+
+<Hook emoji="🍵">
+You stir two spoons of sugar into your tea and they vanish. Keep adding spoons and, at some point, sugar starts collecting at the bottom of the cup no matter how hard you stir. Why is there a limit?
+</Hook>
+
+<PredictFirst
+  question="You weigh a glass of water (200 g) and some sugar (20 g). You dissolve the sugar. What does the sugary water weigh now?"
+  options={["200 g, because the sugar disappeared", "Less than 200 g", "220 g", "More than 220 g"]}
+  answer={2}
+>
+It weighs **220 g**. The sugar hasn't disappeared: its particles have spread out between the water particles, too small to see. **Mass is conserved** when things dissolve.
+</PredictFirst>
+
+<Stage kind="explain" title="The language of solutions" />
+
+<ConceptCard title="Solute + solvent = solution" emoji="🧪">
+- The **solute** is the substance that dissolves (sugar).
+- The **solvent** is the substance it dissolves in (water).
+- The **solution** is the mixture formed (sugar water). It is **homogeneous**.
+
+A substance that dissolves is **soluble** (salt, sugar). One that doesn't is **insoluble** (sand, chalk). Water dissolves so many things that it's called the **universal solvent**.
+</ConceptCard>
+
+<MythFact myth="Dissolving and melting are the same thing.">
+**Melting** needs only one substance and heat: solid ice turns into liquid water. **Dissolving** needs **two** substances: the solute's particles spread out between the solvent's particles. Sugar dissolves in water at room temperature. It doesn't melt until about 186 °C!
+</MythFact>
+
+<Stage kind="try" title="Dissolve until you can't" />
+
+Pick potassium nitrate, add it a little at a time, and find the point where no more will dissolve. Then record your data at different temperatures to build a **solubility curve**.
+
+<Lab id="dissolving-lab" solute="kno3" />
+
+<ConceptCard title="Saturated solutions and solubility" emoji="📈">
+A **saturated** solution holds the **maximum** amount of solute that can dissolve at that temperature. Add more and it just sits at the bottom. A solution that could dissolve more is **unsaturated**.
+
+**Solubility** is the maximum mass of solute that dissolves in **100 g of solvent** at a given temperature. For potassium nitrate at 20 °C, that's about **32 g per 100 g of water**.
+
+A **solubility curve** shows how solubility changes with temperature. For most solids, it goes **up** as the temperature rises, but not all by the same amount: salt barely changes!
+</ConceptCard>
+
+<QuickCheck question="Using the textbook curve, about how much potassium nitrate dissolves in 100 g of water at 60 °C?" options={["About 11 g", "About 37 g", "About 110 g", "About 246 g"]} answer={2}>
+About **110 g**, more than the mass of the water itself! Salt only manages about 37 g at the same temperature.
+</QuickCheck>
+
+<StepReveal>
+<div>
+**What makes a solid dissolve FASTER?** (It changes how fast it dissolves, not how much.)
+</div>
+<div>
+🔥 **Heating:** the particles move faster, so they collide and spread more quickly.
+</div>
+<div>
+🥄 **Stirring:** it carries dissolved particles away and brings fresh solvent to the solute.
+</div>
+<div>
+🔨 **Crushing into smaller pieces:** there is more surface area for the solvent to attack. That's why powdered sugar dissolves faster than a sugar cube.
+</div>
+</StepReveal>
+
+<ConceptCard title="Concentration" emoji="🧮">
+The **concentration** tells you how much solute is dissolved in a certain amount of solution.
+</ConceptCard>
+
+<Formula tex="\text{concentration (\%)} = \frac{\text{mass of solute}}{\text{mass of solution}} \times 100" caption="Mass of solution = mass of solute + mass of solvent. Example: 20 g sugar in 180 g water → 20 ÷ 200 × 100 = 10%" />
+
+<DidYouKnow>
+Gases dissolve too, but **less** in warm water. That's why a cold soda stays fizzy longer, and why fish in warm, polluted lakes can struggle to get enough dissolved oxygen.
+</DidYouKnow>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="C" title="Draw and use a solubility curve">
+Use the Dissolving Lab with **potassium nitrate**.
+
+1. Record the solubility at 0, 20, 40, 60, 80 and 100 °C.
+2. Describe the **trend** in one sentence using numbers.
+3. **Predict:** a saturated solution at 60 °C (110 g in 100 g water) is cooled to 20 °C. How many grams of crystals should appear? Test it in the lab!
+4. Compare with **salt**. Which solute would be easier to purify by cooling (crystallisation)? Why?
+</Inquiry>
+
+<TryAtHome
+  title="Sugar race"
+  materials={["3 glasses of water", "3 sugar cubes (or 3 spoons of sugar crystals + 1 spoon powdered sugar)", "a spoon", "a timer"]}
+  safety="Use warm tap water only, not boiling water."
+>
+1. Glass 1: cold water, don't stir. Glass 2: cold water, stir. Glass 3: warm water, stir.
+2. Drop a sugar cube in each at the same time and time how long it takes to disappear.
+3. Which factor made the biggest difference? Was it a fair test?
+</TryAtHome>
+
+<CbseCorner source="Class 8 Curiosity Ch 9">
+- Key terms in NCERT: **solute, solvent, solution, saturated, unsaturated, solubility, concentration**.
+- Curiosity links **concentration and density**: a more concentrated sugar solution is denser. Remember the floating egg from Topic 1.6!
+- Typical numerical: *"20 g of salt is dissolved in 180 g of water. Find the concentration (mass by mass %)."* Answer: 10%.
+</CbseCorner>
+
+<Reflect id="chem-mixtures-solutions" prompt="Oral Rehydration Solution (ORS) saves millions of lives from dehydration. Its concentration of salt and sugar must be just right. Why do you think getting the concentration right matters so much?" />

@@ -1,0 +1,35 @@
+{
+  "id": "solutions-and-solubility",
+  "number": "2.3",
+  "title": "Solutions and Solubility",
+  "summary": "Solute + solvent = solution. How much can dissolve, what makes it dissolve faster, and how to read a solubility curve.",
+  "emoji": "🥄",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Strong Criterion C opportunity: collecting data and drawing a solubility curve" },
+    "cbse": [
+      { "class": 8, "chapter": "Curiosity Ch 9: The Amazing World of Solutes, Solvents and Solutions", "verified": true },
+      { "class": 9, "chapter": "Ch 2: Is Matter Around Us Pure?, section 2.2 (solutions, concentration)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can use the words solute, solvent, solution, soluble and insoluble correctly.",
+    "I can explain what saturated and unsaturated solutions are.",
+    "I can collect data to draw a solubility curve and use it to make predictions.",
+    "I can calculate the concentration of a solution.",
+    "I can explain why mass is conserved when a substance dissolves."
+  ],
+  "misconceptions": [
+    "Dissolving is the same as melting.",
+    "When sugar dissolves it disappears, so the mass goes down.",
+    "Stirring lets you dissolve an unlimited amount.",
+    "All solids dissolve better in hot water by the same amount."
+  ],
+  "prerequisites": ["chemistry/mixtures/pure-substances-and-mixtures", "chemistry/matter/forces-and-spaces"],
+  "labs": ["dissolving-lab"],
+  "keyTerms": ["solute", "solvent", "solution", "soluble", "insoluble", "saturated", "solubility", "concentration", "solubility curve"],
+  "estMinutes": 25
+}

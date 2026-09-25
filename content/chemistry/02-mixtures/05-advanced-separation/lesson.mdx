@@ -1,0 +1,95 @@
+<Stage kind="wonder" title="Drinking water from the sea?" />
+
+<Hook emoji="🚢">
+Sailors on a ship are surrounded by water, but sea water is too salty to drink. Evaporation would give them salt and lose the water. Is there a way to keep the **water** instead?
+</Hook>
+
+<PredictFirst
+  question="You boil salt water and cool the steam on a cold plate. The drops that form will be…"
+  options={["Salty", "Pure water, not salty", "Pure salt", "Half salt, half water"]}
+  answer={1}
+>
+Only the **water** turns into vapour at 100 °C. The salt stays behind in the pan. When the steam cools and condenses, you get **pure water**. That's **distillation**!
+</PredictFirst>
+
+<Stage kind="explain" title="Distillation: evaporate, then condense" />
+
+<ConceptCard title="Simple distillation" emoji="⚗️">
+Distillation separates a **solvent** from a **solution** and **keeps both**.
+
+1. The solution is heated in a flask. The solvent **boils** and turns to vapour.
+2. The vapour passes into a **condenser**, a tube surrounded by a jacket of cold flowing water.
+3. The vapour **condenses** back into a liquid, the **distillate**, which drips into a beaker.
+4. The dissolved solid stays in the flask.
+
+It combines two changes of state you already know: **evaporation/boiling** and **condensation**.
+</ConceptCard>
+
+<Stage kind="try" title="Run the still" />
+
+<Lab id="distillation" />
+
+<ConceptCard title="Fractional distillation" emoji="🏭">
+What if you need to separate two **liquids** that mix completely, like alcohol and water? They have different boiling points (78 °C and 100 °C).
+
+A **fractionating column** is added above the flask. The liquid with the **lower boiling point** reaches the top first and is collected first.
+
+It is used on a huge scale to separate **crude oil** into petrol, diesel and kerosene, and to separate **liquid air** into oxygen and nitrogen for hospitals.
+</ConceptCard>
+
+<Stage kind="try" title="Chromatography: solve the ink mystery" />
+
+<Lab id="chromatography" />
+
+<ConceptCard title="How chromatography works" emoji="🌈">
+A spot of the mixture goes on a **pencil line** near the bottom of the paper. A solvent (like water) soaks up the paper and carries the substances with it.
+
+Substances that dissolve **better** in the solvent, and stick **less** to the paper, travel **further**. So different dyes end up at different heights.
+</ConceptCard>
+
+<Formula tex="R_f = \frac{\text{distance moved by the substance}}{\text{distance moved by the solvent}}" caption="Rf is always between 0 and 1. The same substance in the same solvent always has the same Rf, like a fingerprint." />
+
+<MythFact myth="Black ink is just one black substance.">
+Most black inks are **mixtures** of several coloured dyes: often blue, red and yellow. Chromatography reveals the hidden colours. Forensic scientists use this to match ink from documents, and food scientists use it to check for illegal food colours.
+</MythFact>
+
+<Stage kind="explain" title="More tools in the toolbox" />
+
+<Compare
+  columns={[
+    { title: "Crystallisation", emoji: "💎", points: ["Gets pure crystals from a solution", "Heat to make a hot saturated solution, then let it COOL slowly", "Crystals form; impurities stay in the liquid", "Better than evaporating to dryness for sugar and copper sulfate, which can char or break down"] },
+    { title: "Centrifugation", emoji: "🌀", points: ["Spins mixtures very fast", "Denser particles are thrown to the bottom", "Separates cream from milk in dairies", "Separates blood cells in pathology labs; washing machines spin water out of clothes"] },
+    { title: "Separating funnel & sublimation", emoji: "🫙", points: ["Funnel: separates immiscible liquids (oil + water); the denser layer is drained from the bottom tap", "Sublimation: one solid turns straight to gas (camphor, ammonium chloride, naphthalene) and is collected on a cold surface"] }
+  ]}
+/>
+
+<QuickCheck question="Which method would you use to separate kerosene from water? (They don't mix, and kerosene floats.)" options={["Distillation", "Separating funnel", "Chromatography", "Centrifugation"]} answer={1}>
+Kerosene and water are **immiscible**: they form two layers. Open the tap of a **separating funnel** to drain off the bottom layer (water), then collect the kerosene.
+</QuickCheck>
+
+<Stage kind="apply" title="Think like a scientist" />
+
+<Inquiry criterion="C" title="Calculate and compare Rf values">
+In a chromatography experiment the solvent front moved **10 cm**.
+
+| Dye | Distance moved (cm) |
+|---|---|
+| Food colour A | 7.5 |
+| Food colour B | 3.0 |
+| Suspect sweet colour | 7.5 |
+
+1. Calculate the R<sub>f</sub> of each dye.
+2. Which food colour is in the sweet? Explain using R<sub>f</sub>.
+3. Why is it important to use a **pencil** line and to keep the spot **above** the solvent level?
+</Inquiry>
+
+<RealLife title="Water for Chennai from the sea">
+Chennai runs large **desalination** plants that turn sea water into drinking water for lakhs of people. Most use **reverse osmosis**: sea water is pushed at high pressure through a special membrane that lets water through but blocks salt. It is like a super-fine filter, and it needs a lot of energy.
+</RealLife>
+
+<CbseCorner source="Class 9 Ch 2">
+- Know which method separates which mixture: **distillation** (acetone + water, boiling points far apart), **fractional distillation** (liquids with close boiling points; gases from air), **chromatography** (dyes in ink), **centrifugation** (cream from milk), **separating funnel** (oil + water), **sublimation** (salt + camphor or ammonium chloride), **crystallisation** (pure copper sulfate, alum).
+- Be able to **label the distillation apparatus**: flask, thermometer, condenser (water in at the bottom, out at the top), receiver.
+</CbseCorner>
+
+<Reflect id="chem-mixtures-advanced" prompt="Desalination can give coastal cities fresh water, but it uses lots of energy and returns very salty water to the sea. Should cities like Chennai build more desalination plants? What are the benefits and the costs?" />

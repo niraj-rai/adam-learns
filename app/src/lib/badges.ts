@@ -7,6 +7,8 @@ export type BadgeId =
   | 'streak-3'
   | 'streak-7'
   | 'unit-matter'
+  | 'unit-mixtures'
+  | 'well-rescuer'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -18,5 +20,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'streak-3': { title: 'On a Roll', emoji: '🔥', description: 'Learned 3 days in a row' },
   'streak-7': { title: 'Week Warrior', emoji: '🌟', description: 'Learned 7 days in a row' },
   'unit-matter': { title: 'Matter Master', emoji: '🧊', description: 'Mastered every core topic in Unit 1: Matter' },
+  'unit-mixtures': { title: 'Separation Specialist', emoji: '🧪', description: 'Mastered every core topic in Unit 2: Mixtures & Separation' },
+  'well-rescuer': { title: 'Well Rescuer', emoji: '🚰', description: 'Made the village well water safe to drink (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

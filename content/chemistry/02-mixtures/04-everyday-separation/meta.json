@@ -1,0 +1,32 @@
+{
+  "id": "everyday-separation",
+  "number": "2.4",
+  "title": "Separation in Everyday Life",
+  "summary": "Hand-picking, winnowing, sieving, churning, sedimentation, decantation, filtration, evaporation and magnets: choosing the right method by looking at properties.",
+  "emoji": "🧺",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 1, "note": "Revisited in MYP 3 with a focus on justifying the choice of method" },
+    "cbse": [
+      { "class": 6, "chapter": "Curiosity Ch 9: Methods of Separation in Everyday Life", "verified": true },
+      { "class": 9, "chapter": "Ch 2: Is Matter Around Us Pure?, separation section", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can describe common separation methods used at home and on farms.",
+    "I can choose a separation method by identifying the property that differs (size, weight, magnetism, solubility).",
+    "I can plan a multi-step separation of a mixture of three substances."
+  ],
+  "misconceptions": [
+    "Filtering can remove dissolved salt from water.",
+    "Evaporation lets you keep both the salt and the water.",
+    "One method works for every mixture."
+  ],
+  "prerequisites": ["chemistry/mixtures/solutions-and-solubility"],
+  "labs": ["separation-bench"],
+  "keyTerms": ["hand-picking", "threshing", "winnowing", "sieving", "churning", "sedimentation", "decantation", "filtration", "filtrate", "residue", "evaporation"],
+  "estMinutes": 20
+}

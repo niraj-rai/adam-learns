@@ -1,0 +1,33 @@
+{
+  "id": "elements-compounds-mixtures",
+  "number": "2.2",
+  "title": "Elements, Compounds and Mixtures",
+  "summary": "Everything is built from about 118 elements. Joined together they make compounds; mixed without joining they make mixtures.",
+  "emoji": "⚛️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Links to symbols and formulas, and later the periodic table (Unit 6)" },
+    "cbse": [
+      { "class": 8, "chapter": "Curiosity Ch 8: Nature of Matter: Elements, Compounds and Mixtures", "verified": true },
+      { "class": 9, "chapter": "Ch 2: Is Matter Around Us Pure?, section 2.5", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can define element, compound and mixture, and give examples of each.",
+    "I can classify particle diagrams as elements, compounds or mixtures.",
+    "I can compare the properties of a mixture with those of the compound made from the same elements.",
+    "I can read simple chemical symbols and formulas such as H₂O, CO₂ and NaCl."
+  ],
+  "misconceptions": [
+    "A compound is just a mixture of elements.",
+    "A compound has the properties of the elements it is made from.",
+    "Molecules are always compounds (O₂ is a molecule of an element)."
+  ],
+  "prerequisites": ["chemistry/mixtures/pure-substances-and-mixtures"],
+  "labs": ["particle-zoom", "iron-sulfur"],
+  "keyTerms": ["element", "compound", "atom", "molecule", "chemical symbol", "chemical formula", "fixed ratio"],
+  "estMinutes": 25
+}

@@ -2,6 +2,7 @@ import { Link, createFileRoute, notFound, useNavigate } from '@tanstack/react-ro
 import { useState } from 'react'
 import { BoardTags } from '@/components/board/BoardTags'
 import { PracticePlayer } from '@/components/practice/PracticePlayer'
+import { BADGES, type BadgeId } from '@/lib/badges'
 import { getNextTopic, getPractice, getTopic, getUnit } from '@/content/loader'
 import { useProgress } from '@/stores/progress'
 
@@ -54,10 +55,10 @@ function PracticePage() {
           onFinish={(s) => {
             recordPractice(topic.key, s)
             if (s.xp > 0) addXp(s.xp, `${s.correctIds.length} correct answers`)
-            // unit badge: every core topic in Unit 1 mastered
-            const unitTopics = unit.topics.filter((t) => t.core)
+            // unit badge: every core topic in the unit mastered
+            const unitBadge = `unit-${unit.id}` as BadgeId
             const all = useProgress.getState().topics
-            if (unit.id === 'matter' && unitTopics.every((t) => all[t.key]?.masteredAt)) awardBadge('unit-matter')
+            if (unitBadge in BADGES && unit.topics.filter((t) => t.core).every((t) => all[t.key]?.masteredAt)) awardBadge(unitBadge)
           }}
           onRetry={() => setAttempt((a) => a + 1)}
           finishLabel={next ? `Next: ${next.title}` : 'Back to unit'}

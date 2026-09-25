@@ -1,0 +1,145 @@
+{
+  "topicId": "solutions-and-solubility",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In sugar water, match each word to its part.",
+      "pairs": [
+        { "left": "Solute", "right": "Sugar" },
+        { "left": "Solvent", "right": "Water" },
+        { "left": "Solution", "right": "Sugar water" }
+      ],
+      "explain": "The solute dissolves in the solvent to make a solution."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Sort into soluble and insoluble in water.",
+      "bins": ["Soluble", "Insoluble"],
+      "items": [
+        { "label": "Salt", "bin": 0 },
+        { "label": "Sand", "bin": 1 },
+        { "label": "Sugar", "bin": 0 },
+        { "label": "Chalk powder", "bin": 1 },
+        { "label": "Lemon juice", "bin": 0 },
+        { "label": "Sawdust", "bin": 1 }
+      ],
+      "explain": "Salt, sugar and lemon juice dissolve in water; sand, chalk and sawdust do not."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A solution that cannot dissolve any more solute at that temperature is…",
+      "options": ["dilute", "saturated", "insoluble", "unsaturated"],
+      "answer": 1,
+      "explain": "A saturated solution holds the maximum amount of solute at that temperature."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "30 g of salt is dissolved in 250 g of water. What is the mass of the solution?",
+      "answer": 280,
+      "tolerance": 0,
+      "unit": "g",
+      "explain": "Mass is conserved: 250 + 30 = 280 g."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "20 g of sugar is dissolved in 180 g of water. What is the concentration (mass %)?",
+      "answer": 10,
+      "tolerance": 0.1,
+      "unit": "%",
+      "hint": "Divide the solute mass by the SOLUTION mass (20 + 180), then × 100.",
+      "explain": "20 ÷ 200 × 100 = 10%."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which make sugar dissolve FASTER? Choose all that apply.",
+      "options": ["Stirring", "Using warmer water", "Using a sugar cube instead of powder", "Crushing the sugar into powder", "Using less water"],
+      "answer": [0, 1, 3],
+      "explain": "Stirring, heating and a larger surface area (powder) speed up dissolving. A cube has less surface area."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "The solubility of potassium nitrate is 32 g per 100 g water at 20 °C and 110 g at 60 °C. A saturated solution in 100 g water is cooled from 60 °C to 20 °C. What happens?",
+      "options": ["Nothing happens", "About 78 g of crystals form", "About 32 g of crystals form", "The water freezes"],
+      "answer": 1,
+      "hint": "How much can stay dissolved at 20 °C? The rest comes out.",
+      "explain": "110 − 32 = 78 g can no longer stay dissolved, so it crystallises out."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the difference between melting and dissolving?",
+      "options": [
+        "There is no difference",
+        "Melting involves one substance changing state; dissolving needs a solute spreading into a solvent",
+        "Dissolving needs heat but melting doesn't",
+        "Melting only happens to metals"
+      ],
+      "answer": 1,
+      "explain": "Melting: one substance, solid → liquid. Dissolving: solute particles spread out between solvent particles."
+    },
+    {
+      "id": "q9",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Put the steps in order to measure the solubility of salt at 40 °C.",
+      "steps": [
+        "Measure 100 g of water and heat it to 40 °C",
+        "Add weighed amounts of salt, stirring each time",
+        "Stop when some salt stays undissolved (saturated)",
+        "Record the total mass of salt that dissolved"
+      ],
+      "explain": "Fix the solvent and temperature, add solute until saturated, then record."
+    },
+    {
+      "id": "q10",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "For most solids, solubility ___ as temperature increases. Gases are ___ soluble in warm water.",
+      "blanks": [["increases", "goes up", "rises"], ["less"]],
+      "wordBank": ["increases", "decreases", "less", "more"],
+      "explain": "Most solids dissolve more when hot; gases dissolve less when hot (warm soda goes flat)."
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A student says, 'The sugar disappeared when it dissolved, so the tea weighs the same as before.' Explain why the student is wrong, using particles.",
+      "modelAnswer": "The sugar didn't disappear. Its particles spread out between the water particles and became too small to see. All the sugar particles are still there, so the mass of the tea increases by the mass of the sugar added (mass is conserved).",
+      "rubric": [
+        "I said the sugar particles are still there, spread out",
+        "I said they are too small to see",
+        "I said the mass increases / mass is conserved"
+      ],
+      "explain": "Dissolving is a physical change: no particles are destroyed, so mass is conserved."
+    }
+  ]
+}

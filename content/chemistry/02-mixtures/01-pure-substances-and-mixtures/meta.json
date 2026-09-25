@@ -1,0 +1,33 @@
+{
+  "id": "pure-substances-and-mixtures",
+  "number": "2.1",
+  "title": "Pure Substances and Mixtures",
+  "summary": "'Pure' milk isn't pure to a scientist! Learn what makes a substance pure, and the two kinds of mixture.",
+  "emoji": "🥛",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 2, "note": "Foundation for elements, compounds and mixtures in MYP 3" },
+    "cbse": [
+      { "class": 8, "chapter": "Curiosity Ch 8: Nature of Matter: Elements, Compounds and Mixtures", "verified": true },
+      { "class": 9, "chapter": "Ch 2: Is Matter Around Us Pure?, section 2.1", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C", "D"],
+  "objectives": [
+    "I can explain the scientific meaning of a pure substance.",
+    "I can tell the difference between a pure substance and a mixture using the particle model.",
+    "I can classify mixtures as homogeneous (uniform) or heterogeneous (non-uniform).",
+    "I can use melting and boiling points to test whether a substance is pure."
+  ],
+  "misconceptions": [
+    "'Pure' on a label (pure ghee, pure honey) means chemically pure.",
+    "If something looks the same everywhere, it must be pure.",
+    "Mixtures always look 'mixed'."
+  ],
+  "prerequisites": ["chemistry/matter/states-of-matter"],
+  "labs": ["particle-zoom"],
+  "keyTerms": ["pure substance", "mixture", "homogeneous", "heterogeneous", "melting point", "boiling point"],
+  "estMinutes": 20
+}

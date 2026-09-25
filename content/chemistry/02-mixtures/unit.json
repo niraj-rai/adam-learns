@@ -1,0 +1,33 @@
+{
+  "id": "mixtures",
+  "number": 2,
+  "title": "Pure Substances, Mixtures & Separation",
+  "summary": "Most things around us are mixtures. This unit uses the particle model to tell elements, compounds and mixtures apart, explores solutions and solubility, and uses differences in properties to separate mixtures, all the way to making dirty water safe to drink.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": ["Composition", "Transformation", "Evidence"],
+    "globalContext": "Globalization and sustainability",
+    "statementOfInquiry": "Understanding what substances are made of lets us separate them, which helps communities get clean water and useful materials."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is the difference between an element, a compound and a mixture?",
+      "What is solubility, and how does temperature affect it?",
+      "Which separation method suits which kind of mixture?"
+    ],
+    "conceptual": [
+      "How can the particle model show whether a substance is pure?",
+      "How do differences in properties make separation possible?"
+    ],
+    "debatable": [
+      "Should clean drinking water be free for everyone?",
+      "Is 'pure' on a food label a scientific claim or an advertising claim?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 8 (Curiosity) Ch 8: Nature of Matter: Elements, Compounds and Mixtures",
+    "Class 8 (Curiosity) Ch 9: The Amazing World of Solutes, Solvents and Solutions",
+    "Class 6 (Curiosity) Ch 9: Methods of Separation in Everyday Life",
+    "Class 9 Ch 2: Is Matter Around Us Pure? (check against the current NCERT edition)"
+  ]
+}

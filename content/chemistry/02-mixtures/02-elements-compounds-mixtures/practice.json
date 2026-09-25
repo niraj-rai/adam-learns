@@ -1,0 +1,162 @@
+{
+  "topicId": "elements-compounds-mixtures",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Sort each substance: element, compound or mixture?",
+      "bins": ["Element", "Compound", "Mixture"],
+      "items": [
+        { "label": "Iron", "bin": 0 },
+        { "label": "Water", "bin": 1 },
+        { "label": "Air", "bin": 2 },
+        { "label": "Oxygen gas", "bin": 0 },
+        { "label": "Carbon dioxide", "bin": 1 },
+        { "label": "Salt water", "bin": 2 },
+        { "label": "Gold", "bin": 0 },
+        { "label": "Table salt", "bin": 1 },
+        { "label": "Brass", "bin": 2 }
+      ],
+      "hint": "Element = one kind of atom. Compound = different atoms chemically joined. Mixture = not joined.",
+      "explain": "Elements: iron, oxygen, gold. Compounds: water, carbon dioxide, salt. Mixtures: air, salt water, brass."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is an element?",
+      "options": [
+        "A substance made of only one kind of atom",
+        "Two substances mixed together",
+        "Any substance that is a solid",
+        "A substance made of molecules"
+      ],
+      "answer": 0,
+      "explain": "An element contains only one kind of atom and can't be broken down into simpler substances chemically."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Oxygen gas is made of O₂ molecules. Is it an element or a compound?",
+      "options": ["Compound, because it's made of molecules", "Element, because both atoms are oxygen", "Mixture", "Neither"],
+      "answer": 1,
+      "feedback": { "0": "A molecule is only a compound if it contains DIFFERENT kinds of atoms." },
+      "explain": "Both atoms in O₂ are oxygen, so oxygen gas is an element made of molecules."
+    },
+    {
+      "id": "q4",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each element to its symbol.",
+      "pairs": [
+        { "left": "Iron", "right": "Fe" },
+        { "left": "Gold", "right": "Au" },
+        { "left": "Sodium", "right": "Na" },
+        { "left": "Carbon", "right": "C" },
+        { "left": "Oxygen", "right": "O" }
+      ],
+      "explain": "Some symbols come from Latin names: Fe (ferrum), Au (aurum), Na (natrium)."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A grey-yellow powder is tested with a magnet. Grey bits jump onto the magnet. What is the powder?",
+      "options": ["The compound iron sulfide", "A mixture of iron and sulfur", "Pure sulfur", "Pure iron"],
+      "answer": 1,
+      "explain": "In a mixture, iron keeps its magnetic property. In the compound iron sulfide, it doesn't."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which are true for a COMPOUND? Choose all that apply.",
+      "options": [
+        "Elements are chemically joined",
+        "Elements are in a fixed ratio",
+        "It has properties different from its elements",
+        "It can be separated with a magnet or filter",
+        "Energy is usually given out or taken in when it forms"
+      ],
+      "answer": [0, 1, 2, 4],
+      "explain": "Compounds need chemical reactions to be separated, not physical methods like magnets or filters."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences about water, H₂O.",
+      "text": "Water is a ___ . Each molecule has ___ hydrogen atoms joined to ___ oxygen atom.",
+      "blanks": [["compound"], ["2", "two"], ["1", "one"]],
+      "explain": "H₂O: the small 2 means two hydrogen atoms; no number after O means one oxygen atom."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "How many atoms in total are in ONE molecule of carbon dioxide, CO₂?",
+      "answer": 3,
+      "tolerance": 0,
+      "unit": "atoms",
+      "hint": "Count the C, then look at the small number after O.",
+      "explain": "1 carbon + 2 oxygen = 3 atoms."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Sodium explodes in water and chlorine is a poisonous gas, but salt (NaCl) is safe to eat. This shows that…",
+      "options": [
+        "salt is a mixture of sodium and chlorine",
+        "a compound has different properties from its elements",
+        "sodium and chlorine are both safe",
+        "salt contains no sodium"
+      ],
+      "answer": 1,
+      "explain": "When elements chemically combine, the compound has brand-new properties."
+    },
+    {
+      "id": "q10",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Put the Iron + Sulfur investigation in a sensible order.",
+      "steps": [
+        "Observe the properties of iron and sulfur separately",
+        "Mix them and test the mixture with a magnet",
+        "Heat the mixture strongly (teacher, fume cupboard)",
+        "Test the new black solid with a magnet",
+        "Compare the results and draw a conclusion"
+      ],
+      "explain": "Observe → mix and test → react → test the product → conclude."
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Give THREE differences between a mixture and a compound.",
+      "modelAnswer": "1) In a mixture substances are not chemically joined; in a compound elements are chemically joined. 2) A mixture's parts can be in any ratio; a compound has a fixed ratio. 3) A mixture keeps the properties of its parts and can be separated by physical methods; a compound has new properties and needs a chemical reaction to separate.",
+      "rubric": [
+        "Joined chemically (compound) vs not joined (mixture)",
+        "Fixed ratio (compound) vs any ratio (mixture)",
+        "New properties vs keeps properties, OR chemical vs physical separation"
+      ],
+      "explain": "These are the key differences examiners look for."
+    }
+  ]
+}

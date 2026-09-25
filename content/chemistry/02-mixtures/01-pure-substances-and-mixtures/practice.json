@@ -1,0 +1,160 @@
+{
+  "topicId": "pure-substances-and-mixtures",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In science, a pure substance is…",
+      "options": [
+        "anything with nothing harmful added",
+        "a substance made of only one kind of particle",
+        "anything that comes from nature",
+        "anything that looks clean"
+      ],
+      "answer": 1,
+      "feedback": { "0": "That's the everyday (shopping) meaning. The scientific meaning is about particles." },
+      "explain": "A pure substance contains only one kind of particle, like distilled water, gold or table salt."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Sort into pure substances and mixtures.",
+      "bins": ["Pure substance", "Mixture"],
+      "items": [
+        { "label": "Gold", "bin": 0 },
+        { "label": "Milk", "bin": 1 },
+        { "label": "Distilled water", "bin": 0 },
+        { "label": "Air", "bin": 1 },
+        { "label": "Sea water", "bin": 1 },
+        { "label": "Table salt", "bin": 0 },
+        { "label": "Soil", "bin": 1 },
+        { "label": "Oxygen", "bin": 0 }
+      ],
+      "hint": "Ask: does it contain only ONE kind of particle?",
+      "explain": "Gold, distilled water, salt and oxygen each contain only one kind of particle. Milk, air, sea water and soil contain several substances."
+    },
+    {
+      "id": "q3",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Sort these mixtures into homogeneous and heterogeneous.",
+      "bins": ["Homogeneous (uniform)", "Heterogeneous (non-uniform)"],
+      "items": [
+        { "label": "Salt water", "bin": 0 },
+        { "label": "Oil and water", "bin": 1 },
+        { "label": "Air", "bin": 0 },
+        { "label": "Sand and water", "bin": 1 },
+        { "label": "Brass", "bin": 0 },
+        { "label": "Vegetable salad", "bin": 1 }
+      ],
+      "explain": "Homogeneous mixtures look the same everywhere (solutions and alloys). Heterogeneous ones have parts you can see or that separate out."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Brass looks like one shiny metal. Why is it a mixture?",
+      "options": [
+        "It contains copper and zinc atoms mixed but not chemically joined",
+        "It is made in a factory",
+        "It is yellow",
+        "It conducts electricity"
+      ],
+      "answer": 0,
+      "explain": "Brass is an alloy: a mixture of copper and zinc. The proportions can vary."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A clear liquid boils over a range from 101 °C to 104 °C. What can you conclude?",
+      "options": [
+        "It is pure water",
+        "It is a mixture (for example, salt water)",
+        "It is a pure substance that isn't water",
+        "The thermometer is broken"
+      ],
+      "answer": 1,
+      "hint": "Pure substances boil at ONE exact temperature.",
+      "explain": "Boiling over a range, and above 100 °C, shows impurities are present, so it's a mixture such as salt water."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which statements about MIXTURES are true? Choose all that apply.",
+      "options": [
+        "The substances keep their own properties",
+        "The amounts of each substance can vary",
+        "They can be separated by physical methods",
+        "The substances are chemically joined",
+        "They always look 'mixed'"
+      ],
+      "answer": [0, 1, 2],
+      "explain": "In a mixture, substances are not chemically joined; they keep their properties, can be in any proportion, and can be physically separated. Homogeneous mixtures don't look mixed."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "A pure substance melts at one ___ temperature. A mixture that looks the same everywhere is called ___.",
+      "blanks": [["exact", "fixed", "sharp"], ["homogeneous", "uniform"]],
+      "wordBank": ["exact", "homogeneous", "heterogeneous", "changing"],
+      "explain": "Pure substances have sharp melting and boiling points. Uniform mixtures are homogeneous."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Why do people in cold countries spread salt on icy roads?",
+      "options": [
+        "Salt makes the road rough",
+        "Salt water freezes below 0 °C, so the ice melts",
+        "Salt reacts with ice to make heat",
+        "Salt makes ice slippery"
+      ],
+      "answer": 1,
+      "explain": "Impurities lower the freezing point. Salt water freezes at a lower temperature than pure water, so ice melts even when it's a bit below 0 °C."
+    },
+    {
+      "id": "q9",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each example to what it is.",
+      "pairs": [
+        { "left": "Distilled water", "right": "Pure substance" },
+        { "left": "Lemonade (nimbu pani)", "right": "Homogeneous mixture" },
+        { "left": "Muddy water", "right": "Heterogeneous mixture" }
+      ],
+      "explain": "Distilled water has one kind of particle; nimbu pani looks uniform; muddy water has visible bits."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "A ghee packet says 'Pure Desi Ghee'. Explain what 'pure' means here and why a scientist might disagree.",
+      "modelAnswer": "On the label, 'pure' means nothing else (like vegetable oil) has been added to the ghee. A scientist would say ghee is not a pure substance, because it is a mixture of many different fats and other substances, not one kind of particle.",
+      "rubric": [
+        "I explained the everyday meaning (nothing added / not adulterated)",
+        "I said ghee contains several different substances",
+        "I used the idea of one kind of particle for a pure substance"
+      ],
+      "explain": "Everyday 'pure' = unadulterated; scientific 'pure' = one kind of particle."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "topicId": "advanced-separation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each mixture to the best separation method.",
+      "pairs": [
+        { "left": "Pure water from sea water", "right": "Distillation" },
+        { "left": "Dyes in black ink", "right": "Chromatography" },
+        { "left": "Cream from milk", "right": "Centrifugation" },
+        { "left": "Oil and water", "right": "Separating funnel" },
+        { "left": "Camphor and salt", "right": "Sublimation" }
+      ],
+      "explain": "Each method matches a property: boiling point, how far a dye travels, density when spun, immiscible layers, and a solid that sublimes."
+    },
+    {
+      "id": "q2",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Put the steps of simple distillation of salt water in order.",
+      "steps": [
+        "Heat the salt water in a flask",
+        "Water boils and turns into vapour",
+        "Vapour passes into the cold condenser",
+        "Vapour condenses into liquid water",
+        "Pure water (distillate) collects in the beaker"
+      ],
+      "explain": "Heat → boil → condenser → condense → collect. The salt stays in the flask."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the job of the condenser in distillation?",
+      "options": ["To heat the solution", "To cool the vapour so it turns back into a liquid", "To filter out the salt", "To measure the temperature"],
+      "answer": 1,
+      "explain": "Cold water around the condenser removes heat from the vapour, so it condenses into the distillate."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "In chromatography the solvent moved 10 cm and a red dye moved 4.5 cm. What is the Rf value of the red dye?",
+      "answer": 0.45,
+      "tolerance": 0.005,
+      "hint": "Rf = distance moved by the dye ÷ distance moved by the solvent.",
+      "explain": "4.5 ÷ 10 = 0.45."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Why is the starting line in chromatography drawn in PENCIL, not pen?",
+      "options": [
+        "Pencil is easier to see",
+        "Pencil graphite does not dissolve and run with the solvent",
+        "Pen would make the paper wet",
+        "Pencil lines are straighter"
+      ],
+      "answer": 1,
+      "explain": "Ink from a pen would dissolve and separate too, spoiling the results. Graphite stays put."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A sweet's colour has Rf 0.75. Allowed food colour A has Rf 0.75 and banned colour B has Rf 0.30 (same solvent). What can you conclude?",
+      "options": ["The sweet contains banned colour B", "The sweet's colour matches allowed colour A", "The sweet contains both", "You can't compare Rf values"],
+      "answer": 1,
+      "explain": "Same Rf in the same solvent suggests the same substance, so the colour matches A."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Alcohol (boils at 78 °C) and water (100 °C) are mixed. Which method separates them best?",
+      "options": ["Filtration", "Fractional distillation", "Separating funnel", "Magnet"],
+      "answer": 1,
+      "explain": "They are miscible liquids with different boiling points, so fractional distillation works; alcohol distils off first."
+    },
+    {
+      "id": "q8",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which are uses of CENTRIFUGATION? Choose all that apply.",
+      "options": ["Separating cream from milk", "Separating blood cells from plasma in a lab", "Drying clothes in a washing machine", "Getting salt from sea water", "Separating dyes in ink"],
+      "answer": [0, 1, 2],
+      "explain": "Spinning throws denser parts outward or down. Salt from sea water uses evaporation; dyes use chromatography."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Why is crystallisation better than evaporating to dryness when purifying copper sulfate?",
+      "options": [
+        "It is faster",
+        "Impurities stay in the solution, and the crystals are not damaged by overheating",
+        "It uses no heat at all",
+        "It makes more copper sulfate"
+      ],
+      "answer": 1,
+      "explain": "Evaporating to dryness leaves impurities in the solid and can decompose it. Crystallisation gives pure, well-formed crystals."
+    },
+    {
+      "id": "q10",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Liquids like oil and water that do not mix are called ___ liquids and can be separated with a separating ___ .",
+      "blanks": [["immiscible"], ["funnel"]],
+      "wordBank": ["immiscible", "miscible", "funnel", "column"],
+      "explain": "Immiscible liquids form layers; a separating funnel drains the bottom layer."
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Give ONE advantage and ONE disadvantage of using distillation (or desalination) to make drinking water for a big city.",
+      "modelAnswer": "Advantage: it can turn sea water (an almost unlimited supply) into pure drinking water, which helps coastal cities during droughts. Disadvantage: it uses a lot of energy, which is expensive and may cause pollution, and the very salty waste water can harm sea life.",
+      "rubric": [
+        "I gave a clear advantage (e.g. unlimited sea water, pure water)",
+        "I gave a clear disadvantage (e.g. energy cost, pollution, salty waste)",
+        "I explained WHY it matters for people or the environment"
+      ],
+      "explain": "Criterion D asks you to weigh the benefits and costs of science in society."
+    }
+  ]
+}

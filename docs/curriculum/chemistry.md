@@ -31,7 +31,7 @@
 
 ---
 
-### Unit 2: Pure Substances, Mixtures & Separation
+### Unit 2: Pure Substances, Mixtures & Separation ✅ built
 *IB Key Concept:* **Relationships** · *Related:* Composition, Transformation · *Global Context:* Globalization & sustainability (clean water)
 
 | # | Topic | IB | CBSE | ★ | Interactive lab / experience | Practice highlights |
