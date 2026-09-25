@@ -1,0 +1,144 @@
+{
+  "topicId": "conservation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each protected area type to its description.",
+      "pairs": [
+        {
+          "left": "National park",
+          "right": "Strictly protected habitat for wildlife"
+        },
+        {
+          "left": "Wildlife sanctuary",
+          "right": "Protected area where some human activities are allowed"
+        },
+        {
+          "left": "Biosphere reserve",
+          "right": "Large area protecting ecosystems and the people living there"
+        }
+      ],
+      "explain": "India has over 100 national parks."
+    },
+    {
+      "id": "q2",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which are threats to biodiversity? Choose all that apply.",
+      "options": [
+        "Deforestation",
+        "Poaching",
+        "Pollution",
+        "Planting native trees",
+        "Climate change"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explain": "Planting native trees helps."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is a wildlife corridor?",
+      "options": [
+        "A zoo",
+        "A strip of habitat connecting protected areas so animals can move between them",
+        "A road through a forest",
+        "A fence"
+      ],
+      "answer": 1,
+      "explain": "Corridors prevent populations from becoming isolated."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Conservation Planner, why were connected forest squares worth more?",
+      "options": [
+        "They look nicer",
+        "Large connected habitats support more species and allow animals to move",
+        "They earn more money",
+        "They are easier to draw"
+      ],
+      "answer": 1,
+      "explain": "Fragmented habitats support fewer species."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The Chipko movement of the 1970s, in the Himalayan region, was famous for…",
+      "options": [
+        "Building dams",
+        "Villagers hugging trees to stop them being cut down",
+        "Hunting tigers",
+        "Starting zoos"
+      ],
+      "answer": 1,
+      "explain": "Many of the protesters were women from local villages."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "A new highway is planned through a forest in the Western Ghats. It would cut travel time but split a wildlife habitat. Evaluate the plan and suggest how to reduce its harm.",
+      "modelAnswer": "Benefits: faster travel, trade and jobs for local people. Harms: forest is cleared, the habitat is split so animals like elephants and tigers can't move freely, animals get killed by vehicles, and noise and pollution disturb wildlife in a biodiversity hotspot. Ways to reduce harm: choose a route around the core forest, build underpasses and overpasses as wildlife crossings, set speed limits and night-time restrictions, and plant native trees to replace lost forest. If the damage is too great, the plan should be changed or cancelled.",
+      "rubric": [
+        "At least one benefit",
+        "At least two harms to biodiversity",
+        "Mitigation measures",
+        "A reasoned conclusion"
+      ],
+      "explain": "Criterion D: weigh development and conservation."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The variety of all living things in an area is called ___.",
+      "blanks": [
+        [
+          "biodiversity"
+        ]
+      ],
+      "wordBank": [
+        "biodiversity",
+        "population",
+        "pollution"
+      ],
+      "explain": "India is one of the world's megadiverse countries."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the Red Data Book?",
+      "options": [
+        "A cookbook",
+        "A record of endangered and threatened species",
+        "A book of maps",
+        "A list of national parks only"
+      ],
+      "answer": 1,
+      "explain": "It helps prioritise conservation."
+    }
+  ]
+}

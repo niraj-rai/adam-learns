@@ -1,0 +1,54 @@
+{
+  "id": "energy-flow",
+  "number": "8.3",
+  "title": "Energy Flow and Pyramids",
+  "summary": "Only about 10% of energy passes from one level to the next. Why food chains are short and top predators are rare.",
+  "emoji": "🔺",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Productivity and efficiency calculations follow in MYP 5 / DP ESS"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 12: How Nature Works in Harmony",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can explain how energy flows through a food chain.",
+    "I can use the 10% rule to calculate energy at each level.",
+    "I can explain why there are fewer organisms at higher levels."
+  ],
+  "misconceptions": [
+    "Energy is recycled like nutrients.",
+    "Top predators get most of the energy.",
+    "All the food an animal eats becomes its body."
+  ],
+  "prerequisites": [
+    "biology/ecosystems/food-chains-and-webs",
+    "physics/energy/forms-of-energy"
+  ],
+  "labs": [
+    "energy-pyramid"
+  ],
+  "keyTerms": [
+    "energy flow",
+    "trophic level",
+    "10% rule",
+    "pyramid of energy",
+    "respiration",
+    "heat loss"
+  ],
+  "estMinutes": 25
+}

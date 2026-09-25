@@ -1,0 +1,134 @@
+{
+  "topicId": "food-chains-and-webs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Arrange this food chain in order.",
+      "steps": [
+        "Grass",
+        "Grasshopper",
+        "Frog",
+        "Snake",
+        "Eagle"
+      ],
+      "explain": "Energy flows from grass to eagle."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "In a food chain, what do the arrows show?",
+      "options": [
+        "Who is bigger",
+        "The direction energy flows (from food to eater)",
+        "Who is faster",
+        "Where animals live"
+      ],
+      "answer": 1,
+      "explain": "Grass → deer means energy passes from grass to deer."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Western Ghats food web, removing deer left which animal with NO food?",
+      "options": [
+        "Leopard",
+        "Tiger",
+        "Hornbill",
+        "Frog"
+      ],
+      "answer": 1,
+      "explain": "In this web, tigers eat only deer; leopards also eat langurs."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why are food webs more stable than a single food chain?",
+      "options": [
+        "They have fewer animals",
+        "Animals have several food sources, so losing one doesn't starve them",
+        "They have no producers",
+        "They are smaller"
+      ],
+      "answer": 1,
+      "explain": "Variety gives resilience."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "If snakes disappeared from a farm, what might happen to the number of rats?",
+      "options": [
+        "Decrease",
+        "Increase, because a predator is gone",
+        "Stay the same",
+        "Rats would become snakes"
+      ],
+      "answer": 1,
+      "explain": "Fewer predators can mean more prey, which may damage crops."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Farmers sometimes use pesticides that kill insects, but also poison frogs and birds that eat them. Using a food web, explain the possible consequences and suggest a better approach.",
+      "modelAnswer": "Pesticides reduce insects, which removes food for frogs and birds. Poison can also build up in animals higher up the food chain, like snakes and eagles, harming them. With fewer frogs and birds, pests may bounce back later with no natural predators. A better approach is integrated pest management: encourage natural predators (birds, frogs, ladybirds), rotate crops, use traps, and use targeted, safer pesticides only when needed.",
+      "rubric": [
+        "Effects on several links of the web",
+        "Poison passing up the chain",
+        "A sustainable alternative"
+      ],
+      "explain": "Criterion D: consequences of human choices."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Many interconnected food chains in an ecosystem form a food ___.",
+      "blanks": [
+        [
+          "web"
+        ]
+      ],
+      "wordBank": [
+        "web",
+        "pyramid",
+        "cycle"
+      ],
+      "explain": "Food webs show all the feeding links."
+    },
+    {
+      "id": "q8",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which are valid food chains? Choose all that apply.",
+      "options": [
+        "Grass → deer → tiger",
+        "Algae → fish → heron",
+        "Tiger → deer → grass",
+        "Leaves → caterpillar → bird",
+        "Frog → insect → grass"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explain": "Chains start with a producer and go to the eaters."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "forest-keeper",
+  "number": "8.6",
+  "title": "Boss Challenge: Forest Keeper",
+  "summary": "Manage a tiger reserve for ten years: stop poachers, open a corridor, manage deer and restore the grassland.",
+  "emoji": "🌳",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task: managing a system over time (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 12: How Nature Works in Harmony",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 7: Conservation of Plants and Animals",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can use an ecosystem model to make management decisions.",
+    "I can explain how my decisions affected the whole food chain."
+  ],
+  "misconceptions": [
+    "The fastest fix is always best."
+  ],
+  "prerequisites": [
+    "biology/ecosystems/balance-in-nature",
+    "biology/ecosystems/conservation"
+  ],
+  "labs": [
+    "forest-keeper"
+  ],
+  "keyTerms": [
+    "reserve",
+    "poaching",
+    "corridor",
+    "overgrazing",
+    "ecological balance"
+  ],
+  "estMinutes": 20
+}

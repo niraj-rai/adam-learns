@@ -45,6 +45,8 @@ export type BadgeId =
   | 'disease-detective'
   | 'unit-reproduction'
   | 'master-gardener'
+  | 'unit-ecosystems'
+  | 'forest-keeper'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -94,5 +96,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'disease-detective': { title: 'Disease Detective', emoji: '🕵️‍♀️', description: 'Traced a cholera outbreak to its source and stopped it (Boss Challenge)' },
   'unit-reproduction': { title: 'Life Cycle Expert', emoji: '🌸', description: 'Mastered every core topic in Biology Unit 7: Reproduction and Adolescence' },
   'master-gardener': { title: 'Master Gardener', emoji: '🌻', description: 'Solved six garden problems using plant reproduction (Boss Challenge)' },
+  'unit-ecosystems': { title: 'Eco Guardian', emoji: '🌏', description: 'Mastered every core topic in Biology Unit 8: Ecosystems and Conservation' },
+  'forest-keeper': { title: 'Forest Keeper', emoji: '🐅', description: 'Restored the balance of grass, deer and tigers in a reserve (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

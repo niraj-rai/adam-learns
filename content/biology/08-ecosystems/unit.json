@@ -1,0 +1,35 @@
+{
+  "id": "ecosystems",
+  "number": 8,
+  "title": "Ecosystems and Conservation",
+  "summary": "How living things depend on each other and their surroundings: food chains and webs, energy flow, nature's balance between predators and prey, and how we can protect India's precious biodiversity.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": [
+      "Balance",
+      "Interaction",
+      "Consequences"
+    ],
+    "globalContext": "Globalization and sustainability",
+    "statementOfInquiry": "Ecosystems are balanced systems of interacting organisms and their environment; human actions can disturb that balance, and informed choices can protect it."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What are producers, consumers and decomposers?",
+      "How does energy flow through a food chain?",
+      "What are national parks and biosphere reserves?"
+    ],
+    "conceptual": [
+      "Why does removing one species affect many others?",
+      "How do predators keep ecosystems in balance?"
+    ],
+    "debatable": [
+      "Should development projects be allowed in biodiversity hotspots like the Western Ghats?",
+      "Is it right to relocate villages to create tiger reserves?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 8 (Curiosity) Ch 12: How Nature Works in Harmony",
+    "Earlier NCERT Class 8 Ch 7: Conservation of Plants and Animals"
+  ]
+}

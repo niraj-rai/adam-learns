@@ -1,0 +1,121 @@
+{
+  "topicId": "energy-flow",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "Grass captures 10,000 kJ of energy. Using the 10% rule, how much reaches the deer that eat it?",
+      "answer": 1000,
+      "tolerance": 0,
+      "unit": "kJ",
+      "explain": "10% of 10,000 = 1,000 kJ."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Continuing: how much of the grass's 10,000 kJ reaches a tiger that eats the deer?",
+      "answer": 100,
+      "tolerance": 0,
+      "unit": "kJ",
+      "explain": "10% of 1,000 = 100 kJ."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Where does most of the energy go at each level?",
+      "options": [
+        "It is destroyed",
+        "It is used for living (respiration, movement, warmth) and lost as heat or in waste",
+        "It goes back to the Sun",
+        "It is stored forever"
+      ],
+      "answer": 1,
+      "explain": "Energy is never destroyed, but it leaves the food chain as heat."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do food chains rarely have more than 4 or 5 links?",
+      "options": [
+        "Animals don't like long chains",
+        "So little energy reaches the top that another level couldn't be supported",
+        "Predators are lazy",
+        "There is too much energy"
+      ],
+      "answer": 1,
+      "explain": "After 4 steps, only 0.01% of the plants' energy remains."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Unlike energy, nutrients such as nitrogen and carbon are…",
+      "options": [
+        "lost forever",
+        "recycled by decomposers",
+        "only found in animals",
+        "made by the Sun"
+      ],
+      "answer": 1,
+      "explain": "Energy flows; nutrients cycle."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain, using energy, why a vegetarian diet can feed more people from the same farmland than a diet with lots of meat.",
+      "modelAnswer": "When people eat plants, they get the energy directly from producers. When plants are fed to animals first, about 90% of the energy is used by the animals for living and lost as heat, so only about 10% ends up in the meat. The same land can therefore feed several times more people with plant food than with meat.",
+      "rubric": [
+        "Eating producers directly",
+        "About 90% lost at each step",
+        "Conclusion about land and people fed"
+      ],
+      "explain": "Apply the 10% rule to a real question."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Only about ___% of the energy at one level of a food chain passes to the next.",
+      "blanks": [
+        [
+          "10"
+        ]
+      ],
+      "wordBank": [
+        "10",
+        "50",
+        "90"
+      ],
+      "explain": "This is the 10% rule."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Energy Pyramid, what happened to the energy reaching eagles when the transfer rate was raised from 10% to 20%?",
+      "options": [
+        "It doubled",
+        "It became 16 times bigger",
+        "It stayed the same",
+        "It halved"
+      ],
+      "answer": 1,
+      "explain": "Four steps: 2 × 2 × 2 × 2 = 16."
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "topicId": "what-is-an-ecosystem",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Biotic (living) or abiotic (non-living)?",
+      "bins": [
+        "Biotic",
+        "Abiotic"
+      ],
+      "items": [
+        {
+          "label": "Frog",
+          "bin": 0
+        },
+        {
+          "label": "Sunlight",
+          "bin": 1
+        },
+        {
+          "label": "Algae",
+          "bin": 0
+        },
+        {
+          "label": "Temperature",
+          "bin": 1
+        },
+        {
+          "label": "Mushroom",
+          "bin": 0
+        },
+        {
+          "label": "Soil minerals",
+          "bin": 1
+        }
+      ],
+      "explain": "Ecosystems include both."
+    },
+    {
+      "id": "q2",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each organism to its role.",
+      "pairs": [
+        {
+          "left": "Grass",
+          "right": "Producer"
+        },
+        {
+          "left": "Deer",
+          "right": "Herbivore"
+        },
+        {
+          "left": "Tiger",
+          "right": "Carnivore"
+        },
+        {
+          "left": "Bear (eats fruit and fish)",
+          "right": "Omnivore"
+        },
+        {
+          "left": "Fungi",
+          "right": "Decomposer"
+        }
+      ],
+      "explain": "Energy enters through producers."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What would happen in a forest with no decomposers?",
+      "options": [
+        "Nothing would change",
+        "Dead leaves and bodies would pile up and nutrients would not return to the soil",
+        "Plants would grow faster",
+        "Animals would live forever"
+      ],
+      "answer": 1,
+      "explain": "Decomposers recycle nutrients."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why are producers always at the start of a food chain?",
+      "options": [
+        "They are the biggest",
+        "They capture energy from sunlight and make food for everything else",
+        "They eat the most",
+        "They live the longest"
+      ],
+      "answer": 1,
+      "explain": "All energy in most ecosystems comes from the Sun through producers."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Pond Ecosystem Builder, which pair were both decomposers?",
+      "options": [
+        "Mushroom and soil bacteria",
+        "Algae and lotus",
+        "Frog and heron",
+        "Sunlight and water"
+      ],
+      "answer": 0,
+      "explain": "They break down dead matter."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A pond gets covered in thick floating weeds that block the sunlight. Predict what happens to the algae and the fish, and explain why.",
+      "modelAnswer": "The algae below the weeds can't get sunlight, so they photosynthesise less and die back. Less algae means less food and less oxygen for animals that depend on them, so small animals and then fish decline. When dead algae decompose, decomposers use up even more oxygen, and fish may die. One change in an abiotic factor (light) affects the whole ecosystem.",
+      "rubric": [
+        "Less light → less photosynthesis by algae",
+        "Food and oxygen effects on animals and fish",
+        "Links through the ecosystem"
+      ],
+      "explain": "Criterion C: predict and explain effects."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "All the living things in an area, together with the non-living things around them, form an ___.",
+      "blanks": [
+        [
+          "ecosystem"
+        ]
+      ],
+      "wordBank": [
+        "ecosystem",
+        "organism",
+        "organ"
+      ],
+      "explain": "Ponds, forests, deserts and even a garden are ecosystems."
+    },
+    {
+      "id": "q8",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which are abiotic factors in a forest? Choose all that apply.",
+      "options": [
+        "Rainfall",
+        "Temperature",
+        "Soil type",
+        "Trees",
+        "Sunlight"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explain": "Trees are biotic (living)."
+    }
+  ]
+}

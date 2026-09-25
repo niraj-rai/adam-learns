@@ -1,0 +1,140 @@
+{
+  "topicId": "balance-in-nature",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "In the Predator and Prey lab, what happened to deer when there were no tigers?",
+      "options": [
+        "They stayed the same",
+        "They boomed, overgrazed the grass and then crashed",
+        "They disappeared at once",
+        "They became predators"
+      ],
+      "answer": 1,
+      "explain": "Without predators, prey can exceed their food supply."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How do tigers help the grass in a forest?",
+      "options": [
+        "They eat the grass",
+        "By keeping deer numbers in check so the grass isn't overgrazed",
+        "They water it",
+        "They have no effect on grass"
+      ],
+      "answer": 1,
+      "explain": "Top predators affect the whole food chain."
+    },
+    {
+      "id": "q3",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "If poachers kill most of the tigers, does each go up or down at first?",
+      "bins": [
+        "Goes up",
+        "Goes down"
+      ],
+      "items": [
+        {
+          "label": "Number of deer",
+          "bin": 0
+        },
+        {
+          "label": "Amount of grass",
+          "bin": 1
+        },
+        {
+          "label": "Number of tigers",
+          "bin": 1
+        }
+      ],
+      "explain": "Later, deer may crash when the grass runs out."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "When was Project Tiger launched in India?",
+      "options": [
+        "1947",
+        "1973",
+        "2000",
+        "2020"
+      ],
+      "answer": 1,
+      "explain": "India's tiger population has since grown to more than 3,000."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A reserve had 150 deer. The next year it had 195. By what percentage did the deer population grow?",
+      "answer": 30,
+      "tolerance": 0,
+      "unit": "%",
+      "explain": "(195 − 150) ÷ 150 × 100 = 30%."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Villages near tiger reserves sometimes lose livestock to tigers. Suggest ways to protect both the tigers and the villagers' livelihoods.",
+      "modelAnswer": "Pay fair and quick compensation for livestock killed, so people don't take revenge on tigers. Build predator-proof enclosures for cattle at night. Involve villagers in eco-tourism and as forest guards, so tigers bring income. Maintain enough wild prey in the forest so tigers don't need to hunt livestock, and keep wildlife corridors so tigers don't stray into villages.",
+      "rubric": [
+        "Compensation or protection for livestock",
+        "Livelihood benefits from conservation",
+        "Ecological measures (prey, corridors)"
+      ],
+      "explain": "Criterion D: balance people and wildlife."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "An animal that hunts other animals is a ___; the animal it hunts is its ___.",
+      "blanks": [
+        [
+          "predator"
+        ],
+        [
+          "prey"
+        ]
+      ],
+      "wordBank": [
+        "predator",
+        "prey",
+        "producer",
+        "decomposer"
+      ],
+      "explain": "Predator and prey numbers affect each other."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What does overgrazing do to land?",
+      "options": [
+        "Makes the grass thicker",
+        "Removes plant cover, so soil can erode and animals starve",
+        "Nothing",
+        "Adds nutrients"
+      ],
+      "answer": 1,
+      "explain": "Too many grazers damage the ecosystem."
+    }
+  ]
+}

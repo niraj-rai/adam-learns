@@ -1,0 +1,54 @@
+{
+  "id": "food-chains-and-webs",
+  "number": "8.2",
+  "title": "Food Chains and Food Webs",
+  "summary": "Who eats whom in the Western Ghats, and why removing one species can cause a chain reaction.",
+  "emoji": "🕸️",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Trophic levels and keystone species follow in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 12: How Nature Works in Harmony",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can construct food chains and interpret food webs.",
+    "I can predict the effects of removing a species from a food web.",
+    "I can explain why food webs are more stable than single food chains."
+  ],
+  "misconceptions": [
+    "Arrows in a food chain show who eats whom (they show the direction energy flows).",
+    "Removing a predator only affects its prey.",
+    "Each animal eats only one kind of food."
+  ],
+  "prerequisites": [
+    "biology/ecosystems/what-is-an-ecosystem"
+  ],
+  "labs": [
+    "food-web"
+  ],
+  "keyTerms": [
+    "food chain",
+    "food web",
+    "trophic level",
+    "predator",
+    "prey",
+    "interdependence"
+  ],
+  "estMinutes": 25
+}

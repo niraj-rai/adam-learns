@@ -1,0 +1,52 @@
+<Stage kind="wonder" title="Where does the energy go?" />
+
+<Hook emoji="🔺">
+A tiger needs to eat about 50 deer a year. Those deer ate tonnes of grass. So why are there millions of blades of grass, thousands of deer and only a handful of tigers in a forest?
+</Hook>
+
+<PredictFirst
+  question="A deer eats 100 units of energy in grass. About how much ends up in its body, for a tiger to eat?"
+  options={["100", "about 50", "about 10", "0"]}
+  answer={2}
+>
+Most of the energy is used for living (breathing, moving, keeping warm) and lost as **heat**. Only about **10%** is passed on.
+</PredictFirst>
+
+<Stage kind="explain" title="The 10% rule" />
+
+<StepReveal
+  steps={[
+    "The Sun gives plants energy; they capture about 1% of it by photosynthesis.",
+    "Herbivores get about 10% of the plants' energy.",
+    "Carnivores get about 10% of the herbivores' energy, just 1% of the plants' energy.",
+    "Top predators get about 10% of that: only 0.1% of the plants' energy.",
+    "So the energy pyramid gets narrower at every level, and food chains are short."
+  ]}
+/>
+
+<Formula tex="E_{\text{next}} \approx 0.1 \times E_{\text{level}}" caption="About 10% of energy passes from one trophic level to the next" />
+
+<Stage kind="try" title="Energy Pyramid" />
+
+<Lab id="energy-pyramid" />
+
+<MythFact myth="Energy is recycled in an ecosystem, like nutrients.">
+Nutrients **cycle**: decomposers return them to the soil. Energy **flows** one way: in from the Sun, out as heat. That's why ecosystems need a constant supply of sunlight.
+</MythFact>
+
+<RealLife>
+It takes many kilograms of grain to raise one kilogram of meat. Eating lower on the food chain lets the same land feed more people, which is one reason why diets matter for the planet.
+</RealLife>
+
+<Stage kind="apply" title="Calculate" />
+
+<Inquiry criterion="C" title="Pyramid calculations">
+Start with 20,000 kJ in plants. Calculate the energy at each level of a four-level chain using 10%, then again using 15%. Draw both pyramids to scale and comment on the difference.
+</Inquiry>
+
+<CbseCorner source="Class 8 Curiosity Ch 12">
+- Energy flows from the Sun through producers to consumers.
+- Only a small part of energy passes to the next level; the rest is lost as heat.
+</CbseCorner>
+
+<Reflect id="bio-eco-energy" prompt="Why do you think big fierce predators are always rare?" />

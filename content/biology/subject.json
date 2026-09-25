@@ -5,12 +5,5 @@
   "color": "bio",
   "icon": "🌿",
   "order": 3,
-  "comingNext": "Unit 8: Ecosystems & Conservation",
-  "planned": [
-    {
-      "unit": "8. Ecosystems & Conservation",
-      "ib": "MYP 1–3",
-      "cbse": "6, 7, earlier NCERT 8"
-    }
-  ]
+  "planned": []
 }

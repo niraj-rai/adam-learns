@@ -1,0 +1,55 @@
+{
+  "id": "balance-in-nature",
+  "number": "8.4",
+  "title": "Balance in Nature: Predators and Prey",
+  "summary": "How tigers, deer and grass keep each other in check, and what happens when that balance is broken.",
+  "emoji": "🐅",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Population dynamics models appear in DP"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 12: How Nature Works in Harmony",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe how predator and prey populations affect each other.",
+    "I can interpret population graphs over time.",
+    "I can explain the role of top predators and evaluate human impacts on balance."
+  ],
+  "misconceptions": [
+    "Killing predators always helps prey animals.",
+    "Populations stay the same forever.",
+    "More deer is always better for a forest."
+  ],
+  "prerequisites": [
+    "biology/ecosystems/food-chains-and-webs"
+  ],
+  "labs": [
+    "predator-prey"
+  ],
+  "keyTerms": [
+    "population",
+    "predator",
+    "prey",
+    "ecological balance",
+    "overgrazing",
+    "top predator",
+    "poaching"
+  ],
+  "estMinutes": 25
+}

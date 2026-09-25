@@ -88,12 +88,18 @@
 | 7.5 | Adolescence | MYP 3 | Cur-7 Ch 6 ✅, earlier NCERT 8 Ch 10 ✅ | ★ | **Growing Up**: growth-spurt curves, hormones, myth or fact (age-appropriate, NCERT-level) |
 | 7.6 | Boss: Master Gardener | MYP 3 | Earlier NCERT 7 Ch 12 ✅ | ★★ | 6 garden problems (3 lives) |
 
-### Unit 8 (planned)
+### Unit 8: Ecosystems and Conservation ✅ built
 
+*IB Key Concept:* **Systems** · *Related:* Balance, Interaction, Consequences · *Global Context:* Globalization and sustainability
 
-| Unit | Topics | IB | CBSE | ★ | Signature labs |
+| # | Topic | IB | CBSE | ★ | Lab |
 |---|---|---|---|---|---|
-| 8. Ecosystems & Conservation | Food chains and webs, habitats, adaptation, biodiversity, conservation, Western Ghats | MYP 1–3 | 6, 7, Old-8 Ch7 | ★★ | **Ecosystem Balance** sim (predator/prey) |
+| 8.1 | What is an ecosystem? | MYP 2 | Cur-8 Ch 12 ✅ | ★ | **Pond Ecosystem Builder**: 12 items into abiotic/producer/consumer/decomposer |
+| 8.2 | Food chains and food webs | MYP 2 | Cur-8 Ch 12 ✅ | ★★ | **Western Ghats Food Web**: remove a species, see the collapse; build chains |
+| 8.3 | Energy flow and pyramids | MYP 3 | Cur-8 Ch 12 ✅ | ★★ | **Energy Pyramid**: 10% rule, transfer slider 5–20% |
+| 8.4 | Balance in nature: predators and prey | MYP 3 | Cur-8 Ch 12 ✅ | ★★★ | **Predator and Prey**: 30-year grass/deer/tiger sim with patrols and corridors |
+| 8.5 | Biodiversity and conservation | MYP 3 | Earlier NCERT 8 Ch 7 ✅, Cur-8 Ch 12 ✅ | ★★ | **Conservation Planner**: 4×4 land-use grid, biodiversity vs income |
+| 8.6 | Boss: Forest Keeper | MYP 3 | Cur-8 Ch 12 ✅ | ★★★ | Manage a tiger reserve for 10 years |
 
 ## L3: Grades 9–10
 

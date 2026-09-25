@@ -1,0 +1,63 @@
+{
+  "id": "conservation",
+  "number": "8.5",
+  "title": "Biodiversity and Conservation",
+  "summary": "Why biodiversity matters, threats like deforestation and poaching, and how national parks, corridors and people protect it.",
+  "emoji": "🗺️",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Links to MYP Individuals & Societies (sustainability)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 7: Conservation of Plants and Animals",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 12: How Nature Works in Harmony",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain what biodiversity is and why it matters.",
+    "I can describe threats to biodiversity and ways to protect it.",
+    "I can evaluate land-use decisions that affect people and wildlife."
+  ],
+  "misconceptions": [
+    "Conservation means keeping all people out of forests.",
+    "Extinction only happens to animals far away.",
+    "One small reserve is as good as a large connected one."
+  ],
+  "prerequisites": [
+    "biology/ecosystems/balance-in-nature",
+    "biology/living-things/ghats-field-guide"
+  ],
+  "labs": [
+    "conservation-planner"
+  ],
+  "keyTerms": [
+    "biodiversity",
+    "deforestation",
+    "extinction",
+    "endangered",
+    "national park",
+    "wildlife sanctuary",
+    "biosphere reserve",
+    "wildlife corridor",
+    "Red Data Book"
+  ],
+  "estMinutes": 25
+}

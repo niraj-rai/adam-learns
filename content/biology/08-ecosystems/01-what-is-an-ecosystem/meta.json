@@ -1,0 +1,57 @@
+{
+  "id": "what-is-an-ecosystem",
+  "number": "8.1",
+  "title": "What Is an Ecosystem?",
+  "summary": "Living (biotic) and non-living (abiotic) parts; producers, consumers and decomposers; and the cycles that recycle nutrients.",
+  "emoji": "🪷",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Nutrient cycles are studied in depth in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 12: How Nature Works in Harmony",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can identify biotic and abiotic components of an ecosystem.",
+    "I can classify organisms as producers, consumers or decomposers.",
+    "I can explain why decomposers are essential."
+  ],
+  "misconceptions": [
+    "An ecosystem is only the animals in a place.",
+    "Decomposers are not important.",
+    "Plants get their food from the soil."
+  ],
+  "prerequisites": [
+    "biology/living-things/habitats-and-adaptations",
+    "biology/microbes/decomposers-and-nitrogen"
+  ],
+  "labs": [
+    "ecosystem-builder"
+  ],
+  "keyTerms": [
+    "ecosystem",
+    "biotic",
+    "abiotic",
+    "producer",
+    "consumer",
+    "herbivore",
+    "carnivore",
+    "omnivore",
+    "decomposer"
+  ],
+  "estMinutes": 20
+}

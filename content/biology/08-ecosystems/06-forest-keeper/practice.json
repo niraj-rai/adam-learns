@@ -1,0 +1,138 @@
+{
+  "topicId": "forest-keeper",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "In the Forest Keeper challenge, why did relocating deer alone never restore balance?",
+      "options": [
+        "Deer can't be moved",
+        "Without tigers, the remaining deer soon multiplied again",
+        "Grass doesn't need deer",
+        "Tigers eat grass"
+      ],
+      "answer": 1,
+      "explain": "The predator is needed for long-term balance."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which early action had the biggest long-term effect?",
+      "options": [
+        "Stopping poaching",
+        "Planting grass",
+        "Watching and waiting",
+        "Relocating deer every year"
+      ],
+      "answer": 0,
+      "explain": "It lets the tiger population recover."
+    },
+    {
+      "id": "q3",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Describe the strategy you used in the Forest Keeper challenge and explain, using the food chain, why it worked (or why it didn't).",
+      "modelAnswer": "I stopped poaching first so tigers could survive and breed, then opened a wildlife corridor so more tigers could arrive. While the tiger population was still small, I relocated some deer to reduce overgrazing, giving the grass time to recover. As tigers increased, they kept the deer in check naturally, and the grass stayed within the healthy range. This worked because each level of the food chain (grass → deer → tiger) affects the others.",
+      "rubric": [
+        "Describes the order of actions",
+        "Links tigers → deer → grass",
+        "Explains why timing mattered"
+      ],
+      "explain": "Criterion C: reflect on your method."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Short-term fix or long-term solution?",
+      "bins": [
+        "Short-term fix",
+        "Long-term solution"
+      ],
+      "items": [
+        {
+          "label": "Relocating some deer once",
+          "bin": 0
+        },
+        {
+          "label": "Stopping poaching",
+          "bin": 1
+        },
+        {
+          "label": "Planting grass once",
+          "bin": 0
+        },
+        {
+          "label": "Connecting reserves with corridors",
+          "bin": 1
+        }
+      ],
+      "explain": "Lasting balance comes from restoring the food chain."
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Some people argue that villages inside tiger reserves should be moved out. Others say that is unfair to people who have lived there for generations. Give both sides and your view.",
+      "modelAnswer": "For relocation: tigers need large undisturbed areas; fewer people means less conflict, poaching and livestock grazing that competes with wild prey. Against: forest-dwelling communities have rights and deep knowledge of the forest, relocation can harm their livelihoods and culture, and many communities help protect forests. A fair approach: relocation only if the community truly agrees, with good land, homes and income, or otherwise involve communities as partners and guards in conservation.",
+      "rubric": [
+        "Conservation argument",
+        "Human rights / livelihoods argument",
+        "A reasoned, fair conclusion"
+      ],
+      "explain": "Criterion D: ethics of conservation."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is the tiger called a ‘top predator’?",
+      "options": [
+        "It is the tallest animal",
+        "No other animal preys on it in its ecosystem",
+        "It lives on mountain tops",
+        "It eats only plants"
+      ],
+      "answer": 1,
+      "explain": "It sits at the top of the food chain."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "The reserve's healthy range for deer is 80–250. If there are 320 deer and you relocate 30% of them, how many remain?",
+      "answer": 224,
+      "tolerance": 0,
+      "unit": "deer",
+      "explain": "320 × 0.7 = 224: now within the healthy range."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Illegal hunting of wild animals is called ___.",
+      "blanks": [
+        [
+          "poaching"
+        ]
+      ],
+      "wordBank": [
+        "poaching",
+        "grazing",
+        "farming"
+      ],
+      "explain": "Anti-poaching patrols protect endangered species."
+    }
+  ]
+}
