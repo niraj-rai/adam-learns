@@ -1,0 +1,33 @@
+{
+  "id": "reactions-of-metals",
+  "number": "5.2",
+  "title": "How Metals React",
+  "summary": "Metals with oxygen, water and acids, why sodium lives under kerosene, and why metal oxides are basic but non-metal oxides are acidic.",
+  "emoji": "🔥",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3 },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 4: The World of Metals and Non-metals (reactions with oxygen, water, acids)", "verified": true },
+      { "class": 10, "chapter": "Ch 3: Metals and Non-metals (chemical properties)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C"],
+  "objectives": [
+    "I can write general word equations for metals reacting with oxygen, water and acids.",
+    "I can compare how vigorously different metals react and rank them.",
+    "I can explain why metal oxides are basic and non-metal oxides are acidic.",
+    "I can explain why some metals are stored under kerosene."
+  ],
+  "misconceptions": [
+    "All metals react with water.",
+    "Metal oxides and non-metal oxides behave the same way.",
+    "Gold doesn't react because it is 'strong' (it is unreactive, not strong)."
+  ],
+  "prerequisites": ["chemistry/metals/properties-of-metals-and-non-metals", "chemistry/acids/reactions-of-acids"],
+  "labs": ["metal-reactions"],
+  "keyTerms": ["metal oxide", "metal hydroxide", "basic oxide", "acidic oxide", "reactive", "unreactive", "tarnish"],
+  "estMinutes": 25
+}

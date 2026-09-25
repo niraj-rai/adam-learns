@@ -1,0 +1,120 @@
+{
+  "topicId": "plastics-and-synthetic-materials",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A polymer is…",
+      "options": ["a single atom", "a long chain made of many repeating small units", "a type of metal", "a gas"],
+      "answer": 1,
+      "explain": "Polymers are long chains of monomers joined together."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Thermoplastic or thermosetting plastic?",
+      "bins": ["Thermoplastic", "Thermosetting"],
+      "items": [
+        { "label": "Polythene bag", "bin": 0 },
+        { "label": "Bakelite switch", "bin": 1 },
+        { "label": "PVC pipe", "bin": 0 },
+        { "label": "Melamine plate", "bin": 1 },
+        { "label": "PET water bottle", "bin": 0 },
+        { "label": "Pressure cooker handle", "bin": 1 }
+      ],
+      "explain": "Thermoplastics soften on heating; thermosets don't, so they're used where heat resistance matters."
+    },
+    {
+      "id": "q3",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each synthetic fibre to a use.",
+      "pairs": [
+        { "left": "Nylon", "right": "Parachutes and ropes" },
+        { "left": "Polyester", "right": "Wrinkle-free shirts" },
+        { "left": "Acrylic", "right": "Sweaters (wool substitute)" },
+        { "left": "Rayon", "right": "Silk-like fabric from wood pulp" }
+      ],
+      "explain": "Each fibre's properties suit its use."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Biodegradable or non-biodegradable?",
+      "bins": ["Biodegradable", "Non-biodegradable"],
+      "items": [
+        { "label": "Vegetable peels", "bin": 0 },
+        { "label": "Plastic bottle", "bin": 1 },
+        { "label": "Cotton cloth", "bin": 0 },
+        { "label": "Nylon rope", "bin": 1 },
+        { "label": "Paper", "bin": 0 },
+        { "label": "Polythene bag", "bin": 1 }
+      ],
+      "explain": "Natural materials are broken down by microorganisms; most plastics aren't."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Why is a pressure cooker handle made of bakelite?",
+      "options": ["It melts easily", "It's a thermosetting plastic and a poor conductor of heat", "It is magnetic", "It's the cheapest metal"],
+      "answer": 1,
+      "explain": "Bakelite doesn't soften on heating and doesn't conduct heat to your hand."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "cbseStyle": true,
+      "prompt": "Why should you avoid wearing polyester or nylon clothes while cooking?",
+      "options": ["They get dirty", "They catch fire easily, melt and stick to the skin", "They conduct electricity", "They are too heavy"],
+      "answer": 1,
+      "explain": "Synthetic fibres melt when they burn, causing severe burns. Cotton is safer in the kitchen."
+    },
+    {
+      "id": "q7",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Order from FASTEST to SLOWEST to break down in nature.",
+      "steps": ["Banana peel", "Cotton T-shirt", "Plastic bag", "Plastic bottle", "Nylon fishing line"],
+      "explain": "Natural materials take weeks or months; plastics take decades to centuries."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What are microplastics?",
+      "options": ["New kinds of eco-friendly plastic", "Tiny pieces from larger plastics breaking apart", "Plastics used in microscopes", "Biodegradable bags"],
+      "answer": 1,
+      "explain": "Plastic breaks into tiny fragments rather than truly disappearing."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Suggest THREE practical ways your school could reduce plastic waste, and explain how each helps.",
+      "modelAnswer": "1) Ban plastic bottles and install water filters so students refill steel bottles (reduce). 2) Use cloth or paper bags in the canteen (refuse/replace). 3) Set up separate bins so plastic that is used can be recycled properly (recycle). Each reduces the amount of plastic that ends up in landfills or the environment.",
+      "rubric": [
+        "First practical idea with explanation",
+        "Second practical idea with explanation",
+        "Third idea, linked to one of the Rs"
+      ],
+      "explain": "Real change comes from practical, specific actions."
+    }
+  ]
+}

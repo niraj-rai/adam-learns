@@ -1,0 +1,129 @@
+{
+  "topicId": "electroplating",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Does the liquid conduct electricity (well enough to light a bulb)?",
+      "bins": ["Conducts", "Does not conduct"],
+      "items": [
+        { "label": "Salt water", "bin": 0 },
+        { "label": "Distilled water", "bin": 1 },
+        { "label": "Lemon juice", "bin": 0 },
+        { "label": "Sugar water", "bin": 1 },
+        { "label": "Copper sulfate solution", "bin": 0 },
+        { "label": "Cooking oil", "bin": 1 }
+      ],
+      "explain": "Solutions of salts, acids and bases contain ions and conduct; sugar water, oil and pure water don't."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why does salt water conduct electricity but sugar water does not?",
+      "options": [
+        "Salt is heavier",
+        "Salt forms ions (charged particles) in water; sugar does not",
+        "Sugar is sweet",
+        "Salt water is colder"
+      ],
+      "answer": 1,
+      "explain": "Ions carry the current through the liquid."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "In copper plating, the object to be plated is connected to the…",
+      "options": ["positive terminal", "negative terminal", "either terminal", "bulb"],
+      "answer": 1,
+      "feedback": { "0": "Positive copper ions are attracted to the NEGATIVE terminal." },
+      "explain": "The object is the negative electrode (cathode), where copper deposits."
+    },
+    {
+      "id": "q4",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each plating to its purpose.",
+      "pairs": [
+        { "left": "Chromium on bicycle handlebars", "right": "Shiny and scratch-resistant" },
+        { "left": "Tin on food cans", "right": "Doesn't react with food" },
+        { "left": "Zinc on iron", "right": "Protects from rusting" },
+        { "left": "Gold on cheap jewellery", "right": "Looks like gold at low cost" }
+      ],
+      "explain": "Electroplating combines a cheap, strong base metal with a useful surface."
+    },
+    {
+      "id": "q5",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Put the steps of copper-plating an iron key in order.",
+      "steps": [
+        "Clean the key thoroughly",
+        "Connect the key to the negative terminal and a copper plate to the positive",
+        "Dip both into copper sulfate solution",
+        "Switch on the current for some time",
+        "Remove the key: it has a copper coating"
+      ],
+      "explain": "Clean → connect correctly → electrolyte → current → coated key."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "During copper plating, the copper sulfate solution stays blue. Why?",
+      "options": [
+        "No copper ions are used",
+        "The copper plate (anode) dissolves and replaces the copper ions that deposit on the key",
+        "Blue dye is added",
+        "The key releases copper"
+      ],
+      "answer": 1,
+      "explain": "Copper leaves the anode as ions at the same rate as copper deposits on the cathode."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "A liquid that conducts electricity and is changed by it is an ___. The rods dipped into it are called ___.",
+      "blanks": [["electrolyte"], ["electrodes"]],
+      "wordBank": ["electrolyte", "electrodes", "insulator", "batteries"],
+      "explain": "Electrolyte = conducting liquid; electrodes = the metal rods."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the lab, what happened when you SWAPPED the wires so the key was on the positive terminal?",
+      "options": ["It plated faster", "No copper deposited (existing coating was removed)", "It turned gold", "The solution turned green"],
+      "answer": 1,
+      "explain": "Positive copper ions are repelled by a positive electrode, so no plating happens there."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Why is it dangerous to touch electrical switches with wet hands, even though pure water is a poor conductor?",
+      "modelAnswer": "Water on our hands is not pure: it contains dissolved salts (from sweat, tap water or dirt), which form ions. This makes it a good conductor, so electricity can flow through the water and our body, causing an electric shock.",
+      "rubric": [
+        "The water on hands is not pure / contains dissolved salts",
+        "Salts form ions that conduct",
+        "Current could pass through the body, causing a shock"
+      ],
+      "explain": "Real-world water almost always contains ions."
+    }
+  ]
+}

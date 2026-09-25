@@ -79,7 +79,7 @@
 
 ---
 
-### Unit 5: Metals, Non-metals & Materials
+### Unit 5: Metals, Non-metals & Materials ✅ built
 *IB Key Concept:* **Change** · *Related:* Function, Properties · *Global Context:* Scientific & technical innovation
 
 | # | Topic | IB | CBSE | ★ | Interactive lab / experience | Practice highlights |

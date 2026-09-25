@@ -1,0 +1,32 @@
+{
+  "id": "plastics-and-synthetic-materials",
+  "number": "5.5",
+  "title": "Plastics and Synthetic Materials",
+  "summary": "Nylon, polyester, PVC, bakelite: what polymers are, thermoplastics vs thermosetting plastics, and the plastic pollution problem.",
+  "emoji": "🧴",
+  "complexity": 2,
+  "level": "L1",
+  "core": false,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 2, "note": "Extension: strong Criterion D (sustainability) opportunity" },
+    "cbse": [
+      { "class": 8, "chapter": "Previous NCERT edition: Synthetic Fibres and Plastics", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C", "D"],
+  "objectives": [
+    "I can explain that plastics and synthetic fibres are polymers made of long chains of repeating units.",
+    "I can distinguish thermoplastics from thermosetting plastics and give uses of each.",
+    "I can compare biodegradable and non-biodegradable materials.",
+    "I can evaluate ways to reduce plastic pollution (the 5 Rs)."
+  ],
+  "misconceptions": [
+    "All plastics can be melted and remoulded.",
+    "Biodegradable means it disappears in a few days anywhere.",
+    "Recycling alone can solve plastic pollution."
+  ],
+  "prerequisites": ["chemistry/metals/properties-of-metals-and-non-metals"],
+  "labs": ["plastic-timeline"],
+  "keyTerms": ["polymer", "monomer", "synthetic fibre", "nylon", "polyester", "thermoplastic", "thermosetting plastic", "bakelite", "biodegradable", "microplastics"],
+  "estMinutes": 20
+}

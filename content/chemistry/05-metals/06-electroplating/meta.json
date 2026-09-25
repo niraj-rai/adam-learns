@@ -1,0 +1,31 @@
+{
+  "id": "electroplating",
+  "number": "5.6",
+  "title": "Electricity in Liquids and Electroplating",
+  "summary": "Which liquids conduct electricity, and how an electric current can coat an object with a thin layer of metal.",
+  "emoji": "🔑",
+  "complexity": 3,
+  "level": "L2",
+  "core": false,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Extension: links chemistry and physics (electrolysis in MYP 5 / DP)" },
+    "cbse": [
+      { "class": 8, "chapter": "Previous NCERT edition: Chemical Effects of Electric Current", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can test whether a liquid conducts electricity and explain why some do (ions).",
+    "I can describe how electroplating works and set up the apparatus correctly.",
+    "I can explain everyday uses of electroplating."
+  ],
+  "misconceptions": [
+    "All water conducts electricity equally (pure water barely conducts).",
+    "The object to be plated goes on the positive terminal.",
+    "Electroplating paints metal on (it deposits metal atoms)."
+  ],
+  "prerequisites": ["chemistry/metals/reactivity-series"],
+  "labs": ["electroplating"],
+  "keyTerms": ["electrolyte", "electrode", "ion", "electroplating", "anode", "cathode"],
+  "estMinutes": 20
+}

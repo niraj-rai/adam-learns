@@ -1,0 +1,106 @@
+{
+  "topicId": "materials-engineer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each material to the property that makes it ideal for its job.",
+      "pairs": [
+        { "left": "Copper in wires", "right": "Good conductor and ductile" },
+        { "left": "Aluminium in aircraft", "right": "Light, strong and doesn't corrode" },
+        { "left": "Gold in jewellery", "right": "Unreactive, so it stays shiny" },
+        { "left": "Steel in bridges", "right": "Very strong and affordable" }
+      ],
+      "explain": "Choose materials by matching properties to needs."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Silver conducts electricity better than copper. Why do we still use copper for house wiring?",
+      "options": ["Copper is shinier", "Silver is far more expensive", "Silver is magnetic", "Copper is lighter than silver"],
+      "answer": 1,
+      "explain": "Copper does the job well at a fraction of the cost."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which material is best for a frying pan handle?",
+      "options": ["Copper", "Aluminium", "Bakelite", "Iron"],
+      "answer": 2,
+      "explain": "Bakelite is a thermosetting plastic that insulates heat and doesn't soften."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Would you choose a CONDUCTOR or an INSULATOR for each part?",
+      "bins": ["Conductor", "Insulator"],
+      "items": [
+        { "label": "Inside of an electric wire", "bin": 0 },
+        { "label": "Covering of an electric wire", "bin": 1 },
+        { "label": "Base of a cooking pot", "bin": 0 },
+        { "label": "Oven gloves", "bin": 1 },
+        { "label": "Soldering iron tip", "bin": 0 },
+        { "label": "Switch cover", "bin": 1 }
+      ],
+      "explain": "Conductors carry heat or electricity where it's needed; insulators keep people safe."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Why are aeroplane bodies made from aluminium alloys rather than steel, even though steel is stronger?",
+      "options": [
+        "Aluminium is cheaper than steel",
+        "Aluminium alloys are much lighter, so the plane uses less fuel, and they resist corrosion",
+        "Steel is magnetic",
+        "Aluminium is more reactive"
+      ],
+      "answer": 1,
+      "explain": "Weight is critical in aircraft; aluminium alloys give strength with low density."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Which factors should an engineer consider when choosing a material? Choose all that apply.",
+      "options": ["Properties needed for the job", "Cost", "Environmental impact and recyclability", "Only the colour", "Safety"],
+      "answer": [0, 1, 2, 4],
+      "explain": "Colour can matter for looks, but it's never the only factor."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is aluminium foil used for wrapping food?",
+      "options": ["It's magnetic", "It's malleable, non-toxic and keeps out air and moisture", "It's the strongest metal", "It conducts electricity"],
+      "answer": 1,
+      "explain": "Malleability lets it be rolled very thin; it's safe with food."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "A company wants to make cheap school chairs. Compare steel and plastic for the chair frame. Which would you choose and why?",
+      "modelAnswer": "Steel is very strong and lasts a long time, but it is heavier, can rust if not painted, and costs more. Plastic is light, cheap, doesn't rust and is easy to mould, but it can crack and is harder to recycle. I would choose painted steel frames because they are safer and last many years, so fewer chairs need replacing (less waste overall).",
+      "rubric": [
+        "At least one advantage and disadvantage of steel",
+        "At least one advantage and disadvantage of plastic",
+        "A clear choice justified with properties/cost/sustainability"
+      ],
+      "explain": "Good engineering answers compare options and justify a decision."
+    }
+  ]
+}

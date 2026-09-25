@@ -1,0 +1,128 @@
+{
+  "topicId": "reactivity-series",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Order these metals from MOST to LEAST reactive.",
+      "steps": ["Potassium", "Magnesium", "Zinc", "Iron", "Copper", "Gold"],
+      "explain": "K > Mg > Zn > Fe > Cu > Au."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A displacement reaction happens when…",
+      "options": [
+        "a less reactive metal is added to a salt of a more reactive metal",
+        "a more reactive metal is added to a salt solution of a less reactive metal",
+        "any two metals touch",
+        "a metal is heated in air"
+      ],
+      "answer": 1,
+      "explain": "The more reactive metal displaces the less reactive one."
+    },
+    {
+      "id": "q3",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Will a reaction happen?",
+      "bins": ["Reaction", "No reaction"],
+      "items": [
+        { "label": "Zinc + copper sulfate", "bin": 0 },
+        { "label": "Copper + zinc sulfate", "bin": 1 },
+        { "label": "Iron + copper sulfate", "bin": 0 },
+        { "label": "Silver + copper sulfate", "bin": 1 },
+        { "label": "Magnesium + iron sulfate", "bin": 0 },
+        { "label": "Copper + silver nitrate", "bin": 0 }
+      ],
+      "explain": "Only a metal higher in the series displaces one lower down. Copper is above silver, so it displaces silver!"
+    },
+    {
+      "id": "q4",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Complete the word equation.",
+      "text": "iron + copper sulfate → iron ___ + ___",
+      "blanks": [["sulfate", "sulphate"], ["copper"]],
+      "explain": "Iron takes copper's place: iron sulfate + copper."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "An iron nail is left in copper sulfate solution. The solution changes from…",
+      "options": ["colourless to blue", "blue to pale green", "green to red", "blue to dark blue"],
+      "answer": 1,
+      "explain": "Blue copper sulfate becomes pale green iron sulfate."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Metal X displaces iron from iron sulfate but does NOT displace zinc from zinc sulfate. Where does X fit?",
+      "options": ["Above zinc", "Between zinc and iron", "Between iron and copper", "Below gold"],
+      "answer": 1,
+      "hint": "X is more reactive than iron but less reactive than zinc.",
+      "explain": "More reactive than Fe, less than Zn: between them."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Displacement Duel (Mg, Zn, Fe, Cu, Ag), how many of the four OTHER salt solutions does ZINC react with?",
+      "answer": 3,
+      "tolerance": 0,
+      "unit": "solutions",
+      "explain": "Zinc displaces iron, copper and silver (3), but not magnesium."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which metals react with dilute acid to produce hydrogen?",
+      "options": ["Only metals above hydrogen in the reactivity series", "Only metals below hydrogen", "All metals", "No metals"],
+      "answer": 0,
+      "explain": "Copper, silver and gold (below hydrogen) don't react with dilute acids."
+    },
+    {
+      "id": "q9",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each observation to its explanation.",
+      "pairs": [
+        { "left": "Brown coating on the iron nail", "right": "Copper metal was displaced" },
+        { "left": "Blue colour fades", "right": "Copper ions leave the solution" },
+        { "left": "Pale green colour appears", "right": "Iron sulfate forms" }
+      ],
+      "explain": "Every observation in a displacement reaction has a particle explanation."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Describe how you could use displacement reactions to decide whether tin is more or less reactive than iron.",
+      "modelAnswer": "Put a piece of tin into iron sulfate solution, and a piece of iron into a tin salt solution. If tin displaces iron (a coating forms), tin is more reactive. If instead iron displaces tin, iron is more reactive. Only one of the two should react.",
+      "rubric": [
+        "Tested tin in an iron salt solution (and/or iron in a tin salt)",
+        "Said what a reaction (coating/colour change) would show",
+        "Drew a conclusion about which is more reactive"
+      ],
+      "explain": "Displacement is a simple, reliable way to rank metals."
+    }
+  ]
+}

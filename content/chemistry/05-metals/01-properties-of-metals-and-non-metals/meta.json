@@ -1,0 +1,33 @@
+{
+  "id": "properties-of-metals-and-non-metals",
+  "number": "5.1",
+  "title": "Properties of Metals and Non-metals",
+  "summary": "Shiny, bendy, ringing and conducting: the tests that tell metals from non-metals, and the surprising exceptions.",
+  "emoji": "🔨",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 2 },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 4: The World of Metals and Non-metals", "verified": true },
+      { "class": 10, "chapter": "Ch 3: Metals and Non-metals (physical properties)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can describe the physical properties of metals: lustrous, malleable, ductile, sonorous, good conductors.",
+    "I can compare these with the properties of non-metals.",
+    "I can name exceptions (mercury, graphite, iodine, sodium) and explain why they are exceptions.",
+    "I can link a metal's properties to its uses."
+  ],
+  "misconceptions": [
+    "All metals are solid at room temperature (mercury is liquid).",
+    "No non-metal conducts electricity (graphite does).",
+    "Anything shiny must be a metal (iodine is shiny)."
+  ],
+  "prerequisites": ["chemistry/mixtures/elements-compounds-mixtures"],
+  "labs": ["property-tester"],
+  "keyTerms": ["lustrous", "malleable", "ductile", "sonorous", "conductor", "brittle", "non-metal"],
+  "estMinutes": 20
+}

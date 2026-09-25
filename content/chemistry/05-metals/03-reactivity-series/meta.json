@@ -1,0 +1,33 @@
+{
+  "id": "reactivity-series",
+  "number": "5.3",
+  "title": "The Reactivity Series and Displacement",
+  "summary": "Ranking metals from most to least reactive, and using displacement reactions to prove it.",
+  "emoji": "⚔️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Links to extraction of metals and redox (MYP 4–5)" },
+    "cbse": [
+      { "class": 10, "chapter": "Ch 3: Metals and Non-metals (reactivity series, displacement reactions)", "verified": false },
+      { "class": 7, "chapter": "Curiosity Ch 4 / Ch 5 (iron nail in copper sulfate)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can recall the order of common metals in the reactivity series.",
+    "I can predict whether a displacement reaction will happen.",
+    "I can use displacement results as evidence to rank metals.",
+    "I can write word equations for displacement reactions."
+  ],
+  "misconceptions": [
+    "Any metal can displace any other metal.",
+    "In displacement, the metal 'dissolves and disappears' (it turns into a salt).",
+    "The colour change is caused by the metal rusting."
+  ],
+  "prerequisites": ["chemistry/metals/reactions-of-metals"],
+  "labs": ["displacement-duel"],
+  "keyTerms": ["reactivity series", "displacement reaction", "more reactive", "less reactive"],
+  "estMinutes": 25
+}

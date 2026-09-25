@@ -1,0 +1,32 @@
+{
+  "id": "alloys",
+  "number": "5.4",
+  "title": "Alloys: Better Metals by Mixing",
+  "summary": "Steel, stainless steel, brass, bronze, solder and 22-carat gold: why mixing metals makes them more useful.",
+  "emoji": "🪙",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3 },
+    "cbse": [
+      { "class": 10, "chapter": "Ch 3: Metals and Non-metals (corrosion prevention and alloys)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C", "D"],
+  "objectives": [
+    "I can define an alloy and explain that it is a mixture.",
+    "I can explain why alloys are often harder than pure metals, using particles.",
+    "I can name common alloys, their components and uses.",
+    "I can calculate the carat value of gold."
+  ],
+  "misconceptions": [
+    "An alloy is a compound (it is a mixture).",
+    "Pure metals are always better than alloys.",
+    "22-carat gold is 'fake' gold."
+  ],
+  "prerequisites": ["chemistry/metals/properties-of-metals-and-non-metals", "chemistry/mixtures/pure-substances-and-mixtures"],
+  "labs": ["alloy-workshop"],
+  "keyTerms": ["alloy", "steel", "stainless steel", "brass", "bronze", "solder", "carat", "hallmark"],
+  "estMinutes": 20
+}

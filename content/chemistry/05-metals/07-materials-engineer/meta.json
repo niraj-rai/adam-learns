@@ -1,0 +1,31 @@
+{
+  "id": "materials-engineer",
+  "number": "5.7",
+  "title": "Boss Challenge: Materials Engineer",
+  "summary": "Six real engineering jobs, from house wiring to an aeroplane body. Choose the best material and justify it with properties.",
+  "emoji": "👷",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Unit summative-style task: applying knowledge (Criterion A) and evaluating choices (Criterion D)" },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 4: The World of Metals and Non-metals (uses of metals)", "verified": true },
+      { "class": 10, "chapter": "Ch 3: Metals and Non-metals", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "D"],
+  "objectives": [
+    "I can choose a suitable material for a job by matching properties to requirements.",
+    "I can justify my choice and explain why other materials are less suitable.",
+    "I can consider cost and sustainability as well as properties."
+  ],
+  "misconceptions": [
+    "The 'best' material is always the strongest or most expensive.",
+    "One material can be perfect for every job."
+  ],
+  "prerequisites": ["chemistry/metals/alloys", "chemistry/metals/reactivity-series"],
+  "labs": ["materials-engineer"],
+  "keyTerms": ["material selection", "property", "cost", "sustainability"],
+  "estMinutes": 15
+}

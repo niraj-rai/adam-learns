@@ -1,0 +1,32 @@
+{
+  "id": "metals",
+  "number": 5,
+  "title": "Metals, Non-metals & Materials",
+  "summary": "From copper wires to gold jewellery to plastic bottles: this unit explores the properties of metals and non-metals, how metals react, the reactivity series, alloys, plastics and their environmental impact, and electroplating, then challenges you to choose the right material for the job.",
+  "ib": {
+    "keyConcept": "Change",
+    "relatedConcepts": ["Function", "Form", "Consequences"],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "The properties of a material decide its function, and choosing materials wisely changes our lives and our planet."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What are the physical properties of metals and non-metals?",
+      "Why is sodium stored under kerosene but gold used for jewellery?",
+      "What is an alloy?"
+    ],
+    "conceptual": [
+      "How does the reactivity of a metal explain where and how we use it?",
+      "How do the properties of a material determine its function?"
+    ],
+    "debatable": [
+      "Should single-use plastics be banned completely in India?",
+      "Is it worth the energy cost to recycle metals and plastics?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 7 (Curiosity) Ch 4: The World of Metals and Non-metals",
+    "Class 10 Ch 3: Metals and Non-metals (reactivity series, displacement, alloys). Check against the current NCERT edition",
+    "Previous NCERT Class 8: Synthetic Fibres and Plastics; Chemical Effects of Electric Current (check their place in Curiosity)"
+  ]
+}

@@ -13,6 +13,8 @@ export type BadgeId =
   | 'fire-officer'
   | 'unit-acids'
   | 'mystery-solver'
+  | 'unit-metals'
+  | 'materials-engineer'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -30,5 +32,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'fire-officer': { title: 'Fire Safety Officer', emoji: '🧑‍🚒', description: 'Handled all six fire emergencies (Boss Challenge)' },
   'unit-acids': { title: 'pH Pro', emoji: '🧫', description: 'Mastered every core topic in Unit 4: Acids, Bases & Salts' },
   'mystery-solver': { title: 'Mystery Solver', emoji: '🕵️', description: 'Identified all six mystery bottles (Boss Challenge)' },
+  'unit-metals': { title: 'Metal Master', emoji: '🔩', description: 'Mastered every core topic in Unit 5: Metals, Non-metals & Materials' },
+  'materials-engineer': { title: 'Materials Engineer', emoji: '👷', description: 'Approved at least 4 of 6 engineering designs (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

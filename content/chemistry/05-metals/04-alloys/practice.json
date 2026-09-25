@@ -1,0 +1,120 @@
+{
+  "topicId": "alloys",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each alloy to its main components.",
+      "pairs": [
+        { "left": "Brass", "right": "Copper + zinc" },
+        { "left": "Bronze", "right": "Copper + tin" },
+        { "left": "Steel", "right": "Iron + carbon" },
+        { "left": "Stainless steel", "right": "Iron + chromium + nickel" },
+        { "left": "Solder", "right": "Tin + lead" }
+      ],
+      "explain": "Know the components of the five common alloys."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "An alloy is a…",
+      "options": ["compound", "mixture", "pure element", "gas"],
+      "answer": 1,
+      "explain": "Alloys are mixtures: the proportions can vary and the elements aren't chemically joined."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "What percentage of an 18-carat gold ring is gold?",
+      "answer": 75,
+      "tolerance": 0.1,
+      "unit": "%",
+      "hint": "18 ÷ 24 × 100.",
+      "explain": "18/24 = 0.75 = 75% gold (hallmark 750)."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A 10 g chain contains 8 g of gold. What is its carat value?",
+      "answer": 19.2,
+      "tolerance": 0.05,
+      "unit": "carat",
+      "hint": "carat = 24 × gold mass ÷ total mass.",
+      "explain": "24 × 8 ÷ 10 = 19.2 carat."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Why is solder used to join electrical wires?",
+      "options": ["It is magnetic", "It has a low melting point", "It is very hard", "It doesn't conduct electricity"],
+      "answer": 1,
+      "explain": "Solder melts at a low temperature (about 183 °C), so it can join wires without damaging parts."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Using particles, why is an alloy usually harder than the pure metal?",
+      "options": [
+        "Its atoms are all bigger",
+        "Different-sized atoms disrupt the layers so they can't slide easily",
+        "It contains no atoms",
+        "It is colder"
+      ],
+      "answer": 1,
+      "explain": "Mixed atom sizes stop layers sliding, making the alloy harder."
+    },
+    {
+      "id": "q7",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each alloy to a use.",
+      "pairs": [
+        { "left": "Stainless steel", "right": "Kitchen utensils" },
+        { "left": "Brass", "right": "Door handles and taps" },
+        { "left": "Bronze", "right": "Statues and medals" },
+        { "left": "22-carat gold", "right": "Jewellery" }
+      ],
+      "explain": "Each alloy's properties suit its use."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "What does the hallmark '916' on Indian gold jewellery mean?",
+      "options": ["It was made in 1916", "It is 91.6% gold (22 carat)", "It weighs 9.16 g", "It is 916 years old"],
+      "answer": 1,
+      "explain": "916 = 91.6% gold = 22 carat."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Explain why 22-carat gold is preferred for jewellery over 24-carat gold.",
+      "modelAnswer": "24-carat gold is pure gold, which is very soft, so jewellery would bend and scratch easily. 22-carat gold is an alloy with a little copper or silver, which makes it harder and stronger while still not tarnishing.",
+      "rubric": [
+        "Pure gold is too soft",
+        "Adding copper/silver makes it harder (alloy)",
+        "It still looks like gold / doesn't tarnish"
+      ],
+      "explain": "Alloying improves hardness while keeping gold's best properties."
+    }
+  ]
+}
