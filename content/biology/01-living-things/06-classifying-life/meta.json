@@ -1,0 +1,63 @@
+{
+  "id": "classifying-life",
+  "number": "1.6",
+  "title": "Classifying Life: Kingdoms and Vertebrates",
+  "summary": "The five kingdoms, vertebrates and invertebrates, and the five classes of vertebrates, with scientific names.",
+  "emoji": "🐅",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Domains and the three-domain system appear in DP"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Curiosity Ch 2: Diversity in the Living World",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Diversity in Living Organisms (kingdoms, vertebrate classes)",
+        "verified": false
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can name the five kingdoms and give an example of each.",
+    "I can sort animals into vertebrates and invertebrates.",
+    "I can classify vertebrates into fish, amphibians, reptiles, birds and mammals using their features."
+  ],
+  "misconceptions": [
+    "Bats are birds and dolphins are fish.",
+    "Mushrooms are plants.",
+    "Invertebrates are rare."
+  ],
+  "prerequisites": [
+    "biology/living-things/dichotomous-keys"
+  ],
+  "labs": [
+    "kingdom-sorter"
+  ],
+  "keyTerms": [
+    "classification",
+    "kingdom",
+    "vertebrate",
+    "invertebrate",
+    "fish",
+    "amphibian",
+    "reptile",
+    "bird",
+    "mammal",
+    "binomial name",
+    "species"
+  ],
+  "estMinutes": 25
+}

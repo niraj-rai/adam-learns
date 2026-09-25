@@ -1,0 +1,55 @@
+{
+  "id": "habitats-and-adaptations",
+  "number": "1.4",
+  "title": "Habitats and Adaptations",
+  "summary": "Why camels, snow leopards, fish and macaques look the way they do: features that help living things survive where they live.",
+  "emoji": "🐫",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Natural selection explains adaptations in MYP 5 / DP"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Curiosity Ch 2: Diversity in the Living World",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe how organisms are adapted to their habitats.",
+    "I can explain how specific features help an organism survive.",
+    "I can predict the effect of habitat changes on organisms."
+  ],
+  "misconceptions": [
+    "Animals choose to adapt during their lifetime.",
+    "All animals can live anywhere if they try.",
+    "Adaptations are only about the body, not behaviour."
+  ],
+  "prerequisites": [
+    "biology/living-things/what-is-alive"
+  ],
+  "labs": [
+    "adaptation-lab"
+  ],
+  "keyTerms": [
+    "habitat",
+    "adaptation",
+    "terrestrial",
+    "aquatic",
+    "camouflage",
+    "streamlined",
+    "hibernation"
+  ],
+  "estMinutes": 25
+}

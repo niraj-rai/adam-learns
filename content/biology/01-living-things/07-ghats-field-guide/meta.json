@@ -1,0 +1,50 @@
+{
+  "id": "ghats-field-guide",
+  "number": "1.7",
+  "title": "Boss Challenge: Western Ghats Field Guide",
+  "summary": "Become a naturalist: use a key to identify eight organisms in one of the world's biodiversity hotspots.",
+  "emoji": "🔭",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task: applying classification skills (Criteria A and C)"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Curiosity Ch 2: Diversity in the Living World",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can use a dichotomous key accurately with written descriptions.",
+    "I can explain why biodiversity hotspots matter."
+  ],
+  "misconceptions": [
+    "Every organism in a forest is easy to name at a glance."
+  ],
+  "prerequisites": [
+    "biology/living-things/dichotomous-keys",
+    "biology/living-things/classifying-life"
+  ],
+  "labs": [
+    "ghats-guide"
+  ],
+  "keyTerms": [
+    "biodiversity",
+    "endemic",
+    "hotspot",
+    "dichotomous key",
+    "conservation"
+  ],
+  "estMinutes": 15
+}

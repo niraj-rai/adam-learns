@@ -1,0 +1,57 @@
+{
+  "id": "grouping-plants",
+  "number": "1.3",
+  "title": "Grouping Plants",
+  "summary": "Herbs, shrubs and trees; taproots and fibrous roots; net-like and parallel veins, and the hidden monocot–dicot pattern.",
+  "emoji": "🌾",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 1,
+      "note": "Formal plant taxonomy follows in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Curiosity Ch 2: Diversity in the Living World",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can group plants as herbs, shrubs or trees.",
+    "I can identify taproot and fibrous root systems, and reticulate and parallel venation.",
+    "I can find the link between leaf venation and root type (dicots and monocots)."
+  ],
+  "misconceptions": [
+    "All tall plants are trees with taproots.",
+    "Grass is not a flowering plant.",
+    "Plants can only be grouped one way."
+  ],
+  "prerequisites": [
+    "biology/living-things/what-is-alive"
+  ],
+  "labs": [
+    "plant-sorter"
+  ],
+  "keyTerms": [
+    "herb",
+    "shrub",
+    "tree",
+    "taproot",
+    "fibrous root",
+    "venation",
+    "reticulate",
+    "parallel",
+    "monocot",
+    "dicot"
+  ],
+  "estMinutes": 25
+}

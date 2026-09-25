@@ -1,0 +1,55 @@
+{
+  "id": "what-is-alive",
+  "number": "1.1",
+  "title": "What Is Alive?",
+  "summary": "The seven life processes (MRS GREN) that every living thing shows, and why a car or a fire is not alive.",
+  "emoji": "🌱",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 1,
+      "note": "Cells as the unit of life follow in Unit 2"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Curiosity Ch 10: Living Creatures: Exploring their Characteristics",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can list the seven characteristics of living things (MRS GREN).",
+    "I can use them to decide whether something is living or non-living.",
+    "I can explain why some non-living things show a few of these characteristics."
+  ],
+  "misconceptions": [
+    "Anything that moves is alive.",
+    "Plants are not alive because they don't move.",
+    "Seeds are dead."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "alive-lab"
+  ],
+  "keyTerms": [
+    "living",
+    "non-living",
+    "movement",
+    "respiration",
+    "sensitivity",
+    "growth",
+    "reproduction",
+    "excretion",
+    "nutrition",
+    "dormant"
+  ],
+  "estMinutes": 20
+}

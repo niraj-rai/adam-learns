@@ -13,8 +13,8 @@ export const Route = createFileRoute('/')({ component: Home })
 
 const COMING = [
   { id: 'physics', title: 'Physics', emoji: '🧲', note: 'Forces, light, electricity' },
-  { id: 'mathematics', title: 'Mathematics', emoji: '📐', note: 'Algebra, geometry, data' },
   { id: 'biology', title: 'Biology', emoji: '🌿', note: 'Cells, body, ecosystems' },
+  { id: 'mathematics', title: 'Mathematics', emoji: '📐', note: 'Algebra, geometry, data' },
 ]
 
 function Home() {

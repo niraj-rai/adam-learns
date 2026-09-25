@@ -1,0 +1,36 @@
+{
+  "id": "living-things",
+  "number": 1,
+  "title": "Living Things & Classification",
+  "summary": "What makes something alive? How do seeds come to life? How can we sort millions of species into groups, and why do animals look the way they do? From MRS GREN to the Western Ghats.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Form",
+      "Patterns",
+      "Evidence"
+    ],
+    "globalContext": "Globalization and sustainability",
+    "statementOfInquiry": "Scientists use patterns in the form of living things to classify them, which helps us understand, identify and protect biodiversity."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What are the characteristics of living things?",
+      "What do seeds need to germinate?",
+      "What are the main groups of living things?"
+    ],
+    "conceptual": [
+      "How do adaptations help organisms survive in their habitats?",
+      "Why do scientists classify living things?"
+    ],
+    "debatable": [
+      "Should protecting biodiversity hotspots like the Western Ghats come before development?",
+      "Is it important to name and classify every species on Earth?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 6 (Curiosity) Ch 2: Diversity in the Living World",
+    "Class 6 (Curiosity) Ch 10: Living Creatures: Exploring their Characteristics",
+    "Class 9: Diversity in Living Organisms (kingdoms; check against the current NCERT edition)"
+  ]
+}

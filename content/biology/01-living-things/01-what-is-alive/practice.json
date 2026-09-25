@@ -1,0 +1,169 @@
+{
+  "topicId": "what-is-alive",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each life process to its meaning.",
+      "pairs": [
+        {
+          "left": "Respiration",
+          "right": "Releasing energy from food"
+        },
+        {
+          "left": "Excretion",
+          "right": "Getting rid of waste made in the body"
+        },
+        {
+          "left": "Sensitivity",
+          "right": "Responding to changes around it"
+        },
+        {
+          "left": "Nutrition",
+          "right": "Taking in or making food"
+        },
+        {
+          "left": "Reproduction",
+          "right": "Producing young ones"
+        }
+      ],
+      "explain": "MRS GREN: Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Living or non-living?",
+      "bins": [
+        "Living",
+        "Non-living"
+      ],
+      "items": [
+        {
+          "label": "Mushroom",
+          "bin": 0
+        },
+        {
+          "label": "Car",
+          "bin": 1
+        },
+        {
+          "label": "Dry bean seed",
+          "bin": 0
+        },
+        {
+          "label": "Cloud",
+          "bin": 1
+        },
+        {
+          "label": "Mango tree",
+          "bin": 0
+        },
+        {
+          "label": "Fire",
+          "bin": 1
+        }
+      ],
+      "explain": "Only living things show all seven life processes."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A car moves, uses oxygen to burn fuel and gives out waste gases. Why is it NOT alive?",
+      "options": [
+        "It is made of metal",
+        "It cannot grow, reproduce or sense its surroundings by itself",
+        "It is too fast",
+        "It needs a driver"
+      ],
+      "answer": 1,
+      "explain": "Living things must show ALL the life processes."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A mimosa (touch-me-not) plant folds its leaves when touched. Which life process does this show?",
+      "options": [
+        "Growth",
+        "Sensitivity",
+        "Excretion",
+        "Reproduction"
+      ],
+      "answer": 1,
+      "explain": "Responding to touch is sensitivity."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A dry seed shows no signs of life for months, then sprouts when watered. What is the best conclusion?",
+      "options": [
+        "It was dead and came back to life",
+        "It was alive but dormant (resting)",
+        "It is non-living",
+        "Water created life"
+      ],
+      "answer": 1,
+      "explain": "Seeds respire very slowly while dormant."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A salt crystal in a jar gets bigger every day. Adam says, “It’s growing, so it must be alive!” Use evidence to argue for or against his claim.",
+      "modelAnswer": "Adam is wrong. The crystal grows only by particles of salt adding to its outside, not by taking in food and using it. It does not respire, sense its surroundings, excrete, reproduce or take in nutrition. Living things must show all seven life processes, so one process (growth) is not enough evidence that something is alive.",
+      "rubric": [
+        "States the crystal is not alive",
+        "Explains how crystal growth differs from living growth",
+        "Refers to the other life processes it lacks"
+      ],
+      "explain": "Criterion C: evaluate a claim using evidence."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The seven life processes can be remembered using the name ___ .",
+      "blanks": [
+        [
+          "MRS GREN",
+          "MRSGREN"
+        ]
+      ],
+      "wordBank": [
+        "MRS GREN",
+        "VIBGYOR",
+        "SONAR"
+      ],
+      "explain": "Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How do plants show movement?",
+      "options": [
+        "They don't move at all",
+        "Their roots, stems, leaves and flowers move slowly, e.g. turning towards light",
+        "They walk at night",
+        "Only when the wind blows"
+      ],
+      "answer": 1,
+      "explain": "Plant movements are slow but real, like sunflowers following the Sun."
+    }
+  ]
+}

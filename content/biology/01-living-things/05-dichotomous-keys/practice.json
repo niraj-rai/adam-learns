@@ -1,0 +1,134 @@
+{
+  "topicId": "dichotomous-keys",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What does ‘dichotomous’ mean?",
+      "options": [
+        "Dividing into two",
+        "Having many colours",
+        "Living in water",
+        "Very small"
+      ],
+      "answer": 0,
+      "explain": "Each step of a dichotomous key splits a group into two."
+    },
+    {
+      "id": "q2",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Which make GOOD questions for a key? Choose all that apply.",
+      "options": [
+        "Does it have six legs?",
+        "Is it cute?",
+        "Does it have feathers?",
+        "Is it big?",
+        "Does it have a shell?"
+      ],
+      "answer": [
+        0,
+        2,
+        4
+      ],
+      "explain": "Good questions are about clear, observable features, not opinions or vague sizes."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Key Builder, which question could NOT split the group {butterfly, sparrow}?",
+      "options": [
+        "Does it have wings?",
+        "Does it have feathers?",
+        "Does it have six legs?",
+        "All would work"
+      ],
+      "answer": 0,
+      "explain": "Both have wings, so that question doesn't divide them."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "What is the smallest number of yes/no questions a key needs to separate 8 organisms, if every question splits a group exactly in half?",
+      "answer": 3,
+      "tolerance": 0,
+      "unit": "questions",
+      "explain": "8 → 4 → 2 → 1: three levels of questions (2 × 2 × 2 = 8)."
+    },
+    {
+      "id": "q5",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Order the steps for using a key to identify an unknown leaf.",
+      "steps": [
+        "Observe the leaf carefully",
+        "Read the first question in the key",
+        "Choose yes or no and follow that branch",
+        "Repeat with the next question",
+        "Reach the name of the leaf"
+      ],
+      "explain": "Keys guide you step by step."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Design a dichotomous key to identify: a crow, a housefly, a spider, and a cat. Write your questions in order.",
+      "modelAnswer": "1) Does it have a backbone? Yes → go to 2. No → go to 3. 2) Does it have feathers? Yes → crow. No → cat. 3) Does it have six legs? Yes → housefly. No (eight legs) → spider.",
+      "rubric": [
+        "Uses yes/no questions on observable features",
+        "Each question splits the group into two",
+        "Every organism reaches its own name"
+      ],
+      "explain": "Criterion B: design a working key."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why might ‘Is it brown?’ be a poor question in a key for birds?",
+      "options": [
+        "Colour can vary between males, females, young birds and in different light",
+        "Birds are never brown",
+        "It is too easy",
+        "Keys can't use colours at all"
+      ],
+      "answer": 0,
+      "explain": "Choose features that are reliable for every individual."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "A key helps us ___ an unknown organism by answering ___ questions.",
+      "blanks": [
+        [
+          "identify"
+        ],
+        [
+          "yes/no",
+          "yes or no"
+        ]
+      ],
+      "wordBank": [
+        "identify",
+        "yes/no",
+        "feed",
+        "colour"
+      ],
+      "explain": "Field guides use keys like this."
+    }
+  ]
+}

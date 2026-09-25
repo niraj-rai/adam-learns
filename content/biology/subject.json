@@ -1,0 +1,46 @@
+{
+  "id": "biology",
+  "title": "Biology",
+  "tagline": "Living things, how they work, and how they depend on each other",
+  "color": "bio",
+  "icon": "🌿",
+  "order": 3,
+  "comingNext": "Unit 2: Cells · Unit 3: Microorganisms · Unit 4: Nutrition · Unit 5: Human Body Systems · Unit 6: Health & Disease · Unit 7: Reproduction & Adolescence · Unit 8: Ecosystems & Conservation",
+  "planned": [
+    {
+      "unit": "2. Cells",
+      "ib": "MYP 2–3",
+      "cbse": "Earlier NCERT 8 (Cell), Class 9"
+    },
+    {
+      "unit": "3. Microorganisms",
+      "ib": "MYP 2–3",
+      "cbse": "8 (Curiosity Ch 2)"
+    },
+    {
+      "unit": "4. Nutrition",
+      "ib": "MYP 1–2",
+      "cbse": "6, 7"
+    },
+    {
+      "unit": "5. Human Body Systems",
+      "ib": "MYP 2",
+      "cbse": "7"
+    },
+    {
+      "unit": "6. Health & Disease",
+      "ib": "MYP 3",
+      "cbse": "8 (Curiosity Ch 3)"
+    },
+    {
+      "unit": "7. Reproduction & Adolescence",
+      "ib": "MYP 2–3",
+      "cbse": "7, earlier NCERT 8"
+    },
+    {
+      "unit": "8. Ecosystems & Conservation",
+      "ib": "MYP 1–3",
+      "cbse": "6, 7, earlier NCERT 8"
+    }
+  ]
+}

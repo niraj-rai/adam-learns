@@ -1,0 +1,170 @@
+{
+  "topicId": "classifying-life",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each kingdom to an example.",
+      "pairs": [
+        {
+          "left": "Animals",
+          "right": "Tiger"
+        },
+        {
+          "left": "Plants",
+          "right": "Banyan"
+        },
+        {
+          "left": "Fungi",
+          "right": "Mushroom"
+        },
+        {
+          "left": "Protists",
+          "right": "Amoeba"
+        },
+        {
+          "left": "Bacteria",
+          "right": "Lactobacillus in curd"
+        }
+      ],
+      "explain": "Five kingdoms, from tiny bacteria to giant trees."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which vertebrate class does each animal belong to?",
+      "bins": [
+        "Fish",
+        "Amphibian",
+        "Reptile",
+        "Bird",
+        "Mammal"
+      ],
+      "items": [
+        {
+          "label": "Rohu",
+          "bin": 0
+        },
+        {
+          "label": "Frog",
+          "bin": 1
+        },
+        {
+          "label": "Crocodile",
+          "bin": 2
+        },
+        {
+          "label": "Peacock",
+          "bin": 3
+        },
+        {
+          "label": "Bat",
+          "bin": 4
+        },
+        {
+          "label": "Dolphin",
+          "bin": 4
+        }
+      ],
+      "explain": "Bats and dolphins are mammals: fur/hair, and milk for their young."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is a mushroom NOT a plant?",
+      "options": [
+        "It is too small",
+        "It cannot make its own food by photosynthesis; it absorbs food from dead matter",
+        "It grows in the dark sometimes",
+        "It has no colour"
+      ],
+      "answer": 1,
+      "explain": "Fungi are a separate kingdom."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What do all vertebrates have?",
+      "options": [
+        "Wings",
+        "A backbone",
+        "Fur",
+        "Six legs"
+      ],
+      "answer": 1,
+      "explain": "Invertebrates, like insects and worms, have no backbone."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "The tiger's scientific name is Panthera tigris. What is ‘Panthera’?",
+      "options": [
+        "Its species",
+        "Its genus (a group of closely related species)",
+        "Its kingdom",
+        "Its common name"
+      ],
+      "answer": 1,
+      "explain": "Binomial names give the genus then the species, e.g. Panthera leo is the lion."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A student says, “A bat flies and has wings, so it must be a bird.” Use evidence to explain why the bat is classified as a mammal.",
+      "modelAnswer": "Classification is based on many shared features, not one. Bats have fur (not feathers), give birth to live young and feed them on milk, and have no beak. These are features of mammals. Wings evolved separately in bats and birds, so flying alone doesn't make an animal a bird.",
+      "rubric": [
+        "Uses several features, not one",
+        "Fur, live birth or milk",
+        "Explains why flight alone is not enough"
+      ],
+      "explain": "Criterion C: justify a classification with evidence."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "About 1.2 million animal species have been named, and about 1 million of them are insects. Roughly what percentage of named animal species are insects?",
+      "answer": 83,
+      "tolerance": 3,
+      "unit": "%",
+      "explain": "1 ÷ 1.2 × 100 ≈ 83%. Invertebrates dominate the animal kingdom!"
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Animals with a backbone are ___; animals without one are ___.",
+      "blanks": [
+        [
+          "vertebrates"
+        ],
+        [
+          "invertebrates"
+        ]
+      ],
+      "wordBank": [
+        "vertebrates",
+        "invertebrates",
+        "mammals",
+        "fungi"
+      ],
+      "explain": "Most animals are invertebrates."
+    }
+  ]
+}

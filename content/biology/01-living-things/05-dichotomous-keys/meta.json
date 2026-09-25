@@ -1,0 +1,53 @@
+{
+  "id": "dichotomous-keys",
+  "number": "1.5",
+  "title": "Identifying Living Things with Keys",
+  "summary": "Use and build dichotomous keys: yes/no questions that lead to an organism's name.",
+  "emoji": "🔑",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Keys are a core MYP skill (Criteria B and C)"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Curiosity Ch 2: Diversity in the Living World",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can use a dichotomous key to identify organisms.",
+    "I can construct a dichotomous key using observable features.",
+    "I can explain why good key questions use features that can be clearly observed."
+  ],
+  "misconceptions": [
+    "A key question can use opinions like ‘Is it pretty?’",
+    "Keys must use the same question order for every group.",
+    "Features like colour are always reliable."
+  ],
+  "prerequisites": [
+    "biology/living-things/grouping-plants"
+  ],
+  "labs": [
+    "key-builder"
+  ],
+  "keyTerms": [
+    "dichotomous key",
+    "feature",
+    "identify",
+    "classify",
+    "observable"
+  ],
+  "estMinutes": 25
+}

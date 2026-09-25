@@ -1,0 +1,152 @@
+{
+  "topicId": "ghats-field-guide",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What does ‘endemic’ mean, as in ‘the lion-tailed macaque is endemic to the Western Ghats’?",
+      "options": [
+        "Found only in that place",
+        "Found everywhere",
+        "Extinct",
+        "Dangerous"
+      ],
+      "answer": 0,
+      "explain": "Endemic species live naturally in only one region."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Using the field-guide key: an animal has a backbone, no feathers and no fur, and moist skin (not scaly). What is it?",
+      "options": [
+        "King cobra",
+        "Purple frog",
+        "Great hornbill",
+        "Lion-tailed macaque"
+      ],
+      "answer": 1,
+      "explain": "Moist skin without scales points to an amphibian."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Neelakurinji flowers only once every…",
+      "options": [
+        "year",
+        "12 years",
+        "100 years",
+        "month"
+      ],
+      "answer": 1,
+      "explain": "Its mass flowering turns the Nilgiri hills blue."
+    },
+    {
+      "id": "q4",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which are endemic to (or famous in) the Western Ghats? Choose all that apply.",
+      "options": [
+        "Lion-tailed macaque",
+        "Purple frog",
+        "Neelakurinji",
+        "Polar bear",
+        "Snow leopard"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "Polar bears live in the Arctic; snow leopards in the high Himalaya."
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "During the challenge, suppose a key led you to the wrong name. Describe how you would find your mistake.",
+      "modelAnswer": "Go back through the key step by step, re-reading the field notes at each question. Check which answer didn't match the description, for example saying ‘no’ to ‘Does it have a backbone?’ for a frog. Change that answer and follow the correct branch. It helps to write down each answer so you can retrace your path.",
+      "rubric": [
+        "Retrace the key step by step",
+        "Compare each answer with the evidence",
+        "Correct the mistaken branch"
+      ],
+      "explain": "Criterion C: evaluate your own method."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is the bracket fungus important in the forest?",
+      "options": [
+        "It makes oxygen",
+        "It decomposes dead wood and recycles nutrients",
+        "It feeds hornbills",
+        "It is a predator"
+      ],
+      "answer": 1,
+      "explain": "Decomposers return nutrients to the soil."
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Vertebrate or invertebrate?",
+      "bins": [
+        "Vertebrate",
+        "Invertebrate"
+      ],
+      "items": [
+        {
+          "label": "King cobra",
+          "bin": 0
+        },
+        {
+          "label": "Southern birdwing butterfly",
+          "bin": 1
+        },
+        {
+          "label": "Great hornbill",
+          "bin": 0
+        },
+        {
+          "label": "Earthworm",
+          "bin": 1
+        },
+        {
+          "label": "Purple frog",
+          "bin": 0
+        }
+      ],
+      "explain": "Butterflies and earthworms have no backbone."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "A region with a very large number of species, many found nowhere else, is called a biodiversity ___.",
+      "blanks": [
+        [
+          "hotspot"
+        ]
+      ],
+      "wordBank": [
+        "hotspot",
+        "desert",
+        "capital"
+      ],
+      "explain": "The Western Ghats is one of the world's biodiversity hotspots."
+    }
+  ]
+}

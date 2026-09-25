@@ -1,0 +1,59 @@
+{
+  "id": "seeds-and-germination",
+  "number": "1.2",
+  "title": "Seeds, Germination and Life Cycles",
+  "summary": "What seeds need to sprout, a fair test with bean seeds, and the life cycles of plants, frogs and mosquitoes.",
+  "emoji": "🫘",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 1,
+      "note": "Plant growth responses follow in MYP 3–4"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Curiosity Ch 10: Living Creatures: Exploring their Characteristics",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can identify the conditions seeds need to germinate: water, air and suitable temperature.",
+    "I can plan and interpret a fair test on germination.",
+    "I can describe the life cycles of a plant and an animal."
+  ],
+  "misconceptions": [
+    "Seeds need soil to germinate.",
+    "Seeds need light to germinate.",
+    "Tadpoles and frogs are different animals."
+  ],
+  "prerequisites": [
+    "biology/living-things/what-is-alive"
+  ],
+  "labs": [
+    "germination-lab"
+  ],
+  "keyTerms": [
+    "seed",
+    "germination",
+    "dormant",
+    "seedling",
+    "fair test",
+    "control",
+    "life cycle",
+    "metamorphosis",
+    "tadpole",
+    "larva",
+    "pupa"
+  ],
+  "estMinutes": 25
+}

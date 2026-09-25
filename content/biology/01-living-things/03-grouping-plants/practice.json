@@ -1,0 +1,191 @@
+{
+  "topicId": "grouping-plants",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Herb, shrub or tree?",
+      "bins": [
+        "Herb",
+        "Shrub",
+        "Tree"
+      ],
+      "items": [
+        {
+          "label": "Mango",
+          "bin": 2
+        },
+        {
+          "label": "Hibiscus",
+          "bin": 1
+        },
+        {
+          "label": "Wheat",
+          "bin": 0
+        },
+        {
+          "label": "Neem",
+          "bin": 2
+        },
+        {
+          "label": "Rose",
+          "bin": 1
+        },
+        {
+          "label": "Coriander",
+          "bin": 0
+        }
+      ],
+      "explain": "Herbs: soft green stems. Shrubs: several woody stems. Trees: one thick trunk."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Taproot or fibrous roots?",
+      "bins": [
+        "Taproot",
+        "Fibrous roots"
+      ],
+      "items": [
+        {
+          "label": "Mustard",
+          "bin": 0
+        },
+        {
+          "label": "Rice",
+          "bin": 1
+        },
+        {
+          "label": "Mango",
+          "bin": 0
+        },
+        {
+          "label": "Onion",
+          "bin": 1
+        },
+        {
+          "label": "Maize",
+          "bin": 1
+        },
+        {
+          "label": "Neem",
+          "bin": 0
+        }
+      ],
+      "explain": "Grasses and onions have fibrous roots."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A leaf has parallel veins. What kind of roots will the plant most likely have?",
+      "options": [
+        "Taproot",
+        "Fibrous roots",
+        "No roots",
+        "Both"
+      ],
+      "answer": 1,
+      "explain": "Parallel veins go with fibrous roots (monocots)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which is TRUE about the coconut palm?",
+      "options": [
+        "It has a taproot and net-like veins",
+        "It is a tree but has fibrous roots and parallel veins",
+        "It is a herb",
+        "It is a shrub"
+      ],
+      "answer": 1,
+      "explain": "Coconut is a monocot, even though it is tall like a tree."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "You soak a chana (chickpea) seed and split it gently. It opens into two halves. What does this tell you?",
+      "options": [
+        "It is a monocot (one seed leaf)",
+        "It is a dicot (two seed leaves)",
+        "It is not a seed",
+        "It is dead"
+      ],
+      "answer": 1,
+      "explain": "Dicots have two cotyledons (seed leaves)."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Adam recorded: rice (parallel veins, fibrous roots), mango (net veins, taproot), onion (parallel, fibrous), mustard (net, taproot), wheat (parallel, fibrous). Describe the pattern and use it to predict the roots of maize, which has parallel veins.",
+      "modelAnswer": "All plants with parallel veins had fibrous roots, and all plants with net-like (reticulate) veins had taproots. Since maize has parallel veins, I predict it has fibrous roots. I could check by carefully digging up a maize plant.",
+      "rubric": [
+        "Describes the vein–root pattern",
+        "Uses data from all examples",
+        "Correct prediction for maize with a way to test it"
+      ],
+      "explain": "Criterion C: find a pattern and use it to predict."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "A leaf with a net-like pattern of veins has ___ venation. A leaf with veins running side by side has ___ venation.",
+      "blanks": [
+        [
+          "reticulate"
+        ],
+        [
+          "parallel"
+        ]
+      ],
+      "wordBank": [
+        "reticulate",
+        "parallel",
+        "fibrous"
+      ],
+      "explain": "Venation is the pattern of veins on a leaf."
+    },
+    {
+      "id": "q8",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each group to an example.",
+      "pairs": [
+        {
+          "left": "Monocot",
+          "right": "Rice"
+        },
+        {
+          "left": "Dicot",
+          "right": "Mango"
+        },
+        {
+          "left": "Shrub",
+          "right": "Hibiscus"
+        },
+        {
+          "left": "Herb",
+          "right": "Coriander"
+        }
+      ],
+      "explain": "The same plant can belong to groups based on different features."
+    }
+  ]
+}

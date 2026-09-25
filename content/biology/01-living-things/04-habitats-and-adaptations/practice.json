@@ -1,0 +1,177 @@
+{
+  "topicId": "habitats-and-adaptations",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each adaptation to how it helps.",
+      "pairs": [
+        {
+          "left": "Camel's wide padded feet",
+          "right": "Don't sink into sand"
+        },
+        {
+          "left": "Fish's gills",
+          "right": "Take oxygen from water"
+        },
+        {
+          "left": "Snow leopard's thick fur",
+          "right": "Keeps warm in freezing cold"
+        },
+        {
+          "left": "Streamlined body",
+          "right": "Moves easily through water"
+        },
+        {
+          "left": "Monkey's gripping hands",
+          "right": "Climbs trees"
+        }
+      ],
+      "explain": "Each feature helps with a challenge of the habitat."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which habitat is each adaptation most useful in?",
+      "bins": [
+        "Desert",
+        "Snowy mountains",
+        "Water"
+      ],
+      "items": [
+        {
+          "label": "Long eyelashes against blowing sand",
+          "bin": 0
+        },
+        {
+          "label": "Webbed feet or fins",
+          "bin": 2
+        },
+        {
+          "label": "Thick layer of fur",
+          "bin": 1
+        },
+        {
+          "label": "Storing fat in a hump",
+          "bin": 0
+        },
+        {
+          "label": "Gills",
+          "bin": 2
+        },
+        {
+          "label": "Wide furry paws like snowshoes",
+          "bin": 1
+        }
+      ],
+      "explain": "Adaptations match specific challenges."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do many desert plants, like cactus, have spines instead of broad leaves?",
+      "options": [
+        "To look scary",
+        "To reduce water loss and protect them from animals",
+        "To catch insects",
+        "To make more food"
+      ],
+      "answer": 1,
+      "explain": "Small leaf area means less water evaporates."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Adapt-o-matic, a design with ‘gills, hump, thick fur’ failed in the desert. Which feature(s) caused the problem?",
+      "options": [
+        "Only the hump",
+        "Gills and thick fur",
+        "Only the gills",
+        "All three"
+      ],
+      "answer": 1,
+      "explain": "Gills can’t take oxygen from air, and a thick fur coat is an adaptation for freezing cold, not for desert heat."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A Ganges river dolphin lives in water. How does it breathe?",
+      "options": [
+        "With gills",
+        "With lungs, coming to the surface for air",
+        "It doesn't need to breathe",
+        "Through its skin only"
+      ],
+      "answer": 1,
+      "explain": "Dolphins are mammals adapted to water, but they still breathe air."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Himalayan glaciers are shrinking and snowlines are moving higher as the climate warms. Predict how this could affect the snow leopard, and suggest one action that could help.",
+      "modelAnswer": "The snow leopard is adapted to cold, snowy, rocky habitats, with thick fur and wide paws. As the snowline moves higher, its habitat shrinks and becomes broken up. Its prey may move or decline, and warmer-adapted animals and people may move in, so its population could fall. Actions: protect large connected areas (like Hemis National Park), involve local communities in conservation and reduce livestock conflict, and reduce greenhouse gas emissions.",
+      "rubric": [
+        "Links adaptations to the cold habitat",
+        "Explains habitat loss or prey effects",
+        "A realistic conservation action"
+      ],
+      "explain": "Criterion D: consequences of environmental change."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The place where an organism lives is its ___. A feature that helps it survive there is an ___.",
+      "blanks": [
+        [
+          "habitat"
+        ],
+        [
+          "adaptation"
+        ]
+      ],
+      "wordBank": [
+        "habitat",
+        "adaptation",
+        "organ",
+        "ecosystem"
+      ],
+      "explain": "Adaptations develop over many generations, not in one lifetime."
+    },
+    {
+      "id": "q8",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which are adaptations of the lotus to living in ponds? Choose all that apply.",
+      "options": [
+        "Waxy leaves that stay dry",
+        "Air spaces in stems to float",
+        "Long thorny stems for climbing",
+        "Leaves floating on the surface to get sunlight",
+        "Deep taproots in dry soil"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explain": "Aquatic plants are adapted to float and to shed water."
+    }
+  ]
+}

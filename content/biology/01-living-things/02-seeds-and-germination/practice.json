@@ -1,0 +1,136 @@
+{
+  "topicId": "seeds-and-germination",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which conditions do seeds need to germinate? Choose all that apply.",
+      "options": [
+        "Water",
+        "Air (oxygen)",
+        "A suitable temperature",
+        "Light",
+        "Soil"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "Seeds use stored food, so light and soil aren't needed to germinate."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Germination Lab, seeds kept under boiled, cooled water did not germinate. Why was the water boiled first?",
+      "options": [
+        "To kill germs only",
+        "To remove dissolved air, so the seeds had no oxygen",
+        "To warm the seeds",
+        "To make it taste better"
+      ],
+      "answer": 1,
+      "explain": "This tests whether seeds need air."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A seedling grown in a dark cupboard is tall, thin and pale yellow. What does this tell you?",
+      "options": [
+        "Light is needed to germinate",
+        "Seeds can germinate without light, but the seedling needs light to become green and healthy",
+        "The seed was dead",
+        "Dark cupboards are too cold"
+      ],
+      "answer": 1,
+      "explain": "Chlorophyll forms in light; the seedling stretched looking for light."
+    },
+    {
+      "id": "q4",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan a fair test to find out whether bean seeds need water to germinate.",
+      "modelAnswer": "Set up two identical dishes with cotton wool and five bean seeds each. Dish A (the control): moisten the cotton with water. Dish B: keep the cotton dry. Keep both in the same warm place, with the same light, for the same time. Count the seeds that germinate in each dish each day for a week. Only the water is changed, so any difference is due to water. Using five seeds per dish makes the result more reliable.",
+      "rubric": [
+        "Two set-ups differing only in water",
+        "A control",
+        "Same temperature, light, seed type and number",
+        "Measure: number germinated over time; several seeds"
+      ],
+      "explain": "Criterion B: change one variable only."
+    },
+    {
+      "id": "q5",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Order the life cycle of a frog.",
+      "steps": [
+        "Eggs (frogspawn) in water",
+        "Tadpole with a tail and gills",
+        "Tadpole grows legs",
+        "Young frog loses its tail",
+        "Adult frog"
+      ],
+      "explain": "This big change in body form is called metamorphosis."
+    },
+    {
+      "id": "q6",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Order the life cycle of a mosquito.",
+      "steps": [
+        "Eggs laid on still water",
+        "Larva (wriggler) in water",
+        "Pupa in water",
+        "Adult mosquito flies away"
+      ],
+      "explain": "All the early stages need still water, which is why removing stagnant water prevents dengue and malaria."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "20 bean seeds were set up in the control dish and 17 germinated. What percentage germinated?",
+      "answer": 85,
+      "tolerance": 0,
+      "unit": "%",
+      "explain": "17 ÷ 20 × 100 = 85%."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "When a seed starts to grow into a new plant, it is called ___. Before this, a seed is resting, or ___.",
+      "blanks": [
+        [
+          "germination"
+        ],
+        [
+          "dormant"
+        ]
+      ],
+      "wordBank": [
+        "germination",
+        "dormant",
+        "pollination",
+        "dead"
+      ],
+      "explain": "Dormant seeds can last a long time."
+    }
+  ]
+}
