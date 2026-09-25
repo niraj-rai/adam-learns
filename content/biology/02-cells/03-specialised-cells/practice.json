@@ -1,0 +1,163 @@
+{
+  "topicId": "specialised-cells",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each cell to how its shape helps it.",
+      "pairs": [
+        {
+          "left": "Nerve cell",
+          "right": "Long branches carry messages far"
+        },
+        {
+          "left": "Red blood cell",
+          "right": "Disc shape and no nucleus: more room for oxygen"
+        },
+        {
+          "left": "Root hair cell",
+          "right": "Long extension absorbs more water"
+        },
+        {
+          "left": "Guard cells",
+          "right": "Open and close pores in leaves"
+        },
+        {
+          "left": "Muscle cell",
+          "right": "Contracts to cause movement"
+        }
+      ],
+      "explain": "Structure fits function."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A cube-shaped cell has sides of 2 µm. What is its surface area ÷ volume ratio?",
+      "answer": 3,
+      "tolerance": 0,
+      "explain": "Area = 6 × 2² = 24; volume = 2³ = 8; 24 ÷ 8 = 3."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "As a cube-shaped cell gets bigger, what happens to its surface-area-to-volume ratio?",
+      "options": [
+        "It increases",
+        "It decreases",
+        "It stays the same",
+        "It becomes zero"
+      ],
+      "answer": 1,
+      "explain": "Volume grows faster than surface area."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Why is it a problem for a cell to be very large?",
+      "options": [
+        "It would be too heavy",
+        "Its surface couldn't take in food and oxygen fast enough for its large volume",
+        "It would be too colourful",
+        "It couldn't have a nucleus"
+      ],
+      "answer": 1,
+      "explain": "Materials enter and leave through the surface."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Unicellular or multicellular?",
+      "bins": [
+        "Unicellular (one cell)",
+        "Multicellular (many cells)"
+      ],
+      "items": [
+        {
+          "label": "Amoeba",
+          "bin": 0
+        },
+        {
+          "label": "Mango tree",
+          "bin": 1
+        },
+        {
+          "label": "Yeast",
+          "bin": 0
+        },
+        {
+          "label": "Human",
+          "bin": 1
+        },
+        {
+          "label": "Bacteria",
+          "bin": 0
+        },
+        {
+          "label": "Mushroom",
+          "bin": 1
+        }
+      ],
+      "explain": "A single cell can carry out all life processes."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which is one of the largest single cells?",
+      "options": [
+        "An ostrich egg (the yolk before it develops)",
+        "A red blood cell",
+        "A bacterium",
+        "A cheek cell"
+      ],
+      "answer": 0,
+      "explain": "Unfertilised egg yolks of birds are single, very large cells."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Scientists can now grow specialised cells, such as heart muscle or skin cells, in the lab. Suggest one benefit and one concern about using this technology in medicine.",
+      "modelAnswer": "Benefit: skin grown from a patient's own cells can treat severe burns without rejection, and lab-grown heart cells can be used to test new medicines safely, reducing animal testing. Concerns: the treatments are very expensive and may not be available to poor patients; long-term safety is not fully known; there are ethical questions about using some kinds of cells.",
+      "rubric": [
+        "A valid medical benefit",
+        "A valid concern (cost, safety, ethics)",
+        "Links to specialised cells"
+      ],
+      "explain": "Criterion D: evaluate science and society."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "A cell that has a special shape and structure for a particular job is a ___ cell.",
+      "blanks": [
+        [
+          "specialised",
+          "specialized"
+        ]
+      ],
+      "wordBank": [
+        "specialised",
+        "dead",
+        "unicellular"
+      ],
+      "explain": "Specialisation lets multicellular organisms divide up the work."
+    }
+  ]
+}

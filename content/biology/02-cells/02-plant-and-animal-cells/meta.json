@@ -1,0 +1,60 @@
+{
+  "id": "plant-and-animal-cells",
+  "number": "2.2",
+  "title": "Plant and Animal Cells",
+  "summary": "The nucleus, membrane, cytoplasm and mitochondria in all cells, plus the cell wall, chloroplasts and large vacuole in plant cells.",
+  "emoji": "🧫",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Organelles such as ribosomes and ER follow in MYP 5 / DP"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 2: The Invisible Living World: Beyond Our Naked Eye",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 8: Cell: Structure and Functions",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can name the main parts of plant and animal cells and state what each does.",
+    "I can compare plant and animal cells, giving three differences.",
+    "I can identify cells as plant or animal from what I see under a microscope."
+  ],
+  "misconceptions": [
+    "Animal cells have a cell wall.",
+    "All plant cells have chloroplasts.",
+    "The cell membrane and the cell wall are the same thing."
+  ],
+  "prerequisites": [
+    "biology/cells/microscopes-and-cells"
+  ],
+  "labs": [
+    "cell-builder"
+  ],
+  "keyTerms": [
+    "nucleus",
+    "cell membrane",
+    "cytoplasm",
+    "mitochondria",
+    "cell wall",
+    "chloroplast",
+    "vacuole",
+    "organelle"
+  ],
+  "estMinutes": 25
+}

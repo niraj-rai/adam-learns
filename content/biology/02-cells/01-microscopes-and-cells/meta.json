@@ -1,0 +1,63 @@
+{
+  "id": "microscopes-and-cells",
+  "number": "2.1",
+  "title": "Microscopes and the Discovery of Cells",
+  "summary": "How Hooke and Leeuwenhoek discovered cells, how to use a light microscope, and how to estimate cell size.",
+  "emoji": "🔬",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Electron microscopes and resolution follow in MYP 5 / DP"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 2: The Invisible Living World: Beyond Our Naked Eye",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 8: Cell: Structure and Functions",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can describe how cells were discovered and why the microscope was essential.",
+    "I can use a light microscope correctly: low power first, focus, then higher power.",
+    "I can calculate total magnification and estimate cell size from the field of view."
+  ],
+  "misconceptions": [
+    "Cells are big enough to see with the naked eye (a few are, like hen’s eggs).",
+    "Higher magnification always shows more of the specimen.",
+    "Stains are needed to see every cell."
+  ],
+  "prerequisites": [
+    "biology/living-things/what-is-alive"
+  ],
+  "labs": [
+    "virtual-microscope"
+  ],
+  "keyTerms": [
+    "cell",
+    "microscope",
+    "eyepiece",
+    "objective lens",
+    "magnification",
+    "field of view",
+    "stain",
+    "micrometre (µm)",
+    "slide",
+    "cover slip"
+  ],
+  "estMinutes": 25
+}

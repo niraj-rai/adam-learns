@@ -17,13 +17,24 @@
 | 1.6 | Classifying life: kingdoms and vertebrates | MYP 3 | Cur-6 Ch 2 ✅, Class 9 ⚠️ | ★★ | **Kingdom Sorter**: 5 kingdoms + 5 vertebrate classes |
 | 1.7 | Boss: Western Ghats Field Guide | MYP 3 | Cur-6 Ch 2 ✅ | ★★★ | Identify 8 endemic organisms with a key (3 lives) |
 
-### Units 2–8 (planned)
+### Unit 2: Cells ✅ built
+*IB Key Concept:* **Systems** · *Related:* Form, Function, Models · *Global Context:* Scientific and technical innovation
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 2.1 | Microscopes and the discovery of cells | MYP 2 | Cur-8 Ch 2 ✅, earlier NCERT 8 Ch 8 ✅ | ★★ | **Virtual Microscope**: 6 slides, 40×–1000×, focus, stains, field of view |
+| 2.2 | Plant and animal cells | MYP 2 | Cur-8 Ch 2 ✅ | ★★ | **Cell Builder**: build both cells organelle by organelle |
+| 2.3 | Specialised cells, and why cells are small | MYP 3 | Earlier NCERT 8 Ch 8 ✅ | ★★ | **Cells for Every Job**: shape–function matching, SA:V cube |
+| 2.4 | Levels of organisation | MYP 2 | Cur-8 Ch 2 ✅ | ★ | **Zoom Ladder**: cell → organism for a human and a mango tree |
+| 2.5 | Cell division | MYP 3 | Cur-8 Ch 2 ✅, Class 9 ⚠️ | ★★ | **One Cell to Many**: doubling, bacteria in food |
+| 2.6 | Boss: Mystery Slides | MYP 3 | Cur-8 Ch 2 ✅ | ★★★ | Focus and identify 6 unlabelled slides (3 lives) |
+
+### Units 3–8 (planned)
 
 
 | Unit | Topics | IB | CBSE | ★ | Signature labs |
 |---|---|---|---|---|---|
-| 2. Cells | Cell as the unit of life, plant vs animal cell, organelles, microscope use | MYP 2–3 | Old-8 Ch8 | ★★★ | **Virtual Microscope** (focus, zoom, onion peel, cheek cell), Cell Builder |
-| 3. Microorganisms | Bacteria, fungi, viruses, useful and harmful microbes, fermentation (idli, curd) | MYP 2–3 | Cur-8 Ch2 ⚠️ | ★★ | **Microbe Zoo**, Curd-setting time-lapse |
+| 3. Microorganisms | Bacteria, fungi, viruses, useful and harmful microbes, fermentation (idli, curd) | MYP 2–3 | Cur-8 Ch 2 ✅ | ★★ | **Microbe Zoo**, Curd-setting time-lapse |
 | 4. Nutrition | Plant nutrition (photosynthesis), animal nutrition, digestive system, balanced diet | MYP 1–2 | 6, 7 | ★★ | **Photosynthesis Factory** (light/CO₂ sliders), Digestion Journey |
 | 5. Human Body Systems | Respiration, circulation, excretion, skeleton & movement | MYP 2 | 7 | ★★★ | **Heart Pump** animation, Breathing model |
 | 6. Health & Disease | Immunity, communicable diseases, vaccination, hygiene | MYP 3 | Cur-8 Ch3 ⚠️ | ★★ | **Outbreak sim** (vaccination rate slider) |

@@ -33,6 +33,8 @@ export type BadgeId =
   | 'moon-commander'
   | 'unit-living-things'
   | 'field-naturalist'
+  | 'unit-cells'
+  | 'slide-sleuth'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -70,5 +72,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'moon-commander': { title: 'Moon Commander', emoji: '🌕', description: 'Positioned the Moon for phases and eclipses in all eight missions (Boss Challenge)' },
   'unit-living-things': { title: 'Life Detective', emoji: '🌿', description: 'Mastered every core topic in Biology Unit 1: Living Things & Classification' },
   'field-naturalist': { title: 'Field Naturalist', emoji: '🔭', description: 'Identified eight Western Ghats organisms with a key (Boss Challenge)' },
+  'unit-cells': { title: 'Cell Scientist', emoji: '🔬', description: 'Mastered every core topic in Biology Unit 2: Cells' },
+  'slide-sleuth': { title: 'Slide Sleuth', emoji: '🧫', description: 'Identified six mystery microscope slides (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

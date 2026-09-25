@@ -1,0 +1,62 @@
+{
+  "id": "specialised-cells",
+  "number": "2.3",
+  "title": "Specialised Cells, and Why Cells Are Small",
+  "summary": "Nerve, muscle, blood, root hair and guard cells: shapes that fit their jobs. Plus the surface-area-to-volume secret.",
+  "emoji": "🧠",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Surface area to volume ratio returns in exchange surfaces (MYP 5 / DP)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 8: Cell: Structure and Functions",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 2: The Invisible Living World: Beyond Our Naked Eye",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe how the shape of specialised cells suits their function.",
+    "I can explain why cells are small using surface area and volume.",
+    "I can compare unicellular and multicellular organisms."
+  ],
+  "misconceptions": [
+    "All cells in the body look the same.",
+    "Bigger organisms have bigger cells.",
+    "A single cell can't be a whole organism."
+  ],
+  "prerequisites": [
+    "biology/cells/plant-and-animal-cells"
+  ],
+  "labs": [
+    "cell-shapes"
+  ],
+  "keyTerms": [
+    "specialised cell",
+    "neuron",
+    "red blood cell",
+    "root hair cell",
+    "guard cell",
+    "surface area",
+    "volume",
+    "unicellular",
+    "multicellular"
+  ],
+  "estMinutes": 25
+}

@@ -1,0 +1,163 @@
+{
+  "topicId": "levels-of-organisation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Order the levels of organisation from smallest to largest.",
+      "steps": [
+        "Cell",
+        "Tissue",
+        "Organ",
+        "Organ system",
+        "Organism"
+      ],
+      "explain": "Each level is made from the one below."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which level is each example?",
+      "bins": [
+        "Cell",
+        "Tissue",
+        "Organ",
+        "Organ system"
+      ],
+      "items": [
+        {
+          "label": "Neuron",
+          "bin": 0
+        },
+        {
+          "label": "Heart",
+          "bin": 2
+        },
+        {
+          "label": "Blood",
+          "bin": 1
+        },
+        {
+          "label": "Digestive system",
+          "bin": 3
+        },
+        {
+          "label": "Leaf",
+          "bin": 2
+        },
+        {
+          "label": "Guard cell",
+          "bin": 0
+        }
+      ],
+      "explain": "Blood is a tissue: a group of cells working together."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is a tissue?",
+      "options": [
+        "A single cell",
+        "A group of similar cells working together to do a job",
+        "A whole organ",
+        "An organism"
+      ],
+      "answer": 1,
+      "explain": "E.g. muscle tissue, nerve tissue, xylem in plants."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which is an organ in a plant?",
+      "options": [
+        "A palisade cell",
+        "A leaf",
+        "Xylem tissue",
+        "A chloroplast"
+      ],
+      "answer": 1,
+      "explain": "A leaf contains several tissues working together."
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain why the stomach is called an organ and not a tissue.",
+      "modelAnswer": "The stomach is made of several different tissues working together: muscle tissue to churn food, gland tissue to make digestive juices, nerve tissue to control it, and lining tissue. A tissue is a group of similar cells doing one job, while an organ combines different tissues to carry out a bigger function (digesting food).",
+      "rubric": [
+        "Several different tissues",
+        "Named examples of tissues and their jobs",
+        "Organ vs tissue definition"
+      ],
+      "explain": "Use the definitions to justify."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which are organ systems? Choose all that apply.",
+      "options": [
+        "Circulatory system",
+        "Heart",
+        "Nervous system",
+        "Skeletal system",
+        "Muscle tissue"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explain": "The heart is an organ; muscle tissue is a tissue."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "An amoeba is a single cell. Which levels of organisation does it have?",
+      "options": [
+        "All five",
+        "Just cell = organism",
+        "Tissue and organ",
+        "Organ system only"
+      ],
+      "answer": 1,
+      "explain": "In unicellular organisms, the one cell is the whole organism."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Different tissues working together form an ___, and several of these working together form an organ ___.",
+      "blanks": [
+        [
+          "organ"
+        ],
+        [
+          "system"
+        ]
+      ],
+      "wordBank": [
+        "organ",
+        "system",
+        "cell",
+        "nucleus"
+      ],
+      "explain": "Cell → tissue → organ → organ system → organism."
+    }
+  ]
+}

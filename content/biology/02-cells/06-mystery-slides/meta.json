@@ -1,0 +1,56 @@
+{
+  "id": "mystery-slides",
+  "number": "2.6",
+  "title": "Boss Challenge: Mystery Slides",
+  "summary": "Six unlabelled microscope slides. Focus, choose the right magnification, and identify each one.",
+  "emoji": "🧪",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task: microscope skills and identification (Criteria A and C)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 2: The Invisible Living World: Beyond Our Naked Eye",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 8: Cell: Structure and Functions",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can use a microscope to find and focus on cells.",
+    "I can identify cells using features such as walls, chloroplasts, nuclei and shape."
+  ],
+  "misconceptions": [
+    "You can identify any cell at low magnification."
+  ],
+  "prerequisites": [
+    "biology/cells/microscopes-and-cells",
+    "biology/cells/plant-and-animal-cells"
+  ],
+  "labs": [
+    "mystery-slides"
+  ],
+  "keyTerms": [
+    "cell wall",
+    "chloroplast",
+    "nucleus",
+    "bacteria",
+    "red blood cell",
+    "neuron"
+  ],
+  "estMinutes": 15
+}

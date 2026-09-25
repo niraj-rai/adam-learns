@@ -1,0 +1,172 @@
+{
+  "topicId": "plant-and-animal-cells",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each part of the cell to its job.",
+      "pairs": [
+        {
+          "left": "Nucleus",
+          "right": "Controls the cell; contains DNA"
+        },
+        {
+          "left": "Cell membrane",
+          "right": "Controls what enters and leaves"
+        },
+        {
+          "left": "Mitochondria",
+          "right": "Release energy by respiration"
+        },
+        {
+          "left": "Chloroplast",
+          "right": "Makes food by photosynthesis"
+        },
+        {
+          "left": "Cell wall",
+          "right": "Supports and protects plant cells"
+        }
+      ],
+      "explain": "Each organelle has a job."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Found in plant cells only, or in both plant and animal cells?",
+      "bins": [
+        "Plant cells only",
+        "Both"
+      ],
+      "items": [
+        {
+          "label": "Cell wall",
+          "bin": 0
+        },
+        {
+          "label": "Nucleus",
+          "bin": 1
+        },
+        {
+          "label": "Chloroplasts",
+          "bin": 0
+        },
+        {
+          "label": "Cell membrane",
+          "bin": 1
+        },
+        {
+          "label": "Large central vacuole",
+          "bin": 0
+        },
+        {
+          "label": "Mitochondria",
+          "bin": 1
+        }
+      ],
+      "explain": "Plant cells have three extra parts."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why don’t onion peel cells have chloroplasts, even though they are plant cells?",
+      "options": [
+        "Onions aren't plants",
+        "The onion bulb grows underground, where there is no light for photosynthesis",
+        "The stain destroyed them",
+        "Chloroplasts are too small to see"
+      ],
+      "answer": 1,
+      "explain": "Only plant cells exposed to light (like leaf cells) have many chloroplasts."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Under the microscope you see regular, brick-shaped cells with thick outlines and green dots inside. What are they?",
+      "options": [
+        "Animal cells",
+        "Plant cells from a leaf",
+        "Bacteria",
+        "Red blood cells"
+      ],
+      "answer": 1,
+      "explain": "Cell walls and chloroplasts show they are leaf cells."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the difference between the cell membrane and the cell wall?",
+      "options": [
+        "They are the same",
+        "The membrane is thin and controls what passes in and out; the wall is a tough outer layer (only in plants) that gives support",
+        "The wall controls entry; the membrane gives support",
+        "Animals have walls; plants have membranes"
+      ],
+      "answer": 1,
+      "explain": "Plant cells have both: the wall outside the membrane."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Give three differences between a plant cell and an animal cell, and explain why plants need each extra part.",
+      "modelAnswer": "1) Plant cells have a cell wall made of cellulose, which gives support so plants can stand upright without a skeleton. 2) Many plant cells have chloroplasts, which make food by photosynthesis, since plants cannot eat. 3) Plant cells have a large central vacuole filled with cell sap, which keeps the cell firm and stores water. Animal cells lack these, but have a flexible shape.",
+      "rubric": [
+        "Cell wall with support",
+        "Chloroplasts with photosynthesis",
+        "Large vacuole with firmness/storage"
+      ],
+      "explain": "Link structure to function."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The ___ is the control centre of the cell. The jelly-like substance around it is the ___.",
+      "blanks": [
+        [
+          "nucleus"
+        ],
+        [
+          "cytoplasm"
+        ]
+      ],
+      "wordBank": [
+        "nucleus",
+        "cytoplasm",
+        "vacuole",
+        "wall"
+      ],
+      "explain": "Most chemical reactions happen in the cytoplasm."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which organelle would you expect to find in large numbers in muscle cells, which need lots of energy?",
+      "options": [
+        "Chloroplasts",
+        "Mitochondria",
+        "Cell walls",
+        "Large vacuoles"
+      ],
+      "answer": 1,
+      "explain": "Mitochondria release energy through respiration."
+    }
+  ]
+}

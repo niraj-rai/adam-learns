@@ -1,0 +1,52 @@
+{
+  "id": "levels-of-organisation",
+  "number": "2.4",
+  "title": "Cells to Organisms: Levels of Organisation",
+  "summary": "Cells form tissues, tissues form organs, organs form organ systems, and systems make an organism.",
+  "emoji": "🪜",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Organ systems are studied in detail in Unit 5"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 2: The Invisible Living World: Beyond Our Naked Eye",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can put the levels of organisation in order: cell, tissue, organ, organ system, organism.",
+    "I can give plant and animal examples of each level.",
+    "I can explain why organs need several different tissues."
+  ],
+  "misconceptions": [
+    "An organ is made of just one type of cell.",
+    "Plants don't have organs.",
+    "Tissue means tissue paper."
+  ],
+  "prerequisites": [
+    "biology/cells/specialised-cells"
+  ],
+  "labs": [
+    "organisation-zoom"
+  ],
+  "keyTerms": [
+    "cell",
+    "tissue",
+    "organ",
+    "organ system",
+    "organism"
+  ],
+  "estMinutes": 20
+}

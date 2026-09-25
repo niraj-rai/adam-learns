@@ -1,0 +1,117 @@
+{
+  "topicId": "cell-division",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "One cell divides 5 times, and every new cell divides each time. How many cells are there?",
+      "answer": 32,
+      "tolerance": 0,
+      "unit": "cells",
+      "explain": "2⁵ = 32."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A bacterium divides every 20 minutes. Starting with one, how many are there after 2 hours?",
+      "answer": 64,
+      "tolerance": 0,
+      "unit": "bacteria",
+      "explain": "2 hours = 6 divisions: 2⁶ = 64."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How does a cut on your knee heal?",
+      "options": [
+        "Old cells stretch to fill the gap",
+        "Cells near the cut divide to make new cells",
+        "Blood turns into skin",
+        "It doesn't heal"
+      ],
+      "answer": 1,
+      "explain": "Cell division repairs damaged tissue."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How does an amoeba reproduce?",
+      "options": [
+        "It lays eggs",
+        "It splits into two (binary fission)",
+        "It makes seeds",
+        "It needs a partner"
+      ],
+      "answer": 1,
+      "explain": "Many unicellular organisms reproduce by dividing into two."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Why is it safer to put leftover cooked rice in the fridge rather than leaving it out overnight?",
+      "options": [
+        "The fridge makes it taste better",
+        "Cold slows down how fast bacteria divide, so far fewer build up",
+        "Bacteria die instantly in the fridge",
+        "Rice dries out outside"
+      ],
+      "answer": 1,
+      "explain": "At room temperature bacteria can double every 20–30 minutes."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "About how many doublings would it take to go from 1 cell to more than 1000 cells?",
+      "answer": 10,
+      "tolerance": 0,
+      "unit": "doublings",
+      "explain": "2¹⁰ = 1024."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Street-food stalls often keep food out for hours in hot weather. Using what you know about how bacteria multiply, suggest three rules a vendor could follow to keep food safe.",
+      "modelAnswer": "1) Cook food fresh in small batches and sell it quickly, so bacteria have little time to multiply. 2) Keep cooked food either very hot or cold (in an ice box), because bacteria divide fastest at warm temperatures. 3) Cover food and use clean water and utensils, to reduce the number of bacteria that get in to start with. Also wash hands and throw away leftovers at the end of the day.",
+      "rubric": [
+        "Limit time at warm temperatures",
+        "Keep hot or cold",
+        "Hygiene reduces starting bacteria",
+        "Linked to doubling/division"
+      ],
+      "explain": "Criterion D: apply science to public health."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "All new cells come from existing cells by cell ___.",
+      "blanks": [
+        [
+          "division"
+        ]
+      ],
+      "wordBank": [
+        "division",
+        "magic",
+        "growth"
+      ],
+      "explain": "A key idea of cell theory."
+    }
+  ]
+}

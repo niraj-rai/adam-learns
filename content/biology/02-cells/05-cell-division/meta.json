@@ -1,0 +1,59 @@
+{
+  "id": "cell-division",
+  "number": "2.5",
+  "title": "One Cell to Many: Cell Division",
+  "summary": "New cells come from old cells. Doubling, growth and repair, and why bacteria in food multiply so fast.",
+  "emoji": "🔁",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Mitosis and meiosis are formalised in MYP 5 / CBSE 10"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 2: The Invisible Living World: Beyond Our Naked Eye",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "The Fundamental Unit of Life",
+        "verified": false
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain that new cells are made when existing cells divide.",
+    "I can calculate the number of cells after several divisions.",
+    "I can apply cell division to growth, repair and food safety."
+  ],
+  "misconceptions": [
+    "Cells grow bigger and bigger instead of dividing.",
+    "New cells can appear from nothing.",
+    "Bacteria in food are harmless if you can't see them."
+  ],
+  "prerequisites": [
+    "biology/cells/levels-of-organisation"
+  ],
+  "labs": [
+    "cell-division"
+  ],
+  "keyTerms": [
+    "cell division",
+    "binary fission",
+    "growth",
+    "repair",
+    "doubling",
+    "unicellular"
+  ],
+  "estMinutes": 20
+}

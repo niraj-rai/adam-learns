@@ -1,0 +1,36 @@
+{
+  "id": "cells",
+  "number": 2,
+  "title": "Cells: The Building Blocks of Life",
+  "summary": "Every living thing is made of cells. Use a virtual microscope, build plant and animal cells, discover why cells are tiny and specialised, and climb the ladder from cell to organism.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": [
+      "Form",
+      "Function",
+      "Models"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Scientific instruments like the microscope revealed that all living things are systems built from cells whose form suits their function."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is a cell?",
+      "How are plant and animal cells different?",
+      "How does a microscope magnify?"
+    ],
+    "conceptual": [
+      "How does the shape of a cell relate to its function?",
+      "How do cells work together as tissues, organs and systems?"
+    ],
+    "debatable": [
+      "Which invention has done more for biology: the microscope or the computer?",
+      "Should scientists be allowed to grow human organs from cells in the lab?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 8 (Curiosity) Ch 2: The Invisible Living World: Beyond Our Naked Eye",
+    "Earlier NCERT Class 8 Ch 8: Cell: Structure and Functions",
+    "Class 9: The Fundamental Unit of Life (check against the current NCERT edition)"
+  ]
+}

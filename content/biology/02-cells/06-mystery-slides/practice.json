@@ -1,0 +1,143 @@
+{
+  "topicId": "mystery-slides",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which feature tells you a slide shows bacteria rather than animal cells?",
+      "options": [
+        "They are larger",
+        "They are tiny and have no nucleus",
+        "They are green",
+        "They have cell walls and chloroplasts"
+      ],
+      "answer": 1,
+      "explain": "Bacteria are much smaller and lack a nucleus."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which feature tells you a cell is a plant cell?",
+      "options": [
+        "A nucleus",
+        "A cell membrane",
+        "A cell wall",
+        "Cytoplasm"
+      ],
+      "answer": 2,
+      "explain": "Animal cells have no cell wall."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Mystery Slides, which specimen needed the highest magnification (1000×) to see clearly?",
+      "options": [
+        "Onion peel",
+        "Nerve cells",
+        "Bacteria",
+        "Cheek cells"
+      ],
+      "answer": 2,
+      "explain": "Bacteria are only a few micrometres long."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Does each cell have a nucleus?",
+      "bins": [
+        "Has a nucleus",
+        "No nucleus"
+      ],
+      "items": [
+        {
+          "label": "Cheek cell",
+          "bin": 0
+        },
+        {
+          "label": "Mature red blood cell",
+          "bin": 1
+        },
+        {
+          "label": "Onion cell",
+          "bin": 0
+        },
+        {
+          "label": "Bacterium",
+          "bin": 1
+        },
+        {
+          "label": "Nerve cell",
+          "bin": 0
+        }
+      ],
+      "explain": "Bacteria and mature red blood cells lack a nucleus."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A red blood cell is about 7.5 µm across. How many would fit side by side across 1 mm?",
+      "answer": 133,
+      "tolerance": 1,
+      "unit": "cells",
+      "explain": "1000 ÷ 7.5 ≈ 133."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "You see green, walled cells at 400×. Your friend says they are animal cells. Give two pieces of evidence that prove your friend wrong.",
+      "modelAnswer": "1) The cells have thick cell walls around them, which animal cells never have. 2) They contain green chloroplasts for photosynthesis, which are only found in plant cells (and some algae). Their regular, box-like shape also suggests plant cells.",
+      "rubric": [
+        "Cell walls",
+        "Chloroplasts",
+        "Correct conclusion: plant cells"
+      ],
+      "explain": "Use observable evidence."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "When looking for cells on a new slide, which objective should you start with?",
+      "options": [
+        "The highest power",
+        "The lowest power",
+        "The oil lens",
+        "It doesn't matter"
+      ],
+      "answer": 1,
+      "explain": "Low power shows a wide area, which makes the specimen easier to find."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Long branching cells that carry messages around the body are ___ cells.",
+      "blanks": [
+        [
+          "nerve"
+        ]
+      ],
+      "wordBank": [
+        "nerve",
+        "blood",
+        "plant"
+      ],
+      "explain": "Also called neurons."
+    }
+  ]
+}
