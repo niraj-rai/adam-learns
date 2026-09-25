@@ -2,7 +2,7 @@
 
 An interactive learning website for a Grade 8 student at an IB school in Bengaluru. It is aligned to **IB MYP** and cross-mapped to **CBSE/NCERT**, so each topic works for both boards.
 
-**Status:** Chemistry up to Grade 8 is complete (6 units). **Physics** up to Grade 8 is complete (7 units): Measurement & Motion; Forces & Pressure; Energy, Heat & Temperature; Light; Sound; Electricity & Magnetism; Earth & Space. See [docs/curriculum/physics.md](docs/curriculum/physics.md). **Biology** is in progress: Units 1–4 (Living Things & Classification; Cells; Microorganisms; Nutrition) are built; see [docs/curriculum/biology.md](docs/curriculum/biology.md). Mathematics follows. Subjects appear in the order Physics, Chemistry, Biology, Mathematics.
+**Status:** Chemistry up to Grade 8 is complete (6 units). **Physics** up to Grade 8 is complete (7 units): Measurement & Motion; Forces & Pressure; Energy, Heat & Temperature; Light; Sound; Electricity & Magnetism; Earth & Space. See [docs/curriculum/physics.md](docs/curriculum/physics.md). **Biology** is in progress: Units 1–5 (Living Things & Classification; Cells; Microorganisms; Nutrition; Human Body Systems) are built; see [docs/curriculum/biology.md](docs/curriculum/biology.md). Mathematics follows. Subjects appear in the order Physics, Chemistry, Biology, Mathematics.
 
 ## Run it locally
 

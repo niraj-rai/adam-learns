@@ -1,0 +1,57 @@
+{
+  "id": "excretion",
+  "number": "5.3",
+  "title": "Excretion and the Kidneys",
+  "summary": "How the kidneys filter blood, what urine contains, how the body balances water, and what happens when kidneys fail.",
+  "emoji": "🫘",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Nephron structure follows in MYP 5 / CBSE 10"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 11: Transportation in Animals and Plants",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain excretion as removing waste made by the body.",
+    "I can describe how the kidneys filter blood and form urine.",
+    "I can explain how the kidneys help control the body's water balance."
+  ],
+  "misconceptions": [
+    "Excretion and egestion are the same.",
+    "The kidneys remove undigested food.",
+    "Drinking less water is good because you urinate less."
+  ],
+  "prerequisites": [
+    "biology/body/heart-and-circulation"
+  ],
+  "labs": [
+    "kidney-filter"
+  ],
+  "keyTerms": [
+    "excretion",
+    "kidney",
+    "urea",
+    "urine",
+    "ureter",
+    "bladder",
+    "filtration",
+    "dialysis",
+    "sweat"
+  ],
+  "estMinutes": 25
+}

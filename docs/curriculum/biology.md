@@ -53,12 +53,22 @@
 | 4.5 | The digestive system | MYP 2 | Cur-7 Ch 9 ✅ | ★★ | **Digestion Journey**: organ-by-organ + saliva–starch test |
 | 4.6 | Boss: Diet Doctor | MYP 3 | Cur-6 Ch 3 ✅ | ★★★ | Diagnose 6 deficiencies and prescribe Indian foods (3 lives) |
 
-### Units 5–8 (planned)
+### Unit 5: Human Body Systems ✅ built
+*IB Key Concept:* **Systems** · *Related:* Function, Interaction, Balance · *Global Context:* Identities and relationships
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 5.1 | Breathing and respiration | MYP 2 | Cur-7 Ch 9 ✅, earlier NCERT 7 Ch 10 ✅ | ★★ | **Breathing Lab**: bell-jar model, rates, limewater |
+| 5.2 | Heart, blood and circulation | MYP 3 | Earlier NCERT 7 Ch 11 ✅ | ★★ | **Heart Pump**: double-loop ordering, pulse/cardiac output, blood layers |
+| 5.3 | Excretion and the kidneys | MYP 3 | Earlier NCERT 7 Ch 11 ✅ | ★★ | **Kidney Filter**: urine prediction, water balance |
+| 5.4 | Bones, joints and muscles | MYP 1 | Earlier NCERT 6 Ch 8 ✅ | ★ | **Joints and Muscles**: biceps/triceps arm, 5 joint types |
+| 5.5 | Boss: Marathon Medic | MYP 3 | Cur-7 Ch 9 ✅ | ★★★ | Read a runner's data across 6 checkpoints (3 lives) |
+
+### Units 6–8 (planned)
 
 
 | Unit | Topics | IB | CBSE | ★ | Signature labs |
 |---|---|---|---|---|---|
-| 5. Human Body Systems | Respiration, circulation, excretion, skeleton & movement | MYP 2 | 7 | ★★★ | **Heart Pump** animation, Breathing model |
 | 6. Health & Disease | Immunity, communicable diseases, vaccination, hygiene | MYP 3 | Cur-8 Ch3 ⚠️ | ★★ | **Outbreak sim** (vaccination rate slider) |
 | 7. Reproduction & Adolescence | Plant reproduction, animal reproduction, puberty, hormones (age-appropriate) | MYP 2–3 | 7, Old-8 Ch9–10 | ★★★ | Flower dissection (label), Life-cycle sequencer |
 | 8. Ecosystems & Conservation | Food chains and webs, habitats, adaptation, biodiversity, conservation, Western Ghats | MYP 1–3 | 6, 7, Old-8 Ch7 | ★★ | **Ecosystem Balance** sim (predator/prey) |

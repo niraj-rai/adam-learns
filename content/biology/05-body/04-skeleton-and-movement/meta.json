@@ -1,0 +1,57 @@
+{
+  "id": "skeleton-and-movement",
+  "number": "5.4",
+  "title": "Bones, Joints and Muscles",
+  "summary": "The skeleton's jobs, types of joints, and how muscles work in pairs to move bones.",
+  "emoji": "💪",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 1,
+      "note": "Levers and forces in the body link to Physics Unit 2"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Earlier NCERT Ch 8: Body Movements",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can describe the functions of the skeleton.",
+    "I can identify ball-and-socket, hinge, pivot, gliding and fixed joints.",
+    "I can explain how antagonistic muscle pairs move bones."
+  ],
+  "misconceptions": [
+    "Bones are dead and dry.",
+    "Muscles can push bones.",
+    "All joints move in the same way."
+  ],
+  "prerequisites": [
+    "biology/cells/levels-of-organisation"
+  ],
+  "labs": [
+    "joint-explorer"
+  ],
+  "keyTerms": [
+    "skeleton",
+    "bone",
+    "joint",
+    "ball and socket",
+    "hinge",
+    "pivot",
+    "cartilage",
+    "ligament",
+    "tendon",
+    "antagonistic muscles"
+  ],
+  "estMinutes": 20
+}

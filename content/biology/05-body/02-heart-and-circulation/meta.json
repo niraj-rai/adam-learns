@@ -1,0 +1,65 @@
+{
+  "id": "heart-and-circulation",
+  "number": "5.2",
+  "title": "The Heart, Blood and Circulation",
+  "summary": "The four-chambered heart, the double loop of circulation, arteries and veins, the pulse, and what blood is made of.",
+  "emoji": "🫀",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Blood pressure and heart disease follow in MYP 5"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 11: Transportation in Animals and Plants",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 9: Life Processes in Animals (check coverage)",
+        "verified": false
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe the path of blood through the heart, lungs and body.",
+    "I can distinguish arteries, veins and capillaries.",
+    "I can name the components of blood and their functions."
+  ],
+  "misconceptions": [
+    "The heart is on the left side of the chest (it is roughly central, tilted left).",
+    "Veins carry blue blood.",
+    "Blood only carries oxygen."
+  ],
+  "prerequisites": [
+    "biology/body/breathing-and-respiration"
+  ],
+  "labs": [
+    "heart-pump"
+  ],
+  "keyTerms": [
+    "heart",
+    "atrium",
+    "ventricle",
+    "artery",
+    "vein",
+    "capillary",
+    "pulse",
+    "double circulation",
+    "red blood cell",
+    "white blood cell",
+    "platelet",
+    "plasma"
+  ],
+  "estMinutes": 30
+}

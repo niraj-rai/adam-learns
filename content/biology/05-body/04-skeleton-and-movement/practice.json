@@ -1,0 +1,146 @@
+{
+  "topicId": "skeleton-and-movement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each joint type to where it is found.",
+      "pairs": [
+        {
+          "left": "Ball and socket",
+          "right": "Shoulder"
+        },
+        {
+          "left": "Hinge",
+          "right": "Knee"
+        },
+        {
+          "left": "Pivot",
+          "right": "Neck"
+        },
+        {
+          "left": "Fixed",
+          "right": "Skull"
+        },
+        {
+          "left": "Gliding",
+          "right": "Wrist"
+        }
+      ],
+      "explain": "Different joints allow different movements."
+    },
+    {
+      "id": "q2",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What are the functions of the skeleton? Choose all that apply.",
+      "options": [
+        "Support and shape",
+        "Protecting organs like the brain and heart",
+        "Allowing movement with muscles",
+        "Making blood cells (in bone marrow)",
+        "Digesting food"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explain": "Bone marrow makes blood cells."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the arm model, what happened to the triceps when the biceps contracted?",
+      "options": [
+        "It also contracted",
+        "It relaxed",
+        "It disappeared",
+        "It turned into bone"
+      ],
+      "answer": 1,
+      "explain": "Antagonistic pairs: one contracts, the other relaxes."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why must muscles work in pairs?",
+      "options": [
+        "Muscles can only pull, not push",
+        "One muscle is always resting",
+        "It looks better",
+        "Bones are too heavy"
+      ],
+      "answer": 0,
+      "explain": "Each muscle of the pair pulls the bone in the opposite direction."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "An adult has 206 bones and a newborn about 300. About how many bones fuse together as a child grows?",
+      "answer": 94,
+      "tolerance": 0,
+      "unit": "bones",
+      "explain": "300 − 206 = 94."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What connects muscles to bones?",
+      "options": [
+        "Ligaments",
+        "Tendons",
+        "Cartilage",
+        "Nerves"
+      ],
+      "answer": 1,
+      "explain": "Ligaments connect bone to bone."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain why you can swing your arm in a full circle at the shoulder but can only bend your knee one way.",
+      "modelAnswer": "The shoulder is a ball-and-socket joint: the round head of the upper-arm bone sits in a cup-shaped socket, so it can move in almost every direction and rotate. The knee is a hinge joint, like a door hinge, so it only allows movement back and forth in one plane.",
+      "rubric": [
+        "Shoulder = ball and socket, many directions",
+        "Knee = hinge, one direction",
+        "Links structure to movement"
+      ],
+      "explain": "Structure determines movement."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "A smooth, rubbery tissue called ___ cushions the ends of bones at joints.",
+      "blanks": [
+        [
+          "cartilage"
+        ]
+      ],
+      "wordBank": [
+        "cartilage",
+        "tendon",
+        "muscle"
+      ],
+      "explain": "The outer ear and nose tip are also made of cartilage."
+    }
+  ]
+}

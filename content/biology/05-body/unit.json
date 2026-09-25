@@ -1,0 +1,37 @@
+{
+  "id": "body",
+  "number": 5,
+  "title": "Human Body Systems",
+  "summary": "Breathing and respiration, the heart and blood, the kidneys, and the bones, joints and muscles that move us, and how they all work together when you run a race.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": [
+      "Function",
+      "Interaction",
+      "Balance"
+    ],
+    "globalContext": "Identities and relationships",
+    "statementOfInquiry": "The body's organ systems interact to keep us alive and in balance, and understanding them helps us make healthy choices."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "How do we breathe in and out?",
+      "What path does blood take through the heart?",
+      "What do the kidneys remove from the blood?"
+    ],
+    "conceptual": [
+      "How do the respiratory and circulatory systems work together during exercise?",
+      "Why do muscles work in pairs?"
+    ],
+    "debatable": [
+      "Should organ donation be ‘opt-out’ (everyone is a donor unless they say no)?",
+      "Should schools require daily physical exercise?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 7 (Curiosity) Ch 9: Life Processes in Animals",
+    "Earlier NCERT Class 7 Ch 10: Respiration in Organisms",
+    "Earlier NCERT Class 7 Ch 11: Transportation in Animals and Plants",
+    "Earlier NCERT Class 6 Ch 8: Body Movements"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "topicId": "marathon-medic",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do we sweat more during exercise?",
+      "options": [
+        "To lose weight",
+        "Evaporating sweat takes heat from the skin and cools the body",
+        "To remove oxygen",
+        "Because the kidneys stop"
+      ],
+      "answer": 1,
+      "explain": "Remember evaporation from the Physics and Chemistry units!"
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "During a race, does each go UP or DOWN?",
+      "bins": [
+        "Goes up",
+        "Goes down"
+      ],
+      "items": [
+        {
+          "label": "Heart rate",
+          "bin": 0
+        },
+        {
+          "label": "Breathing rate",
+          "bin": 0
+        },
+        {
+          "label": "Amount of urine made",
+          "bin": 1
+        },
+        {
+          "label": "Sweating",
+          "bin": 0
+        },
+        {
+          "label": "Body's water content (without drinking)",
+          "bin": 1
+        }
+      ],
+      "explain": "The systems adjust together."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A runner's heart rate rose from 72 to 162 beats per minute. By how many beats per minute did it increase?",
+      "answer": 90,
+      "tolerance": 0,
+      "unit": "bpm",
+      "explain": "162 − 72 = 90."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do heart and breathing rates stay high for a while AFTER a race?",
+      "options": [
+        "The runner is still running",
+        "Extra oxygen is needed to recover the muscles and remove lactic acid",
+        "The heart is damaged",
+        "The lungs are full of water"
+      ],
+      "answer": 1,
+      "explain": "This is sometimes called paying back the oxygen debt."
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Using at least three body systems, explain how the body supplies a leg muscle with what it needs during a race.",
+      "modelAnswer": "The respiratory system breathes faster and deeper to take in more oxygen and remove carbon dioxide. The circulatory system increases heart rate to pump more blood, carrying oxygen from the lungs and glucose from digested food to the leg muscles, and carrying away CO₂. The muscle (skeletal/muscular system) uses them in respiration to release energy for contraction. Meanwhile the skin sweats to remove heat, and the kidneys save water.",
+      "rubric": [
+        "Respiratory system: more oxygen in, CO₂ out",
+        "Circulatory system: faster transport",
+        "Muscles use oxygen and glucose to release energy",
+        "A fourth system (skin, kidneys, digestive)"
+      ],
+      "explain": "Criterion C: systems thinking."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What should a runner drink on a long, hot run?",
+      "options": [
+        "Nothing",
+        "Water, with some salts (e.g. oral rehydration solution)",
+        "Only cola",
+        "Only milk"
+      ],
+      "answer": 1,
+      "explain": "Sweat removes both water and salts."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A trained athlete's resting heart rate is 50 bpm, while an untrained person's is 75 bpm. What is the most likely reason?",
+      "options": [
+        "The athlete is ill",
+        "The athlete's stronger heart pumps more blood per beat, so it needs fewer beats",
+        "The athlete has less blood",
+        "The untrained person is exercising"
+      ],
+      "answer": 1,
+      "explain": "Training strengthens the heart muscle."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Losing too much water from the body, for example by sweating, is called ___.",
+      "blanks": [
+        [
+          "dehydration"
+        ]
+      ],
+      "wordBank": [
+        "dehydration",
+        "digestion",
+        "respiration"
+      ],
+      "explain": "Thirst and dark urine are early warning signs."
+    }
+  ]
+}

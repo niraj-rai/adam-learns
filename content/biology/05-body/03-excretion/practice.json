@@ -1,0 +1,147 @@
+{
+  "topicId": "excretion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Order the parts of the excretory system that urine passes through.",
+      "steps": [
+        "Kidneys",
+        "Ureters",
+        "Urinary bladder",
+        "Urethra"
+      ],
+      "explain": "Urine is made in the kidneys and stored in the bladder."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Normally found in urine, or kept in the blood?",
+      "bins": [
+        "In urine",
+        "Kept in blood"
+      ],
+      "items": [
+        {
+          "label": "Urea",
+          "bin": 0
+        },
+        {
+          "label": "Glucose",
+          "bin": 1
+        },
+        {
+          "label": "Proteins",
+          "bin": 1
+        },
+        {
+          "label": "Extra water",
+          "bin": 0
+        },
+        {
+          "label": "Blood cells",
+          "bin": 1
+        },
+        {
+          "label": "Extra salts",
+          "bin": 0
+        }
+      ],
+      "explain": "Useful substances are filtered and reabsorbed."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the difference between excretion and egestion?",
+      "options": [
+        "They are the same",
+        "Excretion removes wastes made by body cells (like urea); egestion removes undigested food (faeces)",
+        "Egestion happens in the kidneys",
+        "Excretion removes only water"
+      ],
+      "answer": 1,
+      "explain": "Faeces were never really inside the body's cells."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Water Balance tab, sweat was increased to 1.5 L on a hot day. What happened to urine?",
+      "options": [
+        "More and paler",
+        "Less and darker",
+        "No change",
+        "It stopped completely"
+      ],
+      "answer": 1,
+      "explain": "The kidneys saved water."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What does a dialysis machine do?",
+      "options": [
+        "Pumps blood like a heart",
+        "Filters wastes from the blood when the kidneys fail",
+        "Adds oxygen to blood",
+        "Digests food"
+      ],
+      "answer": 1,
+      "explain": "It acts as an artificial kidney."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "The kidneys filter about 180 litres of fluid a day but produce only about 1.5 L of urine. What percentage of the filtered fluid is reabsorbed?",
+      "answer": 99.2,
+      "tolerance": 0.1,
+      "unit": "%",
+      "explain": "(180 − 1.5) ÷ 180 × 100 ≈ 99.2%."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Organ donation can save the lives of people whose kidneys have failed. Some countries use an ‘opt-out’ system (everyone is a donor unless they refuse). Should India consider this? Give arguments for and against.",
+      "modelAnswer": "For: many people die waiting for a kidney; opt-out systems usually increase donations, and dialysis is expensive and exhausting. Against: people may not know they are registered; it may conflict with religious or personal beliefs and families' wishes; trust in the system and prevention of misuse are essential. A balanced view: improve awareness and make registration easy first, and consider opt-out only with strong safeguards and public consent.",
+      "rubric": [
+        "A benefit of opt-out",
+        "A concern (consent, beliefs, trust)",
+        "A reasoned conclusion"
+      ],
+      "explain": "Criterion D: an ethical debate."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The main nitrogen-containing waste removed by the kidneys is ___.",
+      "blanks": [
+        [
+          "urea"
+        ]
+      ],
+      "wordBank": [
+        "urea",
+        "glucose",
+        "oxygen"
+      ],
+      "explain": "Urea is made in the liver from extra protein."
+    }
+  ]
+}

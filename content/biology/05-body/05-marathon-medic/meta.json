@@ -1,0 +1,56 @@
+{
+  "id": "marathon-medic",
+  "number": "5.5",
+  "title": "Boss Challenge: Marathon Medic",
+  "summary": "Follow a runner through a half marathon, reading heart rate, breathing, temperature and sweat, and explain how the body's systems respond.",
+  "emoji": "🏅",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task: interpreting data about interacting systems (Criteria A and C)"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 9: Life Processes in Animals",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 11: Transportation in Animals and Plants",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can interpret data on heart rate, breathing, sweating and temperature.",
+    "I can explain how the body's systems work together during exercise."
+  ],
+  "misconceptions": [
+    "Each body system works on its own."
+  ],
+  "prerequisites": [
+    "biology/body/breathing-and-respiration",
+    "biology/body/heart-and-circulation",
+    "biology/body/excretion"
+  ],
+  "labs": [
+    "marathon-medic"
+  ],
+  "keyTerms": [
+    "heart rate",
+    "breathing rate",
+    "dehydration",
+    "sweat",
+    "recovery"
+  ],
+  "estMinutes": 15
+}

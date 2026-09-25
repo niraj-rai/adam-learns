@@ -1,0 +1,139 @@
+{
+  "topicId": "heart-and-circulation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Order the path of blood, starting from the body.",
+      "steps": [
+        "Body",
+        "Right atrium",
+        "Right ventricle",
+        "Lungs",
+        "Left atrium",
+        "Left ventricle",
+        "Body again"
+      ],
+      "explain": "Blood passes through the heart twice in each full circuit."
+    },
+    {
+      "id": "q2",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each part of blood to its job.",
+      "pairs": [
+        {
+          "left": "Red blood cells",
+          "right": "Carry oxygen"
+        },
+        {
+          "left": "White blood cells",
+          "right": "Fight infection"
+        },
+        {
+          "left": "Platelets",
+          "right": "Help blood to clot"
+        },
+        {
+          "left": "Plasma",
+          "right": "Carries dissolved food and wastes"
+        }
+      ],
+      "explain": "Blood is a transport tissue."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which blood vessels carry blood AWAY from the heart?",
+      "options": [
+        "Veins",
+        "Arteries",
+        "Capillaries",
+        "Nerves"
+      ],
+      "answer": 1,
+      "explain": "Arteries have thick, muscular walls for the high pressure."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A heart beats 80 times per minute and pumps 70 mL per beat. How many litres does it pump per minute?",
+      "answer": 5.6,
+      "tolerance": 0.01,
+      "unit": "L",
+      "explain": "80 × 70 = 5600 mL = 5.6 L."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Riya counted 18 pulse beats in 15 seconds. What is her pulse rate per minute?",
+      "options": [
+        "18",
+        "36",
+        "72",
+        "90"
+      ],
+      "answer": 2,
+      "explain": "18 × 4 = 72 beats per minute."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Why is the wall of the left ventricle thicker than the right?",
+      "options": [
+        "It holds more blood",
+        "It must pump blood all around the body, not just to the nearby lungs",
+        "It is older",
+        "It stores oxygen"
+      ],
+      "answer": 1,
+      "explain": "More muscle gives a stronger push."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Blood donation camps are held across India. Explain why donated blood is so valuable, and suggest one way to encourage more young adults to donate when they turn 18.",
+      "modelAnswer": "Blood cannot be manufactured, and it is needed for accident victims, surgeries, childbirth and patients with conditions like thalassaemia who need regular transfusions. Each donation can help more than one person because it is separated into red cells, plasma and platelets. Ideas: organise college donation drives with friends, share stories of people who were helped, explain that donation is safe and that the body replaces the blood, and recognise donors with certificates or apps.",
+      "rubric": [
+        "Why blood is needed (examples)",
+        "It can't be manufactured / helps several people",
+        "A realistic way to encourage donors"
+      ],
+      "explain": "Criterion D: science and community."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The tiny blood vessels where oxygen and food pass into the body's cells are called ___.",
+      "blanks": [
+        [
+          "capillaries"
+        ]
+      ],
+      "wordBank": [
+        "capillaries",
+        "arteries",
+        "veins"
+      ],
+      "explain": "Their walls are only one cell thick."
+    }
+  ]
+}

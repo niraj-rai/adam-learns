@@ -1,0 +1,63 @@
+{
+  "id": "breathing-and-respiration",
+  "number": "5.1",
+  "title": "Breathing and Respiration",
+  "summary": "How the diaphragm and ribs move air in and out, how exercise changes breathing, and how cells release energy from glucose.",
+  "emoji": "🫁",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Aerobic and anaerobic respiration equations follow in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 9: Life Processes in Animals",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 10: Respiration in Organisms",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can describe how breathing in and out happens, using the diaphragm and ribs.",
+    "I can distinguish breathing (moving air) from respiration (releasing energy in cells).",
+    "I can show that exhaled air contains more carbon dioxide."
+  ],
+  "misconceptions": [
+    "Breathing and respiration are the same thing.",
+    "We breathe in oxygen and breathe out only carbon dioxide.",
+    "Lungs are muscles that pump air."
+  ],
+  "prerequisites": [
+    "biology/cells/plant-and-animal-cells",
+    "biology/nutrition/digestion"
+  ],
+  "labs": [
+    "breathing-lab"
+  ],
+  "keyTerms": [
+    "breathing",
+    "respiration",
+    "diaphragm",
+    "ribs",
+    "lungs",
+    "trachea",
+    "alveoli",
+    "limewater",
+    "anaerobic respiration"
+  ],
+  "estMinutes": 25
+}

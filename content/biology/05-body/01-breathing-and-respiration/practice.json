@@ -1,0 +1,131 @@
+{
+  "topicId": "breathing-and-respiration",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "What happens when you breathe IN?",
+      "options": [
+        "The diaphragm moves up and the ribs move down",
+        "The diaphragm moves down and the ribs move up and out",
+        "The lungs push air in",
+        "Nothing moves"
+      ],
+      "answer": 1,
+      "explain": "The chest space gets bigger, pressure drops and air rushes in."
+    },
+    {
+      "id": "q2",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Complete the word equation for respiration in cells.",
+      "text": "glucose + ___ → carbon dioxide + water + ___",
+      "blanks": [
+        [
+          "oxygen"
+        ],
+        [
+          "energy"
+        ]
+      ],
+      "wordBank": [
+        "oxygen",
+        "energy",
+        "nitrogen",
+        "light"
+      ],
+      "explain": "Respiration releases energy from food."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the difference between breathing and respiration?",
+      "options": [
+        "They are the same",
+        "Breathing moves air in and out of the lungs; respiration releases energy from food in every cell",
+        "Respiration happens only in the lungs",
+        "Breathing happens in cells"
+      ],
+      "answer": 1,
+      "explain": "Breathing is a physical process; respiration is a chemical process."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the limewater test, exhaled air turned limewater milky much faster than room air. What does this show?",
+      "options": [
+        "Exhaled air contains more carbon dioxide",
+        "Exhaled air is colder",
+        "Room air has no oxygen",
+        "Limewater detects oxygen"
+      ],
+      "answer": 0,
+      "explain": "CO₂ is a waste product of respiration."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Adam took 16 breaths per minute at rest and 40 after running. By how many breaths per minute did his rate increase?",
+      "answer": 24,
+      "tolerance": 0,
+      "unit": "breaths/min",
+      "explain": "40 − 16 = 24."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan an investigation into how exercise affects breathing rate.",
+      "modelAnswer": "Count breaths for one minute while sitting quietly (repeat three times and average). Then do a fixed exercise, such as 30 jumping jacks, and immediately count breaths for one minute. Repeat for different amounts of exercise (e.g. 10, 20, 30 jumping jacks), resting until breathing returns to normal between tests. Keep the same person, the same type of exercise and the same counting method. Present results in a table and bar chart.",
+      "rubric": [
+        "Resting rate as a baseline",
+        "Independent variable: amount or type of exercise",
+        "Dependent variable: breaths per minute",
+        "Controls and rest between tests"
+      ],
+      "explain": "Criterion B: plan a safe, fair test."
+    },
+    {
+      "id": "q7",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Order the path of air when you breathe in.",
+      "steps": [
+        "Nose",
+        "Windpipe (trachea)",
+        "Bronchi",
+        "Lungs (tiny air sacs called alveoli)",
+        "Oxygen passes into the blood"
+      ],
+      "explain": "Oxygen diffuses from the air sacs into the blood."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "During very hard exercise, muscles may get cramps from a build-up of…",
+      "options": [
+        "Oxygen",
+        "Lactic acid",
+        "Glucose",
+        "Water"
+      ],
+      "answer": 1,
+      "explain": "When there isn't enough oxygen, muscles respire anaerobically and make lactic acid."
+    }
+  ]
+}
