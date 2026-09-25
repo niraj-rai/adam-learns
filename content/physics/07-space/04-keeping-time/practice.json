@@ -1,0 +1,150 @@
+{
+  "topicId": "keeping-time",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each unit of time to its origin.",
+      "pairs": [
+        {
+          "left": "Day",
+          "right": "Earth rotates once"
+        },
+        {
+          "left": "Month",
+          "right": "The Moon completes its phases"
+        },
+        {
+          "left": "Year",
+          "right": "Earth revolves once around the Sun"
+        }
+      ],
+      "explain": "Calendars are built from sky motions."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "12 lunar months are about 354 days. About how many days shorter is this than a 365-day solar year?",
+      "answer": 11,
+      "tolerance": 0,
+      "unit": "days",
+      "explain": "365 − 354 = 11 days."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do we add a leap day (29 February) every 4 years?",
+      "options": [
+        "To make February longer",
+        "A solar year is about 365¼ days, so the extra ¼ days add up to one day every 4 years",
+        "To match the Moon",
+        "Because of daylight saving"
+      ],
+      "answer": 1,
+      "explain": "Without leap days, the calendar would drift away from the seasons."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which calendar does each festival follow?",
+      "bins": [
+        "Solar (date fixed)",
+        "Lunisolar (shifts a little)",
+        "Lunar (moves round the year)"
+      ],
+      "items": [
+        {
+          "label": "Makar Sankranti / Pongal",
+          "bin": 0
+        },
+        {
+          "label": "Diwali",
+          "bin": 1
+        },
+        {
+          "label": "Eid al-Fitr",
+          "bin": 2
+        },
+        {
+          "label": "Holi",
+          "bin": 1
+        },
+        {
+          "label": "Christmas",
+          "bin": 0
+        }
+      ],
+      "explain": "Solar festivals keep their date; lunar ones follow the Moon."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "The Hindu lunisolar calendar adds an adhik maas (extra month) roughly every…",
+      "options": [
+        "year",
+        "2.7 years (about 32–33 months)",
+        "10 years",
+        "century"
+      ],
+      "answer": 1,
+      "explain": "The 11-day yearly gap builds up to a whole lunar month in about 32–33 months."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A purely lunar festival moves about 11 days earlier each year. About how many years does it take to move right round the 365-day year?",
+      "answer": 33,
+      "tolerance": 1,
+      "unit": "years",
+      "explain": "365 ÷ 11 ≈ 33 years."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Farmers in India have used the sky and lunisolar calendars for centuries to plan sowing and harvest festivals. Why would a lunisolar calendar suit farmers better than a purely lunar one?",
+      "modelAnswer": "Farming depends on the seasons, which follow the Sun: monsoon rains, temperature and day length. A purely lunar calendar drifts about 11 days a year, so a date would move through all the seasons. A lunisolar calendar uses the Moon for months (easy to see in the night sky) but adds leap months to stay in step with the solar year, so festivals like Pongal, Onam and Baisakhi stay linked to harvest times.",
+      "rubric": [
+        "Seasons follow the Sun",
+        "Lunar calendars drift about 11 days a year",
+        "Lunisolar calendars add leap months to stay aligned",
+        "Example festival or farming link"
+      ],
+      "explain": "Criterion D: science, culture and daily life."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "India’s official national calendar, adopted in 1957, is the ___ calendar.",
+      "blanks": [
+        [
+          "Saka",
+          "Shaka"
+        ]
+      ],
+      "wordBank": [
+        "Saka",
+        "Gregorian",
+        "lunar"
+      ],
+      "explain": "The Indian national calendar (Saka) is a solar calendar used alongside the Gregorian calendar."
+    }
+  ]
+}

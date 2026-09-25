@@ -1,0 +1,135 @@
+{
+  "topicId": "solar-system",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Order the planets from the Sun outwards.",
+      "steps": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "explain": "A helpful rhyme: “My Very Educated Mother Just Served Us Noodles.”"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which statement about the Sun is correct?",
+      "options": [
+        "It is a planet",
+        "It is a star",
+        "It is a moon",
+        "It orbits the Earth"
+      ],
+      "answer": 1,
+      "explain": "The Sun is a star: a huge ball of hot gas making its own light."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which is the hottest planet, and why?",
+      "options": [
+        "Mercury, because it is closest",
+        "Venus, because its thick CO₂ atmosphere traps heat",
+        "Mars, because it is red",
+        "Jupiter, because it is biggest"
+      ],
+      "answer": 1,
+      "explain": "Venus’s runaway greenhouse effect makes it hotter than Mercury."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Sunlight takes about 8.3 minutes to reach Earth (1 AU). About how long does it take to reach Jupiter at 5.2 AU?",
+      "answer": 43,
+      "tolerance": 1,
+      "unit": "minutes",
+      "explain": "8.3 × 5.2 ≈ 43 minutes."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the scale model with a football-sized Sun, Earth was about 24 m away. About how far away was Neptune?",
+      "options": [
+        "About 50 m",
+        "About 700 m",
+        "About 7 km",
+        "About 30 m"
+      ],
+      "answer": 1,
+      "explain": "Neptune is 30 AU away: 30 × 24 m ≈ 720 m."
+    },
+    {
+      "id": "q6",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each ISRO mission to its target.",
+      "pairs": [
+        {
+          "left": "Chandrayaan-3",
+          "right": "The Moon (landed in 2023)"
+        },
+        {
+          "left": "Mangalyaan",
+          "right": "Mars (reached orbit in 2014)"
+        },
+        {
+          "left": "Aditya-L1",
+          "right": "The Sun (launched in 2023)"
+        }
+      ],
+      "explain": "India is among the few nations to have reached Mars orbit and landed near the Moon’s south pole."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Some people say India should spend less on space missions and more on problems at home. Give one argument for and one against continuing space missions, and your own view.",
+      "modelAnswer": "For continuing: satellites give weather forecasts that save lives in cyclones, support farming, mapping, communication and navigation; missions inspire students into science; they create jobs and technology, and ISRO’s missions are known for low cost. Against: the money could fund health, education or clean water directly. My view: India should continue, because much space spending (weather and communication satellites) directly helps people on Earth, while making sure the budget is balanced and benefits are shared.",
+      "rubric": [
+        "A valid argument for",
+        "A valid argument against",
+        "A reasoned personal conclusion"
+      ],
+      "explain": "Criterion D: weigh the costs and benefits of science."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The average distance from Earth to the Sun, about 150 million km, is called one ___ unit (AU).",
+      "blanks": [
+        [
+          "astronomical"
+        ]
+      ],
+      "wordBank": [
+        "astronomical",
+        "solar",
+        "planetary"
+      ],
+      "explain": "The AU is a handy ruler for the Solar System."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "seasons",
+  "number": "7.2",
+  "title": "The Seasons",
+  "summary": "Earth’s 23.5° tilt, not its distance from the Sun, gives us summer and winter, long and short days.",
+  "emoji": "🌦️",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Solar declination and insolation follow in DP"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 12: Earth, Moon, and the Sun (seasons)",
+        "verified": false
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain seasons using the tilt of Earth’s axis as it orbits the Sun.",
+    "I can compare day length and noon Sun height at different places and times of year.",
+    "I can explain why places near the equator have little seasonal change."
+  ],
+  "misconceptions": [
+    "Summer happens because Earth is closer to the Sun.",
+    "All places have the same seasons at the same time.",
+    "Day and night are always 12 hours each."
+  ],
+  "prerequisites": [
+    "physics/space/day-and-night"
+  ],
+  "labs": [
+    "seasons-lab"
+  ],
+  "keyTerms": [
+    "revolution",
+    "orbit",
+    "tilt",
+    "axis",
+    "solstice",
+    "equinox",
+    "hemisphere",
+    "midnight Sun"
+  ],
+  "estMinutes": 25
+}

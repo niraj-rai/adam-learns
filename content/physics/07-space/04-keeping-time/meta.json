@@ -1,0 +1,57 @@
+{
+  "id": "keeping-time",
+  "number": "7.4",
+  "title": "Keeping Time with the Skies",
+  "summary": "Days, months and years from the Earth, Moon and Sun. Solar, lunar and lunisolar calendars, leap years and adhik maas.",
+  "emoji": "📅",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Links to MYP Individuals & Societies (history of calendars)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 11: Keeping Time with the Skies",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain how the day, month and year come from the motions of the Earth and Moon.",
+    "I can compare solar, lunar and lunisolar calendars.",
+    "I can explain why leap years and leap months (adhik maas) are needed."
+  ],
+  "misconceptions": [
+    "A year is exactly 365 days.",
+    "A lunar month is exactly 30 days.",
+    "All festivals fall on the same date every year."
+  ],
+  "prerequisites": [
+    "physics/space/moon-phases-and-eclipses",
+    "physics/space/seasons"
+  ],
+  "labs": [
+    "sky-calendar"
+  ],
+  "keyTerms": [
+    "day",
+    "lunar month",
+    "solar year",
+    "leap year",
+    "lunar calendar",
+    "solar calendar",
+    "lunisolar calendar",
+    "adhik maas"
+  ],
+  "estMinutes": 25
+}

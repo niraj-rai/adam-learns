@@ -1,5 +1,7 @@
 # Physics Curriculum Map
 
+> ✅ **L0–L2 (up to Grade 8) complete:** 7 units, 47 topics.
+
 > Phase 3. Same legend as [chemistry.md](chemistry.md). IB MYP first, mapped to CBSE/NCERT.
 > ✅ = verified NCERT *Curiosity* chapter numbers (checked 2026-09-25). ⚠️ = to verify.
 > *Curiosity* Class 8 has 13 chapters. The physics ones are Ch 4 (Electricity: Magnetic and Heating Effects), Ch 5 (Exploring Forces), Ch 6 (Pressure, Winds, Storms and Cyclones), Ch 10 (Light: Mirrors and Lenses) and Ch 11 (Keeping Time with the Skies).
@@ -86,10 +88,18 @@ Sound is not in the new Curiosity series (Classes 6–8), so it maps to the earl
 | 6.5 | Electromagnets | MYP 3 | Cur-8 Ch 4 ✅ | ★★ | **Electromagnet Lab**: Ørsted's compass, turns/current/core |
 | 6.6 | Boss: Circuit Detective | MYP 3 | Cur-7 Ch 3, Cur-8 Ch 4 ✅ | ★★★ | 7 broken circuits to diagnose and fix (each verified by the circuit model) |
 
-### Unit 7: Earth & Space
-| Topics | IB | CBSE | Signature labs |
-|---|---|---|---|
-| Earth, Moon and Sun, day/night, seasons, moon phases, eclipses, keeping time with the sky (calendars) | MYP 1–3 | Cur-6 (Beyond Earth) ⚠️, Cur-7 (Earth, Moon and the Sun) ⚠️, Cur-8 Ch 11 ✅, Ch 13 ✅ | Orbit Sandbox, Moon Phase dial, Sundial |
+### Unit 7: Earth & Space ✅ built
+*IB Key Concept:* **Time, place and space** · *Related:* Movement, Patterns, Models · *Global Context:* Orientation in space and time
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 7.1 | Day, night and the moving Sun | MYP 1 | Cur-7 Ch 12 ✅ | ★ | **Day and Night**: spinning Earth from space, shadow stick / sundial |
+| 7.2 | The seasons | MYP 2 | Cur-7 Ch 12 ⚠️ | ★★ | **Seasons Lab**: tilted orbit, day length and noon Sun for 7 places |
+| 7.3 | Moon phases and eclipses | MYP 2 | Cur-7 Ch 12 ✅, Cur-8 Ch 11 ✅ | ★★ | **Moon Lab**: orbit view + phase from India, eclipses and nodes |
+| 7.4 | Keeping time with the skies: calendars | MYP 3 | Cur-8 Ch 11 ✅ | ★★ | **Sky Calendar**: Sankranti (solar), Diwali (lunisolar), Eid (lunar) over 36 years |
+| 7.5 | The Solar System | MYP 1 | Cur-6 Ch 12 ✅ | ★★ | **Solar System Explorer**: orbits + football-Sun scale walk |
+| 7.6 | Our home: Earth | MYP 3 | Cur-8 Ch 13 ✅ | ★★ | **Goldilocks Planet Lab**: distance, atmosphere, albedo → liquid water? |
+| 7.7 | Boss: Moon Commander | MYP 3 | Cur-7 Ch 12, Cur-8 Ch 11 ✅ | ★★★ | 8 missions: position the Moon for phases and eclipses |
 
 ## L3: Grades 9–10
 

@@ -1,0 +1,133 @@
+{
+  "topicId": "moon-phases-and-eclipses",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Put the phases in order, starting from new moon.",
+      "steps": [
+        "New moon (Amavasya)",
+        "Waxing crescent",
+        "First quarter",
+        "Waxing gibbous",
+        "Full moon (Purnima)",
+        "Waning gibbous",
+        "Last quarter",
+        "Waning crescent"
+      ],
+      "explain": "Waxing = growing; waning = shrinking."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What causes the phases of the Moon?",
+      "options": [
+        "Earth’s shadow covering part of the Moon",
+        "How much of the Moon’s sunlit half we can see from Earth as it orbits",
+        "Clouds on the Moon",
+        "The Moon changing size"
+      ],
+      "answer": 1,
+      "explain": "The Sun always lights half the Moon; our view of that half changes."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "About how many days are there from one Purnima (full moon) to the next?",
+      "answer": 29.5,
+      "tolerance": 0.5,
+      "unit": "days",
+      "explain": "The lunar month is about 29.5 days."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "A solar eclipse happens when…",
+      "options": [
+        "the Earth is between the Sun and the Moon",
+        "the Moon is between the Sun and the Earth",
+        "the Sun is between the Earth and the Moon",
+        "the Moon is at first quarter"
+      ],
+      "answer": 1,
+      "explain": "The Moon’s shadow falls on Earth, at new moon."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "On which night can a lunar eclipse happen?",
+      "options": [
+        "Amavasya (new moon)",
+        "Purnima (full moon)",
+        "First quarter",
+        "Any night"
+      ],
+      "answer": 1,
+      "explain": "Only at full moon is the Moon on the far side of Earth, where Earth’s shadow falls."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Why don’t we have a solar eclipse every new moon?",
+      "options": [
+        "The Moon is too small",
+        "The Moon’s orbit is tilted about 5°, so its shadow usually misses Earth",
+        "The Sun is too bright",
+        "Eclipses only happen in winter"
+      ],
+      "answer": 1,
+      "explain": "The Moon must be near a node, where its orbit crosses Earth’s orbital plane."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Moon Lab, the Moon rose at about 6 pm. What phase was it?",
+      "options": [
+        "New moon",
+        "First quarter",
+        "Full moon",
+        "Last quarter"
+      ],
+      "answer": 2,
+      "explain": "The full Moon is opposite the Sun, so it rises as the Sun sets."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "When the lit part of the Moon grows, it is ___. When it shrinks, it is ___.",
+      "blanks": [
+        [
+          "waxing"
+        ],
+        [
+          "waning"
+        ]
+      ],
+      "wordBank": [
+        "waxing",
+        "waning",
+        "eclipsing"
+      ],
+      "explain": "Shukla paksha is waxing; Krishna paksha is waning."
+    }
+  ]
+}

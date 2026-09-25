@@ -1,0 +1,55 @@
+{
+  "id": "solar-system",
+  "number": "7.5",
+  "title": "The Solar System",
+  "summary": "The Sun, eight planets and their huge distances. A scale model you can walk, and India’s missions to the Moon, Mars and the Sun.",
+  "emoji": "🪐",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 1,
+      "note": "Gravitation and orbits are formalised in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Curiosity Ch 12: Beyond Earth",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can name the planets in order and describe some features of each.",
+    "I can use a scale model to describe the sizes and distances in the Solar System.",
+    "I can describe the difference between stars, planets and moons."
+  ],
+  "misconceptions": [
+    "The planets are close together, as in textbook pictures.",
+    "The Sun is a planet.",
+    "Stars and planets are the same thing."
+  ],
+  "prerequisites": [
+    "physics/space/day-and-night"
+  ],
+  "labs": [
+    "solar-system"
+  ],
+  "keyTerms": [
+    "Sun",
+    "star",
+    "planet",
+    "moon (satellite)",
+    "orbit",
+    "astronomical unit (AU)",
+    "light-minute"
+  ],
+  "estMinutes": 25
+}

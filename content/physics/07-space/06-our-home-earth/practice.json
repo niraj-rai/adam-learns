@@ -1,0 +1,154 @@
+{
+  "topicId": "our-home-earth",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which features help make Earth suitable for life? Choose all that apply.",
+      "options": [
+        "Liquid water",
+        "An atmosphere with oxygen",
+        "A suitable temperature range",
+        "A magnetic field and ozone layer that shield harmful radiation",
+        "Being the largest planet"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explain": "Earth isn’t the largest planet; Jupiter is."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the ‘Goldilocks zone’ around a star?",
+      "options": [
+        "Where planets are made of gold",
+        "The range of distances where it's not too hot or too cold for liquid water",
+        "The area inside the star",
+        "The asteroid belt"
+      ],
+      "answer": 1,
+      "explain": "Liquid water is key to life as we know it."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Goldilocks Lab, Earth with NO atmosphere was frozen. What does this show?",
+      "options": [
+        "The atmosphere doesn't matter",
+        "Earth’s natural greenhouse effect keeps it warm enough for liquid water",
+        "The Sun is too cold",
+        "Earth is too close to the Sun"
+      ],
+      "answer": 1,
+      "explain": "Greenhouse gases add about 33 °C of warming."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is Venus so hot even though it is further from the Sun than Mercury?",
+      "options": [
+        "It has volcanoes only",
+        "Its very thick carbon dioxide atmosphere traps heat (a runaway greenhouse effect)",
+        "It spins fast",
+        "It is closer to the Sun than Mercury"
+      ],
+      "answer": 1,
+      "explain": "Too much greenhouse gas makes a planet far too hot."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Without its atmosphere, Earth’s average temperature would be about −18 °C. The greenhouse effect adds about 33 °C. What is the actual average?",
+      "answer": 15,
+      "tolerance": 0,
+      "unit": "°C",
+      "explain": "−18 + 33 = 15 °C."
+    },
+    {
+      "id": "q6",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Does each action help protect Earth’s life-support systems or harm them?",
+      "bins": [
+        "Protects",
+        "Harms"
+      ],
+      "items": [
+        {
+          "label": "Planting and protecting forests",
+          "bin": 0
+        },
+        {
+          "label": "Burning more coal and petrol",
+          "bin": 1
+        },
+        {
+          "label": "Switching to solar and wind power",
+          "bin": 0
+        },
+        {
+          "label": "Releasing CFCs from old fridges",
+          "bin": 1
+        },
+        {
+          "label": "Saving and recycling water",
+          "bin": 0
+        },
+        {
+          "label": "Dumping plastic in rivers",
+          "bin": 1
+        }
+      ],
+      "explain": "Our actions affect the atmosphere, water and living things that keep Earth habitable."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Using ideas from this topic, explain why adding extra greenhouse gases to the atmosphere is a problem, and suggest two actions your family or school could take.",
+      "modelAnswer": "The natural greenhouse effect keeps Earth at about 15 °C, but extra carbon dioxide from burning fossil fuels traps more heat and raises temperatures. This causes more heatwaves, changing monsoons, melting glaciers in the Himalayas and rising seas. Actions: walk, cycle or use public transport instead of cars; switch off lights and fans when not needed and use LED bulbs; plant trees; install solar panels on the school roof.",
+      "rubric": [
+        "Natural vs enhanced greenhouse effect",
+        "At least one consequence",
+        "Two practical actions linked to reducing emissions"
+      ],
+      "explain": "Criterion D: connect science to responsible action."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The ___ layer high in the atmosphere protects life by absorbing harmful ultraviolet rays from the Sun.",
+      "blanks": [
+        [
+          "ozone"
+        ]
+      ],
+      "wordBank": [
+        "ozone",
+        "oxygen",
+        "cloud"
+      ],
+      "explain": "CFCs damaged the ozone layer; the Montreal Protocol is helping it recover."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "moon-phases-and-eclipses",
+  "number": "7.3",
+  "title": "Moon Phases and Eclipses",
+  "summary": "Why the Moon changes shape over 29.5 days, Amavasya and Purnima, and how solar and lunar eclipses happen.",
+  "emoji": "🌓",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Tidal forces and orbital mechanics follow in DP"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 12: Earth, Moon, and the Sun",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 11: Keeping Time with the Skies",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can explain the phases of the Moon using the positions of the Sun, Earth and Moon.",
+    "I can name the phases in order, including Amavasya and Purnima.",
+    "I can explain solar and lunar eclipses, and why they don’t happen every month."
+  ],
+  "misconceptions": [
+    "The phases are caused by Earth’s shadow falling on the Moon.",
+    "The Moon makes its own light.",
+    "There is an eclipse every new and full moon."
+  ],
+  "prerequisites": [
+    "physics/space/day-and-night",
+    "physics/light/light-and-shadows"
+  ],
+  "labs": [
+    "moon-lab"
+  ],
+  "keyTerms": [
+    "phase",
+    "new moon (Amavasya)",
+    "full moon (Purnima)",
+    "waxing",
+    "waning",
+    "crescent",
+    "gibbous",
+    "solar eclipse",
+    "lunar eclipse"
+  ],
+  "estMinutes": 25
+}

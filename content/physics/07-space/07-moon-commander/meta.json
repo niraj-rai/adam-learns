@@ -1,0 +1,54 @@
+{
+  "id": "moon-commander",
+  "number": "7.7",
+  "title": "Boss Challenge: Moon Commander",
+  "summary": "Eight missions: position the Moon to create phases and eclipses on command.",
+  "emoji": "🌕",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task: applying a spatial model (Criteria A and C)"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 12: Earth, Moon, and the Sun",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 11: Keeping Time with the Skies",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can use a model of the Sun, Earth and Moon to predict phases and eclipses.",
+    "I can explain my predictions using the positions of all three bodies."
+  ],
+  "misconceptions": [
+    "Eclipses and phases are the same thing."
+  ],
+  "prerequisites": [
+    "physics/space/moon-phases-and-eclipses"
+  ],
+  "labs": [
+    "moon-commander"
+  ],
+  "keyTerms": [
+    "phase",
+    "eclipse",
+    "node",
+    "Amavasya",
+    "Purnima"
+  ],
+  "estMinutes": 15
+}

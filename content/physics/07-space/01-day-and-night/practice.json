@@ -1,0 +1,146 @@
+{
+  "topicId": "day-and-night",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "What causes day and night?",
+      "options": [
+        "The Sun moving around the Earth",
+        "The Earth rotating on its axis",
+        "The Moon blocking the Sun",
+        "Clouds covering the Sun"
+      ],
+      "answer": 1,
+      "explain": "Earth spins once every 24 hours; the side facing the Sun has day."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "The Sun appears to rise in the east because Earth rotates…",
+      "options": [
+        "from east to west",
+        "from west to east",
+        "from north to south",
+        "it doesn't rotate"
+      ],
+      "answer": 1,
+      "explain": "As Earth turns west to east, places turn towards the Sun on their eastern side first."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the shadow-stick tab, which way does the shadow point at 9 am in Bengaluru?",
+      "options": [
+        "East",
+        "West",
+        "North",
+        "There is no shadow"
+      ],
+      "answer": 1,
+      "explain": "The morning Sun is in the east, so shadows point west."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Long shadow or short shadow?",
+      "bins": [
+        "Long shadow",
+        "Short shadow"
+      ],
+      "items": [
+        {
+          "label": "7 am",
+          "bin": 0
+        },
+        {
+          "label": "12 noon",
+          "bin": 1
+        },
+        {
+          "label": "5:30 pm",
+          "bin": 0
+        },
+        {
+          "label": "12:30 pm",
+          "bin": 1
+        }
+      ],
+      "explain": "Shadows are longest when the Sun is low and shortest near noon."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Earth turns through 360° in 24 hours. How many degrees does it turn in one hour?",
+      "answer": 15,
+      "tolerance": 0,
+      "unit": "°",
+      "explain": "360 ÷ 24 = 15° per hour. This is the basis of time zones."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "On ‘Zero Shadow Day’ in Bengaluru (late April and mid-August), why do vertical poles cast no shadow at noon?",
+      "options": [
+        "The Sun is directly overhead",
+        "It is cloudy",
+        "The Sun is behind Earth",
+        "Shadows are too dark to see"
+      ],
+      "answer": 0,
+      "explain": "Places between the Tropics of Cancer and Capricorn get the Sun directly overhead twice a year."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan an investigation to record how a shadow changes during a school day, using a stick in the ground.",
+      "modelAnswer": "Fix a straight stick vertically in open, flat ground. Every hour from 8 am to 4 pm, mark the tip of the shadow with a pebble and measure the shadow length with a measuring tape; note the direction with a compass. Keep the same stick and position, measure at the same minute past each hour, and choose a sunny day. Plot shadow length against time and draw the direction on a map.",
+      "rubric": [
+        "Fixed vertical stick",
+        "Regular measurements of length (and direction)",
+        "Controls: same stick, place, times",
+        "Plot or table of results"
+      ],
+      "explain": "Criterion B: a clear plan for collecting data."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Earth spins on its ___ once every ___ hours.",
+      "blanks": [
+        [
+          "axis"
+        ],
+        [
+          "24"
+        ]
+      ],
+      "wordBank": [
+        "axis",
+        "24",
+        "365",
+        "orbit"
+      ],
+      "explain": "One rotation = one day."
+    }
+  ]
+}

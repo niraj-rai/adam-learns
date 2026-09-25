@@ -1,0 +1,130 @@
+{
+  "topicId": "moon-commander",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Where is the Moon at new moon?",
+      "options": [
+        "On the opposite side of Earth from the Sun",
+        "Between Earth and the Sun",
+        "At right angles to the Sun",
+        "Behind the Sun"
+      ],
+      "answer": 1,
+      "explain": "Its sunlit side faces away from us."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A Moon that is half lit on the RIGHT side (as seen from India) is at…",
+      "options": [
+        "First quarter",
+        "Last quarter",
+        "Full moon",
+        "New moon"
+      ],
+      "answer": 0,
+      "explain": "Waxing phases are lit on the right in the northern hemisphere."
+    },
+    {
+      "id": "q3",
+      "type": "multi-select",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Which TWO conditions are needed for a lunar eclipse?",
+      "options": [
+        "Full moon",
+        "The Moon near a node",
+        "New moon",
+        "First quarter"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explain": "Full moon + node = the Moon passes through Earth's shadow."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A thin crescent Moon is seen low in the west just after sunset. Is it waxing or waning?",
+      "options": [
+        "Waxing",
+        "Waning",
+        "Neither",
+        "It could be either"
+      ],
+      "answer": 0,
+      "explain": "The evening crescent is a few days after new moon, so it is growing."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Diwali is celebrated on Amavasya. Could a lunar eclipse ever happen on Diwali night?",
+      "options": [
+        "Yes, often",
+        "No: lunar eclipses happen only at full moon",
+        "Only if it is cloudy",
+        "Only in the southern hemisphere"
+      ],
+      "answer": 1,
+      "explain": "Amavasya is new moon; a SOLAR eclipse is possible, but never a lunar one."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain, with the positions of the Sun, Earth and Moon, why a lunar eclipse can be seen from the whole night side of Earth, but a total solar eclipse only from a narrow strip.",
+      "modelAnswer": "In a lunar eclipse, the Moon moves into Earth's large shadow. Anyone on the night side who can see the Moon sees it darken. In a solar eclipse, the Moon is much smaller than Earth, so its shadow on Earth is small; only people inside that small shadow (a narrow path as Earth turns) see the Sun completely covered, while nearby places see a partial eclipse.",
+      "rubric": [
+        "Lunar: the Moon enters Earth’s big shadow, seen by the whole night side",
+        "Solar: the Moon's small shadow falls on a small area",
+        "Correct positions (Sun–Earth–Moon vs Sun–Moon–Earth)"
+      ],
+      "explain": "Criterion C: explain with a model."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Full moon was on the 1st of a month. Roughly which date will the next full moon be (in a 31-day month)?",
+      "answer": 30,
+      "tolerance": 1,
+      "unit": "(date)",
+      "explain": "29.5 days later: around the 30th or 31st."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "In a ___ eclipse the Moon blocks the Sun; in a ___ eclipse the Earth’s shadow covers the Moon.",
+      "blanks": [
+        [
+          "solar"
+        ],
+        [
+          "lunar"
+        ]
+      ],
+      "wordBank": [
+        "solar",
+        "lunar",
+        "partial"
+      ],
+      "explain": "Solar = Sun hidden; lunar = Moon darkened."
+    }
+  ]
+}

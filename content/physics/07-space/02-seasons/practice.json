@@ -1,0 +1,146 @@
+{
+  "topicId": "seasons",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "What causes the seasons?",
+      "options": [
+        "Earth’s changing distance from the Sun",
+        "The tilt of Earth’s axis as it orbits the Sun",
+        "The Moon’s phases",
+        "Clouds"
+      ],
+      "answer": 1,
+      "explain": "The tilt changes how directly sunlight hits each hemisphere and how long days are."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "When it is summer in India, what season is it in Australia?",
+      "options": [
+        "Summer",
+        "Winter",
+        "Monsoon",
+        "Spring"
+      ],
+      "answer": 1,
+      "explain": "When the northern hemisphere tilts towards the Sun, the southern hemisphere tilts away."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Seasons Lab, which place had the biggest difference between June and December day lengths?",
+      "options": [
+        "On the Equator",
+        "Bengaluru",
+        "Delhi",
+        "Tromsø (Arctic Norway)"
+      ],
+      "answer": 3,
+      "explain": "The further from the equator, the bigger the seasonal change, up to 24-hour days and nights."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Earth is actually closest to the Sun in early January. Why is January still winter in Delhi?",
+      "options": [
+        "Distance has a big effect, but it is cold for other reasons",
+        "The northern hemisphere tilts away from the Sun, so sunlight is less direct and days are shorter",
+        "Delhi is very high up",
+        "Winter is caused by rain"
+      ],
+      "answer": 1,
+      "explain": "Tilt matters far more than the small change in distance."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "For Delhi, does each go with June or with December?",
+      "bins": [
+        "June",
+        "December"
+      ],
+      "items": [
+        {
+          "label": "Longest days",
+          "bin": 0
+        },
+        {
+          "label": "Sun low at noon",
+          "bin": 1
+        },
+        {
+          "label": "Sun high at noon",
+          "bin": 0
+        },
+        {
+          "label": "Shortest days",
+          "bin": 1
+        }
+      ],
+      "explain": "June: high Sun, long days. December: low Sun, short days."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Delhi has about 14 hours of daylight on 21 June. How many hours of darkness does it have?",
+      "answer": 10,
+      "tolerance": 0,
+      "unit": "hours",
+      "explain": "24 − 14 = 10 hours."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "In many Indian states, school timings shift between summer and winter. Using what you know about day length and the Sun, explain why, and suggest one other way schools could adapt to the seasons.",
+      "modelAnswer": "In winter the Sun rises later and days are shorter, so early mornings are dark and cold; later start times are safer and warmer for children travelling. In summer, the Sun rises early and the afternoon Sun is very high and hot, so schools may start earlier and finish before the hottest part of the day. Other adaptations: shaded outdoor areas and water breaks in summer, holding sports events in the cooler months, or using natural light to save electricity.",
+      "rubric": [
+        "Links day length or sunrise time to winter timings",
+        "Links high summer Sun or heat to summer timings",
+        "A sensible extra adaptation"
+      ],
+      "explain": "Criterion D: apply astronomy to daily life."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Earth’s axis is tilted by about ___ degrees. One trip around the Sun is called a ___.",
+      "blanks": [
+        [
+          "23.5",
+          "23"
+        ],
+        [
+          "revolution",
+          "year"
+        ]
+      ],
+      "wordBank": [
+        "23.5",
+        "revolution",
+        "90",
+        "rotation"
+      ],
+      "explain": "Revolution takes about 365¼ days."
+    }
+  ]
+}

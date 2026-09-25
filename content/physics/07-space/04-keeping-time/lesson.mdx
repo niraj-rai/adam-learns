@@ -1,0 +1,57 @@
+<Stage kind="wonder" title="Why does Diwali move?" />
+
+<Hook emoji="📅">
+Makar Sankranti is almost always on 14 or 15 January. Diwali moves between mid-October and mid-November. Eid comes about 11 days earlier each year, so over time it falls in every season. Why do different festivals follow such different patterns?
+</Hook>
+
+<PredictFirst
+  question="How many days are there in 12 lunar months (12 cycles of Moon phases)?"
+  options={["365 days", "About 354 days", "360 days", "About 340 days"]}
+  answer={1}
+>
+12 × 29.5 ≈ **354 days**, about **11 days shorter** than the solar year of 365¼ days. That mismatch is the key to the puzzle!
+</PredictFirst>
+
+<Stage kind="explain" title="Three clocks in the sky" />
+
+<ConceptCard title="Day, month, year" emoji="⏳">
+- **Day**: one rotation of Earth.
+- **Month**: one cycle of Moon phases (about 29.5 days).
+- **Year**: one revolution of Earth around the Sun (about 365¼ days). It sets the seasons.
+
+These don't divide into each other neatly, so every calendar has to make a choice.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Solar", emoji: "☀️", points: ["Follows the Sun and seasons", "Gregorian calendar; India's national Saka calendar", "Leap day every 4 years for the extra ¼ day", "Makar Sankranti, Pongal, Christmas"] },
+    { title: "Lunar", emoji: "🌙", points: ["12 lunar months, about 354 days", "Drifts about 11 days a year against the seasons", "Islamic Hijri calendar", "Eid al-Fitr, Muharram"] },
+    { title: "Lunisolar", emoji: "🌗", points: ["Months follow the Moon", "A leap month (adhik maas) added about every 32–33 months keeps it in step with the seasons", "Most Hindu calendars", "Diwali, Holi, Dussehra"] }
+  ]}
+/>
+
+<Stage kind="try" title="Sky Calendar" />
+
+<Lab id="sky-calendar" />
+
+<DidYouKnow>
+Ancient Indian astronomers were remarkably accurate. The *Surya Siddhanta* gives the length of the year as about 365.2588 days, very close to the true sidereal year of about 365.2564 days!
+</DidYouKnow>
+
+<Stage kind="apply" title="Calculate and evaluate" />
+
+<Inquiry criterion="C" title="Festival drift">
+In the Sky Calendar, record the date of each festival for 10 years in a row. By how many days does Eid move each year? What happens to Diwali's date when an adhik maas occurs?
+</Inquiry>
+
+<Inquiry criterion="D" title="Calendars for farmers">
+Explain why a lunisolar calendar suits farming communities better than a purely lunar calendar. Use a harvest festival from your region as an example.
+</Inquiry>
+
+<CbseCorner source="Class 8 Curiosity Ch 11: Keeping Time with the Skies">
+- Days, months and years come from the motions of Earth and the Moon.
+- **Lunar, solar and lunisolar** calendars; the need for **leap years** and **adhik maas**.
+- India's national calendar is the **Saka** calendar.
+</CbseCorner>
+
+<Reflect id="phys-space-time" prompt="If you designed a calendar for a colony on Mars (a Martian day is about 24 h 40 min and a year is 687 Earth days), what would you do?" />

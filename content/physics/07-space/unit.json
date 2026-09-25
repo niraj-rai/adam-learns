@@ -1,0 +1,37 @@
+{
+  "id": "space",
+  "number": 7,
+  "title": "Earth & Space",
+  "summary": "Why we have day and night and seasons, how the Moon changes shape and hides the Sun, how the sky gave us calendars, our place in the Solar System, and what makes Earth a home for life.",
+  "ib": {
+    "keyConcept": "Time, place and space",
+    "relatedConcepts": [
+      "Movement",
+      "Patterns",
+      "Models"
+    ],
+    "globalContext": "Orientation in space and time",
+    "statementOfInquiry": "Patterns in the movements of the Earth, Moon and Sun let us measure time, predict events in the sky and understand what makes our planet habitable."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "Why do we have day and night?",
+      "What causes the phases of the Moon?",
+      "Why does Earth have seasons?"
+    ],
+    "conceptual": [
+      "How have people used patterns in the sky to measure time?",
+      "What makes a planet able to support life?"
+    ],
+    "debatable": [
+      "Should India spend more on space exploration or on problems here on Earth?",
+      "Should we search for, or try to contact, life beyond Earth?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 6 (Curiosity) Ch 12: Beyond Earth",
+    "Class 7 (Curiosity) Ch 12: Earth, Moon, and the Sun",
+    "Class 8 (Curiosity) Ch 11: Keeping Time with the Skies",
+    "Class 8 (Curiosity) Ch 13: Our Home: Earth"
+  ]
+}

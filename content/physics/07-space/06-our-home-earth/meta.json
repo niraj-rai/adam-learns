@@ -1,0 +1,55 @@
+{
+  "id": "our-home-earth",
+  "number": "7.6",
+  "title": "Our Home: Earth",
+  "summary": "The Goldilocks zone, the atmosphere, liquid water and the magnetic field: why Earth supports life, and why we must protect it.",
+  "emoji": "🌏",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Climate systems explored in MYP 4–5 and DP ESS"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 13: Our Home: Earth",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe the conditions that make Earth habitable.",
+    "I can explain the Goldilocks zone and the natural greenhouse effect.",
+    "I can evaluate human impacts on the conditions that support life."
+  ],
+  "misconceptions": [
+    "The greenhouse effect is entirely bad.",
+    "Any planet with water can support life.",
+    "Earth's atmosphere is very thick."
+  ],
+  "prerequisites": [
+    "physics/space/solar-system",
+    "physics/energy/convection-and-radiation"
+  ],
+  "labs": [
+    "goldilocks-lab"
+  ],
+  "keyTerms": [
+    "habitable zone (Goldilocks zone)",
+    "atmosphere",
+    "greenhouse effect",
+    "ozone layer",
+    "magnetic field",
+    "biosphere"
+  ],
+  "estMinutes": 25
+}

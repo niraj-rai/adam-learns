@@ -1,0 +1,57 @@
+{
+  "id": "day-and-night",
+  "number": "7.1",
+  "title": "Day, Night and the Moving Sun",
+  "summary": "Earth’s rotation causes day and night, sunrise in the east, and shadows that swing round like a clock.",
+  "emoji": "🌍",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 1,
+      "note": "Links to MYP Individuals & Societies (time zones)"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 12: Earth, Moon, and the Sun",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can explain day and night using Earth’s rotation.",
+    "I can explain why the Sun appears to rise in the east and set in the west.",
+    "I can describe how a shadow’s length and direction change during the day."
+  ],
+  "misconceptions": [
+    "The Sun moves around the Earth each day.",
+    "The Sun is directly overhead at noon everywhere.",
+    "Night happens because the Sun goes behind a mountain or the sea."
+  ],
+  "prerequisites": [
+    "physics/light/light-and-shadows"
+  ],
+  "labs": [
+    "day-night"
+  ],
+  "keyTerms": [
+    "rotation",
+    "axis",
+    "day",
+    "night",
+    "sunrise",
+    "sunset",
+    "sundial",
+    "gnomon",
+    "zero shadow day"
+  ],
+  "estMinutes": 20
+}
