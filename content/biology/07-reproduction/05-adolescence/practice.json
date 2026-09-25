@@ -1,0 +1,148 @@
+{
+  "topicId": "adolescence",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which are normal changes during adolescence? Choose all that apply.",
+      "options": [
+        "Growth spurt (getting taller quickly)",
+        "Voice changes, especially in boys",
+        "More active sweat and oil glands (possibly pimples)",
+        "Strong emotions and mood changes",
+        "Stopping growing completely at 11"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explain": "Growth continues through the teens."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What are hormones?",
+      "options": [
+        "Muscles",
+        "Chemical messengers made by glands and carried by the blood",
+        "Types of bones",
+        "Germs"
+      ],
+      "answer": 1,
+      "explain": "Hormones control many body changes."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "On the growth-spurt graph, why is the girls' curve peak earlier than the boys'?",
+      "options": [
+        "Girls grow for longer",
+        "On average, girls' puberty and growth spurt start earlier",
+        "Boys don't have a growth spurt",
+        "It's a mistake"
+      ],
+      "answer": 1,
+      "explain": "Averages hide individual differences: everyone's timing varies."
+    },
+    {
+      "id": "q4",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each gland to its hormone or job.",
+      "pairs": [
+        {
+          "left": "Pituitary",
+          "right": "Growth hormone; starts puberty signals"
+        },
+        {
+          "left": "Thyroid",
+          "right": "Thyroxine; needs iodine"
+        },
+        {
+          "left": "Adrenal glands",
+          "right": "Adrenaline; stress response"
+        }
+      ],
+      "explain": "Endocrine glands release hormones into the blood."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which nutrients are especially important during the adolescent growth spurt?",
+      "options": [
+        "Only sugar",
+        "Protein, calcium and iron",
+        "Only fat",
+        "None: diet doesn't matter"
+      ],
+      "answer": 1,
+      "explain": "For muscles, bones and blood."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which are good personal-hygiene habits during adolescence? Choose all that apply.",
+      "options": [
+        "Bathing daily",
+        "Wearing clean clothes",
+        "Washing the face gently to care for skin",
+        "Avoiding all water",
+        "Changing sanitary pads regularly during periods"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explain": "More sweat and oil make hygiene more important."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Many teenagers feel worried or confused about the changes of adolescence. Suggest three ways a school could support students, and explain why each helps.",
+      "modelAnswer": "1) Age-appropriate science lessons that explain the changes clearly and factually, which replaces myths and fear with understanding. 2) Access to a trusted counsellor or teacher, and helplines, so students can ask private questions and get support for stress or low mood. 3) Practical support such as clean toilets, sanitary products and health check-ups, and a respectful culture where teasing about body changes is not accepted. These help students feel safe, informed and respected.",
+      "rubric": [
+        "Three realistic actions",
+        "Each justified",
+        "Includes emotional as well as physical wellbeing"
+      ],
+      "explain": "Criterion D: care for your community."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The stage of life when the body becomes capable of reproduction is called ___.",
+      "blanks": [
+        [
+          "puberty"
+        ]
+      ],
+      "wordBank": [
+        "puberty",
+        "infancy",
+        "old age"
+      ],
+      "explain": "Puberty is part of adolescence."
+    }
+  ]
+}

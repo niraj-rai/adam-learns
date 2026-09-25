@@ -1,0 +1,160 @@
+{
+  "topicId": "asexual-reproduction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each plant to the part used to grow new plants.",
+      "pairs": [
+        {
+          "left": "Potato",
+          "right": "Tuber with eyes"
+        },
+        {
+          "left": "Rose",
+          "right": "Stem cutting"
+        },
+        {
+          "left": "Bryophyllum",
+          "right": "Leaf buds"
+        },
+        {
+          "left": "Ginger",
+          "right": "Rhizome"
+        },
+        {
+          "left": "Onion",
+          "right": "Bulb"
+        }
+      ],
+      "explain": "All are vegetative propagation."
+    },
+    {
+      "id": "q2",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each organism to how it reproduces asexually.",
+      "pairs": [
+        {
+          "left": "Amoeba",
+          "right": "Binary fission"
+        },
+        {
+          "left": "Yeast",
+          "right": "Budding"
+        },
+        {
+          "left": "Spirogyra",
+          "right": "Fragmentation"
+        },
+        {
+          "left": "Bread mould",
+          "right": "Spores"
+        }
+      ],
+      "explain": "Four more ways to reproduce with one parent."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why are plants grown from cuttings identical to the parent?",
+      "options": [
+        "They come from only one parent, with no mixing of features",
+        "They are grown in the same soil",
+        "They are watered the same way",
+        "They grow at the same time"
+      ],
+      "answer": 0,
+      "explain": "Asexual reproduction produces copies (clones)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Propagation Lab, planting a potato leaf failed but a piece of potato with an eye grew. What does this show?",
+      "options": [
+        "Potato leaves are dead",
+        "New potato plants grow from buds (eyes) on the tuber",
+        "Potatoes need seeds",
+        "Leaves never grow into plants"
+      ],
+      "answer": 1,
+      "explain": "Each eye is a bud."
+    },
+    {
+      "id": "q5",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "What are the ADVANTAGES of vegetative propagation for farmers? Choose all that apply.",
+      "options": [
+        "Plants grow faster than from seed",
+        "Good features (like sweet fruit) are kept exactly",
+        "Plants that don't make good seeds can still be grown",
+        "All plants have different features"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "Identical plants are useful, but also risky."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Most bananas grown for sale are propagated vegetatively, so the plants are genetically identical. Explain one benefit and one serious risk of this.",
+      "modelAnswer": "Benefit: every plant has the same good features, such as sweet, seedless fruit, and they grow reliably and quickly. Risk: because all plants are identical, a disease that can attack one can attack them all; a single new fungus or virus could wipe out whole plantations, since there is no variety to give some plants resistance.",
+      "rubric": [
+        "A benefit (uniform quality, speed)",
+        "The risk of disease spreading through identical plants",
+        "Links to lack of variation"
+      ],
+      "explain": "Criterion D: evaluate a farming practice."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Reproduction involving only one parent is called ___ reproduction.",
+      "blanks": [
+        [
+          "asexual"
+        ]
+      ],
+      "wordBank": [
+        "asexual",
+        "sexual",
+        "double"
+      ],
+      "explain": "The offspring are identical to the parent."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where are the ‘eyes’ on a potato?",
+      "options": [
+        "On the leaves",
+        "On the tuber (the potato itself)",
+        "On the flowers",
+        "On the roots only"
+      ],
+      "answer": 1,
+      "explain": "The potato is a swollen underground stem."
+    }
+  ]
+}

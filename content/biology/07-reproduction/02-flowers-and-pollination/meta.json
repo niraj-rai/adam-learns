@@ -1,0 +1,60 @@
+{
+  "id": "flowers-and-pollination",
+  "number": "7.2",
+  "title": "Flowers, Pollination and Fertilisation",
+  "summary": "The parts of a flower, self- and cross-pollination, the helpers that carry pollen, and how seeds and fruits form.",
+  "emoji": "🌺",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Double fertilisation is studied in DP"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 12: Reproduction in Plants",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can identify the male and female parts of a flower and their functions.",
+    "I can explain self-pollination and cross-pollination and the agents that carry pollen.",
+    "I can describe how fertilisation leads to seeds and fruits."
+  ],
+  "misconceptions": [
+    "All flowers are pollinated by bees.",
+    "Pollination and fertilisation are the same.",
+    "The whole flower becomes the fruit."
+  ],
+  "prerequisites": [
+    "biology/reproduction/asexual-reproduction"
+  ],
+  "labs": [
+    "flower-lab"
+  ],
+  "keyTerms": [
+    "sepal",
+    "petal",
+    "stamen",
+    "anther",
+    "filament",
+    "pistil",
+    "stigma",
+    "style",
+    "ovary",
+    "ovule",
+    "pollination",
+    "fertilisation"
+  ],
+  "estMinutes": 25
+}

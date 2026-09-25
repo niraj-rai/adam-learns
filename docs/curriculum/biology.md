@@ -76,12 +76,23 @@
 | 6.5 | A healthy lifestyle | MYP 2 | Cur-8 Ch 3 ✅ | ★ | **Healthy Day Planner**: sleep, activity, screens, diet |
 | 6.6 | Boss: Outbreak Detective | MYP 3 | Cur-8 Ch 3 ✅ | ★★★ | Cholera map (John Snow style), 6 steps (3 lives) |
 
-### Units 7–8 (planned)
+### Unit 7: Reproduction and Adolescence ✅ built
+*IB Key Concept:* **Change** · *Related:* Form, Function, Patterns · *Global Context:* Identities and relationships
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 7.1 | Asexual reproduction | MYP 2 | Earlier NCERT 7 Ch 12 ✅ | ★ | **New Plants Without Seeds**: 8 plants × 6 parts, plus fission/budding/fragmentation/spores |
+| 7.2 | Flowers, pollination and fertilisation | MYP 2 | Earlier NCERT 7 Ch 12 ✅ | ★★ | **Flower Lab**: label 8 parts; be the bee (self vs cross) |
+| 7.3 | Seed dispersal | MYP 1 | Earlier NCERT 7 Ch 12 ✅ | ★ | **Seed Designer**: 7 features × 4 places |
+| 7.4 | Reproduction in animals | MYP 3 | Earlier NCERT 8 Ch 9 ✅ | ★★ | **Life Cycles**: 5 cycles to order; oviparous vs viviparous |
+| 7.5 | Adolescence | MYP 3 | Cur-7 Ch 6 ✅, earlier NCERT 8 Ch 10 ✅ | ★ | **Growing Up**: growth-spurt curves, hormones, myth or fact (age-appropriate, NCERT-level) |
+| 7.6 | Boss: Master Gardener | MYP 3 | Earlier NCERT 7 Ch 12 ✅ | ★★ | 6 garden problems (3 lives) |
+
+### Unit 8 (planned)
 
 
 | Unit | Topics | IB | CBSE | ★ | Signature labs |
 |---|---|---|---|---|---|
-| 7. Reproduction & Adolescence | Plant reproduction, animal reproduction, puberty, hormones (age-appropriate) | MYP 2–3 | 7, Old-8 Ch9–10 | ★★★ | Flower dissection (label), Life-cycle sequencer |
 | 8. Ecosystems & Conservation | Food chains and webs, habitats, adaptation, biodiversity, conservation, Western Ghats | MYP 1–3 | 6, 7, Old-8 Ch7 | ★★ | **Ecosystem Balance** sim (predator/prey) |
 
 ## L3: Grades 9–10

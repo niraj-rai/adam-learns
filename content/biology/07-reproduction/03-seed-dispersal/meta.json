@@ -1,0 +1,53 @@
+{
+  "id": "seed-dispersal",
+  "number": "7.3",
+  "title": "Seed Dispersal",
+  "summary": "Wings, parachutes, hooks, tasty fruits, floating husks and exploding pods: how plants send seeds away.",
+  "emoji": "🪽",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 1,
+      "note": "Links to adaptation and ecology in Unit 8"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 12: Reproduction in Plants",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can explain why seed dispersal is important.",
+    "I can describe dispersal by wind, water, animals and explosion, with examples.",
+    "I can predict how a seed is dispersed from its features."
+  ],
+  "misconceptions": [
+    "Seeds are just dropped under the parent.",
+    "All seeds are spread by wind.",
+    "Animals eating fruit destroy all the seeds."
+  ],
+  "prerequisites": [
+    "biology/reproduction/flowers-and-pollination"
+  ],
+  "labs": [
+    "seed-dispersal"
+  ],
+  "keyTerms": [
+    "seed dispersal",
+    "wind dispersal",
+    "water dispersal",
+    "animal dispersal",
+    "explosion",
+    "competition"
+  ],
+  "estMinutes": 20
+}

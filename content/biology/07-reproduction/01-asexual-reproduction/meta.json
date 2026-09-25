@@ -1,0 +1,57 @@
+{
+  "id": "asexual-reproduction",
+  "number": "7.1",
+  "title": "Asexual Reproduction",
+  "summary": "One parent, identical offspring: vegetative propagation in plants, and fission, budding, fragmentation and spores.",
+  "emoji": "🥔",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Mitosis and cloning are formalised in MYP 5 / CBSE 10"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 12: Reproduction in Plants",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain asexual reproduction and give examples.",
+    "I can describe vegetative propagation using stems, leaves, roots, tubers and bulbs.",
+    "I can evaluate the advantages and disadvantages of asexual reproduction."
+  ],
+  "misconceptions": [
+    "Plants can only reproduce from seeds.",
+    "Asexual reproduction needs two parents.",
+    "Offspring from cuttings are different from the parent."
+  ],
+  "prerequisites": [
+    "biology/cells/cell-division"
+  ],
+  "labs": [
+    "propagation-lab"
+  ],
+  "keyTerms": [
+    "asexual reproduction",
+    "vegetative propagation",
+    "cutting",
+    "tuber",
+    "bulb",
+    "budding",
+    "fragmentation",
+    "spore",
+    "binary fission"
+  ],
+  "estMinutes": 20
+}

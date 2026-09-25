@@ -1,0 +1,63 @@
+{
+  "id": "adolescence",
+  "number": "7.5",
+  "title": "Adolescence: A Time of Change",
+  "summary": "Puberty, the growth spurt, hormones, emotional changes, hygiene, nutrition and looking after yourself.",
+  "emoji": "🌱",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Links to MYP Physical and Health Education"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Curiosity Ch 6: Adolescence: A Stage of Growth and Change",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 10: Reaching the Age of Adolescence",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe the physical and emotional changes of adolescence.",
+    "I can explain the role of hormones in puberty.",
+    "I can describe how to stay healthy during adolescence: nutrition, hygiene, rest, and seeking help."
+  ],
+  "misconceptions": [
+    "Everyone goes through puberty at the same age.",
+    "Puberty changes are something to be embarrassed about.",
+    "You should never talk about these changes."
+  ],
+  "prerequisites": [
+    "biology/body/skeleton-and-movement",
+    "biology/nutrition/balanced-diet"
+  ],
+  "labs": [
+    "growing-up"
+  ],
+  "keyTerms": [
+    "adolescence",
+    "puberty",
+    "growth spurt",
+    "hormone",
+    "endocrine gland",
+    "pituitary",
+    "voice box",
+    "menstruation",
+    "personal hygiene"
+  ],
+  "estMinutes": 25
+}

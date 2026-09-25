@@ -1,0 +1,157 @@
+{
+  "topicId": "flowers-and-pollination",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Male part or female part of the flower?",
+      "bins": [
+        "Male (stamen)",
+        "Female (pistil)"
+      ],
+      "items": [
+        {
+          "label": "Anther",
+          "bin": 0
+        },
+        {
+          "label": "Stigma",
+          "bin": 1
+        },
+        {
+          "label": "Filament",
+          "bin": 0
+        },
+        {
+          "label": "Ovary",
+          "bin": 1
+        },
+        {
+          "label": "Style",
+          "bin": 1
+        }
+      ],
+      "explain": "Stamen = anther + filament; pistil = stigma + style + ovary."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "What is pollination?",
+      "options": [
+        "The fusion of male and female cells",
+        "The transfer of pollen from an anther to a stigma",
+        "The spreading of seeds",
+        "The growth of a seed"
+      ],
+      "answer": 1,
+      "explain": "Fertilisation comes after pollination."
+    },
+    {
+      "id": "q3",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Order the steps from flower to seed.",
+      "steps": [
+        "Pollen is made in the anther",
+        "Pollen lands on the stigma (pollination)",
+        "A male cell reaches the ovule",
+        "The male cell fuses with the egg (fertilisation)",
+        "The ovule becomes a seed and the ovary becomes a fruit"
+      ],
+      "explain": "Fertilisation turns ovules into seeds."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A flower is small and green with feathery stigmas and lots of light pollen. How is it most likely pollinated?",
+      "options": [
+        "By insects",
+        "By wind",
+        "By birds",
+        "By water only"
+      ],
+      "answer": 1,
+      "explain": "Wind-pollinated flowers don't need bright petals or scent."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What does the ovary of a flower become after fertilisation?",
+      "options": [
+        "A seed",
+        "A fruit",
+        "A leaf",
+        "A new flower"
+      ],
+      "answer": 1,
+      "explain": "The ovules inside become seeds."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan an experiment to test whether bees are needed for mustard plants to produce seed pods.",
+      "modelAnswer": "Choose two groups of mustard plants of the same type and age. Cover the flowers of group A with fine mesh bags so bees can't reach them; leave group B uncovered. Keep everything else the same: soil, water, sunlight. After the flowering season, count the seed pods on each plant. If group B has many more pods, pollination by bees is important. Use several plants in each group for reliability.",
+      "rubric": [
+        "Two groups: bees excluded vs allowed",
+        "Mesh bags or similar",
+        "Controls (same plants, conditions)",
+        "Measure seed pods; repeats"
+      ],
+      "explain": "Criterion B: design a controlled experiment."
+    },
+    {
+      "id": "q7",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each flower feature to its pollinator.",
+      "pairs": [
+        {
+          "left": "Bright petals, scent and nectar",
+          "right": "Insects"
+        },
+        {
+          "left": "Red tube-shaped flowers",
+          "right": "Birds"
+        },
+        {
+          "left": "Dull flowers with lots of light pollen",
+          "right": "Wind"
+        }
+      ],
+      "explain": "Flowers are adapted to their pollinators."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "When pollen lands on the stigma of a flower on a different plant of the same kind, it is called ___ pollination.",
+      "blanks": [
+        [
+          "cross"
+        ]
+      ],
+      "wordBank": [
+        "cross",
+        "self",
+        "double"
+      ],
+      "explain": "Cross-pollination increases variety."
+    }
+  ]
+}

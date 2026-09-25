@@ -1,0 +1,159 @@
+{
+  "topicId": "seed-dispersal",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "How is each seed dispersed?",
+      "bins": [
+        "Wind",
+        "Water",
+        "Animals",
+        "Explosion"
+      ],
+      "items": [
+        {
+          "label": "Drumstick (winged seeds)",
+          "bin": 0
+        },
+        {
+          "label": "Coconut",
+          "bin": 1
+        },
+        {
+          "label": "Xanthium (hooked burrs)",
+          "bin": 2
+        },
+        {
+          "label": "Balsam pod",
+          "bin": 3
+        },
+        {
+          "label": "Madar (hairy seeds)",
+          "bin": 0
+        },
+        {
+          "label": "Guava (eaten by birds)",
+          "bin": 2
+        }
+      ],
+      "explain": "Features give clues to the method."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is it important for seeds to be dispersed away from the parent plant?",
+      "options": [
+        "So seedlings don't compete with the parent for light, water and nutrients",
+        "So the parent plant grows taller",
+        "So seeds stay safe in the shade",
+        "It isn't important"
+      ],
+      "answer": 0,
+      "explain": "Dispersal also lets plants reach new places."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Seed Designer, which feature carried seeds furthest on a riverbank?",
+      "options": [
+        "Winged seed",
+        "Light, air-filled husk",
+        "Exploding pod",
+        "Plain heavy seed"
+      ],
+      "answer": 1,
+      "explain": "Coconuts can float across seas."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How do birds help disperse the seeds of banyan and jamun trees?",
+      "options": [
+        "They carry the whole tree",
+        "They eat the fruits and the seeds pass out in their droppings far away",
+        "They plant them on purpose",
+        "They blow them with their wings"
+      ],
+      "answer": 1,
+      "explain": "Seeds often survive being eaten."
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A new plant is discovered with light seeds covered in long, silky hairs. Predict how it is dispersed and explain your reasoning.",
+      "modelAnswer": "It is most likely dispersed by wind. The long silky hairs act like a parachute, increasing air resistance so the light seed falls slowly and can be carried far by the wind, like madar (Calotropis) or cotton seeds.",
+      "rubric": [
+        "Predicts wind",
+        "Explains hairs slow the fall / catch the wind",
+        "A similar known example"
+      ],
+      "explain": "Use features as evidence."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which seeds or fruits are dispersed by animals? Choose all that apply.",
+      "options": [
+        "Xanthium burrs that stick to fur",
+        "Mango (eaten, seed dropped)",
+        "Coconut",
+        "Drumstick",
+        "Berries eaten by birds"
+      ],
+      "answer": [
+        0,
+        1,
+        4
+      ],
+      "explain": "Coconut is dispersed by water; drumstick by wind."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which plant disperses its seeds by explosion?",
+      "options": [
+        "Balsam",
+        "Coconut",
+        "Madar",
+        "Mango"
+      ],
+      "answer": 0,
+      "explain": "The ripe pod bursts and flings seeds away."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The spreading of seeds away from the parent plant is called seed ___.",
+      "blanks": [
+        [
+          "dispersal"
+        ]
+      ],
+      "wordBank": [
+        "dispersal",
+        "pollination",
+        "germination"
+      ],
+      "explain": "Dispersal reduces competition."
+    }
+  ]
+}

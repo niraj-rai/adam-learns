@@ -1,0 +1,153 @@
+{
+  "topicId": "master-gardener",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Your pumpkin plant has flowers but no fruit, and there are no bees. What can you do?",
+      "options": [
+        "Hand-pollinate using a brush",
+        "Add more water",
+        "Remove the flowers",
+        "Plant it in shade"
+      ],
+      "answer": 0,
+      "explain": "Moving pollen by hand allows fertilisation."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "You want new plants EXACTLY like your best mango tree. Which method?",
+      "options": [
+        "Grow from seeds",
+        "Grafting or other vegetative methods",
+        "Wind pollination",
+        "Buy any mango plant"
+      ],
+      "answer": 1,
+      "explain": "Seeds mix features from two parents; vegetative methods copy one."
+    },
+    {
+      "id": "q3",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Which actions help pollinators such as bees and butterflies? Choose all that apply.",
+      "options": [
+        "Planting a variety of nectar-rich flowers",
+        "Avoiding harmful pesticides",
+        "Leaving some wild flowering plants",
+        "Paving over the garden",
+        "Providing shallow water"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explain": "Pollinators need food, water and safety."
+    },
+    {
+      "id": "q4",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Many crops, like mangoes, mustard and vegetables, depend on bees. Explain why declining bee populations are a concern for India, and suggest two actions to help.",
+      "modelAnswer": "Bees pollinate many crops. Without pollination, flowers don't get fertilised, so fewer fruits and seeds form, reducing harvests, farmers' incomes and food supplies. Actions: reduce the use of harmful pesticides and spray only when bees are not active; plant flowering hedges and trees near fields; support beekeeping, which also gives honey and income.",
+      "rubric": [
+        "Links bees to pollination and crop yield",
+        "Impact on food or farmers",
+        "Two realistic actions"
+      ],
+      "explain": "Criterion D: food security and ecology."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Seedlings growing right under their parent tree are thin and weak. Why?",
+      "options": [
+        "Competition with the parent for light, water and nutrients",
+        "Too much sunlight",
+        "Too far from the parent",
+        "They are a different species"
+      ],
+      "answer": 0,
+      "explain": "Seed dispersal avoids this."
+    },
+    {
+      "id": "q6",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sexual or asexual reproduction?",
+      "bins": [
+        "Sexual",
+        "Asexual"
+      ],
+      "items": [
+        {
+          "label": "Growing mustard from seed",
+          "bin": 0
+        },
+        {
+          "label": "Planting a rose cutting",
+          "bin": 1
+        },
+        {
+          "label": "Potato from a tuber",
+          "bin": 1
+        },
+        {
+          "label": "Cross-pollinated pumpkin seeds",
+          "bin": 0
+        },
+        {
+          "label": "Bryophyllum leaf buds",
+          "bin": 1
+        }
+      ],
+      "explain": "Seeds from flowers come from sexual reproduction."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which part of a flower becomes the seed?",
+      "options": [
+        "The ovule",
+        "The petal",
+        "The anther",
+        "The sepal"
+      ],
+      "answer": 0,
+      "explain": "And the ovary becomes the fruit."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Insects such as bees that carry pollen between flowers are called ___.",
+      "blanks": [
+        [
+          "pollinators"
+        ]
+      ],
+      "wordBank": [
+        "pollinators",
+        "decomposers",
+        "parasites"
+      ],
+      "explain": "Birds and bats can be pollinators too."
+    }
+  ]
+}

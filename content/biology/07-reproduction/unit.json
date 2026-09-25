@@ -1,0 +1,37 @@
+{
+  "id": "reproduction",
+  "number": 7,
+  "title": "Reproduction and Adolescence",
+  "summary": "How plants and animals make new life, from potato eyes and bee-pollinated flowers to frogs and hens, and the changes of adolescence, when our own bodies grow up.",
+  "ib": {
+    "keyConcept": "Change",
+    "relatedConcepts": [
+      "Form",
+      "Function",
+      "Patterns"
+    ],
+    "globalContext": "Identities and relationships",
+    "statementOfInquiry": "Living things change through life cycles and reproduction, and understanding the changes of adolescence helps us care for ourselves and respect others."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is the difference between sexual and asexual reproduction?",
+      "What are the parts of a flower?",
+      "What changes happen during puberty?"
+    ],
+    "conceptual": [
+      "Why do plants have so many ways of spreading their seeds?",
+      "How do hormones bring about the changes of adolescence?"
+    ],
+    "debatable": [
+      "Should farmers rely on crops that are all identical copies?",
+      "How can schools best support students through adolescence?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 7 (Curiosity) Ch 6: Adolescence: A Stage of Growth and Change",
+    "Earlier NCERT Class 7 Ch 12: Reproduction in Plants",
+    "Earlier NCERT Class 8 Ch 9: Reproduction in Animals",
+    "Earlier NCERT Class 8 Ch 10: Reaching the Age of Adolescence"
+  ]
+}

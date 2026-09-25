@@ -1,0 +1,153 @@
+{
+  "topicId": "reproduction-in-animals",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Order the life cycle of a frog.",
+      "steps": [
+        "Eggs laid in water",
+        "Tadpole with gills",
+        "Tadpole grows legs",
+        "Young frog with a tail",
+        "Adult frog"
+      ],
+      "explain": "This change of body form is metamorphosis."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Oviparous (lays eggs) or viviparous (gives birth)?",
+      "bins": [
+        "Oviparous",
+        "Viviparous"
+      ],
+      "items": [
+        {
+          "label": "Hen",
+          "bin": 0
+        },
+        {
+          "label": "Cow",
+          "bin": 1
+        },
+        {
+          "label": "Frog",
+          "bin": 0
+        },
+        {
+          "label": "Dog",
+          "bin": 1
+        },
+        {
+          "label": "Crocodile",
+          "bin": 0
+        },
+        {
+          "label": "Human",
+          "bin": 1
+        }
+      ],
+      "explain": "Most mammals are viviparous."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is formed when a sperm fuses with an egg?",
+      "options": [
+        "An embryo directly",
+        "A zygote",
+        "A tadpole",
+        "A spore"
+      ],
+      "answer": 1,
+      "explain": "The zygote divides again and again to form an embryo."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Frogs and many fish lay hundreds of eggs. Why?",
+      "options": [
+        "They like big families",
+        "Fertilisation is external, so many eggs are lost or eaten; laying many increases the chance some survive",
+        "Their eggs are very large",
+        "They only lay one egg a year"
+      ],
+      "answer": 1,
+      "explain": "External fertilisation is risky."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How does Hydra reproduce asexually?",
+      "options": [
+        "Binary fission",
+        "Budding",
+        "Spores",
+        "Seeds"
+      ],
+      "answer": 1,
+      "explain": "A bud grows on the side and breaks off as a new Hydra."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "The silk moth's cocoon is spun at which stage?",
+      "options": [
+        "Egg",
+        "Larva spinning itself into a pupa",
+        "Adult",
+        "Zygote"
+      ],
+      "answer": 1,
+      "explain": "The caterpillar spins silk around itself before becoming a pupa. Silk is harvested from these cocoons."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Compare reproduction in a hen and a cow: where fertilisation happens, and where the young develop.",
+      "modelAnswer": "In both, fertilisation is internal: the sperm fuses with the egg inside the female's body. In a hen, the fertilised egg is covered with a hard shell and laid; the embryo develops inside the egg outside the mother's body for about 21 days (oviparous). In a cow, the embryo develops inside the mother's uterus and the calf is born alive (viviparous).",
+      "rubric": [
+        "Both internal fertilisation",
+        "Hen: develops in an egg outside the body",
+        "Cow: develops inside the mother, born alive"
+      ],
+      "explain": "Compare using the correct terms."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The dramatic change in body form from larva to adult, as in frogs and butterflies, is called ___.",
+      "blanks": [
+        [
+          "metamorphosis"
+        ]
+      ],
+      "wordBank": [
+        "metamorphosis",
+        "fertilisation",
+        "budding"
+      ],
+      "explain": "Tadpole → frog; caterpillar → butterfly."
+    }
+  ]
+}

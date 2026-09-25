@@ -1,0 +1,58 @@
+{
+  "id": "reproduction-in-animals",
+  "number": "7.4",
+  "title": "Reproduction in Animals",
+  "summary": "Sexual and asexual reproduction, internal and external fertilisation, eggs or live young, and metamorphosis.",
+  "emoji": "🐸",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Gametes and meiosis are formalised in MYP 5 / CBSE 10"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 9: Reproduction in Animals",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can describe sexual reproduction as the fusion of male and female gametes to form a zygote.",
+    "I can distinguish internal and external fertilisation, and oviparous and viviparous animals.",
+    "I can describe metamorphosis in frogs and insects."
+  ],
+  "misconceptions": [
+    "All animals lay eggs.",
+    "Tadpoles are fish.",
+    "Asexual reproduction only happens in plants."
+  ],
+  "prerequisites": [
+    "biology/reproduction/asexual-reproduction",
+    "biology/cells/cell-division"
+  ],
+  "labs": [
+    "life-cycles"
+  ],
+  "keyTerms": [
+    "sexual reproduction",
+    "gamete",
+    "sperm",
+    "egg",
+    "fertilisation",
+    "zygote",
+    "embryo",
+    "oviparous",
+    "viviparous",
+    "metamorphosis"
+  ],
+  "estMinutes": 25
+}

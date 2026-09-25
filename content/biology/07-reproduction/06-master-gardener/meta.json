@@ -1,0 +1,51 @@
+{
+  "id": "master-gardener",
+  "number": "7.6",
+  "title": "Boss Challenge: Master Gardener",
+  "summary": "Run the school garden: propagate potatoes and roses, rescue pumpkins with hand-pollination, attract bees and spread seeds.",
+  "emoji": "🌻",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task: applying plant reproduction (Criteria A and D)"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 12: Reproduction in Plants",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "D"
+  ],
+  "objectives": [
+    "I can apply knowledge of propagation, pollination and dispersal to solve real problems.",
+    "I can justify gardening decisions using science."
+  ],
+  "misconceptions": [
+    "Fruits form even without pollination."
+  ],
+  "prerequisites": [
+    "biology/reproduction/asexual-reproduction",
+    "biology/reproduction/flowers-and-pollination",
+    "biology/reproduction/seed-dispersal"
+  ],
+  "labs": [
+    "master-gardener"
+  ],
+  "keyTerms": [
+    "propagation",
+    "pollination",
+    "pollinator",
+    "dispersal",
+    "hand-pollination"
+  ],
+  "estMinutes": 15
+}

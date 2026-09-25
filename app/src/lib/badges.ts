@@ -43,6 +43,8 @@ export type BadgeId =
   | 'marathon-medic'
   | 'unit-health'
   | 'disease-detective'
+  | 'unit-reproduction'
+  | 'master-gardener'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -90,5 +92,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'marathon-medic': { title: 'Marathon Medic', emoji: '🏅', description: 'Guided a runner safely through a half marathon by reading their body systems (Boss Challenge)' },
   'unit-health': { title: 'Health Guardian', emoji: '🛡️', description: 'Mastered every core topic in Biology Unit 6: Health & Disease' },
   'disease-detective': { title: 'Disease Detective', emoji: '🕵️‍♀️', description: 'Traced a cholera outbreak to its source and stopped it (Boss Challenge)' },
+  'unit-reproduction': { title: 'Life Cycle Expert', emoji: '🌸', description: 'Mastered every core topic in Biology Unit 7: Reproduction and Adolescence' },
+  'master-gardener': { title: 'Master Gardener', emoji: '🌻', description: 'Solved six garden problems using plant reproduction (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }
