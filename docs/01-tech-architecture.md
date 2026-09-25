@@ -21,7 +21,7 @@
 | Sound | Small UI sound effects (howler or plain Audio), with a mute toggle | Makes feedback feel like a game |
 | Testing | **Vitest** + React Testing Library; **Playwright** smoke tests | Especially for the practice engine's answer checking |
 | Lint/format | ESLint + Prettier (or Biome) | Consistency |
-| Package manager | **pnpm** | Fast; good workspace support if content becomes a package |
+| Package manager | **npm** | Already installed; nothing extra to set up |
 | Later | PWA (vite-plugin-pwa) for offline tablet use | |
 
 ## 2. Folder structure
@@ -44,9 +44,9 @@ Schooling/
 │   │   └── images/
 │   └── chemistry/
 │       ├── subject.json                       ← title, colour, icon, unit order
-│       ├── 01-matter-and-its-nature/
+│       ├── 01-matter/
 │       │   ├── unit.json                      ← unit meta, IB key concept, statement of inquiry
-│       │   ├── 01-what-is-matter/
+│       │   ├── 01-what-is-matter/          ← folder name (minus NN-) = topic id
 │       │   │   ├── meta.json                  ← grade/board mapping, complexity, prereqs, objectives
 │       │   │   ├── lesson.mdx                 ← the lesson, embeds <ParticleSimulator/> etc.
 │       │   │   ├── practice.json              ← question bank

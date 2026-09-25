@@ -14,7 +14,7 @@
 
 ## L0–L2: Foundations to Grade 8 🎯 (Phase 1)
 
-### Unit 1: Matter and Its Nature
+### Unit 1: Matter and Its Nature ✅ built
 *IB Key Concept:* **Systems** · *Related:* Form, Models · *Global Context:* Scientific & technical innovation
 *Statement of Inquiry:* "Models of tiny particles help us explain the properties of everything around us."
 

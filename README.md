@@ -2,7 +2,23 @@
 
 An interactive learning website for a Grade 8 student at an IB school in Bengaluru. It is aligned to **IB MYP** and cross-mapped to **CBSE/NCERT**, so each topic works for both boards.
 
-**Status:** Planning. Nothing is built yet.
+**Status:** Phase 1 in progress. Chemistry **Unit 1: Matter** is live (6 topics, 5 labs).
+
+## Run it locally
+
+```bash
+npm --prefix app install
+npm --prefix app run dev        # http://localhost:5173
+npm --prefix app test           # content validation + grading tests
+npm --prefix app run build      # tests → type-check → production build
+```
+
+## Add a new topic
+
+1. Create `content/<subject>/<NN-unit>/<NN-topic>/` with `meta.json`, `lesson.mdx` and `practice.json` (copy an existing topic).
+2. Fill in the IB mapping first, then the CBSE mapping (`"verified": true` only after checking the NCERT PDF).
+3. Run `npm --prefix app test`. It fails loudly if anything is inconsistent.
+4. A new interactive lab goes in `app/src/labs/<subject>/<lab-id>/` and is registered in `app/src/labs/registry.ts`.
 
 ## Read the plan in this order
 
