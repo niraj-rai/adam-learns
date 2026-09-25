@@ -61,7 +61,7 @@ export function TopBar() {
           <span className="grid size-8 place-items-center rounded-xl bg-chem text-white">
             <FlaskConical className="size-4.5" />
           </span>
-          <span className="hidden sm:inline">Discovery Lab</span>
+          <span className="hidden sm:inline">AdamLearns</span>
         </Link>
 
         <nav className="ml-2 hidden items-center gap-1 lg:flex">{links()}</nav>
@@ -102,7 +102,7 @@ export function TopBar() {
             </SheetTrigger>
             <SheetContent side="right" className="w-64">
               <SheetHeader>
-                <SheetTitle>Discovery Lab</SheetTitle>
+                <SheetTitle>AdamLearns</SheetTitle>
               </SheetHeader>
               <nav className="flex flex-col gap-1 px-4">{links(() => setOpen(false))}</nav>
             </SheetContent>

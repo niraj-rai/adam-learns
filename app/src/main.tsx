@@ -5,7 +5,12 @@ import { TooltipProvider } from '@/components/ui/tooltip'
 import { routeTree } from './routeTree.gen'
 import './index.css'
 
-const router = createRouter({ routeTree, defaultPreload: 'intent', scrollRestoration: true })
+const router = createRouter({
+  routeTree,
+  basepath: import.meta.env.BASE_URL,
+  defaultPreload: 'intent',
+  scrollRestoration: true,
+})
 
 declare module '@tanstack/react-router' {
   interface Register {

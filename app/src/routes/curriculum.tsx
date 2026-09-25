@@ -35,7 +35,7 @@ function CurriculumPage() {
       <header>
         <h1 className="font-heading text-4xl font-bold">🗺️ Curriculum Map</h1>
         <p className="mt-1 max-w-3xl text-muted-foreground">
-          Discovery Lab follows the <b className="text-ib">IB MYP</b> approach first (concepts, inquiry, criteria A–D), and every topic is mapped to{' '}
+          AdamLearns follows the <b className="text-ib">IB MYP</b> approach first (concepts, inquiry, criteria A–D), and every topic is mapped to{' '}
           <b className="text-cbse">CBSE/NCERT</b> so nothing is missed.
         </p>
       </header>

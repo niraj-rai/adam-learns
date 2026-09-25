@@ -9,6 +9,8 @@ import { defineConfig } from 'vite'
 const contentDir = path.resolve(__dirname, '../content')
 
 export default defineConfig({
+  // GitHub Pages serves the site under /<repo-name>/; the deploy workflow sets BASE_PATH
+  base: process.env.BASE_PATH ?? '/',
   plugins: [
     tanstackRouter({ target: 'react', autoCodeSplitting: true }),
     { enforce: 'pre', ...mdx({ remarkPlugins: [remarkGfm] }) },

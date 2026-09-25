@@ -1,4 +1,4 @@
-# Schooling — Interactive Science & Math Lab
+# AdamLearns — Interactive Science & Math Lab
 
 An interactive learning website for a Grade 8 student at an IB school in Bengaluru. It is aligned to **IB MYP** and cross-mapped to **CBSE/NCERT**, so each topic works for both boards.
 
@@ -12,6 +12,15 @@ npm --prefix app run dev        # http://localhost:5173
 npm --prefix app test           # content validation + grading tests
 npm --prefix app run build      # tests → type-check → production build
 ```
+
+## Hosting (GitHub Pages)
+
+`.github/workflows/deploy-pages.yml` builds and deploys on every push to `main`.
+Site URL: `https://<github-user>.github.io/<repo-name>/` (e.g. `/AdamLearns/`).
+
+One-time setup after creating the GitHub repo:
+1. Push this folder to the repo (`main` branch).
+2. In the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
 ## Add a new topic
 

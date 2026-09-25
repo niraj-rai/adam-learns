@@ -25,7 +25,7 @@ function RootLayout() {
         <Outlet />
       </main>
       <footer className="border-t py-6 text-center text-xs text-muted-foreground">
-        Discovery Lab · IB MYP first, mapped to CBSE/NCERT · Progress is saved on this device
+        AdamLearns · IB MYP first, mapped to CBSE/NCERT · Progress is saved on this device
       </footer>
       <Toaster />
     </div>

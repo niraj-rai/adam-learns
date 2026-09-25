@@ -99,6 +99,6 @@ Build in stages. Each phase ships something the student can use.
 ## 8. Open decisions (need the parent's input)
 
 1. The school's MYP 3 science unit order. We will match it if we can get it.
-2. Hosting: local only, or a free deploy (Vercel/Netlify) so it works on the tablet too.
+2. ~~Hosting~~ **Decided:** GitHub Pages (repo name: AdamLearns), deployed by GitHub Actions.
 3. Should progress sync across devices? (Phase 1 uses localStorage. A backend such as Supabase can come later.)
 4. Language: English only, or add Hindi/Kannada glossary support later?

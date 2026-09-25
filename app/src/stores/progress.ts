@@ -188,7 +188,7 @@ export const useProgress = create<ProgressState>()(
       },
     }),
     {
-      name: 'schooling-progress',
+      name: 'adamlearns-progress',
       version: 1,
       storage: createJSONStorage(() => localStorage),
       partialize: (s) => ({

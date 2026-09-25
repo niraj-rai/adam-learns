@@ -24,7 +24,7 @@ export const useSettings = create<SettingsState>()(
       toggleSound: () => set((s) => ({ sound: !s.sound })),
       setBoardView: (boardView) => set({ boardView }),
     }),
-    { name: 'schooling-settings' },
+    { name: 'adamlearns-settings' },
   ),
 )
 

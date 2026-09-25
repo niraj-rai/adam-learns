@@ -22,7 +22,7 @@ function ProgressPage() {
     const blob = new Blob([JSON.stringify({ xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones }, null, 2)], { type: 'application/json' })
     const a = document.createElement('a')
     a.href = URL.createObjectURL(blob)
-    a.download = `discovery-lab-progress-${new Date().toISOString().slice(0, 10)}.json`
+    a.download = `adamlearns-progress-${new Date().toISOString().slice(0, 10)}.json`
     a.click()
     URL.revokeObjectURL(a.href)
   }
