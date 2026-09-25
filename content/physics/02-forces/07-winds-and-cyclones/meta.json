@@ -1,0 +1,58 @@
+{
+  "id": "winds-and-cyclones",
+  "number": "2.7",
+  "title": "Winds, Storms and Cyclones",
+  "summary": "Air moves from high to low pressure. Uneven heating drives sea breezes and monsoons; warm oceans power cyclones.",
+  "emoji": "🌀",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Links to MYP Individuals & Societies (weather and climate)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 6: Pressure, Winds, Storms and Cyclones",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain that wind is air moving from high pressure to low pressure.",
+    "I can explain sea breezes, land breezes and the monsoon using uneven heating.",
+    "I can describe how a cyclone forms and evaluate ways to reduce cyclone damage."
+  ],
+  "misconceptions": [
+    "Wind blows from low to high pressure.",
+    "Hot air ‘sucks’ in cold air (the cooler air is pushed in by higher pressure).",
+    "Cyclones form over land."
+  ],
+  "prerequisites": [
+    "physics/forces/pressure-in-liquids-and-air"
+  ],
+  "labs": [
+    "cyclone-lab"
+  ],
+  "keyTerms": [
+    "wind",
+    "high pressure",
+    "low pressure",
+    "sea breeze",
+    "land breeze",
+    "monsoon",
+    "cyclone",
+    "eye",
+    "storm surge",
+    "IMD"
+  ],
+  "estMinutes": 25
+}

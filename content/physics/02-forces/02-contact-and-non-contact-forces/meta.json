@@ -1,0 +1,55 @@
+{
+  "id": "contact-and-non-contact-forces",
+  "number": "2.2",
+  "title": "Contact and Non-contact Forces",
+  "summary": "Muscular force and friction need touch. Magnetic, electrostatic and gravitational forces work across a gap.",
+  "emoji": "🧲",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Fields are introduced in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 5: Exploring Forces",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can classify forces as contact forces or non-contact forces.",
+    "I can describe magnetic, electrostatic and gravitational forces with examples.",
+    "I can explain how the gap affects the strength of a non-contact force."
+  ],
+  "misconceptions": [
+    "Non-contact forces only attract.",
+    "Magnets attract all metals.",
+    "Gravity only works on Earth."
+  ],
+  "prerequisites": [
+    "physics/forces/pushes-and-pulls"
+  ],
+  "labs": [
+    "invisible-forces"
+  ],
+  "keyTerms": [
+    "contact force",
+    "non-contact force",
+    "muscular force",
+    "magnetic force",
+    "electrostatic force",
+    "gravitational force",
+    "attract",
+    "repel"
+  ],
+  "estMinutes": 20
+}

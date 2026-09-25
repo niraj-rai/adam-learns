@@ -1,0 +1,189 @@
+{
+  "topicId": "contact-and-non-contact-forces",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Contact or non-contact force?",
+      "bins": [
+        "Contact",
+        "Non-contact"
+      ],
+      "items": [
+        {
+          "label": "Kicking a football",
+          "bin": 0
+        },
+        {
+          "label": "A magnet pulling a pin",
+          "bin": 1
+        },
+        {
+          "label": "A mango falling from a tree",
+          "bin": 1
+        },
+        {
+          "label": "Friction on a sliding box",
+          "bin": 0
+        },
+        {
+          "label": "A rubbed comb picking up paper bits",
+          "bin": 1
+        },
+        {
+          "label": "Lifting a school bag",
+          "bin": 0
+        }
+      ],
+      "explain": "Contact forces need touch. Magnetic, electrostatic and gravitational forces act across a gap."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Two magnets are placed with their north poles facing each other. They will…",
+      "options": [
+        "attract",
+        "repel",
+        "do nothing",
+        "stick together"
+      ],
+      "answer": 1,
+      "explain": "Like poles repel; unlike poles attract."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which object will a magnet NOT attract?",
+      "options": [
+        "An iron nail",
+        "A steel pin",
+        "An aluminium can",
+        "A nickel coin"
+      ],
+      "answer": 2,
+      "feedback": {
+        "2": "Correct: aluminium is a metal, but it isn’t magnetic."
+      },
+      "explain": "Only a few metals (iron, nickel, cobalt, and steel which contains iron) are magnetic."
+    },
+    {
+      "id": "q4",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each force to an example.",
+      "pairs": [
+        {
+          "left": "Muscular force",
+          "right": "Rowing a boat"
+        },
+        {
+          "left": "Friction",
+          "right": "Brakes slowing a cycle"
+        },
+        {
+          "left": "Magnetic force",
+          "right": "A fridge magnet sticking"
+        },
+        {
+          "left": "Electrostatic force",
+          "right": "A balloon sticking to a wall"
+        },
+        {
+          "left": "Gravitational force",
+          "right": "Rain falling"
+        }
+      ],
+      "explain": "Every force has an everyday example."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A balloon rubbed on hair sticks to the wall. Which force holds it there?",
+      "options": [
+        "Magnetic",
+        "Electrostatic",
+        "Muscular",
+        "Friction only"
+      ],
+      "answer": 1,
+      "explain": "Rubbing transfers electric charge, and the charged balloon attracts the wall: an electrostatic force."
+    },
+    {
+      "id": "q6",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A pin is placed at different distances from a magnet. Order from STRONGEST pull to WEAKEST.",
+      "steps": [
+        "1 cm away",
+        "3 cm away",
+        "6 cm away",
+        "10 cm away"
+      ],
+      "explain": "Non-contact forces get weaker as the gap increases."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Complete the rule.",
+      "text": "Like poles ___ and unlike poles ___.",
+      "blanks": [
+        [
+          "repel"
+        ],
+        [
+          "attract"
+        ]
+      ],
+      "wordBank": [
+        "repel",
+        "attract",
+        "melt"
+      ],
+      "explain": "N–N and S–S repel; N–S attract."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Adam measured how many paper clips a magnet could hold at different gaps: 0 cm → 12 clips, 1 cm → 7, 2 cm → 3, 3 cm → 1. Describe the pattern and explain it.",
+      "modelAnswer": "As the gap increases, the number of paper clips held decreases, from 12 at 0 cm to 1 at 3 cm. This shows the magnetic force gets weaker with distance. The force falls quickly at first and then more slowly.",
+      "rubric": [
+        "Describes the trend: larger gap, fewer clips",
+        "Uses data from the table",
+        "Concludes that magnetic force weakens with distance"
+      ],
+      "explain": "Criterion C: describe the trend using the data, then explain it scientifically."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which statement about gravity is true?",
+      "options": [
+        "It only acts on Earth",
+        "It acts between all objects that have mass",
+        "It only pulls on heavy objects",
+        "It pushes objects away"
+      ],
+      "answer": 1,
+      "explain": "Every mass attracts every other mass. The Moon, Sun and planets all have gravity."
+    }
+  ]
+}

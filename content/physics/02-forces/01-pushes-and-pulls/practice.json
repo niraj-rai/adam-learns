@@ -1,0 +1,182 @@
+{
+  "topicId": "pushes-and-pulls",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which of these can a force do? Choose all that apply.",
+      "options": [
+        "Start a still object moving",
+        "Stop a moving object",
+        "Change the direction of motion",
+        "Change the shape of an object",
+        "Change an object’s mass"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explain": "Forces change motion or shape. They never change the amount of matter (mass)."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "The SI unit of force is the…",
+      "options": [
+        "kilogram",
+        "newton",
+        "joule",
+        "pascal"
+      ],
+      "answer": 1,
+      "explain": "Force is measured in newtons (N), named after Isaac Newton."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "In a tug-of-war, Team A pulls left with 500 N and Team B pulls right with 420 N. What is the size of the net force?",
+      "answer": 80,
+      "tolerance": 0,
+      "unit": "N",
+      "explain": "Opposite directions: subtract. 500 − 420 = 80 N towards Team A (left)."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Two friends push a stalled car in the SAME direction with 250 N and 300 N. Friction opposes them with 350 N. What is the net force on the car?",
+      "answer": 200,
+      "tolerance": 0,
+      "unit": "N",
+      "explain": "Same direction: add (250 + 300 = 550 N). Then subtract the opposing friction: 550 − 350 = 200 N forward."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Balanced or unbalanced forces?",
+      "bins": [
+        "Balanced",
+        "Unbalanced"
+      ],
+      "items": [
+        {
+          "label": "A book resting on a table",
+          "bin": 0
+        },
+        {
+          "label": "A tug-of-war that isn’t moving",
+          "bin": 0
+        },
+        {
+          "label": "A cricket ball being hit by the bat",
+          "bin": 1
+        },
+        {
+          "label": "A car speeding up at a green signal",
+          "bin": 1
+        },
+        {
+          "label": "A lamp hanging still from the ceiling",
+          "bin": 0
+        },
+        {
+          "label": "A cyclist braking to a stop",
+          "bin": 1
+        }
+      ],
+      "explain": "Balanced forces: no change in motion. Unbalanced: speeding up, slowing down or turning."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A box sits still on the floor. Which statement is correct?",
+      "options": [
+        "No forces act on it",
+        "Gravity pulls it down and the floor pushes it up equally",
+        "Only gravity acts on it",
+        "The floor pushes it up more than gravity pulls down"
+      ],
+      "answer": 1,
+      "feedback": {
+        "0": "Gravity always pulls on it! Being still means the forces are balanced, not absent."
+      },
+      "explain": "Still objects have balanced forces: weight down, support force from the floor up."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Complete the sentences.",
+      "text": "A force is a push or a ___. A force has both size (magnitude) and ___. We can measure force with a ___ balance.",
+      "blanks": [
+        [
+          "pull"
+        ],
+        [
+          "direction"
+        ],
+        [
+          "spring"
+        ]
+      ],
+      "wordBank": [
+        "pull",
+        "direction",
+        "spring",
+        "colour",
+        "mass"
+      ],
+      "explain": "Force = push or pull, with magnitude and direction, measured with a spring balance."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan a fair test to find out whether the number of people pushing affects how far a trolley rolls. What will you change, measure and keep the same?",
+      "modelAnswer": "Independent variable: the number of people pushing (1, 2, 3). Dependent variable: the distance the trolley rolls, measured with a measuring tape. Control variables: the same trolley and load, the same floor, the same starting line, each person pushing for the same time and in the same way. Repeat each test three times and take an average.",
+      "rubric": [
+        "States the variable changed (number of pushers)",
+        "States what is measured (distance) and how",
+        "Lists at least two control variables",
+        "Mentions repeating for reliability"
+      ],
+      "explain": "A good IB Criterion B plan names the independent, dependent and control variables."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A football rolls across the grass and slowly stops. Why?",
+      "options": [
+        "It runs out of force",
+        "Friction from the grass is an unbalanced force slowing it",
+        "Gravity pulls it backwards",
+        "Nothing: all things stop naturally"
+      ],
+      "answer": 1,
+      "feedback": {
+        "0": "Objects don’t ‘carry’ a force. It’s friction acting on the ball that slows it."
+      },
+      "explain": "An unbalanced force (friction) acts opposite to the motion and slows the ball."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+<Stage kind="wonder" title="Lighter on the Moon?" />
+
+<Hook emoji="🧑‍🚀">
+Astronauts on the Moon bounced around like kangaroos, even in heavy spacesuits. Did they suddenly become lighter? Did they lose some of their body? What exactly changes when you leave Earth?
+</Hook>
+
+<PredictFirst
+  question="A 40 kg student travels to the Moon. What is their MASS there?"
+  options={["40 kg", "About 6.6 kg", "0 kg", "240 kg"]}
+  answer={0}
+>
+**Mass** is the amount of matter in you. You didn't leave any of yourself behind, so it's still **40 kg**! What changes is your **weight**: the pull of gravity on you.
+</PredictFirst>
+
+<Stage kind="explain" title="Mass vs weight" />
+
+<Compare
+  columns={[
+    { title: "Mass", emoji: "🧱", points: ["Amount of matter in an object", "Measured in kilograms (kg)", "The same everywhere in the universe", "Measured with a beam balance"] },
+    { title: "Weight", emoji: "⬇️", points: ["The force of gravity on an object", "Measured in newtons (N)", "Changes with the strength of gravity", "Measured with a spring balance"] }
+  ]}
+/>
+
+<Formula tex="\text{weight (N)} = \text{mass (kg)} \times g \ (\text{N/kg})" caption="On Earth, g ≈ 9.8 N/kg: every kilogram is pulled with about 9.8 N" />
+
+<StepReveal>
+<div>
+**Worked example:** What does a 50 kg student weigh on Earth and on the Moon?
+</div>
+<div>
+Earth: W = 50 × 9.8 = **490 N**
+</div>
+<div>
+Moon: W = 50 × 1.6 = **80 N**, about one-sixth. Same mass, much smaller weight.
+</div>
+</StepReveal>
+
+<Stage kind="try" title="Planet Scales" />
+
+<Lab id="planet-scales" />
+
+<ConceptCard title="Do heavy things fall faster?" emoji="🪶">
+Without air, **no**: everything speeds up at the same rate. On Earth, a feather falls slowly only because **air resistance** pushes up on it a lot compared to its tiny weight. In 1971, astronaut David Scott dropped a hammer and a feather on the airless Moon, and they landed together.
+</ConceptCard>
+
+<MythFact myth="There's no gravity in space. That's why astronauts float.">
+Gravity is still strong at the space station (about 90% of what it is on the ground!). Astronauts float because they and the station are **falling together** around the Earth. This is called free fall.
+</MythFact>
+
+<RealLife title="Chandrayaan-3 on the Moon">
+In August 2023, ISRO's **Vikram lander** touched down near the Moon's south pole. With no air for parachutes, it used engines firing downward to slow its fall. The Moon's weaker gravity meant less thrust was needed.
+</RealLife>
+
+<Stage kind="apply" title="Calculate and apply" />
+
+<Inquiry criterion="C" title="Weights around the Solar System">
+Use Planet Scales to find the weight of a 60 kg person on each world. Put your results in a table and a bar chart. Which world has gravity closest to Earth's?
+</Inquiry>
+
+<Inquiry criterion="D" title="Living on Mars">
+Mars' gravity is only about 38% of Earth's. Suggest two ways low gravity might affect people living there for years (think about muscles, bones and building). Do the benefits of exploring Mars outweigh the risks?
+</Inquiry>
+
+<CbseCorner source="Class 8 Curiosity Ch 5">
+- **Gravitational force** is a non-contact force of attraction; Earth pulls all objects towards its centre.
+- **Weight** is the force with which Earth pulls an object; measured in **newtons** with a spring balance.
+- Mass is constant; weight on the Moon is about **1/6** of that on Earth.
+</CbseCorner>
+
+<Reflect id="phys-forces-gravity" prompt="Explain to a younger child, in two sentences, why a bathroom scale on the Moon would show a smaller number even though they haven't changed." />

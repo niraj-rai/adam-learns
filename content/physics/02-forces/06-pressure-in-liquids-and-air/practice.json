@@ -1,0 +1,154 @@
+{
+  "topicId": "pressure-in-liquids-and-air",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "A bottle of water has holes at three heights. Which hole squirts water the furthest?",
+      "options": [
+        "The top hole",
+        "The middle hole",
+        "The bottom hole",
+        "All the same"
+      ],
+      "answer": 2,
+      "explain": "Liquid pressure increases with depth, so the bottom hole has the greatest pressure."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Why are dam walls built thicker at the bottom?",
+      "options": [
+        "To look better",
+        "Water pressure is greatest at the bottom",
+        "The bottom has less water",
+        "To stop fish"
+      ],
+      "answer": 1,
+      "explain": "The deeper the water, the higher the pressure on the wall."
+    },
+    {
+      "id": "q3",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which statements about liquid pressure are TRUE? Choose all that apply.",
+      "options": [
+        "It increases with depth",
+        "It acts in all directions",
+        "It acts only downward",
+        "It is bigger in denser liquids at the same depth",
+        "It depends on the shape of the container"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explain": "Liquid pressure depends on depth and density, acts in all directions, and doesn’t depend on container shape."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "When you drink through a straw, what actually pushes the juice up?",
+      "options": [
+        "Your sucking pulls the juice up",
+        "The air pressure on the juice surface pushes it up into the low-pressure straw",
+        "Gravity",
+        "The straw pushes it"
+      ],
+      "answer": 1,
+      "feedback": {
+        "0": "Sucking only lowers the pressure inside the straw. The outside air pressure does the pushing!"
+      },
+      "explain": "Atmospheric pressure pushes the liquid into the region of lower pressure."
+    },
+    {
+      "id": "q5",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Put the crushed-can demonstration in order.",
+      "steps": [
+        "Boil a little water in an open can",
+        "Steam pushes most of the air out",
+        "Seal the can and plunge it into cold water",
+        "Steam condenses; the pressure inside drops",
+        "Air pressure outside crushes the can"
+      ],
+      "explain": "Low pressure inside + normal air pressure outside = crushed can."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Air presses on every cm² with about 10 N. What total force does air exert on a notebook cover of 500 cm²?",
+      "answer": 5000,
+      "tolerance": 0,
+      "unit": "N",
+      "explain": "10 × 500 = 5000 N, about the weight of 500 kg! It doesn’t crush the book because air pushes equally from below."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Design an experiment with a plastic bottle to test the hypothesis ‘liquid pressure increases with depth’. Include your variables.",
+      "modelAnswer": "Make three holes of the same size at different heights on one side of a bottle. Fill it with water to the same level each time and measure how far each jet lands from the bottle with a ruler. Independent variable: depth of the hole below the water surface. Dependent variable: horizontal distance of the jet. Control variables: hole size, liquid, starting water level, same bottle. If the deepest hole squirts furthest, the hypothesis is supported.",
+      "rubric": [
+        "Holes at different depths (independent variable)",
+        "Measure jet distance (dependent variable)",
+        "Control variables such as hole size and water level",
+        "States what result supports the hypothesis"
+      ],
+      "explain": "Criterion B: turn a hypothesis into a testable plan."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "The pressure exerted by the air around us is called ___ pressure. It is measured with a ___.",
+      "blanks": [
+        [
+          "atmospheric"
+        ],
+        [
+          "barometer"
+        ]
+      ],
+      "wordBank": [
+        "atmospheric",
+        "barometer",
+        "thermometer",
+        "liquid"
+      ],
+      "explain": "Atmospheric pressure is measured with a barometer."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do deep-sea submarines need very thick, strong hulls?",
+      "options": [
+        "To float better",
+        "Water pressure is enormous at great depths",
+        "To keep warm",
+        "To be heavier"
+      ],
+      "answer": 1,
+      "explain": "Pressure increases with depth. At 1 km deep it is about 100 times atmospheric pressure."
+    }
+  ]
+}

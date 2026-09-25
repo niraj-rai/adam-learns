@@ -1,0 +1,53 @@
+{
+  "id": "pressure",
+  "number": "2.5",
+  "title": "Pressure: Force on an Area",
+  "summary": "Pressure = force ÷ area. Why knives are sharp, why camels have wide feet, and why nails have points.",
+  "emoji": "👠",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Pressure in pascals (N/m²) is used in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 6: Pressure, Winds, Storms and Cyclones",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can define pressure as the force acting per unit area.",
+    "I can calculate pressure using pressure = force ÷ area, in N/cm² or N/m² (pascal).",
+    "I can explain everyday designs that increase or reduce pressure."
+  ],
+  "misconceptions": [
+    "Pressure and force are the same thing.",
+    "A bigger force always means a bigger pressure (area matters too).",
+    "Sharp objects cut because they are stronger."
+  ],
+  "prerequisites": [
+    "physics/forces/gravity-and-weight"
+  ],
+  "labs": [
+    "pressure-lab"
+  ],
+  "keyTerms": [
+    "pressure",
+    "area",
+    "thrust",
+    "pascal (Pa)",
+    "N/cm²"
+  ],
+  "estMinutes": 25
+}

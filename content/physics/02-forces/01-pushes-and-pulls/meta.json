@@ -1,0 +1,56 @@
+{
+  "id": "pushes-and-pulls",
+  "number": "2.1",
+  "title": "Forces: Pushes and Pulls",
+  "summary": "What a force is, what it can do, and what happens when forces are balanced or unbalanced.",
+  "emoji": "💪",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Newton’s laws are formalised in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 5: Exploring Forces",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can describe a force as a push or pull, measured in newtons (N).",
+    "I can list what forces can do: start, stop, speed up, slow down, change direction or change shape.",
+    "I can find the net force and predict whether an object moves when forces are balanced or unbalanced."
+  ],
+  "misconceptions": [
+    "A moving object needs a force to keep it moving.",
+    "If an object is not moving, no forces act on it.",
+    "Forces in the same tug-of-war cancel only if the teams are the same size."
+  ],
+  "prerequisites": [
+    "physics/motion/speed"
+  ],
+  "labs": [
+    "force-playground"
+  ],
+  "keyTerms": [
+    "force",
+    "newton (N)",
+    "net force",
+    "balanced forces",
+    "unbalanced forces",
+    "magnitude",
+    "direction",
+    "spring balance"
+  ],
+  "estMinutes": 20
+}

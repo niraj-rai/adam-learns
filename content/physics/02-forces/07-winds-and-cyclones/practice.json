@@ -1,0 +1,181 @@
+{
+  "topicId": "winds-and-cyclones",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Wind blows from…",
+      "options": [
+        "low pressure to high pressure",
+        "high pressure to low pressure",
+        "land to space",
+        "cold places only"
+      ],
+      "answer": 1,
+      "explain": "Air moves from regions of high pressure to regions of low pressure."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "On a sunny afternoon at Marina Beach, the breeze blows from the sea to the land. Why?",
+      "options": [
+        "The land heats faster, warm air rises, and cooler sea air moves in",
+        "The sea is hotter than the land",
+        "The Moon pulls the air",
+        "Waves push the air"
+      ],
+      "answer": 0,
+      "explain": "Land heats faster than water → low pressure over land → sea breeze."
+    },
+    {
+      "id": "q3",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each wind to its cause.",
+      "pairs": [
+        {
+          "left": "Sea breeze",
+          "right": "Land hotter than sea (daytime)"
+        },
+        {
+          "left": "Land breeze",
+          "right": "Sea warmer than land (night)"
+        },
+        {
+          "left": "Summer monsoon",
+          "right": "Indian landmass much hotter than the ocean"
+        },
+        {
+          "left": "Cyclone",
+          "right": "Very low pressure over a warm ocean"
+        }
+      ],
+      "explain": "All of these are driven by uneven heating creating pressure differences."
+    },
+    {
+      "id": "q4",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Order the stages of cyclone formation.",
+      "steps": [
+        "Sun heats the ocean above about 26–27 °C",
+        "Warm, moist air rises fast",
+        "Low pressure forms at the surface",
+        "Surrounding air rushes in and spirals",
+        "Rising air cools and releases heat as clouds form, feeding the storm"
+      ],
+      "explain": "Warm oceans are the fuel; low pressure draws in more air, and the heat released when water vapour condenses keeps the storm running."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Cyclone safety: DO or DON’T?",
+      "bins": [
+        "Do",
+        "Don’t"
+      ],
+      "items": [
+        {
+          "label": "Follow IMD warnings on radio, TV or phone",
+          "bin": 0
+        },
+        {
+          "label": "Go to the beach to watch the waves",
+          "bin": 1
+        },
+        {
+          "label": "Move to a cyclone shelter when told",
+          "bin": 0
+        },
+        {
+          "label": "Touch fallen electric wires",
+          "bin": 1
+        },
+        {
+          "label": "Keep an emergency kit (water, torch, medicines)",
+          "bin": 0
+        },
+        {
+          "label": "Ignore warnings because the sky looks clear",
+          "bin": 1
+        }
+      ],
+      "explain": "Early warnings and evacuation save lives."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the calm, clear centre of a cyclone called?",
+      "options": [
+        "The eye",
+        "The core",
+        "The funnel",
+        "The vent"
+      ],
+      "answer": 0,
+      "explain": "The eye is calm with light winds, surrounded by the eyewall, where the strongest winds are."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "In the Cyclone Lab, what happens when the sea temperature is set below 26.5 °C?",
+      "options": [
+        "The cyclone grows fastest",
+        "The storm doesn’t strengthen: there isn’t enough warm, moist air to fuel it",
+        "The winds reverse",
+        "The eye gets bigger"
+      ],
+      "answer": 1,
+      "explain": "Cyclones need warm sea water; cooler seas can’t feed them."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "In 1999 a super cyclone killed about 10 000 people in Odisha. When the very severe Cyclone Phailin struck the same coast in 2013, fewer than 50 people died. Suggest reasons for this difference.",
+      "modelAnswer": "By 2013 IMD forecasting was more accurate and gave warnings days ahead. Odisha had built hundreds of cyclone shelters and trained local volunteers. Around a million people were evacuated before landfall. Communication through mobile phones, radio and TV reached more people, and the state had a disaster management plan. Science (forecasting) combined with preparation (shelters, evacuation) saved lives.",
+      "rubric": [
+        "Better forecasting and early warnings",
+        "Shelters and evacuation",
+        "Communication and community preparedness",
+        "Links science to reducing harm"
+      ],
+      "explain": "Criterion D: how science and society work together to reduce disaster impact."
+    },
+    {
+      "id": "q9",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "In India, cyclone warnings are issued by the ___.",
+      "blanks": [
+        [
+          "IMD",
+          "India Meteorological Department"
+        ]
+      ],
+      "wordBank": [
+        "IMD",
+        "ISRO",
+        "NASA"
+      ],
+      "explain": "The India Meteorological Department (IMD) tracks cyclones and issues warnings."
+    }
+  ]
+}

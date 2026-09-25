@@ -1,0 +1,57 @@
+{
+  "id": "friction",
+  "number": "2.3",
+  "title": "Friction: Friend and Foe",
+  "summary": "Why things slow down, why rough surfaces grip, and how we increase or reduce friction.",
+  "emoji": "🛝",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Coefficient of friction is treated in DP"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 5: Exploring Forces",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain friction as a force that opposes motion between surfaces in contact.",
+    "I can describe factors affecting friction and compare sliding and rolling friction.",
+    "I can evaluate ways to increase or reduce friction and judge whether friction is useful or harmful."
+  ],
+  "misconceptions": [
+    "Friction is always a nuisance.",
+    "Friction only acts when an object is moving.",
+    "Smooth surfaces have no friction."
+  ],
+  "prerequisites": [
+    "physics/forces/pushes-and-pulls"
+  ],
+  "labs": [
+    "friction-ramp"
+  ],
+  "keyTerms": [
+    "friction",
+    "static friction",
+    "sliding friction",
+    "rolling friction",
+    "lubricant",
+    "treads",
+    "ball bearings",
+    "drag"
+  ],
+  "estMinutes": 25
+}

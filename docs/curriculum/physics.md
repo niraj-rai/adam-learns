@@ -18,10 +18,19 @@
 | 1.5 | Measuring time: pendulums and clocks | MYP 2 | Cur-7 Ch 8 ✅, Cur-8 Ch 11 ✅ | ★★ | **Pendulum Lab**: fair test of length, mass and angle |
 | 1.6 | Boss: The Great Bengaluru Race | MYP 3 | Cur-7 Ch 8 ✅ | ★★★ | Analyse a 4-traveller distance–time graph |
 
-### Unit 2: Forces & Pressure
-| Topics | IB | CBSE | Signature labs |
-|---|---|---|---|
-| Contact and non-contact forces, balanced/unbalanced, friction, gravity and weight, pressure = F/A, liquid and air pressure, winds and cyclones | MYP 2–3 | Cur-8 Ch 5 ✅, Ch 6 ✅ | Force Playground, Friction Ramp, Bed of Nails, Pressure Depth Tank, Cyclone Builder |
+### Unit 2: Forces & Pressure ✅ built
+*IB Key Concept:* **Relationships** · *Related:* Interaction, Balance, Consequences · *Global Context:* Scientific and technical innovation
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 2.1 | Forces: pushes and pulls (net force, balanced/unbalanced) | MYP 2 | Cur-8 Ch 5 ✅ | ★ | **Force Playground**: two teams push a box, on a rough floor or ice |
+| 2.2 | Contact and non-contact forces | MYP 2 | Cur-8 Ch 5 ✅ | ★★ | **Invisible Forces**: magnets, a charged balloon, a falling mango |
+| 2.3 | Friction: friend and foe | MYP 2 | Cur-8 Ch 5 ✅ | ★★ | **Friction Ramp**: slip angles on five surfaces, with wheels |
+| 2.4 | Gravity, mass and weight (W = mg) | MYP 3 | Cur-8 Ch 5 ✅ | ★★ | **Planet Scales**: weight on six worlds, the hammer-and-feather drop |
+| 2.5 | Pressure = force ÷ area | MYP 3 | Cur-8 Ch 6 ✅ | ★★ | **Pressure Lab**: stances on snow, the bed of nails |
+| 2.6 | Pressure in liquids and air | MYP 3 | Cur-8 Ch 6 ✅ | ★★★ | **Tank and Can**: jets at three depths, the crushed can |
+| 2.7 | Winds, storms and cyclones | MYP 3 | Cur-8 Ch 6 ✅ | ★★★ | **Cyclone Lab**: sea and land breezes, grow a storm using IMD categories |
+| 2.8 | Boss: Force Fixers | MYP 3 | Cur-8 Ch 5, Ch 6 ✅ | ★★★ | Fix 8 real-world problems (3 lives) |
 
 ### Unit 3: Energy, Heat & Temperature
 | Topics | IB | CBSE | Signature labs |

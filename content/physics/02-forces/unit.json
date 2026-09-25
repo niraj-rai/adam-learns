@@ -1,0 +1,37 @@
+{
+  "id": "forces",
+  "number": 2,
+  "title": "Forces & Pressure",
+  "summary": "Pushes, pulls, invisible forces, friction, gravity and pressure. Why knives are sharp, why dams are thick at the bottom, and how warm seas grow cyclones.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Interaction",
+      "Balance",
+      "Consequences"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Understanding how forces interact and how pressure depends on force and area helps us design safer, more effective solutions to everyday problems."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is a force, and what can it do?",
+      "What is the difference between mass and weight?",
+      "How is pressure calculated?"
+    ],
+    "conceptual": [
+      "How do balanced and unbalanced forces change motion?",
+      "Why does pressure in a liquid increase with depth?",
+      "How do differences in air pressure create winds and cyclones?"
+    ],
+    "debatable": [
+      "Is friction more of a friend or an enemy?",
+      "How far should governments go to force people to evacuate before a cyclone?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 8 (Curiosity) Ch 5: Exploring Forces",
+    "Class 8 (Curiosity) Ch 6: Pressure, Winds, Storms and Cyclones",
+    "Class 9: Force and Laws of Motion; Gravitation (check against the current NCERT edition)"
+  ]
+}

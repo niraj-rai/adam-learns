@@ -1,0 +1,178 @@
+{
+  "topicId": "friction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Friction always acts…",
+      "options": [
+        "in the direction of motion",
+        "opposite to the direction of motion (or attempted motion)",
+        "upwards",
+        "downwards"
+      ],
+      "answer": 1,
+      "explain": "Friction opposes relative motion between surfaces."
+    },
+    {
+      "id": "q2",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Does each change INCREASE or REDUCE friction?",
+      "bins": [
+        "Increases friction",
+        "Reduces friction"
+      ],
+      "items": [
+        {
+          "label": "Oiling a cycle chain",
+          "bin": 1
+        },
+        {
+          "label": "Treads on shoe soles",
+          "bin": 0
+        },
+        {
+          "label": "Ball bearings in a fan",
+          "bin": 1
+        },
+        {
+          "label": "Sprinkling sand on an icy path",
+          "bin": 0
+        },
+        {
+          "label": "Talcum powder on a carrom board",
+          "bin": 1
+        },
+        {
+          "label": "Chalk powder on a gymnast’s hands",
+          "bin": 0
+        }
+      ],
+      "explain": "Rough materials and treads increase grip; lubricants, powders and rolling reduce friction."
+    },
+    {
+      "id": "q3",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In the Friction Ramp, order the surfaces from the SMALLEST slip angle to the LARGEST.",
+      "steps": [
+        "Ice",
+        "Glass",
+        "Wood",
+        "Carpet",
+        "Sandpaper"
+      ],
+      "explain": "More friction means you must tilt the ramp further before the block slides."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is it easier to pull a suitcase on wheels than to drag it?",
+      "options": [
+        "Wheels make it lighter",
+        "Rolling friction is much smaller than sliding friction",
+        "Wheels remove gravity",
+        "Wheels increase friction"
+      ],
+      "answer": 1,
+      "explain": "Rolling friction is far less than sliding friction."
+    },
+    {
+      "id": "q5",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "In which situations is friction USEFUL? Choose all that apply.",
+      "options": [
+        "Walking without slipping",
+        "Writing with a pencil",
+        "Brakes stopping a bus",
+        "Wearing out shoe soles",
+        "Striking a matchstick"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explain": "Worn-out soles are a harmful effect of friction; the rest need friction."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Plan an investigation into how the surface affects friction, using a ramp and a wooden block.",
+      "modelAnswer": "Independent variable: the surface on the ramp (glass, wood, cloth, sandpaper). Dependent variable: the angle at which the block starts to slide, measured with a protractor. Control variables: the same block, the same mass, the same ramp length, raising the ramp slowly each time. Repeat each surface three times and average. Prediction: rougher surfaces need a bigger angle.",
+      "rubric": [
+        "Independent variable: surface",
+        "Dependent variable: slip angle (or force) and how it is measured",
+        "At least two controls",
+        "Repeats and a prediction"
+      ],
+      "explain": "Criterion B: plan a fair test with clear variables."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Planes, cars and fish have streamlined shapes to reduce…",
+      "options": [
+        "gravity",
+        "drag (friction from air or water)",
+        "magnetism",
+        "weight"
+      ],
+      "answer": 1,
+      "explain": "Drag is the friction force from fluids (air or water). Streamlining reduces it."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "A substance that reduces friction, like oil or grease, is called a ___. Friction produces ___, which is why rubbing your hands warms them.",
+      "blanks": [
+        [
+          "lubricant"
+        ],
+        [
+          "heat"
+        ]
+      ],
+      "wordBank": [
+        "lubricant",
+        "heat",
+        "magnet",
+        "sound"
+      ],
+      "explain": "Lubricants reduce friction; friction turns some energy into heat."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Friction wears out tyres, shoes and machine parts, costing money. Would a world without friction be better? Argue both sides and give a conclusion.",
+      "modelAnswer": "Without friction machines would not wear out and would waste less energy as heat, which saves money and fuel. But we could not walk, hold a pen, brake a vehicle or even keep objects on a table, since everything would slide. Nails and knots would not hold. Overall, friction is necessary; the goal is to control it: increase it where we need grip and reduce it with lubricants and wheels where it wastes energy.",
+      "rubric": [
+        "At least one advantage of no friction",
+        "At least two problems without friction",
+        "A balanced conclusion about controlling friction"
+      ],
+      "explain": "Criterion D: evaluate both sides before concluding."
+    }
+  ]
+}

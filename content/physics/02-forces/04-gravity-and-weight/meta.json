@@ -1,0 +1,55 @@
+{
+  "id": "gravity-and-weight",
+  "number": "2.4",
+  "title": "Gravity, Mass and Weight",
+  "summary": "Why things fall, why weight is a force, and why you’d weigh less on the Moon but have the same mass.",
+  "emoji": "🪐",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "W = mg is formalised in MYP 4–5"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 5: Exploring Forces",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain gravity as a non-contact force of attraction between masses.",
+    "I can distinguish between mass (kg) and weight (N).",
+    "I can calculate weight using weight = mass × gravitational field strength."
+  ],
+  "misconceptions": [
+    "Mass and weight are the same thing.",
+    "Heavy objects fall faster than light ones (without air resistance, they fall together).",
+    "There is no gravity in space or on the Moon."
+  ],
+  "prerequisites": [
+    "physics/forces/contact-and-non-contact-forces"
+  ],
+  "labs": [
+    "planet-scales"
+  ],
+  "keyTerms": [
+    "gravity",
+    "mass",
+    "weight",
+    "gravitational field strength (g)",
+    "newton",
+    "air resistance",
+    "free fall"
+  ],
+  "estMinutes": 25
+}

@@ -1,0 +1,146 @@
+{
+  "topicId": "pressure",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Complete the formula.",
+      "text": "pressure = ___ ÷ ___",
+      "blanks": [
+        [
+          "force"
+        ],
+        [
+          "area"
+        ]
+      ],
+      "wordBank": [
+        "force",
+        "area",
+        "mass",
+        "time"
+      ],
+      "explain": "Pressure is the force acting on each unit of area."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A box weighing 600 N rests on an area of 200 cm². What pressure does it exert?",
+      "answer": 3,
+      "tolerance": 0,
+      "unit": "N/cm²",
+      "explain": "600 ÷ 200 = 3 N/cm²."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A 500 N student stands on one foot with an area of 125 cm². What is the pressure on the floor?",
+      "answer": 4,
+      "tolerance": 0,
+      "unit": "N/cm²",
+      "explain": "500 ÷ 125 = 4 N/cm²."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "An elephant weighs 40 000 N. Each of its 4 feet has an area of 1000 cm². What pressure does it put on the ground?",
+      "answer": 10,
+      "tolerance": 0,
+      "unit": "N/cm²",
+      "hint": "Total area = 4 × 1000 cm².",
+      "explain": "40 000 ÷ 4000 = 10 N/cm². A person on a stiletto heel (about 450 N/cm²) presses much harder!"
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Is each design meant to INCREASE or REDUCE pressure?",
+      "bins": [
+        "Increase pressure",
+        "Reduce pressure"
+      ],
+      "items": [
+        {
+          "label": "Sharp knife edge",
+          "bin": 0
+        },
+        {
+          "label": "Wide school-bag straps",
+          "bin": 1
+        },
+        {
+          "label": "Pointed tip of a nail",
+          "bin": 0
+        },
+        {
+          "label": "Broad tyres on a tractor",
+          "bin": 1
+        },
+        {
+          "label": "Camel’s wide, padded feet",
+          "bin": 1
+        },
+        {
+          "label": "Needle tip of an injection",
+          "bin": 0
+        }
+      ],
+      "explain": "Small area → big pressure (cutting, piercing). Large area → small pressure (comfort, not sinking)."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why can a person lie on a bed of 1000 nails without getting hurt?",
+      "options": [
+        "The nails are blunt",
+        "The weight is shared by many nails, so the pressure from each is small",
+        "Their weight becomes smaller",
+        "The nails bend"
+      ],
+      "answer": 1,
+      "explain": "Big total area → small pressure at each point."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The SI unit of pressure, 1 N/m², is called the…",
+      "options": [
+        "newton",
+        "pascal",
+        "joule",
+        "watt"
+      ],
+      "answer": 1,
+      "explain": "1 pascal (Pa) = 1 N/m², named after Blaise Pascal."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Students in India often carry school bags weighing 5–8 kg. Using ideas about pressure, suggest a bag design that is kinder to shoulders, and one non-design solution.",
+      "modelAnswer": "Use wide, padded straps so the force is spread over a larger area of the shoulder, giving lower pressure. Use two straps rather than one to share the weight, and add a waist belt so the hips take some load. A non-design solution is to reduce the weight itself: lockers at school, digital textbooks or timetables so only needed books are carried.",
+      "rubric": [
+        "Wide or padded straps spread force over a larger area",
+        "Two straps or a waist belt share the load",
+        "A non-design idea to reduce the force (weight)"
+      ],
+      "explain": "Pressure is reduced by increasing area OR reducing force."
+    }
+  ]
+}

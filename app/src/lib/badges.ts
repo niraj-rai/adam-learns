@@ -19,6 +19,8 @@ export type BadgeId =
   | 'element-detective'
   | 'unit-motion'
   | 'race-analyst'
+  | 'unit-forces'
+  | 'force-fixer'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -42,5 +44,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'element-detective': { title: 'Element Detective', emoji: '🔎', description: 'Solved the Element Detective mysteries (Boss Challenge)' },
   'unit-motion': { title: 'Motion Master', emoji: '🏃', description: 'Mastered every core topic in Physics Unit 1: Measurement & Motion' },
   'race-analyst': { title: 'Race Analyst', emoji: '🏁', description: 'Read the Great Bengaluru Race graph like a scientist (Boss Challenge)' },
+  'unit-forces': { title: 'Force Master', emoji: '💪', description: 'Mastered every core topic in Physics Unit 2: Forces & Pressure' },
+  'force-fixer': { title: 'Force Fixer', emoji: '🛠️', description: 'Solved eight real-world force and pressure problems (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

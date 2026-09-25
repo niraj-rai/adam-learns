@@ -1,0 +1,54 @@
+{
+  "id": "pressure-in-liquids-and-air",
+  "number": "2.6",
+  "title": "Pressure in Liquids and Air",
+  "summary": "Liquids push in all directions and harder with depth. The air above us presses too: atmospheric pressure.",
+  "emoji": "💧",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "p = ρgh is formalised in MYP 5 / DP"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 6: Pressure, Winds, Storms and Cyclones",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can describe how liquid pressure increases with depth and acts in all directions.",
+    "I can explain why dam walls are thicker at the bottom.",
+    "I can describe evidence for atmospheric pressure and explain how a straw or suction hook works."
+  ],
+  "misconceptions": [
+    "Liquids only push down.",
+    "Air has no weight and exerts no pressure.",
+    "We suck liquid up a straw (the air outside pushes it up)."
+  ],
+  "prerequisites": [
+    "physics/forces/pressure"
+  ],
+  "labs": [
+    "liquid-pressure"
+  ],
+  "keyTerms": [
+    "liquid pressure",
+    "depth",
+    "density",
+    "atmospheric pressure",
+    "vacuum",
+    "barometer"
+  ],
+  "estMinutes": 25
+}

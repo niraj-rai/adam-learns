@@ -1,0 +1,56 @@
+{
+  "id": "force-fixers",
+  "number": "2.8",
+  "title": "Boss Challenge: Force Fixers",
+  "summary": "Eight real problems. Use forces, friction, gravity and pressure to fix each one.",
+  "emoji": "🛠️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task: applying knowledge to unfamiliar situations (Criteria A and D)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 5: Exploring Forces",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Curiosity Ch 6: Pressure, Winds, Storms and Cyclones",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "D"
+  ],
+  "objectives": [
+    "I can choose the right physics idea (force, friction, gravity or pressure) to explain a real problem.",
+    "I can suggest and justify practical solutions using scientific reasoning."
+  ],
+  "misconceptions": [
+    "Every problem can be solved by pushing harder."
+  ],
+  "prerequisites": [
+    "physics/forces/friction",
+    "physics/forces/pressure",
+    "physics/forces/pressure-in-liquids-and-air"
+  ],
+  "labs": [
+    "force-fixers"
+  ],
+  "keyTerms": [
+    "pressure",
+    "friction",
+    "weight",
+    "net force",
+    "lubricant"
+  ],
+  "estMinutes": 15
+}

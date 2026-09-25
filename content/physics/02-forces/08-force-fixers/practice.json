@@ -1,0 +1,164 @@
+{
+  "topicId": "force-fixers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each problem to the physics idea that fixes it.",
+      "pairs": [
+        {
+          "left": "Tractor sinking in mud",
+          "right": "Bigger area, less pressure"
+        },
+        {
+          "left": "Blunt knife",
+          "right": "Smaller area, more pressure"
+        },
+        {
+          "left": "Squeaky hinge",
+          "right": "Lubricant reduces friction"
+        },
+        {
+          "left": "Dam design",
+          "right": "Pressure increases with depth"
+        },
+        {
+          "left": "Moon jump",
+          "right": "Weaker gravity, smaller weight"
+        }
+      ],
+      "explain": "Every fix uses one key physics idea."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do buses in hilly areas like Ooty have deep treads on their tyres?",
+      "options": [
+        "To look tough",
+        "To increase friction (grip) on steep, wet roads",
+        "To reduce weight",
+        "To go faster"
+      ],
+      "answer": 1,
+      "explain": "Treads increase grip and push water away."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A suction hook sticks to a smooth tile because…",
+      "options": [
+        "it is glued",
+        "air pressure outside pushes it against the tile, as there is almost no air behind it",
+        "magnetism",
+        "friction alone"
+      ],
+      "answer": 1,
+      "explain": "Pressing squeezes the air out. The higher atmospheric pressure outside holds the hook on."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "A 60 kg person steps onto a frozen lake. Each shoe has an area of 150 cm². Taking g = 10 N/kg, what is the pressure on the ice when standing on both feet?",
+      "answer": 2,
+      "tolerance": 0,
+      "unit": "N/cm²",
+      "explain": "Weight = 600 N; area = 300 cm²; pressure = 2 N/cm². Lying flat would spread it even more, which is why rescuers crawl on thin ice."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which idea does each solution use?",
+      "bins": [
+        "Friction",
+        "Pressure"
+      ],
+      "items": [
+        {
+          "label": "Sand on an icy road",
+          "bin": 0
+        },
+        {
+          "label": "Wide straps on a bag",
+          "bin": 1
+        },
+        {
+          "label": "Oil in an engine",
+          "bin": 0
+        },
+        {
+          "label": "Sharp tip on a drawing pin",
+          "bin": 1
+        },
+        {
+          "label": "Wheels on a trolley",
+          "bin": 0
+        },
+        {
+          "label": "Snowshoes",
+          "bin": 1
+        }
+      ],
+      "explain": "Some fixes change friction; others change pressure by changing area."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Your school is planning a new playground for Bengaluru’s rainy season. Use at least THREE ideas from this unit to recommend surfaces and equipment, and justify each.",
+      "modelAnswer": "1) Use rubber matting with a textured surface under swings and slides: it gives friction so children don’t slip when it’s wet, and it cushions falls. 2) Make the slide smooth steel, but add a rough run-out area at the bottom to increase friction and stop children safely. 3) Give heavy equipment like climbing frames wide base plates, so the pressure on the soft, wet ground is small and they don’t sink or tip. 4) Oil the swing hinges to reduce friction and wear.",
+      "rubric": [
+        "Uses friction correctly (grip or stopping)",
+        "Uses pressure = force ÷ area correctly",
+        "Uses a third idea (lubricants, gravity, balanced forces)",
+        "Justifies each choice for rainy conditions"
+      ],
+      "explain": "Criterion D: apply physics to design a safer community space."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "A truck and a car hit their brakes at the same speed. Why does the loaded truck need a longer distance to stop?",
+      "options": [
+        "It has less friction",
+        "It has much more mass, so the same kind of braking force slows it less quickly",
+        "Gravity is weaker on trucks",
+        "Its tyres are bigger"
+      ],
+      "answer": 1,
+      "explain": "More mass needs more force to slow down at the same rate."
+    },
+    {
+      "id": "q8",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Before a cyclone, which actions use physics to reduce damage? Choose all that apply.",
+      "options": [
+        "Tying down tin roofs so wind can’t lift them",
+        "Moving boats to higher ground away from the storm surge",
+        "Taping or boarding up windows",
+        "Opening all windows",
+        "Parking under large trees"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "Securing roofs and windows resists wind forces; storm surges push water inland. Trees can fall in strong winds."
+    }
+  ]
+}

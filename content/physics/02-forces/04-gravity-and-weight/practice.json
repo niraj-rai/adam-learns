@@ -1,0 +1,147 @@
+{
+  "topicId": "gravity-and-weight",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each quantity to its description.",
+      "pairs": [
+        {
+          "left": "Mass",
+          "right": "Amount of matter; measured in kg"
+        },
+        {
+          "left": "Weight",
+          "right": "Force of gravity on an object; measured in N"
+        },
+        {
+          "left": "g on Earth",
+          "right": "About 9.8 N/kg"
+        },
+        {
+          "left": "Spring balance",
+          "right": "Measures weight"
+        }
+      ],
+      "explain": "Mass is the amount of matter; weight is a force."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "What is the weight of a 50 kg student on Earth? (g = 9.8 N/kg)",
+      "answer": 490,
+      "tolerance": 0,
+      "unit": "N",
+      "explain": "W = m × g = 50 × 9.8 = 490 N."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "What is the weight of the same 50 kg student on the Moon? (g = 1.6 N/kg)",
+      "answer": 80,
+      "tolerance": 0,
+      "unit": "N",
+      "explain": "50 × 1.6 = 80 N: about one-sixth of the Earth weight."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "An astronaut’s mass on Earth is 70 kg. What is her mass on the Moon?",
+      "options": [
+        "70 kg",
+        "about 12 kg",
+        "0 kg",
+        "about 420 kg"
+      ],
+      "answer": 0,
+      "feedback": {
+        "1": "That’s thinking about weight. Mass doesn’t change from place to place."
+      },
+      "explain": "Mass stays the same everywhere; only weight changes."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A rover weighs 3710 N on Mars, where g = 3.71 N/kg. What is its mass?",
+      "answer": 1000,
+      "tolerance": 0,
+      "unit": "kg",
+      "hint": "mass = weight ÷ g",
+      "explain": "3710 ÷ 3.71 = 1000 kg."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "On the Moon, an astronaut drops a hammer and a feather together. What happens?",
+      "options": [
+        "The hammer lands first",
+        "The feather lands first",
+        "They land together",
+        "The feather floats away"
+      ],
+      "answer": 2,
+      "explain": "With no air on the Moon, there is no air resistance, so gravity speeds both up equally."
+    },
+    {
+      "id": "q7",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Order these worlds from the WEAKEST to the STRONGEST surface gravity.",
+      "steps": [
+        "Moon",
+        "Mars",
+        "Venus",
+        "Earth",
+        "Jupiter"
+      ],
+      "explain": "Moon 1.6, Mars 3.7, Venus 8.9, Earth 9.8, Jupiter 24.8 N/kg."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "ISRO’s Chandrayaan-3 lander touched down near the Moon’s south pole in 2023. Explain why landing on the Moon needs rockets rather than parachutes, and how the Moon’s lower gravity helps.",
+      "modelAnswer": "Parachutes rely on air resistance, but the Moon has no atmosphere, so a parachute can’t slow the lander. Instead, thrusters fire downward to push against the fall. Because the Moon’s gravity is only about one-sixth of Earth’s, the lander’s weight is much smaller, so less thrust and less fuel are needed to land gently.",
+      "rubric": [
+        "No air, so parachutes cannot work",
+        "Rocket thrusters provide the upward force",
+        "Lower gravity means smaller weight, so less thrust or fuel"
+      ],
+      "explain": "Apply mass, weight and air resistance to a real mission."
+    },
+    {
+      "id": "q9",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the formula.",
+      "text": "weight = ___ × gravitational field strength",
+      "blanks": [
+        [
+          "mass"
+        ]
+      ],
+      "wordBank": [
+        "mass",
+        "speed",
+        "volume"
+      ],
+      "explain": "W = m × g."
+    }
+  ]
+}
