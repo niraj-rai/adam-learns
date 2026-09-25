@@ -1,0 +1,139 @@
+{
+  "topicId": "rusting-and-corrosion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "What does iron need in order to rust? Choose all that apply.",
+      "options": ["Oxygen (air)", "Water (moisture)", "Sunlight", "Carbon dioxide only", "Heat from a flame"],
+      "answer": [0, 1],
+      "explain": "Rusting needs both oxygen and water. Salt speeds it up, but sunlight and heat are not needed."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Rusting is a…",
+      "options": ["physical change", "chemical change", "change of state", "kind of dissolving"],
+      "answer": 1,
+      "explain": "Rust (iron oxide) is a new substance with different properties."
+    },
+    {
+      "id": "q3",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each object to the best way of preventing rust.",
+      "pairs": [
+        { "left": "Bicycle chain", "right": "Oiling or greasing" },
+        { "left": "Iron gate", "right": "Painting" },
+        { "left": "Roof sheets and water pipes", "right": "Galvanising with zinc" },
+        { "left": "Kitchen spoons", "right": "Using stainless steel" }
+      ],
+      "explain": "Moving parts are greased; large surfaces painted; sheets and pipes galvanised; utensils made from rust-proof alloys."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "In the Rust Race, why is the water in tube B boiled and covered with oil?",
+      "options": [
+        "To make the water hotter",
+        "To remove dissolved air and stop more air getting in",
+        "To add oxygen",
+        "To stop the nail from floating"
+      ],
+      "answer": 1,
+      "explain": "Boiling drives out dissolved air; the oil layer stops air from dissolving back in. This tests water without oxygen."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Which two tubes should you compare to find out whether WATER is needed for rusting?",
+      "options": [
+        "Dry air (A) and tap water (C)",
+        "Salt water (D) and painted nail (E)",
+        "Boiled water + oil (B) and galvanised nail (F)",
+        "Painted nail (E) and galvanised nail (F)"
+      ],
+      "answer": 0,
+      "hint": "Choose two tubes that differ ONLY in whether water is present.",
+      "explain": "A and C both have air; only C has water. That isolates water as the variable."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Why do iron objects rust faster in coastal cities like Mumbai?",
+      "options": ["It is hotter", "The air is humid and contains salt", "There is less oxygen", "There are more people"],
+      "answer": 1,
+      "explain": "More moisture and salt in the air both speed up rusting."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Complete the sentence.",
+      "text": "Coating iron with a layer of zinc to prevent rusting is called ___.",
+      "blanks": [["galvanisation", "galvanization", "galvanising", "galvanizing"]],
+      "explain": "Galvanisation: zinc protects the iron even when scratched."
+    },
+    {
+      "id": "q8",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Sort the tubes: did the nail rust?",
+      "bins": ["Rusted", "Did not rust (or hardly)"],
+      "items": [
+        { "label": "Tap water, open to air", "bin": 0 },
+        { "label": "Dry air with drying agent", "bin": 1 },
+        { "label": "Salt water, open to air", "bin": 0 },
+        { "label": "Boiled water with oil layer", "bin": 1 },
+        { "label": "Painted nail in tap water", "bin": 1 },
+        { "label": "Galvanised nail in tap water", "bin": 1 }
+      ],
+      "explain": "Only nails exposed to both air and water (and unprotected) rusted."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "A galvanised bucket gets a deep scratch that exposes the iron. Why does the iron still not rust quickly?",
+      "options": [
+        "Scratches heal by themselves",
+        "Zinc is more reactive, so it corrodes first and protects the iron",
+        "Iron cannot rust once it is in a bucket",
+        "The scratch fills with paint"
+      ],
+      "answer": 1,
+      "explain": "Zinc reacts in preference to iron (sacrificial protection), so the iron is protected even at the scratch."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Stainless steel doesn't rust. Give TWO reasons why we don't make every iron object (like bridges and gates) from stainless steel.",
+      "modelAnswer": "1) Stainless steel is much more expensive than ordinary iron or steel, so huge structures would cost far more. 2) It needs extra metals like chromium and nickel, which are limited resources that must be mined, so cheaper methods like painting or galvanising are often good enough.",
+      "rubric": [
+        "I mentioned cost",
+        "I gave a second reason (resources, mining, other methods are good enough)",
+        "My reasons are clearly explained"
+      ],
+      "explain": "Choosing materials means balancing cost, resources and performance: a Criterion D skill."
+    }
+  ]
+}

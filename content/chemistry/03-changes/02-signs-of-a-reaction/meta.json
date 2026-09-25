@@ -1,0 +1,33 @@
+{
+  "id": "signs-of-a-reaction",
+  "number": "3.2",
+  "title": "Signs of a Chemical Reaction",
+  "summary": "Fizzing, colour changes, temperature changes and solids appearing: how to spot a reaction, and the famous lime-water test.",
+  "emoji": "🫧",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 2 },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 5: Changes Around Us: Physical and Chemical", "verified": true },
+      { "class": 10, "chapter": "Ch 1: Chemical Reactions and Equations (observations that show a reaction)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can list the observable signs of a chemical reaction.",
+    "I can record careful observations when substances are mixed.",
+    "I can use the lime-water test to identify carbon dioxide.",
+    "I can distinguish exothermic (gives out heat) and endothermic (takes in heat) changes."
+  ],
+  "misconceptions": [
+    "Bubbles always mean a chemical reaction (boiling water also bubbles).",
+    "If nothing seems to happen, there is definitely no reaction (some are too slow to see).",
+    "Reactions always get hot."
+  ],
+  "prerequisites": ["chemistry/changes/physical-and-chemical-changes"],
+  "labs": ["reaction-bench"],
+  "keyTerms": ["observation", "effervescence", "precipitate", "exothermic", "endothermic", "lime water", "indicator"],
+  "estMinutes": 20
+}

@@ -1,0 +1,87 @@
+<Stage kind="wonder" title="Why won't the paper cup burn?" />
+
+<Hook emoji="🥤">
+Fill a paper cup with water and hold it over a candle flame. The cup doesn't catch fire, and the water gets warm! But an empty paper cup bursts into flames in seconds. What is the water doing?
+</Hook>
+
+<PredictFirst
+  question="Why doesn't the paper cup with water burn?"
+  options={["Water is fireproof", "The water absorbs the heat, keeping the paper below the temperature at which it catches fire", "There is no oxygen near the cup", "Paper cannot burn"]}
+  answer={1}
+>
+The water absorbs the heat, so the paper never gets hot enough to catch fire. Every substance has a minimum temperature it must reach before it burns: its **ignition temperature**.
+</PredictFirst>
+
+<Stage kind="explain" title="What is combustion?" />
+
+<ConceptCard title="Combustion = burning" emoji="🔥">
+**Combustion** is a chemical reaction in which a substance reacts with **oxygen**, giving out **heat** (and often **light**). The substance that burns is called a **fuel**.
+
+When fuels containing carbon and hydrogen (wood, LPG, petrol, wax) burn completely:
+</ConceptCard>
+
+<Formula tex="\text{fuel} + \text{oxygen} \rightarrow \text{carbon dioxide} + \text{water} + \text{energy}" />
+
+<ConceptCard title="The fire triangle" emoji="🔺">
+A fire needs **three** things at the same time:
+
+1. **Fuel**: something to burn
+2. **Oxygen**: usually from the air
+3. **Heat**: enough to reach the ignition temperature
+
+Remove **any one side** and the fire goes out. Every fire extinguisher works by taking away one (or more) sides.
+</ConceptCard>
+
+<Stage kind="try" title="Break the triangle" />
+
+<Lab id="fire-triangle" />
+
+<Compare
+  columns={[
+    { title: "Rapid combustion", emoji: "⚡", points: ["Burns quickly, giving heat and light", "e.g. LPG on a stove, a matchstick"] },
+    { title: "Spontaneous combustion", emoji: "🌾", points: ["Bursts into flame by itself without a spark", "e.g. phosphorus in air; some forest fires and coal-dump fires"] },
+    { title: "Explosion", emoji: "🎆", points: ["Very fast burning that releases lots of gas, heat, light and sound", "e.g. crackers bursting"] }
+  ]}
+/>
+
+<ConceptCard title="Inflammable substances" emoji="⚠️">
+Substances with a very **low ignition temperature**, like petrol, LPG, alcohol and kerosene, catch fire very easily. They are called **inflammable** (or flammable) and must be stored carefully, away from flames and sparks.
+</ConceptCard>
+
+<Stage kind="see" title="Inside a flame" />
+
+<Lab id="flame-explorer" />
+
+<Compare
+  columns={[
+    { title: "Complete combustion", emoji: "🔵", points: ["Plenty of oxygen", "Blue flame, very hot, no soot", "Products: carbon dioxide + water", "e.g. a well-adjusted LPG stove"] },
+    { title: "Incomplete combustion", emoji: "🟡", points: ["Not enough oxygen", "Yellow, smoky, sooty flame", "Makes soot (carbon) and poisonous carbon monoxide", "e.g. a smoky chulha, a badly tuned engine"] }
+  ]}
+/>
+
+<MythFact myth="The yellow, bright part of a flame is the hottest.">
+The **pale blue outer zone** is the hottest, because combustion is complete there. The yellow part glows because of tiny hot **soot particles** that haven't burned completely. That's why goldsmiths use the outermost zone.
+</MythFact>
+
+<DidYouKnow>
+**Carbon monoxide** from incomplete combustion is colourless and has no smell, so you can't tell it's there. Every winter, people are harmed by burning coal or charcoal heaters in closed rooms. Always keep a room ventilated when anything is burning!
+</DidYouKnow>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Candle-in-a-jar investigation">
+Using the candle-in-a-jar experiment in the Fire Triangle lab:
+
+1. What is the **independent variable**? The **dependent variable**?
+2. Write a hypothesis: "If the jar is larger, then…because…"
+3. Name two **controlled variables** you would need to keep the same in a real experiment (think about the candle).
+4. How many repeats would you do, and why?
+</Inquiry>
+
+<CbseCorner source="Class 8 Combustion and Flame (previous NCERT edition) · Class 7 Curiosity Ch 5">
+- Learn the definitions: **combustion, ignition temperature, inflammable substances**, and the three **types of combustion** (rapid, spontaneous, explosion).
+- Draw and label the **candle flame**: outermost (non-luminous, hottest), middle (luminous), innermost (dark, unburnt wax vapour).
+- NCERT asks why the **paper cup with water** doesn't burn, and why **water is not used on oil or electrical fires**.
+</CbseCorner>
+
+<Reflect id="chem-changes-combustion" prompt="Millions of Indian homes have switched from chulhas (wood and dung) to LPG. Using what you learned about complete and incomplete combustion, explain why this is better for people's health." />

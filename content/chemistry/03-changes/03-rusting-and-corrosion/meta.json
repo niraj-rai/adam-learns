@@ -1,0 +1,33 @@
+{
+  "id": "rusting-and-corrosion",
+  "number": "3.3",
+  "title": "Rusting and Corrosion",
+  "summary": "Why iron gates, bicycles and ships rust, what rusting needs, and how paint, oil, galvanising and stainless steel protect them.",
+  "emoji": "🔩",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 2, "note": "Classic MYP Criterion B fair-test investigation" },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 5: Changes Around Us: Physical and Chemical (rusting, galvanisation)", "verified": true },
+      { "class": 10, "chapter": "Ch 1 / Ch 3: corrosion and its prevention", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "D"],
+  "objectives": [
+    "I can state that iron needs both oxygen and water to rust.",
+    "I can design a fair test to find out what causes rusting.",
+    "I can explain several ways to prevent rusting and why each works.",
+    "I can evaluate the cost of corrosion to society."
+  ],
+  "misconceptions": [
+    "Rust is just dirt on the surface of iron.",
+    "Iron rusts in dry air, or in water with no air.",
+    "All metals rust (rusting is the corrosion of iron specifically)."
+  ],
+  "prerequisites": ["chemistry/changes/signs-of-a-reaction"],
+  "labs": ["rust-race"],
+  "keyTerms": ["rust", "iron oxide", "corrosion", "galvanisation", "alloy", "stainless steel"],
+  "estMinutes": 20
+}

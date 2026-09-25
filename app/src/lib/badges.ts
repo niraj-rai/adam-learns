@@ -9,6 +9,8 @@ export type BadgeId =
   | 'unit-matter'
   | 'unit-mixtures'
   | 'well-rescuer'
+  | 'unit-changes'
+  | 'fire-officer'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -22,5 +24,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'unit-matter': { title: 'Matter Master', emoji: '🧊', description: 'Mastered every core topic in Unit 1: Matter' },
   'unit-mixtures': { title: 'Separation Specialist', emoji: '🧪', description: 'Mastered every core topic in Unit 2: Mixtures & Separation' },
   'well-rescuer': { title: 'Well Rescuer', emoji: '🚰', description: 'Made the village well water safe to drink (Boss Challenge)' },
+  'unit-changes': { title: 'Change Master', emoji: '⚗️', description: 'Mastered every core topic in Unit 3: Physical & Chemical Changes' },
+  'fire-officer': { title: 'Fire Safety Officer', emoji: '🧑‍🚒', description: 'Handled all six fire emergencies (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

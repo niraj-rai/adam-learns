@@ -1,0 +1,32 @@
+{
+  "id": "conservation-of-mass",
+  "number": "3.5",
+  "title": "Conservation of Mass",
+  "summary": "Atoms are never created or destroyed, so the total mass never changes in a reaction, even when it looks like it does.",
+  "emoji": "⚖️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Leads to balancing equations and stoichiometry (MYP 4–5)" },
+    "cbse": [
+      { "class": 9, "chapter": "Ch 3: Atoms and Molecules (law of conservation of mass)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can state the law of conservation of mass.",
+    "I can explain why mass seems to change in open containers, using the particle model.",
+    "I can calculate the mass of a missing reactant or product.",
+    "I can plan an experiment that shows mass is conserved (closed system)."
+  ],
+  "misconceptions": [
+    "Mass is lost when something burns (it just goes into the air as gases).",
+    "Gases have no mass.",
+    "When a substance dissolves or reacts, its atoms disappear."
+  ],
+  "prerequisites": ["chemistry/changes/symbols-formulas-equations"],
+  "labs": ["mass-balance"],
+  "keyTerms": ["law of conservation of mass", "closed system", "open system", "reactant", "product"],
+  "estMinutes": 20
+}

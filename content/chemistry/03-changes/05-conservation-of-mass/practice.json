@@ -1,0 +1,145 @@
+{
+  "topicId": "conservation-of-mass",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "The law of conservation of mass says that in a chemical reaction…",
+      "options": [
+        "mass is always lost",
+        "mass can neither be created nor destroyed",
+        "mass always increases",
+        "only solids have mass"
+      ],
+      "answer": 1,
+      "explain": "Atoms are only rearranged, so the total mass of reactants equals the total mass of products."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "24 g of magnesium reacts completely with 16 g of oxygen. What mass of magnesium oxide forms?",
+      "answer": 40,
+      "tolerance": 0,
+      "unit": "g",
+      "explain": "24 + 16 = 40 g."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "12 g of carbon burns to form 44 g of carbon dioxide. What mass of oxygen reacted?",
+      "answer": 32,
+      "tolerance": 0,
+      "unit": "g",
+      "hint": "Reactants = products: 12 + oxygen = 44.",
+      "explain": "44 − 12 = 32 g of oxygen."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "5.3 g of sodium carbonate reacts with 6.0 g of acetic acid. It forms 2.2 g of carbon dioxide, 0.9 g of water and some sodium acetate. What mass of sodium acetate forms?",
+      "answer": 8.2,
+      "tolerance": 0.05,
+      "unit": "g",
+      "hint": "Total reactants = 11.3 g. Subtract the other products.",
+      "explain": "11.3 − 2.2 − 0.9 = 8.2 g of sodium acetate."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Baking soda and vinegar react in an OPEN flask on a balance. The reading goes down. Why?",
+      "options": [
+        "Mass was destroyed",
+        "Carbon dioxide gas escaped into the air",
+        "The vinegar evaporated instantly",
+        "The balance is broken"
+      ],
+      "answer": 1,
+      "feedback": { "0": "Mass is never destroyed. Look for where it went!" },
+      "explain": "The gas product left the flask, taking its mass with it."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why does the mass INCREASE when steel wool burns on a balance?",
+      "options": [
+        "Heat has mass",
+        "Oxygen from the air joins with the iron",
+        "The steel wool absorbs water",
+        "Light adds mass"
+      ],
+      "answer": 1,
+      "explain": "Iron + oxygen → iron oxide. The added oxygen atoms increase the mass."
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In an OPEN container, will the balance reading go up, down or stay the same?",
+      "bins": ["Goes up", "Goes down", "Stays the same"],
+      "items": [
+        { "label": "Burning steel wool", "bin": 0 },
+        { "label": "Vinegar + baking soda", "bin": 1 },
+        { "label": "Burning a candle", "bin": 1 },
+        { "label": "Iron nail rusting", "bin": 0 },
+        { "label": "Mixing two solutions to make a precipitate", "bin": 2 },
+        { "label": "Dissolving salt in water", "bin": 2 }
+      ],
+      "explain": "Gas in (oxygen joins) → up; gas out → down; no gas in or out → same."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "How can you show that mass is conserved when vinegar reacts with baking soda?",
+      "options": [
+        "Do it in an open beaker",
+        "Do it in a flask sealed with a balloon, and weigh before and after",
+        "Heat it strongly",
+        "Use more vinegar"
+      ],
+      "answer": 1,
+      "explain": "A closed system traps the gas, so the reading stays the same."
+    },
+    {
+      "id": "q9",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "In a chemical reaction, ___ are rearranged but never created or destroyed, so the total ___ stays the same.",
+      "blanks": [["atoms"], ["mass"]],
+      "wordBank": ["atoms", "mass", "colour", "volume"],
+      "explain": "Atoms are conserved, so mass is conserved."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A 10 kg log burns and leaves 0.5 kg of ash. Explain whether this breaks the law of conservation of mass.",
+      "modelAnswer": "It does not break the law. Most of the wood reacted with oxygen to form gases, carbon dioxide and water vapour, which escaped into the air. If we collected and weighed all the gases and the ash, their total mass would equal the mass of the wood plus the oxygen used.",
+      "rubric": [
+        "I said the law is NOT broken",
+        "I said gases (carbon dioxide, water vapour) escaped into the air",
+        "I mentioned that oxygen also took part / all products must be counted"
+      ],
+      "explain": "Mass only seems to disappear when products escape as gases."
+    }
+  ]
+}

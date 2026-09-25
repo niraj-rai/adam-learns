@@ -1,0 +1,33 @@
+{
+  "id": "fuels",
+  "number": "3.7",
+  "title": "Fuels: Coal, Petroleum and Beyond",
+  "summary": "Where fossil fuels come from, how crude oil is refined, what makes a good fuel, and the move towards cleaner energy.",
+  "emoji": "🏭",
+  "complexity": 2,
+  "level": "L2",
+  "core": false,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Extension: strong Criterion D (impacts of science) opportunity" },
+    "cbse": [
+      { "class": 8, "chapter": "Previous NCERT edition: Coal and Petroleum; Combustion and Flame (fuel efficiency)", "verified": false },
+      { "class": 10, "chapter": "Ch 4: Carbon and its Compounds (hydrocarbons as fuels)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C", "D"],
+  "objectives": [
+    "I can explain how coal, petroleum and natural gas formed and why they are non-renewable.",
+    "I can describe how crude oil is separated by fractional distillation and name the main fractions.",
+    "I can compare fuels using calorific value and the characteristics of a good fuel.",
+    "I can evaluate the environmental effects of burning fossil fuels."
+  ],
+  "misconceptions": [
+    "Fossil fuels are made from dinosaur bones.",
+    "Petrol is dug out of the ground ready to use.",
+    "The fuel with the most energy is always the best fuel."
+  ],
+  "prerequisites": ["chemistry/changes/combustion-and-flames", "chemistry/mixtures/advanced-separation"],
+  "labs": ["refinery-tower"],
+  "keyTerms": ["fossil fuel", "non-renewable", "crude oil", "fractional distillation", "calorific value", "CNG", "LPG", "global warming"],
+  "estMinutes": 25
+}

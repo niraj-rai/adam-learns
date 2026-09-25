@@ -1,0 +1,31 @@
+{
+  "id": "physical-and-chemical-changes",
+  "number": "3.1",
+  "title": "Physical and Chemical Changes",
+  "summary": "Is a new substance formed? The one question that tells a melting ice cream apart from a cooking dosa.",
+  "emoji": "🥞",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 2, "note": "Revisited in MYP 3 with particle-level explanations" },
+    "cbse": [
+      { "class": 7, "chapter": "Curiosity Ch 5: Changes Around Us: Physical and Chemical", "verified": true }
+    ]
+  },
+  "ibCriteria": ["A", "C"],
+  "objectives": [
+    "I can define physical and chemical changes and give everyday examples of each.",
+    "I can use evidence (new substance, colour, gas, energy, reversibility) to classify a change.",
+    "I can explain changes using the particle model: rearranged particles vs new particles."
+  ],
+  "misconceptions": [
+    "All changes that involve heating are chemical.",
+    "Every physical change is easy to reverse (e.g. breaking glass is physical but hard to undo).",
+    "If you can't reverse it, it must be chemical."
+  ],
+  "prerequisites": ["chemistry/mixtures/elements-compounds-mixtures"],
+  "labs": ["change-detective"],
+  "keyTerms": ["physical change", "chemical change", "reversible", "irreversible", "new substance", "chemical reaction"],
+  "estMinutes": 20
+}

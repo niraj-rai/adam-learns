@@ -1,0 +1,72 @@
+<Stage kind="wonder" title="Where did the log go?" />
+
+<Hook emoji="🔥">
+A 10 kg log burns in a campfire. In the morning, only a small heap of ash is left. It weighs less than 1 kg. Where did the other 9 kg go? Did the mass just vanish?
+</Hook>
+
+<PredictFirst
+  question="Steel wool is burned on a balance. What happens to the reading?"
+  options={["It goes down, as with the log", "It goes up", "It stays exactly the same", "It drops to zero"]}
+  answer={1}
+>
+Surprise: the mass goes **up**! The iron **joins with oxygen** from the air to make iron oxide, and that oxygen has mass. With the log, the opposite happens: most of the wood turns into gases (carbon dioxide and water vapour) that **escape into the air**.
+</PredictFirst>
+
+<Stage kind="explain" title="The law of conservation of mass" />
+
+<ConceptCard title="Mass is never created or destroyed" emoji="⚖️">
+In a chemical reaction, **atoms are rearranged, never created or destroyed**. So:
+
+> **Total mass of reactants = total mass of products**
+
+This is the **law of conservation of mass**, stated by the French chemist **Antoine Lavoisier** in 1789, who carefully weighed reactions in **sealed** containers.
+</ConceptCard>
+
+<Stage kind="try" title="Test it on the balance" />
+
+Predict first, then run each experiment. Pay attention to whether the flask is **open** or **closed**.
+
+<Lab id="mass-balance" />
+
+<Compare
+  columns={[
+    { title: "Open system", emoji: "🔓", points: ["Gases can escape or come in", "Mass on the balance SEEMS to change", "Gas escapes → reading goes down (fizzing reactions, burning wood)", "Gas joins in → reading goes up (burning steel wool, rusting)"] },
+    { title: "Closed system", emoji: "🔒", points: ["Nothing can get in or out", "Mass on the balance stays EXACTLY the same", "e.g. a balloon over the flask, a sealed jar", "This proves mass is conserved"] }
+  ]}
+/>
+
+<ConceptCard title="Using the law in calculations" emoji="🧮">
+If 24 g of magnesium burns completely in 16 g of oxygen, how much magnesium oxide forms?
+
+Mass of products = mass of reactants = 24 g + 16 g = **40 g** of magnesium oxide.
+</ConceptCard>
+
+<QuickCheck question="12 g of carbon burns to make 44 g of carbon dioxide. What mass of oxygen was used?" options={["12 g", "32 g", "44 g", "56 g"]} answer={1}>
+Reactants = products, so 12 g + oxygen = 44 g. Oxygen = 44 − 12 = **32 g**.
+</QuickCheck>
+
+<MythFact myth="Gases don't weigh anything.">
+Gases are made of particles, and particles have mass. Remember that the air in your classroom weighs about 200 kg (Topic 1.1)! When gas escapes from an open flask, the balance reading drops because real mass has left.
+</MythFact>
+
+<DidYouKnow>
+Lavoisier is called the **"father of modern chemistry"**. Before him, many scientists believed burning released a mysterious substance called *phlogiston*. By weighing carefully, he showed that burning is actually a reaction with **oxygen**, a gas he named.
+</DidYouKnow>
+
+<Stage kind="apply" title="Design an experiment" />
+
+<Inquiry criterion="B" title="Prove it with a closed system">
+A student says the reaction of baking soda and vinegar **destroys mass**, because the balance reading dropped by 1.1 g.
+
+1. Explain what really happened to the "missing" 1.1 g.
+2. Design an improved experiment to show that mass is conserved. What equipment would you use?
+3. What would you expect the balance to show, and why?
+4. Suggest one **source of error** in your experiment and how to reduce it.
+</Inquiry>
+
+<CbseCorner source="Class 9 Ch 3">
+- Learn the statement: *"Mass can neither be created nor destroyed in a chemical reaction."*
+- Standard numerical: *"In a reaction, 5.3 g of sodium carbonate reacted with 6 g of acetic acid. The products were 2.2 g of carbon dioxide, 0.9 g of water and 8.2 g of sodium acetate. Show that this supports the law of conservation of mass."* (5.3 + 6 = 11.3 g = 2.2 + 0.9 + 8.2)
+</CbseCorner>
+
+<Reflect id="chem-changes-mass" prompt="When we burn rubbish, it seems to 'disappear'. Using the law of conservation of mass, where does it actually go, and why might that matter for the air in a city?" />

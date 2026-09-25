@@ -1,0 +1,33 @@
+{
+  "id": "changes",
+  "number": 3,
+  "title": "Physical & Chemical Changes",
+  "summary": "Some changes just rearrange particles; others make brand-new substances. This unit covers how to tell them apart, the signs of a reaction, rusting, writing formulas and word equations, conservation of mass, combustion and flames, fuels, and fire safety.",
+  "ib": {
+    "keyConcept": "Change",
+    "relatedConcepts": ["Energy", "Evidence", "Transformation"],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Evidence of new substances and energy changes lets us recognise, describe and control chemical change, from cooking a dosa to fighting a fire."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is the difference between a physical and a chemical change?",
+      "What does iron need in order to rust?",
+      "What three things does a fire need?"
+    ],
+    "conceptual": [
+      "How can we use evidence to decide whether a new substance has formed?",
+      "Why is mass conserved in every chemical reaction?"
+    ],
+    "debatable": [
+      "Should India move away from fossil fuels faster, even if it costs more today?",
+      "Are fireworks worth the air pollution they cause during festivals?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 7 (Curiosity) Ch 5: Changes Around Us: Physical and Chemical",
+    "Class 8 (previous NCERT edition): Combustion and Flame; Coal and Petroleum (check where these sit in the current Curiosity edition)",
+    "Class 9 Ch 3: Atoms and Molecules (law of conservation of mass, chemical formulas). Check against the current NCERT edition",
+    "Class 10 Ch 1: Chemical Reactions and Equations (word equations, observations, corrosion)"
+  ]
+}

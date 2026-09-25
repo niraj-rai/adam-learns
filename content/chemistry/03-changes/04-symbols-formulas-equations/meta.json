@@ -1,0 +1,32 @@
+{
+  "id": "symbols-formulas-equations",
+  "number": "3.4",
+  "title": "Symbols, Formulas and Word Equations",
+  "summary": "The language of chemistry: element symbols, reading formulas like H₂O and CO₂, and writing word equations with reactants and products.",
+  "emoji": "🧬",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Symbol equations and balancing follow in MYP 4 (Unit 11)" },
+    "cbse": [
+      { "class": 9, "chapter": "Ch 3: Atoms and Molecules (symbols, writing chemical formulas)", "verified": false },
+      { "class": 10, "chapter": "Ch 1: Chemical Reactions and Equations (word equations)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "C"],
+  "objectives": [
+    "I can recall the symbols of common elements.",
+    "I can read a chemical formula and count the atoms of each element.",
+    "I can identify reactants and products and write word equations."
+  ],
+  "misconceptions": [
+    "The small number applies to all the atoms in the formula (in CO₂ the 2 only applies to O).",
+    "A formula like CO means the same as Co (cobalt). Capital letters matter!",
+    "In an equation, the arrow means 'equals'."
+  ],
+  "prerequisites": ["chemistry/mixtures/elements-compounds-mixtures", "chemistry/changes/signs-of-a-reaction"],
+  "labs": ["formula-builder"],
+  "keyTerms": ["symbol", "formula", "subscript", "reactant", "product", "word equation"],
+  "estMinutes": 25
+}

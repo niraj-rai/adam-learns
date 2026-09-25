@@ -1,0 +1,33 @@
+{
+  "id": "combustion-and-flames",
+  "number": "3.6",
+  "title": "Combustion, Fire and Flames",
+  "summary": "Burning is a reaction with oxygen. Learn the fire triangle, ignition temperature, types of combustion and the three zones of a candle flame.",
+  "emoji": "🕯️",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3 },
+    "cbse": [
+      { "class": 8, "chapter": "Previous NCERT edition: Combustion and Flame (check its place in Curiosity)", "verified": false },
+      { "class": 7, "chapter": "Curiosity Ch 5: Changes Around Us (burning as a chemical change)", "verified": true }
+    ]
+  },
+  "ibCriteria": ["A", "B", "C"],
+  "objectives": [
+    "I can define combustion and name its products for fuels containing carbon.",
+    "I can explain the fire triangle and use it to explain how fires are put out.",
+    "I can explain ignition temperature and distinguish rapid, spontaneous and explosive combustion.",
+    "I can describe the three zones of a candle flame."
+  ],
+  "misconceptions": [
+    "Fire is a substance.",
+    "The yellow part of a flame is the hottest.",
+    "Anything will burn if you heat it enough in any conditions (oxygen is also needed)."
+  ],
+  "prerequisites": ["chemistry/changes/conservation-of-mass"],
+  "labs": ["fire-triangle", "flame-explorer"],
+  "keyTerms": ["combustion", "fuel", "oxidant", "ignition temperature", "inflammable", "fire triangle", "complete combustion", "incomplete combustion", "luminous", "non-luminous"],
+  "estMinutes": 25
+}

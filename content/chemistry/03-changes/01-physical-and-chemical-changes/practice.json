@@ -1,0 +1,145 @@
+{
+  "topicId": "physical-and-chemical-changes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Sort each change into physical or chemical.",
+      "bins": ["Physical", "Chemical"],
+      "items": [
+        { "label": "Melting ice", "bin": 0 },
+        { "label": "Burning wood", "bin": 1 },
+        { "label": "Dissolving salt", "bin": 0 },
+        { "label": "Rusting of iron", "bin": 1 },
+        { "label": "Tearing paper", "bin": 0 },
+        { "label": "Cooking an egg", "bin": 1 },
+        { "label": "Boiling water", "bin": 0 },
+        { "label": "Milk turning sour", "bin": 1 }
+      ],
+      "hint": "Ask each time: is a new substance formed?",
+      "explain": "Burning, rusting, cooking and souring make new substances. The others only change shape or state."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the most important sign of a chemical change?",
+      "options": ["It is hard to reverse", "A new substance is formed", "It involves heating", "The shape changes"],
+      "answer": 1,
+      "explain": "A new substance with new properties is the defining feature of a chemical change."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "A burning candle shows…",
+      "options": ["only a physical change", "only a chemical change", "both physical and chemical changes", "no change"],
+      "answer": 2,
+      "explain": "Wax melting is physical; wax vapour burning to form carbon dioxide and water is chemical."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Breaking a glass bottle is a physical change even though it can't be reversed. Why?",
+      "options": [
+        "Because it makes a noise",
+        "Because no new substance is formed: the pieces are still glass",
+        "Because glass is a solid",
+        "Actually it is a chemical change"
+      ],
+      "answer": 1,
+      "feedback": { "3": "Irreversible doesn't always mean chemical. Check for a new substance." },
+      "explain": "The pieces are still glass. Reversibility is only a clue; the test is whether a new substance forms."
+    },
+    {
+      "id": "q5",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which observations suggest a CHEMICAL change? Choose all that apply.",
+      "options": ["A new smell is produced", "Heat and light are given out", "The substance changes from solid to liquid", "Gas bubbles appear when two substances mix", "A permanent colour change"],
+      "answer": [0, 1, 3, 4],
+      "explain": "Solid → liquid is a change of state (physical). The others are evidence of a new substance."
+    },
+    {
+      "id": "q6",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each change to the evidence that best supports your classification.",
+      "pairs": [
+        { "left": "Curd setting from milk", "right": "New sour taste: new substance (chemical)" },
+        { "left": "Water freezing", "right": "Same substance, only the state changed (physical)" },
+        { "left": "Sparkler burning", "right": "Light, heat and smoke given out (chemical)" },
+        { "left": "Sugar dissolving", "right": "Sugar can be recovered by evaporation (physical)" }
+      ],
+      "explain": "Good classifications always come with evidence."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "In a physical change, no new ___ is formed. A chemical change is also called a chemical ___.",
+      "blanks": [["substance"], ["reaction"]],
+      "wordBank": ["substance", "reaction", "mixture", "state"],
+      "explain": "Chemical change = chemical reaction = new substance formed."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Using the particle model, what happens in a chemical change?",
+      "options": [
+        "Particles get bigger",
+        "Particles just move further apart",
+        "Atoms separate and join in new ways to make new particles",
+        "Particles disappear"
+      ],
+      "answer": 2,
+      "explain": "In a reaction, atoms rearrange into new combinations, which is why a new substance forms. Atoms are never created or destroyed."
+    },
+    {
+      "id": "q9",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sort these kitchen changes.",
+      "bins": ["Physical", "Chemical"],
+      "items": [
+        { "label": "Grating coconut", "bin": 0 },
+        { "label": "Frying a papad", "bin": 1 },
+        { "label": "Melting ghee", "bin": 0 },
+        { "label": "Batter fermenting overnight", "bin": 1 },
+        { "label": "Grinding spices", "bin": 0 },
+        { "label": "Toasting bread", "bin": 1 }
+      ],
+      "explain": "Frying, fermenting and toasting make new substances; grating, melting and grinding don't."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "Give TWO differences between physical and chemical changes, with one example of each.",
+      "modelAnswer": "1) In a physical change no new substance forms; in a chemical change a new substance forms. 2) Physical changes are usually reversible; chemical changes usually are not. Example of a physical change: melting ice. Example of a chemical change: burning paper.",
+      "rubric": [
+        "New substance: no (physical) vs yes (chemical)",
+        "A second difference (reversibility, energy change, or new properties)",
+        "One correct example of each"
+      ],
+      "explain": "Always mention the new substance first. It is the key difference."
+    }
+  ]
+}

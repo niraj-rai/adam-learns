@@ -1,0 +1,144 @@
+{
+  "topicId": "signs-of-a-reaction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which are signs that a chemical reaction may have happened? Choose all that apply.",
+      "options": ["A gas is given off", "A colour change", "A temperature change", "A solid forms when two solutions mix", "The substance is moved to a new container"],
+      "answer": [0, 1, 2, 3],
+      "explain": "Gas, colour change, temperature change, precipitate (plus light or sound) are signs of a reaction."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Carbon dioxide gas is bubbled through lime water. What do you observe?",
+      "options": ["It turns blue", "It turns milky", "It catches fire", "Nothing happens"],
+      "answer": 1,
+      "explain": "Lime water turns milky because insoluble calcium carbonate forms. This is the test for carbon dioxide."
+    },
+    {
+      "id": "q3",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each reaction to its main sign.",
+      "pairs": [
+        { "left": "Vinegar + baking soda", "right": "Fizzing (gas)" },
+        { "left": "Turmeric water + soap", "right": "Yellow → red colour change" },
+        { "left": "Lime water + carbon dioxide", "right": "Milky solid forms" },
+        { "left": "Hydrogen peroxide + yeast", "right": "Foams and gets warm" }
+      ],
+      "explain": "Each reaction shows a different sign of a new substance forming."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sort into exothermic (gives out heat) and endothermic (takes in heat).",
+      "bins": ["Exothermic", "Endothermic"],
+      "items": [
+        { "label": "Burning LPG", "bin": 0 },
+        { "label": "Baking soda + vinegar (gets colder)", "bin": 1 },
+        { "label": "Respiration in your cells", "bin": 0 },
+        { "label": "Photosynthesis", "bin": 1 },
+        { "label": "A firework exploding", "bin": 0 },
+        { "label": "An instant cold pack", "bin": 1 }
+      ],
+      "explain": "Exothermic reactions release energy; endothermic reactions absorb it."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "An iron nail is left in blue copper sulfate solution. After some time, what do you observe?",
+      "options": [
+        "The solution turns darker blue",
+        "The solution turns pale green and a brown coating forms on the nail",
+        "The nail dissolves completely",
+        "Nothing happens"
+      ],
+      "answer": 1,
+      "explain": "Iron displaces copper: green iron sulfate forms in the solution and brown copper coats the nail."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "You open a bottle of soda and it fizzes. Is this a chemical reaction?",
+      "options": [
+        "Yes, bubbles always mean a reaction",
+        "No: dissolved carbon dioxide is just escaping, and no new substance forms",
+        "Yes, because it makes a sound",
+        "No, because soda is a liquid"
+      ],
+      "answer": 1,
+      "feedback": { "0": "Bubbles are only a clue. Here, no new substance is made." },
+      "explain": "The gas was already dissolved under pressure. Opening the bottle lets it escape: a physical change."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentences.",
+      "text": "A solid that forms when two solutions are mixed is called a ___. A reaction that gives out heat is ___.",
+      "blanks": [["precipitate"], ["exothermic"]],
+      "wordBank": ["precipitate", "exothermic", "endothermic", "solution"],
+      "explain": "Precipitate = solid formed from solutions. Exothermic = gives out heat."
+    },
+    {
+      "id": "q8",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Put the steps in order to test the gas from baking soda and vinegar.",
+      "steps": [
+        "Put baking soda in a test tube and add vinegar",
+        "Quickly fit a stopper with a delivery tube",
+        "Dip the end of the tube into lime water",
+        "Observe whether the lime water turns milky",
+        "Conclude whether the gas is carbon dioxide"
+      ],
+      "explain": "React → collect the gas → test it → observe → conclude."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Two clear solutions are mixed. The temperature rises from 25 °C to 31 °C and the mixture turns cloudy. What is the best conclusion?",
+      "options": [
+        "Only a physical change happened",
+        "A chemical reaction happened: it is exothermic and a precipitate formed",
+        "An endothermic reaction happened",
+        "The thermometer was faulty"
+      ],
+      "answer": 1,
+      "explain": "Two signs together (temperature rise and a solid forming) are strong evidence of an exothermic reaction making a precipitate."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Describe how you could show that the gas produced when chalk reacts with vinegar is carbon dioxide.",
+      "modelAnswer": "Put chalk pieces in a test tube and add vinegar. Fit a stopper with a delivery tube and bubble the gas through lime water in another tube. If the lime water turns milky, the gas is carbon dioxide.",
+      "rubric": [
+        "I described reacting chalk with vinegar",
+        "I passed the gas into lime water",
+        "I said lime water turning milky shows carbon dioxide"
+      ],
+      "explain": "Always name the test (lime water) and the result (turns milky)."
+    }
+  ]
+}

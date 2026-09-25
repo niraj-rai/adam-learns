@@ -47,7 +47,7 @@
 
 ---
 
-### Unit 3: Physical & Chemical Changes
+### Unit 3: Physical & Chemical Changes ✅ built
 *IB Key Concept:* **Change** · *Related:* Energy, Evidence · *Global Context:* Orientation in space & time
 
 | # | Topic | IB | CBSE | ★ | Interactive lab / experience | Practice highlights |

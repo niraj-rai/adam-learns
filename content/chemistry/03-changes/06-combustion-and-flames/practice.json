@@ -1,0 +1,139 @@
+{
+  "topicId": "combustion-and-flames",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which three things make up the fire triangle? Choose all that apply.",
+      "options": ["Fuel", "Oxygen", "Heat", "Water", "Carbon dioxide"],
+      "answer": [0, 1, 2],
+      "explain": "Fuel, oxygen and heat. Remove one and the fire goes out."
+    },
+    {
+      "id": "q2",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each way of putting out a fire to the side of the fire triangle it removes.",
+      "pairs": [
+        { "left": "Pouring water on burning wood", "right": "Heat" },
+        { "left": "Covering a pan with a lid", "right": "Oxygen" },
+        { "left": "Turning off the gas regulator", "right": "Fuel" },
+        { "left": "Throwing sand on a fire", "right": "Oxygen (sand blanket)" }
+      ],
+      "explain": "Water cools; lids and sand smother (cut off oxygen); turning off gas removes fuel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "The lowest temperature at which a substance catches fire is called its…",
+      "options": ["boiling point", "melting point", "ignition temperature", "calorific value"],
+      "answer": 2,
+      "explain": "A substance must be heated to its ignition temperature before it can burn."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Which is the HOTTEST zone of a candle flame?",
+      "options": ["Innermost dark zone", "Middle luminous zone", "Outermost non-luminous zone", "All zones are equally hot"],
+      "answer": 2,
+      "feedback": { "1": "The yellow zone is the brightest, not the hottest!" },
+      "explain": "Complete combustion in the outermost zone makes it the hottest."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sort these into the correct type of combustion.",
+      "bins": ["Rapid", "Spontaneous", "Explosion"],
+      "items": [
+        { "label": "LPG burning on a stove", "bin": 0 },
+        { "label": "White phosphorus catching fire in air", "bin": 1 },
+        { "label": "A cracker bursting", "bin": 2 },
+        { "label": "Striking a matchstick", "bin": 0 },
+        { "label": "A coal heap catching fire by itself", "bin": 1 }
+      ],
+      "explain": "Rapid: quick with heat and light. Spontaneous: no spark needed. Explosion: sudden gas, heat, light and sound."
+    },
+    {
+      "id": "q6",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Complete or incomplete combustion?",
+      "bins": ["Complete", "Incomplete"],
+      "items": [
+        { "label": "Blue flame, no soot", "bin": 0 },
+        { "label": "Yellow smoky flame", "bin": 1 },
+        { "label": "Makes carbon monoxide", "bin": 1 },
+        { "label": "Plenty of oxygen", "bin": 0 },
+        { "label": "Black soot on the pan", "bin": 1 }
+      ],
+      "explain": "Complete combustion has plenty of oxygen: blue flame, CO₂ + water. Incomplete: soot and carbon monoxide."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A paper cup filled with water is heated over a flame but does not burn. Why?",
+      "options": [
+        "Paper has no ignition temperature",
+        "The water absorbs heat, so the paper stays below its ignition temperature",
+        "The flame has no oxygen",
+        "Water makes paper fireproof permanently"
+      ],
+      "answer": 1,
+      "explain": "Heat is conducted into the water, keeping the paper too cool to ignite."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the word equation for the complete combustion of a fuel like wax.",
+      "text": "wax + ___ → carbon dioxide + ___ + energy",
+      "blanks": [["oxygen"], ["water", "water vapour"]],
+      "wordBank": ["oxygen", "water", "nitrogen", "soot"],
+      "explain": "Fuels containing carbon and hydrogen burn completely to form carbon dioxide and water."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A candle under a large jar burns longer than one under a small jar. What is the best explanation?",
+      "options": [
+        "The large jar is warmer",
+        "The large jar contains more air, so more oxygen for combustion",
+        "The small jar reflects more light",
+        "Large jars block carbon dioxide"
+      ],
+      "answer": 1,
+      "explain": "The flame uses up oxygen; more air means more oxygen and a longer burn."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain why burning coal in a closed room without ventilation is dangerous.",
+      "modelAnswer": "Without enough oxygen, the coal burns incompletely and produces carbon monoxide, a poisonous gas with no colour or smell. It builds up in the closed room and people can become ill or die from breathing it without noticing.",
+      "rubric": [
+        "I mentioned not enough oxygen / incomplete combustion",
+        "I named carbon monoxide",
+        "I said it is poisonous and hard to detect (colourless, odourless)"
+      ],
+      "explain": "Incomplete combustion + closed room = carbon monoxide danger."
+    }
+  ]
+}

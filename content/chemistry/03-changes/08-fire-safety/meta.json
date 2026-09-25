@@ -1,0 +1,31 @@
+{
+  "id": "fire-safety",
+  "number": "3.8",
+  "title": "Boss Challenge: Fire Safety Officer",
+  "summary": "Use the fire triangle to handle six real emergencies: oil fires, electrical fires, clothes on fire, petrol fires and gas leaks.",
+  "emoji": "🧑‍🚒",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": { "programme": "MYP", "year": 3, "note": "Unit summative-style task: applying knowledge in real situations (Criteria A and D)" },
+    "cbse": [
+      { "class": 8, "chapter": "Previous NCERT edition: Combustion and Flame (how do we control fire?)", "verified": false }
+    ]
+  },
+  "ibCriteria": ["A", "D"],
+  "objectives": [
+    "I can choose the safest way to deal with different types of fire, using the fire triangle.",
+    "I can explain why water must not be used on oil, petrol or electrical fires.",
+    "I can describe what to do if there is an LPG leak."
+  ],
+  "misconceptions": [
+    "Water puts out every kind of fire.",
+    "If your clothes catch fire, you should run for help.",
+    "Switching on a light helps you find a gas leak."
+  ],
+  "prerequisites": ["chemistry/changes/combustion-and-flames"],
+  "labs": ["fire-safety"],
+  "keyTerms": ["fire extinguisher", "CO₂ extinguisher", "fire blanket", "stop, drop and roll", "evacuation"],
+  "estMinutes": 15
+}

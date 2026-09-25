@@ -1,0 +1,110 @@
+{
+  "topicId": "fire-safety",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each fire to the safest way to put it out.",
+      "pairs": [
+        { "left": "Burning paper in a dustbin", "right": "Water" },
+        { "left": "Oil burning in a kadhai", "right": "Turn off gas and cover with a lid" },
+        { "left": "Electrical fire in a TV", "right": "Switch off power, use a CO₂ extinguisher" },
+        { "left": "Petrol fire on the ground", "right": "Sand or foam" }
+      ],
+      "explain": "Match the method to the fuel: never water on oil, petrol or electrical fires."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Why is water NOT used to put out an electrical fire?",
+      "options": ["Water is too heavy", "Water conducts electricity and could cause a shock", "Water makes more smoke", "Water adds fuel"],
+      "answer": 1,
+      "explain": "Water conducts electricity, so there is a serious risk of electric shock."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "How does a CO₂ fire extinguisher control a fire?",
+      "options": [
+        "CO₂ is a fuel that burns away the fire",
+        "CO₂ is heavier than air and blankets the fire, cutting off oxygen; it also cools it",
+        "CO₂ makes the fire hotter so it burns out quickly",
+        "CO₂ reacts with the flame to make water"
+      ],
+      "answer": 1,
+      "explain": "CO₂ smothers the fire (removes oxygen) and cools the fuel."
+    },
+    {
+      "id": "q4",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Someone's clothes catch fire. Put the actions in order.",
+      "steps": ["Stop moving", "Drop to the ground", "Roll to smother the flames (or wrap in a blanket)", "Cool the burn with running water", "Get medical help"],
+      "explain": "Stop, drop and roll cuts off oxygen; then cool the burn and get help."
+    },
+    {
+      "id": "q5",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "You smell LPG in the kitchen. What should you do? Choose all that apply.",
+      "options": ["Turn off the regulator", "Open doors and windows", "Switch on the light to look for the leak", "Avoid using any switches or flames", "Call the gas agency's emergency number"],
+      "answer": [0, 1, 3, 4],
+      "explain": "Remove the fuel, let the gas escape, and avoid sparks. Switching on a light could ignite the gas."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why should you crawl low when escaping a smoky room?",
+      "options": ["It is faster", "Hot smoke rises, so cleaner, cooler air is near the floor", "Fire can't reach the floor", "It looks safer"],
+      "answer": 1,
+      "explain": "Hot smoke and gases rise; the air near the floor is easier to breathe."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Why is fanning a small fire a bad idea?",
+      "options": ["It removes the fuel", "It supplies more oxygen, making the fire bigger", "It cools the fire too much", "It adds carbon dioxide"],
+      "answer": 1,
+      "explain": "Moving air brings fresh oxygen, feeding the fire."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "In India, you can call ___ for the fire brigade or ___ for any emergency.",
+      "blanks": [["101"], ["112"]],
+      "wordBank": ["101", "112", "100", "108"],
+      "explain": "101 = fire; 112 = national emergency number (100 is police, 108 is ambulance)."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Explain, using the fire triangle, why a kitchen oil fire should be covered with a lid rather than put out with water.",
+      "modelAnswer": "Covering the pan with a lid cuts off the oxygen side of the fire triangle, so the fire goes out safely. Water is dangerous because it sinks under the hot oil, instantly boils into steam and throws burning oil out, spreading the fire.",
+      "rubric": [
+        "I said the lid cuts off oxygen",
+        "I explained what water does (sinks, boils, spreads burning oil)",
+        "I referred to the fire triangle"
+      ],
+      "explain": "Use the fire triangle to choose the safe side to remove."
+    }
+  ]
+}

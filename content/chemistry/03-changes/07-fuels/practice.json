@@ -1,0 +1,133 @@
+{
+  "topicId": "fuels",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why are coal and petroleum called NON-RENEWABLE?",
+      "options": [
+        "They can't be burned",
+        "They took millions of years to form and can't be replaced in a human lifetime",
+        "They are found only in India",
+        "They are made in factories"
+      ],
+      "answer": 1,
+      "explain": "Fossil fuels form far too slowly to replace what we use."
+    },
+    {
+      "id": "q2",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Order these crude oil fractions from the TOP of the column (coolest) to the BOTTOM (hottest).",
+      "steps": ["Petroleum gas (LPG)", "Petrol", "Kerosene", "Diesel", "Lubricating oil", "Bitumen"],
+      "explain": "Low boiling point fractions rise to the top; high boiling point fractions stay near the bottom."
+    },
+    {
+      "id": "q3",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "cbseStyle": true,
+      "prompt": "Match each petroleum product to its use.",
+      "pairs": [
+        { "left": "LPG", "right": "Cooking gas" },
+        { "left": "Bitumen", "right": "Making roads" },
+        { "left": "Kerosene", "right": "Aeroplane (jet) fuel" },
+        { "left": "Paraffin wax", "right": "Candles" },
+        { "left": "Diesel", "right": "Buses and trucks" }
+      ],
+      "explain": "Each fraction has uses that suit its properties."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which fuel has the HIGHEST calorific value?",
+      "options": ["Wood", "Coal", "LPG", "Hydrogen"],
+      "answer": 3,
+      "explain": "Hydrogen ≈ 150 kJ/g, far more than LPG (≈ 55 kJ/g)."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "cbseStyle": true,
+      "prompt": "Burning 3 kg of a fuel released 180,000 kJ of heat. What is its calorific value in kJ/kg?",
+      "answer": 60000,
+      "tolerance": 0,
+      "unit": "kJ/kg",
+      "hint": "Calorific value = heat released ÷ mass burned.",
+      "explain": "180,000 ÷ 3 = 60,000 kJ/kg."
+    },
+    {
+      "id": "q6",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which are characteristics of a GOOD fuel? Choose all that apply.",
+      "options": ["High calorific value", "Leaves lots of ash", "Easy to store and transport", "Cheap and readily available", "Produces lots of smoke"],
+      "answer": [0, 2, 3],
+      "explain": "A good fuel gives lots of energy, is easy to handle and affordable, and produces little ash, smoke or harmful gas."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Why did switching Delhi's buses and autos to CNG improve the city's air?",
+      "options": [
+        "CNG is cheaper",
+        "CNG burns more completely, producing much less soot and smoke than diesel",
+        "CNG vehicles are faster",
+        "CNG does not produce any carbon dioxide"
+      ],
+      "answer": 1,
+      "feedback": { "3": "CNG still produces carbon dioxide. It is cleaner, but not zero-carbon." },
+      "explain": "CNG (mostly methane) burns cleanly with far fewer soot particles."
+    },
+    {
+      "id": "q8",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Match each gas released by burning fossil fuels to the problem it mainly causes.",
+      "bins": ["Global warming", "Acid rain / smog"],
+      "items": [
+        { "label": "Carbon dioxide", "bin": 0 },
+        { "label": "Sulfur dioxide", "bin": 1 },
+        { "label": "Nitrogen oxides", "bin": 1 }
+      ],
+      "explain": "CO₂ is a greenhouse gas; sulfur dioxide and nitrogen oxides form acids in rain and contribute to smog."
+    },
+    {
+      "id": "q9",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "Crude oil is separated into useful fractions by fractional ___ at a ___.",
+      "blanks": [["distillation"], ["refinery"]],
+      "wordBank": ["distillation", "filtration", "refinery", "mine"],
+      "explain": "Fractional distillation at an oil refinery."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Give ONE benefit and ONE problem of India using coal to generate most of its electricity.",
+      "modelAnswer": "Benefit: India has large coal reserves, so coal gives a cheap and reliable supply of electricity for homes and industry, and creates jobs. Problem: burning coal releases carbon dioxide (global warming) and smoke and sulfur dioxide (air pollution and health problems), and coal will eventually run out.",
+      "rubric": [
+        "I gave a clear benefit (cheap, reliable, available, jobs)",
+        "I gave a clear problem (CO₂/climate, air pollution, non-renewable)",
+        "I explained the impact on people or the environment"
+      ],
+      "explain": "Criterion D: weigh benefits against costs."
+    }
+  ]
+}
