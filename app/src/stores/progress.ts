@@ -2,6 +2,7 @@ import { create } from 'zustand'
 import { createJSONStorage, persist } from 'zustand/middleware'
 import { BADGES, type BadgeId } from '@/lib/badges'
 import { MASTERY_THRESHOLD, XP } from '@/lib/levels'
+import { localDate, localDateOffset } from '@/lib/dates'
 import { useToasts } from './toasts'
 
 export type TopicProgress = {
@@ -40,8 +41,8 @@ type ProgressState = {
   importState: (json: string) => boolean
 }
 
-const today = () => new Date().toISOString().slice(0, 10)
-const addDays = (days: number) => new Date(Date.now() + days * 86_400_000).toISOString().slice(0, 10)
+const today = () => localDate()
+const addDays = (days: number) => localDateOffset(days)
 
 const initial = {
   xp: 0,
@@ -59,8 +60,8 @@ export function currentStreak(activeDays: string[]): number {
   let streak = 0
   const d = new Date()
   // today not yet active still counts yesterday's streak
-  if (!set.has(d.toISOString().slice(0, 10))) d.setDate(d.getDate() - 1)
-  while (set.has(d.toISOString().slice(0, 10))) {
+  if (!set.has(localDate(d))) d.setDate(d.getDate() - 1)
+  while (set.has(localDate(d))) {
     streak++
     d.setDate(d.getDate() - 1)
   }

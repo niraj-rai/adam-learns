@@ -15,6 +15,7 @@ function PrivacyPage() {
         <p>To remember your learning, AdamLearns saves a few things in your browser's local storage, <b>on this device only</b>:</p>
         <ul>
           <li>your profile: first and last name, grade, and your skills-check results (strengths and warm-up topics);</li>
+          <li>your study plan, if you make one: the days, time of day, minutes per session and subjects you picked;</li>
           <li>your progress: topics started and mastered, practice scores, XP, badges and streak;</li>
           <li>your review queue and reflection answers;</li>
           <li>your settings: theme, sounds and whether the CBSE mapping is shown.</li>

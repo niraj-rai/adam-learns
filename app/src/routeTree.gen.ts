@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as CurriculumRouteImport } from './routes/curriculum'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as ProgressRouteImport } from './routes/progress'
+import { Route as ReportRouteImport } from './routes/report'
 import { Route as ReviewRouteImport } from './routes/review'
 import { Route as TermsRouteImport } from './routes/terms'
 import { Route as WelcomeRouteImport } from './routes/welcome'
@@ -41,6 +42,11 @@ const PrivacyRoute = PrivacyRouteImport.update({
 const ProgressRoute = ProgressRouteImport.update({
   id: '/progress',
   path: '/progress',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ReportRoute = ReportRouteImport.update({
+  id: '/report',
+  path: '/report',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ReviewRoute = ReviewRouteImport.update({
@@ -95,6 +101,7 @@ export interface FileRoutesByFullPath {
   '/curriculum': typeof CurriculumRoute
   '/privacy': typeof PrivacyRoute
   '/progress': typeof ProgressRoute
+  '/report': typeof ReportRoute
   '/review': typeof ReviewRoute
   '/terms': typeof TermsRoute
   '/welcome': typeof WelcomeRoute
@@ -110,6 +117,7 @@ export interface FileRoutesByTo {
   '/curriculum': typeof CurriculumRoute
   '/privacy': typeof PrivacyRoute
   '/progress': typeof ProgressRoute
+  '/report': typeof ReportRoute
   '/review': typeof ReviewRoute
   '/terms': typeof TermsRoute
   '/welcome': typeof WelcomeRoute
@@ -126,6 +134,7 @@ export interface FileRoutesById {
   '/curriculum': typeof CurriculumRoute
   '/privacy': typeof PrivacyRoute
   '/progress': typeof ProgressRoute
+  '/report': typeof ReportRoute
   '/review': typeof ReviewRoute
   '/terms': typeof TermsRoute
   '/welcome': typeof WelcomeRoute
@@ -143,6 +152,7 @@ export interface FileRouteTypes {
     | '/curriculum'
     | '/privacy'
     | '/progress'
+    | '/report'
     | '/review'
     | '/terms'
     | '/welcome'
@@ -158,6 +168,7 @@ export interface FileRouteTypes {
     | '/curriculum'
     | '/privacy'
     | '/progress'
+    | '/report'
     | '/review'
     | '/terms'
     | '/welcome'
@@ -173,6 +184,7 @@ export interface FileRouteTypes {
     | '/curriculum'
     | '/privacy'
     | '/progress'
+    | '/report'
     | '/review'
     | '/terms'
     | '/welcome'
@@ -189,6 +201,7 @@ export interface RootRouteChildren {
   CurriculumRoute: typeof CurriculumRoute
   PrivacyRoute: typeof PrivacyRoute
   ProgressRoute: typeof ProgressRoute
+  ReportRoute: typeof ReportRoute
   ReviewRoute: typeof ReviewRoute
   TermsRoute: typeof TermsRoute
   WelcomeRoute: typeof WelcomeRoute
@@ -228,6 +241,13 @@ declare module '@tanstack/react-router' {
       path: '/progress'
       fullPath: '/progress'
       preLoaderRoute: typeof ProgressRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/report': {
+      id: '/report'
+      path: '/report'
+      fullPath: '/report'
+      preLoaderRoute: typeof ReportRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/review': {
@@ -301,6 +321,7 @@ const rootRouteChildren: RootRouteChildren = {
   CurriculumRoute: CurriculumRoute,
   PrivacyRoute: PrivacyRoute,
   ProgressRoute: ProgressRoute,
+  ReportRoute: ReportRoute,
   ReviewRoute: ReviewRoute,
   TermsRoute: TermsRoute,
   WelcomeRoute: WelcomeRoute,

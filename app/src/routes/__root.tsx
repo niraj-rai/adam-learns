@@ -44,10 +44,10 @@ function RootLayout() {
   return (
     <div className="min-h-svh" data-subject={subject}>
       <TopBar />
-      <main className="mx-auto max-w-6xl px-4 pt-6 pb-24">
+      <main className="mx-auto max-w-6xl px-4 pt-6 pb-24 print:p-0">
         <Outlet />
       </main>
-      <footer className="border-t px-4 py-8 text-center text-xs text-muted-foreground">
+      <footer className="border-t px-4 py-8 text-center text-xs text-muted-foreground print:hidden">
         <p className="font-medium text-foreground/80">© {new Date().getFullYear()} AdamLearns · Free to learn, no sign-up · Your progress stays on this device</p>
         <nav className="mt-2 flex flex-wrap justify-center gap-x-4 gap-y-1" aria-label="Footer">
           <Link to="/terms" className="underline-offset-2 hover:underline">Terms of use</Link>

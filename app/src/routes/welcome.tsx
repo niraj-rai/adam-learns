@@ -2,6 +2,7 @@ import { Link, createFileRoute, useNavigate } from '@tanstack/react-router'
 import { ArrowLeft, ArrowRight, Check, X } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { Logo } from '@/components/layout/Logo'
+import { StudyPlanStep } from '@/components/plan/StudyPlan'
 import { Button } from '@/components/ui/button'
 import { getSubject, getSubjects, getTopicByKey } from '@/content/loader'
 import { buildSkillsCheck, effectiveGrade, scoreSkillsCheck, strength, type CheckItem } from '@/lib/learner'
@@ -9,10 +10,11 @@ import { sfx } from '@/lib/sound'
 import { cn } from '@/lib/utils'
 import { GRADES, isOnboarded, useProfile, type Grade, type SkillsCheck } from '@/stores/profile'
 
-type Step = 'name' | 'grade' | 'intro' | 'check' | 'results'
+type Step = 'name' | 'grade' | 'intro' | 'check' | 'results' | 'schedule'
+type StartAt = 'check' | 'grade' | 'schedule'
 
 export const Route = createFileRoute('/welcome')({
-  validateSearch: (s: Record<string, unknown>): { step?: 'check' | 'grade' } => (s.step === 'check' || s.step === 'grade' ? { step: s.step } : {}),
+  validateSearch: (s: Record<string, unknown>): { step?: StartAt } => (s.step === 'check' || s.step === 'grade' || s.step === 'schedule' ? { step: s.step } : {}),
   component: Welcome,
 })
 
@@ -30,19 +32,25 @@ function Welcome() {
   const navigate = useNavigate()
   const { step: startAt } = Route.useSearch()
   const ready = isOnboarded(profile)
-  const [step, setStep] = useState<Step>(!ready ? 'name' : startAt === 'check' ? 'intro' : startAt === 'grade' ? 'grade' : 'name')
+  const [step, setStep] = useState<Step>(!ready ? 'name' : startAt === 'check' ? 'intro' : startAt === 'grade' ? 'grade' : startAt === 'schedule' ? 'schedule' : 'name')
   const [startGrade] = useState(profile.grade)
   const hadCheck = useState(() => Boolean(profile.check))[0]
   const [first, setFirst] = useState(profile.firstName)
   const [last, setLast] = useState(profile.lastName)
   const [grade, setGrade] = useState<Grade | null>(profile.grade)
   const [result, setResult] = useState<SkillsCheck | null>(null)
+  // the check result waits here while the learner looks at the (optional) study plan step
+  const [pending, setPending] = useState<SkillsCheck | null>(null)
 
-  const steps: Step[] = ['name', 'grade', 'intro']
-  const dot = Math.min(steps.indexOf(step === 'check' || step === 'results' ? 'intro' : step), 2)
+  const steps: Step[] = ['name', 'grade', 'intro', 'schedule']
+  const dot = steps.indexOf(step === 'check' || step === 'results' ? 'intro' : step)
   const done = (check: SkillsCheck | null) => {
     profile.finish(check)
     navigate({ to: '/' })
+  }
+  const toPlan = (check: SkillsCheck | null) => {
+    setPending(check)
+    setStep('schedule')
   }
 
   return (
@@ -139,7 +147,7 @@ function Welcome() {
           <div className="mt-6 flex flex-col-reverse gap-2 sm:flex-row sm:justify-between">
             <Button variant="ghost" onClick={() => setStep('grade')}><ArrowLeft /> Back</Button>
             <div className="flex flex-col gap-2 sm:flex-row">
-              <Button variant="outline" size="lg" onClick={() => done(null)}>Skip, go to my topics</Button>
+              <Button variant="outline" size="lg" onClick={() => toPlan(null)}>Skip, go to my topics</Button>
               <Button size="lg" className="bg-brand text-white hover:bg-brand/90" onClick={() => setStep('check')}>Start the check <ArrowRight /></Button>
             </div>
           </div>
@@ -148,7 +156,17 @@ function Welcome() {
 
       {step === 'check' && grade && <SkillsQuiz grade={grade} onFinish={(r) => { setResult(r); setStep('results') }} />}
 
-      {step === 'results' && result && <Results name={first.trim()} grade={grade!} result={result} onDone={() => done(Object.keys(result.results).length ? result : null)} />}
+      {step === 'results' && result && <Results name={first.trim()} grade={grade!} result={result} onDone={() => toPlan(Object.keys(result.results).length ? result : null)} />}
+
+      {step === 'schedule' && (
+        <StudyPlanStep
+          name={first.trim()}
+          initial={profile.schedule}
+          onSave={(s) => { profile.setSchedule(s); done(pending) }}
+          onSkip={() => done(pending)}
+          onRemove={profile.schedule ? () => { profile.setSchedule(null); done(pending) } : undefined}
+        />
+      )}
     </div>
   )
 }

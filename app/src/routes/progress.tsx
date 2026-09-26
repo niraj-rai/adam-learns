@@ -1,4 +1,5 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
+import { localDateOffset } from '@/lib/dates'
 import { useRef, useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { getSubjects } from '@/content/loader'
@@ -8,6 +9,7 @@ import { STATUS_STYLE, topicStatus } from '@/lib/status'
 import { cn } from '@/lib/utils'
 import { currentStreak, dueReviewItems, useProgress } from '@/stores/progress'
 import { strength } from '@/lib/learner'
+import { normaliseSchedule } from '@/lib/schedule'
 import { useProfile } from '@/stores/profile'
 
 export const Route = createFileRoute('/progress')({ component: ProgressPage })
@@ -22,8 +24,8 @@ function ProgressPage() {
   const profile = useProfile()
   const exportData = () => {
     const { xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones } = useProgress.getState()
-    const { firstName, lastName, grade, onboardedAt, check } = useProfile.getState()
-    const blob = new Blob([JSON.stringify({ xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones, profile: { firstName, lastName, grade, onboardedAt, check } }, null, 2)], { type: 'application/json' })
+    const { firstName, lastName, grade, onboardedAt, check, schedule } = useProfile.getState()
+    const blob = new Blob([JSON.stringify({ xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones, profile: { firstName, lastName, grade, onboardedAt, check, schedule } }, null, 2)], { type: 'application/json' })
     const a = document.createElement('a')
     a.href = URL.createObjectURL(blob)
     a.download = `adamlearns-progress-${new Date().toISOString().slice(0, 10)}.json`
@@ -32,14 +34,15 @@ function ProgressPage() {
   }
 
   const last14 = Array.from({ length: 14 }, (_, i) => {
-    const d = new Date(Date.now() - (13 - i) * 86_400_000).toISOString().slice(0, 10)
+    const d = localDateOffset(i - 13)
     return { d, active: activeDays.includes(d) }
   })
 
   return (
     <div className="space-y-8">
-      <header>
-        <h1 className="font-heading text-4xl font-bold">📈 {profile.firstName ? <>{profile.firstName}'s Progress</> : 'My Progress'}</h1>
+      <header className="flex flex-wrap items-end justify-between gap-3">
+        <h1 className="min-w-0 font-heading text-4xl font-bold">📈 {profile.firstName ? <>{profile.firstName}'s Progress</> : 'My Progress'}</h1>
+        <Button asChild variant="outline" size="lg"><Link to="/report">📋 Progress report</Link></Button>
       </header>
 
       <section className="rounded-2xl border bg-card p-5">
@@ -48,10 +51,12 @@ function ProgressPage() {
             <p className="text-xs font-semibold text-muted-foreground uppercase">Profile</p>
             <p className="mt-1 font-heading text-2xl font-bold">{[profile.firstName, profile.lastName].filter(Boolean).join(' ') || 'Learner'}</p>
             <p className="text-sm text-muted-foreground">{profile.grade ? `Grade ${profile.grade}` : 'Grade not set'}{profile.check ? ` · Skills check on ${profile.check.takenAt.slice(0, 10)}` : ' · Skills check not taken'}</p>
+            <p className="text-sm text-muted-foreground">{profile.schedule ? `📅 Study plan: ${profile.schedule.days.length} ${profile.schedule.days.length === 1 ? 'day' : 'days'} a week, ${profile.schedule.minutes} min each` : '📅 No study plan yet (optional)'}</p>
           </div>
           <div className="flex flex-wrap gap-2">
             <Button asChild variant="outline"><Link to="/welcome">Edit name</Link></Button>
             <Button asChild variant="outline"><Link to="/welcome" search={{ step: 'grade' }}>🎓 Change grade</Link></Button>
+            <Button asChild variant="outline"><Link to="/welcome" search={{ step: 'schedule' }}>📅 {profile.schedule ? 'Edit study plan' : 'Set up a study plan'}</Link></Button>
             <Button asChild className="bg-brand text-white hover:bg-brand/90"><Link to="/welcome" search={{ step: 'check' }}>{profile.check ? 'Retake skills check' : 'Take skills check'}</Link></Button>
           </div>
         </div>
@@ -96,8 +101,8 @@ function ProgressPage() {
         </div>
       </section>
 
-      <section>
-        <h2 className="font-heading text-2xl font-semibold">Badges</h2>
+      <section id="badges" className="scroll-mt-20">
+        <h2 className="font-heading text-2xl font-semibold">Badges <span className="text-base font-normal text-muted-foreground tabular-nums">{badges.length} of {Object.keys(BADGES).length} earned</span></h2>
         <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
           {(Object.keys(BADGES) as BadgeId[]).map((id) => {
             const b = BADGES[id]
@@ -113,53 +118,67 @@ function ProgressPage() {
         </div>
       </section>
 
-      <section>
-        <h2 className="font-heading text-2xl font-semibold">For parents: topic report</h2>
-        <p className="text-sm text-muted-foreground">Best practice score, attempts and when each topic was last studied. Mastery = 80%+.</p>
-        {getSubjects().map((s) => (
-          <div key={s.id} className="mt-3 overflow-x-auto rounded-2xl border bg-card">
-            <table className="w-full min-w-[640px] text-sm">
-              <thead className="bg-muted/50 text-left text-xs text-muted-foreground uppercase">
-                <tr>
-                  <th className="px-4 py-2">Topic</th>
-                  <th className="px-4 py-2">IB</th>
-                  <th className="px-4 py-2">CBSE</th>
-                  <th className="px-4 py-2">Status</th>
-                  <th className="px-4 py-2">Best</th>
-                  <th className="px-4 py-2">Tries</th>
-                  <th className="px-4 py-2">Last studied</th>
-                </tr>
-              </thead>
-              <tbody>
-                {s.units.flatMap((u) =>
-                  u.topics.map((t) => {
-                    const p = topics[t.key]
-                    const st = topicStatus(p)
-                    return (
-                      <tr key={t.key} className="border-t">
-                        <td className="px-4 py-2">
-                          <Link to="/$subject/$unit/$topic" params={{ subject: t.subjectId, unit: t.unitId, topic: t.id }} className="hover:underline">
-                            {t.number} {t.title}
-                          </Link>
-                        </td>
-                        <td className="px-4 py-2">
-                          {t.grades.ib.programme} {t.grades.ib.year}
-                        </td>
-                        <td className="px-4 py-2">{t.grades.cbse.map((c) => c.class).join(', ')}</td>
-                        <td className="px-4 py-2">
-                          <span className={cn('rounded-full px-2 py-0.5 text-xs font-semibold', STATUS_STYLE[st].cls)}>{STATUS_STYLE[st].label}</span>
-                        </td>
-                        <td className="px-4 py-2 tabular-nums">{p?.attempts ? `${Math.round(p.bestScore * 100)}%` : '—'}</td>
-                        <td className="px-4 py-2 tabular-nums">{p?.attempts ?? 0}</td>
-                        <td className="px-4 py-2 tabular-nums">{p?.lastSeen ?? '—'}</td>
-                      </tr>
-                    )
-                  }),
-                )}
-              </tbody>
-            </table>
+      <section className="space-y-3">
+        <Link to="/report" className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border-2 border-brand/40 bg-brand-soft/60 p-5 transition hover:border-brand">
+          <span className="min-w-0">
+            <span className="block font-heading text-xl font-semibold">📋 Progress report</span>
+            <span className="block text-sm text-muted-foreground">A clear summary for parents and students: each subject, what needs attention, recent activity and the study plan. Easy to print or save as PDF.</span>
+          </span>
+          <span className="font-semibold text-brand">Open the report →</span>
+        </Link>
+        <details className="group rounded-2xl border bg-card">
+          <summary className="cursor-pointer list-none rounded-2xl p-4 font-heading text-lg font-semibold hover:bg-muted/50 [&::-webkit-details-marker]:hidden">
+            <span className="inline-block transition group-open:rotate-90" aria-hidden>▸</span> Full topic table
+            <span className="block text-sm font-normal text-muted-foreground">Every topic with its IB and CBSE level, best practice score, attempts and when it was last studied. Mastery = 80%+.</span>
+          </summary>
+          <div className="px-4 pb-4">
+            {getSubjects().map((s) => (
+              <div key={s.id} className="mt-3 overflow-x-auto rounded-2xl border bg-card">
+                <table className="w-full min-w-[640px] text-sm">
+                  <caption className="px-4 py-2 text-left font-semibold">{s.icon} {s.title}</caption>
+                  <thead className="bg-muted/50 text-left text-xs text-muted-foreground uppercase">
+                    <tr>
+                      <th className="px-4 py-2">Topic</th>
+                      <th className="px-4 py-2">IB</th>
+                      <th className="px-4 py-2">CBSE</th>
+                      <th className="px-4 py-2">Status</th>
+                      <th className="px-4 py-2">Best</th>
+                      <th className="px-4 py-2">Tries</th>
+                      <th className="px-4 py-2">Last studied</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {s.units.flatMap((u) =>
+                      u.topics.map((t) => {
+                        const p = topics[t.key]
+                        const st = topicStatus(p)
+                        return (
+                          <tr key={t.key} className="border-t">
+                            <td className="px-4 py-2">
+                              <Link to="/$subject/$unit/$topic" params={{ subject: t.subjectId, unit: t.unitId, topic: t.id }} className="hover:underline">
+                                {t.number} {t.title}
+                              </Link>
+                            </td>
+                            <td className="px-4 py-2">
+                              {t.grades.ib.programme} {t.grades.ib.year}
+                            </td>
+                            <td className="px-4 py-2">{t.grades.cbse.map((c) => c.class).join(', ')}</td>
+                            <td className="px-4 py-2">
+                              <span className={cn('rounded-full px-2 py-0.5 text-xs font-semibold', STATUS_STYLE[st].cls)}>{STATUS_STYLE[st].label}</span>
+                            </td>
+                            <td className="px-4 py-2 tabular-nums">{p?.attempts ? `${Math.round(p.bestScore * 100)}%` : '—'}</td>
+                            <td className="px-4 py-2 tabular-nums">{p?.attempts ?? 0}</td>
+                            <td className="px-4 py-2 tabular-nums">{p?.lastSeen ?? '—'}</td>
+                          </tr>
+                        )
+                      }),
+                    )}
+                  </tbody>
+                </table>
+              </div>
+            ))}
           </div>
-        ))}
+        </details>
       </section>
 
       <section className="rounded-2xl border bg-card p-5">
@@ -184,7 +203,7 @@ function ProgressPage() {
               const ok = importState(text)
               if (ok) {
                 const p = JSON.parse(text).profile
-                if (p && typeof p.firstName === 'string') useProfile.setState({ firstName: p.firstName, lastName: p.lastName ?? '', grade: p.grade ?? null, onboardedAt: p.onboardedAt ?? null, check: p.check ?? null })
+                if (p && typeof p.firstName === 'string') useProfile.setState({ firstName: p.firstName, lastName: p.lastName ?? '', grade: p.grade ?? null, onboardedAt: p.onboardedAt ?? null, check: p.check ?? null, schedule: normaliseSchedule(p.schedule) })
               }
               setMsg(ok ? '✅ Progress imported.' : '❌ That file does not look like a progress export.')
               e.target.value = ''

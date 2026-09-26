@@ -1,10 +1,12 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
 import { ArrowRight } from 'lucide-react'
-import { useMemo } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { BoardTags, ComplexityStars } from '@/components/board/BoardTags'
+import { TodayPlan } from '@/components/plan/StudyPlan'
 import { Button } from '@/components/ui/button'
 import { getAllTopics, getSubjects } from '@/content/loader'
 import { LABS } from '@/labs/registry'
+import { BADGES, type BadgeId } from '@/lib/badges'
 import { levelFor } from '@/lib/levels'
 import { gradeTopics, nextForLearner, pendingWarmups, stageForGrade, topicGrade } from '@/lib/learner'
 import { useProfile } from '@/stores/profile'
@@ -21,7 +23,7 @@ const COMING = [
 function Home() {
   const featured = useMemo(() => [...LABS].sort(() => 0.5 - Math.random()).slice(0, 3), [])
   const { xp, topics, activeDays, review, badges } = useProgress()
-  const { firstName, grade, check } = useProfile()
+  const { firstName, grade, check, schedule } = useProfile()
   const { topic: next, warmup } = nextForLearner(topics, grade, check)
   const level = levelFor(xp)
   const mastered = getAllTopics().filter((t) => topics[t.key]?.masteredAt).length
@@ -63,12 +65,11 @@ function Home() {
           <Link to="/review" className="block">
             <Stat emoji="🔁" label="Review" value={`${due} due`} sub={due ? 'Tap to review now' : 'All caught up'} highlight={due > 0} />
           </Link>
-          <Link to="/progress" className="col-span-2 block rounded-2xl border bg-card p-4 transition hover:border-chem">
-            <p className="text-xs font-semibold text-muted-foreground uppercase">Badges</p>
-            <p className="mt-1 text-sm">{badges.length ? `${badges.length} earned. See them all →` : 'Finish your first lesson to earn a badge!'}</p>
-          </Link>
+          <BadgesTile badges={badges} />
         </div>
       </section>
+
+      <TodayPlan schedule={schedule} activeDays={activeDays} topics={topics} grade={grade} check={check} />
 
       {grade && <GradePlan />}
 
@@ -152,6 +153,7 @@ function GradePlan() {
       <div className="flex flex-wrap items-end justify-between gap-2">
         <h2 className="font-heading text-2xl font-semibold">Your Grade {grade} path</h2>
         <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm font-semibold">
+          <Link to="/report" className="text-muted-foreground hover:text-brand hover:underline">📋 Progress report</Link>
           <Link to="/welcome" search={{ step: 'grade' }} className="text-muted-foreground hover:text-brand hover:underline">🎓 Change grade</Link>
           <Link to="/welcome" search={{ step: 'check' }} className="text-brand hover:underline">{check ? 'Retake skills check' : 'Take the skills check'} →</Link>
         </div>
@@ -203,5 +205,46 @@ function Stat({ emoji, label, value, sub, highlight }: { emoji: string; label: s
       <p className="mt-1 font-heading text-xl font-semibold">{value}</p>
       <p className="text-xs text-muted-foreground">{sub}</p>
     </div>
+  )
+}
+
+const CHIP = 36 // badge chip width + gap, in px
+
+/** Recently earned badge icons, as many as fit on two rows, with a "+K more" chip. */
+function BadgesTile({ badges }: { badges: BadgeId[] }) {
+  const ref = useRef<HTMLUListElement>(null)
+  const [perRow, setPerRow] = useState(6)
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const measure = () => setPerRow(Math.max(3, Math.floor((el.clientWidth + 4) / CHIP)))
+    measure()
+    const ro = new ResizeObserver(measure)
+    ro.observe(el)
+    return () => ro.disconnect()
+  }, [badges.length])
+  const total = Object.keys(BADGES).length
+  const recent = [...badges].reverse().filter((id) => BADGES[id])
+  const room = perRow * 2
+  const shown = recent.length > room ? recent.slice(0, room - 1) : recent
+  const more = recent.length - shown.length
+  return (
+    <Link to="/progress" hash="badges" className="col-span-2 block min-w-0 rounded-2xl border bg-card p-4 transition hover:border-chem">
+      <div className="flex flex-wrap items-baseline justify-between gap-x-2">
+        <p className="text-xs font-semibold text-muted-foreground uppercase">🏅 Badges</p>
+        <p className="text-xs text-muted-foreground"><b className="text-foreground tabular-nums">{badges.length}</b> earned of {total}</p>
+      </div>
+      {recent.length ? (
+        <ul ref={ref} className="mt-2 flex flex-wrap gap-1" aria-label="Recent badges">
+          {shown.map((id) => (
+            <li key={id} role="img" aria-label={BADGES[id].title} title={BADGES[id].title} className="flex size-8 items-center justify-center rounded-lg bg-amber-50 text-xl dark:bg-amber-950/40">{BADGES[id].emoji}</li>
+          ))}
+          {more > 0 && <li className="flex size-8 items-center justify-center rounded-lg bg-muted text-[11px] font-semibold tabular-nums" title={`${more} more`} aria-label={`and ${more} more`}>+{more}</li>}
+        </ul>
+      ) : (
+        <p className="mt-1 text-sm">Finish your first lesson to earn a badge! 🌟</p>
+      )}
+      {recent.length > 0 && <p className="mt-2 text-xs font-semibold text-chem">See them all →</p>}
+    </Link>
   )
 }

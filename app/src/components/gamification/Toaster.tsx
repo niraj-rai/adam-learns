@@ -5,7 +5,7 @@ import { useToasts } from '@/stores/toasts'
 export function Toaster() {
   const { toasts, dismiss } = useToasts()
   return (
-    <div className="pointer-events-none fixed right-4 bottom-4 z-50 flex w-72 flex-col gap-2" aria-live="polite">
+    <div className="pointer-events-none fixed right-4 bottom-4 z-50 flex w-72 flex-col gap-2 print:hidden" aria-live="polite">
       <AnimatePresence>
         {toasts.map((t) => (
           <motion.button

@@ -41,6 +41,7 @@ function Popover({ label, trigger, children, align = 'left', active }: { label: 
 
 function SettingsPanel({ onNavigate }: { onNavigate?: () => void }) {
   const firstName = useProfile((s) => s.firstName)
+  const hasPlan = useProfile((s) => Boolean(s.schedule))
   const { theme, setTheme, sound, toggleSound, boardView, setBoardView } = useSettings()
   const THEMES: { t: Theme; icon: ReactNode; label: string }[] = [
     { t: 'system', icon: <Monitor className="size-4" />, label: 'Auto' },
@@ -71,6 +72,12 @@ function SettingsPanel({ onNavigate }: { onNavigate?: () => void }) {
         <Link to="/welcome" onClick={onNavigate} className="flex w-full items-center justify-between rounded-lg border px-3 py-2 hover:bg-muted">
           <span>👤 Name &amp; grade</span>
           <span className="text-xs font-semibold">Edit</span>
+        </Link>
+      )}
+      {firstName && (
+        <Link to="/welcome" search={{ step: 'schedule' }} onClick={onNavigate} className="flex w-full items-center justify-between rounded-lg border px-3 py-2 hover:bg-muted">
+          <span>📅 Study plan</span>
+          <span className="text-xs font-semibold">{hasPlan ? 'Edit' : 'Set up'}</span>
         </Link>
       )}
     </div>
@@ -105,7 +112,7 @@ export function TopBar() {
   const reviewBadge = due > 0 && <span className="ml-1 rounded-full bg-destructive px-1.5 text-[10px] font-bold text-white">{due}</span>
 
   return (
-    <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur print:hidden">
       <div className="mx-auto flex h-14 max-w-6xl items-center gap-2 px-4">
         <Link to="/" className="flex shrink-0 items-center gap-2 font-heading text-lg font-bold" aria-label="AdamLearns home">
           <Logo className="size-9 shrink-0 drop-shadow-sm" />
