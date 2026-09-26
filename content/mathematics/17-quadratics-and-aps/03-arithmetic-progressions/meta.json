@@ -1,0 +1,53 @@
+{
+  "id": "arithmetic-progressions",
+  "number": "17.3",
+  "title": "Arithmetic Progressions",
+  "summary": "The nth term, the sum of n terms, and solving real problems with APs.",
+  "emoji": "🪜",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Patterns, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Arithmetic Progressions",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can find the nth term of an AP.",
+    "I can find the sum of the first n terms.",
+    "I can solve real-life problems with APs."
+  ],
+  "misconceptions": [
+    "aₙ = a + nd.",
+    "The common difference must be positive.",
+    "The sum formula works for any sequence."
+  ],
+  "prerequisites": [
+    "mathematics/patterns-and-chance/sequences"
+  ],
+  "labs": [
+    "pattern-predictor"
+  ],
+  "keyTerms": [
+    "arithmetic progression",
+    "common difference",
+    "nth term",
+    "sum of n terms"
+  ],
+  "estMinutes": 30
+}

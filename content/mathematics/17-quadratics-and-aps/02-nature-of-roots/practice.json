@@ -1,0 +1,118 @@
+{
+  "topicId": "nature-of-roots",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the discriminant of 2x² − 4x + 3 = 0?",
+      "options": [
+        "−8",
+        "−40",
+        "8",
+        "40"
+      ],
+      "answer": 0,
+      "explain": "16 − 24.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the nature of the roots of 2x² − 6x + 3 = 0?",
+      "options": [
+        "Two equal real roots",
+        "Exactly one root of zero",
+        "Two distinct real roots",
+        "No real roots"
+      ],
+      "answer": 2,
+      "explain": "D = 36 − 24 = 12.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the positive k for which 9x² + kx + 1 = 0 has equal roots.",
+      "answer": 6,
+      "tolerance": 0,
+      "explain": "k² − 36 = 0.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "x² + x + 1 = 0 has…",
+      "options": [
+        "two equal roots",
+        "no real roots",
+        "two distinct real roots",
+        "the root x = −1"
+      ],
+      "answer": 1,
+      "explain": "D = 1 − 4 = −3."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "For what value of k does kx(x − 2) + 6 = 0 have equal roots?",
+      "answer": 6,
+      "tolerance": 0,
+      "explain": "kx² − 2kx + 6: 4k² − 24k = 0, k = 6 (k ≠ 0).",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Is it possible to design a rectangular mango grove, twice as long as it is wide, with area 800 m²?",
+      "options": [
+        "No, D is negative",
+        "Only if it is square",
+        "Yes: 40 m by 80 m",
+        "Yes: 20 m by 40 m"
+      ],
+      "answer": 3,
+      "explain": "2x² = 800, x = 20."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "If the roots of ax² + bx + c = 0 are equal, each root is…",
+      "options": [
+        "−b/2a",
+        "c/a",
+        "b/2a",
+        "−b/a"
+      ],
+      "answer": 0,
+      "explain": "With D = 0, the ± term vanishes."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Is it possible for two friends to have ages that add to 20 and whose ages four years ago multiplied to 48? Use the discriminant.",
+      "modelAnswer": "Let the ages be x and 20 − x. Four years ago: (x − 4)(16 − x) = 48, so −x² + 20x − 64 = 48, i.e. x² − 20x + 112 = 0. D = 400 − 448 = −48 < 0, so there are no real roots. The situation is not possible.",
+      "rubric": [
+        "Forms the equation",
+        "Computes D correctly",
+        "Concludes not possible"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

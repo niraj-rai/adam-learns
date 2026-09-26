@@ -16,3 +16,9 @@ export function solve2(a1: number, b1: number, c1: number, a2: number, b2: numbe
 
 /** Format a number compactly, using the true minus sign. */
 export const fmt = (n: number, dp = 2) => (Number.isInteger(n) ? `${n}` : n.toFixed(dp)).replace('-', '−')
+
+/** The point dividing AB internally in the ratio m : n (section formula). */
+export const section = (a: Pt, b: Pt, m: number, n: number): Pt => ({ x: (m * b.x + n * a.x) / (m + n), y: (m * b.y + n * a.y) / (m + n) })
+
+/** Area of a triangle from its vertices (half the absolute cross product). Zero means collinear. */
+export const triangleArea = (a: Pt, b: Pt, c: Pt) => Math.abs(a.x * (b.y - c.y) + b.x * (c.y - a.y) + c.x * (a.y - b.y)) / 2

@@ -1,0 +1,56 @@
+{
+  "id": "quadratic-master",
+  "number": "17.4",
+  "title": "Boss Challenge: Quadratic Master",
+  "summary": "Ten problems on quadratic equations, the discriminant and APs. Three lives!",
+  "emoji": "📈",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Quadratic Equations",
+        "verified": true
+      },
+      {
+        "class": 10,
+        "chapter": "Arithmetic Progressions",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply the ideas from this unit."
+  ],
+  "misconceptions": [
+    "Rushing: always check your answer in the original problem.",
+    "Mixing up similar formulas."
+  ],
+  "prerequisites": [
+    "mathematics/quadratics-and-aps/quadratic-equations",
+    "mathematics/quadratics-and-aps/nature-of-roots",
+    "mathematics/quadratics-and-aps/arithmetic-progressions"
+  ],
+  "labs": [
+    "quadratic-master"
+  ],
+  "keyTerms": [
+    "discriminant",
+    "quadratic formula",
+    "nth term",
+    "sum"
+  ],
+  "estMinutes": 20
+}

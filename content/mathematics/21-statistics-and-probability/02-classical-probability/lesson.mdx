@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="Counting chances" />
+
+<Hook emoji="🃏">
+In a game of Ludo, you need a six to start. What’s the chance? And is it harder to get a total of 12 with two dice than a total of 7? **Theoretical probability** lets us work it out before we roll.
+</Hook>
+
+<PredictFirst
+  question="Two dice are thrown. Which total is most likely?"
+  options={["2", "7", "12", "All totals are equally likely"]}
+  answer={1}
+>
+Six of the 36 outcomes give 7; only one gives 2 or 12.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<ConceptCard title="Theoretical probability" emoji="🎯">
+If all outcomes are equally likely, **P(E) = number of favourable outcomes ÷ total number of outcomes**. 0 ≤ P(E) ≤ 1. An impossible event has probability 0; a sure event, 1. **P(E) + P(not E) = 1**.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Coins", emoji: "🪙", points: ["1 coin: H, T", "2 coins: HH, HT, TH, TT", "3 coins: 8 outcomes"] },
+    { title: "Dice", emoji: "🎲", points: ["1 die: 6 outcomes", "2 dice: 36 outcomes", "Sum 7 is most likely"] },
+    { title: "Cards", emoji: "🃏", points: ["52 cards, 4 suits", "26 red, 26 black", "12 face cards, 4 aces"] }
+  ]}
+/>
+
+<Stage kind="try" title="Deck of Cards" />
+
+<Lab id="card-deck" />
+
+The Sample Space lab shows all 36 outcomes for two dice.
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Is the game fair?">
+Design a simple game using two dice where each of two players wins with the same probability. Prove it is fair by listing outcomes. Then change one rule to make it unfair and calculate the new probabilities.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Probability">
+- Classical definition of probability.
+- Simple problems on finding the probability of an event.
+</CbseCorner>
+
+<Reflect id="math10-probability" prompt="Can you think of a game that looks fair but isn’t?" />

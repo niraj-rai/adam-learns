@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="Ratios of a right triangle" />
+
+<Hook emoji="📐">
+A wheelchair ramp must rise no more than 1 m for every 12 m along the ground. Engineers describe that steepness with one number that depends only on the ramp’s angle: its **tangent**.
+</Hook>
+
+<PredictFirst
+  question="Two right triangles each have a 30° angle, but one is three times bigger. Is opposite ÷ hypotenuse the same in both?"
+  options={["No, it is three times bigger", "Yes, the triangles are similar", "Only if the hypotenuse is 1", "It depends on the right angle"]}
+  answer={1}
+>
+Similar triangles have equal side ratios, so sin 30° is always ½.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<ConceptCard title="SOH CAH TOA" emoji="📐">
+For an acute angle θ in a right triangle: **sin θ = opposite/hypotenuse**, **cos θ = adjacent/hypotenuse**, **tan θ = opposite/adjacent = sin θ/cos θ**. The reciprocals are cosec θ, sec θ and cot θ.
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "Given sin A = 3/5, draw a right triangle with opposite 3 and hypotenuse 5.",
+    "Pythagoras: adjacent = √(25 − 9) = 4.",
+    "cos A = 4/5, tan A = 3/4, cosec A = 5/3, sec A = 5/4, cot A = 4/3."
+  ]}
+/>
+
+<Stage kind="try" title="Trigonometric Ratios" />
+
+<Lab id="trig-ratios" />
+
+
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="B" title="How big can they be?">
+Use the lab to investigate how sin θ, cos θ and tan θ change as θ goes from 0° to 90°. Which are always between 0 and 1? Which can grow without limit? Explain your findings using the sides of the triangle.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Introduction to Trigonometry">
+- Trigonometric ratios of an acute angle of a right triangle.
+- Relationships between the ratios.
+</CbseCorner>
+
+<Reflect id="math10-trig" prompt="How would you explain sin θ to someone who has never heard of it?" />

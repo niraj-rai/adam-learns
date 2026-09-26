@@ -1,0 +1,52 @@
+{
+  "id": "trig-identities",
+  "number": "19.2",
+  "title": "Standard Angles and Identities",
+  "summary": "Exact values at 0°, 30°, 45°, 60° and 90°, complementary angles, and sin²θ + cos²θ = 1.",
+  "emoji": "🟰",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Trigonometry, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Introduction to Trigonometry",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can recall and use the exact values for standard angles.",
+    "I can prove and use the three Pythagorean identities.",
+    "I can simplify trigonometric expressions."
+  ],
+  "misconceptions": [
+    "sin 2θ = 2 sin θ.",
+    "sin²θ means sin(θ²).",
+    "tan 90° = 1."
+  ],
+  "prerequisites": [
+    "mathematics/trigonometry/trig-ratios"
+  ],
+  "labs": [
+    "trig-ratios"
+  ],
+  "keyTerms": [
+    "standard angles",
+    "identity",
+    "complementary angles",
+    "sin²θ + cos²θ = 1"
+  ],
+  "estMinutes": 30
+}

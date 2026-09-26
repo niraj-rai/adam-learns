@@ -1,0 +1,118 @@
+{
+  "topicId": "trig-ratios",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In △ABC right-angled at B, AB = 24 cm and BC = 7 cm. What is sin A?",
+      "options": [
+        "7/25",
+        "25/7",
+        "7/24",
+        "24/25"
+      ],
+      "answer": 0,
+      "explain": "AC = 25; opposite A is BC.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "If tan A = 4/3, what is cos A?",
+      "options": [
+        "3/4",
+        "4/5",
+        "3/5",
+        "5/3"
+      ],
+      "answer": 2,
+      "explain": "Hypotenuse = 5.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "If sec θ = 13/12, what is sin θ?",
+      "options": [
+        "13/5",
+        "5/13",
+        "5/12",
+        "12/13"
+      ],
+      "answer": 1,
+      "explain": "cos θ = 12/13, opposite = 5.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is always true for acute θ?",
+      "options": [
+        "tan θ is less than 1",
+        "sin θ + cos θ = 1",
+        "sin θ = cos θ",
+        "tan θ = sin θ ÷ cos θ"
+      ],
+      "answer": 3,
+      "explain": "Divide opp/hyp by adj/hyp."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A ramp rises 1 m over 12 m of ground. What is tan θ, to 3 decimal places?",
+      "answer": 0.083,
+      "tolerance": 0.001,
+      "explain": "1/12 ≈ 0.083."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Is sin θ = 4/3 possible for some angle θ?",
+      "options": [
+        "No: the opposite side can’t be longer than the hypotenuse",
+        "Only in an obtuse triangle",
+        "Yes, for 90°",
+        "Yes, for large angles"
+      ],
+      "answer": 0,
+      "explain": "sin θ ≤ 1.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "In a right triangle, the hypotenuse is 10 and sin θ = 0.6. Find the adjacent side.",
+      "answer": 8,
+      "tolerance": 0,
+      "explain": "Opposite 6; √(100 − 36) = 8."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why the value of sin 35° is the same in every right triangle that has a 35° angle.",
+      "modelAnswer": "Any two right triangles with a 35° angle also share the 90° angle, so they are similar by AA. In similar triangles, corresponding sides are in the same ratio, so opposite ÷ hypotenuse is the same in both. Therefore sin 35° depends only on the angle, not on the size of the triangle.",
+      "rubric": [
+        "AA similarity",
+        "Equal ratios of sides",
+        "Conclusion"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

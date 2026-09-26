@@ -1,0 +1,55 @@
+{
+  "id": "similar-triangles",
+  "number": "18.1",
+  "title": "Similar Triangles",
+  "summary": "Similarity criteria (AA, SSS, SAS), the Basic Proportionality Theorem, and ratios of areas.",
+  "emoji": "🔺",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Geometry, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Triangles",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can use AA, SSS and SAS to prove triangles similar.",
+    "I can apply the Basic Proportionality Theorem.",
+    "I can use similar triangles to find unknown lengths."
+  ],
+  "misconceptions": [
+    "Similar means the same size.",
+    "Any two triangles with one equal angle are similar.",
+    "If sides double, area doubles."
+  ],
+  "prerequisites": [
+    "mathematics/geometry/congruence",
+    "mathematics/euclid-geometry/proofs-and-congruence"
+  ],
+  "labs": [
+    "similar-triangles"
+  ],
+  "keyTerms": [
+    "similar",
+    "scale factor",
+    "corresponding sides",
+    "Basic Proportionality Theorem",
+    "AA similarity"
+  ],
+  "estMinutes": 30
+}

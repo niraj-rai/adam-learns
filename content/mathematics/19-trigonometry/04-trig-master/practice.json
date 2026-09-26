@@ -1,0 +1,112 @@
+{
+  "topicId": "trig-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "If cos A = 5/13, what is tan A?",
+      "options": [
+        "5/12",
+        "12/5",
+        "12/13",
+        "13/12"
+      ],
+      "answer": 1,
+      "explain": "Opposite = 12."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Evaluate cos 48° − sin 42°.",
+      "options": [
+        "1",
+        "−1",
+        "cos 6°",
+        "0"
+      ],
+      "answer": 3,
+      "explain": "sin 42° = cos 48°."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Simplify sin²θ + 1/(1 + tan²θ).",
+      "options": [
+        "1",
+        "2",
+        "sec²θ",
+        "sin²θ"
+      ],
+      "answer": 0,
+      "explain": "1/sec²θ = cos²θ."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A 15 m ladder reaches a window and makes 60° with the ground. How high is the window, to 1 decimal place?",
+      "answer": 13.0,
+      "tolerance": 0.1,
+      "explain": "15 sin 60° ≈ 12.99.",
+      "unit": "m"
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A 10 m pole casts a 10√3 m shadow. What is the Sun’s angle of elevation (degrees)?",
+      "answer": 30,
+      "tolerance": 0,
+      "explain": "tan θ = 1/√3.",
+      "unit": "°"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which value is largest?",
+      "options": [
+        "cos 30°",
+        "sin 90°",
+        "tan 60°",
+        "sin 60°"
+      ],
+      "answer": 2,
+      "explain": "tan 60° = √3 ≈ 1.73."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "From the top of a 7 m building, the angle of elevation of a tower’s top is 60° and the angle of depression of its foot is 45°. Find the tower’s height, to 1 decimal place.",
+      "answer": 19.1,
+      "tolerance": 0.1,
+      "explain": "Distance = 7 m; above the building 7√3 ≈ 12.12; total ≈ 19.12.",
+      "unit": "m"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Prove that (sin A + cos A)² = 1 + 2 sin A cos A, and use it to find (sin 30° + cos 30°)².",
+      "modelAnswer": "(sin A + cos A)² = sin²A + 2 sin A cos A + cos²A = 1 + 2 sin A cos A, using sin²A + cos²A = 1. For A = 30°: 1 + 2 × ½ × √3/2 = 1 + √3/2 ≈ 1.87.",
+      "rubric": [
+        "Expands correctly",
+        "Uses the identity",
+        "Evaluates for 30°"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

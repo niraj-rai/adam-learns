@@ -1,0 +1,52 @@
+{
+  "id": "heights-and-distances",
+  "number": "19.3",
+  "title": "Heights and Distances",
+  "summary": "Angles of elevation and depression, and solving real problems with right triangles.",
+  "emoji": "🗼",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Trigonometry, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Some Applications of Trigonometry",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can identify angles of elevation and depression.",
+    "I can draw a diagram for a heights-and-distances problem.",
+    "I can solve one- and two-triangle problems."
+  ],
+  "misconceptions": [
+    "The angle of depression is measured from the vertical.",
+    "Angles of elevation and depression between two points are different.",
+    "You always need a calculator."
+  ],
+  "prerequisites": [
+    "mathematics/trigonometry/trig-identities"
+  ],
+  "labs": [
+    "heights-distances"
+  ],
+  "keyTerms": [
+    "angle of elevation",
+    "angle of depression",
+    "line of sight",
+    "horizontal"
+  ],
+  "estMinutes": 30
+}

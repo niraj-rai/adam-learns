@@ -1,0 +1,54 @@
+{
+  "id": "tangents",
+  "number": "20.1",
+  "title": "Tangents to a Circle",
+  "summary": "The tangent–radius theorem and equal tangents from an external point.",
+  "emoji": "⭕",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Geometry, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Circles",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain why a tangent is perpendicular to the radius.",
+    "I can prove that tangents from an external point are equal.",
+    "I can use these facts to find lengths and angles."
+  ],
+  "misconceptions": [
+    "A tangent can cut a circle twice.",
+    "There can be three tangents from one point.",
+    "Tangents from a point have different lengths."
+  ],
+  "prerequisites": [
+    "mathematics/euclid-geometry/circle-theorems",
+    "mathematics/geometry/pythagoras"
+  ],
+  "labs": [
+    "tangent-lab"
+  ],
+  "keyTerms": [
+    "tangent",
+    "secant",
+    "point of contact",
+    "external point",
+    "radius"
+  ],
+  "estMinutes": 30
+}

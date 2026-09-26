@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="Three averages" />
+
+<Hook emoji="📊">
+A company says its “average” salary is ₹80,000 a month. Most workers earn ₹25,000; a few directors earn crores. Which average is honest? For large grouped data sets we need all three: **mean, median and mode**.
+</Hook>
+
+<PredictFirst
+  question="In a grouped table, the class mark of 40–50 is…"
+  options={["40", "45", "50", "10"]}
+  answer={1}
+>
+The midpoint (40 + 50)/2.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<ConceptCard title="Formulas" emoji="📊">
+**Mean** = Σfᵢxᵢ ÷ Σfᵢ (xᵢ = class mark). **Median** = l + ((n/2 − cf)/f) × h, where l is the lower limit of the median class, cf the cumulative frequency before it, f its frequency, h its width. **Mode** = l + ((f₁ − f₀)/(2f₁ − f₀ − f₂)) × h, using the modal class.
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "Heights: 140–145 (5), 145–150 (15), 150–155 (25), 155–160 (30), 160–165 (15), 165–170 (10). n = 100.",
+    "Cumulative frequencies: 5, 20, 45, 75, 90, 100. n/2 = 50 falls in 155–160.",
+    "Median = 155 + ((50 − 45)/30) × 5 = 155 + 0.83 ≈ 155.8 cm.",
+    "Modal class 155–160: mode = 155 + ((30 − 25)/(60 − 25 − 15)) × 5 = 155 + 1.25 = 156.25 cm."
+  ]}
+/>
+
+<Stage kind="try" title="Mean, Median and Mode" />
+
+<Lab id="grouped-stats" />
+
+
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Which average?">
+Collect travel times to school for your class. Group them, then find the mean, median and mode. Which average would you report to the principal to argue for a later start time, and which is most honest? Explain.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Statistics">
+- Mean, median and mode of grouped data (bimodal situations excluded).
+</CbseCorner>
+
+<Reflect id="math10-grouped" prompt="When is the median more useful than the mean?" />

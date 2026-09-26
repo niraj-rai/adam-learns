@@ -1,0 +1,33 @@
+{
+  "id": "similarity-and-coordinates",
+  "number": 18,
+  "stage": "G10",
+  "title": "Similarity and Coordinate Geometry",
+  "summary": "Grade 10: similar triangles and the Basic Proportionality Theorem, and the section formula in coordinate geometry.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Equivalence",
+      "Space",
+      "Measurement"
+    ],
+    "globalContext": "Orientation in space and time",
+    "statementOfInquiry": "Similar shapes and coordinates let us measure what we cannot reach, from pyramids to maps."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What makes two triangles similar?",
+      "What is the section formula?"
+    ],
+    "conceptual": [
+      "Why do areas scale by the square of the scale factor?"
+    ],
+    "debatable": [
+      "Are maps always accurate models of the world?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 10: Triangles",
+    "Class 10: Coordinate Geometry"
+  ]
+}

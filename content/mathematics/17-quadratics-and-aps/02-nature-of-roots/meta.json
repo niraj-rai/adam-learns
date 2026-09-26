@@ -1,0 +1,53 @@
+{
+  "id": "nature-of-roots",
+  "number": "17.2",
+  "title": "The Discriminant and Nature of Roots",
+  "summary": "Using b² − 4ac to predict two, one or no real roots, and finding unknown coefficients.",
+  "emoji": "🔍",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Algebra, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Quadratic Equations",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can calculate the discriminant.",
+    "I can state the nature of the roots without solving.",
+    "I can find k for equal roots."
+  ],
+  "misconceptions": [
+    "D < 0 means the roots are negative.",
+    "Equal roots means the root is 0.",
+    "The discriminant is √(b² − 4ac)."
+  ],
+  "prerequisites": [
+    "mathematics/quadratics-and-aps/quadratic-equations"
+  ],
+  "labs": [
+    "quadratic-lab"
+  ],
+  "keyTerms": [
+    "discriminant",
+    "real roots",
+    "equal roots",
+    "no real roots",
+    "nature of roots"
+  ],
+  "estMinutes": 30
+}

@@ -1,0 +1,104 @@
+{
+  "topicId": "arithmetic-progressions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the 30th term of 10, 7, 4, …",
+      "answer": -77,
+      "tolerance": 0,
+      "explain": "10 + 29 × (−3).",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which term of the AP 3, 8, 13, 18, … is 78?",
+      "answer": 16,
+      "tolerance": 0,
+      "explain": "3 + (n − 1)5 = 78.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the sum of the first 22 terms of 8, 3, −2, …",
+      "answer": -979,
+      "tolerance": 0,
+      "explain": "11 × (16 + 21 × (−5)) = 11 × (−89).",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "How many two-digit numbers are divisible by 3?",
+      "answer": 30,
+      "tolerance": 0,
+      "explain": "12, 15, …, 99: (99 − 12)/3 + 1.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A contract pays ₹200 for day 1, ₹250 for day 2, ₹300 for day 3, and so on. How much is paid in total for 30 days?",
+      "answer": 27750,
+      "tolerance": 0,
+      "explain": "15 × (400 + 29 × 50).",
+      "unit": "₹"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which is an AP?",
+      "options": [
+        "√2, √8, √18, √32, …",
+        "1, 4, 9, 16, …",
+        "1, 1/2, 1/3, 1/4, …",
+        "2, 4, 8, 16, …"
+      ],
+      "answer": 0,
+      "explain": "√2, 2√2, 3√2, 4√2: d = √2."
+    },
+    {
+      "id": "q7",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "B",
+      "prompt": "Put the steps for finding the sum 1 + 2 + … + 100 (Gauss’s method) in order.",
+      "steps": [
+        "Write the sum forwards",
+        "Write it again backwards underneath",
+        "Add the pairs: each is 101",
+        "There are 100 pairs, giving 2S = 10100",
+        "Divide by 2: S = 5050"
+      ],
+      "explain": "This pairing method proves Sₙ = n/2 (a + l)."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Show that the sum of the first n odd numbers is n².",
+      "modelAnswer": "The odd numbers 1, 3, 5, … form an AP with a = 1 and d = 2. Sₙ = n/2 [2 × 1 + (n − 1) × 2] = n/2 × 2n = n².",
+      "rubric": [
+        "Identifies a and d",
+        "Uses the sum formula",
+        "Simplifies to n²"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

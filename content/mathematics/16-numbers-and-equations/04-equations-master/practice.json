@@ -1,0 +1,104 @@
+{
+  "topicId": "equations-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the HCF of 84 and 120.",
+      "answer": 12,
+      "tolerance": 0,
+      "explain": "2² × 3."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the LCM of 84 and 120.",
+      "answer": 840,
+      "tolerance": 0,
+      "explain": "2³ × 3 × 5 × 7."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The zeros of x² − 2x − 8 are…",
+      "options": [
+        "−4 and 2",
+        "2 and 4",
+        "4 and −2",
+        "8 and −1"
+      ],
+      "answer": 2,
+      "explain": "(x − 4)(x + 2)."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Solve 2x + y = 7 and x − y = 2. What is y?",
+      "answer": 1,
+      "tolerance": 0,
+      "explain": "x = 3, y = 1."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "For what k are the lines 3x + y = 1 and kx + 2y = 5 parallel?",
+      "options": [
+        "3",
+        "6",
+        "2",
+        "5"
+      ],
+      "answer": 1,
+      "explain": "3/k = 1/2."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A shopkeeper has ₹50 and ₹100 notes, 25 notes in all, worth ₹2000. How many ₹100 notes are there?",
+      "answer": 15,
+      "tolerance": 0,
+      "explain": "x + y = 25, 50x + 100y = 2000 → y = 15."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which number’s decimal expansion terminates?",
+      "options": [
+        "29/343",
+        "64/455",
+        "77/210",
+        "17/8"
+      ],
+      "answer": 3,
+      "explain": "8 = 2³."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain, with an example, how the coefficients tell you whether a pair of linear equations has one solution, no solution, or infinitely many.",
+      "modelAnswer": "Compare a₁/a₂, b₁/b₂ and c₁/c₂. If a₁/a₂ ≠ b₁/b₂ the lines cross once (e.g. x + y = 5, x − y = 1). If a₁/a₂ = b₁/b₂ ≠ c₁/c₂ they are parallel with no solution (x + y = 5, 2x + 2y = 7). If all three ratios are equal the lines coincide and there are infinitely many solutions (x + y = 5, 2x + 2y = 10).",
+      "rubric": [
+        "States the three conditions",
+        "Gives correct examples",
+        "Links to the graph"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

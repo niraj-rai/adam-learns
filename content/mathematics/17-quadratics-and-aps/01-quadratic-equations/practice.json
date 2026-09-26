@@ -1,0 +1,114 @@
+{
+  "topicId": "quadratic-equations",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which is a quadratic equation?",
+      "options": [
+        "(x + 2)² = x² + 4x",
+        "x³ − 4x² = 1",
+        "x(x + 1) + 8 = (x + 2)(x − 2)",
+        "x(2x + 3) = x² + 1"
+      ],
+      "answer": 3,
+      "explain": "It simplifies to x² + 3x − 1 = 0. The first simplifies to x + 12 = 0 (linear), the second to 4 = 0, and the last is a cubic.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Solve x² − 3x − 10 = 0.",
+      "options": [
+        "x = 5 or x = −2",
+        "x = 10 or x = −1",
+        "x = 3 or x = 10",
+        "x = −5 or x = 2"
+      ],
+      "answer": 0,
+      "explain": "(x − 5)(x + 2).",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Solve 2x² − 7x + 3 = 0.",
+      "options": [
+        "x = 7 or x = 3",
+        "x = −3 or x = −1/2",
+        "x = 3 or x = 1/2",
+        "x = 1 or x = 3/2"
+      ],
+      "answer": 2,
+      "explain": "(2x − 1)(x − 3).",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Using the formula, find the positive root of x² + 4x − 5 = 0.",
+      "answer": 1,
+      "tolerance": 0,
+      "explain": "(−4 ± 6)/2 = 1 or −5."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "The product of two consecutive positive integers is 306. Find the smaller one.",
+      "answer": 17,
+      "tolerance": 0,
+      "explain": "x(x + 1) = 306: 17 × 18.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A right triangle has a hypotenuse of 13 cm, and one leg is 7 cm longer than the other. Find the shorter leg (cm).",
+      "answer": 5,
+      "tolerance": 0,
+      "explain": "x² + (x + 7)² = 169 → x² + 7x − 60 = 0 → x = 5.",
+      "unit": "cm"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why is it wrong to divide x² = 5x by x to get x = 5?",
+      "options": [
+        "It gives the wrong root",
+        "It loses the root x = 0",
+        "x² = 5x has no roots",
+        "You can never divide equations"
+      ],
+      "answer": 1,
+      "explain": "x² − 5x = x(x − 5) = 0 gives 0 and 5."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less. Form a quadratic equation and find the speed.",
+      "modelAnswer": "Let the speed be x km/h. 360/x − 360/(x + 5) = 1. Multiply out: 360(x + 5) − 360x = x(x + 5), so 1800 = x² + 5x, i.e. x² + 5x − 1800 = 0. (x + 45)(x − 40) = 0, so x = 40 (reject −45). The speed is 40 km/h. Check: 9 h vs 8 h ✓.",
+      "rubric": [
+        "Correct equation from time difference",
+        "Solves the quadratic",
+        "Rejects negative root and checks"
+      ],
+      "explain": "Criterion D."
+    }
+  ]
+}

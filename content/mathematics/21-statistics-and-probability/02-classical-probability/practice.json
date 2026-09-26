@@ -1,0 +1,118 @@
+{
+  "topicId": "classical-probability",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A die is thrown once. What is P(a prime number)?",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/6",
+        "2/3"
+      ],
+      "answer": 0,
+      "explain": "2, 3, 5: three of six.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "One card is drawn from a pack of 52. What is P(a king of red colour)?",
+      "options": [
+        "1/13",
+        "1/4",
+        "1/26",
+        "1/52"
+      ],
+      "answer": 2,
+      "explain": "2 of 52.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Two dice are thrown. What is P(same number on both)?",
+      "options": [
+        "1/3",
+        "1/6",
+        "1/12",
+        "1/36"
+      ],
+      "answer": 1,
+      "explain": "6 doubles of 36.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A bag has 3 red and 5 black balls. What is P(red)? (decimal)",
+      "answer": 0.375,
+      "tolerance": 0.001,
+      "explain": "3/8."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which cannot be a probability?",
+      "options": [
+        "2/3",
+        "0",
+        "0.7",
+        "1.5"
+      ],
+      "answer": 3,
+      "explain": "Probabilities are between 0 and 1.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A coin lands heads five times in a row. What is P(heads) on the next toss?",
+      "options": [
+        "1/2",
+        "Less than 1/2",
+        "1/32",
+        "More than 1/2"
+      ],
+      "answer": 0,
+      "explain": "Tosses are independent."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Three coins are tossed. What is P(exactly two heads)? (decimal)",
+      "answer": 0.375,
+      "tolerance": 0.001,
+      "explain": "HHT, HTH, THH: 3 of 8."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A game: throw two dice; you win if the total is 7 or 11. Find your probability of winning, showing your working.",
+      "modelAnswer": "There are 36 equally likely outcomes. Total 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1), which is 6 outcomes. Total 11: (5,6), (6,5), which is 2 outcomes. Favourable = 8, so P(win) = 8/36 = 2/9 ≈ 0.22.",
+      "rubric": [
+        "36 outcomes",
+        "Counts 6 and 2",
+        "P = 2/9"
+      ],
+      "explain": "Criterion D."
+    }
+  ]
+}

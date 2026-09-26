@@ -1,0 +1,34 @@
+{
+  "id": "quadratics-and-aps",
+  "number": 17,
+  "stage": "G10",
+  "title": "Quadratic Equations and Arithmetic Progressions",
+  "summary": "Grade 10: solving quadratics by factorising and the formula, the discriminant, and nth terms and sums of APs.",
+  "ib": {
+    "keyConcept": "Form",
+    "relatedConcepts": [
+      "Patterns",
+      "Change",
+      "Models"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Quadratic and linear patterns model changes in area, motion and money, and their forms reveal their solutions."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is the quadratic formula?",
+      "How do you find the nth term of an AP?"
+    ],
+    "conceptual": [
+      "Why does the discriminant tell us the number of roots?",
+      "Why is the sum of an AP the average of the first and last terms times n?"
+    ],
+    "debatable": [
+      "Is a quadratic model always realistic for a real situation?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 10: Quadratic Equations",
+    "Class 10: Arithmetic Progressions"
+  ]
+}

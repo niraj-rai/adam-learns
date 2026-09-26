@@ -1,0 +1,47 @@
+<Stage kind="wonder" title="Touching once" />
+
+<Hook emoji="⭕">
+When a bicycle chain leaves a gear, or a stone flies off a spinning sling, it moves along a **tangent**: a straight line that touches the circle at just one point.
+</Hook>
+
+<PredictFirst
+  question="How many tangents can be drawn to a circle from a point outside it?"
+  options={["One", "Two", "Three", "Infinitely many"]}
+  answer={1}
+>
+Exactly two, one on each side.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<ConceptCard title="Two theorems" emoji="⭕">
+**1.** The tangent at any point of a circle is **perpendicular to the radius** through the point of contact. **2.** The lengths of the two tangents from an **external point** are **equal**.
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "Proof of theorem 2: tangents PA and PB from P to a circle with centre O.",
+    "OA = OB (radii), OP is common, and angle OAP = angle OBP = 90° (theorem 1).",
+    "So △OAP ≅ △OBP (RHS).",
+    "Therefore PA = PB."
+  ]}
+/>
+
+<Stage kind="try" title="Tangents to a Circle" />
+
+<Lab id="tangent-lab" />
+
+
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Belt and pulleys">
+A belt goes round two equal pulleys of radius 10 cm whose centres are 50 cm apart. Use tangents to find the length of the straight parts of the belt, then the total belt length. Explain each step.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Circles">
+- Tangent to a circle at a point.
+- Tangent perpendicular to radius; lengths of tangents from an external point are equal.
+</CbseCorner>
+
+<Reflect id="math10-tangents" prompt="Where do you see tangents in machines or sport?" />

@@ -1,0 +1,108 @@
+{
+  "topicId": "heights-and-distances",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A kite string is 60 m long and makes 60° with the ground. How high is the kite? (Give m to 1 decimal place.)",
+      "answer": 52.0,
+      "tolerance": 0.1,
+      "explain": "60 sin 60° = 30√3 ≈ 51.96.",
+      "unit": "m",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The angle of elevation of a tower’s top from 30 m away is 30°. Find its height to 1 decimal place.",
+      "answer": 17.3,
+      "tolerance": 0.1,
+      "explain": "30/√3 = 10√3 ≈ 17.32.",
+      "unit": "m",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "From a 75 m lighthouse, the angle of depression of a ship is 45°. How far is the ship from the lighthouse’s foot (m)?",
+      "answer": 75,
+      "tolerance": 0,
+      "explain": "tan 45° = 1.",
+      "unit": "m"
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A tree breaks, and its top touches the ground 8 m from the base, making 30° with the ground. What was the tree’s original height, to 1 decimal place?",
+      "answer": 13.9,
+      "tolerance": 0.1,
+      "explain": "Standing part 8 tan 30° = 8/√3; broken part 8/cos 30° = 16/√3. Total 24/√3 = 8√3 ≈ 13.86.",
+      "unit": "m",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "The angle of elevation of the Sun rises from 30° to 60°. What happens to a pole’s shadow?",
+      "options": [
+        "It disappears",
+        "It gets shorter",
+        "It stays the same",
+        "It gets longer"
+      ],
+      "answer": 1,
+      "explain": "Shadow = height ÷ tan θ."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A 1.5 m tall observer is 28.5 m from a chimney. The angle of elevation of its top is 45°. Find the chimney’s height (m).",
+      "answer": 30,
+      "tolerance": 0,
+      "explain": "28.5 × 1 + 1.5.",
+      "unit": "m",
+      "cbseStyle": true
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why are the angle of elevation from A to B and the angle of depression from B to A equal?",
+      "options": [
+        "They are vertically opposite",
+        "They are always 45°",
+        "They add to 90°",
+        "They are alternate angles between parallel horizontal lines"
+      ],
+      "answer": 3,
+      "explain": "The horizontals at A and B are parallel."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "From a point on the ground, the angle of elevation of the top of a tower is 30°. Walking 20 m towards it, the angle becomes 60°. Find the height of the tower.",
+      "modelAnswer": "Let the height be h and the final distance x. tan 60° = h/x gives h = x√3. tan 30° = h/(x + 20) gives x + 20 = h√3 = 3x, so x = 10 m. Then h = 10√3 ≈ 17.3 m.",
+      "rubric": [
+        "Two correct equations",
+        "Solves x = 10",
+        "h = 10√3"
+      ],
+      "explain": "Criterion D."
+    }
+  ]
+}

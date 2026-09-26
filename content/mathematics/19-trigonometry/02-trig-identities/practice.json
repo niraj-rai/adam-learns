@@ -1,0 +1,128 @@
+{
+  "topicId": "trig-identities",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Evaluate sin 60° cos 30° + sin 30° cos 60°.",
+      "options": [
+        "1",
+        "1/2",
+        "0",
+        "√3/2"
+      ],
+      "answer": 0,
+      "explain": "3/4 + 1/4.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Evaluate 2 tan²45° + cos²30° − sin²60°.",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "0"
+      ],
+      "answer": 2,
+      "explain": "2 + 3/4 − 3/4.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Simplify 9 sec²A − 9 tan²A.",
+      "options": [
+        "1",
+        "9",
+        "0",
+        "18"
+      ],
+      "answer": 1,
+      "explain": "9(sec²A − tan²A) = 9.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is tan 90°?",
+      "options": [
+        "0",
+        "√3",
+        "1",
+        "Not defined"
+      ],
+      "answer": 3,
+      "explain": "cos 90° = 0 and we can’t divide by zero."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Evaluate tan 65° ÷ cot 25°.",
+      "options": [
+        "1",
+        "65/25",
+        "tan 40°",
+        "0"
+      ],
+      "answer": 0,
+      "explain": "cot 25° = tan 65°.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "If sin A = cos A for an acute angle A, what is A?",
+      "options": [
+        "90°",
+        "60°",
+        "45°",
+        "30°"
+      ],
+      "answer": 2,
+      "explain": "Only at 45°."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Simplify (sec A + tan A)(1 − sin A).",
+      "options": [
+        "sec A",
+        "cos A",
+        "1",
+        "sin A"
+      ],
+      "answer": 1,
+      "explain": "((1 + sin A)/cos A)(1 − sin A) = cos²A/cos A."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Prove that (1 − sin²θ) sec²θ = 1.",
+      "modelAnswer": "1 − sin²θ = cos²θ, from sin²θ + cos²θ = 1. And sec²θ = 1/cos²θ. So (1 − sin²θ) sec²θ = cos²θ × 1/cos²θ = 1.",
+      "rubric": [
+        "Uses sin² + cos² = 1",
+        "Uses sec = 1/cos",
+        "Clear conclusion"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

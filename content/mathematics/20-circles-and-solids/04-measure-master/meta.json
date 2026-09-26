@@ -1,0 +1,61 @@
+{
+  "id": "measure-master",
+  "number": "20.4",
+  "title": "Boss Challenge: Circles and Solids Master",
+  "summary": "Ten problems on tangents, segments and combined solids. Three lives!",
+  "emoji": "🍦",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Circles",
+        "verified": true
+      },
+      {
+        "class": 10,
+        "chapter": "Areas Related to Circles",
+        "verified": true
+      },
+      {
+        "class": 10,
+        "chapter": "Surface Areas and Volumes",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply the ideas from this unit."
+  ],
+  "misconceptions": [
+    "Rushing: always check your answer in the original problem.",
+    "Mixing up similar formulas."
+  ],
+  "prerequisites": [
+    "mathematics/circles-and-solids/tangents",
+    "mathematics/circles-and-solids/areas-of-segments",
+    "mathematics/circles-and-solids/combined-solids"
+  ],
+  "labs": [
+    "measure-master"
+  ],
+  "keyTerms": [
+    "tangent",
+    "segment",
+    "combined solid",
+    "recasting"
+  ],
+  "estMinutes": 20
+}

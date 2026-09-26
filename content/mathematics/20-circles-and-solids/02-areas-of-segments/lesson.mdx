@@ -1,0 +1,47 @@
+<Stage kind="wonder" title="Slices and slivers" />
+
+<Hook emoji="🌙">
+A car’s windscreen wiper sweeps a region shaped like part of a sector. How much glass does it clean? Circle areas, sectors and **segments** give the answer.
+</Hook>
+
+<PredictFirst
+  question="A segment of a circle is the region between…"
+  options={["two radii and an arc", "a chord and an arc", "two chords", "a tangent and a radius"]}
+  answer={1}
+>
+A sector is bounded by two radii; a segment by a chord.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<ConceptCard title="Formulas" emoji="🍕">
+Sector area = (θ/360) × πr². Arc length = (θ/360) × 2πr. **Minor segment = sector − triangle**. **Major segment = circle − minor segment**.
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "Radius 21 cm, chord subtends 60° at the centre (π = 22/7).",
+    "Sector = (60/360) × (22/7) × 441 = 231 cm².",
+    "The triangle is equilateral (two radii and a 60° angle): area = (√3/4) × 441 ≈ 190.95 cm².",
+    "Minor segment ≈ 231 − 190.95 = 40.05 cm²."
+  ]}
+/>
+
+<Stage kind="try" title="Arcs and Sectors" />
+
+<Lab id="sector-slicer" />
+
+
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Designing a logo">
+Design a school logo made of sectors, segments and a square or triangle. Give its dimensions and calculate the area of each colour. Which region would use the most paint?
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Areas Related to Circles">
+- Area of sector and segment of a circle.
+- Problems on areas of plane figures combining circles (central angles 60°, 90°, 120°).
+</CbseCorner>
+
+<Reflect id="math10-segments" prompt="How is a segment different from a sector?" />

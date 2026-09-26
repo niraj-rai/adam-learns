@@ -1,0 +1,53 @@
+<Stage kind="wonder" title="Two clues, two unknowns" />
+
+<Hook emoji="✏️">
+At a fair, 2 rides and 3 games cost ₹130, while 3 rides and 2 games cost ₹145. One clue alone can’t tell you the prices. Two clues together can.
+</Hook>
+
+<PredictFirst
+  question="Two different straight lines are drawn on a graph. What can’t happen?"
+  options={["They meet once", "They meet exactly twice", "They never meet", "They are the same line"]}
+  answer={1}
+>
+Straight lines meet at most once, unless they are the same line.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<Compare
+  columns={[
+    { title: "Intersecting", emoji: "✖️", points: ["a₁/a₂ ≠ b₁/b₂", "Exactly one solution", "Consistent"] },
+    { title: "Parallel", emoji: "∥", points: ["a₁/a₂ = b₁/b₂ ≠ c₁/c₂", "No solution", "Inconsistent"] },
+    { title: "Coincident", emoji: "🟰", points: ["a₁/a₂ = b₁/b₂ = c₁/c₂", "Infinitely many solutions", "Dependent"] }
+  ]}
+/>
+
+<StepReveal
+  steps={[
+    "Rides r, games g: 2r + 3g = 130 and 3r + 2g = 145.",
+    "Elimination: multiply the first by 3 and the second by 2: 6r + 9g = 390, 6r + 4g = 290.",
+    "Subtract: 5g = 100, so g = 20.",
+    "Substitute: 2r + 60 = 130, so r = 35. A ride costs ₹35 and a game ₹20.",
+    "Check in the second equation: 105 + 40 = 145 ✓"
+  ]}
+/>
+
+<Stage kind="try" title="Where Lines Cross" />
+
+<Lab id="line-crossing" />
+
+
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Choosing a phone plan">
+Plan A costs ₹199 a month plus ₹1 per GB; Plan B costs ₹99 a month plus ₹3 per GB. Write an equation for each, solve them to find the break-even point, and advise which plan suits a light and a heavy user.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Pair of Linear Equations in Two Variables">
+- Graphical method; consistency conditions.
+- Algebraic methods: substitution and elimination.
+- Simple situational problems.
+</CbseCorner>
+
+<Reflect id="math10-pairs" prompt="Which method do you prefer, substitution or elimination? When?" />

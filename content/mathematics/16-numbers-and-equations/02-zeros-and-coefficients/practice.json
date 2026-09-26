@@ -1,0 +1,117 @@
+{
+  "topicId": "zeros-and-coefficients",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the sum of the zeros of x² − 3x − 10?",
+      "options": [
+        "−3",
+        "10",
+        "3",
+        "−10"
+      ],
+      "answer": 2,
+      "explain": "−b/a = 3.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the product of the zeros of 4x² − 8x + 3?",
+      "options": [
+        "2",
+        "3/4",
+        "−2",
+        "−3/4"
+      ],
+      "answer": 1,
+      "explain": "c/a = 3/4.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which quadratic has zeros −2 and 5?",
+      "options": [
+        "x² + 7x + 10",
+        "x² − 3x + 10",
+        "x² + 3x − 10",
+        "x² − 3x − 10"
+      ],
+      "answer": 3,
+      "explain": "Sum 3, product −10.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The graph of a polynomial crosses the x-axis at 3 points. What is the smallest possible degree?",
+      "answer": 3,
+      "tolerance": 0,
+      "explain": "A degree-n polynomial has at most n zeros."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A parabola lies entirely above the x-axis. How many real zeros does it have?",
+      "options": [
+        "None",
+        "Two",
+        "Infinitely many",
+        "One"
+      ],
+      "answer": 0,
+      "explain": "It never meets the axis."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "If one zero of x² − 7x + k is 2, find k.",
+      "answer": 10,
+      "tolerance": 0,
+      "explain": "4 − 14 + k = 0."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "If α and β are zeros of x² − 5x + 4, what is 1/α + 1/β?",
+      "options": [
+        "1",
+        "5",
+        "5/4",
+        "4/5"
+      ],
+      "answer": 2,
+      "explain": "(α + β)/αβ = 5/4."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Find the zeros of x² + 7x + 10 and verify the relationship between the zeros and the coefficients.",
+      "modelAnswer": "x² + 7x + 10 = (x + 2)(x + 5), so the zeros are −2 and −5. Sum = −7 = −b/a = −7/1 ✓. Product = 10 = c/a = 10/1 ✓.",
+      "rubric": [
+        "Correct factorisation and zeros",
+        "Sum checked against −b/a",
+        "Product checked against c/a"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<Stage kind="wonder" title="Hidden in the coefficients" />
+
+<Hook emoji="📉">
+The zeros of x² − 5x + 6 are 2 and 3. Their sum is 5 and their product is 6: the same numbers that appear in the polynomial! Is that a coincidence?
+</Hook>
+
+<PredictFirst
+  question="The zeros of a quadratic are where its graph…"
+  options={["crosses the y-axis", "crosses the x-axis", "reaches its highest point", "is steepest"]}
+  answer={1}
+>
+At a zero, p(x) = 0, so the point lies on the x-axis.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<ConceptCard title="Number of zeros" emoji="📉">
+A polynomial of degree n has **at most** n zeros. A quadratic graph (a parabola) can cross the x-axis twice, touch it once, or miss it.
+</ConceptCard>
+
+<ConceptCard title="Zeros and coefficients" emoji="🔗">
+If α and β are the zeros of ax² + bx + c, then **α + β = −b/a** and **αβ = c/a**. So a quadratic with zeros α and β is k[x² − (α + β)x + αβ].
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "Find the zeros of 6x² − 7x − 3.",
+    "Split the middle term: 6x² − 9x + 2x − 3 = 3x(2x − 3) + 1(2x − 3) = (3x + 1)(2x − 3).",
+    "Zeros: x = −1/3 and x = 3/2.",
+    "Check: sum = 3/2 − 1/3 = 7/6 = −(−7)/6 ✓; product = −1/2 = −3/6 ✓."
+  ]}
+/>
+
+<Stage kind="try" title="Polynomial Plotter" />
+
+<Lab id="polynomial-plotter" />
+
+
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="B" title="Cubic patterns">
+For a cubic ax³ + bx² + cx + d with zeros α, β, γ, investigate α + β + γ, αβ + βγ + γα and αβγ for several examples (such as (x − 1)(x − 2)(x − 3)). Find and describe the pattern.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Polynomials">
+- Zeros of a polynomial; geometrical meaning.
+- Relationship between zeros and coefficients of quadratic polynomials.
+</CbseCorner>
+
+<Reflect id="math10-zeros" prompt="How could you check your factorisation using the coefficients?" />

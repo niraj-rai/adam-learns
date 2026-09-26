@@ -1,0 +1,55 @@
+{
+  "id": "classical-probability",
+  "number": "21.2",
+  "title": "Theoretical Probability",
+  "summary": "Equally likely outcomes, complementary events, and probability with coins, dice and cards.",
+  "emoji": "🃏",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Probability, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Probability",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can find the probability of an event with equally likely outcomes.",
+    "I can use P(not E) = 1 − P(E).",
+    "I can solve problems with dice, coins and cards."
+  ],
+  "misconceptions": [
+    "After five heads, a tail is more likely.",
+    "Sums of two dice are equally likely.",
+    "A probability can be more than 1."
+  ],
+  "prerequisites": [
+    "mathematics/data/probability",
+    "mathematics/patterns-and-chance/probability-trees"
+  ],
+  "labs": [
+    "card-deck"
+  ],
+  "keyTerms": [
+    "theoretical probability",
+    "equally likely",
+    "sample space",
+    "complementary event",
+    "impossible event",
+    "sure event"
+  ],
+  "estMinutes": 30
+}

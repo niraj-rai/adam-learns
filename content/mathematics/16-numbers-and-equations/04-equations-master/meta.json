@@ -1,0 +1,61 @@
+{
+  "id": "equations-master",
+  "number": "16.4",
+  "title": "Boss Challenge: Equations Master",
+  "summary": "Ten problems on primes, HCF and LCM, zeros and pairs of equations. Three lives!",
+  "emoji": "🧮",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Real Numbers",
+        "verified": true
+      },
+      {
+        "class": 10,
+        "chapter": "Polynomials",
+        "verified": true
+      },
+      {
+        "class": 10,
+        "chapter": "Pair of Linear Equations in Two Variables",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply the ideas from this unit."
+  ],
+  "misconceptions": [
+    "Rushing: always check your answer in the original problem.",
+    "Mixing up similar formulas."
+  ],
+  "prerequisites": [
+    "mathematics/numbers-and-equations/fundamental-theorem",
+    "mathematics/numbers-and-equations/zeros-and-coefficients",
+    "mathematics/numbers-and-equations/pairs-of-equations"
+  ],
+  "labs": [
+    "equations-master"
+  ],
+  "keyTerms": [
+    "HCF",
+    "LCM",
+    "zero",
+    "elimination"
+  ],
+  "estMinutes": 20
+}

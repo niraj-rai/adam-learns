@@ -1,0 +1,55 @@
+{
+  "id": "stats-master",
+  "number": "21.3",
+  "title": "Boss Challenge: Statistics and Probability Master",
+  "summary": "Ten problems on grouped averages and probability. Three lives!",
+  "emoji": "🎲",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Statistics",
+        "verified": true
+      },
+      {
+        "class": 10,
+        "chapter": "Probability",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply the ideas from this unit."
+  ],
+  "misconceptions": [
+    "Rushing: always check your answer in the original problem.",
+    "Mixing up similar formulas."
+  ],
+  "prerequisites": [
+    "mathematics/statistics-and-probability/grouped-averages",
+    "mathematics/statistics-and-probability/classical-probability"
+  ],
+  "labs": [
+    "stats-master"
+  ],
+  "keyTerms": [
+    "mean",
+    "median",
+    "mode",
+    "probability"
+  ],
+  "estMinutes": 20
+}

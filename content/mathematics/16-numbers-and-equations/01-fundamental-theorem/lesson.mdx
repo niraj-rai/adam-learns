@@ -1,0 +1,51 @@
+<Stage kind="wonder" title="Atoms of arithmetic" />
+
+<Hook emoji="🌳">
+Just as every molecule is built from atoms, every whole number greater than 1 is built from primes, and in only one way. This simple fact, the **Fundamental Theorem of Arithmetic**, is the reason your online banking is secure.
+</Hook>
+
+<PredictFirst
+  question="How many different ways can 60 be written as a product of primes (ignoring order)?"
+  options={["Many ways", "Exactly one way", "Two ways", "It cannot be done"]}
+  answer={1}
+>
+60 = 2 × 2 × 3 × 5, and there is no other set of primes that works.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<ConceptCard title="The theorem" emoji="🌳">
+Every composite number can be written as a product of primes, and this factorisation is **unique**, apart from the order of the factors.
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "Factorise: 96 = 2⁵ × 3 and 404 = 2² × 101.",
+    "HCF = product of the smallest powers of common primes = 2² = 4.",
+    "LCM = product of the greatest powers of all primes = 2⁵ × 3 × 101 = 9696.",
+    "Check: HCF × LCM = 4 × 9696 = 38784 = 96 × 404."
+  ]}
+/>
+
+<ConceptCard title="Proving √3 is irrational" emoji="🧠">
+Suppose √3 = a/b in lowest terms. Then 3b² = a², so 3 divides a², and (because of unique factorisation) 3 divides a. Write a = 3c: then b² = 3c², so 3 divides b too. But a/b was in lowest terms, a contradiction. So √3 is irrational.
+</ConceptCard>
+
+<Stage kind="try" title="Factor Tree" />
+
+<Lab id="factor-tree" />
+
+
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="B" title="Why HCF × LCM = product">
+Test HCF × LCM = product for several pairs of numbers. Explain why it works using prime factorisations. Then test three numbers such as 6, 10 and 15: does it still work? Explain what goes wrong.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Real Numbers">
+- Fundamental Theorem of Arithmetic; HCF and LCM by prime factorisation.
+- Proofs of irrationality of √2, √3, √5.
+</CbseCorner>
+
+<Reflect id="math10-fta" prompt="Where have you seen primes used outside maths class?" />

@@ -1,0 +1,54 @@
+{
+  "id": "zeros-and-coefficients",
+  "number": "16.2",
+  "title": "Zeros and Coefficients of Polynomials",
+  "summary": "Reading zeros from graphs, and the sum and product of the zeros of a quadratic.",
+  "emoji": "📉",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Algebra, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Polynomials",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can find the zeros of a polynomial from its graph.",
+    "I can use sum = −b/a and product = c/a.",
+    "I can build a quadratic from given zeros."
+  ],
+  "misconceptions": [
+    "A quadratic always has two zeros.",
+    "The sum of zeros is b/a.",
+    "Zeros are where the graph crosses the y-axis."
+  ],
+  "prerequisites": [
+    "mathematics/polynomials/polynomials-and-zeros",
+    "mathematics/algebra/factorisation"
+  ],
+  "labs": [
+    "polynomial-plotter"
+  ],
+  "keyTerms": [
+    "zero of a polynomial",
+    "quadratic polynomial",
+    "coefficient",
+    "sum of zeros",
+    "product of zeros"
+  ],
+  "estMinutes": 30
+}

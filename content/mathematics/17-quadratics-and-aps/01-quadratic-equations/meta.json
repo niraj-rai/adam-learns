@@ -1,0 +1,54 @@
+{
+  "id": "quadratic-equations",
+  "number": "17.1",
+  "title": "Solving Quadratic Equations",
+  "summary": "Standard form, factorising by splitting the middle term, and the quadratic formula.",
+  "emoji": "📈",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Algebra, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Quadratic Equations",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can write a problem as a quadratic equation.",
+    "I can solve by factorising.",
+    "I can use the quadratic formula."
+  ],
+  "misconceptions": [
+    "x² = 9 has only one solution.",
+    "You can divide both sides by x.",
+    "Every quadratic factorises neatly."
+  ],
+  "prerequisites": [
+    "mathematics/numbers-and-equations/zeros-and-coefficients",
+    "mathematics/algebra/factorisation"
+  ],
+  "labs": [
+    "quadratic-lab"
+  ],
+  "keyTerms": [
+    "quadratic equation",
+    "standard form",
+    "root",
+    "splitting the middle term",
+    "quadratic formula"
+  ],
+  "estMinutes": 30
+}

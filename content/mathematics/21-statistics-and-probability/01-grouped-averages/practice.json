@@ -1,0 +1,114 @@
+{
+  "topicId": "grouped-averages",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the mean: 0–10 (3), 10–20 (5), 20–30 (9), 30–40 (3).",
+      "answer": 21,
+      "tolerance": 0,
+      "explain": "Σfx = 3×5 + 5×15 + 9×25 + 3×35 = 420; 420 ÷ 20 = 21.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In a grouped frequency table, the median class is the class…",
+      "options": [
+        "where the cumulative frequency first reaches n/2",
+        "with the highest frequency",
+        "in the middle row of the table",
+        "with the largest class mark"
+      ],
+      "answer": 0,
+      "explain": "It contains the (n/2)th value.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Modal class 40–50 with f₁ = 12, f₀ = 8, f₂ = 6. Find the mode.",
+      "answer": 44,
+      "tolerance": 0,
+      "explain": "40 + (4/10) × 10.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "n = 60, median class 20–30, cf before = 22, f = 16. Find the median.",
+      "answer": 25,
+      "tolerance": 0,
+      "explain": "20 + ((30 − 22)/16) × 10.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "An ogive is a graph of…",
+      "options": [
+        "frequency against class marks",
+        "mean against median",
+        "cumulative frequency against upper class limits",
+        "class width against frequency"
+      ],
+      "answer": 2,
+      "explain": "A “less than” ogive."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Mean = 50 and median = 48. Using the empirical relationship, what is the mode?",
+      "options": [
+        "49",
+        "44",
+        "46",
+        "52"
+      ],
+      "answer": 1,
+      "explain": "3 × 48 − 2 × 50.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "For household incomes in a city, which average is usually most representative?",
+      "options": [
+        "The largest value",
+        "The mean",
+        "The range",
+        "The median"
+      ],
+      "answer": 3,
+      "explain": "A few very high incomes pull the mean up."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why the mean calculated from grouped data is only an estimate.",
+      "modelAnswer": "In grouped data we don’t know the exact values in each class, only how many there are. We assume every value in a class equals its class mark (midpoint). The real values may be spread unevenly within the class, so the mean found this way is an estimate, not the exact mean.",
+      "rubric": [
+        "Exact values unknown",
+        "Assume values at class mark",
+        "So only an estimate"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

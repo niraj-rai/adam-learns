@@ -1,0 +1,34 @@
+{
+  "id": "circles-and-solids",
+  "number": 20,
+  "stage": "G10",
+  "title": "Circles, Areas and Combined Solids",
+  "summary": "Grade 10: tangents to circles, areas of sectors and segments, and surface areas and volumes of combined solids.",
+  "ib": {
+    "keyConcept": "Form",
+    "relatedConcepts": [
+      "Space",
+      "Measurement",
+      "Models"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Breaking complex shapes into simple ones lets designers calculate the materials and space they need."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "Why is a tangent perpendicular to the radius?",
+      "How do you find the area of a segment?"
+    ],
+    "conceptual": [
+      "Why does melting and recasting keep volume but change surface area?"
+    ],
+    "debatable": [
+      "Should packaging be designed to use the least material, even if it looks less attractive?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 10: Circles",
+    "Class 10: Areas Related to Circles",
+    "Class 10: Surface Areas and Volumes"
+  ]
+}

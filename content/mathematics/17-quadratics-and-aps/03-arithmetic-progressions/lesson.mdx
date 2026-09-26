@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="Steady steps" />
+
+<Hook emoji="🪜">
+Gauss, aged about 9, was asked to add 1 to 100. He found 50 pairs each summing to 101, making 5050, in seconds. The same trick works for any **arithmetic progression**.
+</Hook>
+
+<PredictFirst
+  question="In the AP 5, 8, 11, 14, …, what is the 10th term?"
+  options={["35", "32", "30", "38"]}
+  answer={1}
+>
+a₁₀ = 5 + 9 × 3 = 32.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<ConceptCard title="Formulas" emoji="🪜">
+In an AP with first term a and common difference d: **aₙ = a + (n − 1)d** and **Sₙ = n/2 [2a + (n − 1)d] = n/2 (a + l)**, where l is the last term.
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "A ladder has 25 rungs that shrink evenly from 45 cm at the bottom to 25 cm at the top.",
+    "The rungs form an AP with a = 45, l = 25, n = 25.",
+    "Total wood: S = 25/2 × (45 + 25) = 875 cm."
+  ]}
+/>
+
+<Stage kind="try" title="Pattern Predictor" />
+
+<Lab id="pattern-predictor" />
+
+
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Saving plan">
+Design a savings plan: save ₹a in month 1 and ₹d more each month. Choose a and d so you reach ₹12,000 in 24 months. Show your calculation, and compare with saving the same amount every month.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Arithmetic Progressions">
+- Motivation; nth term and sum of the first n terms of an AP.
+- Application in daily-life problems.
+</CbseCorner>
+
+<Reflect id="math10-ap" prompt="Where do you see arithmetic progressions in daily life?" />

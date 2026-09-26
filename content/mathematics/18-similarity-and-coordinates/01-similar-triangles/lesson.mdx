@@ -1,0 +1,51 @@
+<Stage kind="wonder" title="Same shape, different size" />
+
+<Hook emoji="🔺">
+Around 600 BCE, Thales measured the height of the Great Pyramid without climbing it. He waited until his shadow was as long as he was tall, then measured the pyramid’s shadow. **Similar triangles** did the rest.
+</Hook>
+
+<PredictFirst
+  question="Two triangles have angles 40°, 60°, 80° and 40°, 60°, 80°, but one is twice as big. Are they similar?"
+  options={["No, they are different sizes", "Yes, equal angles are enough", "Only if one side matches", "Only if they are right triangles"]}
+  answer={1}
+>
+Equal angles (AA) guarantee similarity.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<ConceptCard title="Similar triangles" emoji="🔺">
+Two triangles are **similar** if their corresponding angles are equal and their corresponding sides are in the same ratio (the scale factor). Criteria: **AA** (two angles equal), **SSS** (three sides in proportion), **SAS** (one equal angle between proportional sides).
+</ConceptCard>
+
+<ConceptCard title="Basic Proportionality Theorem" emoji="✂️">
+If a line is drawn parallel to one side of a triangle, cutting the other two sides, it divides them in the same ratio: AD/DB = AE/EC. The converse is also true.
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "A 1.8 m girl casts a 2.4 m shadow. A lamp post casts a 12 m shadow at the same time.",
+    "The Sun’s rays make equal angles, so the triangles are similar (AA).",
+    "Height/12 = 1.8/2.4, so height = 12 × 0.75 = 9 m."
+  ]}
+/>
+
+<Stage kind="try" title="Similar Triangles" />
+
+<Lab id="similar-triangles" />
+
+
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Measure your school">
+Use a mirror or shadows and similar triangles to estimate the height of a tree or building at school. Draw a labelled diagram, show your calculation, and list two sources of error.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Triangles">
+- Similar figures; similarity of triangles.
+- Basic Proportionality Theorem and its converse.
+- Criteria for similarity: AA, SSS, SAS.
+</CbseCorner>
+
+<Reflect id="math10-similar" prompt="Where have you seen scale models or maps that use similarity?" />

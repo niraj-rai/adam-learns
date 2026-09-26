@@ -1,0 +1,109 @@
+{
+  "topicId": "fundamental-theorem",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is the prime factorisation of 140?",
+      "options": [
+        "2² × 35",
+        "2 × 70",
+        "4 × 5 × 7",
+        "2² × 5 × 7"
+      ],
+      "answer": 3,
+      "explain": "All factors must be prime.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the HCF of 26 and 91.",
+      "answer": 13,
+      "tolerance": 0,
+      "explain": "26 = 2 × 13, 91 = 7 × 13.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the LCM of 6, 72 and 120.",
+      "answer": 360,
+      "tolerance": 0,
+      "explain": "2³ × 3² × 5 = 360.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "The HCF of two numbers is 9 and their LCM is 360. One number is 45. Find the other.",
+      "answer": 72,
+      "tolerance": 0,
+      "explain": "9 × 360 ÷ 45 = 72."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why can 6ⁿ never end in the digit 0?",
+      "options": [
+        "Its prime factors are only 2 and 3; it has no factor 5",
+        "Because 6 is even",
+        "Because n could be odd",
+        "It can, for large n"
+      ],
+      "answer": 0,
+      "explain": "A number ending in 0 must be divisible by 2 and 5.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Two bells ring every 18 and 24 minutes. If they ring together at noon, after how many minutes will they next ring together?",
+      "answer": 72,
+      "tolerance": 0,
+      "explain": "LCM(18, 24) = 72.",
+      "unit": "min"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which of these is irrational?",
+      "options": [
+        "√16",
+        "22/7",
+        "5 + √2",
+        "0.375"
+      ],
+      "answer": 2,
+      "explain": "A rational plus an irrational is irrational."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Prove that √5 is irrational.",
+      "modelAnswer": "Assume √5 = a/b with a and b coprime integers. Squaring, 5b² = a², so 5 divides a², and hence 5 divides a. Let a = 5c. Then 5b² = 25c², so b² = 5c² and 5 divides b. So 5 divides both a and b, contradicting that they are coprime. Hence √5 is irrational.",
+      "rubric": [
+        "Assume a/b in lowest terms",
+        "Show 5 divides both a and b",
+        "Contradiction stated"
+      ],
+      "explain": "Criterion C: communicating a proof."
+    }
+  ]
+}

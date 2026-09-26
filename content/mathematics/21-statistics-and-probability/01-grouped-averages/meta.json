@@ -1,0 +1,57 @@
+{
+  "id": "grouped-averages",
+  "number": "21.1",
+  "title": "Mean, Median and Mode of Grouped Data",
+  "summary": "Class marks, the direct method for the mean, the median formula and ogive, and the mode formula.",
+  "emoji": "📊",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Statistics, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Statistics",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can find the mean of grouped data.",
+    "I can find the median using the formula and an ogive.",
+    "I can find the mode of grouped data and choose the best average."
+  ],
+  "misconceptions": [
+    "The modal class’s midpoint is the mode.",
+    "The median class is the middle class in the table.",
+    "The mean of grouped data is exact."
+  ],
+  "prerequisites": [
+    "mathematics/patterns-and-chance/grouped-data",
+    "mathematics/data/averages"
+  ],
+  "labs": [
+    "grouped-stats"
+  ],
+  "keyTerms": [
+    "class mark",
+    "mean",
+    "median",
+    "mode",
+    "cumulative frequency",
+    "ogive",
+    "modal class"
+  ],
+  "estMinutes": 30
+}

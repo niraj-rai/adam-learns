@@ -110,6 +110,18 @@ export type BadgeId =
   | 'heredity-master'
   | 'unit-our-environment'
   | 'environment-master'
+  | 'unit-numbers-and-equations'
+  | 'equations-master'
+  | 'unit-quadratics-and-aps'
+  | 'quadratic-master'
+  | 'unit-similarity-and-coordinates'
+  | 'similarity-master'
+  | 'unit-trigonometry'
+  | 'trig-master'
+  | 'unit-circles-and-solids'
+  | 'measure-master'
+  | 'unit-statistics-and-probability'
+  | 'stats-master'
   | 'light-master'
   | 'perfect-score'
 
@@ -226,5 +238,17 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'heredity-master': { title: "Heredity Master", emoji: '🧬', description: "Solved ten Grade 10 coordination and heredity problems (Boss Challenge)" },
   'unit-our-environment': { title: "Earth Guardian", emoji: '🌍', description: "Mastered every core topic in Grade 10 Biology Unit 14: Our Environment" },
   'environment-master': { title: "Environment Master", emoji: '🌍', description: "Solved ten Grade 10 environment problems (Boss Challenge)" },
+  'unit-numbers-and-equations': { title: "Equation Solver", emoji: '🧮', description: "Mastered every core topic in Grade 10 Maths Unit 16: Numbers, Polynomials and Pairs of Equations" },
+  'equations-master': { title: "Equations Master", emoji: '🧮', description: "Solved ten Grade 10 number and equation problems (Boss Challenge)" },
+  'unit-quadratics-and-aps': { title: "Parabola Pro", emoji: '📈', description: "Mastered every core topic in Grade 10 Maths Unit 17: Quadratic Equations and Arithmetic Progressions" },
+  'quadratic-master': { title: "Quadratic Master", emoji: '📈', description: "Solved ten Grade 10 quadratic and AP problems (Boss Challenge)" },
+  'unit-similarity-and-coordinates': { title: "Shape Shifter", emoji: '🔺', description: "Mastered every core topic in Grade 10 Maths Unit 18: Similarity and Coordinate Geometry" },
+  'similarity-master': { title: "Similarity Master", emoji: '📐', description: "Solved ten Grade 10 similarity and coordinate problems (Boss Challenge)" },
+  'unit-trigonometry': { title: "Triangle Tamer", emoji: '🗼', description: "Mastered every core topic in Grade 10 Maths Unit 19: Trigonometry" },
+  'trig-master': { title: "Trigonometry Master", emoji: '📐', description: "Solved ten Grade 10 trigonometry problems (Boss Challenge)" },
+  'unit-circles-and-solids': { title: "Master Builder", emoji: '🍦', description: "Mastered every core topic in Grade 10 Maths Unit 20: Circles, Areas and Combined Solids" },
+  'measure-master': { title: "Circles and Solids Master", emoji: '⭕', description: "Solved ten Grade 10 circle and solid problems (Boss Challenge)" },
+  'unit-statistics-and-probability': { title: "Data Scientist", emoji: '📊', description: "Mastered every core topic in Grade 10 Maths Unit 21: Statistics and Probability" },
+  'stats-master': { title: "Statistics Master", emoji: '🎲', description: "Solved ten Grade 10 statistics and probability problems (Boss Challenge)" },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

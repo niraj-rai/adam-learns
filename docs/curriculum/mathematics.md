@@ -153,5 +153,15 @@ CBSE Class 9 Maths now uses the new NCERT book **Ganita Manjari** (2026). Its Pa
 | 14. Area, Surface Area and Volume | Heron's and Brahmagupta's formulas · Arcs and sectors · Cones and spheres · Boss | Heron's Formula, Arcs and Sectors, Cones and Spheres, Solid Master |
 | 15. Sequences, Statistics and Probability | Sequences and progressions · Grouped data and histograms · Probability and tree diagrams · Boss | Pattern Predictor, Histogram Builder, Tree Diagrams (+ Dice Lab), Chance Master |
 
-### Grade 10 (planned, to be checked against the current NCERT Class 10 book)
-Real numbers (HCF/LCM, proofs), polynomials, pairs of linear equations, quadratic equations, arithmetic progressions, triangles (similarity), coordinate geometry, trigonometry and its applications, circles (tangents), areas related to circles, surface areas and volumes, statistics, probability.
+### Grade 10 ✅ built (NCERT Class 10 unchanged for 2026–27; IB MYP 5)
+
+| Unit | Topics | NCERT Class 10 chapters | Labs |
+|---|---|---|---|
+| 16. Numbers, Polynomials and Pairs of Equations | Fundamental Theorem of Arithmetic · Zeros and coefficients · Pairs of linear equations · Boss | 1 Real Numbers, 2 Polynomials, 3 Pair of Linear Equations | Factor Tree, Polynomial Plotter, Where Lines Cross, Equations Master |
+| 17. Quadratic Equations and APs | Solving quadratics · The discriminant · Arithmetic progressions · Boss | 4 Quadratic Equations, 5 Arithmetic Progressions | **Quadratic Explorer**, Pattern Predictor, Quadratic Master |
+| 18. Similarity and Coordinate Geometry | Similar triangles and BPT · Section formula · Boss | 6 Triangles, 7 Coordinate Geometry | **Similar Triangles**, **Section Formula**, Similarity Master |
+| 19. Trigonometry | Ratios · Standard angles and identities · Heights and distances · Boss | 8 Introduction to Trigonometry, 9 Applications | **Trigonometric Ratios**, **Heights and Distances**, Trigonometry Master |
+| 20. Circles, Areas and Combined Solids | Tangents · Sectors and segments · Combined solids and recasting · Boss | 10 Circles, 11 Areas Related to Circles, 12 Surface Areas and Volumes | **Tangents to a Circle**, Arcs and Sectors, **Combining Solids**, Circles and Solids Master |
+| 21. Statistics and Probability | Grouped mean, median and mode · Theoretical probability · Boss | 13 Statistics, 14 Probability | **Mean, Median and Mode**, **Deck of Cards**, Statistics Master |
+
+Bold labs are new for Grade 10; the rest are reused from earlier grades. The area-of-a-triangle-from-coordinates formula (removed from the rationalised CBSE book) appears in the Section Formula lab as an IB MYP 5 extension.

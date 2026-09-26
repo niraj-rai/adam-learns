@@ -1,0 +1,108 @@
+{
+  "topicId": "areas-of-segments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the area of a sector of radius 6 cm with angle 60°, to 2 decimal places (π = 3.14).",
+      "answer": 18.84,
+      "tolerance": 0.01,
+      "explain": "(1/6) × 3.14 × 36.",
+      "unit": "cm²",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The minute hand of a clock is 14 cm long. What area does it sweep in 5 minutes, to 2 decimal places (π = 22/7)?",
+      "answer": 51.33,
+      "tolerance": 0.01,
+      "explain": "30° sector: (1/12) × 616.",
+      "unit": "cm²",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A chord of a circle of radius 10 cm subtends a right angle at the centre. Find the minor segment area (π = 3.14).",
+      "answer": 28.5,
+      "tolerance": 0.01,
+      "explain": "78.5 − 50.",
+      "unit": "cm²",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the arc length of a 90° sector of radius 14 cm (π = 22/7).",
+      "answer": 22,
+      "tolerance": 0,
+      "explain": "(1/4) × 88.",
+      "unit": "cm"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A horse is tied at a corner of a square field with a 14 m rope. What area can it graze (π = 22/7)?",
+      "options": [
+        "154 m²",
+        "616 m²",
+        "44 m²",
+        "308 m²"
+      ],
+      "answer": 0,
+      "explain": "A quarter circle.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A circle of radius 7 cm has a minor segment of area 14 cm². Find the major segment area (π = 22/7).",
+      "answer": 140,
+      "tolerance": 0,
+      "explain": "154 − 14.",
+      "unit": "cm²"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "If the radius of a sector is doubled and its angle stays the same, its area is…",
+      "options": [
+        "unchanged",
+        "doubled",
+        "multiplied by 4",
+        "halved"
+      ],
+      "answer": 2,
+      "explain": "Area depends on r²."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "An umbrella has 8 equal ribs. Treating it as a circle of radius 45 cm, find the area between two neighbouring ribs, and explain your method (π = 22/7).",
+      "modelAnswer": "The 8 ribs divide the circle into 8 equal sectors, each with angle 360° ÷ 8 = 45°. Area = (45/360) × (22/7) × 45² = (1/8) × (22/7) × 2025 ≈ 795.5 cm².",
+      "rubric": [
+        "Angle 45°",
+        "Correct sector formula",
+        "Answer ≈ 795.5 cm²"
+      ],
+      "explain": "Criterion D."
+    }
+  ]
+}

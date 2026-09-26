@@ -1,0 +1,52 @@
+<Stage kind="wonder" title="Area puzzles" />
+
+<Hook emoji="📈">
+A rectangular prayer hall has an area of 300 m², and its length is one more than twice its breadth. What are its dimensions? The unknown ends up multiplied by itself: a **quadratic equation**.
+</Hook>
+
+<PredictFirst
+  question="How many solutions does x² = 25 have?"
+  options={["One: x = 5", "Two: x = 5 and x = −5", "None", "Infinitely many"]}
+  answer={1}
+>
+Both 5² and (−5)² equal 25.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<ConceptCard title="Standard form" emoji="📐">
+A quadratic equation is ax² + bx + c = 0 with a ≠ 0. Its solutions are called **roots**.
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "Hall: breadth x, length 2x + 1. So x(2x + 1) = 300, i.e. 2x² + x − 300 = 0.",
+    "Split the middle term: find two numbers with product 2 × (−300) = −600 and sum 1: 25 and −24.",
+    "2x² + 25x − 24x − 300 = x(2x + 25) − 12(2x + 25) = (x − 12)(2x + 25).",
+    "x = 12 or x = −12.5. A breadth can’t be negative, so the hall is 12 m by 25 m."
+  ]}
+/>
+
+<ConceptCard title="The quadratic formula" emoji="🧮">
+When factorising is hard, use **x = (−b ± √(b² − 4ac)) / 2a**. It comes from completing the square, a method known to Sridharacharya in the 11th century.
+</ConceptCard>
+
+<Stage kind="try" title="Quadratic Explorer" />
+
+<Lab id="quadratic-lab" />
+
+
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Throwing a ball">
+The height of a ball thrown upward is h = 20t − 5t² metres after t seconds. Use a quadratic equation to find when it is 15 m high (two answers!) and when it lands. Explain what each answer means.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Quadratic Equations">
+- Standard form of a quadratic equation.
+- Solutions by factorisation and by the quadratic formula.
+- Situational problems.
+</CbseCorner>
+
+<Reflect id="math10-quadratic" prompt="Why do word problems sometimes give a root that must be rejected?" />

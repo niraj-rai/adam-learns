@@ -1,0 +1,54 @@
+{
+  "id": "areas-of-segments",
+  "number": "20.2",
+  "title": "Areas of Sectors and Segments",
+  "summary": "Sector area and arc length revisited, segment area, and areas of combined plane figures.",
+  "emoji": "🌙",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Measurement, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Areas Related to Circles",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can find the area of a sector and the length of an arc.",
+    "I can find the area of a segment.",
+    "I can find areas of shapes combining circles and polygons."
+  ],
+  "misconceptions": [
+    "A segment is the same as a sector.",
+    "The major segment is always twice the minor one.",
+    "Arc length uses πr²."
+  ],
+  "prerequisites": [
+    "mathematics/area-and-solids/arcs-and-sectors",
+    "mathematics/trigonometry/trig-identities"
+  ],
+  "labs": [
+    "sector-slicer"
+  ],
+  "keyTerms": [
+    "sector",
+    "segment",
+    "minor segment",
+    "major segment",
+    "arc length"
+  ],
+  "estMinutes": 30
+}

@@ -1,0 +1,54 @@
+<Stage kind="wonder" title="Measuring the unreachable" />
+
+<Hook emoji="🗼">
+In 1852, a clerk in the Survey of India, Radhanath Sikdar, calculated that Peak XV was the highest mountain on Earth. Nobody climbed it: surveyors measured angles from far away and used **trigonometry**. We now call it Everest.
+</Hook>
+
+<PredictFirst
+  question="You look up at the top of a tree. The angle between your line of sight and the horizontal is the…"
+  options={["angle of depression", "angle of elevation", "right angle", "angle of incidence"]}
+  answer={1}
+>
+Looking up from the horizontal: elevation.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<ConceptCard title="Elevation and depression" emoji="👀">
+The **angle of elevation** is between the horizontal and the line of sight **up** to an object. The **angle of depression** is between the horizontal and the line of sight **down**. Between two points they are equal (alternate angles).
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "From a point 20 m from a tower’s foot, the angle of elevation of the top is 60°.",
+    "Draw the right triangle: adjacent 20 m, opposite h.",
+    "tan 60° = h/20, so h = 20√3 ≈ 34.6 m."
+  ]}
+/>
+
+<StepReveal
+  steps={[
+    "Two-triangle problem: from the top of a 60 m building, the angles of depression of the top and bottom of a tower are 30° and 60°.",
+    "Bottom: tan 60° = 60/d, so d = 60/√3 = 20√3 m.",
+    "Top: the drop from the building’s top to the tower’s top is d tan 30° = 20√3 × 1/√3 = 20 m.",
+    "The tower is 60 − 20 = 40 m tall."
+  ]}
+/>
+
+<Stage kind="try" title="Heights and Distances" />
+
+<Lab id="heights-distances" />
+
+
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Make a clinometer">
+Make a clinometer from a protractor, straw and thread. Measure the angle of elevation of a tall object from two different distances. Calculate its height both ways and compare. Which measurement do you trust more, and why?
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Some Applications of Trigonometry">
+- Heights and distances: problems with angles of elevation and depression (up to two right triangles; angles 30°, 45°, 60°).
+</CbseCorner>
+
+<Reflect id="math10-heights" prompt="What else could you measure with a homemade clinometer?" />

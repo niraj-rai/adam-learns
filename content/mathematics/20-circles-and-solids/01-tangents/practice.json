@@ -1,0 +1,117 @@
+{
+  "topicId": "tangents",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A tangent from a point 25 cm from the centre of a circle is 24 cm long. Find the radius (cm).",
+      "answer": 7,
+      "tolerance": 0,
+      "explain": "√(625 − 576).",
+      "unit": "cm",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "TP and TQ are tangents to a circle with centre O, and ∠POQ = 110°. What is ∠PTQ?",
+      "options": [
+        "55°",
+        "90°",
+        "110°",
+        "70°"
+      ],
+      "answer": 3,
+      "explain": "180° − 110°.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many tangents can a circle have in total?",
+      "options": [
+        "Infinitely many",
+        "Four",
+        "Two",
+        "One"
+      ],
+      "answer": 0,
+      "explain": "One at every point.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Two concentric circles have radii 5 cm and 3 cm. Find the length of a chord of the larger circle that touches the smaller one (cm).",
+      "answer": 8,
+      "tolerance": 0,
+      "explain": "Half chord = √(25 − 9) = 4.",
+      "unit": "cm",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A quadrilateral ABCD is drawn around a circle (all sides tangent). Which is true?",
+      "options": [
+        "All sides are equal",
+        "AB = CD",
+        "AB + CD = AD + BC",
+        "AB + BC = CD + DA always equals the diameter"
+      ],
+      "answer": 2,
+      "explain": "Pair up equal tangent lengths from each vertex.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A line meets a circle at two points. It is called a…",
+      "options": [
+        "tangent",
+        "secant",
+        "diameter always",
+        "radius"
+      ],
+      "answer": 1,
+      "explain": "A tangent meets it once."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "From a point P, 13 cm from the centre, a tangent is drawn to a circle of radius 5 cm. Find the tangent length (cm).",
+      "answer": 12,
+      "tolerance": 0,
+      "explain": "√(169 − 25).",
+      "unit": "cm"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Prove that the tangent at any point of a circle is perpendicular to the radius through that point.",
+      "modelAnswer": "Let the tangent at P meet the circle only at P, with centre O. Take any other point Q on the tangent. Q is outside the circle (the tangent touches only at P), so OQ > OP. So OP is the shortest distance from O to the line, and the shortest segment from a point to a line is perpendicular to it. Hence OP ⊥ the tangent.",
+      "rubric": [
+        "Other points on tangent are outside",
+        "OP is the shortest distance",
+        "Shortest distance is perpendicular"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

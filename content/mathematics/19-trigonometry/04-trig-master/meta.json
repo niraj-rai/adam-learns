@@ -1,0 +1,56 @@
+{
+  "id": "trig-master",
+  "number": "19.4",
+  "title": "Boss Challenge: Trigonometry Master",
+  "summary": "Ten problems on trigonometric ratios, identities, and heights and distances. Three lives!",
+  "emoji": "📐",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Introduction to Trigonometry",
+        "verified": true
+      },
+      {
+        "class": 10,
+        "chapter": "Some Applications of Trigonometry",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply the ideas from this unit."
+  ],
+  "misconceptions": [
+    "Rushing: always check your answer in the original problem.",
+    "Mixing up similar formulas."
+  ],
+  "prerequisites": [
+    "mathematics/trigonometry/trig-ratios",
+    "mathematics/trigonometry/trig-identities",
+    "mathematics/trigonometry/heights-and-distances"
+  ],
+  "labs": [
+    "trig-master"
+  ],
+  "keyTerms": [
+    "sine",
+    "cosine",
+    "tangent",
+    "angle of elevation"
+  ],
+  "estMinutes": 20
+}

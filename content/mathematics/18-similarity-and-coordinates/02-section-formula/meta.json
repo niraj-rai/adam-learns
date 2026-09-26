@@ -1,0 +1,53 @@
+{
+  "id": "section-formula",
+  "number": "18.2",
+  "title": "The Section Formula",
+  "summary": "Dividing a segment in a given ratio, midpoints and trisection points, and collinearity.",
+  "emoji": "✂️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Coordinate geometry, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Coordinate Geometry",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can find the point dividing a segment in the ratio m : n.",
+    "I can find the ratio in which a point divides a segment.",
+    "I can use the distance formula to test shapes."
+  ],
+  "misconceptions": [
+    "The section formula is (m x₁ + n x₂)/(m + n).",
+    "The midpoint is a special ratio 1 : 2.",
+    "Coordinates must be whole numbers."
+  ],
+  "prerequisites": [
+    "mathematics/coordinate-geometry/distance-and-midpoint"
+  ],
+  "labs": [
+    "section-formula"
+  ],
+  "keyTerms": [
+    "section formula",
+    "ratio",
+    "midpoint",
+    "trisection",
+    "collinear"
+  ],
+  "estMinutes": 30
+}

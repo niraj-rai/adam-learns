@@ -1,0 +1,114 @@
+{
+  "topicId": "similar-triangles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In △ABC, DE ∥ BC, AD = 1.5 cm, DB = 3 cm, AE = 1 cm. Find EC (cm).",
+      "answer": 2,
+      "tolerance": 0,
+      "explain": "1.5/3 = 1/EC.",
+      "unit": "cm",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which criterion proves two triangles similar if two pairs of angles are equal?",
+      "options": [
+        "RHS",
+        "AA",
+        "SSS",
+        "ASA congruence"
+      ],
+      "answer": 1,
+      "explain": "The third angles must also be equal.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A 6 m pole casts a 4 m shadow. At the same time a tower casts a 28 m shadow. How tall is the tower (m)?",
+      "answer": 42,
+      "tolerance": 0,
+      "explain": "6/4 = h/28.",
+      "unit": "m",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Two similar triangles have areas 81 cm² and 49 cm². What is the ratio of their corresponding sides?",
+      "options": [
+        "7 : 9",
+        "81 : 49",
+        "3 : 7",
+        "9 : 7"
+      ],
+      "answer": 3,
+      "explain": "√81 : √49."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which pair of triangles must be similar?",
+      "options": [
+        "Two equilateral triangles",
+        "Two isosceles triangles",
+        "Two scalene triangles",
+        "Two right triangles"
+      ],
+      "answer": 0,
+      "explain": "All angles are 60°."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Triangle sides 3, 4, 5 are enlarged so the shortest side is 12. What is the new longest side?",
+      "answer": 20,
+      "tolerance": 0,
+      "explain": "Scale factor 4."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Are triangles with sides 2, 3, 4 and 4, 6, 8 similar?",
+      "options": [
+        "Only if they share an angle",
+        "Yes, by AA",
+        "Yes, by SSS: all ratios are 1 : 2",
+        "No, the sides are different"
+      ],
+      "answer": 2,
+      "explain": "Proportional sides."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why, if two similar triangles have sides in the ratio 1 : k, their areas are in the ratio 1 : k².",
+      "modelAnswer": "Area = ½ × base × height. In the larger triangle, the base is k times as long and the corresponding height is also k times as long (heights are corresponding lengths in similar triangles). So area = ½ × (kb) × (kh) = k² × ½bh. The areas are in the ratio 1 : k².",
+      "rubric": [
+        "Base scales by k",
+        "Height scales by k",
+        "Product gives k²"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

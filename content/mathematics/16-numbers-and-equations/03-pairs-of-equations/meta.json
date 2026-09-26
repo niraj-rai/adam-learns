@@ -1,0 +1,54 @@
+{
+  "id": "pairs-of-equations",
+  "number": "16.3",
+  "title": "Pairs of Linear Equations",
+  "summary": "Solving by graphs, substitution and elimination; consistency; and word problems.",
+  "emoji": "✏️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Algebra, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Pair of Linear Equations in Two Variables",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can solve a pair of equations by substitution and elimination.",
+    "I can tell from the coefficients whether there are one, none or infinitely many solutions.",
+    "I can form and solve equations from word problems."
+  ],
+  "misconceptions": [
+    "Every pair of equations has exactly one solution.",
+    "You must always eliminate x first.",
+    "Parallel lines have one solution at infinity."
+  ],
+  "prerequisites": [
+    "mathematics/coordinate-geometry/linear-equations-two-variables",
+    "mathematics/equations/solving-linear-equations"
+  ],
+  "labs": [
+    "line-crossing"
+  ],
+  "keyTerms": [
+    "pair of linear equations",
+    "consistent",
+    "inconsistent",
+    "substitution",
+    "elimination"
+  ],
+  "estMinutes": 30
+}

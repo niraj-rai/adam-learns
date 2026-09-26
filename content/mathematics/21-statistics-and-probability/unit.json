@@ -1,0 +1,33 @@
+{
+  "id": "statistics-and-probability",
+  "number": 21,
+  "stage": "G10",
+  "title": "Statistics and Probability",
+  "summary": "Grade 10: mean, median and mode of grouped data, and theoretical probability with coins, dice and cards.",
+  "ib": {
+    "keyConcept": "Logic",
+    "relatedConcepts": [
+      "Representation",
+      "Quantity",
+      "Justification"
+    ],
+    "globalContext": "Fairness and development",
+    "statementOfInquiry": "Summarising data and measuring chance help us make fair and informed decisions."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "How do you find the median of grouped data?",
+      "What is theoretical probability?"
+    ],
+    "conceptual": [
+      "Why can the mean and median tell different stories?"
+    ],
+    "debatable": [
+      "Should lotteries be allowed, given the probabilities involved?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 10: Statistics",
+    "Class 10: Probability"
+  ]
+}

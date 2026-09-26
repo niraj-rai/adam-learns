@@ -1,0 +1,33 @@
+{
+  "id": "trigonometry",
+  "number": 19,
+  "stage": "G10",
+  "title": "Trigonometry",
+  "summary": "Grade 10: sine, cosine and tangent, standard angles and identities, and finding heights and distances.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Measurement",
+      "Models",
+      "Equivalence"
+    ],
+    "globalContext": "Orientation in space and time",
+    "statementOfInquiry": "Ratios of sides in right triangles let us measure heights and distances we cannot reach."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What are sin, cos and tan?",
+      "What is an angle of elevation?"
+    ],
+    "conceptual": [
+      "Why do trigonometric ratios depend only on the angle?"
+    ],
+    "debatable": [
+      "Was the Great Trigonometrical Survey more about science or empire?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 10: Introduction to Trigonometry",
+    "Class 10: Some Applications of Trigonometry"
+  ]
+}

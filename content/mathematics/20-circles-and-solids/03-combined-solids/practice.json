@@ -1,0 +1,107 @@
+{
+  "topicId": "combined-solids",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Two cubes of volume 64 cm³ are joined end to end. Find the surface area of the cuboid formed (cm²).",
+      "answer": 160,
+      "tolerance": 0,
+      "explain": "Cuboid 8 × 4 × 4: 2(32 + 16 + 32).",
+      "unit": "cm²",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A capsule is a cylinder of length 10 mm and radius 2.5 mm with hemispheres on each end. Find its total length (mm).",
+      "answer": 15,
+      "tolerance": 0,
+      "explain": "10 + 2 × 2.5.",
+      "unit": "mm"
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A metallic sphere of radius 4.2 cm is melted and recast into a cylinder of radius 6 cm. Find the cylinder’s height (cm), to 2 decimal places.",
+      "answer": 2.74,
+      "tolerance": 0.01,
+      "explain": "(4/3)(4.2)³ = 36h → h ≈ 2.744.",
+      "unit": "cm",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "How many spherical lead shots of radius 1 cm can be made from a cube of lead with edge 11 cm? (π = 22/7)",
+      "answer": 317,
+      "tolerance": 1,
+      "explain": "1331 ÷ (88/21) = 317.6…, so 317 whole shots."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A tent is a cylinder topped with a cone. Which surfaces need canvas?",
+      "options": [
+        "All surfaces including the floor",
+        "The two circular bases",
+        "Only the cone",
+        "The curved surfaces of the cylinder and the cone"
+      ],
+      "answer": 3,
+      "explain": "The floor and joined circle aren’t canvas.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Water in a canal 6 m wide and 1.5 m deep flows at 10 km/h. How many m³ of water flow in 30 minutes?",
+      "answer": 45000,
+      "tolerance": 0,
+      "explain": "6 × 1.5 × 5000.",
+      "unit": "m³",
+      "cbseStyle": true
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A cone and a cylinder have the same radius and height. How many cones of water fill the cylinder?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "answer": 0,
+      "explain": "A cone is ⅓ of the cylinder."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A solid is a hemisphere of radius r topped by a cone of the same radius. If the total height is 2r, show that the volume is πr³.",
+      "modelAnswer": "The cone’s height is 2r − r = r. Cone volume = ⅓πr² × r = ⅓πr³. Hemisphere volume = ⅔πr³. Total = ⅓πr³ + ⅔πr³ = πr³.",
+      "rubric": [
+        "Cone height r",
+        "Both volumes correct",
+        "Sum = πr³"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

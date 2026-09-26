@@ -1,0 +1,50 @@
+<Stage kind="wonder" title="Building blocks" />
+
+<Hook emoji="🍦">
+An ice-cream cone, a medicine capsule, a tent, a rocket: each is simple solids stuck together. To find how much wrapper, canvas or paint is needed, count only the surfaces you can **see**.
+</Hook>
+
+<PredictFirst
+  question="A cone sits on a hemisphere of the same radius. To find the outer surface area, you add…"
+  options={["the total surfaces of both", "the curved surface of the cone and the curved surface of the hemisphere", "only the cone", "the two circular bases"]}
+  answer={1}
+>
+The shared circle is hidden inside.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<ConceptCard title="Surface area vs volume" emoji="🧩">
+**Surface area**: add only the exposed surfaces. **Volume**: add the volumes of all parts (or subtract any hollows).
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "A toy is a cone (r = 3.5 cm, h = 12 cm) on a hemisphere (r = 3.5 cm). Take π = 22/7.",
+    "Cone slant height l = √(12.25 + 144) = 12.5 cm.",
+    "Curved surface: πrl + 2πr² = (22/7)(3.5)(12.5) + 2(22/7)(12.25) = 137.5 + 77 = 214.5 cm².",
+    "Volume: ⅓πr²h + ⅔πr³ = 154 + 89.83 ≈ 243.83 cm³."
+  ]}
+/>
+
+<ConceptCard title="Melting and recasting" emoji="🔥">
+When a solid is melted and made into another shape, **volume is conserved**. Set the volumes equal and solve.
+</ConceptCard>
+
+<Stage kind="try" title="Combining Solids" />
+
+<Lab id="combined-solids" />
+
+
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Packaging design">
+A company sells 12 spherical sweets of radius 1.5 cm. Design two possible boxes (a cuboid and a cylinder). Calculate the material needed for each and the empty space. Recommend one, weighing material against looks.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Surface Areas and Volumes">
+- Surface areas and volumes of combinations of cubes, cuboids, spheres, hemispheres and right circular cylinders/cones.
+</CbseCorner>
+
+<Reflect id="math10-solids" prompt="Which everyday object would you like to model as a combined solid?" />

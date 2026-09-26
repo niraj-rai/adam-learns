@@ -1,0 +1,58 @@
+{
+  "id": "trig-ratios",
+  "number": "19.1",
+  "title": "Trigonometric Ratios",
+  "summary": "Sine, cosine and tangent in a right triangle, their reciprocals, and finding one ratio from another.",
+  "emoji": "📐",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Trigonometry, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Introduction to Trigonometry",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can define sin, cos and tan for an acute angle.",
+    "I can find all ratios given one.",
+    "I can explain why the ratios depend only on the angle."
+  ],
+  "misconceptions": [
+    "sin θ means sin × θ.",
+    "Bigger triangles have bigger sines.",
+    "tan θ can never be more than 1."
+  ],
+  "prerequisites": [
+    "mathematics/geometry/pythagoras",
+    "mathematics/similarity-and-coordinates/similar-triangles"
+  ],
+  "labs": [
+    "trig-ratios"
+  ],
+  "keyTerms": [
+    "sine",
+    "cosine",
+    "tangent",
+    "opposite",
+    "adjacent",
+    "hypotenuse",
+    "cosecant",
+    "secant",
+    "cotangent"
+  ],
+  "estMinutes": 30
+}

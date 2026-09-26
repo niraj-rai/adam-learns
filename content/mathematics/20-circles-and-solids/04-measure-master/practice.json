@@ -1,0 +1,105 @@
+{
+  "topicId": "measure-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A tangent from a point 17 cm from the centre of a circle of radius 8 cm has length…",
+      "answer": 15,
+      "tolerance": 0,
+      "explain": "√(289 − 64).",
+      "unit": "cm"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Two tangents PA and PB make ∠APB = 60°. What is ∠AOB?",
+      "options": [
+        "60°",
+        "120°",
+        "90°",
+        "30°"
+      ],
+      "answer": 1,
+      "explain": "180° − 60°."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the area of a 120° sector of radius 21 cm (π = 22/7).",
+      "answer": 462,
+      "tolerance": 0,
+      "explain": "⅓ × 1386.",
+      "unit": "cm²"
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Find the perimeter of a semicircular protractor of diameter 14 cm (π = 22/7).",
+      "answer": 36,
+      "tolerance": 0,
+      "explain": "22 + 14.",
+      "unit": "cm",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A cylinder of radius 7 cm and height 10 cm has a hemisphere of radius 7 cm scooped out of one end. Find the remaining volume (cm³, π = 22/7), to the nearest whole number.",
+      "answer": 821,
+      "tolerance": 1,
+      "explain": "1540 − 718.67 ≈ 821.33.",
+      "unit": "cm³"
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A sphere of radius 3 cm is melted into a wire of radius 0.1 cm. How long is the wire (cm)?",
+      "answer": 3600,
+      "tolerance": 0,
+      "explain": "(4/3)π(27) = π(0.01)L → L = 36/0.01.",
+      "unit": "cm"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which has the greater volume: a cone with r = 6 and h = 7, or a hemisphere with r = 6?",
+      "options": [
+        "The cone",
+        "Cannot tell",
+        "They are equal",
+        "The hemisphere"
+      ],
+      "answer": 3,
+      "explain": "Cone 84π, hemisphere 144π."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why the total surface area of a toy made from a cone on a hemisphere is not the sum of the total surface areas of the cone and the hemisphere.",
+      "modelAnswer": "Where the cone and hemisphere are joined, the circular base of the cone and the flat face of the hemisphere are glued together and hidden inside the toy. Total surface areas would count these two circles, which aren’t on the outside. The outer surface is only the curved surface of the cone plus the curved surface of the hemisphere: πrl + 2πr².",
+      "rubric": [
+        "Joined faces hidden",
+        "Total SAs would include them",
+        "Correct formula"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

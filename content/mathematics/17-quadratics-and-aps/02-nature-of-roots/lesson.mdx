@@ -1,0 +1,51 @@
+<Stage kind="wonder" title="Predict before you solve" />
+
+<Hook emoji="🔍">
+Can a rectangular park with perimeter 80 m have an area of 400 m²? What about 500 m²? You can answer without solving anything, just by checking one number: the **discriminant**.
+</Hook>
+
+<PredictFirst
+  question="If b² − 4ac is negative, the quadratic formula needs…"
+  options={["the square root of a negative number, so there are no real roots", "a larger denominator", "the roots to be negative", "a to be zero"]}
+  answer={0}
+>
+No real number squares to a negative, so there are no real roots.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<Compare
+  columns={[
+    { title: "D greater than 0", emoji: "✌️", points: ["Two distinct real roots", "Parabola crosses the x-axis twice"] },
+    { title: "D = 0", emoji: "☝️", points: ["Two equal real roots: x = −b/2a", "Parabola touches the x-axis"] },
+    { title: "D less than 0", emoji: "🚫", points: ["No real roots", "Parabola misses the x-axis"] }
+  ]}
+/>
+
+<StepReveal
+  steps={[
+    "Park: length l, breadth 40 − l (perimeter 80). Area l(40 − l) = A, so l² − 40l + A = 0.",
+    "D = 1600 − 4A.",
+    "A = 400: D = 0, one answer: a 20 m square.",
+    "A = 500: D = −400, impossible. The largest possible area is 400 m²."
+  ]}
+/>
+
+<Stage kind="try" title="Quadratic Explorer" />
+
+<Lab id="quadratic-lab" />
+
+In the lab, keep a and b fixed and slide c. Watch the exact moment the roots merge and vanish.
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="B" title="Largest area">
+For a fixed perimeter P, investigate which rectangle gives the largest area. Use the discriminant of l² − (P/2)l + A = 0 to prove your answer for any P.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Quadratic Equations">
+- Nature of roots: discriminant b² − 4ac.
+- Relationship between discriminant and nature of roots.
+</CbseCorner>
+
+<Reflect id="math10-discriminant" prompt="How does the discriminant connect algebra with the graph?" />

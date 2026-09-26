@@ -1,0 +1,124 @@
+{
+  "topicId": "section-formula",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the point dividing (−1, 7) and (4, −3) in the ratio 2 : 3.",
+      "options": [
+        "(2, 1)",
+        "(1.5, 2)",
+        "(3, −1)",
+        "(1, 3)"
+      ],
+      "answer": 3,
+      "explain": "((8 − 3)/5, (−6 + 21)/5).",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the midpoint of (4, −6) and (−2, 8).",
+      "options": [
+        "(1, 1)",
+        "(1, −7)",
+        "(3, −7)",
+        "(2, 2)"
+      ],
+      "answer": 0,
+      "explain": "Average the coordinates.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "In what ratio does (−4, 6) divide the segment from (−6, 10) to (3, −8)?",
+      "options": [
+        "7 : 2",
+        "2 : 1",
+        "2 : 7",
+        "1 : 2"
+      ],
+      "answer": 2,
+      "explain": "(3k − 6)/(k + 1) = −4 → k = 2/7.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the points of trisection of (2, −2) and (−7, 4).",
+      "options": [
+        "(−1, 2) and (−4, 0)",
+        "(−1, 0) and (−4, 2)",
+        "(0, −1) and (2, −4)",
+        "(−2.5, 1) only"
+      ],
+      "answer": 1,
+      "explain": "Ratios 1 : 2 and 2 : 1.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the distance between (2, 3) and (10, 9).",
+      "answer": 10,
+      "tolerance": 0,
+      "explain": "√(64 + 36)."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "(1, 2), (4, y), (x, 6) and (3, 5) are the vertices of a parallelogram in order. What are x and y?",
+      "options": [
+        "x = 3, y = 6",
+        "x = 6, y = 6",
+        "x = 2, y = 3",
+        "x = 6, y = 3"
+      ],
+      "answer": 3,
+      "explain": "Diagonals bisect each other: midpoints match.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which point lies on the x-axis?",
+      "options": [
+        "(−4, 0)",
+        "(4, 4)",
+        "(−4, −4)",
+        "(0, −4)"
+      ],
+      "answer": 0,
+      "explain": "y = 0 on the x-axis."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Show that (1, 7), (4, 2), (−1, −1) and (−4, 4) are the vertices of a square.",
+      "modelAnswer": "Using the distance formula, each side is √34: AB = √(9 + 25), BC = √(25 + 9), CD = √(9 + 25), DA = √(25 + 9). The diagonals are equal: AC = √(4 + 64) = √68 and BD = √(64 + 4) = √68. Equal sides and equal diagonals means it is a square.",
+      "rubric": [
+        "All four sides equal",
+        "Diagonals equal",
+        "Correct conclusion"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

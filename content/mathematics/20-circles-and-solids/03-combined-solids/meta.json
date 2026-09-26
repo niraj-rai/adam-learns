@@ -1,0 +1,54 @@
+{
+  "id": "combined-solids",
+  "number": "20.3",
+  "title": "Combined Solids and Recasting",
+  "summary": "Surface areas and volumes of solids made from cubes, cylinders, cones and hemispheres, and converting one solid into another.",
+  "emoji": "🍦",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Measurement, MYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Surface Areas and Volumes",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can find the surface area of a combined solid.",
+    "I can find the volume of a combined solid.",
+    "I can solve melting and recasting problems."
+  ],
+  "misconceptions": [
+    "The surface area of a combined solid is the sum of the surface areas of its parts.",
+    "Recasting changes the volume.",
+    "A hemisphere’s curved surface is 4πr²."
+  ],
+  "prerequisites": [
+    "mathematics/area-and-solids/cones-and-spheres",
+    "mathematics/mensuration/volume"
+  ],
+  "labs": [
+    "combined-solids"
+  ],
+  "keyTerms": [
+    "combined solid",
+    "curved surface area",
+    "total surface area",
+    "volume",
+    "recasting"
+  ],
+  "estMinutes": 30
+}
