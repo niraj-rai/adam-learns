@@ -105,12 +105,44 @@
 
 ---
 
-## L3: Grades 9–10 (Phase 2)
+## L3: Grades 9–10
 
-IB MYP 4–5 Chemistry (eAssessment) · CBSE Class 9–10 · IGCSE overlap
+IB MYP 4–5 Chemistry · CBSE Class 9 uses the new integrated NCERT book **Exploration** (2026): chemistry is in Ch 5 Exploring Mixtures and their Separation, Ch 8 Journey Inside the Atom and Ch 9 Atomic Foundations of Matter. Much of the older Class 9 content (states of matter, separation, atomic structure, isotopes) is already covered by Units 1, 2 and 6, so Grade 9 adds only what is new.
 
-| Unit | Topics | IB | CBSE | ★ | Key labs |
+### Grade 9 · Unit 7: Solutions, Colloids and Suspensions ✅ built
+
+*IB Key Concept:* **Systems** · *Related:* Composition, Form, Evidence
+
+| # | Topic | IB | CBSE | ★ | Lab |
 |---|---|---|---|---|---|
+| 7.1 | Solutions, colloids and suspensions; Tyndall effect | MYP 4 | Exploration Ch 5 ✅, earlier NCERT 9 Is Matter Around Us Pure? ✅ | ★★ | **Tyndall Torch** |
+| 7.2 | Concentration (% m/m, m/v, v/v) | MYP 4 | Exploration Ch 5 ✅ | ★★★ | **Concentration Mixer** |
+| 7.3 | Solubility and solubility curves; crystallisation | MYP 4 | Exploration Ch 5 ✅ | ★★★ | **Solubility Curves** |
+| 7.4 | Boss: Mixture Master | MYP 4 | Mixed | ★★★ | 10 problems (3 lives) |
+
+### Grade 9 · Unit 8: Atoms, Molecules and the Mole ✅ built
+
+*IB Key Concept:* **Relationships** · *Related:* Models, Balance, Patterns
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 8.1 | Laws of chemical combination; Dalton's theory | MYP 4 | Exploration Ch 9 ✅, earlier NCERT 9 Atoms and Molecules ✅ | ★★ | **Laws of Chemical Combination** |
+| 8.2 | Electron arrangement, valency and ions | MYP 4 | Exploration Ch 8 ✅ | ★★★ | **Ion Maker** |
+| 8.3 | Writing chemical formulae (criss-cross, polyatomic ions) | MYP 4 | Exploration Ch 9 ✅ | ★★★ | **Formula Criss-Cross** |
+| 8.4 | Atomic and molecular mass | MYP 4 | Exploration Ch 9 ✅ | ★★ | **Molecule Mass Builder** |
+| 8.5 | The mole | MYP 4–5 | Exploration Ch 9 ✅ | ★★★ | **The Mole Bridge** |
+| 8.6 | Boss: Mole Master | MYP 4 | Mixed | ★★★ | 10 problems (3 lives) |
+
+### Grade 10 (planned, to be checked against the current NCERT Class 10 book)
+
+| Unit | Topics | IB | ★ |
+|---|---|---|---|
+| Chemical Reactions & Equations | Balancing, types of reaction, redox intro | MYP 5 | ★★★★ |
+| Acids, Bases & Salts (adv.) | pH, salts, water of crystallisation | MYP 5 | ★★★★ |
+| Metals & Non-metals (adv.) | Ionic bonding, extraction, corrosion | MYP 5 | ★★★★ |
+| Carbon & Its Compounds | Covalent bonding, homologous series, functional groups, soaps | MYP 5 | ★★★★ |
+
+---|---|---|---|---|---|
 | 7. Atomic Structure | Bohr model, electron configuration (2,8,8), valency, isotopes, isobars, relative atomic mass | MYP 4 | 9 Ch4 | ★★★★ | Atom Builder (full), Isotope Mixer |
 | 8. Periodic Table | Mendeleev → modern table, groups (1, 17, 18), periodic trends (size, reactivity, metallic character) | MYP 4 | 10 (moved to 11) | ★★★★ | Periodic Table Explorer with trend heatmaps |
 | 9. Chemical Bonding | Ionic (dot & cross), covalent (single/double/triple), metallic; properties by bond type | MYP 4–5 | 10 Ch4, 11 Ch4 | ★★★★ | **Molecule Builder 3D** (react-three-fiber), Ion Handshake |

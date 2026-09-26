@@ -1,0 +1,61 @@
+{
+  "id": "concentration",
+  "number": "7.2",
+  "title": "Concentration of Solutions",
+  "summary": "Mass by mass, mass by volume and volume by volume: how strong is a solution?",
+  "emoji": "🧪",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Solutions, MYP 4 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 5: Exploring Mixtures and their Separation",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Is Matter Around Us Pure?",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can calculate % (m/m), % (m/v) and % (v/v) concentrations.",
+    "I can calculate the mass of solute needed for a given concentration.",
+    "I can interpret concentrations on product labels."
+  ],
+  "misconceptions": [
+    "Concentration = solute ÷ solvent (instead of ÷ solution).",
+    "A bigger amount of solution means a stronger solution.",
+    "Dilute means weak acid or base only."
+  ],
+  "prerequisites": [
+    "chemistry/mixtures-in-depth/solutions-colloids-suspensions"
+  ],
+  "labs": [
+    "concentration-mixer"
+  ],
+  "keyTerms": [
+    "solute",
+    "solvent",
+    "concentration",
+    "mass by mass",
+    "mass by volume",
+    "volume by volume",
+    "dilute",
+    "concentrated"
+  ],
+  "estMinutes": 30
+}

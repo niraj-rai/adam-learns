@@ -1,0 +1,59 @@
+{
+  "id": "chemical-formulae",
+  "number": "8.3",
+  "title": "Writing Chemical Formulae",
+  "summary": "Using valencies and the criss-cross method, including polyatomic ions, to write formulae of compounds.",
+  "emoji": "✖️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Formulae, MYP 4 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 9: Atomic Foundations of Matter",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Atoms and Molecules",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can write formulae of ionic compounds from valencies.",
+    "I can use brackets for polyatomic ions.",
+    "I can name compounds from their formulae."
+  ],
+  "misconceptions": [
+    "The numbers in a formula can be changed to balance an equation.",
+    "OH₂ means two hydroxide ions.",
+    "Charges appear in the formula of the compound."
+  ],
+  "prerequisites": [
+    "chemistry/atoms-and-moles/valency-and-ions",
+    "chemistry/changes/symbols-formulas-equations"
+  ],
+  "labs": [
+    "formula-crisscross"
+  ],
+  "keyTerms": [
+    "chemical formula",
+    "criss-cross method",
+    "polyatomic ion",
+    "ionic compound",
+    "formula unit"
+  ],
+  "estMinutes": 30
+}

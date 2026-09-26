@@ -1,0 +1,113 @@
+{
+  "topicId": "solubility",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What does “solubility of salt is 36 g at 20 °C” mean?",
+      "options": [
+        "36% of any salt sample dissolves",
+        "Salt melts at 36 °C",
+        "36 g of salt dissolves in 1 L of water",
+        "36 g of salt is the most that dissolves in 100 g of water at 20 °C"
+      ],
+      "answer": 3,
+      "explain": "Solubility is per 100 g of water at a stated temperature.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A point lies below the solubility curve. The solution is…",
+      "options": [
+        "unsaturated",
+        "supersaturated with solid at the bottom",
+        "a suspension",
+        "saturated"
+      ],
+      "answer": 0,
+      "explain": "Below the curve, more solute could still dissolve."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Potassium nitrate’s solubility is 106 g at 60 °C and 32 g at 20 °C. A saturated solution in 100 g of water is cooled from 60 °C to 20 °C. How many grams of crystals form?",
+      "answer": 74,
+      "tolerance": 0,
+      "explain": "106 − 32 = 74 g of crystals.",
+      "unit": "g"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which statement about stirring a saturated solution is correct?",
+      "options": [
+        "Stirring always turns it into a colloid",
+        "Stirring doubles the solubility",
+        "Stirring does not make more solute dissolve",
+        "Stirring lowers the temperature"
+      ],
+      "answer": 2,
+      "explain": "Stirring speeds up dissolving but cannot raise the maximum amount."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "At 40 °C, 64 g of a salt dissolves in 100 g of water. How much will dissolve in 50 g of water at 40 °C?",
+      "answer": 32,
+      "tolerance": 0,
+      "explain": "Half the water dissolves half as much: 32 g.",
+      "unit": "g"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "For most solids, what happens to solubility as the temperature rises?",
+      "options": [
+        "It stays exactly the same",
+        "It increases",
+        "It becomes zero",
+        "It decreases"
+      ],
+      "answer": 1,
+      "explain": "Most solid solubility curves slope upwards (some, like salt, only slightly)."
+    },
+    {
+      "id": "q7",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Put the steps for making pure copper sulfate crystals in order.",
+      "steps": [
+        "Dissolve impure copper sulfate in hot water until saturated",
+        "Filter the hot solution to remove insoluble impurities",
+        "Leave the filtrate to cool slowly",
+        "Filter off the crystals and dry them on filter paper"
+      ],
+      "explain": "Crystallisation: dissolve hot, filter, cool, collect."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A solution of 50 g of a solid in 100 g of water at 70 °C is cooled to 30 °C, where the solubility is 25 g. What mass of crystals forms?",
+      "answer": 25,
+      "tolerance": 0,
+      "explain": "50 − 25 = 25 g (assuming it was saturated or unsaturated with 50 g dissolved at 70 °C).",
+      "unit": "g"
+    }
+  ]
+}

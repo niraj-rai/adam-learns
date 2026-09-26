@@ -5,12 +5,12 @@
   "color": "chem",
   "icon": "⚗️",
   "order": 2,
-  "comingNext": "Grades 9–10: atomic structure in depth · chemical bonding · the mole · balancing equations · rates & energy · carbon compounds",
+  "comingNext": "Grade 10 Chemistry: chemical reactions and equations, acids and bases in depth, metals, carbon compounds",
   "planned": [
     {
-      "unit": "7–16. Grades 9–10 (atomic structure → carbon compounds)",
-      "ib": "MYP 4–5",
-      "cbse": "9–10"
+      "unit": "Grade 10: reactions and equations, acids/bases/salts, metals and non-metals, carbon and its compounds",
+      "ib": "MYP 5",
+      "cbse": "Class 10"
     }
   ]
 }

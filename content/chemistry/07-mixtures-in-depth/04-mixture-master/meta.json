@@ -1,0 +1,60 @@
+{
+  "id": "mixture-master",
+  "number": "7.4",
+  "title": "Boss Challenge: Mixture Master",
+  "summary": "Ten problems on solutions, colloids, suspensions, concentration and solubility. Three lives!",
+  "emoji": "🥛",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 5: Exploring Mixtures and their Separation",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Is Matter Around Us Pure?",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can classify mixtures using evidence.",
+    "I can solve concentration problems.",
+    "I can use solubility curves."
+  ],
+  "misconceptions": [
+    "Concentration uses the solvent mass.",
+    "Coloured means colloid.",
+    "Stirring raises solubility."
+  ],
+  "prerequisites": [
+    "chemistry/mixtures-in-depth/solutions-colloids-suspensions",
+    "chemistry/mixtures-in-depth/concentration",
+    "chemistry/mixtures-in-depth/solubility"
+  ],
+  "labs": [
+    "mixture-master"
+  ],
+  "keyTerms": [
+    "colloid",
+    "Tyndall effect",
+    "concentration",
+    "saturated",
+    "crystallisation"
+  ],
+  "estMinutes": 20
+}

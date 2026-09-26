@@ -1,0 +1,106 @@
+{
+  "topicId": "molecular-mass",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Calculate the molecular mass of ammonia, NH₃. (N = 14, H = 1)",
+      "answer": 17,
+      "tolerance": 0,
+      "explain": "14 + 3 × 1 = 17 u.",
+      "unit": "u",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Calculate the molecular mass of sulfuric acid, H₂SO₄. (H = 1, S = 32, O = 16)",
+      "answer": 98,
+      "tolerance": 0,
+      "explain": "2 + 32 + 64 = 98 u.",
+      "unit": "u",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Calculate the formula unit mass of calcium carbonate, CaCO₃. (Ca = 40, C = 12, O = 16)",
+      "answer": 100,
+      "tolerance": 0,
+      "explain": "40 + 12 + 48 = 100 u.",
+      "unit": "u"
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Calculate the molecular mass of glucose, C₆H₁₂O₆.",
+      "answer": 180,
+      "tolerance": 0,
+      "explain": "72 + 12 + 96 = 180 u.",
+      "unit": "u"
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Calculate the formula unit mass of calcium hydroxide, Ca(OH)₂.",
+      "answer": 74,
+      "tolerance": 0,
+      "explain": "40 + 2 × (16 + 1) = 74 u.",
+      "unit": "u"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is 1 atomic mass unit defined as?",
+      "options": [
+        "One-twelfth of the mass of a carbon-12 atom",
+        "The mass of one hydrogen atom exactly",
+        "1 gram",
+        "The mass of one electron"
+      ],
+      "answer": 0,
+      "explain": "Carbon-12 is the reference standard.",
+      "feedback": {
+        "2": "1 u is about 1.66 × 10⁻²⁴ g, far smaller than a gram."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "What percentage of the mass of water (H₂O) is oxygen? Give your answer to the nearest whole number.",
+      "answer": 89,
+      "tolerance": 1,
+      "explain": "16 ÷ 18 × 100 ≈ 88.9%, about 89%.",
+      "unit": "%"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why is “formula unit mass” used for sodium chloride instead of “molecular mass”?",
+      "options": [
+        "It is a liquid",
+        "Sodium chloride has no mass",
+        "Sodium chloride is made of ions in a lattice, not separate molecules",
+        "Chlorine has a decimal atomic mass"
+      ],
+      "answer": 2,
+      "explain": "Ionic compounds don’t form discrete molecules."
+    }
+  ]
+}

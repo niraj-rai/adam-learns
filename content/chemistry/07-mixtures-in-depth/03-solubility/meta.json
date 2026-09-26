@@ -1,0 +1,58 @@
+{
+  "id": "solubility",
+  "number": "7.3",
+  "title": "Solubility and Solubility Curves",
+  "summary": "Saturated solutions, how temperature changes solubility, reading solubility curves and growing crystals.",
+  "emoji": "📈",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Solubility, MYP 4 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 5: Exploring Mixtures and their Separation",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Is Matter Around Us Pure?",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can define solubility and saturated solution.",
+    "I can read and interpret solubility curves.",
+    "I can calculate the mass of crystals formed on cooling."
+  ],
+  "misconceptions": [
+    "Stirring makes more solid dissolve in a saturated solution.",
+    "All substances dissolve more when heated by the same amount.",
+    "A saturated solution is always very concentrated."
+  ],
+  "prerequisites": [
+    "chemistry/mixtures-in-depth/concentration"
+  ],
+  "labs": [
+    "solubility-curve"
+  ],
+  "keyTerms": [
+    "solubility",
+    "saturated solution",
+    "unsaturated solution",
+    "solubility curve",
+    "crystallisation"
+  ],
+  "estMinutes": 30
+}

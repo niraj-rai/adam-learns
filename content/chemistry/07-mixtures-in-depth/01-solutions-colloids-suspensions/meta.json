@@ -1,0 +1,59 @@
+{
+  "id": "solutions-colloids-suspensions",
+  "number": "7.1",
+  "title": "Solutions, Colloids and Suspensions",
+  "summary": "Particle size decides everything: clear solutions, cloudy colloids that scatter light, and suspensions that settle.",
+  "emoji": "🔦",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Mixtures, MYP 4 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 5: Exploring Mixtures and their Separation",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Is Matter Around Us Pure?",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can classify mixtures as solutions, colloids or suspensions.",
+    "I can explain the Tyndall effect.",
+    "I can name the dispersed phase and dispersion medium of common colloids."
+  ],
+  "misconceptions": [
+    "Anything cloudy must be a suspension.",
+    "Coloured liquids can't be solutions.",
+    "Colloids eventually settle like suspensions."
+  ],
+  "prerequisites": [
+    "chemistry/mixtures/solutions-and-solubility"
+  ],
+  "labs": [
+    "tyndall-torch"
+  ],
+  "keyTerms": [
+    "solution",
+    "colloid",
+    "suspension",
+    "Tyndall effect",
+    "dispersed phase",
+    "dispersion medium"
+  ],
+  "estMinutes": 30
+}

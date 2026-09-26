@@ -1,0 +1,113 @@
+{
+  "topicId": "mixture-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is the correct order of particle size, smallest first?",
+      "options": [
+        "Solution, suspension, colloid",
+        "Solution, colloid, suspension",
+        "Suspension, colloid, solution",
+        "Colloid, solution, suspension"
+      ],
+      "answer": 1,
+      "explain": "Less than 1 nm, 1–1000 nm, more than 1000 nm.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the % (m/m) of 15 g of sugar in 135 g of water?",
+      "answer": 10,
+      "tolerance": 0,
+      "explain": "15 ÷ 150 × 100 = 10%.",
+      "unit": "%"
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "How many mL of alcohol are in 300 mL of a 70% (v/v) sanitiser?",
+      "answer": 210,
+      "tolerance": 0,
+      "explain": "0.7 × 300 = 210 mL.",
+      "unit": "mL"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why does smoke from a chimney look hazy and scatter sunlight?",
+      "options": [
+        "It is pure carbon dioxide",
+        "It is a suspension that never settles",
+        "It is a true solution",
+        "It is a colloid of solid particles in air"
+      ],
+      "answer": 3,
+      "explain": "Smoke is an aerosol colloid."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Solubility of a salt is 40 g per 100 g water at 50 °C and 20 g at 10 °C. A saturated solution in 200 g of water is cooled from 50 °C to 10 °C. What mass of crystals forms?",
+      "answer": 40,
+      "tolerance": 0,
+      "explain": "Per 100 g: 40 − 20 = 20 g. For 200 g of water: 40 g.",
+      "unit": "g"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which substance forms a true solution in water?",
+      "options": [
+        "Sugar",
+        "Chalk",
+        "Starch (as a colloid)",
+        "Sand"
+      ],
+      "answer": 0,
+      "explain": "Sugar breaks up into molecules too small to scatter light."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which test could show that a sample is a suspension and not a colloid?",
+      "options": [
+        "It scatters a torch beam",
+        "It looks cloudy",
+        "It leaves a residue on filter paper",
+        "It is a liquid"
+      ],
+      "answer": 2,
+      "explain": "Colloids and suspensions both scatter light and look cloudy; only a suspension is filtered out."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A chef says that heating a sugar syrup lets them dissolve more sugar, but it can crystallise when it cools. Explain using the idea of solubility.",
+      "modelAnswer": "The solubility of sugar increases with temperature, so hot water can dissolve more sugar before becoming saturated. When the syrup cools, the solubility falls, so the solution holds more sugar than it can at the lower temperature. The extra sugar comes out of solution as crystals (crystallisation).",
+      "rubric": [
+        "Solubility rises with temperature",
+        "On cooling, solubility falls below the amount dissolved",
+        "Excess solute crystallises"
+      ],
+      "explain": "Criterion D: chemistry in cooking."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "topicId": "valency-and-ions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the electron arrangement of chlorine (17 electrons)?",
+      "options": [
+        "2, 7, 8",
+        "2, 8, 8, 1",
+        "8, 8, 1",
+        "2, 8, 7"
+      ],
+      "answer": 3,
+      "explain": "Fill the shells 2, then 8, then the remaining 7.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Oxygen has the electron arrangement 2, 6. What is its valency?",
+      "answer": 2,
+      "tolerance": 0,
+      "explain": "It gains 2 electrons to have 8 in its outer shell.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Aluminium has 13 electrons. What is its valency?",
+      "answer": 3,
+      "tolerance": 0,
+      "explain": "Arrangement 2, 8, 3: it loses 3 electrons."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Magnesium (2, 8, 2) forms an ion. Which ion?",
+      "options": [
+        "Mg²⁺",
+        "Mg²⁻",
+        "Mg⁶⁻",
+        "Mg⁺"
+      ],
+      "answer": 0,
+      "explain": "It loses its 2 outer electrons, leaving a charge of +2.",
+      "feedback": {
+        "1": "Metals LOSE electrons, so they become positive."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "How many protons and electrons does a chloride ion, Cl⁻, have?",
+      "options": [
+        "17 protons and 17 electrons",
+        "18 protons and 17 electrons",
+        "17 protons and 18 electrons",
+        "17 protons and 16 electrons"
+      ],
+      "answer": 2,
+      "explain": "Chlorine gains one electron; the protons don’t change."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why does carbon usually share electrons rather than form ions?",
+      "options": [
+        "Carbon is a metal",
+        "It has 4 outer electrons, so losing or gaining 4 would take too much energy",
+        "It has no outer electrons",
+        "It has a full outer shell"
+      ],
+      "answer": 1,
+      "explain": "Carbon has valency 4 and forms covalent bonds by sharing."
+    },
+    {
+      "id": "q7",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each element to its valency.",
+      "pairs": [
+        {
+          "left": "Sodium (2, 8, 1)",
+          "right": "1"
+        },
+        {
+          "left": "Oxygen (2, 6)",
+          "right": "2"
+        },
+        {
+          "left": "Nitrogen (2, 5)",
+          "right": "3"
+        },
+        {
+          "left": "Carbon (2, 4)",
+          "right": "4"
+        }
+      ],
+      "explain": "Lose 1–3, gain 5–7 (8 − outer), share 4."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why sodium and chlorine atoms react, and describe what happens to their electrons.",
+      "modelAnswer": "Sodium has one outer electron (2, 8, 1) and chlorine has seven (2, 8, 7). Neither has a full outer shell. Sodium loses its outer electron to become Na⁺ (2, 8) and chlorine gains it to become Cl⁻ (2, 8, 8). Both now have full outer shells like noble gases, and the oppositely charged ions attract to form sodium chloride.",
+      "rubric": [
+        "Neither has a full outer shell",
+        "Sodium loses 1 electron; chlorine gains 1",
+        "Oppositely charged ions attract"
+      ],
+      "explain": "Criterion A: explaining ion formation."
+    }
+  ]
+}

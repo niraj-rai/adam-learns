@@ -1,0 +1,62 @@
+{
+  "id": "mole-master",
+  "number": "8.6",
+  "title": "Boss Challenge: Mole Master",
+  "summary": "Ten problems on the laws of combination, valency, formulae, molecular mass and the mole. Three lives!",
+  "emoji": "🧺",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 9: Atomic Foundations of Matter",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Atoms and Molecules",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can write formulae from valencies.",
+    "I can calculate molecular masses and moles.",
+    "I can apply the laws of chemical combination."
+  ],
+  "misconceptions": [
+    "A mole of everything has the same mass.",
+    "Subscripts can be changed freely.",
+    "Mass is lost when gas escapes."
+  ],
+  "prerequisites": [
+    "chemistry/atoms-and-moles/laws-of-combination",
+    "chemistry/atoms-and-moles/valency-and-ions",
+    "chemistry/atoms-and-moles/chemical-formulae",
+    "chemistry/atoms-and-moles/molecular-mass",
+    "chemistry/atoms-and-moles/the-mole"
+  ],
+  "labs": [
+    "mole-master"
+  ],
+  "keyTerms": [
+    "valency",
+    "formula",
+    "molecular mass",
+    "mole",
+    "Avogadro constant"
+  ],
+  "estMinutes": 25
+}

@@ -1,0 +1,161 @@
+{
+  "topicId": "solutions-colloids-suspensions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which of these is a colloid?",
+      "options": [
+        "Milk",
+        "Muddy water",
+        "Sugar syrup",
+        "Salt water"
+      ],
+      "answer": 0,
+      "explain": "Milk has fat droplets dispersed in water: an emulsion colloid.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A mixture shows the Tyndall effect but doesn’t settle and passes through filter paper. It is a…",
+      "options": [
+        "pure substance",
+        "solution",
+        "colloid",
+        "suspension"
+      ],
+      "answer": 2,
+      "explain": "Scatters light (not a solution) but doesn’t settle or filter (not a suspension)."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which mixture’s particles can be separated by filtration?",
+      "options": [
+        "A colloid",
+        "A suspension",
+        "A solution",
+        "An alloy"
+      ],
+      "answer": 1,
+      "explain": "Only suspension particles are big enough to be trapped by filter paper.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Copper sulfate solution is blue. Is it a solution?",
+      "options": [
+        "No: coloured liquids are colloids",
+        "Only when it is hot",
+        "No: it must be a suspension",
+        "Yes: it is clear and doesn’t scatter light, even though it is coloured"
+      ],
+      "answer": 3,
+      "explain": "Clear, not cloudy, is what matters. Solutions can be coloured."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sort the mixtures.",
+      "bins": [
+        "Solution",
+        "Colloid",
+        "Suspension"
+      ],
+      "items": [
+        {
+          "label": "Lemon juice in water with sugar",
+          "bin": 0
+        },
+        {
+          "label": "Fog",
+          "bin": 1
+        },
+        {
+          "label": "Chalk powder in water",
+          "bin": 2
+        },
+        {
+          "label": "Shaving cream",
+          "bin": 1
+        },
+        {
+          "label": "Soda water",
+          "bin": 0
+        },
+        {
+          "label": "Sand in water",
+          "bin": 2
+        }
+      ],
+      "explain": "Clear and stable: solution. Scatters light but stable: colloid. Settles: suspension."
+    },
+    {
+      "id": "q6",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each colloid to its type.",
+      "pairs": [
+        {
+          "left": "Fog",
+          "right": "Aerosol (liquid in gas)"
+        },
+        {
+          "left": "Milk",
+          "right": "Emulsion (liquid in liquid)"
+        },
+        {
+          "left": "Shaving cream",
+          "right": "Foam (gas in liquid)"
+        },
+        {
+          "left": "Jelly",
+          "right": "Gel (liquid in solid)"
+        }
+      ],
+      "explain": "The name depends on the dispersed phase and the dispersion medium."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why can you see the headlight beams of a car on a foggy night?",
+      "options": [
+        "Water droplets in the fog scatter the light",
+        "Headlights are brighter in winter",
+        "Light bends around the fog",
+        "Fog makes light brighter"
+      ],
+      "answer": 0,
+      "explain": "Fog is a colloid; its droplets scatter light (Tyndall effect)."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Describe three tests you could use to decide whether a cloudy liquid is a colloid or a suspension, and the result you would expect for each.",
+      "modelAnswer": "Leave it to stand: a suspension settles, a colloid doesn’t. Filter it: a suspension leaves a residue on the filter paper; a colloid passes through. Look at it closely or under a lens: suspension particles may be visible; colloid particles are not. (A torch beam shows up in both, so it can’t tell them apart, but it does rule out a solution.)",
+      "rubric": [
+        "Standing test: suspension settles",
+        "Filtration test: suspension leaves residue",
+        "A third valid test with result"
+      ],
+      "explain": "Criterion B/C: designing tests."
+    }
+  ]
+}

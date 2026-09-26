@@ -1,0 +1,53 @@
+<Stage kind="wonder" title="Counting by weighing" />
+
+<Hook emoji="🧺">
+A shopkeeper doesn't count every grain of rice: they weigh it. If you know how much one grain weighs, the mass tells you how many there are. Chemists do the same with atoms, using a special counting unit called the **mole**.
+</Hook>
+
+<PredictFirst
+  question="Which contains more atoms: 12 g of carbon or 12 g of magnesium? (C = 12, Mg = 24)"
+  options={["12 g of magnesium", "12 g of carbon", "They contain the same number", "Impossible to tell"]}
+  answer={1}
+>
+12 g of carbon is **1 mole** of atoms; 12 g of magnesium is only **0.5 mole**, because each magnesium atom is twice as heavy.
+</PredictFirst>
+
+<Stage kind="explain" title="The mole" />
+
+<ConceptCard title="What is a mole?" emoji="🧺">
+A <KeyTerm def="The amount of substance containing 6.022 × 10²³ particles (atoms, molecules or ions). Symbol mol.">mole</KeyTerm> is 6.022 × 10²³ particles, just as a dozen is 12. This number is the <KeyTerm def="The number of particles in one mole: 6.022 × 10²³.">Avogadro constant</KeyTerm> (Nᴀ).
+
+The mass of one mole, the <KeyTerm def="The mass of one mole of a substance, in g/mol. Numerically equal to its atomic or molecular mass.">molar mass</KeyTerm>, equals the atomic or molecular mass in grams: 1 mol of C = 12 g, 1 mol of H₂O = 18 g.
+</ConceptCard>
+
+<Formula tex="n = \frac{m}{M} \qquad N = n \times N_A" caption="n = moles, m = mass (g), M = molar mass (g/mol), N = number of particles" />
+
+<Stage kind="try" title="The Mole Bridge" />
+
+<Lab id="mole-bridge" />
+
+<StepReveal
+  steps={[
+    "Find the molar mass M by adding up the atomic masses (g/mol).",
+    "Grams → moles: divide by M.",
+    "Moles → particles: multiply by 6.022 × 10²³.",
+    "Watch what you're counting: 1 mol of O₂ molecules contains 2 mol of O atoms."
+  ]}
+/>
+
+<DidYouKnow>
+The number is named after Amedeo Avogadro, an Italian scientist who suggested in 1811 that equal volumes of gases contain equal numbers of particles. He never knew the actual number: it was measured nearly 100 years later.
+</DidYouKnow>
+
+<Stage kind="apply" title="Reflect on impacts" />
+
+<Inquiry criterion="D" title="Medicines and moles">
+A paracetamol tablet contains 500 mg of paracetamol (C₈H₉NO₂). Calculate its molar mass, the number of moles in one tablet, and the number of molecules. Explain why doctors and pharmacists must calculate doses precisely.
+</Inquiry>
+
+<CbseCorner source="Exploration (Class 9, 2026) Ch 9 · Earlier NCERT Class 9: Atoms and Molecules">
+- Mole concept; Avogadro number (6.022 × 10²³).
+- Relating mass, moles and number of particles; molar mass.
+</CbseCorner>
+
+<Reflect id="chem9-atoms-mole" prompt="Invent your own everyday 'counting by weighing' example, like the rice grains, to explain the mole to a friend." />

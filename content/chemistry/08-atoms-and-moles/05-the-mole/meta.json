@@ -1,0 +1,57 @@
+{
+  "id": "the-mole",
+  "number": "8.5",
+  "title": "The Mole",
+  "summary": "Avogadro's number, molar mass, and converting between grams, moles and particles.",
+  "emoji": "🧺",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Amount of substance, MYP 4–5 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 9: Atomic Foundations of Matter",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Atoms and Molecules",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can define the mole and the Avogadro constant.",
+    "I can convert between mass, moles and number of particles.",
+    "I can explain why chemists count particles by weighing."
+  ],
+  "misconceptions": [
+    "A mole of every substance has the same mass.",
+    "A mole is a unit of mass.",
+    "One mole of O₂ contains 6.022 × 10²³ oxygen atoms."
+  ],
+  "prerequisites": [
+    "chemistry/atoms-and-moles/molecular-mass"
+  ],
+  "labs": [
+    "mole-bridge"
+  ],
+  "keyTerms": [
+    "mole",
+    "Avogadro constant",
+    "molar mass",
+    "amount of substance"
+  ],
+  "estMinutes": 35
+}

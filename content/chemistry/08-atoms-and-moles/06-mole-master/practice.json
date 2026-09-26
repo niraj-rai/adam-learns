@@ -1,0 +1,111 @@
+{
+  "topicId": "mole-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many moles are in 20 g of calcium? (Ca = 40)",
+      "answer": 0.5,
+      "tolerance": 0,
+      "explain": "20 ÷ 40 = 0.5 mol.",
+      "unit": "mol"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the formula of potassium carbonate? (K⁺, CO₃²⁻)",
+      "options": [
+        "KCO₃",
+        "K(CO₃)₂",
+        "K₂CO₃",
+        "K₃CO₂"
+      ],
+      "answer": 2,
+      "explain": "Two K⁺ balance one CO₃²⁻."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the molecular mass of nitric acid, HNO₃? (H = 1, N = 14, O = 16)",
+      "answer": 63,
+      "tolerance": 0,
+      "explain": "1 + 14 + 48 = 63 u.",
+      "unit": "u"
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "What mass of sodium hydroxide, NaOH, is 0.25 mol? (Na = 23, O = 16, H = 1)",
+      "answer": 10,
+      "tolerance": 0,
+      "explain": "M = 40 g/mol; 0.25 × 40 = 10 g.",
+      "unit": "g"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sulfur has the electron arrangement 2, 8, 6. Which ion does it form?",
+      "options": [
+        "S²⁺",
+        "S²⁻",
+        "S⁶⁻",
+        "S⁶⁺"
+      ],
+      "answer": 1,
+      "explain": "It gains 2 electrons to complete its octet."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Which contains the most molecules?",
+      "options": [
+        "18 g of water, H₂O",
+        "16 g of oxygen gas, O₂",
+        "22 g of carbon dioxide, CO₂",
+        "4 g of hydrogen gas, H₂"
+      ],
+      "answer": 3,
+      "explain": "Moles: H₂ 4 ÷ 2 = 2 mol; O₂ 16 ÷ 32 = 0.5 mol; H₂O 18 ÷ 18 = 1 mol; CO₂ 22 ÷ 44 = 0.5 mol. More moles means more molecules."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain how you would find the number of atoms in a 5.6 g iron nail. (Fe = 56)",
+      "modelAnswer": "First convert mass to moles: n = m ÷ M = 5.6 ÷ 56 = 0.1 mol. Then multiply by the Avogadro constant: N = 0.1 × 6.022 × 10²³ = 6.022 × 10²² atoms.",
+      "rubric": [
+        "Moles = mass ÷ molar mass (0.1 mol)",
+        "Multiply by 6.022 × 10²³",
+        "Correct answer 6.022 × 10²² atoms"
+      ],
+      "explain": "Criterion C: a multi-step calculation."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A student claims that 1 mole of sugar and 1 mole of salt must have the same mass because they are both 1 mole. Explain why they are wrong.",
+      "modelAnswer": "One mole of any substance contains the same number of particles (6.022 × 10²³), but the particles have different masses. A sucrose molecule (342 u) is much heavier than a sodium chloride formula unit (58.5 u), so 1 mol of sugar has a mass of 342 g while 1 mol of salt has a mass of 58.5 g.",
+      "rubric": [
+        "A mole is a number of particles, not a mass",
+        "Particles of different substances have different masses",
+        "Molar masses 342 g vs 58.5 g"
+      ],
+      "explain": "Criterion D: correcting a misconception."
+    }
+  ]
+}

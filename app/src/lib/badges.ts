@@ -73,6 +73,10 @@ export type BadgeId =
   | 'energy-master'
   | 'unit-sound-waves'
   | 'sound-master'
+  | 'unit-mixtures-in-depth'
+  | 'mixture-master'
+  | 'unit-atoms-and-moles'
+  | 'mole-master'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -150,5 +154,9 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'energy-master': { title: 'Energy Master', emoji: '⚡', description: 'Solved ten Grade 9 work, energy and power problems (Boss Challenge)' },
   'unit-sound-waves': { title: 'Wave Rider', emoji: '🌊', description: 'Mastered every core topic in Grade 9 Physics Unit 11: Sound Waves' },
   'sound-master': { title: 'Sound Master', emoji: '🎧', description: 'Solved ten Grade 9 sound problems (Boss Challenge)' },
+  'unit-mixtures-in-depth': { title: 'Solution Specialist', emoji: '🧪', description: 'Mastered every core topic in Grade 9 Chemistry Unit 7: Solutions, Colloids and Suspensions' },
+  'mixture-master': { title: 'Mixture Master', emoji: '🥛', description: 'Solved ten Grade 9 mixtures problems (Boss Challenge)' },
+  'unit-atoms-and-moles': { title: 'Mole Counter', emoji: '⚛️', description: 'Mastered every core topic in Grade 9 Chemistry Unit 8: Atoms, Molecules and the Mole' },
+  'mole-master': { title: 'Mole Master', emoji: '🧺', description: 'Solved ten Grade 9 formula and mole problems (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

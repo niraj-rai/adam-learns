@@ -1,0 +1,35 @@
+{
+  "id": "atoms-and-moles",
+  "number": 8,
+  "stage": "G9",
+  "title": "Atoms, Molecules and the Mole",
+  "summary": "Grade 9: the laws of chemical combination, electron arrangement and valency, ions and formulae, molecular mass, and counting particles with the mole.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Models",
+      "Balance",
+      "Patterns"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Atoms combine in fixed ratios, so chemists can count particles by weighing them and predict the formulae and amounts of the substances they make."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What are the laws of chemical combination?",
+      "What is valency?",
+      "What is a mole?"
+    ],
+    "conceptual": [
+      "How do electron arrangements explain valency?",
+      "Why do chemists count particles in moles rather than one by one?"
+    ],
+    "debatable": [
+      "Was Dalton's atomic theory 'wrong' because atoms can be split?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 (Exploration, 2026) Ch 8: Journey Inside the Atom; Ch 9: Atomic Foundations of Matter",
+    "Earlier NCERT Class 9: Atoms and Molecules; Structure of the Atom"
+  ]
+}

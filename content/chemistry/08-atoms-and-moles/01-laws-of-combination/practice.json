@@ -1,0 +1,115 @@
+{
+  "topicId": "laws-of-combination",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "5.3 g of sodium carbonate reacts with 6 g of ethanoic acid to give 2.2 g of carbon dioxide, 0.9 g of water and some sodium ethanoate. What mass of sodium ethanoate forms?",
+      "answer": 8.2,
+      "tolerance": 0,
+      "explain": "Total before = 11.3 g; 11.3 − 2.2 − 0.9 = 8.2 g.",
+      "unit": "g",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Hydrogen and oxygen combine in the ratio 1 : 8 by mass to form water. What mass of oxygen reacts with 3 g of hydrogen?",
+      "answer": 24,
+      "tolerance": 0,
+      "explain": "3 × 8 = 24 g.",
+      "unit": "g",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which law says that a pure compound always has the same elements in the same ratio by mass?",
+      "options": [
+        "Law of constant proportions",
+        "Newton’s first law",
+        "Law of conservation of energy",
+        "Law of conservation of mass"
+      ],
+      "answer": 0,
+      "explain": "Proust’s law of definite (constant) proportions.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Magnesium ribbon is burnt in an open dish and the ash weighs MORE than the ribbon. Does this break the law of conservation of mass?",
+      "options": [
+        "Yes: the balance must be broken",
+        "No: magnesium gets heavier when hot",
+        "No: oxygen from the air combined with the magnesium",
+        "Yes: mass was created"
+      ],
+      "answer": 2,
+      "explain": "Magnesium + oxygen → magnesium oxide. The extra mass is the oxygen."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which point of Dalton’s theory explains the law of conservation of mass?",
+      "options": [
+        "Atoms are neither created nor destroyed in a chemical reaction",
+        "Atoms of different elements have different masses",
+        "Atoms are very small",
+        "Atoms can be split"
+      ],
+      "answer": 0,
+      "explain": "If atoms are only rearranged, the total mass can’t change."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Carbon and oxygen combine in a 3 : 8 mass ratio to form carbon dioxide. What mass of carbon dioxide forms from 6 g of carbon?",
+      "answer": 22,
+      "tolerance": 0,
+      "explain": "6 g C needs 16 g O; 6 + 16 = 22 g.",
+      "unit": "g"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which part of Dalton’s theory do we now know is not correct?",
+      "options": [
+        "Elements are made of atoms",
+        "Atoms are indivisible",
+        "Atoms combine in whole-number ratios",
+        "Reactions rearrange atoms"
+      ],
+      "answer": 1,
+      "explain": "Atoms contain protons, neutrons and electrons, and can be split in nuclear reactions."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Two students heat 10 g of copper carbonate. One uses an open tube and finds the mass falls to 6.4 g; the other collects all the gas and finds no change in total mass. Explain both results.",
+      "modelAnswer": "Copper carbonate decomposes into copper oxide and carbon dioxide gas. In the open tube the carbon dioxide escapes, so only the solid copper oxide (6.4 g) is weighed and the mass appears to fall. When all the gas is collected and weighed too, the total mass of products equals the mass of reactant, showing the law of conservation of mass.",
+      "rubric": [
+        "Gas (carbon dioxide) is produced",
+        "Open tube: gas escapes so mass seems to drop",
+        "Closed system: total mass conserved"
+      ],
+      "explain": "Criterion B/C: interpreting experimental results."
+    }
+  ]
+}

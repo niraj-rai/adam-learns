@@ -1,0 +1,137 @@
+{
+  "topicId": "chemical-formulae",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the formula of magnesium oxide? (Mg²⁺, O²⁻)",
+      "options": [
+        "Mg₂O₂",
+        "Mg₂O",
+        "MgO",
+        "MgO₂"
+      ],
+      "answer": 2,
+      "explain": "Crossing gives Mg₂O₂; simplify by dividing by 2.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the formula of sodium sulfate? (Na⁺, SO₄²⁻)",
+      "options": [
+        "NaSO₄₂",
+        "Na₂SO₄",
+        "NaSO₄",
+        "Na(SO₄)₂"
+      ],
+      "answer": 1,
+      "explain": "Two Na⁺ balance one SO₄²⁻.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "What is the formula of aluminium sulfate? (Al³⁺, SO₄²⁻)",
+      "options": [
+        "Al₂SO₄₃",
+        "AlSO₄",
+        "Al₃(SO₄)₂",
+        "Al₂(SO₄)₃"
+      ],
+      "answer": 3,
+      "explain": "2 × (+3) = +6 and 3 × (−2) = −6. Brackets for more than one sulfate."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the formula of ammonium chloride? (NH₄⁺, Cl⁻)",
+      "options": [
+        "NH₄Cl",
+        "NHCl₄",
+        "(NH₄)₂Cl",
+        "NH₄Cl₂"
+      ],
+      "answer": 0,
+      "explain": "Both have valency 1, so they combine 1 : 1."
+    },
+    {
+      "id": "q5",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each compound to its formula.",
+      "pairs": [
+        {
+          "left": "Calcium carbonate",
+          "right": "CaCO₃"
+        },
+        {
+          "left": "Calcium hydroxide",
+          "right": "Ca(OH)₂"
+        },
+        {
+          "left": "Potassium nitrate",
+          "right": "KNO₃"
+        },
+        {
+          "left": "Iron(III) oxide",
+          "right": "Fe₂O₃"
+        }
+      ],
+      "explain": "Work each out from the ion charges."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why does calcium hydroxide need brackets, Ca(OH)₂, but calcium chloride doesn’t?",
+      "options": [
+        "Calcium is special",
+        "Brackets show it is a liquid",
+        "OH is a group of atoms that must be doubled together",
+        "Chlorine can’t have a subscript"
+      ],
+      "answer": 2,
+      "explain": "Without brackets, CaOH₂ would mean 1 O and 2 H."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A compound contains Fe³⁺ and Cl⁻ ions. What is its formula?",
+      "options": [
+        "Fe₃Cl",
+        "FeCl₃",
+        "Fe₂Cl₃",
+        "FeCl"
+      ],
+      "answer": 1,
+      "explain": "One Fe³⁺ needs three Cl⁻."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A student writes the formula of aluminium oxide as AlO. Explain the mistake and show how to get the correct formula.",
+      "modelAnswer": "Aluminium ions are Al³⁺ and oxide ions are O²⁻. In AlO the charges would be +3 and −2, which don’t cancel. Criss-crossing the valencies gives Al₂O₃: 2 × (+3) = +6 and 3 × (−2) = −6, a total of zero, so the compound is neutral.",
+      "rubric": [
+        "States the ion charges",
+        "Shows AlO is not neutral",
+        "Derives Al₂O₃ with a charge check"
+      ],
+      "explain": "Criterion A: correcting a formula."
+    }
+  ]
+}

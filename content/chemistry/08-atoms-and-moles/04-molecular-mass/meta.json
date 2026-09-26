@@ -1,0 +1,58 @@
+{
+  "id": "molecular-mass",
+  "number": "8.4",
+  "title": "Atomic and Molecular Mass",
+  "summary": "The atomic mass unit, and adding up the atoms to find molecular and formula unit masses.",
+  "emoji": "🧬",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Relative masses, MYP 4 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 9: Atomic Foundations of Matter",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Atoms and Molecules",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can define the atomic mass unit.",
+    "I can calculate molecular masses and formula unit masses.",
+    "I can calculate the percentage of an element in a compound."
+  ],
+  "misconceptions": [
+    "The molecular mass is the number of atoms.",
+    "Subscripts only apply to the element before them, even with brackets.",
+    "Atomic mass units are grams."
+  ],
+  "prerequisites": [
+    "chemistry/atoms-and-moles/chemical-formulae",
+    "chemistry/atoms/inside-the-atom"
+  ],
+  "labs": [
+    "molecular-mass"
+  ],
+  "keyTerms": [
+    "atomic mass unit",
+    "atomic mass",
+    "molecular mass",
+    "formula unit mass"
+  ],
+  "estMinutes": 25
+}

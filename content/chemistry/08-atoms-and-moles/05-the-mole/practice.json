@@ -1,0 +1,113 @@
+{
+  "topicId": "the-mole",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many moles are in 88 g of carbon dioxide? (M = 44 g/mol)",
+      "answer": 2,
+      "tolerance": 0,
+      "explain": "n = 88 ÷ 44 = 2 mol.",
+      "unit": "mol",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the mass of 0.5 mol of water? (M = 18 g/mol)",
+      "answer": 9,
+      "tolerance": 0,
+      "explain": "m = 0.5 × 18 = 9 g.",
+      "unit": "g",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many molecules are in 1 mole of water?",
+      "options": [
+        "18",
+        "6.022 × 10²³",
+        "6.022 × 10²³ × 18",
+        "3"
+      ],
+      "answer": 1,
+      "explain": "One mole of anything contains 6.022 × 10²³ particles."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many moles of atoms are in 46 g of sodium? (Na = 23)",
+      "answer": 2,
+      "tolerance": 0,
+      "explain": "46 ÷ 23 = 2 mol.",
+      "unit": "mol"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "How many oxygen atoms are in 1 mole of O₂ molecules?",
+      "options": [
+        "32",
+        "3.011 × 10²³",
+        "6.022 × 10²³",
+        "1.2044 × 10²⁴"
+      ],
+      "answer": 3,
+      "explain": "Each O₂ molecule has 2 atoms: 2 × 6.022 × 10²³."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which has the greater mass: 1 mol of hydrogen gas (H₂) or 1 mol of oxygen gas (O₂)?",
+      "options": [
+        "1 mol of O₂ (32 g vs 2 g)",
+        "They have the same mass",
+        "It depends on the temperature",
+        "1 mol of H₂"
+      ],
+      "answer": 0,
+      "explain": "Same number of molecules, but each O₂ is 16 times heavier.",
+      "feedback": {
+        "1": "They have the same NUMBER of molecules, not the same mass."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "How many molecules are in 0.25 mol of glucose? Give your answer ×10²³ (e.g. type 1.5 for 1.5 × 10²³).",
+      "answer": 1.5055,
+      "tolerance": 0.01,
+      "explain": "0.25 × 6.022 × 10²³ = 1.5055 × 10²³.",
+      "unit": "× 10²³"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why chemists use moles instead of counting atoms one by one, and why 12 g of carbon and 24 g of magnesium contain the same number of atoms.",
+      "modelAnswer": "Atoms are far too small and numerous to count individually, so chemists count them by weighing: one mole always contains 6.022 × 10²³ particles, and its mass in grams equals the atomic mass. A magnesium atom (24 u) is twice as heavy as a carbon atom (12 u), so 24 g of magnesium and 12 g of carbon are each one mole and contain the same number of atoms.",
+      "rubric": [
+        "Atoms too small or numerous to count directly",
+        "One mole = 6.022 × 10²³ and molar mass = atomic mass in g",
+        "Mg atoms twice as heavy, so double the mass gives the same number"
+      ],
+      "explain": "Criterion A: explaining the mole concept."
+    }
+  ]
+}

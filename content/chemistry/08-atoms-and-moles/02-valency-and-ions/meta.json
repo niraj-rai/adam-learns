@@ -1,0 +1,60 @@
+{
+  "id": "valency-and-ions",
+  "number": "8.2",
+  "title": "Electron Arrangement, Valency and Ions",
+  "summary": "Electron shells (2, 8, 8), valence electrons, and how atoms lose or gain electrons to form ions.",
+  "emoji": "⚛️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Atomic structure, MYP 4 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 8: Journey Inside the Atom",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Structure of the Atom",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can write electron arrangements for the first 20 elements.",
+    "I can work out valency from the number of outer electrons.",
+    "I can explain how atoms form positive and negative ions."
+  ],
+  "misconceptions": [
+    "Valency is always the number of outer electrons.",
+    "Metals gain electrons to become positive.",
+    "An ion has a different number of protons from its atom."
+  ],
+  "prerequisites": [
+    "chemistry/atoms/electron-shells"
+  ],
+  "labs": [
+    "ion-maker"
+  ],
+  "keyTerms": [
+    "electron arrangement",
+    "valence electrons",
+    "valency",
+    "ion",
+    "cation",
+    "anion",
+    "octet"
+  ],
+  "estMinutes": 30
+}

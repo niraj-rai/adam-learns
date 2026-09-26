@@ -1,0 +1,58 @@
+{
+  "id": "laws-of-combination",
+  "number": "8.1",
+  "title": "Laws of Chemical Combination",
+  "summary": "Conservation of mass, constant proportions and Dalton's atomic theory.",
+  "emoji": "⚖️",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Atomic theory, MYP 4 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 9: Atomic Foundations of Matter",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Atoms and Molecules",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can state the law of conservation of mass and the law of constant proportions.",
+    "I can use them to calculate masses.",
+    "I can describe Dalton's atomic theory and how it explains the laws."
+  ],
+  "misconceptions": [
+    "Mass is lost when a gas is given off.",
+    "Water from different places has different compositions.",
+    "Atoms are destroyed when substances burn."
+  ],
+  "prerequisites": [
+    "chemistry/changes/conservation-of-mass"
+  ],
+  "labs": [
+    "constant-proportions"
+  ],
+  "keyTerms": [
+    "law of conservation of mass",
+    "law of constant proportions",
+    "Dalton's atomic theory",
+    "atom",
+    "molecule"
+  ],
+  "estMinutes": 25
+}

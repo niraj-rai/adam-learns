@@ -1,0 +1,35 @@
+{
+  "id": "mixtures-in-depth",
+  "number": 7,
+  "stage": "G9",
+  "title": "Solutions, Colloids and Suspensions",
+  "summary": "Grade 9: telling solutions, colloids and suspensions apart, the Tyndall effect, concentration by mass and volume, and solubility curves.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": [
+      "Composition",
+      "Form",
+      "Evidence"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "The size of the particles in a mixture decides how it behaves, and measuring concentration precisely lets us make safe medicines, foods and cleaners."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is the Tyndall effect?",
+      "How is the concentration of a solution calculated?",
+      "What is a saturated solution?"
+    ],
+    "conceptual": [
+      "Why do suspensions settle but colloids don't?",
+      "How does temperature affect how much solid dissolves?"
+    ],
+    "debatable": [
+      "Should packaged drinks have to show their sugar concentration in large print?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 (Exploration, 2026) Ch 5: Exploring Mixtures and their Separation",
+    "Earlier NCERT Class 9: Is Matter Around Us Pure?"
+  ]
+}
