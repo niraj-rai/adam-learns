@@ -54,7 +54,8 @@ function RootLayout() {
           <Link to="/privacy" className="underline-offset-2 hover:underline">Privacy policy</Link>
           <Link to="/curriculum" className="underline-offset-2 hover:underline">Curriculum map</Link>
         </nav>
-        <p className="mx-auto mt-3 max-w-2xl">A free, supplementary learning aid, not official course material. IB MYP first, mapped to CBSE/NCERT; not affiliated with IB, CBSE or NCERT. Content may contain mistakes: if in doubt, check your course book or ask your teacher.</p>
+        <p className="mx-auto mt-3 max-w-2xl">💡 Tip: use the same device and browser each time to keep your progress, streak and badges. Moving devices? Export and import it on the <Link to="/progress" className="underline underline-offset-2">Progress</Link> page.</p>
+        <p className="mx-auto mt-2 max-w-2xl">A free, supplementary learning aid, not official course material. IB MYP first, mapped to CBSE/NCERT; not affiliated with IB, CBSE or NCERT. Content may contain mistakes: if in doubt, check your course book or ask your teacher.</p>
       </footer>
       <Toaster />
     </div>

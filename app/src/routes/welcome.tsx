@@ -77,6 +77,7 @@ function Welcome() {
             </label>
           </div>
           <p className="mt-3 text-xs text-muted-foreground">🔒 Your name stays on this device. We never collect or send it anywhere (see the <Link to="/privacy" className="underline">privacy policy</Link>).</p>
+          <p className="mt-2 rounded-xl bg-brand-soft px-3 py-2 text-xs">💡 <b>Use the same device and browser each time.</b> Your progress, badges and streak are saved in this browser, so that's how you keep learning where you left off. Switching devices? Use Export and Import on the Progress page.</p>
           <div className="mt-6 flex justify-end">
             <Button type="submit" size="lg" disabled={!first.trim()} className="bg-brand text-white hover:bg-brand/90">
               Next <ArrowRight />
@@ -260,6 +261,7 @@ function Results({ name, grade, result, onDone }: { name: string; grade: Grade; 
           </ul>
         </div>
       )}
+      <p className="mt-5 rounded-xl bg-brand-soft px-4 py-3 text-sm">💡 Come back on <b>this same device and browser</b> to keep your progress, streak and warm-ups. Moving to another device? Export your progress from the Progress page and import it there.</p>
       {answered > 0 && !warm.length && <p className="mt-5 rounded-xl bg-success-soft px-4 py-3 text-sm">💪 No warm-ups needed: you're ready for your Grade {grade} topics!</p>}
       <div className="mt-6 flex justify-end">
         <Button size="lg" className="bg-brand text-white hover:bg-brand/90" onClick={onDone}>Let's go! <ArrowRight /></Button>
