@@ -1,0 +1,59 @@
+{
+  "id": "triangles",
+  "number": "7.2",
+  "title": "Triangles: Angles and Sides",
+  "summary": "The angle sum of a triangle, exterior angles, types of triangle, and the triangle inequality.",
+  "emoji": "🔺",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Triangle properties are MYP 2 Geometry"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Ch 7: A Tale of Three Intersecting Lines",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 6: The Triangle and its Properties",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can use the angle sum of a triangle.",
+    "I can use the exterior angle property.",
+    "I can decide whether three lengths make a triangle."
+  ],
+  "misconceptions": [
+    "Bigger triangles have bigger angle sums.",
+    "Any three lengths make a triangle.",
+    "A triangle can have two right angles."
+  ],
+  "prerequisites": [
+    "mathematics/geometry/angles-and-parallel-lines"
+  ],
+  "labs": [
+    "triangle-lab"
+  ],
+  "keyTerms": [
+    "angle sum",
+    "exterior angle",
+    "isosceles",
+    "equilateral",
+    "scalene",
+    "triangle inequality"
+  ],
+  "estMinutes": 25
+}

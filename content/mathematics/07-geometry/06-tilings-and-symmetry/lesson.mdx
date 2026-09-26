@@ -1,0 +1,49 @@
+<Stage kind="wonder" title="No gaps allowed" />
+
+<Hook emoji="🐝">
+Look at a bathroom floor, a honeycomb, or the jaali screens of the Taj Mahal. The shapes fit together perfectly, with no gaps and no overlaps. Why do bees choose hexagons? Why are floors square or hexagonal, but never made of regular pentagons?
+</Hook>
+
+<PredictFirst
+  question="Can regular pentagons tile a floor with no gaps?"
+  options={["Yes", "No", "Only large ones", "Only if you alternate colours"]}
+  answer={1}
+>
+Each angle of a regular pentagon is 108°. Three make 324° (a gap), four make 432° (an overlap). Only shapes whose angles divide **360°** exactly can meet at a point.
+</PredictFirst>
+
+<Stage kind="explain" title="Fitting around a point" />
+
+<Compare
+  columns={[
+    { title: "Triangles", emoji: "🔺", points: ["60° × 6 = 360°", "Tile ✅"] },
+    { title: "Squares", emoji: "⬛", points: ["90° × 4 = 360°", "Tile ✅"] },
+    { title: "Hexagons", emoji: "⬡", points: ["120° × 3 = 360°", "Tile ✅"] },
+    { title: "Pentagons", emoji: "⬟", points: ["108° doesn't divide 360°", "Gaps ❌"] }
+  ]}
+/>
+
+<ConceptCard title="Symmetry">
+A shape has <KeyTerm def="A mirror line that splits a shape into two matching halves">line symmetry</KeyTerm> if it can be folded onto itself, and <KeyTerm def="Looking the same after a turn of less than 360°; the order is how many times it fits in one full turn">rotational symmetry</KeyTerm> if it looks the same after a turn. A regular hexagon has 6 lines of symmetry and rotational symmetry of order 6.
+</ConceptCard>
+
+<Stage kind="try" title="Tiling Studio" />
+
+<Lab id="tiling-studio" />
+
+<DidYouKnow>
+Islamic and Mughal artists created stunning geometric tilings using stars and polygons. In 1974, Roger Penrose found tiles that cover a floor completely but **never repeat** the same pattern.
+</DidYouKnow>
+
+<Stage kind="apply" title="Create" />
+
+<Inquiry criterion="D" title="Design a floor">
+Design a floor or wall tiling using at least two different regular polygons. Show that the angles at every corner add to 360°, describe its symmetries, and estimate how many tiles of each type you'd need for a 3 m × 3 m room.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 7 Part 2 Ch 6 · Ganita Prakash 6 Ch 9">
+- Constructions and tilings with regular polygons.
+- Line and rotational symmetry.
+</CbseCorner>
+
+<Reflect id="math-geo-tiling" prompt="Find a tiling or symmetric pattern near you. What shapes and symmetries does it use?" />

@@ -1,0 +1,58 @@
+{
+  "id": "tilings-and-symmetry",
+  "number": "7.6",
+  "title": "Tilings and Symmetry",
+  "summary": "Which shapes fit together with no gaps, line and rotational symmetry, and patterns in art and nature.",
+  "emoji": "🐝",
+  "complexity": 1,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Tessellations and symmetry are MYP 2 Geometry"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Part 2 Ch 6: Constructions and Tilings",
+        "verified": true
+      },
+      {
+        "class": 6,
+        "chapter": "Ganita Prakash Ch 9: Symmetry",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can explain why some regular polygons tile the plane.",
+    "I can find combinations of polygons that meet at a point.",
+    "I can identify line and rotational symmetry."
+  ],
+  "misconceptions": [
+    "All regular polygons can tile a floor.",
+    "Rotational symmetry and line symmetry are the same.",
+    "A shape with no lines of symmetry has no symmetry at all."
+  ],
+  "prerequisites": [
+    "mathematics/geometry/quadrilaterals"
+  ],
+  "labs": [
+    "tiling-studio"
+  ],
+  "keyTerms": [
+    "tessellation",
+    "tiling",
+    "line of symmetry",
+    "rotational symmetry",
+    "order of symmetry"
+  ],
+  "estMinutes": 25
+}

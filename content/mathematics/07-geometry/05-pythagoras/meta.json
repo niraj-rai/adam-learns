@@ -1,0 +1,58 @@
+{
+  "id": "pythagoras",
+  "number": "7.5",
+  "title": "The Baudhayana–Pythagoras Theorem",
+  "summary": "In a right-angled triangle, a² + b² = c². Squares on sides, triples, testing right angles, and real problems.",
+  "emoji": "📏",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Pythagoras' theorem is MYP 3 Geometry"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 2: The Baudhayana–Pythagoras Theorem",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 6: The Triangle and its Properties",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can use a² + b² = c² to find a missing side.",
+    "I can test whether a triangle is right-angled.",
+    "I can solve real problems using the theorem."
+  ],
+  "misconceptions": [
+    "The theorem works for every triangle.",
+    "To find a shorter side, you add the squares.",
+    "The hypotenuse can be any side."
+  ],
+  "prerequisites": [
+    "mathematics/geometry/triangles",
+    "mathematics/squares-and-roots/square-roots"
+  ],
+  "labs": [
+    "pythagoras-lab"
+  ],
+  "keyTerms": [
+    "hypotenuse",
+    "right-angled triangle",
+    "Pythagorean triple",
+    "converse"
+  ],
+  "estMinutes": 30
+}

@@ -1,0 +1,113 @@
+{
+  "topicId": "tilings-and-symmetry",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is each interior angle of a regular hexagon?",
+      "answer": 120,
+      "unit": "°",
+      "explain": "(6 − 2) × 180 ÷ 6 = 120.",
+      "tolerance": 0
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which regular polygon can tile a floor on its own?",
+      "options": [
+        "Pentagon",
+        "Octagon",
+        "Square",
+        "Heptagon"
+      ],
+      "answer": 2,
+      "explain": "90° × 4 = 360°."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "B",
+      "prompt": "How many equilateral triangles fit together around one point?",
+      "answer": 6,
+      "explain": "360 ÷ 60 = 6.",
+      "tolerance": 0
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many lines of symmetry does a regular hexagon have?",
+      "options": [
+        "2",
+        "12",
+        "3",
+        "6"
+      ],
+      "answer": 3,
+      "explain": "A regular n-gon has n lines of symmetry.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the order of rotational symmetry of a square?",
+      "options": [
+        "8",
+        "4",
+        "2",
+        "1"
+      ],
+      "answer": 1,
+      "explain": "It looks the same after turns of 90°, 180°, 270° and 360°.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "A square and two identical regular polygons fit exactly around a point. How many sides do those polygons have?",
+      "answer": 8,
+      "explain": "90 + 2x = 360, so x = 135°, which is a regular octagon's angle.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Why do honeybees build hexagonal cells?",
+      "options": [
+        "Hexagons tile with no gaps and hold the most honey for the least wax",
+        "Hexagons are the easiest shape to draw",
+        "Hexagons have right angles",
+        "Bees can only count to six"
+      ],
+      "answer": 0,
+      "explain": "Of the shapes that tile, hexagons enclose the most area for a given perimeter."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which capital letter has rotational symmetry but no line of symmetry?",
+      "options": [
+        "T",
+        "A",
+        "M",
+        "N"
+      ],
+      "answer": 3,
+      "explain": "N looks the same after a half-turn but has no mirror line."
+    }
+  ]
+}

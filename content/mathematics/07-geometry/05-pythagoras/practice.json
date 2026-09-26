@@ -1,0 +1,107 @@
+{
+  "topicId": "pythagoras",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A right-angled triangle has legs 5 cm and 12 cm. Find the hypotenuse.",
+      "answer": 13,
+      "unit": "cm",
+      "explain": "25 + 144 = 169; √169 = 13.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A right-angled triangle has hypotenuse 17 cm and one leg 8 cm. Find the other leg.",
+      "answer": 15,
+      "unit": "cm",
+      "explain": "289 − 64 = 225; √225 = 15.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which set of lengths makes a right-angled triangle?",
+      "options": [
+        "6, 7, 8",
+        "7, 24, 25",
+        "5, 6, 7",
+        "4, 5, 7"
+      ],
+      "answer": 1,
+      "explain": "49 + 576 = 625 = 25²."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A 10 m ladder leans against a wall with its foot 6 m from the wall. How high does it reach?",
+      "answer": 8,
+      "unit": "m",
+      "explain": "100 − 36 = 64; √64 = 8.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A TV screen is 32 inches wide and 24 inches high. How long is its diagonal?",
+      "answer": 40,
+      "unit": "inches",
+      "explain": "1024 + 576 = 1600; √1600 = 40.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "3, 4, 5 is a Pythagorean triple. Is 9, 12, 15?",
+      "options": [
+        "Yes: it is 3, 4, 5 multiplied by 3",
+        "No, because 9 is odd",
+        "Only if 15 is the shortest side",
+        "No, triples can't be multiplied"
+      ],
+      "answer": 0,
+      "explain": "81 + 144 = 225 = 15²."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "A rectangular park is 40 m by 30 m. How many metres do you save by walking along the diagonal instead of along two sides?",
+      "answer": 20,
+      "unit": "m",
+      "explain": "Two sides: 70 m. Diagonal: √(1600 + 900) = 50 m. Saving: 20 m.",
+      "tolerance": 0
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which ancient Indian text states this theorem, centuries before Pythagoras?",
+      "options": [
+        "The Mahābhārata",
+        "The Baudhāyana Śulba Sūtra",
+        "The Arthaśāstra",
+        "The Pañcatantra"
+      ],
+      "answer": 1,
+      "explain": "The Śulba Sūtras are texts on constructing fire altars."
+    }
+  ]
+}

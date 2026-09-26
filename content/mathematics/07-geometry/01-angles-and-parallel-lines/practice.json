@@ -1,0 +1,110 @@
+{
+  "topicId": "angles-and-parallel-lines",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Two lines cross. One angle is 72°. What is the vertically opposite angle?",
+      "answer": 72,
+      "unit": "°",
+      "explain": "Vertically opposite angles are equal.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Two angles form a linear pair (a straight line). One is 125°. Find the other.",
+      "answer": 55,
+      "unit": "°",
+      "explain": "They add to 180°.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Two parallel lines are cut by a transversal. One angle is 70°. What is the corresponding angle?",
+      "options": [
+        "140°",
+        "70°",
+        "110°",
+        "20°"
+      ],
+      "answer": 1,
+      "explain": "Corresponding angles are equal when lines are parallel."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Two parallel lines are cut by a transversal. One co-interior angle is 118°. Find the other.",
+      "answer": 62,
+      "unit": "°",
+      "explain": "Co-interior angles add to 180°.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "A transversal (not perpendicular) crosses two parallel lines, making 8 angles. How many different angle sizes are there?",
+      "options": [
+        "1",
+        "4",
+        "2",
+        "8"
+      ],
+      "answer": 2,
+      "explain": "Every angle is either θ or 180° − θ."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Two angles are complementary. One is 35°. Find the other.",
+      "answer": 55,
+      "unit": "°",
+      "explain": "Complementary angles add to 90°.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain how you could use a transversal and a protractor to check whether two lines painted on a playground are parallel.",
+      "modelAnswer": "Draw (or imagine) a straight line crossing both painted lines. Measure a pair of corresponding (or alternate) angles with a protractor. If they are equal, the lines are parallel; if they are different, the lines are not parallel. (Or check that co-interior angles add to 180°.)",
+      "rubric": [
+        "Uses a transversal",
+        "Measures a named angle pair",
+        "States the condition for parallel lines"
+      ],
+      "explain": "Criterion C: explain a method clearly."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "When two parallel lines are cut by a transversal, alternate interior angles are…",
+      "options": [
+        "always 90°",
+        "equal",
+        "supplementary",
+        "complementary"
+      ],
+      "answer": 1,
+      "explain": "They form a Z shape and are equal."
+    }
+  ]
+}

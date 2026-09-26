@@ -1,0 +1,111 @@
+{
+  "topicId": "triangles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A triangle has angles 45°, 75° and x. Find x.",
+      "answer": 60,
+      "unit": "°",
+      "explain": "180 − 45 − 75 = 60.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "An exterior angle of a triangle is 130°. One interior opposite angle is 70°. Find the other.",
+      "answer": 60,
+      "unit": "°",
+      "explain": "Exterior angle = sum of the interior opposite angles: 130 − 70 = 60.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Can lengths 5 cm, 7 cm and 13 cm make a triangle?",
+      "options": [
+        "Only if it is isosceles",
+        "No, because 5 + 7 < 13",
+        "Only if it is right-angled",
+        "Yes"
+      ],
+      "answer": 1,
+      "explain": "The two shorter sides must add to more than the longest."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A triangle has angles 30°, 60° and 90°. What type is it?",
+      "options": [
+        "Acute-angled",
+        "Obtuse-angled",
+        "Right-angled",
+        "Equilateral"
+      ],
+      "answer": 2,
+      "explain": "It has a 90° angle."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "An isosceles triangle has a top (vertex) angle of 40°. What is each base angle?",
+      "answer": 70,
+      "unit": "°",
+      "explain": "(180 − 40) ÷ 2 = 70.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Why do the angles of every triangle add to 180°?",
+      "options": [
+        "Because 3 × 60 = 180",
+        "Only equilateral triangles do",
+        "A line through one corner, parallel to the opposite side, makes alternate angles that together form a straight line",
+        "Because triangles have three sides"
+      ],
+      "answer": 2,
+      "explain": "The three angles fit together along a straight line."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A roof truss is an isosceles triangle with base angles of 35°. What is the angle at the top?",
+      "answer": 110,
+      "unit": "°",
+      "explain": "180 − 35 − 35 = 110.",
+      "tolerance": 0
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Two sides of a triangle are 4 cm and 9 cm. The third side must be…",
+      "options": [
+        "more than 5 cm and less than 13 cm",
+        "more than 13 cm",
+        "less than 5 cm",
+        "exactly 13 cm"
+      ],
+      "answer": 0,
+      "explain": "Difference < third side < sum."
+    }
+  ]
+}

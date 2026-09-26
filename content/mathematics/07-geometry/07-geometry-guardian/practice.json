@@ -1,0 +1,104 @@
+{
+  "topicId": "geometry-guardian",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Two parallel lines are cut by a transversal. One interior angle is 65°. What is the alternate interior angle?",
+      "answer": 65,
+      "unit": "°",
+      "explain": "Alternate angles are equal.",
+      "tolerance": 0
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Two angles of a triangle are 50° and 60°. Find the third.",
+      "answer": 70,
+      "unit": "°",
+      "explain": "180 − 110.",
+      "tolerance": 0
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Can 3 cm, 4 cm and 8 cm make a triangle?",
+      "options": [
+        "Only a right-angled one",
+        "Yes",
+        "Only an isosceles one",
+        "No"
+      ],
+      "answer": 3,
+      "explain": "3 + 4 < 8."
+    },
+    {
+      "id": "q4",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Choose one Geometry Guardian problem. State the geometric fact you used and explain your reasoning.",
+      "modelAnswer": "For the ladder problem, I used the Baudhayana–Pythagoras theorem because the wall and ground make a right angle and the ladder is the hypotenuse. h² = 13² − 5² = 169 − 25 = 144, so h = 12 m. It makes sense because 12 m is less than the ladder's length.",
+      "rubric": [
+        "States the fact used",
+        "Explains why it applies",
+        "Shows working and a sense check"
+      ],
+      "explain": "Criterion C: justify with reasons."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A right-angled triangle has legs 6 cm and 8 cm. Find the hypotenuse.",
+      "answer": 10,
+      "unit": "cm",
+      "explain": "36 + 64 = 100.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A 13 m ladder's foot is 5 m from a wall. How high does it reach?",
+      "answer": 12,
+      "unit": "m",
+      "explain": "169 − 25 = 144.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the sum of the interior angles of a pentagon?",
+      "answer": 540,
+      "unit": "°",
+      "explain": "(5 − 2) × 180.",
+      "tolerance": 0
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which regular polygon cannot tile a floor on its own?",
+      "options": [
+        "Square",
+        "Hexagon",
+        "Equilateral triangle",
+        "Pentagon"
+      ],
+      "answer": 3,
+      "explain": "108° doesn't divide 360°."
+    }
+  ]
+}

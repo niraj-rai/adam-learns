@@ -1,0 +1,61 @@
+{
+  "id": "quadrilaterals",
+  "number": "7.4",
+  "title": "Quadrilaterals and Polygons",
+  "summary": "The quadrilateral family and its properties, and the angle sums of polygons.",
+  "emoji": "🔷",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Classifying quadrilaterals by properties is MYP 3 Geometry"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 4: Quadrilaterals",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 3: Understanding Quadrilaterals",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can describe the properties of special quadrilaterals.",
+    "I can explain how quadrilaterals are related (e.g. every square is a rectangle).",
+    "I can find interior and exterior angles of polygons."
+  ],
+  "misconceptions": [
+    "A square is not a rectangle.",
+    "The diagonals of every parallelogram are equal.",
+    "Angle sums are the same for all polygons."
+  ],
+  "prerequisites": [
+    "mathematics/geometry/triangles"
+  ],
+  "labs": [
+    "quad-family"
+  ],
+  "keyTerms": [
+    "parallelogram",
+    "rhombus",
+    "rectangle",
+    "trapezium",
+    "kite",
+    "diagonal",
+    "interior angle",
+    "exterior angle"
+  ],
+  "estMinutes": 30
+}

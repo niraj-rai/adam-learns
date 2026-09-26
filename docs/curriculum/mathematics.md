@@ -89,11 +89,24 @@ CBSE mapping uses the new *Ganita Prakash* books (GP 6; GP 7 Parts 1–2; GP 8 P
 | 6.6 | Interest, growth and depreciation | MYP 3 | GP 8 P2 Ch 1 ✅, earlier NCERT 8 Ch 7 ✅ | ★★★ | **Interest and Growth**: SI vs CI chart; depreciation |
 | 6.7 | Boss: Market Master | MYP 3 | Mixed | ★★★ | 10 real-life problems (3 lives) |
 
-### Units 7–9 (planned)
+### Unit 7: Geometry: Angles, Shapes and Pythagoras ✅ built
+
+*IB Key Concept:* **Logic** · *Related:* Space, Justification, Generalization · *Global Context:* Personal and cultural expression
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 7.1 | Angles and parallel lines | MYP 2 | GP 7 Ch 5 ✅, earlier NCERT 7 Ch 5 ✅ | ★ | **Angle Explorer**: F/Z/C pairs; toggle non-parallel |
+| 7.2 | Triangles: angles and sides | MYP 2 | GP 7 Ch 7 ✅, earlier NCERT 7 Ch 6 ✅ | ★ | **Triangle Lab**: drag corners; triangle inequality |
+| 7.3 | Geometric twins: congruence | MYP 3 | GP 7 P2 Ch 1 ✅ | ★★ | **Geometric Twins**: SSS/SAS/ASA/AAS/RHS vs AAA/SSA |
+| 7.4 | Quadrilaterals and polygons | MYP 3 | GP 8 Ch 4 ✅, earlier NCERT 8 Ch 3 ✅ | ★★ | **Quadrilateral Family**: properties; polygon angle sums |
+| 7.5 | Baudhayana–Pythagoras theorem | MYP 3 | GP 8 P2 Ch 2 ✅, earlier NCERT 7 Ch 6 ✅ | ★★ | **Baudhayana–Pythagoras Lab**: squares, converse, ladder |
+| 7.6 | Tilings and symmetry | MYP 2 | GP 7 P2 Ch 6 ✅, GP 6 Ch 9 ✅ | ★ | **Tiling Studio**: one shape or mixed at a vertex |
+| 7.7 | Boss: Geometry Guardian | MYP 3 | Mixed | ★★★ | 10 problems (3 lives) |
+
+### Units 8–9 (planned)
 
 | Unit | Topics | IB | CBSE | ★ | Signature labs |
 |---|---|---|---|---|---|
-| 7. Geometry: Angles, Shapes & Pythagoras | Parallel lines and transversals, triangles, congruence, quadrilaterals, constructions, Baudhayana–Pythagoras theorem | MYP 1–3 | GP 7 Ch 5, 7, P2 Ch 1, 6; GP 8 Ch 4, P2 Ch 2 | ★★★ | **Geometry Sandbox**, Pythagoras Proof |
 | 8. Mensuration | Area of polygons, surface area and volume, nets, solids and projections | MYP 2–3 | GP 8 P2 Ch 4, 7; earlier NCERT 8 Ch 9 | ★★★ | **Net Folder** |
 | 9. Data Handling & Probability | Dot plots, mean/median, frequency, pie charts, basic probability | MYP 1–3 | GP 7 P2 Ch 5; GP 8 P2 Ch 3, 5; earlier NCERT 8 Ch 4 | ★★ | **Dice & Spinner**, Chart Maker |
 

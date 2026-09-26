@@ -1,0 +1,37 @@
+{
+  "id": "geometry",
+  "number": 7,
+  "title": "Geometry: Angles, Shapes and Pythagoras",
+  "summary": "Angles with parallel lines, triangles and their angle sum, congruent twins, the quadrilateral family, the Baudhayana–Pythagoras theorem, and tilings that fit perfectly.",
+  "ib": {
+    "keyConcept": "Logic",
+    "relatedConcepts": [
+      "Space",
+      "Justification",
+      "Generalization"
+    ],
+    "globalContext": "Personal and cultural expression",
+    "statementOfInquiry": "Logical reasoning about space lets us justify geometric properties that artists, architects and engineers rely on."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What angle relationships appear when a transversal crosses parallel lines?",
+      "What is the Baudhayana–Pythagoras theorem?",
+      "Which regular polygons tile the plane?"
+    ],
+    "conceptual": [
+      "Why do the angles of a triangle always add to 180°?",
+      "Why are some sets of measurements enough to fix a triangle, and others not?"
+    ],
+    "debatable": [
+      "Should the theorem be called the Baudhayana theorem, the Pythagoras theorem, or both?",
+      "Is geometry discovered or invented?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 7 (Ganita Prakash) Ch 5: Parallel and Intersecting Lines; Ch 7: A Tale of Three Intersecting Lines",
+    "Class 7 (Ganita Prakash) Part 2 Ch 1: Geometric Twins; Ch 6: Constructions and Tilings",
+    "Class 8 (Ganita Prakash) Ch 4: Quadrilaterals; Part 2 Ch 2: The Baudhayana–Pythagoras Theorem",
+    "Earlier NCERT Class 7 Ch 5–6; Class 8 Ch 3: Understanding Quadrilaterals"
+  ]
+}

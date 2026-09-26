@@ -1,0 +1,122 @@
+{
+  "topicId": "congruence",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which of these is a valid congruence test?",
+      "options": [
+        "SSA",
+        "AAA",
+        "AA",
+        "SAS"
+      ],
+      "answer": 3,
+      "explain": "Two sides and the included angle fix a triangle.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In triangles ABC and PQR, AB = PQ, BC = QR and CA = RP. They are congruent by…",
+      "options": [
+        "SAS",
+        "ASA",
+        "SSS",
+        "RHS"
+      ],
+      "answer": 2,
+      "explain": "All three sides match.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Why is AAA (all angles equal) not enough for congruence?",
+      "options": [
+        "Triangles only have two angles",
+        "It is enough",
+        "The triangles could be the same shape but different sizes",
+        "Angles can't be measured accurately"
+      ],
+      "answer": 2,
+      "explain": "An enlargement keeps the angles but changes the size."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The RHS test can only be used for…",
+      "options": [
+        "right-angled triangles",
+        "any triangle",
+        "isosceles triangles",
+        "equilateral triangles"
+      ],
+      "answer": 0,
+      "explain": "R stands for right angle."
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain why knowing two sides and an angle that is NOT between them (SSA) doesn't guarantee congruence.",
+      "modelAnswer": "If the angle isn't between the two sides, the side opposite the angle can swing to two different positions and still have the right length. This can make two different triangles with the same SSA measurements, so the triangles are not necessarily congruent.",
+      "rubric": [
+        "The side can swing",
+        "Two different triangles are possible",
+        "Conclusion"
+      ],
+      "explain": "Criterion C: explain with reasoning (a sketch helps)."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "If two triangles are congruent, their corresponding sides and angles are…",
+      "options": [
+        "in proportion",
+        "supplementary",
+        "different",
+        "equal"
+      ],
+      "answer": 3,
+      "explain": "CPCT: corresponding parts of congruent triangles are equal."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A triangle has ∠A = 50° and ∠B = 70°. What is ∠C?",
+      "answer": 60,
+      "unit": "°",
+      "explain": "180 − 50 − 70.",
+      "tolerance": 0
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "B",
+      "prompt": "If two triangles are congruent, their areas are…",
+      "options": [
+        "different",
+        "impossible to compare",
+        "equal",
+        "doubled"
+      ],
+      "answer": 2,
+      "explain": "They are identical copies."
+    }
+  ]
+}

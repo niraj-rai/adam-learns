@@ -1,0 +1,54 @@
+{
+  "id": "congruence",
+  "number": "7.3",
+  "title": "Geometric Twins: Congruence",
+  "summary": "When are two triangles exactly the same? The SSS, SAS, ASA and RHS tests, and why AAA and SSA fail.",
+  "emoji": "👯",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Congruence criteria are MYP 3 Geometry (proof)"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Part 2 Ch 1: Geometric Twins",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can use the SSS, SAS, ASA/AAS and RHS tests for congruence.",
+    "I can explain why AAA and SSA are not enough.",
+    "I can use congruence to find missing sides and angles."
+  ],
+  "misconceptions": [
+    "Triangles with equal angles are always congruent.",
+    "Any three equal measurements prove congruence.",
+    "Congruent triangles must face the same way."
+  ],
+  "prerequisites": [
+    "mathematics/geometry/triangles"
+  ],
+  "labs": [
+    "congruence-checker"
+  ],
+  "keyTerms": [
+    "congruent",
+    "SSS",
+    "SAS",
+    "ASA",
+    "RHS",
+    "corresponding parts"
+  ],
+  "estMinutes": 25
+}

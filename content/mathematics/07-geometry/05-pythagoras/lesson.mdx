@@ -1,0 +1,48 @@
+<Stage kind="wonder" title="The ancient rope trick" />
+
+<Hook emoji="📏">
+More than 2,500 years ago, Indian priests building fire altars needed perfect right angles. The **Baudhāyana Śulba Sūtra** describes how: a rope stretched along the diagonal of a rectangle makes an area equal to the areas made by the two sides together. Centuries later, the Greeks credited Pythagoras. Today we write it simply as **a² + b² = c²**.
+</Hook>
+
+<PredictFirst
+  question="A right-angled triangle has shorter sides 3 and 4. How long is the longest side?"
+  options={["7", "5", "6", "12"]}
+  answer={1}
+>
+3² + 4² = 9 + 16 = 25, and √25 = **5**. The square on the longest side has the same area as the other two squares together.
+</PredictFirst>
+
+<Stage kind="explain" title="The theorem" />
+
+<Formula tex="a^2 + b^2 = c^2" caption="In a right-angled triangle, c is the hypotenuse (the side opposite the right angle)" />
+
+<StepReveal
+  steps={[
+    "Find the hypotenuse: add the squares, then square-root. Legs 5 and 12: 25 + 144 = 169, c = 13.",
+    "Find a shorter side: subtract the squares. c = 17, a = 8: 289 − 64 = 225, b = 15.",
+    "Check a right angle (the converse): if a² + b² = c², the angle opposite c is 90°.",
+    "Pythagorean triples are whole-number sets: 3-4-5, 5-12-13, 8-15-17, 7-24-25.",
+    "Multiply a triple and you get another: 6-8-10, 9-12-15."
+  ]}
+/>
+
+<Stage kind="try" title="Baudhayana–Pythagoras Lab" />
+
+<Lab id="pythagoras-lab" />
+
+<RealLife>
+Builders still use the **3-4-5 rule**: mark 3 m along one wall and 4 m along the other; if the diagonal is exactly 5 m, the corner is a perfect right angle. GPS, screen sizes and ramp designs all use the same theorem.
+</RealLife>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="Square corners at home">
+Use a measuring tape and the 3-4-5 rule (or 30-40-50 cm) to check whether a room corner, table or door frame is truly square. Record your measurements, apply the theorem, and explain your conclusion.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Part 2 Ch 2 · Earlier NCERT 7 Ch 6">
+- The Baudhāyana–Pythagoras theorem and its converse; Pythagorean triples.
+- Word problems: ladders, diagonals, distances.
+</CbseCorner>
+
+<Reflect id="math-geo-pythagoras" prompt="Should we call it the Baudhāyana theorem, the Pythagoras theorem, or both? Give your reasons." />

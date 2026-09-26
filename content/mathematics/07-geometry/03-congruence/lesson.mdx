@@ -1,0 +1,47 @@
+<Stage kind="wonder" title="Perfect copies" />
+
+<Hook emoji="👯">
+A factory makes thousands of identical triangular brackets. The quality inspector can't measure everything on every bracket. What is the **least** she needs to check to be sure a bracket is an exact copy? Mathematicians worked out exactly which measurements are enough.
+</Hook>
+
+<PredictFirst
+  question="Two triangles have exactly the same three angles. Must they be identical?"
+  options={["Yes, always", "No, one could be bigger", "Only if they're right-angled", "Only if they're isosceles"]}
+  answer={1}
+>
+Same angles means the same **shape**, but not the same size. A photo and its enlargement have the same angles. These triangles are *similar*, not *congruent*.
+</PredictFirst>
+
+<Stage kind="explain" title="The congruence tests" />
+
+<ConceptCard title="Congruent">
+Two shapes are <KeyTerm def="Exactly the same shape and size; one can be moved, turned or flipped to fit exactly on the other">congruent</KeyTerm> if one fits exactly on the other, even if you have to turn or flip it. Then all their <b>corresponding parts</b> are equal.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Always enough ✅", emoji: "✅", points: ["SSS: three sides", "SAS: two sides + included angle", "ASA / AAS: two angles + a side", "RHS: right angle, hypotenuse, side"] },
+    { title: "Not enough ❌", emoji: "❌", points: ["AAA: same shape, any size", "SSA: the side can swing into two positions"] }
+  ]}
+/>
+
+<Stage kind="try" title="Geometric Twins" />
+
+<Lab id="congruence-checker" />
+
+<RealLife>
+Bridges and roof trusses are built from triangles because a triangle with fixed sides **can't change shape** (SSS). A square frame can squash into a rhombus, but a triangle stays rigid.
+</RealLife>
+
+<Stage kind="apply" title="Communicate" />
+
+<Inquiry criterion="C" title="Prove it">
+In triangle ABC, AB = AC. Draw the line from A to the midpoint M of BC. Use a congruence test to prove that triangles ABM and ACM are congruent, and explain what this tells you about ∠B and ∠C. Write each step with its reason.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 7 Part 2 Ch 1">
+- Congruent figures; congruence of triangles: SSS, SAS, ASA, RHS.
+- Properties of isosceles and equilateral triangles.
+</CbseCorner>
+
+<Reflect id="math-geo-congruence" prompt="Why do you think triangles are used so much in construction?" />

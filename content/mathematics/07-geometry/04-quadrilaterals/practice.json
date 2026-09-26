@@ -1,0 +1,109 @@
+{
+  "topicId": "quadrilaterals",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A quadrilateral has angles 80°, 95°, 110° and x. Find x.",
+      "answer": 75,
+      "unit": "°",
+      "explain": "360 − 80 − 95 − 110 = 75.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which statement is true?",
+      "options": [
+        "Every rectangle is a square",
+        "Every rhombus is a square",
+        "Every square is a rectangle",
+        "Every parallelogram is a rectangle"
+      ],
+      "answer": 2,
+      "explain": "A square has all a rectangle's properties.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the sum of the interior angles of a hexagon?",
+      "answer": 720,
+      "unit": "°",
+      "explain": "(6 − 2) × 180 = 720.",
+      "tolerance": 0
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is each interior angle of a regular octagon?",
+      "answer": 135,
+      "unit": "°",
+      "explain": "(8 − 2) × 180 ÷ 8 = 135.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Each exterior angle of a regular polygon is 30°. How many sides does it have?",
+      "answer": 12,
+      "explain": "360 ÷ 30 = 12.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "The diagonals of a rhombus…",
+      "options": [
+        "are parallel",
+        "bisect each other at right angles",
+        "are always equal",
+        "never cross"
+      ],
+      "answer": 1,
+      "explain": "Rhombus diagonals are perpendicular bisectors."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Which quadrilateral has two pairs of equal adjacent sides but no parallel sides (in general)?",
+      "options": [
+        "Parallelogram",
+        "Kite",
+        "Trapezium",
+        "Rectangle"
+      ],
+      "answer": 1,
+      "explain": "Think of a flying kite."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why the angles of any quadrilateral add to 360°.",
+      "modelAnswer": "Draw a diagonal from one corner to the opposite corner. It splits the quadrilateral into two triangles. The angles of each triangle add to 180°, and together the triangles' angles make up exactly the angles of the quadrilateral, so the total is 2 × 180° = 360°.",
+      "rubric": [
+        "Splits into two triangles",
+        "Uses the 180° triangle sum",
+        "Concludes 360°"
+      ],
+      "explain": "Criterion C: a clear justification."
+    }
+  ]
+}

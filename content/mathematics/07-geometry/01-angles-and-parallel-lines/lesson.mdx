@@ -1,0 +1,48 @@
+<Stage kind="wonder" title="Railway tracks" />
+
+<Hook emoji="🛤️">
+Railway tracks must stay exactly parallel for hundreds of kilometres. Where a road crosses them, it makes eight angles, but look closely and you'll see only **two different sizes**. Engineers use these angle patterns to check that lines really are parallel.
+</Hook>
+
+<PredictFirst
+  question="Two lines cross, and one angle is 40°. What is the angle directly opposite it?"
+  options={["140°", "40°", "50°", "320°"]}
+  answer={1}
+>
+**Vertically opposite** angles are equal: 40°. The angles next to it form straight lines with it, so they are 180° − 40° = 140°.
+</PredictFirst>
+
+<Stage kind="explain" title="Angle families" />
+
+<Compare
+  columns={[
+    { title: "Corresponding", emoji: "🟦", points: ["Same position at each crossing", "Like an F shape", "Equal"] },
+    { title: "Alternate interior", emoji: "🟩", points: ["Between the lines, opposite sides", "Like a Z shape", "Equal"] },
+    { title: "Co-interior", emoji: "🟧", points: ["Between the lines, same side", "Like a C or U shape", "Add to 180°"] }
+  ]}
+/>
+
+<ConceptCard title="Only when parallel">
+These three rules work **only** when the lines are parallel. Turn it around: if a pair of corresponding (or alternate) angles is equal, the lines **must** be parallel. That's how carpenters and surveyors test for parallel lines.
+</ConceptCard>
+
+<Stage kind="try" title="Angle Explorer" />
+
+<Lab id="angle-explorer" />
+
+<MythFact myth="Alternate angles are always equal.">
+Only when the two lines are parallel. In the lab, tick “Make the lines NOT parallel” and watch the equal pairs split apart.
+</MythFact>
+
+<Stage kind="apply" title="Communicate" />
+
+<Inquiry criterion="C" title="Angle-chasing proof">
+Draw two parallel lines and a transversal. Label one angle x. Using only the angle facts from this lesson, find all seven other angles in terms of x, and write the reason for each step (e.g. “vertically opposite”).
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 7 Ch 5 · Earlier NCERT 7 Ch 5">
+- Complementary, supplementary, adjacent, linear pair and vertically opposite angles.
+- Parallel lines and a transversal: corresponding, alternate and co-interior angles.
+</CbseCorner>
+
+<Reflect id="math-geo-angles" prompt="Where do you see parallel lines and transversals around your home or school?" />

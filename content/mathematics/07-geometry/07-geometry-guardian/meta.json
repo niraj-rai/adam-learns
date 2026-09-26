@@ -1,0 +1,61 @@
+{
+  "id": "geometry-guardian",
+  "number": "7.7",
+  "title": "Boss Challenge: Geometry Guardian",
+  "summary": "Ten problems on angles, triangles, quadrilaterals, Pythagoras and tiling. Three lives!",
+  "emoji": "🛡️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Ch 5: Parallel and Intersecting Lines",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 4: Quadrilaterals",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 2: The Baudhayana–Pythagoras Theorem",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply geometric facts to solve problems.",
+    "I can justify my answers with reasons."
+  ],
+  "misconceptions": [
+    "Diagrams are always drawn to scale."
+  ],
+  "prerequisites": [
+    "mathematics/geometry/pythagoras",
+    "mathematics/geometry/tilings-and-symmetry",
+    "mathematics/geometry/congruence"
+  ],
+  "labs": [
+    "geometry-guardian"
+  ],
+  "keyTerms": [
+    "angle",
+    "triangle",
+    "hypotenuse",
+    "tessellation"
+  ],
+  "estMinutes": 20
+}

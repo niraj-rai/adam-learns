@@ -1,0 +1,57 @@
+{
+  "id": "angles-and-parallel-lines",
+  "number": "7.1",
+  "title": "Angles and Parallel Lines",
+  "summary": "Vertically opposite and linear pairs; corresponding, alternate and co-interior angles.",
+  "emoji": "📐",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Angle relationships are MYP 2 Geometry"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Ch 5: Parallel and Intersecting Lines",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 5: Lines and Angles",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can find angles using vertically opposite angles and linear pairs.",
+    "I can identify corresponding, alternate and co-interior angles.",
+    "I can use angle facts to check whether lines are parallel."
+  ],
+  "misconceptions": [
+    "Alternate angles are equal even when lines aren't parallel.",
+    "Co-interior angles are equal.",
+    "Angle size depends on the length of the arms."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "angle-explorer"
+  ],
+  "keyTerms": [
+    "transversal",
+    "corresponding angles",
+    "alternate angles",
+    "co-interior angles",
+    "vertically opposite",
+    "linear pair"
+  ],
+  "estMinutes": 25
+}

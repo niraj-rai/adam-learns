@@ -59,6 +59,8 @@ export type BadgeId =
   | 'equation-escape'
   | 'unit-proportion'
   | 'market-master'
+  | 'unit-geometry'
+  | 'geometry-guardian'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -122,5 +124,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'equation-escape': { title: 'Escape Artist', emoji: '🗝️', description: 'Opened ten locks with equations and graphs (Boss Challenge)' },
   'unit-proportion': { title: 'Proportion Pro', emoji: '⚗️', description: 'Mastered every core topic in Maths Unit 6: Ratio, Proportion and Percentages' },
   'market-master': { title: 'Market Master', emoji: '🏪', description: 'Solved ten real-life ratio and percentage problems (Boss Challenge)' },
+  'unit-geometry': { title: 'Shape Sage', emoji: '📐', description: 'Mastered every core topic in Maths Unit 7: Geometry: Angles, Shapes and Pythagoras' },
+  'geometry-guardian': { title: 'Geometry Guardian', emoji: '🛡️', description: 'Solved ten geometry problems (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

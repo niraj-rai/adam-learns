@@ -1,0 +1,47 @@
+<Stage kind="wonder" title="A family of shapes" />
+
+<Hook emoji="🔷">
+Is a square a rectangle? Is a rhombus a parallelogram? Is a square a kite? It sounds like a riddle, but quadrilaterals form a family tree, and knowing their **properties** tells you exactly who is related to whom.
+</Hook>
+
+<PredictFirst
+  question="Is every square a rectangle?"
+  options={["No, they're different shapes", "Yes, a square has all a rectangle's properties", "Only big squares", "Only if it's rotated"]}
+  answer={1}
+>
+A rectangle is a quadrilateral with four right angles and opposite sides equal. A square has all of these, plus equal sides, so every square is a **special rectangle**.
+</PredictFirst>
+
+<Stage kind="explain" title="Properties decide" />
+
+<Compare
+  columns={[
+    { title: "Parallelogram", emoji: "▱", points: ["Opposite sides parallel and equal", "Diagonals bisect each other"] },
+    { title: "Rectangle", emoji: "▭", points: ["+ four right angles", "+ equal diagonals"] },
+    { title: "Rhombus", emoji: "🔷", points: ["+ four equal sides", "+ perpendicular diagonals"] },
+    { title: "Square", emoji: "⬛", points: ["Rectangle AND rhombus", "Every property"] }
+  ]}
+/>
+
+<Formula tex="\text{Interior angle sum of an } n\text{-gon} = (n - 2) \times 180^\circ" caption="Split the polygon into n − 2 triangles" />
+
+<Stage kind="try" title="Quadrilateral Family" />
+
+<Lab id="quad-family" />
+
+<MythFact myth="A shape that is ‘turned’ becomes a different shape, e.g. a tilted square is a diamond, not a square.">
+Turning a shape doesn't change its sides or angles. A square standing on its corner is still a square (and also a rhombus!).
+</MythFact>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Midpoint mystery">
+Draw any quadrilateral and join the midpoints of its sides in order. What shape do you get? Try at least five different quadrilaterals (including a kite and a rectangle). Describe the pattern and make a conjecture.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Ch 4 · Earlier NCERT 8 Ch 3">
+- Properties of parallelograms, rhombuses, rectangles, squares, trapeziums and kites.
+- Angle sum of polygons; exterior angles of regular polygons.
+</CbseCorner>
+
+<Reflect id="math-geo-quads" prompt="Draw a family tree of quadrilaterals. Where would you put the kite?" />

@@ -1,0 +1,53 @@
+<Stage kind="wonder" title="The 180° mystery" />
+
+<Hook emoji="🔺">
+Draw any triangle: tall and thin, short and wide, lopsided. Tear off its three corners and line them up. They always make a perfectly straight line: **180°**. Why does every triangle, of every shape and size, obey this rule?
+</Hook>
+
+<PredictFirst
+  question="A huge triangle is drawn across a football field. What do its angles add up to?"
+  options={["More than 180°", "Exactly 180°", "Less than 180°", "It depends on the lengths"]}
+  answer={1}
+>
+Size doesn't matter: angles measure **turn**, not length. Every flat triangle's angles add to exactly 180°.
+</PredictFirst>
+
+<Stage kind="explain" title="Why 180°?" />
+
+<StepReveal
+  steps={[
+    "Take triangle ABC. Through C, draw a line parallel to AB.",
+    "The angle between this line and CA equals ∠A (alternate angles).",
+    "The angle between this line and CB equals ∠B (alternate angles).",
+    "These two angles and ∠C sit together on a straight line, so ∠A + ∠B + ∠C = 180°.",
+    "Bonus: extend a side and the exterior angle equals the two opposite interior angles added together."
+  ]}
+/>
+
+<Compare
+  columns={[
+    { title: "By sides", emoji: "📏", points: ["Equilateral: all equal", "Isosceles: two equal", "Scalene: none equal"] },
+    { title: "By angles", emoji: "📐", points: ["Acute: all < 90°", "Right: one = 90°", "Obtuse: one > 90°"] }
+  ]}
+/>
+
+<Stage kind="try" title="Triangle Lab" />
+
+<Lab id="triangle-lab" />
+
+<DidYouKnow>
+On a globe, a triangle made of curved lines can have angles adding to **more** than 180°. Start at the North Pole, go down to the equator, a quarter of the way round, and back up: that triangle has three right angles! Flat (plane) geometry is special.
+</DidYouKnow>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Which three sticks?">
+Cut straws to lengths 2, 3, 4, 5, 6 and 7 cm. Try every set of three: which make triangles? Record your results, find the rule, and test it on a new set of lengths.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 7 Ch 7 · Earlier NCERT 7 Ch 6">
+- Angle sum property; exterior angle property.
+- Sum of two sides of a triangle is greater than the third side.
+</CbseCorner>
+
+<Reflect id="math-geo-triangles" prompt="Explain to a friend why a triangle can't have two obtuse angles." />
