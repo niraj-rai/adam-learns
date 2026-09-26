@@ -35,7 +35,7 @@ function Home() {
         <div className="rounded-3xl bg-brand p-7 text-white shadow-lg" style={{ backgroundImage: 'linear-gradient(135deg, var(--brand), color-mix(in oklch, var(--brand), black 25%))' }}>
           <p className="text-sm font-semibold tracking-wide text-white/80">
             <span className="uppercase">{greeting}, </span>
-            {firstName ? <><span className="mr-1.5 font-hand text-3xl leading-none font-bold tracking-normal text-white normal-case">{firstName}</span>!</> : <span className="uppercase">scientist!</span>}
+            {firstName ? <span className="font-hand text-3xl leading-none font-bold tracking-normal text-white normal-case">{firstName}<span className="ml-1">!</span></span> : <span className="uppercase">scientist!</span>}
           </p>
           <h1 className="mt-2 font-heading text-3xl leading-tight font-bold sm:text-4xl">What will you discover today?</h1>
           {next ? (
