@@ -78,12 +78,12 @@
       "ibCriterion": "A",
       "prompt": "What would happen in a forest with no decomposers?",
       "options": [
-        "Nothing would change",
-        "Dead leaves and bodies would pile up and nutrients would not return to the soil",
         "Plants would grow faster",
-        "Animals would live forever"
+        "Nothing would change",
+        "Animals would live forever",
+        "Dead leaves and bodies would pile up and nutrients would not return to the soil"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Decomposers recycle nutrients."
     },
     {
@@ -93,12 +93,12 @@
       "ibCriterion": "A",
       "prompt": "Why are producers always at the start of a food chain?",
       "options": [
+        "They eat the most",
         "They are the biggest",
         "They capture energy from sunlight and make food for everything else",
-        "They eat the most",
         "They live the longest"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "All energy in most ecosystems comes from the Sun through producers."
     },
     {
@@ -108,12 +108,12 @@
       "ibCriterion": "C",
       "prompt": "In the Pond Ecosystem Builder, which pair were both decomposers?",
       "options": [
-        "Mushroom and soil bacteria",
+        "Sunlight and water",
         "Algae and lotus",
         "Frog and heron",
-        "Sunlight and water"
+        "Mushroom and soil bacteria"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "They break down dead matter."
     },
     {

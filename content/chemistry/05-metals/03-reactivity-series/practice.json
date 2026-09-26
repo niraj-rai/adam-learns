@@ -8,7 +8,14 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Order these metals from MOST to LEAST reactive.",
-      "steps": ["Potassium", "Magnesium", "Zinc", "Iron", "Copper", "Gold"],
+      "steps": [
+        "Potassium",
+        "Magnesium",
+        "Zinc",
+        "Iron",
+        "Copper",
+        "Gold"
+      ],
       "explain": "K > Mg > Zn > Fe > Cu > Au."
     },
     {
@@ -18,12 +25,12 @@
       "ibCriterion": "A",
       "prompt": "A displacement reaction happens when…",
       "options": [
-        "a less reactive metal is added to a salt of a more reactive metal",
-        "a more reactive metal is added to a salt solution of a less reactive metal",
         "any two metals touch",
-        "a metal is heated in air"
+        "a less reactive metal is added to a salt of a more reactive metal",
+        "a metal is heated in air",
+        "a more reactive metal is added to a salt solution of a less reactive metal"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "The more reactive metal displaces the less reactive one."
     },
     {
@@ -32,14 +39,35 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Will a reaction happen?",
-      "bins": ["Reaction", "No reaction"],
+      "bins": [
+        "Reaction",
+        "No reaction"
+      ],
       "items": [
-        { "label": "Zinc + copper sulfate", "bin": 0 },
-        { "label": "Copper + zinc sulfate", "bin": 1 },
-        { "label": "Iron + copper sulfate", "bin": 0 },
-        { "label": "Silver + copper sulfate", "bin": 1 },
-        { "label": "Magnesium + iron sulfate", "bin": 0 },
-        { "label": "Copper + silver nitrate", "bin": 0 }
+        {
+          "label": "Zinc + copper sulfate",
+          "bin": 0
+        },
+        {
+          "label": "Copper + zinc sulfate",
+          "bin": 1
+        },
+        {
+          "label": "Iron + copper sulfate",
+          "bin": 0
+        },
+        {
+          "label": "Silver + copper sulfate",
+          "bin": 1
+        },
+        {
+          "label": "Magnesium + iron sulfate",
+          "bin": 0
+        },
+        {
+          "label": "Copper + silver nitrate",
+          "bin": 0
+        }
       ],
       "explain": "Only a metal higher in the series displaces one lower down. Copper is above silver, so it displaces silver!"
     },
@@ -51,7 +79,15 @@
       "cbseStyle": true,
       "prompt": "Complete the word equation.",
       "text": "iron + copper sulfate → iron ___ + ___",
-      "blanks": [["sulfate", "sulphate"], ["copper"]],
+      "blanks": [
+        [
+          "sulfate",
+          "sulphate"
+        ],
+        [
+          "copper"
+        ]
+      ],
       "explain": "Iron takes copper's place: iron sulfate + copper."
     },
     {
@@ -61,8 +97,13 @@
       "ibCriterion": "C",
       "cbseStyle": true,
       "prompt": "An iron nail is left in copper sulfate solution. The solution changes from…",
-      "options": ["colourless to blue", "blue to pale green", "green to red", "blue to dark blue"],
-      "answer": 1,
+      "options": [
+        "blue to pale green",
+        "green to red",
+        "colourless to blue",
+        "blue to dark blue"
+      ],
+      "answer": 0,
       "explain": "Blue copper sulfate becomes pale green iron sulfate."
     },
     {
@@ -71,7 +112,12 @@
       "difficulty": 3,
       "ibCriterion": "C",
       "prompt": "Metal X displaces iron from iron sulfate but does NOT displace zinc from zinc sulfate. Where does X fit?",
-      "options": ["Above zinc", "Between zinc and iron", "Between iron and copper", "Below gold"],
+      "options": [
+        "Above zinc",
+        "Between zinc and iron",
+        "Between iron and copper",
+        "Below gold"
+      ],
       "answer": 1,
       "hint": "X is more reactive than iron but less reactive than zinc.",
       "explain": "More reactive than Fe, less than Zn: between them."
@@ -93,7 +139,12 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Which metals react with dilute acid to produce hydrogen?",
-      "options": ["Only metals above hydrogen in the reactivity series", "Only metals below hydrogen", "All metals", "No metals"],
+      "options": [
+        "Only metals above hydrogen in the reactivity series",
+        "Only metals below hydrogen",
+        "All metals",
+        "No metals"
+      ],
       "answer": 0,
       "explain": "Copper, silver and gold (below hydrogen) don't react with dilute acids."
     },
@@ -104,9 +155,18 @@
       "ibCriterion": "A",
       "prompt": "Match each observation to its explanation.",
       "pairs": [
-        { "left": "Brown coating on the iron nail", "right": "Copper metal was displaced" },
-        { "left": "Blue colour fades", "right": "Copper ions leave the solution" },
-        { "left": "Pale green colour appears", "right": "Iron sulfate forms" }
+        {
+          "left": "Brown coating on the iron nail",
+          "right": "Copper metal was displaced"
+        },
+        {
+          "left": "Blue colour fades",
+          "right": "Copper ions leave the solution"
+        },
+        {
+          "left": "Pale green colour appears",
+          "right": "Iron sulfate forms"
+        }
       ],
       "explain": "Every observation in a displacement reaction has a particle explanation."
     },

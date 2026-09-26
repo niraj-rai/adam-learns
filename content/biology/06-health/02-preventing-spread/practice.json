@@ -31,11 +31,11 @@
       "prompt": "In the Germ Spread Classroom, why did we compare averages over 60 outbreaks?",
       "options": [
         "It looks nicer",
-        "Chance affects each single outbreak, so averages give a fairer comparison",
+        "Only the last run counts",
         "The computer needed practice",
-        "Only the last run counts"
+        "Chance affects each single outbreak, so averages give a fairer comparison"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Repeating trials reduces the effect of chance."
     },
     {
@@ -57,11 +57,11 @@
       "prompt": "Why does opening windows help reduce the spread of airborne diseases?",
       "options": [
         "Germs are afraid of light",
-        "Fresh air dilutes and carries away tiny droplets containing germs",
+        "It kills all germs instantly",
         "It makes the room colder",
-        "It kills all germs instantly"
+        "Fresh air dilutes and carries away tiny droplets containing germs"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Ventilation lowers the concentration of germs in the air."
     },
     {
@@ -72,9 +72,9 @@
       "prompt": "The Swachh Bharat Mission built millions of toilets across India. Which diseases does this especially help prevent?",
       "options": [
         "Diseases spread through water and food contaminated by faeces, like diarrhoea and typhoid",
-        "Heart disease",
         "Diabetes",
-        "Malaria only"
+        "Malaria only",
+        "Heart disease"
       ],
       "answer": 0,
       "explain": "Sanitation keeps faeces out of water and food."

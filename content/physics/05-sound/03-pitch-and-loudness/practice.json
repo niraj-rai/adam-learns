@@ -37,11 +37,11 @@
       "prompt": "The audible range of human hearing is about…",
       "options": [
         "2 Hz to 200 Hz",
-        "20 Hz to 20,000 Hz",
+        "Any frequency",
         "200 Hz to 2,000,000 Hz",
-        "Any frequency"
+        "20 Hz to 20,000 Hz"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Below 20 Hz is infrasound; above 20 kHz is ultrasound."
     },
     {
@@ -90,12 +90,12 @@
       "ibCriterion": "A",
       "prompt": "A girl's voice usually has a higher pitch than a man's because…",
       "options": [
-        "her vocal cords vibrate with a higher frequency",
-        "her voice is louder",
         "she has bigger lungs",
-        "her amplitude is smaller"
+        "her voice is louder",
+        "her amplitude is smaller",
+        "her vocal cords vibrate with a higher frequency"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "Shorter, thinner vocal cords vibrate faster."
     },
     {

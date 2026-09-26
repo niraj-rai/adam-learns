@@ -9,11 +9,26 @@
       "cbseStyle": true,
       "prompt": "Match each indicator to its colour in a BASE.",
       "pairs": [
-        { "left": "Red litmus", "right": "Blue" },
-        { "left": "Turmeric", "right": "Red-brown" },
-        { "left": "China rose", "right": "Green" },
-        { "left": "Phenolphthalein", "right": "Pink" },
-        { "left": "Methyl orange", "right": "Yellow" }
+        {
+          "left": "Red litmus",
+          "right": "Blue"
+        },
+        {
+          "left": "Turmeric",
+          "right": "Red-brown"
+        },
+        {
+          "left": "China rose",
+          "right": "Green"
+        },
+        {
+          "left": "Phenolphthalein",
+          "right": "Pink"
+        },
+        {
+          "left": "Methyl orange",
+          "right": "Yellow"
+        }
       ],
       "explain": "Every indicator has its own colour code."
     },
@@ -24,8 +39,13 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "What colour does china rose indicator turn in an ACID?",
-      "options": ["Green", "Dark pink (magenta)", "Yellow", "Blue"],
-      "answer": 1,
+      "options": [
+        "Dark pink (magenta)",
+        "Green",
+        "Yellow",
+        "Blue"
+      ],
+      "answer": 0,
       "explain": "China rose: dark pink in acids, green in bases."
     },
     {
@@ -42,7 +62,9 @@
         "Turmeric is itself an acid"
       ],
       "answer": 1,
-      "feedback": { "2": "Turmeric turns red in BASES, not acids." },
+      "feedback": {
+        "2": "Turmeric turns red in BASES, not acids."
+      },
       "explain": "Turmeric only changes in bases, so it can't tell acids from neutral substances."
     },
     {
@@ -51,14 +73,35 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Sort the indicators: natural or synthetic (made in a lab)?",
-      "bins": ["Natural", "Synthetic"],
+      "bins": [
+        "Natural",
+        "Synthetic"
+      ],
       "items": [
-        { "label": "Litmus", "bin": 0 },
-        { "label": "Turmeric", "bin": 0 },
-        { "label": "Phenolphthalein", "bin": 1 },
-        { "label": "China rose", "bin": 0 },
-        { "label": "Methyl orange", "bin": 1 },
-        { "label": "Universal indicator", "bin": 1 }
+        {
+          "label": "Litmus",
+          "bin": 0
+        },
+        {
+          "label": "Turmeric",
+          "bin": 0
+        },
+        {
+          "label": "Phenolphthalein",
+          "bin": 1
+        },
+        {
+          "label": "China rose",
+          "bin": 0
+        },
+        {
+          "label": "Methyl orange",
+          "bin": 1
+        },
+        {
+          "label": "Universal indicator",
+          "bin": 1
+        }
       ],
       "explain": "Natural indicators come from plants or lichens; synthetic ones are made in labs."
     },
@@ -68,8 +111,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "A solution turns phenolphthalein pink. What can you conclude?",
-      "options": ["It is acidic", "It is basic", "It is neutral", "It could be acidic or neutral"],
-      "answer": 1,
+      "options": [
+        "It is acidic",
+        "It is neutral",
+        "It is basic",
+        "It could be acidic or neutral"
+      ],
+      "answer": 2,
       "explain": "Phenolphthalein turns pink only in bases."
     },
     {
@@ -78,8 +126,13 @@
       "difficulty": 3,
       "ibCriterion": "C",
       "prompt": "A solution leaves phenolphthalein colourless. Which conclusion is BEST?",
-      "options": ["It is definitely acidic", "It is definitely neutral", "It is acidic or neutral, so another test is needed", "It is basic"],
-      "answer": 2,
+      "options": [
+        "It is basic",
+        "It is acidic or neutral, so another test is needed",
+        "It is definitely acidic",
+        "It is definitely neutral"
+      ],
+      "answer": 1,
       "explain": "Phenolphthalein is colourless in both acids and neutral solutions. Use another indicator (e.g. blue litmus) to decide."
     },
     {
@@ -89,8 +142,16 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentence.",
       "text": "Indicators that change smell instead of colour, such as onion and vanilla, are called ___ indicators.",
-      "blanks": [["olfactory"]],
-      "wordBank": ["olfactory", "synthetic", "universal"],
+      "blanks": [
+        [
+          "olfactory"
+        ]
+      ],
+      "wordBank": [
+        "olfactory",
+        "synthetic",
+        "universal"
+      ],
       "explain": "Olfactory = related to smell."
     },
     {
@@ -114,8 +175,13 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "A yellow haldi stain on a shirt turns red when washed with soap. Why?",
-      "options": ["Soap is an acid", "Soap is a base and turmeric is an indicator", "The shirt is dyed red", "Soap reacts with cotton"],
-      "answer": 1,
+      "options": [
+        "The shirt is dyed red",
+        "Soap is an acid",
+        "Soap reacts with cotton",
+        "Soap is a base and turmeric is an indicator"
+      ],
+      "answer": 3,
       "explain": "Soap is basic; turmeric turns red-brown in bases."
     },
     {

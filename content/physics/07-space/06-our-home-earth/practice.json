@@ -31,11 +31,11 @@
       "prompt": "What is the ‘Goldilocks zone’ around a star?",
       "options": [
         "Where planets are made of gold",
-        "The range of distances where it's not too hot or too cold for liquid water",
         "The area inside the star",
+        "The range of distances where it's not too hot or too cold for liquid water",
         "The asteroid belt"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Liquid water is key to life as we know it."
     },
     {
@@ -45,12 +45,12 @@
       "ibCriterion": "C",
       "prompt": "In the Goldilocks Lab, Earth with NO atmosphere was frozen. What does this show?",
       "options": [
-        "The atmosphere doesn't matter",
-        "Earth’s natural greenhouse effect keeps it warm enough for liquid water",
+        "Earth is too close to the Sun",
         "The Sun is too cold",
-        "Earth is too close to the Sun"
+        "Earth’s natural greenhouse effect keeps it warm enough for liquid water",
+        "The atmosphere doesn't matter"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Greenhouse gases add about 33 °C of warming."
     },
     {
@@ -60,12 +60,12 @@
       "ibCriterion": "A",
       "prompt": "Why is Venus so hot even though it is further from the Sun than Mercury?",
       "options": [
-        "It has volcanoes only",
         "Its very thick carbon dioxide atmosphere traps heat (a runaway greenhouse effect)",
-        "It spins fast",
-        "It is closer to the Sun than Mercury"
+        "It is closer to the Sun than Mercury",
+        "It has volcanoes only",
+        "It spins fast"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Too much greenhouse gas makes a planet far too hot."
     },
     {

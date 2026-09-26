@@ -80,12 +80,12 @@
       "ibCriterion": "A",
       "prompt": "Why is a mushroom NOT a plant?",
       "options": [
-        "It is too small",
-        "It cannot make its own food by photosynthesis; it absorbs food from dead matter",
+        "It has no colour",
         "It grows in the dark sometimes",
-        "It has no colour"
+        "It cannot make its own food by photosynthesis; it absorbs food from dead matter",
+        "It is too small"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Fungi are a separate kingdom."
     },
     {
@@ -96,11 +96,11 @@
       "prompt": "What do all vertebrates have?",
       "options": [
         "Wings",
+        "Six legs",
         "A backbone",
-        "Fur",
-        "Six legs"
+        "Fur"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Invertebrates, like insects and worms, have no backbone."
     },
     {
@@ -111,11 +111,11 @@
       "prompt": "The tiger's scientific name is Panthera tigris. What is ‘Panthera’?",
       "options": [
         "Its species",
-        "Its genus (a group of closely related species)",
         "Its kingdom",
-        "Its common name"
+        "Its common name",
+        "Its genus (a group of closely related species)"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Binomial names give the genus then the species, e.g. Panthera leo is the lion."
     },
     {

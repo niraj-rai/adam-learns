@@ -9,12 +9,12 @@
       "cbseStyle": true,
       "prompt": "Who discovered penicillin, the first antibiotic, from a mould in 1928?",
       "options": [
-        "Louis Pasteur",
         "Alexander Fleming",
+        "Louis Pasteur",
         "Edward Jenner",
         "Robert Hooke"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Fleming noticed that mould stopped bacteria growing on a plate."
     },
     {
@@ -24,12 +24,12 @@
       "ibCriterion": "A",
       "prompt": "Why won't antibiotics cure a cold?",
       "options": [
-        "Colds are too mild",
-        "Colds are caused by viruses, and antibiotics only work against bacteria",
+        "Colds are caused by fungi",
         "Antibiotics are too weak",
-        "Colds are caused by fungi"
+        "Colds are too mild",
+        "Colds are caused by viruses, and antibiotics only work against bacteria"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Using antibiotics for viral infections also helps resistance spread."
     },
     {
@@ -40,11 +40,11 @@
       "prompt": "In the Petri Dish Lab, which disc produced the largest clear zone on the ordinary strain?",
       "options": [
         "Water",
-        "Soap",
         "Sanitiser",
-        "Antibiotic"
+        "Antibiotic",
+        "Soap"
       ],
-      "answer": 3,
+      "answer": 2,
       "explain": "A bigger clear zone means more bacteria were stopped."
     },
     {
@@ -54,12 +54,12 @@
       "ibCriterion": "C",
       "prompt": "On the resistant strain, the antibiotic disc had NO clear zone. What does this show?",
       "options": [
-        "The antibiotic had expired",
         "These bacteria are not affected by that antibiotic",
         "The plate wasn't incubated",
+        "The antibiotic had expired",
         "Bacteria like antibiotics"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Resistant bacteria survive treatment and multiply."
     },
     {
@@ -91,11 +91,11 @@
       "prompt": "How does a vaccine protect us?",
       "options": [
         "It kills all germs in the body",
-        "It trains the immune system to recognise a pathogen, so the body can fight it quickly later",
         "It is an antibiotic",
+        "It trains the immune system to recognise a pathogen, so the body can fight it quickly later",
         "It makes us sweat out germs"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Vaccines helped India become polio-free in 2014."
     },
     {

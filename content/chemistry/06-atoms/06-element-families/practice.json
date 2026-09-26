@@ -7,16 +7,44 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Sort each element into its family.",
-      "bins": ["Alkali metal", "Halogen", "Noble gas"],
+      "bins": [
+        "Alkali metal",
+        "Halogen",
+        "Noble gas"
+      ],
       "items": [
-        { "label": "Sodium", "bin": 0 },
-        { "label": "Chlorine", "bin": 1 },
-        { "label": "Neon", "bin": 2 },
-        { "label": "Potassium", "bin": 0 },
-        { "label": "Fluorine", "bin": 1 },
-        { "label": "Argon", "bin": 2 },
-        { "label": "Lithium", "bin": 0 },
-        { "label": "Iodine", "bin": 1 }
+        {
+          "label": "Sodium",
+          "bin": 0
+        },
+        {
+          "label": "Chlorine",
+          "bin": 1
+        },
+        {
+          "label": "Neon",
+          "bin": 2
+        },
+        {
+          "label": "Potassium",
+          "bin": 0
+        },
+        {
+          "label": "Fluorine",
+          "bin": 1
+        },
+        {
+          "label": "Argon",
+          "bin": 2
+        },
+        {
+          "label": "Lithium",
+          "bin": 0
+        },
+        {
+          "label": "Iodine",
+          "bin": 1
+        }
       ],
       "explain": "Group 1: alkali metals; group 17: halogens; group 18: noble gases."
     },
@@ -26,7 +54,11 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Order the alkali metals from LEAST to MOST reactive with water.",
-      "steps": ["Lithium", "Sodium", "Potassium"],
+      "steps": [
+        "Lithium",
+        "Sodium",
+        "Potassium"
+      ],
       "explain": "Reactivity increases down group 1."
     },
     {
@@ -35,7 +67,12 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Order the halogens from MOST to LEAST reactive.",
-      "steps": ["Fluorine", "Chlorine", "Bromine", "Iodine"],
+      "steps": [
+        "Fluorine",
+        "Chlorine",
+        "Bromine",
+        "Iodine"
+      ],
       "explain": "Reactivity decreases down group 17."
     },
     {
@@ -44,8 +81,13 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Why are noble gases so unreactive?",
-      "options": ["They are very heavy", "Their outer shells are full", "They have no protons", "They are liquids"],
-      "answer": 1,
+      "options": [
+        "They are very heavy",
+        "They have no protons",
+        "Their outer shells are full",
+        "They are liquids"
+      ],
+      "answer": 2,
       "explain": "A full outer shell is stable."
     },
     {
@@ -55,10 +97,22 @@
       "ibCriterion": "A",
       "prompt": "Match each halogen to its appearance at room temperature.",
       "pairs": [
-        { "left": "Fluorine", "right": "Pale yellow gas" },
-        { "left": "Chlorine", "right": "Green-yellow gas" },
-        { "left": "Bromine", "right": "Red-brown liquid" },
-        { "left": "Iodine", "right": "Purple-black solid" }
+        {
+          "left": "Fluorine",
+          "right": "Pale yellow gas"
+        },
+        {
+          "left": "Chlorine",
+          "right": "Green-yellow gas"
+        },
+        {
+          "left": "Bromine",
+          "right": "Red-brown liquid"
+        },
+        {
+          "left": "Iodine",
+          "right": "Purple-black solid"
+        }
       ],
       "explain": "Halogens get darker and change from gas to liquid to solid going down the group."
     },
@@ -68,8 +122,13 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "What do all alkali metals produce when they react with water?",
-      "options": ["Oxygen and an acid", "Hydrogen and an alkaline solution (metal hydroxide)", "Chlorine gas", "Nothing"],
-      "answer": 1,
+      "options": [
+        "Oxygen and an acid",
+        "Chlorine gas",
+        "Nothing",
+        "Hydrogen and an alkaline solution (metal hydroxide)"
+      ],
+      "answer": 3,
       "explain": "metal + water → metal hydroxide (alkaline) + hydrogen."
     },
     {
@@ -79,12 +138,12 @@
       "ibCriterion": "C",
       "prompt": "Why does reactivity INCREASE down group 1?",
       "options": [
-        "The atoms get smaller",
-        "The outer electron is further from the nucleus and is lost more easily",
         "They gain electrons more easily",
-        "They have more outer electrons"
+        "They have more outer electrons",
+        "The outer electron is further from the nucleus and is lost more easily",
+        "The atoms get smaller"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Bigger atoms hold their single outer electron less tightly."
     },
     {
@@ -94,9 +153,18 @@
       "ibCriterion": "A",
       "prompt": "Match each noble gas to a use.",
       "pairs": [
-        { "left": "Helium", "right": "Party balloons" },
-        { "left": "Neon", "right": "Glowing advertising signs" },
-        { "left": "Argon", "right": "Filling light bulbs" }
+        {
+          "left": "Helium",
+          "right": "Party balloons"
+        },
+        {
+          "left": "Neon",
+          "right": "Glowing advertising signs"
+        },
+        {
+          "left": "Argon",
+          "right": "Filling light bulbs"
+        }
       ],
       "explain": "Their lack of reactivity makes them safe for these uses."
     },

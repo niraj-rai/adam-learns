@@ -61,12 +61,12 @@
       "ibCriterion": "A",
       "prompt": "What is the difference between excretion and egestion?",
       "options": [
-        "They are the same",
-        "Excretion removes wastes made by body cells (like urea); egestion removes undigested food (faeces)",
+        "Excretion removes only water",
         "Egestion happens in the kidneys",
-        "Excretion removes only water"
+        "Excretion removes wastes made by body cells (like urea); egestion removes undigested food (faeces)",
+        "They are the same"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Faeces were never really inside the body's cells."
     },
     {
@@ -91,12 +91,12 @@
       "ibCriterion": "A",
       "prompt": "What does a dialysis machine do?",
       "options": [
-        "Pumps blood like a heart",
-        "Filters wastes from the blood when the kidneys fail",
         "Adds oxygen to blood",
-        "Digests food"
+        "Digests food",
+        "Filters wastes from the blood when the kidneys fail",
+        "Pumps blood like a heart"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "It acts as an artificial kidney."
     },
     {

@@ -9,12 +9,12 @@
       "cbseStyle": true,
       "prompt": "Wind blows from…",
       "options": [
-        "low pressure to high pressure",
-        "high pressure to low pressure",
         "land to space",
-        "cold places only"
+        "cold places only",
+        "low pressure to high pressure",
+        "high pressure to low pressure"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Air moves from regions of high pressure to regions of low pressure."
     },
     {
@@ -25,12 +25,12 @@
       "cbseStyle": true,
       "prompt": "On a sunny afternoon at Marina Beach, the breeze blows from the sea to the land. Why?",
       "options": [
-        "The land heats faster, warm air rises, and cooler sea air moves in",
-        "The sea is hotter than the land",
         "The Moon pulls the air",
-        "Waves push the air"
+        "The sea is hotter than the land",
+        "Waves push the air",
+        "The land heats faster, warm air rises, and cooler sea air moves in"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "Land heats faster than water → low pressure over land → sea breeze."
     },
     {
@@ -119,12 +119,12 @@
       "ibCriterion": "A",
       "prompt": "What is the calm, clear centre of a cyclone called?",
       "options": [
-        "The eye",
+        "The vent",
         "The core",
-        "The funnel",
-        "The vent"
+        "The eye",
+        "The funnel"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "The eye is calm with light winds, surrounded by the eyewall, where the strongest winds are."
     },
     {
@@ -134,12 +134,12 @@
       "ibCriterion": "C",
       "prompt": "In the Cyclone Lab, what happens when the sea temperature is set below 26.5 °C?",
       "options": [
-        "The cyclone grows fastest",
-        "The storm doesn’t strengthen: there isn’t enough warm, moist air to fuel it",
         "The winds reverse",
-        "The eye gets bigger"
+        "The eye gets bigger",
+        "The cyclone grows fastest",
+        "The storm doesn’t strengthen: there isn’t enough warm, moist air to fuel it"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Cyclones need warm sea water; cooler seas can’t feed them."
     },
     {

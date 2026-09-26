@@ -7,8 +7,19 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Which are signs that a chemical reaction may have happened? Choose all that apply.",
-      "options": ["A gas is given off", "A colour change", "A temperature change", "A solid forms when two solutions mix", "The substance is moved to a new container"],
-      "answer": [0, 1, 2, 3],
+      "options": [
+        "A gas is given off",
+        "A colour change",
+        "A temperature change",
+        "A solid forms when two solutions mix",
+        "The substance is moved to a new container"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
       "explain": "Gas, colour change, temperature change, precipitate (plus light or sound) are signs of a reaction."
     },
     {
@@ -18,8 +29,13 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Carbon dioxide gas is bubbled through lime water. What do you observe?",
-      "options": ["It turns blue", "It turns milky", "It catches fire", "Nothing happens"],
-      "answer": 1,
+      "options": [
+        "Nothing happens",
+        "It catches fire",
+        "It turns milky",
+        "It turns blue"
+      ],
+      "answer": 2,
       "explain": "Lime water turns milky because insoluble calcium carbonate forms. This is the test for carbon dioxide."
     },
     {
@@ -29,10 +45,22 @@
       "ibCriterion": "A",
       "prompt": "Match each reaction to its main sign.",
       "pairs": [
-        { "left": "Vinegar + baking soda", "right": "Fizzing (gas)" },
-        { "left": "Turmeric water + soap", "right": "Yellow → red colour change" },
-        { "left": "Lime water + carbon dioxide", "right": "Milky solid forms" },
-        { "left": "Hydrogen peroxide + yeast", "right": "Foams and gets warm" }
+        {
+          "left": "Vinegar + baking soda",
+          "right": "Fizzing (gas)"
+        },
+        {
+          "left": "Turmeric water + soap",
+          "right": "Yellow → red colour change"
+        },
+        {
+          "left": "Lime water + carbon dioxide",
+          "right": "Milky solid forms"
+        },
+        {
+          "left": "Hydrogen peroxide + yeast",
+          "right": "Foams and gets warm"
+        }
       ],
       "explain": "Each reaction shows a different sign of a new substance forming."
     },
@@ -42,14 +70,35 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Sort into exothermic (gives out heat) and endothermic (takes in heat).",
-      "bins": ["Exothermic", "Endothermic"],
+      "bins": [
+        "Exothermic",
+        "Endothermic"
+      ],
       "items": [
-        { "label": "Burning LPG", "bin": 0 },
-        { "label": "Baking soda + vinegar (gets colder)", "bin": 1 },
-        { "label": "Respiration in your cells", "bin": 0 },
-        { "label": "Photosynthesis", "bin": 1 },
-        { "label": "A firework exploding", "bin": 0 },
-        { "label": "An instant cold pack", "bin": 1 }
+        {
+          "label": "Burning LPG",
+          "bin": 0
+        },
+        {
+          "label": "Baking soda + vinegar (gets colder)",
+          "bin": 1
+        },
+        {
+          "label": "Respiration in your cells",
+          "bin": 0
+        },
+        {
+          "label": "Photosynthesis",
+          "bin": 1
+        },
+        {
+          "label": "A firework exploding",
+          "bin": 0
+        },
+        {
+          "label": "An instant cold pack",
+          "bin": 1
+        }
       ],
       "explain": "Exothermic reactions release energy; endothermic reactions absorb it."
     },
@@ -61,12 +110,12 @@
       "cbseStyle": true,
       "prompt": "An iron nail is left in blue copper sulfate solution. After some time, what do you observe?",
       "options": [
+        "Nothing happens",
         "The solution turns darker blue",
-        "The solution turns pale green and a brown coating forms on the nail",
         "The nail dissolves completely",
-        "Nothing happens"
+        "The solution turns pale green and a brown coating forms on the nail"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Iron displaces copper: green iron sulfate forms in the solution and brown copper coats the nail."
     },
     {
@@ -77,12 +126,14 @@
       "prompt": "You open a bottle of soda and it fizzes. Is this a chemical reaction?",
       "options": [
         "Yes, bubbles always mean a reaction",
-        "No: dissolved carbon dioxide is just escaping, and no new substance forms",
         "Yes, because it makes a sound",
+        "No: dissolved carbon dioxide is just escaping, and no new substance forms",
         "No, because soda is a liquid"
       ],
-      "answer": 1,
-      "feedback": { "0": "Bubbles are only a clue. Here, no new substance is made." },
+      "answer": 2,
+      "feedback": {
+        "0": "Bubbles are only a clue. Here, no new substance is made."
+      },
       "explain": "The gas was already dissolved under pressure. Opening the bottle lets it escape: a physical change."
     },
     {
@@ -92,8 +143,20 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentences.",
       "text": "A solid that forms when two solutions are mixed is called a ___. A reaction that gives out heat is ___.",
-      "blanks": [["precipitate"], ["exothermic"]],
-      "wordBank": ["precipitate", "exothermic", "endothermic", "solution"],
+      "blanks": [
+        [
+          "precipitate"
+        ],
+        [
+          "exothermic"
+        ]
+      ],
+      "wordBank": [
+        "precipitate",
+        "exothermic",
+        "endothermic",
+        "solution"
+      ],
       "explain": "Precipitate = solid formed from solutions. Exothermic = gives out heat."
     },
     {
@@ -118,12 +181,12 @@
       "ibCriterion": "C",
       "prompt": "Two clear solutions are mixed. The temperature rises from 25 °C to 31 °C and the mixture turns cloudy. What is the best conclusion?",
       "options": [
-        "Only a physical change happened",
-        "A chemical reaction happened: it is exothermic and a precipitate formed",
+        "The thermometer was faulty",
         "An endothermic reaction happened",
-        "The thermometer was faulty"
+        "Only a physical change happened",
+        "A chemical reaction happened: it is exothermic and a precipitate formed"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Two signs together (temperature rise and a solid forming) are strong evidence of an exothermic reaction making a precipitate."
     },
     {

@@ -55,11 +55,11 @@
       "prompt": "Why do scientists need an electron microscope to see viruses?",
       "options": [
         "Viruses are invisible to all light",
+        "Viruses are transparent",
         "Viruses are smaller than about 0.2 µm, too small for a light microscope",
-        "Viruses only come out at night",
-        "Viruses are transparent"
+        "Viruses only come out at night"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Light microscopes can’t show details smaller than about 0.2 µm."
     },
     {
@@ -69,12 +69,12 @@
       "ibCriterion": "A",
       "prompt": "Which statement about viruses is TRUE?",
       "options": [
-        "They can reproduce on their own in water",
         "They can reproduce only inside living cells",
+        "Antibiotics kill them",
         "They are a type of fungus",
-        "Antibiotics kill them"
+        "They can reproduce on their own in water"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Viruses take over living cells to make copies of themselves."
     },
     {

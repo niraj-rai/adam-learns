@@ -53,12 +53,12 @@
       "ibCriterion": "A",
       "prompt": "Which blood vessels carry blood AWAY from the heart?",
       "options": [
-        "Veins",
-        "Arteries",
         "Capillaries",
-        "Nerves"
+        "Nerves",
+        "Arteries",
+        "Veins"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Arteries have thick, muscular walls for the high pressure."
     },
     {
@@ -94,12 +94,12 @@
       "ibCriterion": "A",
       "prompt": "Why is the wall of the left ventricle thicker than the right?",
       "options": [
+        "It stores oxygen",
         "It holds more blood",
         "It must pump blood all around the body, not just to the nearby lungs",
-        "It is older",
-        "It stores oxygen"
+        "It is older"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "More muscle gives a stronger push."
     },
     {

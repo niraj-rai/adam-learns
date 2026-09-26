@@ -10,11 +10,11 @@
       "prompt": "A compass needle is placed under a wire. When current flows, the needle…",
       "options": [
         "stays still",
+        "spins continuously",
         "is deflected",
-        "melts",
-        "spins continuously"
+        "melts"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "A current produces a magnetic field around the wire."
     },
     {
@@ -46,11 +46,11 @@
       "prompt": "Why are electromagnets used in scrapyard cranes instead of permanent magnets?",
       "options": [
         "They are cheaper to paint",
-        "They can be switched off to drop the scrap",
         "They are lighter",
-        "They attract aluminium"
+        "They attract aluminium",
+        "They can be switched off to drop the scrap"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Switch off the current and the magnetism disappears."
     },
     {
@@ -60,10 +60,10 @@
       "ibCriterion": "C",
       "prompt": "In the lab, the current was reversed. What happened to the compass deflection?",
       "options": [
-        "It stayed the same",
+        "It disappeared",
         "It reversed direction",
-        "It doubled",
-        "It disappeared"
+        "It stayed the same",
+        "It doubled"
       ],
       "answer": 1,
       "explain": "Reversing the current reverses the magnetic field."

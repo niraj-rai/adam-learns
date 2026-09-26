@@ -5,13 +5,8 @@
   "color": "math",
   "icon": "📐",
   "order": 4,
-  "comingNext": "Unit 4: Algebra: Expressions and Identities",
+  "comingNext": "Unit 5: Linear Equations and Graphs",
   "planned": [
-    {
-      "unit": "4. Algebra: Expressions & Identities",
-      "ib": "MYP 2–3",
-      "cbse": "GP 7 Ch 4; GP 8 Ch 6, Part 2 Ch 6"
-    },
     {
       "unit": "5. Linear Equations & Graphs",
       "ib": "MYP 2–3",

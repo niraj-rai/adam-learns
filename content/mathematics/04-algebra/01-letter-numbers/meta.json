@@ -1,0 +1,59 @@
+{
+  "id": "letter-numbers",
+  "number": "4.1",
+  "title": "Letter-Numbers: Expressions from Patterns",
+  "summary": "Using a letter to stand for any number, and writing rules for growing patterns.",
+  "emoji": "🔥",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Generalising patterns is MYP 2 Algebra (Criterion B)"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Ch 4: Expressions Using Letter-Numbers",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 10: Algebraic Expressions",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can write expressions using letter-numbers.",
+    "I can find a rule for a growing pattern.",
+    "I can use expressions to model real situations."
+  ],
+  "misconceptions": [
+    "A letter stands for one secret number only.",
+    "2x means 2 + x.",
+    "x + 5 and 5x are the same."
+  ],
+  "prerequisites": [
+    "mathematics/number-systems/integers"
+  ],
+  "labs": [
+    "matchstick-patterns"
+  ],
+  "keyTerms": [
+    "variable",
+    "letter-number",
+    "expression",
+    "term",
+    "constant",
+    "coefficient"
+  ],
+  "estMinutes": 25
+}

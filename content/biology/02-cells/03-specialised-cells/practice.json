@@ -49,10 +49,10 @@
       "ibCriterion": "C",
       "prompt": "As a cube-shaped cell gets bigger, what happens to its surface-area-to-volume ratio?",
       "options": [
-        "It increases",
+        "It becomes zero",
         "It decreases",
-        "It stays the same",
-        "It becomes zero"
+        "It increases",
+        "It stays the same"
       ],
       "answer": 1,
       "explain": "Volume grows faster than surface area."
@@ -64,12 +64,12 @@
       "ibCriterion": "A",
       "prompt": "Why is it a problem for a cell to be very large?",
       "options": [
-        "It would be too heavy",
-        "Its surface couldn't take in food and oxygen fast enough for its large volume",
+        "It couldn't have a nucleus",
         "It would be too colourful",
-        "It couldn't have a nucleus"
+        "Its surface couldn't take in food and oxygen fast enough for its large volume",
+        "It would be too heavy"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Materials enter and leave through the surface."
     },
     {
@@ -117,12 +117,12 @@
       "ibCriterion": "A",
       "prompt": "Which is one of the largest single cells?",
       "options": [
+        "A cheek cell",
         "An ostrich egg (the yolk before it develops)",
         "A red blood cell",
-        "A bacterium",
-        "A cheek cell"
+        "A bacterium"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "Unfertilised egg yolks of birds are single, very large cells."
     },
     {

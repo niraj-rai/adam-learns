@@ -57,8 +57,8 @@
       "options": [
         "along the mirror surface",
         "at 90° to the mirror at the point where the ray hits",
-        "parallel to the incident ray",
-        "through the light source"
+        "through the light source",
+        "parallel to the incident ray"
       ],
       "answer": 1,
       "explain": "The normal is perpendicular to the surface at the point of incidence."
@@ -108,12 +108,12 @@
       "ibCriterion": "A",
       "prompt": "Why can everyone in a classroom read the whiteboard, but a mirror only shows you certain things?",
       "options": [
-        "The whiteboard is brighter",
-        "The whiteboard's rough surface scatters light in all directions (diffuse reflection)",
         "Mirrors absorb light",
-        "The whiteboard makes its own light"
+        "The whiteboard makes its own light",
+        "The whiteboard is brighter",
+        "The whiteboard's rough surface scatters light in all directions (diffuse reflection)"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Diffuse reflection sends light everywhere, so everyone can see the board."
     },
     {
@@ -138,10 +138,10 @@
       "ibCriterion": "C",
       "prompt": "Adam's results: ∠i = 20°, 40°, 60°; ∠r = 21°, 39°, 60°. What is the best conclusion?",
       "options": [
-        "The law of reflection is wrong",
+        "The mirror was broken",
         "∠i and ∠r are equal within measurement error",
-        "∠r is always bigger",
-        "The mirror was broken"
+        "The law of reflection is wrong",
+        "∠r is always bigger"
       ],
       "answer": 1,
       "explain": "Small differences of about 1° come from measuring errors; the pattern supports ∠i = ∠r."

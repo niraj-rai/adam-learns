@@ -44,9 +44,9 @@
       "cbseStyle": true,
       "prompt": "What is pollination?",
       "options": [
-        "The fusion of male and female cells",
-        "The transfer of pollen from an anther to a stigma",
         "The spreading of seeds",
+        "The transfer of pollen from an anther to a stigma",
+        "The fusion of male and female cells",
         "The growth of a seed"
       ],
       "answer": 1,
@@ -74,12 +74,12 @@
       "ibCriterion": "C",
       "prompt": "A flower is small and green with feathery stigmas and lots of light pollen. How is it most likely pollinated?",
       "options": [
+        "By birds",
         "By insects",
         "By wind",
-        "By birds",
         "By water only"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Wind-pollinated flowers don't need bright petals or scent."
     },
     {
@@ -89,10 +89,10 @@
       "ibCriterion": "A",
       "prompt": "What does the ovary of a flower become after fertilisation?",
       "options": [
-        "A seed",
-        "A fruit",
         "A leaf",
-        "A new flower"
+        "A fruit",
+        "A new flower",
+        "A seed"
       ],
       "answer": 1,
       "explain": "The ovules inside become seeds."

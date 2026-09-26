@@ -9,8 +9,20 @@
       "cbseStyle": true,
       "prompt": "Complete the general word equation.",
       "text": "acid + base → ___ + ___",
-      "blanks": [["salt"], ["water"]],
-      "wordBank": ["salt", "water", "hydrogen", "oxygen"],
+      "blanks": [
+        [
+          "salt"
+        ],
+        [
+          "water"
+        ]
+      ],
+      "wordBank": [
+        "salt",
+        "water",
+        "hydrogen",
+        "oxygen"
+      ],
       "explain": "Neutralisation always makes a salt and water."
     },
     {
@@ -21,10 +33,22 @@
       "cbseStyle": true,
       "prompt": "Match each problem to the neutralisation used to fix it.",
       "pairs": [
-        { "left": "Indigestion", "right": "Milk of magnesia (antacid)" },
-        { "left": "Ant bite", "right": "Baking soda" },
-        { "left": "Acidic soil", "right": "Quicklime or slaked lime" },
-        { "left": "Acidic factory waste", "right": "Treated with a base before release" }
+        {
+          "left": "Indigestion",
+          "right": "Milk of magnesia (antacid)"
+        },
+        {
+          "left": "Ant bite",
+          "right": "Baking soda"
+        },
+        {
+          "left": "Acidic soil",
+          "right": "Quicklime or slaked lime"
+        },
+        {
+          "left": "Acidic factory waste",
+          "right": "Treated with a base before release"
+        }
       ],
       "explain": "In each case a base neutralises an unwanted acid."
     },
@@ -34,7 +58,12 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Is neutralisation exothermic or endothermic?",
-      "options": ["Exothermic: it gives out heat", "Endothermic: it takes in heat", "Neither", "It depends on the colour"],
+      "options": [
+        "Exothermic: it gives out heat",
+        "Endothermic: it takes in heat",
+        "Neither",
+        "It depends on the colour"
+      ],
       "answer": 0,
       "explain": "Neutralisation gives out heat, so the mixture warms up."
     },
@@ -44,8 +73,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "In the titration, 50 mL of acid needed 50 mL of base to be neutral. What happens if you add 55 mL?",
-      "options": ["It stays neutral", "It becomes basic", "It becomes more acidic", "It explodes"],
-      "answer": 1,
+      "options": [
+        "It stays neutral",
+        "It explodes",
+        "It becomes more acidic",
+        "It becomes basic"
+      ],
+      "answer": 3,
       "explain": "Extra base beyond the end point makes the solution basic."
     },
     {
@@ -70,7 +104,14 @@
       "ibCriterion": "A",
       "prompt": "Complete the word equation.",
       "text": "hydrochloric acid + sodium hydroxide → sodium ___ + ___",
-      "blanks": [["chloride"], ["water"]],
+      "blanks": [
+        [
+          "chloride"
+        ],
+        [
+          "water"
+        ]
+      ],
       "explain": "HCl + NaOH → NaCl (table salt) + water."
     },
     {
@@ -79,8 +120,18 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Which are BASES used to neutralise acids? Choose all that apply.",
-      "options": ["Milk of magnesia", "Baking soda", "Slaked lime", "Vinegar", "Lemon juice"],
-      "answer": [0, 1, 2],
+      "options": [
+        "Milk of magnesia",
+        "Baking soda",
+        "Slaked lime",
+        "Vinegar",
+        "Lemon juice"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
       "explain": "Vinegar and lemon juice are acids."
     },
     {
@@ -89,8 +140,13 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "In chemistry, a 'salt' is…",
-      "options": ["only sodium chloride", "any compound formed when an acid reacts with a base", "a kind of acid", "a sweet substance"],
-      "answer": 1,
+      "options": [
+        "a kind of acid",
+        "a sweet substance",
+        "only sodium chloride",
+        "any compound formed when an acid reacts with a base"
+      ],
+      "answer": 3,
       "explain": "There are many salts: sodium chloride, calcium sulfate, potassium nitrate, and more."
     },
     {

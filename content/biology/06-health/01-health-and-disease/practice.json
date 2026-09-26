@@ -74,12 +74,12 @@
       "ibCriterion": "A",
       "prompt": "According to the World Health Organization, health means…",
       "options": [
+        "Never visiting a doctor",
         "Just not being ill",
         "Complete physical, mental and social wellbeing",
-        "Being very strong",
-        "Never visiting a doctor"
+        "Being very strong"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Mental and social wellbeing matter too."
     },
     {
@@ -89,12 +89,12 @@
       "ibCriterion": "A",
       "prompt": "What is a vector?",
       "options": [
-        "A type of vaccine",
-        "An organism, like a mosquito, that carries a pathogen from one host to another",
         "A kind of bacterium",
-        "A healthy food"
+        "A healthy food",
+        "An organism, like a mosquito, that carries a pathogen from one host to another",
+        "A type of vaccine"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Female Anopheles mosquitoes carry malaria; Aedes mosquitoes carry dengue."
     },
     {
@@ -104,12 +104,12 @@
       "ibCriterion": "C",
       "prompt": "In the sorter, why is scurvy non-communicable?",
       "options": [
-        "It's caused by a virus",
-        "It's caused by a lack of vitamin C, not by a germ",
         "It spreads through air",
-        "It spreads through water"
+        "It's caused by a virus",
+        "It spreads through water",
+        "It's caused by a lack of vitamin C, not by a germ"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Deficiency diseases can't spread between people."
     },
     {

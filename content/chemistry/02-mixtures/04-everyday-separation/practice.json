@@ -9,11 +9,26 @@
       "cbseStyle": true,
       "prompt": "Match each mixture to the best separation method.",
       "pairs": [
-        { "left": "Stones in rice", "right": "Hand-picking" },
-        { "left": "Husk and grain", "right": "Winnowing" },
-        { "left": "Bran and flour", "right": "Sieving" },
-        { "left": "Iron pins and sand", "right": "Magnet" },
-        { "left": "Salt from sea water", "right": "Evaporation" }
+        {
+          "left": "Stones in rice",
+          "right": "Hand-picking"
+        },
+        {
+          "left": "Husk and grain",
+          "right": "Winnowing"
+        },
+        {
+          "left": "Bran and flour",
+          "right": "Sieving"
+        },
+        {
+          "left": "Iron pins and sand",
+          "right": "Magnet"
+        },
+        {
+          "left": "Salt from sea water",
+          "right": "Evaporation"
+        }
       ],
       "explain": "Each method uses a different property: visibility, weight, size, magnetism, solubility."
     },
@@ -24,10 +39,22 @@
       "ibCriterion": "A",
       "prompt": "Match each method to the PROPERTY it uses.",
       "pairs": [
-        { "left": "Winnowing", "right": "Some parts are much lighter" },
-        { "left": "Sieving", "right": "Different particle sizes" },
-        { "left": "Filtration", "right": "One part is an insoluble solid" },
-        { "left": "Evaporation", "right": "A solid is dissolved in a liquid" }
+        {
+          "left": "Winnowing",
+          "right": "Some parts are much lighter"
+        },
+        {
+          "left": "Sieving",
+          "right": "Different particle sizes"
+        },
+        {
+          "left": "Filtration",
+          "right": "One part is an insoluble solid"
+        },
+        {
+          "left": "Evaporation",
+          "right": "A solid is dissolved in a liquid"
+        }
       ],
       "explain": "Choosing a method always starts with finding the property that differs."
     },
@@ -37,8 +64,13 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "When muddy water is filtered, the sand left on the filter paper is called the…",
-      "options": ["filtrate", "residue", "solvent", "solution"],
-      "answer": 1,
+      "options": [
+        "solution",
+        "solvent",
+        "residue",
+        "filtrate"
+      ],
+      "answer": 2,
       "explain": "Residue = solid left on the filter paper. Filtrate = liquid that passes through."
     },
     {
@@ -48,12 +80,12 @@
       "ibCriterion": "A",
       "prompt": "Why can't you separate salt from salt water by filtering?",
       "options": [
+        "Salt is heavier than water",
         "Salt is magnetic",
         "Dissolved salt particles are small enough to pass through the filter paper",
-        "Filter paper dissolves in salt water",
-        "Salt is heavier than water"
+        "Filter paper dissolves in salt water"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Dissolved particles pass through filter paper with the water, so the filtrate is still salty."
     },
     {
@@ -78,8 +110,13 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Butter is separated from curd by…",
-      "options": ["Winnowing", "Churning", "Evaporation", "Hand-picking"],
-      "answer": 1,
+      "options": [
+        "Hand-picking",
+        "Evaporation",
+        "Churning",
+        "Winnowing"
+      ],
+      "answer": 2,
       "explain": "Churning makes the lighter fat (butter) collect and separate from the buttermilk."
     },
     {
@@ -88,8 +125,13 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Letting muddy water stand so the mud sinks, then pouring off the water, is called…",
-      "options": ["filtration and evaporation", "sedimentation and decantation", "sieving and winnowing", "condensation"],
-      "answer": 1,
+      "options": [
+        "sedimentation and decantation",
+        "filtration and evaporation",
+        "sieving and winnowing",
+        "condensation"
+      ],
+      "answer": 0,
       "explain": "Sedimentation = heavy particles settle. Decantation = pouring off the liquid above."
     },
     {
@@ -98,8 +140,18 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Which mixtures can be separated by FILTRATION? Choose all that apply.",
-      "options": ["Chalk powder in water", "Sugar in water", "Tea leaves in tea", "Sand in water", "Salt in water"],
-      "answer": [0, 2, 3],
+      "options": [
+        "Chalk powder in water",
+        "Sugar in water",
+        "Tea leaves in tea",
+        "Sand in water",
+        "Salt in water"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
       "explain": "Filtration works only for insoluble solids. Sugar and salt dissolve, so they pass through."
     },
     {
@@ -109,8 +161,21 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentence.",
       "text": "In salt pans, salt is obtained from sea water by ___ , using the heat of the ___ .",
-      "blanks": [["evaporation"], ["sun", "sunlight"]],
-      "wordBank": ["evaporation", "filtration", "sun", "wind"],
+      "blanks": [
+        [
+          "evaporation"
+        ],
+        [
+          "sun",
+          "sunlight"
+        ]
+      ],
+      "wordBank": [
+        "evaporation",
+        "filtration",
+        "sun",
+        "wind"
+      ],
       "explain": "The sun's heat evaporates the water and leaves salt behind."
     },
     {

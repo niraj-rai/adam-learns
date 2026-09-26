@@ -9,11 +9,26 @@
       "cbseStyle": true,
       "prompt": "Match each element to its symbol.",
       "pairs": [
-        { "left": "Sodium", "right": "Na" },
-        { "left": "Copper", "right": "Cu" },
-        { "left": "Silver", "right": "Ag" },
-        { "left": "Potassium", "right": "K" },
-        { "left": "Chlorine", "right": "Cl" }
+        {
+          "left": "Sodium",
+          "right": "Na"
+        },
+        {
+          "left": "Copper",
+          "right": "Cu"
+        },
+        {
+          "left": "Silver",
+          "right": "Ag"
+        },
+        {
+          "left": "Potassium",
+          "right": "K"
+        },
+        {
+          "left": "Chlorine",
+          "right": "Cl"
+        }
       ],
       "explain": "Na, Cu, Ag and K come from Latin names: natrium, cuprum, argentum, kalium."
     },
@@ -72,12 +87,27 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "In the equation 'methane + oxygen → carbon dioxide + water', sort each substance.",
-      "bins": ["Reactant", "Product"],
+      "bins": [
+        "Reactant",
+        "Product"
+      ],
       "items": [
-        { "label": "Methane", "bin": 0 },
-        { "label": "Oxygen", "bin": 0 },
-        { "label": "Carbon dioxide", "bin": 1 },
-        { "label": "Water", "bin": 1 }
+        {
+          "label": "Methane",
+          "bin": 0
+        },
+        {
+          "label": "Oxygen",
+          "bin": 0
+        },
+        {
+          "label": "Carbon dioxide",
+          "bin": 1
+        },
+        {
+          "label": "Water",
+          "bin": 1
+        }
       ],
       "explain": "Reactants are on the left of the arrow; products are on the right."
     },
@@ -89,8 +119,20 @@
       "cbseStyle": true,
       "prompt": "Complete the word equation for burning magnesium ribbon.",
       "text": "magnesium + ___ → magnesium ___",
-      "blanks": [["oxygen"], ["oxide"]],
-      "wordBank": ["oxygen", "oxide", "water", "carbon"],
+      "blanks": [
+        [
+          "oxygen"
+        ],
+        [
+          "oxide"
+        ]
+      ],
+      "wordBank": [
+        "oxygen",
+        "oxide",
+        "water",
+        "carbon"
+      ],
       "explain": "magnesium + oxygen → magnesium oxide (the white powder left behind)."
     },
     {
@@ -99,7 +141,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Arrange the parts to make the word equation for iron reacting with sulfur.",
-      "steps": ["iron", "+", "sulfur", "→", "iron sulfide"],
+      "steps": [
+        "iron",
+        "+",
+        "sulfur",
+        "→",
+        "iron sulfide"
+      ],
       "explain": "iron + sulfur → iron sulfide (from the Iron + Sulfur lab in Unit 2!)."
     },
     {
@@ -108,7 +156,12 @@
       "difficulty": 3,
       "ibCriterion": "C",
       "prompt": "What does 2CO₂ represent?",
-      "options": ["1 carbon and 4 oxygen atoms", "2 molecules of carbon dioxide: 2 carbon and 4 oxygen atoms", "2 carbon and 2 oxygen atoms", "A different compound from CO₂"],
+      "options": [
+        "2 carbon and 2 oxygen atoms",
+        "2 molecules of carbon dioxide: 2 carbon and 4 oxygen atoms",
+        "A different compound from CO₂",
+        "1 carbon and 4 oxygen atoms"
+      ],
       "answer": 1,
       "explain": "The big number in front multiplies the whole molecule: 2 × (1 C + 2 O) = 2 C + 4 O."
     },

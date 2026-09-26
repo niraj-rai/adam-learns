@@ -27,10 +27,10 @@
       "ibCriterion": "A",
       "prompt": "Which statement about the Sun is correct?",
       "options": [
-        "It is a planet",
+        "It orbits the Earth",
         "It is a star",
-        "It is a moon",
-        "It orbits the Earth"
+        "It is a planet",
+        "It is a moon"
       ],
       "answer": 1,
       "explain": "The Sun is a star: a huge ball of hot gas making its own light."
@@ -44,8 +44,8 @@
       "options": [
         "Mercury, because it is closest",
         "Venus, because its thick CO₂ atmosphere traps heat",
-        "Mars, because it is red",
-        "Jupiter, because it is biggest"
+        "Jupiter, because it is biggest",
+        "Mars, because it is red"
       ],
       "answer": 1,
       "explain": "Venus’s runaway greenhouse effect makes it hotter than Mercury."
@@ -69,11 +69,11 @@
       "prompt": "In the scale model with a football-sized Sun, Earth was about 24 m away. About how far away was Neptune?",
       "options": [
         "About 50 m",
-        "About 700 m",
         "About 7 km",
+        "About 700 m",
         "About 30 m"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Neptune is 30 AU away: 30 × 24 m ≈ 720 m."
     },
     {

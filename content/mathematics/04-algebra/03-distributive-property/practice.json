@@ -1,0 +1,114 @@
+{
+  "topicId": "distributive-property",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Expand 4(3x − 2).",
+      "options": [
+        "12x − 8",
+        "12x − 2",
+        "7x − 2",
+        "12x + 8"
+      ],
+      "answer": 0,
+      "explain": "4 × 3x = 12x and 4 × (−2) = −8.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Expand x(x + 5).",
+      "options": [
+        "2x + 5",
+        "x² + 5x",
+        "x² + 5",
+        "x + 5x"
+      ],
+      "answer": 1,
+      "explain": "x × x = x² and x × 5 = 5x."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Expand (x + 2)(x + 5).",
+      "options": [
+        "2x + 7",
+        "x² + 10",
+        "x² + 10x + 7",
+        "x² + 7x + 10"
+      ],
+      "answer": 3,
+      "explain": "x² + 5x + 2x + 10.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Expand (2x + 1)(x − 3).",
+      "options": [
+        "2x² − 3",
+        "2x² + 5x − 3",
+        "2x² − 6x − 3",
+        "2x² − 5x − 3"
+      ],
+      "answer": 3,
+      "explain": "2x² − 6x + x − 3 = 2x² − 5x − 3."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Use the area method: 23 × 47 = (20 + 3)(40 + 7) = ?",
+      "answer": 1081,
+      "explain": "800 + 140 + 120 + 21 = 1081.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A garden is (x + 3) m long and (x + 2) m wide. What is its area when x = 5?",
+      "answer": 56,
+      "unit": "m²",
+      "explain": "8 × 7 = 56 m². Or x² + 5x + 6 = 25 + 25 + 6 = 56.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "In (x + a)(x + b) = x² + ? x + ab, what is the coefficient of x?",
+      "options": [
+        "ab",
+        "2ab",
+        "a − b",
+        "a + b"
+      ],
+      "answer": 3,
+      "explain": "The two middle rectangles are ax and bx, which add to (a + b)x."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A photo is 8 cm by 6 cm. A 1 cm border is added all the way round. What is the area of the photo with its border?",
+      "answer": 80,
+      "unit": "cm²",
+      "explain": "New size: (8 + 2) × (6 + 2) = 10 × 8 = 80 cm².",
+      "tolerance": 0
+    }
+  ]
+}

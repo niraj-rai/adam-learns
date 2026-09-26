@@ -62,14 +62,14 @@
       "ibCriterion": "A",
       "prompt": "On a cool morning, a steel bench feels colder than a wooden bench, although both are at the same temperature. Why?",
       "options": [
-        "Steel is really colder",
-        "Steel conducts heat away from your skin faster",
         "Wood produces heat",
-        "Steel absorbs cold"
+        "Steel absorbs cold",
+        "Steel is really colder",
+        "Steel conducts heat away from your skin faster"
       ],
-      "answer": 1,
+      "answer": 3,
       "feedback": {
-        "0": "A thermometer would show the same temperature for both!"
+        "2": "A thermometer would show the same temperature for both!"
       },
       "explain": "Your skin loses heat quickly into the steel, so it feels colder."
     },
@@ -81,12 +81,12 @@
       "cbseStyle": true,
       "prompt": "Why do cooking pans have plastic or wooden handles?",
       "options": [
+        "They are cheaper than metal",
         "For decoration",
         "Plastic and wood are insulators, so the handle stays cool",
-        "They are cheaper than metal",
         "They make the pan heat faster"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Insulating handles protect your hand; the metal base conducts heat to the food."
     },
     {
@@ -96,12 +96,12 @@
       "ibCriterion": "A",
       "prompt": "Wax holds pins at equal distances along a metal rod. The rod is heated at one end. What happens?",
       "options": [
-        "All pins fall at once",
         "Pins fall one by one, starting nearest the flame",
         "Pins fall starting from the far end",
-        "No pins fall"
+        "No pins fall",
+        "All pins fall at once"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Heat is conducted gradually along the rod from the hot end."
     },
     {

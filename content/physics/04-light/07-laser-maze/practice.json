@@ -8,9 +8,9 @@
       "ibCriterion": "A",
       "prompt": "A beam travelling RIGHT hits a mirror tilted at 45° like this: \\. Where does it go?",
       "options": [
-        "Up",
-        "Down",
         "Straight back",
+        "Down",
+        "Up",
         "Right"
       ],
       "answer": 1,
@@ -24,11 +24,11 @@
       "prompt": "A beam travelling UP hits a / mirror. Where does it go?",
       "options": [
         "Left",
+        "Up",
         "Right",
-        "Down",
-        "Up"
+        "Down"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "A beam going up reflects off / to travel right."
     },
     {
@@ -51,8 +51,8 @@
       "options": [
         "Straight back along its path",
         "At 90°",
-        "Along the mirror",
-        "It disappears"
+        "It disappears",
+        "Along the mirror"
       ],
       "answer": 0,
       "explain": "0° in, 0° out: the beam returns along the normal."
@@ -116,12 +116,12 @@
       "ibCriterion": "C",
       "prompt": "You need to send a beam travelling right so that it ends up travelling LEFT on a lower row. What is the fewest number of 45° mirrors you need?",
       "options": [
-        "1",
-        "2",
         "3",
-        "4"
+        "1",
+        "4",
+        "2"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Two mirrors: turn down (\\), then turn left (/) on the lower row."
     },
     {

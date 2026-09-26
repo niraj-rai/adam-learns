@@ -1,0 +1,105 @@
+{
+  "topicId": "algebra-quest",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Simplify 5x + 3 − 2x + 4.",
+      "options": [
+        "10x",
+        "3x + 7",
+        "7x + 7",
+        "3x + 1"
+      ],
+      "answer": 1,
+      "explain": "5x − 2x = 3x; 3 + 4 = 7."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the value of 2x² − 3 when x = −2.",
+      "answer": 5,
+      "explain": "2 × 4 − 3 = 5.",
+      "tolerance": 0
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Expand (x + 4)(x + 3).",
+      "options": [
+        "x² + 12x + 7",
+        "2x + 7",
+        "x² + 12",
+        "x² + 7x + 12"
+      ],
+      "answer": 3,
+      "explain": "x² + 3x + 4x + 12."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Use an identity to find 102².",
+      "answer": 10404,
+      "explain": "10000 + 400 + 4 = 10404.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Choose one Algebra Quest problem. Explain your method and show how you checked your answer.",
+      "modelAnswer": "To factorise x² + 5x + 6, I looked for two numbers that multiply to 6 and add to 5: 2 and 3. So it is (x + 2)(x + 3). Check: (x + 2)(x + 3) = x² + 3x + 2x + 6 = x² + 5x + 6. ✓",
+      "rubric": [
+        "Explains the method",
+        "Shows working",
+        "Includes a check"
+      ],
+      "explain": "Criterion C: communicate your reasoning."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Factorise x² + 5x + 6.",
+      "options": [
+        "(x + 1)(x + 6)",
+        "(x + 2)(x + 3)",
+        "x(x + 11)",
+        "(x + 5)(x + 1)"
+      ],
+      "answer": 1,
+      "explain": "2 × 3 = 6 and 2 + 3 = 5."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "A row of n squares uses 3n + 1 matchsticks. How many for 20 squares?",
+      "answer": 61,
+      "explain": "3 × 20 + 1 = 61.",
+      "tolerance": 0
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A taxi charges ₹40 plus ₹12 per km. A ride costs ₹160. How many km was it?",
+      "answer": 10,
+      "unit": "km",
+      "explain": "40 + 12k = 160, so 12k = 120 and k = 10.",
+      "tolerance": 0
+    }
+  ]
+}

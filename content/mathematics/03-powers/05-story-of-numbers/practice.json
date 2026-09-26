@@ -59,12 +59,12 @@
       "ibCriterion": "A",
       "prompt": "Which number system uses place value with a symbol for zero, as we do today?",
       "options": [
-        "The Indian (Hindu–Arabic) decimal system",
         "Roman numerals",
+        "The Indian (Hindu–Arabic) decimal system",
         "Egyptian hieroglyphic numerals",
         "Tally marks"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "The decimal place-value system with zero developed in India and spread through Arabic mathematicians to Europe."
     },
     {
@@ -84,12 +84,12 @@
       "ibCriterion": "B",
       "prompt": "How many binary digits (bits) are needed to write 100?",
       "options": [
-        "7",
-        "6",
         "3",
-        "100"
+        "7",
+        "100",
+        "6"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "2⁶ = 64 ≤ 100 < 128 = 2⁷, so 7 digits: 1100100."
     },
     {
@@ -99,12 +99,12 @@
       "ibCriterion": "D",
       "prompt": "Why are there 60 minutes in an hour and 60 seconds in a minute?",
       "options": [
-        "It comes from the Babylonian base-60 system",
+        "It was chosen in 1900",
         "60 is a prime number",
-        "Computers need it",
-        "It was chosen in 1900"
+        "It comes from the Babylonian base-60 system",
+        "Computers need it"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "The ancient Babylonians counted in base 60, and we still measure time and angles that way."
     },
     {
@@ -114,12 +114,12 @@
       "ibCriterion": "B",
       "prompt": "In any base b, what number does “10” represent?",
       "options": [
-        "b itself",
-        "ten, always",
         "one",
-        "b × b"
+        "b × b",
+        "b itself",
+        "ten, always"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "“10” means 1 group of b and 0 ones: in base 2 it's 2, in base 60 it's 60."
     }
   ]

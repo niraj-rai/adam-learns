@@ -23,12 +23,12 @@
       "ibCriterion": "A",
       "prompt": "Which fraction is the largest?",
       "options": [
-        "2/3",
-        "3/5",
+        "7/12",
         "5/8",
-        "7/12"
+        "2/3",
+        "3/5"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "As decimals: 2/3 ≈ 0.67, 3/5 = 0.6, 5/8 = 0.625, 7/12 ≈ 0.58. Or rewrite them all over 120."
     },
     {
@@ -89,12 +89,12 @@
       "ibCriterion": "B",
       "prompt": "Look at the pattern: 1/2, then 1/2 + 1/4, then 1/2 + 1/4 + 1/8, and so on. What happens to the total?",
       "options": [
-        "It gets closer and closer to 1",
-        "It goes past 2",
         "It gets smaller",
-        "It stays at 3/4"
+        "It stays at 3/4",
+        "It goes past 2",
+        "It gets closer and closer to 1"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "The totals are 1/2, 3/4, 7/8, 15/16… Each time, the gap to 1 halves, so the total gets closer and closer to 1 without passing it."
     },
     {

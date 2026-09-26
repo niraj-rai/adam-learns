@@ -107,12 +107,12 @@
       "ibCriterion": "B",
       "prompt": "In the locker puzzle, locker 36 is toggled by everyone whose number is a factor of 36. What happens to it?",
       "options": [
-        "9 people toggle it, so it ends up open",
         "8 people toggle it, so it ends up closed",
+        "36 people toggle it",
         "6 people toggle it, so it ends up closed",
-        "36 people toggle it"
+        "9 people toggle it, so it ends up open"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "36 has 9 factors (1, 2, 3, 4, 6, 9, 12, 18, 36). An odd number of toggles leaves it open."
     },
     {

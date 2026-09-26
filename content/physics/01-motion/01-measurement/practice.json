@@ -8,8 +8,13 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "What is the SI unit of length?",
-      "options": ["Centimetre", "Metre", "Kilometre", "Handspan"],
-      "answer": 1,
+      "options": [
+        "Centimetre",
+        "Kilometre",
+        "Handspan",
+        "Metre"
+      ],
+      "answer": 3,
       "explain": "The metre (m) is the SI unit of length."
     },
     {
@@ -18,8 +23,13 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Why are handspans not good units for measuring?",
-      "options": ["They are too long", "They are different for different people", "They are too small", "Handspans can only measure tables"],
-      "answer": 1,
+      "options": [
+        "Handspans can only measure tables",
+        "They are too small",
+        "They are too long",
+        "They are different for different people"
+      ],
+      "answer": 3,
       "explain": "Body parts vary in size from person to person, so results don't agree."
     },
     {
@@ -65,7 +75,12 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "To avoid parallax error, where should your eye be when reading a scale?",
-      "options": ["To the left of the mark", "Directly above the mark", "To the right of the mark", "It doesn't matter"],
+      "options": [
+        "To the left of the mark",
+        "Directly above the mark",
+        "To the right of the mark",
+        "It doesn't matter"
+      ],
       "answer": 1,
       "explain": "Looking straight down (perpendicular to the scale) avoids parallax error."
     },
@@ -75,7 +90,12 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Order these units from SMALLEST to LARGEST.",
-      "steps": ["millimetre", "centimetre", "metre", "kilometre"],
+      "steps": [
+        "millimetre",
+        "centimetre",
+        "metre",
+        "kilometre"
+      ],
       "explain": "mm < cm < m < km."
     },
     {
@@ -99,10 +119,22 @@
       "ibCriterion": "A",
       "prompt": "Match each measurement to the most suitable unit.",
       "pairs": [
-        { "left": "Thickness of a coin", "right": "millimetres" },
-        { "left": "Length of a notebook", "right": "centimetres" },
-        { "left": "Height of a classroom", "right": "metres" },
-        { "left": "Distance from Bengaluru to Mysuru", "right": "kilometres" }
+        {
+          "left": "Thickness of a coin",
+          "right": "millimetres"
+        },
+        {
+          "left": "Length of a notebook",
+          "right": "centimetres"
+        },
+        {
+          "left": "Height of a classroom",
+          "right": "metres"
+        },
+        {
+          "left": "Distance from Bengaluru to Mysuru",
+          "right": "kilometres"
+        }
       ],
       "explain": "Choose a unit that gives a sensible-sized number."
     },

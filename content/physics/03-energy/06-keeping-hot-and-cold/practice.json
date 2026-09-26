@@ -35,12 +35,12 @@
       "cbseStyle": true,
       "prompt": "Why do woollen clothes keep us warm in winter?",
       "options": [
-        "Wool makes heat",
         "Wool traps air, which is a poor conductor of heat",
+        "Wool makes heat",
         "Wool is black",
         "Wool absorbs cold"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Air trapped between the wool fibres insulates your body."
     },
     {
@@ -65,12 +65,12 @@
       "ibCriterion": "C",
       "prompt": "In the Flask Lab, which container kept chai above 60 °C for more than two hours?",
       "options": [
+        "Vacuum flask",
         "Steel tumbler",
         "Clay kulhad",
-        "Thermocol cup with a lid",
-        "Vacuum flask"
+        "Thermocol cup with a lid"
       ],
-      "answer": 3,
+      "answer": 0,
       "explain": "Only the vacuum flask blocks conduction, convection and radiation well enough."
     },
     {
@@ -91,12 +91,12 @@
       "ibCriterion": "C",
       "prompt": "On a cooling curve, the line is steepest at the start. What does this tell you?",
       "options": [
-        "The chai cools fastest when it's hottest",
         "The chai heats up at the start",
         "The thermometer is broken",
-        "It cools at a constant rate"
+        "It cools at a constant rate",
+        "The chai cools fastest when it's hottest"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "The bigger the temperature difference from the room, the faster the heat flows out."
     },
     {

@@ -64,12 +64,12 @@
       "ibCriterion": "A",
       "prompt": "What is a tissue?",
       "options": [
-        "A single cell",
-        "A group of similar cells working together to do a job",
+        "An organism",
         "A whole organ",
-        "An organism"
+        "A single cell",
+        "A group of similar cells working together to do a job"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "E.g. muscle tissue, nerve tissue, xylem in plants."
     },
     {
@@ -80,11 +80,11 @@
       "prompt": "Which is an organ in a plant?",
       "options": [
         "A palisade cell",
-        "A leaf",
         "Xylem tissue",
-        "A chloroplast"
+        "A chloroplast",
+        "A leaf"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "A leaf contains several tissues working together."
     },
     {
@@ -128,10 +128,10 @@
       "ibCriterion": "A",
       "prompt": "An amoeba is a single cell. Which levels of organisation does it have?",
       "options": [
-        "All five",
-        "Just cell = organism",
         "Tissue and organ",
-        "Organ system only"
+        "Just cell = organism",
+        "Organ system only",
+        "All five"
       ],
       "answer": 1,
       "explain": "In unicellular organisms, the one cell is the whole organism."

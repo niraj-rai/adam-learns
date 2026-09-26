@@ -35,12 +35,12 @@
       "ibCriterion": "A",
       "prompt": "Who first used the word ‘cell’, after looking at thin slices of cork in 1665?",
       "options": [
+        "Louis Pasteur",
         "Robert Hooke",
         "Antonie van Leeuwenhoek",
-        "Isaac Newton",
-        "Louis Pasteur"
+        "Isaac Newton"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "The empty cork compartments reminded Hooke of small rooms (cells)."
     },
     {
@@ -61,10 +61,10 @@
       "ibCriterion": "C",
       "prompt": "In the Virtual Microscope, what happened to the field of view when you switched from 100× to 400×?",
       "options": [
-        "It got bigger",
-        "It got smaller: you see less of the slide, but in more detail",
         "It stayed the same",
-        "It went dark"
+        "It got smaller: you see less of the slide, but in more detail",
+        "It went dark",
+        "It got bigger"
       ],
       "answer": 1,
       "explain": "Four times the magnification gives a field of view a quarter as wide."
@@ -76,12 +76,12 @@
       "ibCriterion": "A",
       "prompt": "Why do we add iodine or methylene blue to a slide?",
       "options": [
-        "To kill the cells",
         "To stain parts like the nucleus so they can be seen more clearly",
+        "To magnify it",
         "To make the slide stick",
-        "To magnify it"
+        "To kill the cells"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Most cell parts are nearly transparent until stained."
     },
     {

@@ -35,10 +35,10 @@
       "ibCriterion": "A",
       "prompt": "What kind of image does a convex mirror ALWAYS form?",
       "options": [
-        "Real, inverted, magnified",
+        "Virtual, inverted, magnified",
         "Virtual, upright, diminished",
         "Real, upright, same size",
-        "Virtual, inverted, magnified"
+        "Real, inverted, magnified"
       ],
       "answer": 1,
       "explain": "Convex mirrors spread light out, so the image is always virtual, upright and smaller."
@@ -52,8 +52,8 @@
       "options": [
         "real and inverted",
         "virtual, upright and magnified",
-        "at infinity",
-        "diminished"
+        "diminished",
+        "at infinity"
       ],
       "answer": 1,
       "explain": "This is how shaving and make-up mirrors work."
@@ -67,8 +67,8 @@
       "options": [
         "at C, real, inverted and the same size",
         "behind the mirror",
-        "at F",
-        "virtual and magnified"
+        "virtual and magnified",
+        "at F"
       ],
       "answer": 0,
       "explain": "At C the image forms at C too, inverted and the same size."
@@ -80,12 +80,12 @@
       "ibCriterion": "A",
       "prompt": "Why are the bulbs of torches and headlights placed at the focus of a concave mirror?",
       "options": [
-        "To make the bulb brighter",
         "So the reflected rays come out parallel as a strong beam",
-        "To keep the bulb cool",
-        "To make the image upside down"
+        "To make the bulb brighter",
+        "To make the image upside down",
+        "To keep the bulb cool"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Light from the focus reflects parallel to the principal axis."
     },
     {

@@ -8,9 +8,9 @@
       "ibCriterion": "A",
       "prompt": "What does R₀ = 15 mean for measles?",
       "options": [
-        "15 people die",
-        "One ill person infects about 15 others in a population with no immunity",
         "It lasts 15 days",
+        "One ill person infects about 15 others in a population with no immunity",
+        "15 people die",
         "15% of people get it"
       ],
       "answer": 1,
@@ -34,10 +34,10 @@
       "ibCriterion": "C",
       "prompt": "In the Outbreak Simulator, what happened to measles when the vaccination rate went above about 93%?",
       "options": [
-        "It spread to everyone",
+        "It became flu",
         "The outbreak fizzled out",
         "Nothing changed",
-        "It became flu"
+        "It spread to everyone"
       ],
       "answer": 1,
       "explain": "Above the threshold, each case infects fewer than one new person."
@@ -49,12 +49,12 @@
       "ibCriterion": "A",
       "prompt": "Who is protected by herd immunity?",
       "options": [
-        "Only vaccinated people",
         "Also people who can't be vaccinated, like newborns and people with weak immune systems",
-        "Only doctors",
-        "No one"
+        "No one",
+        "Only vaccinated people",
+        "Only doctors"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "The germ can't find enough people to spread to."
     },
     {
@@ -108,10 +108,10 @@
       "ibCriterion": "A",
       "prompt": "What is the difference between an epidemic and a pandemic?",
       "options": [
-        "No difference",
+        "Epidemics only affect animals",
         "An epidemic is a big outbreak in one region; a pandemic spreads across many countries or the world",
         "A pandemic is smaller",
-        "Epidemics only affect animals"
+        "No difference"
       ],
       "answer": 1,
       "explain": "COVID-19 was declared a pandemic in 2020."

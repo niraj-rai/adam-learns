@@ -30,12 +30,12 @@
       "ibCriterion": "A",
       "prompt": "What does SONAR stand for?",
       "options": [
-        "Sound Navigation And Ranging",
+        "Signal Of Natural Acoustic Rays",
         "Sonic Noise And Radio",
         "Sea Ocean Navigation And Radar",
-        "Signal Of Natural Acoustic Rays"
+        "Sound Navigation And Ranging"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "SONAR uses sound echoes to find distances underwater."
     },
     {
@@ -45,12 +45,12 @@
       "ibCriterion": "A",
       "prompt": "Why do sonar systems use ultrasound rather than audible sound?",
       "options": [
-        "Ultrasound travels in straight, narrow beams and doesn't disturb people",
         "Ultrasound is louder",
         "Ultrasound travels through a vacuum",
+        "Ultrasound travels in straight, narrow beams and doesn't disturb people",
         "Ultrasound is cheaper"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "High-frequency sound makes a narrow beam, good for measuring precisely."
     },
     {
@@ -80,12 +80,12 @@
       "ibCriterion": "C",
       "prompt": "Sonar depths along a line: 120, 135, 150, 118, 170, 185 m. What is the most likely explanation for 118 m?",
       "options": [
+        "The ship stopped moving",
         "A measurement error only",
         "Something standing up from the seabed, such as a rock or a wreck",
-        "The sea is getting shallower everywhere",
-        "The ship stopped moving"
+        "The sea is getting shallower everywhere"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "A sudden shallow spot on an otherwise sloping seabed suggests an object on the bottom."
     },
     {

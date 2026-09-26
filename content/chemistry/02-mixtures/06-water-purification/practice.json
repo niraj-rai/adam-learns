@@ -7,7 +7,12 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Put the stages of water treatment in the correct order.",
-      "steps": ["Screening", "Loading with alum and sedimentation", "Filtration through sand and gravel", "Disinfection with chlorine"],
+      "steps": [
+        "Screening",
+        "Loading with alum and sedimentation",
+        "Filtration through sand and gravel",
+        "Disinfection with chlorine"
+      ],
       "explain": "Largest things out first, germs last: screening → sedimentation → filtration → disinfection."
     },
     {
@@ -17,10 +22,22 @@
       "ibCriterion": "A",
       "prompt": "Match each stage to what it removes.",
       "pairs": [
-        { "left": "Screening", "right": "Leaves, sticks and plastic" },
-        { "left": "Sedimentation with alum", "right": "Mud and clay" },
-        { "left": "Sand filtration", "right": "Fine suspended particles" },
-        { "left": "Chlorination", "right": "Germs" }
+        {
+          "left": "Screening",
+          "right": "Leaves, sticks and plastic"
+        },
+        {
+          "left": "Sedimentation with alum",
+          "right": "Mud and clay"
+        },
+        {
+          "left": "Sand filtration",
+          "right": "Fine suspended particles"
+        },
+        {
+          "left": "Chlorination",
+          "right": "Germs"
+        }
       ],
       "explain": "Each stage targets smaller and smaller impurities."
     },
@@ -31,7 +48,12 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Why is alum (phitkari) added to muddy water?",
-      "options": ["To kill germs", "To make tiny mud particles clump together and settle faster", "To make the water taste better", "To dissolve the mud"],
+      "options": [
+        "To make the water taste better",
+        "To make tiny mud particles clump together and settle faster",
+        "To dissolve the mud",
+        "To kill germs"
+      ],
       "answer": 1,
       "explain": "This is called loading: alum makes fine particles stick together into heavier clumps that sink."
     },
@@ -42,12 +64,12 @@
       "ibCriterion": "A",
       "prompt": "Why is disinfection done LAST?",
       "options": [
-        "Chlorine is the most expensive",
         "Germs can hide in dirt, so disinfection works best on clear water",
-        "Chlorine removes mud",
-        "It doesn't matter when it's done"
+        "It doesn't matter when it's done",
+        "Chlorine is the most expensive",
+        "Chlorine removes mud"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Suspended particles shield germs and use up chlorine, so solids are removed first."
     },
     {
@@ -56,9 +78,16 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Water is clear after filtering through sand. Is it safe to drink?",
-      "options": ["Yes, it's clear", "Not yet: germs and dissolved substances may still be in it", "Only if it's filtered twice", "Yes, if it's in a clean bottle"],
-      "answer": 1,
-      "feedback": { "0": "Clear ≠ safe! Germs are invisible." },
+      "options": [
+        "Yes, if it's in a clean bottle",
+        "Only if it's filtered twice",
+        "Yes, it's clear",
+        "Not yet: germs and dissolved substances may still be in it"
+      ],
+      "answer": 3,
+      "feedback": {
+        "2": "Clear ≠ safe! Germs are invisible."
+      },
       "explain": "Filtering removes particles, not most germs or dissolved substances. It still needs disinfection."
     },
     {
@@ -67,8 +96,18 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Which methods kill germs in drinking water? Choose all that apply.",
-      "options": ["Boiling", "Chlorination", "UV light", "Sedimentation", "Adding sugar"],
-      "answer": [0, 1, 2],
+      "options": [
+        "Boiling",
+        "Chlorination",
+        "UV light",
+        "Sedimentation",
+        "Adding sugar"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
       "explain": "Boiling, chlorine and UV light kill germs. Sedimentation only lets solids settle."
     },
     {
@@ -78,7 +117,12 @@
       "ibCriterion": "B",
       "cbseStyle": true,
       "prompt": "Put the steps in order to make muddy water safe to drink at home.",
-      "steps": ["Let the water stand so mud settles (sedimentation)", "Pour off the clearer water (decantation)", "Filter it through a clean cloth or filter", "Boil it for a few minutes and let it cool"],
+      "steps": [
+        "Let the water stand so mud settles (sedimentation)",
+        "Pour off the clearer water (decantation)",
+        "Filter it through a clean cloth or filter",
+        "Boil it for a few minutes and let it cool"
+      ],
       "explain": "Sediment → decant → filter → boil."
     },
     {
@@ -88,12 +132,12 @@
       "ibCriterion": "D",
       "prompt": "Why don't big cities use distillation to clean all their tap water?",
       "options": [
-        "Distilled water is poisonous",
-        "Boiling millions of litres every day would need enormous amounts of energy and money",
+        "It is illegal",
         "Distillation doesn't remove salt",
-        "It is illegal"
+        "Boiling millions of litres every day would need enormous amounts of energy and money",
+        "Distilled water is poisonous"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Distillation works but is very energy-hungry at a city scale. Screening, sedimentation, filtration and chlorination are far cheaper."
     },
     {
@@ -103,8 +147,16 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentence.",
       "text": "Water that is safe to drink is called ___ water.",
-      "blanks": [["potable"]],
-      "wordBank": ["potable", "distilled", "saturated"],
+      "blanks": [
+        [
+          "potable"
+        ]
+      ],
+      "wordBank": [
+        "potable",
+        "distilled",
+        "saturated"
+      ],
       "explain": "Potable water is safe for drinking."
     },
     {

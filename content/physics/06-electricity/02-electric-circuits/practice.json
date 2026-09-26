@@ -40,12 +40,12 @@
       "cbseStyle": true,
       "prompt": "A bulb lights only when…",
       "options": [
-        "it touches one terminal of the cell",
         "it is part of a complete, closed loop with the cell",
         "the switch is open",
-        "it is near the cell"
+        "it is near the cell",
+        "it touches one terminal of the cell"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Current needs an unbroken path from one terminal, through the bulb, back to the other terminal."
     },
     {
@@ -55,12 +55,12 @@
       "ibCriterion": "C",
       "prompt": "In the Circuit Builder, a second cell was added (both facing the same way). The bulb…",
       "options": [
-        "went out",
-        "got brighter",
         "stayed the same",
-        "flickered"
+        "flickered",
+        "went out",
+        "got brighter"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Two cells push more current, making the bulb brighter."
     },
     {
@@ -70,10 +70,10 @@
       "ibCriterion": "A",
       "prompt": "Two cells are placed facing OPPOSITE ways in a circuit. What happens?",
       "options": [
-        "The bulb is twice as bright",
+        "The cells explode",
         "Their pushes cancel and the bulb doesn't light",
-        "The bulb lights normally",
-        "The cells explode"
+        "The bulb is twice as bright",
+        "The bulb lights normally"
       ],
       "answer": 1,
       "explain": "Cells must be joined + to − so their pushes add."
@@ -85,12 +85,12 @@
       "ibCriterion": "A",
       "prompt": "Two bulbs are in series. One is unscrewed. What happens to the other?",
       "options": [
-        "It gets brighter",
         "It goes out",
+        "It flickers",
         "It stays the same",
-        "It flickers"
+        "It gets brighter"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "A series circuit has only one path; a gap anywhere stops the current."
     },
     {
@@ -100,12 +100,12 @@
       "ibCriterion": "C",
       "prompt": "Why are the lights and fans in your home connected in parallel, not in series?",
       "options": [
+        "Parallel circuits have no current",
         "It uses less wire",
-        "Each appliance gets the full voltage and can be switched on and off independently",
         "Series circuits are illegal",
-        "Parallel circuits have no current"
+        "Each appliance gets the full voltage and can be switched on and off independently"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "In parallel, each branch works on its own."
     },
     {

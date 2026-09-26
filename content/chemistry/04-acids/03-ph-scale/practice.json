@@ -7,14 +7,36 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Sort each pH value.",
-      "bins": ["Acidic", "Neutral", "Basic"],
+      "bins": [
+        "Acidic",
+        "Neutral",
+        "Basic"
+      ],
       "items": [
-        { "label": "pH 2", "bin": 0 },
-        { "label": "pH 7", "bin": 1 },
-        { "label": "pH 11", "bin": 2 },
-        { "label": "pH 5", "bin": 0 },
-        { "label": "pH 13", "bin": 2 },
-        { "label": "pH 8.5", "bin": 2 }
+        {
+          "label": "pH 2",
+          "bin": 0
+        },
+        {
+          "label": "pH 7",
+          "bin": 1
+        },
+        {
+          "label": "pH 11",
+          "bin": 2
+        },
+        {
+          "label": "pH 5",
+          "bin": 0
+        },
+        {
+          "label": "pH 13",
+          "bin": 2
+        },
+        {
+          "label": "pH 8.5",
+          "bin": 2
+        }
       ],
       "explain": "Below 7 acidic, 7 neutral, above 7 basic."
     },
@@ -24,7 +46,14 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Order from MOST acidic to MOST basic.",
-      "steps": ["Stomach acid (pH 1)", "Lemon juice (pH 2)", "Tomato juice (pH 4)", "Pure water (pH 7)", "Baking soda (pH 8.4)", "Lime water (pH 12.4)"],
+      "steps": [
+        "Stomach acid (pH 1)",
+        "Lemon juice (pH 2)",
+        "Tomato juice (pH 4)",
+        "Pure water (pH 7)",
+        "Baking soda (pH 8.4)",
+        "Lime water (pH 12.4)"
+      ],
       "explain": "Lowest pH = most acidic; highest pH = most basic."
     },
     {
@@ -56,9 +85,16 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "You keep adding water to vinegar. What happens to its pH?",
-      "options": ["It keeps rising past 7 until it's basic", "It rises towards 7 but stays below 7", "It falls towards 0", "It stays exactly the same"],
-      "answer": 1,
-      "feedback": { "0": "Water alone can never make an acid basic." },
+      "options": [
+        "It rises towards 7 but stays below 7",
+        "It keeps rising past 7 until it's basic",
+        "It stays exactly the same",
+        "It falls towards 0"
+      ],
+      "answer": 0,
+      "feedback": {
+        "1": "Water alone can never make an acid basic."
+      },
       "explain": "Diluting moves pH towards 7; you'd need a base to go above 7."
     },
     {
@@ -68,8 +104,13 @@
       "ibCriterion": "D",
       "cbseStyle": true,
       "prompt": "Tooth decay starts when the pH in the mouth falls below about…",
-      "options": ["3.5", "5.5", "7.0", "8.5"],
-      "answer": 1,
+      "options": [
+        "8.5",
+        "3.5",
+        "7.0",
+        "5.5"
+      ],
+      "answer": 3,
       "explain": "Below pH 5.5, acids from bacteria start dissolving enamel. Basic toothpaste neutralises them."
     },
     {
@@ -80,10 +121,22 @@
       "cbseStyle": true,
       "prompt": "Match each situation to how pH helps.",
       "pairs": [
-        { "left": "Acidity in the stomach", "right": "Take an antacid (mild base)" },
-        { "left": "Bee sting (acid)", "right": "Rub on baking soda" },
-        { "left": "Acidic soil", "right": "Add lime (calcium hydroxide)" },
-        { "left": "Acids in the mouth", "right": "Brush with basic toothpaste" }
+        {
+          "left": "Acidity in the stomach",
+          "right": "Take an antacid (mild base)"
+        },
+        {
+          "left": "Bee sting (acid)",
+          "right": "Rub on baking soda"
+        },
+        {
+          "left": "Acidic soil",
+          "right": "Add lime (calcium hydroxide)"
+        },
+        {
+          "left": "Acids in the mouth",
+          "right": "Brush with basic toothpaste"
+        }
       ],
       "explain": "Each uses a base to neutralise unwanted acid."
     },
@@ -93,8 +146,13 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Universal indicator turns GREEN. The pH is about…",
-      "options": ["1", "4", "7", "13"],
-      "answer": 2,
+      "options": [
+        "13",
+        "1",
+        "4",
+        "7"
+      ],
+      "answer": 3,
       "explain": "Green = neutral, about pH 7. Red = strongly acidic, purple = strongly basic."
     },
     {
@@ -104,8 +162,21 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentences.",
       "text": "Pure water has a pH of ___. The lower the pH, the ___ the acid.",
-      "blanks": [["7", "seven"], ["stronger"]],
-      "wordBank": ["7", "0", "stronger", "weaker"],
+      "blanks": [
+        [
+          "7",
+          "seven"
+        ],
+        [
+          "stronger"
+        ]
+      ],
+      "wordBank": [
+        "7",
+        "0",
+        "stronger",
+        "weaker"
+      ],
       "explain": "pH 7 is neutral; low pH = strong acid."
     },
     {

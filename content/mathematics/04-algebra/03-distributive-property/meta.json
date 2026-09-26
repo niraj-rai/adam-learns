@@ -1,0 +1,58 @@
+{
+  "id": "distributive-property",
+  "number": "4.3",
+  "title": "We Distribute, Yet Things Multiply",
+  "summary": "The distributive property as areas: multiplying numbers and expressions with brackets.",
+  "emoji": "🟦",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Expanding brackets is MYP 3 Algebra"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 6: We Distribute, Yet Things Multiply",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 8: Algebraic Expressions and Identities",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can expand single and double brackets.",
+    "I can use area models to explain expansion.",
+    "I can solve real problems involving products of expressions."
+  ],
+  "misconceptions": [
+    "3(x + 2) = 3x + 2",
+    "(x + 2)(x + 3) = x² + 6",
+    "Only the first term inside a bracket is multiplied."
+  ],
+  "prerequisites": [
+    "mathematics/algebra/simplifying-expressions"
+  ],
+  "labs": [
+    "area-multiplier"
+  ],
+  "keyTerms": [
+    "distributive property",
+    "expand",
+    "bracket",
+    "product",
+    "area model"
+  ],
+  "estMinutes": 25
+}

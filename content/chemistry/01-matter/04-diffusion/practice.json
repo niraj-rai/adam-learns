@@ -8,12 +8,12 @@
       "ibCriterion": "A",
       "prompt": "What is diffusion?",
       "options": [
-        "Particles spreading from high concentration to low concentration",
-        "A liquid turning into a gas",
         "Mixing that only happens when you stir",
-        "Particles getting bigger when heated"
+        "A liquid turning into a gas",
+        "Particles getting bigger when heated",
+        "Particles spreading from high concentration to low concentration"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "Diffusion is the net movement of particles from where they are more concentrated to where they are less concentrated, caused by random motion."
     },
     {
@@ -37,12 +37,12 @@
       "cbseStyle": true,
       "prompt": "Why can we smell hot, sizzling food from far away but have to go close to smell cold food?",
       "options": [
-        "Hot food has more colour",
         "Particles of hot food move faster, so they diffuse faster through the air",
+        "Hot food has more colour",
         "Cold food has no particles",
         "Our nose works better when it's hot"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Higher temperature means faster-moving particles and faster diffusion. Hot food also releases more particles into the air."
     },
     {
@@ -78,12 +78,12 @@
       "ibCriterion": "B",
       "prompt": "Riya puts dye in cold water in a small glass and in hot water in a big bucket. The hot water mixes first. What is wrong with her experiment?",
       "options": [
+        "Dye doesn't diffuse in water",
         "Nothing, it was a fair test",
         "She changed two variables (temperature and container size)",
-        "She should have used more dye",
-        "Dye doesn't diffuse in water"
+        "She should have used more dye"
       ],
-      "answer": 1,
+      "answer": 2,
       "hint": "How many things were different between the two set-ups?",
       "explain": "She changed both temperature and container size, so she can't know which one caused the difference. It isn't a fair test."
     },
@@ -154,14 +154,14 @@
       "ibCriterion": "A",
       "prompt": "Once a drop of ink has spread evenly through a glass of water, the ink particles…",
       "options": [
-        "stop moving",
-        "keep moving randomly",
         "sink to the bottom",
-        "turn into water"
+        "turn into water",
+        "keep moving randomly",
+        "stop moving"
       ],
-      "answer": 1,
+      "answer": 2,
       "feedback": {
-        "0": "Particles never stop moving. They are just evenly spread out now."
+        "3": "Particles never stop moving. They are just evenly spread out now."
       },
       "explain": "Particles are always moving. When evenly spread, there's no overall change, but the motion continues."
     },

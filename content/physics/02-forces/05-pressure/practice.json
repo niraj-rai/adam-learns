@@ -105,12 +105,12 @@
       "ibCriterion": "A",
       "prompt": "Why can a person lie on a bed of 1000 nails without getting hurt?",
       "options": [
-        "The nails are blunt",
         "The weight is shared by many nails, so the pressure from each is small",
-        "Their weight becomes smaller",
-        "The nails bend"
+        "The nails bend",
+        "The nails are blunt",
+        "Their weight becomes smaller"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Big total area → small pressure at each point."
     },
     {
@@ -120,12 +120,12 @@
       "ibCriterion": "A",
       "prompt": "The SI unit of pressure, 1 N/m², is called the…",
       "options": [
+        "watt",
         "newton",
         "pascal",
-        "joule",
-        "watt"
+        "joule"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "1 pascal (Pa) = 1 N/m², named after Blaise Pascal."
     },
     {

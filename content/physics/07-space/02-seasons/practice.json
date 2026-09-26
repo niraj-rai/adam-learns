@@ -9,12 +9,12 @@
       "cbseStyle": true,
       "prompt": "What causes the seasons?",
       "options": [
-        "Earth’s changing distance from the Sun",
         "The tilt of Earth’s axis as it orbits the Sun",
-        "The Moon’s phases",
-        "Clouds"
+        "Earth’s changing distance from the Sun",
+        "Clouds",
+        "The Moon’s phases"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "The tilt changes how directly sunlight hits each hemisphere and how long days are."
     },
     {
@@ -24,12 +24,12 @@
       "ibCriterion": "A",
       "prompt": "When it is summer in India, what season is it in Australia?",
       "options": [
+        "Spring",
         "Summer",
         "Winter",
-        "Monsoon",
-        "Spring"
+        "Monsoon"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "When the northern hemisphere tilts towards the Sun, the southern hemisphere tilts away."
     },
     {
@@ -39,12 +39,12 @@
       "ibCriterion": "C",
       "prompt": "In the Seasons Lab, which place had the biggest difference between June and December day lengths?",
       "options": [
-        "On the Equator",
         "Bengaluru",
-        "Delhi",
-        "Tromsø (Arctic Norway)"
+        "On the Equator",
+        "Tromsø (Arctic Norway)",
+        "Delhi"
       ],
-      "answer": 3,
+      "answer": 2,
       "explain": "The further from the equator, the bigger the seasonal change, up to 24-hour days and nights."
     },
     {
@@ -54,12 +54,12 @@
       "ibCriterion": "A",
       "prompt": "Earth is actually closest to the Sun in early January. Why is January still winter in Delhi?",
       "options": [
-        "Distance has a big effect, but it is cold for other reasons",
         "The northern hemisphere tilts away from the Sun, so sunlight is less direct and days are shorter",
         "Delhi is very high up",
+        "Distance has a big effect, but it is cold for other reasons",
         "Winter is caused by rain"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Tilt matters far more than the small change in distance."
     },
     {

@@ -24,12 +24,12 @@
       "ibCriterion": "A",
       "prompt": "Above about which sound level can long exposure damage hearing?",
       "options": [
-        "30 dB",
         "60 dB",
         "85 dB",
-        "10 dB"
+        "10 dB",
+        "30 dB"
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": "Sounds above 85 dB can damage the hair cells in the cochlea."
     },
     {
@@ -88,12 +88,12 @@
       "ibCriterion": "A",
       "prompt": "Under India's Noise Pollution Rules, which area has the LOWEST noise limits?",
       "options": [
-        "Industrial area",
+        "Residential area",
         "Commercial area",
-        "Silence zone around hospitals and schools",
-        "Residential area"
+        "Industrial area",
+        "Silence zone around hospitals and schools"
       ],
-      "answer": 2,
+      "answer": 3,
       "explain": "Silence zones: 50 dB by day and 40 dB at night."
     },
     {
@@ -103,12 +103,12 @@
       "ibCriterion": "C",
       "prompt": "Each +10 dB sounds about twice as loud. How much louder does a 90 dB sound seem than a 70 dB sound?",
       "options": [
+        "The same",
         "About 2 times",
         "About 4 times",
-        "About 20 times",
-        "The same"
+        "About 20 times"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "+10 dB doubles the loudness, and +20 dB doubles it twice: 2 × 2 = 4 times."
     },
     {

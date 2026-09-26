@@ -9,10 +9,10 @@
       "cbseStyle": true,
       "prompt": "Friction always acts…",
       "options": [
-        "in the direction of motion",
+        "downwards",
         "opposite to the direction of motion (or attempted motion)",
         "upwards",
-        "downwards"
+        "in the direction of motion"
       ],
       "answer": 1,
       "explain": "Friction opposes relative motion between surfaces."
@@ -80,8 +80,8 @@
       "options": [
         "Wheels make it lighter",
         "Rolling friction is much smaller than sliding friction",
-        "Wheels remove gravity",
-        "Wheels increase friction"
+        "Wheels increase friction",
+        "Wheels remove gravity"
       ],
       "answer": 1,
       "explain": "Rolling friction is far less than sliding friction."
@@ -129,12 +129,12 @@
       "ibCriterion": "A",
       "prompt": "Planes, cars and fish have streamlined shapes to reduce…",
       "options": [
-        "gravity",
-        "drag (friction from air or water)",
         "magnetism",
-        "weight"
+        "gravity",
+        "weight",
+        "drag (friction from air or water)"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Drag is the friction force from fluids (air or water). Streamlining reduces it."
     },
     {

@@ -31,12 +31,12 @@
       "ibCriterion": "A",
       "prompt": "Where does most of the energy go at each level?",
       "options": [
+        "It goes back to the Sun",
         "It is destroyed",
         "It is used for living (respiration, movement, warmth) and lost as heat or in waste",
-        "It goes back to the Sun",
         "It is stored forever"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Energy is never destroyed, but it leaves the food chain as heat."
     },
     {
@@ -48,8 +48,8 @@
       "options": [
         "Animals don't like long chains",
         "So little energy reaches the top that another level couldn't be supported",
-        "Predators are lazy",
-        "There is too much energy"
+        "There is too much energy",
+        "Predators are lazy"
       ],
       "answer": 1,
       "explain": "After 4 steps, only 0.01% of the plants' energy remains."
@@ -61,12 +61,12 @@
       "ibCriterion": "A",
       "prompt": "Unlike energy, nutrients such as nitrogen and carbon are…",
       "options": [
+        "made by the Sun",
         "lost forever",
-        "recycled by decomposers",
         "only found in animals",
-        "made by the Sun"
+        "recycled by decomposers"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Energy flows; nutrients cycle."
     },
     {
@@ -109,12 +109,12 @@
       "ibCriterion": "C",
       "prompt": "In the Energy Pyramid, what happened to the energy reaching eagles when the transfer rate was raised from 10% to 20%?",
       "options": [
-        "It doubled",
         "It became 16 times bigger",
+        "It doubled",
         "It stayed the same",
         "It halved"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Four steps: 2 × 2 × 2 × 2 = 16."
     }
   ]

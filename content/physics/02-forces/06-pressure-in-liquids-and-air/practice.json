@@ -9,12 +9,12 @@
       "cbseStyle": true,
       "prompt": "A bottle of water has holes at three heights. Which hole squirts water the furthest?",
       "options": [
-        "The top hole",
+        "All the same",
         "The middle hole",
-        "The bottom hole",
-        "All the same"
+        "The top hole",
+        "The bottom hole"
       ],
-      "answer": 2,
+      "answer": 3,
       "explain": "Liquid pressure increases with depth, so the bottom hole has the greatest pressure."
     },
     {
@@ -26,11 +26,11 @@
       "prompt": "Why are dam walls built thicker at the bottom?",
       "options": [
         "To look better",
+        "To stop fish",
         "Water pressure is greatest at the bottom",
-        "The bottom has less water",
-        "To stop fish"
+        "The bottom has less water"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "The deeper the water, the higher the pressure on the wall."
     },
     {
@@ -60,14 +60,14 @@
       "ibCriterion": "A",
       "prompt": "When you drink through a straw, what actually pushes the juice up?",
       "options": [
-        "Your sucking pulls the juice up",
-        "The air pressure on the juice surface pushes it up into the low-pressure straw",
         "Gravity",
+        "The air pressure on the juice surface pushes it up into the low-pressure straw",
+        "Your sucking pulls the juice up",
         "The straw pushes it"
       ],
       "answer": 1,
       "feedback": {
-        "0": "Sucking only lowers the pressure inside the straw. The outside air pressure does the pushing!"
+        "2": "Sucking only lowers the pressure inside the straw. The outside air pressure does the pushing!"
       },
       "explain": "Atmospheric pressure pushes the liquid into the region of lower pressure."
     },
@@ -142,12 +142,12 @@
       "ibCriterion": "A",
       "prompt": "Why do deep-sea submarines need very thick, strong hulls?",
       "options": [
-        "To float better",
         "Water pressure is enormous at great depths",
         "To keep warm",
-        "To be heavier"
+        "To be heavier",
+        "To float better"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Pressure increases with depth. At 1 km deep it is about 100 times atmospheric pressure."
     }
   ]

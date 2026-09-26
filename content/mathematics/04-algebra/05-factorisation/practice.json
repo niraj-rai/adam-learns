@@ -1,0 +1,125 @@
+{
+  "topicId": "factorisation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Factorise 6x + 9.",
+      "options": [
+        "3(2x + 3)",
+        "3(2x + 9)",
+        "6(x + 9)",
+        "9(6x + 1)"
+      ],
+      "answer": 0,
+      "explain": "3 is a factor of both terms: 3 × 2x + 3 × 3.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Factorise x² + 7x + 12.",
+      "options": [
+        "(x + 1)(x + 12)",
+        "(x + 2)(x + 6)",
+        "(x + 3)(x + 4)",
+        "(x + 7)(x + 12)"
+      ],
+      "answer": 2,
+      "explain": "3 × 4 = 12 and 3 + 4 = 7."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Factorise x² − 16.",
+      "options": [
+        "(x − 16)(x + 1)",
+        "(x − 4)²",
+        "(x + 4)(x − 4)",
+        "(x + 8)(x − 8)"
+      ],
+      "answer": 2,
+      "explain": "Difference of squares: x² − 4²."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Factorise x² − x − 6.",
+      "options": [
+        "(x − 3)(x + 2)",
+        "(x − 6)(x + 1)",
+        "(x − 3)(x − 2)",
+        "(x + 3)(x − 2)"
+      ],
+      "answer": 0,
+      "explain": "−3 × 2 = −6 and −3 + 2 = −1."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Factorise 4x²y + 6xy².",
+      "options": [
+        "2xy(2x + 3y)",
+        "xy(4x + 6)",
+        "2x(2xy + 3y²)",
+        "2xy(2x + 3)"
+      ],
+      "answer": 0,
+      "explain": "The highest common factor of both terms is 2xy.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Complete the factorisation.",
+      "text": "x² + 10x + 25 = (x + ___)²",
+      "blanks": [
+        [
+          "5"
+        ]
+      ],
+      "explain": "5 × 5 = 25 and 5 + 5 = 10, so it's a perfect square."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Show how to check that x² + 5x + 6 = (x + 2)(x + 3).",
+      "modelAnswer": "Expand the right side: (x + 2)(x + 3) = x² + 3x + 2x + 6 = x² + 5x + 6, which matches the left side. You can also test a value: when x = 1, the left side is 1 + 5 + 6 = 12 and the right side is 3 × 4 = 12.",
+      "rubric": [
+        "Expands the brackets correctly",
+        "Compares with the original",
+        "(Optional) checks with a number"
+      ],
+      "explain": "Criterion C: communicate a verification."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Which of these cannot be factorised using whole numbers?",
+      "options": [
+        "x² − 1",
+        "x² + 2x + 1",
+        "x² + x + 1",
+        "x² + 3x + 2"
+      ],
+      "answer": 2,
+      "explain": "No two whole numbers multiply to 1 and add to 1. The others: (x + 1)², (x + 1)(x − 1), (x + 1)(x + 2)."
+    }
+  ]
+}

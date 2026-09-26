@@ -63,10 +63,10 @@
       "ibCriterion": "A",
       "prompt": "What is formed when a sperm fuses with an egg?",
       "options": [
-        "An embryo directly",
+        "A spore",
         "A zygote",
-        "A tadpole",
-        "A spore"
+        "An embryo directly",
+        "A tadpole"
       ],
       "answer": 1,
       "explain": "The zygote divides again and again to form an embryo."
@@ -78,12 +78,12 @@
       "ibCriterion": "A",
       "prompt": "Frogs and many fish lay hundreds of eggs. Why?",
       "options": [
-        "They like big families",
         "Fertilisation is external, so many eggs are lost or eaten; laying many increases the chance some survive",
+        "They only lay one egg a year",
         "Their eggs are very large",
-        "They only lay one egg a year"
+        "They like big families"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "External fertilisation is risky."
     },
     {
@@ -93,9 +93,9 @@
       "ibCriterion": "A",
       "prompt": "How does Hydra reproduce asexually?",
       "options": [
-        "Binary fission",
-        "Budding",
         "Spores",
+        "Budding",
+        "Binary fission",
         "Seeds"
       ],
       "answer": 1,
@@ -108,12 +108,12 @@
       "ibCriterion": "C",
       "prompt": "The silk moth's cocoon is spun at which stage?",
       "options": [
-        "Egg",
         "Larva spinning itself into a pupa",
+        "Zygote",
         "Adult",
-        "Zygote"
+        "Egg"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "The caterpillar spins silk around itself before becoming a pupa. Silk is harvested from these cocoons."
     },
     {

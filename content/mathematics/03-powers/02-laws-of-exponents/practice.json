@@ -63,12 +63,12 @@
       "ibCriterion": "A",
       "prompt": "Simplify 3² × 2³.",
       "options": [
-        "72",
-        "6⁵",
+        "6⁶",
         "5⁵",
-        "6⁶"
+        "6⁵",
+        "72"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "The bases are different, so the laws don't apply: 9 × 8 = 72."
     },
     {
@@ -78,12 +78,12 @@
       "ibCriterion": "B",
       "prompt": "Look: (2 × 5)² = 2² × 5² = 100. Which follows the same pattern?",
       "options": [
-        "6³ = 2³ × 3³",
-        "6³ = 2³ + 3³",
         "6³ = 2 × 3³",
+        "6³ = 2³ + 3³",
+        "6³ = 2³ × 3³",
         "6³ = 3 × 6²"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "(ab)ⁿ = aⁿbⁿ: 6³ = (2 × 3)³ = 2³ × 3³ = 216."
     },
     {
@@ -117,12 +117,12 @@
       "ibCriterion": "A",
       "prompt": "Which of these is equal to 4⁵?",
       "options": [
-        "2¹⁰",
-        "2⁷",
         "16⁵",
+        "2⁷",
+        "2¹⁰",
         "8²"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "4 = 2², so 4⁵ = (2²)⁵ = 2¹⁰ = 1024."
     }
   ]

@@ -43,11 +43,11 @@
       "prompt": "Why do we add a leap day (29 February) every 4 years?",
       "options": [
         "To make February longer",
-        "A solar year is about 365¼ days, so the extra ¼ days add up to one day every 4 years",
         "To match the Moon",
+        "A solar year is about 365¼ days, so the extra ¼ days add up to one day every 4 years",
         "Because of daylight saving"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Without leap days, the calendar would drift away from the seasons."
     },
     {
@@ -92,12 +92,12 @@
       "ibCriterion": "C",
       "prompt": "The Hindu lunisolar calendar adds an adhik maas (extra month) roughly every…",
       "options": [
-        "year",
-        "2.7 years (about 32–33 months)",
         "10 years",
-        "century"
+        "year",
+        "century",
+        "2.7 years (about 32–33 months)"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "The 11-day yearly gap builds up to a whole lunar month in about 32–33 months."
     },
     {

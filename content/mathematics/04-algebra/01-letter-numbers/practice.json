@@ -1,0 +1,138 @@
+{
+  "topicId": "letter-numbers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Write an expression for “5 more than twice a number x”.",
+      "options": [
+        "2(x + 5)",
+        "2x + 5",
+        "x + 7",
+        "5x + 2"
+      ],
+      "answer": 1,
+      "explain": "Twice x is 2x; 5 more gives 2x + 5.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the value of 3n + 1 when n = 12.",
+      "answer": 37,
+      "explain": "3 × 12 + 1 = 37.",
+      "tolerance": 0
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "The pattern 4, 7, 10, 13, … continues. Which rule gives the nth term?",
+      "options": [
+        "4n",
+        "3n + 4",
+        "n + 3",
+        "3n + 1"
+      ],
+      "answer": 3,
+      "explain": "It goes up by 3 each time, so 3n; when n = 1, 3 + 1 = 4."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "A row of n triangles uses 2n + 1 matchsticks. How many for 25 triangles?",
+      "answer": 51,
+      "explain": "2 × 25 + 1 = 51.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each phrase to its expression.",
+      "pairs": [
+        {
+          "left": "A number increased by 7",
+          "right": "x + 7"
+        },
+        {
+          "left": "7 less than a number",
+          "right": "x − 7"
+        },
+        {
+          "left": "7 times a number",
+          "right": "7x"
+        },
+        {
+          "left": "A number divided by 7",
+          "right": "x/7"
+        }
+      ],
+      "explain": "Order matters for subtraction and division.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "A taxi charges ₹50 plus ₹15 per km. How much is an 8 km ride?",
+      "answer": 170,
+      "unit": "₹",
+      "explain": "50 + 15 × 8 = ₹170.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Which expression gives the fare (in ₹) for a ride of k km in the same taxi?",
+      "options": [
+        "50k + 15k",
+        "65k",
+        "15 + 50k",
+        "50 + 15k"
+      ],
+      "answer": 3,
+      "explain": "A fixed ₹50, plus ₹15 for each of the k km."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "In the expression 4x + 9, the constant term is ___.",
+      "blanks": [
+        [
+          "9"
+        ]
+      ],
+      "explain": "The constant term has no letter."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Which expression is even for every whole number n?",
+      "options": [
+        "3n",
+        "n + 1",
+        "n²",
+        "2n"
+      ],
+      "answer": 3,
+      "explain": "2n is always a multiple of 2. The others are odd for some n (e.g. n = 1)."
+    }
+  ]
+}

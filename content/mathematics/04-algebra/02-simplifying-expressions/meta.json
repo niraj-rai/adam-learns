@@ -1,0 +1,63 @@
+{
+  "id": "simplifying-expressions",
+  "number": "4.2",
+  "title": "Simplifying Expressions",
+  "summary": "Like terms, collecting terms, adding and subtracting expressions, and substituting values.",
+  "emoji": "🧩",
+  "complexity": 1,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Simplifying expressions is MYP 2 Algebra"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Ch 4: Expressions Using Letter-Numbers",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 10: Algebraic Expressions",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 8: Algebraic Expressions and Identities",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can identify and collect like terms.",
+    "I can add and subtract algebraic expressions.",
+    "I can substitute values into an expression."
+  ],
+  "misconceptions": [
+    "3x + 2 = 5x.",
+    "x² and 2x are like terms.",
+    "−(2y − 4) = −2y − 4."
+  ],
+  "prerequisites": [
+    "mathematics/algebra/letter-numbers",
+    "mathematics/number-systems/multiplying-integers"
+  ],
+  "labs": [
+    "algebra-tiles"
+  ],
+  "keyTerms": [
+    "like terms",
+    "unlike terms",
+    "simplify",
+    "substitute",
+    "coefficient"
+  ],
+  "estMinutes": 25
+}

@@ -39,12 +39,12 @@
       "ibCriterion": "A",
       "prompt": "What is 3/4 of 8?",
       "options": [
-        "6",
-        "2",
         "32/3",
+        "2",
+        "6",
         "8 3/4"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "8 ÷ 4 = 2, and 2 × 3 = 6."
     },
     {
@@ -54,12 +54,12 @@
       "ibCriterion": "A",
       "prompt": "If you multiply 12 by 2/3, the answer is…",
       "options": [
-        "smaller than 12, because you take 2/3 of it",
+        "negative",
         "bigger than 12",
-        "always 12",
-        "negative"
+        "smaller than 12, because you take 2/3 of it",
+        "always 12"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "12 × 2/3 = 8. Multiplying by a fraction less than 1 gives a smaller answer."
     },
     {

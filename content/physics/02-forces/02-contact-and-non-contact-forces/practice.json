@@ -48,12 +48,12 @@
       "cbseStyle": true,
       "prompt": "Two magnets are placed with their north poles facing each other. They will…",
       "options": [
-        "attract",
-        "repel",
         "do nothing",
-        "stick together"
+        "stick together",
+        "repel",
+        "attract"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Like poles repel; unlike poles attract."
     },
     {
@@ -64,9 +64,9 @@
       "prompt": "Which object will a magnet NOT attract?",
       "options": [
         "An iron nail",
-        "A steel pin",
+        "A nickel coin",
         "An aluminium can",
-        "A nickel coin"
+        "A steel pin"
       ],
       "answer": 2,
       "feedback": {
@@ -112,11 +112,11 @@
       "prompt": "A balloon rubbed on hair sticks to the wall. Which force holds it there?",
       "options": [
         "Magnetic",
-        "Electrostatic",
         "Muscular",
+        "Electrostatic",
         "Friction only"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Rubbing transfers electric charge, and the charged balloon attracts the wall: an electrostatic force."
     },
     {
@@ -177,12 +177,12 @@
       "ibCriterion": "A",
       "prompt": "Which statement about gravity is true?",
       "options": [
-        "It only acts on Earth",
         "It acts between all objects that have mass",
         "It only pulls on heavy objects",
+        "It only acts on Earth",
         "It pushes objects away"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Every mass attracts every other mass. The Moon, Sun and planets all have gravity."
     }
   ]

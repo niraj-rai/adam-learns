@@ -1,0 +1,44 @@
+<Stage kind="wonder" title="Mind reading?" />
+
+<Hook emoji="🎩">
+“Think of a number. Double it. Add 10. Halve it. Take away the number you first thought of. Your answer is… **5**!” It works every single time, for everyone. Is it magic? No. It's algebra. In this lesson you'll learn to explain tricks, solve puzzles, and even invent your own.
+</Hook>
+
+<PredictFirst
+  question="Why does the trick always give 5?"
+  options={["Most people pick small numbers", "The steps cancel out the number you chose", "It only works for even numbers", "It's a coincidence"]}
+  answer={1}
+>
+With a letter: x → 2x → 2x + 10 → x + 5 → **5**. The x disappears, so the answer never depends on your number.
+</PredictFirst>
+
+<Stage kind="explain" title="Proving with algebra" />
+
+<ConceptCard title="Examples vs proof">
+Trying 3, 7 and 20 shows a trick works for those numbers. Using a letter x shows it works for **every** number: that's a **proof**. Mathematicians love proofs because they remove all doubt.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Calendar 2 × 2", emoji: "📅", points: ["Dates: d, d + 1, d + 7, d + 8", "Sum = 4d + 16", "Tell me the sum; I'll find d!"] },
+    { title: "Reverse and subtract", emoji: "🔄", points: ["Number: 10a + b", "Reversed: 10b + a", "Difference: 9(a − b), always a multiple of 9"] },
+    { title: "Number pyramids", emoji: "🔺", points: ["Each brick = sum of the two below", "Bottom x, 3, 5 → top x + 11", "Solve for a missing brick"] }
+  ]}
+/>
+
+<Stage kind="try" title="Algebra Magic Tricks" />
+
+<Lab id="number-trick" />
+
+<Stage kind="apply" title="Create" />
+
+<Inquiry criterion="B" title="Invent a trick">
+Design your own think-of-a-number trick with at least four steps where the answer is always the same (or always the starting number). Test it on three people, then write an algebraic proof. Challenge: make a trick that reveals someone's birth month!
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Part 2 Ch 6">
+- Number tricks, pyramids, grids and patterns explained using algebra.
+- Justifying general statements with algebraic expressions.
+</CbseCorner>
+
+<Reflect id="math-alg-play" prompt="Which puzzle or trick would you show your family, and how would you explain it?" />

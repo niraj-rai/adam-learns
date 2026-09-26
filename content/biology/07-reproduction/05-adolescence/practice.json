@@ -30,12 +30,12 @@
       "ibCriterion": "A",
       "prompt": "What are hormones?",
       "options": [
-        "Muscles",
-        "Chemical messengers made by glands and carried by the blood",
         "Types of bones",
-        "Germs"
+        "Germs",
+        "Muscles",
+        "Chemical messengers made by glands and carried by the blood"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Hormones control many body changes."
     },
     {
@@ -45,12 +45,12 @@
       "ibCriterion": "C",
       "prompt": "On the growth-spurt graph, why is the girls' curve peak earlier than the boys'?",
       "options": [
-        "Girls grow for longer",
         "On average, girls' puberty and growth spurt start earlier",
-        "Boys don't have a growth spurt",
-        "It's a mistake"
+        "It's a mistake",
+        "Girls grow for longer",
+        "Boys don't have a growth spurt"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Averages hide individual differences: everyone's timing varies."
     },
     {
@@ -82,9 +82,9 @@
       "ibCriterion": "A",
       "prompt": "Which nutrients are especially important during the adolescent growth spurt?",
       "options": [
-        "Only sugar",
-        "Protein, calcium and iron",
         "Only fat",
+        "Protein, calcium and iron",
+        "Only sugar",
         "None: diet doesn't matter"
       ],
       "answer": 1,

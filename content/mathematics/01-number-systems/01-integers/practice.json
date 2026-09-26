@@ -129,12 +129,12 @@
       "ibCriterion": "A",
       "prompt": "Which statement is true?",
       "options": [
-        "−7 > −2",
-        "−7 < −2",
         "−7 = −2",
-        "Negative numbers can't be compared"
+        "Negative numbers can't be compared",
+        "−7 < −2",
+        "−7 > −2"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "−7 is further left on the number line than −2, so −7 is smaller. (Think: −7 °C is colder than −2 °C.)"
     }
   ]

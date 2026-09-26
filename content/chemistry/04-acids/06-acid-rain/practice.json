@@ -8,8 +8,17 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Which gases cause acid rain? Choose all that apply.",
-      "options": ["Sulfur dioxide", "Nitrogen oxides", "Oxygen", "Water vapour", "Argon"],
-      "answer": [0, 1],
+      "options": [
+        "Sulfur dioxide",
+        "Nitrogen oxides",
+        "Oxygen",
+        "Water vapour",
+        "Argon"
+      ],
+      "answer": [
+        0,
+        1
+      ],
       "explain": "Sulfur dioxide and nitrogen oxides dissolve in rain to form sulfuric and nitric acids."
     },
     {
@@ -33,9 +42,16 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Clean, unpolluted rain has a pH of about…",
-      "options": ["2", "5.6", "7", "9"],
-      "answer": 1,
-      "feedback": { "2": "Clean rain is slightly acidic because CO₂ dissolves in it." },
+      "options": [
+        "9",
+        "7",
+        "5.6",
+        "2"
+      ],
+      "answer": 2,
+      "feedback": {
+        "1": "Clean rain is slightly acidic because CO₂ dissolves in it."
+      },
       "explain": "Dissolved carbon dioxide makes clean rain slightly acidic, about pH 5.6."
     },
     {
@@ -45,12 +61,12 @@
       "ibCriterion": "C",
       "prompt": "Why does acid rain damage marble monuments like the Taj Mahal?",
       "options": [
-        "Marble is a metal",
-        "Marble is calcium carbonate, which reacts with acids",
+        "Acid rain is very hot",
         "Rain makes marble expand",
-        "Acid rain is very hot"
+        "Marble is calcium carbonate, which reacts with acids",
+        "Marble is a metal"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Acid + carbonate → salt + water + carbon dioxide: the marble slowly dissolves."
     },
     {
@@ -59,13 +75,31 @@
       "difficulty": 2,
       "ibCriterion": "D",
       "prompt": "Would each action INCREASE or DECREASE acid rain?",
-      "bins": ["Increases acid rain", "Decreases acid rain"],
+      "bins": [
+        "Increases acid rain",
+        "Decreases acid rain"
+      ],
       "items": [
-        { "label": "Fitting scrubbers to factory chimneys", "bin": 1 },
-        { "label": "Burning more high-sulfur coal", "bin": 0 },
-        { "label": "Switching buses to CNG or electric", "bin": 1 },
-        { "label": "More old diesel vehicles on the road", "bin": 0 },
-        { "label": "Using solar and wind power", "bin": 1 }
+        {
+          "label": "Fitting scrubbers to factory chimneys",
+          "bin": 1
+        },
+        {
+          "label": "Burning more high-sulfur coal",
+          "bin": 0
+        },
+        {
+          "label": "Switching buses to CNG or electric",
+          "bin": 1
+        },
+        {
+          "label": "More old diesel vehicles on the road",
+          "bin": 0
+        },
+        {
+          "label": "Using solar and wind power",
+          "bin": 1
+        }
       ],
       "explain": "Less burning of sulfur-containing fuels and fewer nitrogen oxides means less acid rain."
     },
@@ -77,7 +111,11 @@
       "cbseStyle": true,
       "prompt": "Complete the sentence.",
       "text": "The damage caused to marble by acid rain is sometimes called marble ___.",
-      "blanks": [["cancer"]],
+      "blanks": [
+        [
+          "cancer"
+        ]
+      ],
       "explain": "'Marble cancer' describes the pitting and yellowing of marble."
     },
     {
@@ -88,11 +126,11 @@
       "prompt": "Why is acid rain described as a problem that 'crosses borders'?",
       "options": [
         "It only falls at borders",
-        "Winds carry polluting gases far away, so rain can be acidic far from the source",
         "Countries trade acid rain",
+        "Winds carry polluting gases far away, so rain can be acidic far from the source",
         "It is caused by border fences"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Pollution travels with the wind, so the damage may happen in another state or country."
     },
     {
@@ -102,9 +140,18 @@
       "ibCriterion": "A",
       "prompt": "Match each effect of acid rain to what it harms.",
       "pairs": [
-        { "left": "Marble and limestone wear away", "right": "Buildings and monuments" },
-        { "left": "Fish eggs fail to hatch", "right": "Lakes and rivers" },
-        { "left": "Nutrients washed out of soil", "right": "Forests and crops" }
+        {
+          "left": "Marble and limestone wear away",
+          "right": "Buildings and monuments"
+        },
+        {
+          "left": "Fish eggs fail to hatch",
+          "right": "Lakes and rivers"
+        },
+        {
+          "left": "Nutrients washed out of soil",
+          "right": "Forests and crops"
+        }
       ],
       "explain": "Acid rain affects buildings, water life and plants."
     },

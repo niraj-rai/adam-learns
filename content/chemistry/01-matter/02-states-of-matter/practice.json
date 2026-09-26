@@ -7,8 +7,13 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "In which state are the particles FARTHEST apart?",
-      "options": ["Solid", "Liquid", "Gas", "They are the same in all states"],
-      "answer": 2,
+      "options": [
+        "Gas",
+        "Liquid",
+        "They are the same in all states",
+        "Solid"
+      ],
+      "answer": 0,
       "explain": "Gas particles are far apart and spread out to fill their container."
     },
     {
@@ -17,14 +22,36 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Sort each description into the state it describes.",
-      "bins": ["Solid", "Liquid", "Gas"],
+      "bins": [
+        "Solid",
+        "Liquid",
+        "Gas"
+      ],
       "items": [
-        { "label": "Vibrate on the spot", "bin": 0 },
-        { "label": "Slide past each other", "bin": 1 },
-        { "label": "Move fast in all directions", "bin": 2 },
-        { "label": "Fixed shape", "bin": 0 },
-        { "label": "Takes the shape of its container but keeps its volume", "bin": 1 },
-        { "label": "Fills the whole container", "bin": 2 }
+        {
+          "label": "Vibrate on the spot",
+          "bin": 0
+        },
+        {
+          "label": "Slide past each other",
+          "bin": 1
+        },
+        {
+          "label": "Move fast in all directions",
+          "bin": 2
+        },
+        {
+          "label": "Fixed shape",
+          "bin": 0
+        },
+        {
+          "label": "Takes the shape of its container but keeps its volume",
+          "bin": 1
+        },
+        {
+          "label": "Fills the whole container",
+          "bin": 2
+        }
       ],
       "hint": "Think about how free the particles are to move in each state.",
       "explain": "Solid: fixed shape, particles vibrate. Liquid: fixed volume, particles slide past each other. Gas: fills the container, particles move fast everywhere."
@@ -42,7 +69,11 @@
         "There are forces of attraction between particles",
         "The gaps between particles are filled with air"
       ],
-      "answer": [0, 1, 3],
+      "answer": [
+        0,
+        1,
+        3
+      ],
       "hint": "Two of these are common mix-ups from the lesson.",
       "explain": "Particles don't change size, and the gaps between them are empty space, not air."
     },
@@ -52,9 +83,16 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "What do the particles in an ice cube do?",
-      "options": ["Stay perfectly still", "Vibrate on the spot", "Slide past each other", "Fly around freely"],
-      "answer": 1,
-      "feedback": { "0": "Solid particles are never completely still. They always vibrate." },
+      "options": [
+        "Stay perfectly still",
+        "Slide past each other",
+        "Fly around freely",
+        "Vibrate on the spot"
+      ],
+      "answer": 3,
+      "feedback": {
+        "0": "Solid particles are never completely still. They always vibrate."
+      },
       "explain": "Particles in a solid vibrate about fixed positions."
     },
     {
@@ -65,8 +103,25 @@
       "cbseStyle": true,
       "prompt": "Complete the sentences.",
       "text": "A liquid has a fixed ___ but no fixed ___. The forces of attraction between particles are strongest in a ___.",
-      "blanks": [["volume"], ["shape"], ["solid"]],
-      "wordBank": ["volume", "shape", "solid", "liquid", "gas", "colour"],
+      "blanks": [
+        [
+          "volume"
+        ],
+        [
+          "shape"
+        ],
+        [
+          "solid"
+        ]
+      ],
+      "wordBank": [
+        "volume",
+        "shape",
+        "solid",
+        "liquid",
+        "gas",
+        "colour"
+      ],
       "explain": "Liquids keep their volume but take the shape of the container. Solids have the strongest forces of attraction."
     },
     {
@@ -76,10 +131,22 @@
       "ibCriterion": "A",
       "prompt": "Match each everyday observation to its particle explanation.",
       "pairs": [
-        { "left": "A gas fills a whole room", "right": "Particles move freely in all directions" },
-        { "left": "Milk takes the shape of the glass", "right": "Particles can slide past each other" },
-        { "left": "A pencil keeps its shape", "right": "Particles are held in fixed positions" },
-        { "left": "You can squash the air in a pump", "right": "There are large spaces between particles" }
+        {
+          "left": "A gas fills a whole room",
+          "right": "Particles move freely in all directions"
+        },
+        {
+          "left": "Milk takes the shape of the glass",
+          "right": "Particles can slide past each other"
+        },
+        {
+          "left": "A pencil keeps its shape",
+          "right": "Particles are held in fixed positions"
+        },
+        {
+          "left": "You can squash the air in a pump",
+          "right": "There are large spaces between particles"
+        }
       ],
       "explain": "Every property of a state can be explained by how the particles are arranged and how they move."
     },
@@ -89,8 +156,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Oxygen melts at −218 °C and boils at −183 °C. What state is it at room temperature (25 °C)?",
-      "options": ["Solid", "Liquid", "Gas", "It depends on the container"],
-      "answer": 2,
+      "options": [
+        "Liquid",
+        "Gas",
+        "It depends on the container",
+        "Solid"
+      ],
+      "answer": 1,
       "hint": "Is 25 °C above or below the boiling point?",
       "explain": "25 °C is far above oxygen's boiling point (−183 °C), so oxygen is a gas at room temperature."
     },
@@ -100,7 +172,12 @@
       "difficulty": 3,
       "ibCriterion": "C",
       "prompt": "Candle wax melts at about 60 °C. A candle sits in a room at 35 °C. What state is the wax in?",
-      "options": ["Solid", "Liquid", "Gas", "Half solid, half gas"],
+      "options": [
+        "Solid",
+        "Half solid, half gas",
+        "Gas",
+        "Liquid"
+      ],
       "answer": 0,
       "explain": "35 °C is below the melting point of 60 °C, so the wax stays solid."
     },
@@ -110,7 +187,11 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Put the states in order: from the STRONGEST forces of attraction between particles to the WEAKEST.",
-      "steps": ["Solid", "Liquid", "Gas"],
+      "steps": [
+        "Solid",
+        "Liquid",
+        "Gas"
+      ],
       "explain": "Forces of attraction are strongest in solids, weaker in liquids, and weakest in gases."
     },
     {
@@ -121,12 +202,12 @@
       "cbseStyle": true,
       "prompt": "Why does a gas completely fill any container it is put in?",
       "options": [
-        "Gas particles are very large",
         "Gas particles move fast in all directions and attract each other only weakly",
-        "Gas particles are attracted to the container walls",
-        "Gases are lighter than air"
+        "Gases are lighter than air",
+        "Gas particles are very large",
+        "Gas particles are attracted to the container walls"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Gas particles have high kinetic energy and very weak attraction, so they spread out until they fill the whole space."
     },
     {

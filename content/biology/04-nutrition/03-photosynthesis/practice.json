@@ -32,10 +32,10 @@
       "ibCriterion": "C",
       "prompt": "In the Photosynthesis Factory, light was 30% while CO₂ and water were 90%. Which change would speed up photosynthesis?",
       "options": [
-        "More CO₂",
         "More water",
+        "Nothing",
         "More light",
-        "Nothing"
+        "More CO₂"
       ],
       "answer": 2,
       "explain": "Light was the limiting factor."
@@ -47,12 +47,12 @@
       "ibCriterion": "C",
       "prompt": "In the starch test, part of a green leaf was covered with black paper. After testing with iodine, that part stayed brown. What does this show?",
       "options": [
-        "Photosynthesis needs chlorophyll",
         "Photosynthesis needs light",
+        "Photosynthesis needs chlorophyll",
         "The paper was poisonous",
         "Starch is black"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "No light, no photosynthesis, no starch."
     },
     {
@@ -62,9 +62,9 @@
       "ibCriterion": "A",
       "prompt": "Through which tiny pores do leaves take in carbon dioxide?",
       "options": [
-        "Roots",
-        "Stomata",
         "Veins",
+        "Stomata",
+        "Roots",
         "Flowers"
       ],
       "answer": 1,

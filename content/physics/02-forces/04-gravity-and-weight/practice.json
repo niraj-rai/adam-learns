@@ -59,8 +59,8 @@
       "options": [
         "70 kg",
         "about 12 kg",
-        "0 kg",
-        "about 420 kg"
+        "about 420 kg",
+        "0 kg"
       ],
       "answer": 0,
       "feedback": {
@@ -87,10 +87,10 @@
       "ibCriterion": "A",
       "prompt": "On the Moon, an astronaut drops a hammer and a feather together. What happens?",
       "options": [
-        "The hammer lands first",
         "The feather lands first",
+        "The feather floats away",
         "They land together",
-        "The feather floats away"
+        "The hammer lands first"
       ],
       "answer": 2,
       "explain": "With no air on the Moon, there is no air resistance, so gravity speeds both up equally."

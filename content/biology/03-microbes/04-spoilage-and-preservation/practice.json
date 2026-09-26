@@ -40,11 +40,11 @@
       "prompt": "How does a refrigerator keep food fresh longer?",
       "options": [
         "It kills all microbes",
+        "It removes water",
         "It slows down the growth of microbes",
-        "It adds preservatives",
-        "It removes water"
+        "It adds preservatives"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Microbes survive but grow very slowly in the cold."
     },
     {
@@ -55,11 +55,11 @@
       "prompt": "Why do salt and sugar preserve food?",
       "options": [
         "They taste nice",
-        "They draw water out of microbes so they can't grow",
         "They are poisonous to people",
-        "They make food cold"
+        "They make food cold",
+        "They draw water out of microbes so they can't grow"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Microbes need water to grow."
     },
     {
@@ -70,12 +70,12 @@
       "cbseStyle": true,
       "prompt": "In pasteurisation, milk is…",
       "options": [
-        "frozen",
         "heated to about 70 °C for a short time and then cooled quickly",
+        "dried into powder",
         "boiled for an hour",
-        "dried into powder"
+        "frozen"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "This kills most harmful microbes without spoiling the taste. It is named after Louis Pasteur."
     },
     {
@@ -85,12 +85,12 @@
       "ibCriterion": "C",
       "prompt": "In the Food Preserver, which kept the dal safe the longest (without salting, sugaring or drying)?",
       "options": [
-        "Left out in a warm kitchen",
         "Refrigerated",
+        "Boiled, then refrigerated",
         "Boiled, then covered",
-        "Boiled, then refrigerated"
+        "Left out in a warm kitchen"
       ],
-      "answer": 3,
+      "answer": 1,
       "explain": "Boiling reduces the starting number of microbes; cold slows the rest."
     },
     {

@@ -53,9 +53,9 @@
       "cbseStyle": true,
       "prompt": "Why is AMBULANCE written in mirror writing on the front of ambulances?",
       "options": [
-        "For decoration",
-        "So drivers ahead read it correctly in their rear-view mirrors",
         "Because of a printing mistake",
+        "So drivers ahead read it correctly in their rear-view mirrors",
+        "For decoration",
         "So it can be read from behind"
       ],
       "answer": 1,

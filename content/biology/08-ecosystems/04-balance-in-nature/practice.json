@@ -9,12 +9,12 @@
       "cbseStyle": true,
       "prompt": "In the Predator and Prey lab, what happened to deer when there were no tigers?",
       "options": [
-        "They stayed the same",
         "They boomed, overgrazed the grass and then crashed",
-        "They disappeared at once",
-        "They became predators"
+        "They became predators",
+        "They stayed the same",
+        "They disappeared at once"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Without predators, prey can exceed their food supply."
     },
     {
@@ -25,11 +25,11 @@
       "prompt": "How do tigers help the grass in a forest?",
       "options": [
         "They eat the grass",
-        "By keeping deer numbers in check so the grass isn't overgrazed",
+        "They have no effect on grass",
         "They water it",
-        "They have no effect on grass"
+        "By keeping deer numbers in check so the grass isn't overgrazed"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Top predators affect the whole food chain."
     },
     {
@@ -65,12 +65,12 @@
       "ibCriterion": "A",
       "prompt": "When was Project Tiger launched in India?",
       "options": [
-        "1947",
         "1973",
+        "2020",
         "2000",
-        "2020"
+        "1947"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "India's tiger population has since grown to more than 3,000."
     },
     {
@@ -128,12 +128,12 @@
       "ibCriterion": "A",
       "prompt": "What does overgrazing do to land?",
       "options": [
-        "Makes the grass thicker",
-        "Removes plant cover, so soil can erode and animals starve",
+        "Adds nutrients",
         "Nothing",
-        "Adds nutrients"
+        "Removes plant cover, so soil can erode and animals starve",
+        "Makes the grass thicker"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Too many grazers damage the ecosystem."
     }
   ]

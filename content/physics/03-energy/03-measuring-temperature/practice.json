@@ -10,11 +10,11 @@
       "prompt": "What is the range of a typical clinical thermometer?",
       "options": [
         "−10 °C to 110 °C",
+        "20 °C to 50 °C",
         "35 °C to 42 °C",
-        "0 °C to 100 °C",
-        "20 °C to 50 °C"
+        "0 °C to 100 °C"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Human body temperatures lie in a narrow range, so clinical thermometers measure only 35–42 °C, very precisely."
     },
     {
@@ -25,10 +25,10 @@
       "cbseStyle": true,
       "prompt": "Why shouldn't you use a clinical thermometer to measure boiling water?",
       "options": [
-        "It will read too low",
+        "Water is not allowed near it",
         "Its range only goes up to 42 °C, and it could break",
-        "It is not accurate enough",
-        "Water is not allowed near it"
+        "It will read too low",
+        "It is not accurate enough"
       ],
       "answer": 1,
       "explain": "Above its range the liquid expands too much and the glass may crack."
@@ -122,12 +122,12 @@
       "ibCriterion": "A",
       "prompt": "Why are mercury thermometers being replaced by digital thermometers?",
       "options": [
-        "Mercury is toxic if the thermometer breaks",
-        "Mercury freezes at room temperature",
+        "Mercury is too expensive",
         "Digital thermometers are heavier",
-        "Mercury is too expensive"
+        "Mercury is toxic if the thermometer breaks",
+        "Mercury freezes at room temperature"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "Mercury is poisonous and harms people and the environment when spilled. Digital thermometers are safer."
     },
     {

@@ -8,12 +8,12 @@
       "ibCriterion": "A",
       "prompt": "Write 5,600,000 in standard form.",
       "options": [
-        "5.6 × 10⁶",
         "56 × 10⁵",
+        "0.56 × 10⁷",
         "5.6 × 10⁵",
-        "0.56 × 10⁷"
+        "5.6 × 10⁶"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "Move the point 6 places left: 5.6 × 10⁶.",
       "cbseStyle": true
     },
@@ -24,12 +24,12 @@
       "ibCriterion": "A",
       "prompt": "Write 0.000073 in standard form.",
       "options": [
-        "7.3 × 10⁻⁵",
-        "7.3 × 10⁻⁶",
+        "7.3 × 10⁵",
         "73 × 10⁻⁶",
-        "7.3 × 10⁵"
+        "7.3 × 10⁻⁵",
+        "7.3 × 10⁻⁶"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "Move the point 5 places right: 7.3 × 10⁻⁵.",
       "cbseStyle": true
     },
@@ -83,8 +83,8 @@
       "options": [
         "2.1 × 10⁻³",
         "9.8 × 10⁻⁴",
-        "They are equal",
-        "You can't compare them"
+        "You can't compare them",
+        "They are equal"
       ],
       "answer": 0,
       "explain": "2.1 × 10⁻³ = 0.0021 and 9.8 × 10⁻⁴ = 0.00098. With negative exponents, −3 is the bigger power."
@@ -106,12 +106,12 @@
       "ibCriterion": "D",
       "prompt": "A red blood cell is about 7.5 × 10⁻⁶ m wide. About how many could fit side by side across 1 cm (10⁻² m)?",
       "options": [
-        "About 1,300",
-        "About 13",
         "About 130,000",
-        "About 75"
+        "About 75",
+        "About 1,300",
+        "About 13"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "10⁻² ÷ (7.5 × 10⁻⁶) ≈ 1,333."
     }
   ]

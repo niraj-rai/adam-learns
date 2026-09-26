@@ -28,11 +28,11 @@
       "prompt": "What causes the phases of the Moon?",
       "options": [
         "Earth’s shadow covering part of the Moon",
-        "How much of the Moon’s sunlit half we can see from Earth as it orbits",
         "Clouds on the Moon",
+        "How much of the Moon’s sunlit half we can see from Earth as it orbits",
         "The Moon changing size"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "The Sun always lights half the Moon; our view of that half changes."
     },
     {
@@ -55,11 +55,11 @@
       "prompt": "A solar eclipse happens when…",
       "options": [
         "the Earth is between the Sun and the Moon",
+        "the Moon is at first quarter",
         "the Moon is between the Sun and the Earth",
-        "the Sun is between the Earth and the Moon",
-        "the Moon is at first quarter"
+        "the Sun is between the Earth and the Moon"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "The Moon’s shadow falls on Earth, at new moon."
     },
     {
@@ -69,12 +69,12 @@
       "ibCriterion": "A",
       "prompt": "On which night can a lunar eclipse happen?",
       "options": [
-        "Amavasya (new moon)",
         "Purnima (full moon)",
+        "Any night",
         "First quarter",
-        "Any night"
+        "Amavasya (new moon)"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Only at full moon is the Moon on the far side of Earth, where Earth’s shadow falls."
     },
     {
@@ -84,12 +84,12 @@
       "ibCriterion": "C",
       "prompt": "Why don’t we have a solar eclipse every new moon?",
       "options": [
-        "The Moon is too small",
         "The Moon’s orbit is tilted about 5°, so its shadow usually misses Earth",
-        "The Sun is too bright",
-        "Eclipses only happen in winter"
+        "Eclipses only happen in winter",
+        "The Moon is too small",
+        "The Sun is too bright"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "The Moon must be near a node, where its orbit crosses Earth’s orbital plane."
     },
     {
@@ -100,9 +100,9 @@
       "prompt": "In the Moon Lab, the Moon rose at about 6 pm. What phase was it?",
       "options": [
         "New moon",
-        "First quarter",
+        "Last quarter",
         "Full moon",
-        "Last quarter"
+        "First quarter"
       ],
       "answer": 2,
       "explain": "The full Moon is opposite the Sun, so it rises as the Sun sets."

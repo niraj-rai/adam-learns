@@ -8,12 +8,12 @@
       "ibCriterion": "A",
       "prompt": "Why are coal and petroleum called NON-RENEWABLE?",
       "options": [
-        "They can't be burned",
-        "They took millions of years to form and can't be replaced in a human lifetime",
         "They are found only in India",
-        "They are made in factories"
+        "They can't be burned",
+        "They are made in factories",
+        "They took millions of years to form and can't be replaced in a human lifetime"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Fossil fuels form far too slowly to replace what we use."
     },
     {
@@ -22,7 +22,14 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Order these crude oil fractions from the TOP of the column (coolest) to the BOTTOM (hottest).",
-      "steps": ["Petroleum gas (LPG)", "Petrol", "Kerosene", "Diesel", "Lubricating oil", "Bitumen"],
+      "steps": [
+        "Petroleum gas (LPG)",
+        "Petrol",
+        "Kerosene",
+        "Diesel",
+        "Lubricating oil",
+        "Bitumen"
+      ],
       "explain": "Low boiling point fractions rise to the top; high boiling point fractions stay near the bottom."
     },
     {
@@ -33,11 +40,26 @@
       "cbseStyle": true,
       "prompt": "Match each petroleum product to its use.",
       "pairs": [
-        { "left": "LPG", "right": "Cooking gas" },
-        { "left": "Bitumen", "right": "Making roads" },
-        { "left": "Kerosene", "right": "Aeroplane (jet) fuel" },
-        { "left": "Paraffin wax", "right": "Candles" },
-        { "left": "Diesel", "right": "Buses and trucks" }
+        {
+          "left": "LPG",
+          "right": "Cooking gas"
+        },
+        {
+          "left": "Bitumen",
+          "right": "Making roads"
+        },
+        {
+          "left": "Kerosene",
+          "right": "Aeroplane (jet) fuel"
+        },
+        {
+          "left": "Paraffin wax",
+          "right": "Candles"
+        },
+        {
+          "left": "Diesel",
+          "right": "Buses and trucks"
+        }
       ],
       "explain": "Each fraction has uses that suit its properties."
     },
@@ -47,7 +69,12 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Which fuel has the HIGHEST calorific value?",
-      "options": ["Wood", "Coal", "LPG", "Hydrogen"],
+      "options": [
+        "LPG",
+        "Coal",
+        "Wood",
+        "Hydrogen"
+      ],
       "answer": 3,
       "explain": "Hydrogen ≈ 150 kJ/g, far more than LPG (≈ 55 kJ/g)."
     },
@@ -70,8 +97,18 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Which are characteristics of a GOOD fuel? Choose all that apply.",
-      "options": ["High calorific value", "Leaves lots of ash", "Easy to store and transport", "Cheap and readily available", "Produces lots of smoke"],
-      "answer": [0, 2, 3],
+      "options": [
+        "High calorific value",
+        "Leaves lots of ash",
+        "Easy to store and transport",
+        "Cheap and readily available",
+        "Produces lots of smoke"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
       "explain": "A good fuel gives lots of energy, is easy to handle and affordable, and produces little ash, smoke or harmful gas."
     },
     {
@@ -81,13 +118,15 @@
       "ibCriterion": "D",
       "prompt": "Why did switching Delhi's buses and autos to CNG improve the city's air?",
       "options": [
-        "CNG is cheaper",
+        "CNG does not produce any carbon dioxide",
         "CNG burns more completely, producing much less soot and smoke than diesel",
-        "CNG vehicles are faster",
-        "CNG does not produce any carbon dioxide"
+        "CNG is cheaper",
+        "CNG vehicles are faster"
       ],
       "answer": 1,
-      "feedback": { "3": "CNG still produces carbon dioxide. It is cleaner, but not zero-carbon." },
+      "feedback": {
+        "0": "CNG still produces carbon dioxide. It is cleaner, but not zero-carbon."
+      },
       "explain": "CNG (mostly methane) burns cleanly with far fewer soot particles."
     },
     {
@@ -96,11 +135,23 @@
       "difficulty": 2,
       "ibCriterion": "D",
       "prompt": "Match each gas released by burning fossil fuels to the problem it mainly causes.",
-      "bins": ["Global warming", "Acid rain / smog"],
+      "bins": [
+        "Global warming",
+        "Acid rain / smog"
+      ],
       "items": [
-        { "label": "Carbon dioxide", "bin": 0 },
-        { "label": "Sulfur dioxide", "bin": 1 },
-        { "label": "Nitrogen oxides", "bin": 1 }
+        {
+          "label": "Carbon dioxide",
+          "bin": 0
+        },
+        {
+          "label": "Sulfur dioxide",
+          "bin": 1
+        },
+        {
+          "label": "Nitrogen oxides",
+          "bin": 1
+        }
       ],
       "explain": "CO₂ is a greenhouse gas; sulfur dioxide and nitrogen oxides form acids in rain and contribute to smog."
     },
@@ -111,8 +162,20 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentence.",
       "text": "Crude oil is separated into useful fractions by fractional ___ at a ___.",
-      "blanks": [["distillation"], ["refinery"]],
-      "wordBank": ["distillation", "filtration", "refinery", "mine"],
+      "blanks": [
+        [
+          "distillation"
+        ],
+        [
+          "refinery"
+        ]
+      ],
+      "wordBank": [
+        "distillation",
+        "filtration",
+        "refinery",
+        "mine"
+      ],
       "explain": "Fractional distillation at an oil refinery."
     },
     {

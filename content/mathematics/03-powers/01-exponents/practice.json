@@ -21,8 +21,8 @@
       "options": [
         "5 × 5 × 5",
         "5 × 3",
-        "3 × 3 × 3 × 3 × 3",
-        "5 + 5 + 5"
+        "5 + 5 + 5",
+        "3 × 3 × 3 × 3 × 3"
       ],
       "answer": 0,
       "explain": "The exponent tells you how many 5s to multiply."
@@ -71,12 +71,12 @@
       "ibCriterion": "B",
       "prompt": "Which is bigger: 3⁴ or 4³?",
       "options": [
-        "3⁴",
         "4³",
+        "3⁴",
         "They are equal",
         "You can't tell without a calculator"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "3⁴ = 81 and 4³ = 64."
     },
     {
@@ -98,9 +98,9 @@
       "prompt": "The last digits of 2¹, 2², 2³, 2⁴, 2⁵ … are 2, 4, 8, 6, 2, … What is the last digit of 2²⁰?",
       "options": [
         "6",
+        "8",
         "2",
-        "4",
-        "8"
+        "4"
       ],
       "answer": 0,
       "explain": "The pattern repeats every 4. 20 is a multiple of 4, so 2²⁰ ends like 2⁴: in 6."

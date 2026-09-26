@@ -9,12 +9,12 @@
       "cbseStyle": true,
       "prompt": "A ringing bell is placed in a jar and the air is pumped out. What happens?",
       "options": [
+        "Nothing changes",
         "The sound gets louder",
         "The sound gets fainter and finally can't be heard",
-        "The bell stops vibrating",
-        "Nothing changes"
+        "The bell stops vibrating"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Sound needs a medium; it cannot travel through a vacuum."
     },
     {
@@ -38,12 +38,12 @@
       "ibCriterion": "A",
       "prompt": "Why can't astronauts on a spacewalk talk to each other directly, without radios?",
       "options": [
-        "Space is too cold",
-        "There is no air (medium) to carry sound",
         "Their helmets are too thick",
-        "Sound is too slow in space"
+        "Sound is too slow in space",
+        "There is no air (medium) to carry sound",
+        "Space is too cold"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Space is almost a vacuum."
     },
     {
@@ -77,11 +77,11 @@
       "prompt": "When a sound wave passes through air, the air particles…",
       "options": [
         "travel all the way from the source to your ear",
-        "vibrate back and forth around their positions, passing the vibration on",
+        "move in circles",
         "stay completely still",
-        "move in circles"
+        "vibrate back and forth around their positions, passing the vibration on"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "The vibration travels; the particles only jiggle about their places."
     },
     {
@@ -91,12 +91,12 @@
       "ibCriterion": "A",
       "prompt": "Why is there no echo in a small, furnished bedroom?",
       "options": [
-        "Small rooms absorb all sound",
         "The reflected sound returns in less than 0.1 s and merges with the original sound",
         "Furniture creates sound",
-        "Echoes only happen outdoors"
+        "Echoes only happen outdoors",
+        "Small rooms absorb all sound"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "You need to be at least about 17 m from the reflecting surface to hear a separate echo; soft furnishings also absorb sound."
     },
     {

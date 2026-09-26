@@ -9,8 +9,20 @@
       "cbseStyle": true,
       "prompt": "Complete the general word equations.",
       "text": "metal + oxygen → metal ___ ; metal + acid → salt + ___",
-      "blanks": [["oxide"], ["hydrogen"]],
-      "wordBank": ["oxide", "hydrogen", "oxygen", "water"],
+      "blanks": [
+        [
+          "oxide"
+        ],
+        [
+          "hydrogen"
+        ]
+      ],
+      "wordBank": [
+        "oxide",
+        "hydrogen",
+        "oxygen",
+        "water"
+      ],
       "explain": "Metals form oxides with oxygen, and salt + hydrogen with acids."
     },
     {
@@ -20,8 +32,13 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Why is sodium stored under kerosene?",
-      "options": ["It melts in air", "It reacts vigorously with oxygen and moisture in air", "Kerosene is its food", "It is poisonous"],
-      "answer": 1,
+      "options": [
+        "It reacts vigorously with oxygen and moisture in air",
+        "It is poisonous",
+        "Kerosene is its food",
+        "It melts in air"
+      ],
+      "answer": 0,
       "explain": "Kerosene keeps oxygen and water away from this very reactive metal."
     },
     {
@@ -31,14 +48,35 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Is the oxide acidic or basic?",
-      "bins": ["Basic oxide", "Acidic oxide"],
+      "bins": [
+        "Basic oxide",
+        "Acidic oxide"
+      ],
       "items": [
-        { "label": "Magnesium oxide", "bin": 0 },
-        { "label": "Sulfur dioxide", "bin": 1 },
-        { "label": "Calcium oxide", "bin": 0 },
-        { "label": "Carbon dioxide", "bin": 1 },
-        { "label": "Sodium oxide", "bin": 0 },
-        { "label": "Nitrogen dioxide", "bin": 1 }
+        {
+          "label": "Magnesium oxide",
+          "bin": 0
+        },
+        {
+          "label": "Sulfur dioxide",
+          "bin": 1
+        },
+        {
+          "label": "Calcium oxide",
+          "bin": 0
+        },
+        {
+          "label": "Carbon dioxide",
+          "bin": 1
+        },
+        {
+          "label": "Sodium oxide",
+          "bin": 0
+        },
+        {
+          "label": "Nitrogen dioxide",
+          "bin": 1
+        }
       ],
       "explain": "Metal oxides are basic; non-metal oxides are acidic."
     },
@@ -48,7 +86,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Order these metals from MOST to LEAST reactive with water.",
-      "steps": ["Potassium", "Sodium", "Calcium", "Magnesium", "Copper"],
+      "steps": [
+        "Potassium",
+        "Sodium",
+        "Calcium",
+        "Magnesium",
+        "Copper"
+      ],
       "explain": "K and Na react violently, Ca steadily, Mg very slowly (cold water), Cu not at all."
     },
     {
@@ -57,8 +101,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Magnesium ash is dissolved in water and tested with red litmus. What happens?",
-      "options": ["Stays red", "Turns blue", "Turns green", "Turns colourless"],
-      "answer": 1,
+      "options": [
+        "Turns blue",
+        "Turns colourless",
+        "Stays red",
+        "Turns green"
+      ],
+      "answer": 0,
       "explain": "Magnesium oxide forms magnesium hydroxide, a base, which turns red litmus blue."
     },
     {
@@ -67,8 +116,13 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Which metal shows NO reaction with oxygen, water OR dilute acid?",
-      "options": ["Magnesium", "Iron", "Zinc", "Gold"],
-      "answer": 3,
+      "options": [
+        "Magnesium",
+        "Gold",
+        "Iron",
+        "Zinc"
+      ],
+      "answer": 1,
       "explain": "Gold is very unreactive, which is why it stays shiny for centuries."
     },
     {
@@ -78,10 +132,22 @@
       "ibCriterion": "A",
       "prompt": "Match each metal to what you see when it is heated in air.",
       "pairs": [
-        { "left": "Magnesium", "right": "Dazzling white flame, white ash" },
-        { "left": "Copper", "right": "Black coating forms" },
-        { "left": "Gold", "right": "No change" },
-        { "left": "Sodium", "right": "Bright yellow-orange flame" }
+        {
+          "left": "Magnesium",
+          "right": "Dazzling white flame, white ash"
+        },
+        {
+          "left": "Copper",
+          "right": "Black coating forms"
+        },
+        {
+          "left": "Gold",
+          "right": "No change"
+        },
+        {
+          "left": "Sodium",
+          "right": "Bright yellow-orange flame"
+        }
       ],
       "explain": "Different metals react with oxygen with very different vigour."
     },
@@ -92,7 +158,14 @@
       "ibCriterion": "A",
       "prompt": "Complete the word equation for calcium in water.",
       "text": "calcium + water → calcium ___ + ___",
-      "blanks": [["hydroxide"], ["hydrogen"]],
+      "blanks": [
+        [
+          "hydroxide"
+        ],
+        [
+          "hydrogen"
+        ]
+      ],
       "explain": "Reactive metals + water → metal hydroxide + hydrogen."
     },
     {
@@ -102,12 +175,12 @@
       "ibCriterion": "C",
       "prompt": "Burning sulfur produces a gas that turns moist blue litmus red. What does this show?",
       "options": [
-        "Sulfur is a metal",
         "Sulfur dioxide is an acidic oxide, typical of non-metals",
         "Sulfur dioxide is basic",
-        "Litmus is faulty"
+        "Litmus is faulty",
+        "Sulfur is a metal"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Non-metal oxides dissolve in water to form acids."
     },
     {

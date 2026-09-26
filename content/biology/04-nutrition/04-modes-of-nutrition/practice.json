@@ -40,11 +40,11 @@
       "prompt": "Why do pitcher plants trap insects even though they are green?",
       "options": [
         "They can't photosynthesise",
+        "To protect their flowers",
         "They grow in soil poor in nitrogen, so insects provide extra nutrients",
-        "They are hungry at night",
-        "To protect their flowers"
+        "They are hungry at night"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "They still photosynthesise but get nitrogen from insects."
     },
     {
@@ -54,12 +54,12 @@
       "ibCriterion": "A",
       "prompt": "In a lichen, what does the alga provide?",
       "options": [
+        "Minerals",
         "Water",
         "Food made by photosynthesis",
-        "Shelter",
-        "Minerals"
+        "Shelter"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "The fungus provides shelter, water and minerals; both benefit."
     },
     {
@@ -69,12 +69,12 @@
       "ibCriterion": "A",
       "prompt": "Amarbel is yellow and has no leaves. How does it survive?",
       "options": [
+        "It lives on dead matter",
         "It photosynthesises with its stem",
-        "It wraps around a host plant and absorbs its food",
         "It eats insects",
-        "It lives on dead matter"
+        "It wraps around a host plant and absorbs its food"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "A parasite harms its host."
     },
     {
@@ -158,12 +158,12 @@
       "ibCriterion": "A",
       "prompt": "Which organisms feed on dead and decaying matter?",
       "options": [
+        "Autotrophs",
         "Parasites",
         "Saprotrophs",
-        "Autotrophs",
         "Insectivores"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Many fungi and bacteria are saprotrophs."
     }
   ]

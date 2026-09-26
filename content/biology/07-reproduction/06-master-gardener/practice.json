@@ -9,9 +9,9 @@
       "prompt": "Your pumpkin plant has flowers but no fruit, and there are no bees. What can you do?",
       "options": [
         "Hand-pollinate using a brush",
-        "Add more water",
+        "Plant it in shade",
         "Remove the flowers",
-        "Plant it in shade"
+        "Add more water"
       ],
       "answer": 0,
       "explain": "Moving pollen by hand allows fertilisation."
@@ -23,10 +23,10 @@
       "ibCriterion": "A",
       "prompt": "You want new plants EXACTLY like your best mango tree. Which method?",
       "options": [
-        "Grow from seeds",
+        "Buy any mango plant",
         "Grafting or other vegetative methods",
         "Wind pollination",
-        "Buy any mango plant"
+        "Grow from seeds"
       ],
       "answer": 1,
       "explain": "Seeds mix features from two parents; vegetative methods copy one."
@@ -73,12 +73,12 @@
       "ibCriterion": "A",
       "prompt": "Seedlings growing right under their parent tree are thin and weak. Why?",
       "options": [
-        "Competition with the parent for light, water and nutrients",
-        "Too much sunlight",
         "Too far from the parent",
-        "They are a different species"
+        "They are a different species",
+        "Competition with the parent for light, water and nutrients",
+        "Too much sunlight"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "Seed dispersal avoids this."
     },
     {
@@ -122,12 +122,12 @@
       "ibCriterion": "A",
       "prompt": "Which part of a flower becomes the seed?",
       "options": [
-        "The ovule",
-        "The petal",
         "The anther",
-        "The sepal"
+        "The petal",
+        "The sepal",
+        "The ovule"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "And the ovary becomes the fruit."
     },
     {

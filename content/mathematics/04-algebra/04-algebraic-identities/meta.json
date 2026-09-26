@@ -1,0 +1,56 @@
+{
+  "id": "algebraic-identities",
+  "number": "4.4",
+  "title": "Algebraic Identities",
+  "summary": "(a + b)², (a − b)² and a² − b² as shapes, and how they make mental maths easy.",
+  "emoji": "🟨",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Standard identities are MYP 3 Algebra"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 6: We Distribute, Yet Things Multiply",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 8: Algebraic Expressions and Identities",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can use the three standard identities.",
+    "I can explain identities with area diagrams.",
+    "I can use identities for mental calculations."
+  ],
+  "misconceptions": [
+    "(a + b)² = a² + b²",
+    "(a − b)² = a² − b²",
+    "An identity is true for only one value."
+  ],
+  "prerequisites": [
+    "mathematics/algebra/distributive-property"
+  ],
+  "labs": [
+    "identity-visualiser"
+  ],
+  "keyTerms": [
+    "identity",
+    "perfect square",
+    "difference of squares"
+  ],
+  "estMinutes": 25
+}

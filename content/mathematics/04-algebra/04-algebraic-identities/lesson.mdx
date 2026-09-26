@@ -1,0 +1,45 @@
+<Stage kind="wonder" title="Always true" />
+
+<Hook emoji="🟨">
+Can you work out 103² in your head? 103² = (100 + 3)² = 10,000 + 600 + 9 = **10,609**. Or 98 × 102? It's (100 − 2)(100 + 2) = 10,000 − 4 = **9,996**. These tricks use **identities**: equations that are true for every value of the letters.
+</Hook>
+
+<PredictFirst
+  question="Is (a + b)² equal to a² + b²?"
+  options={["Yes, always", "No, it's a² + 2ab + b²", "Only if a = b", "Only for negative numbers"]}
+  answer={1}
+>
+Try a = 3, b = 4: (3 + 4)² = 49, but 3² + 4² = 25. The missing 24 is 2ab = 2 × 3 × 4. So **(a + b)² = a² + 2ab + b²**.
+</PredictFirst>
+
+<Stage kind="explain" title="Three identities" />
+
+<Formula tex="(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad a^2 - b^2 = (a + b)(a - b)" caption="The standard identities" />
+
+<Compare
+  columns={[
+    { title: "Equation", emoji: "⚖️", points: ["2x + 3 = 11", "True for one value (x = 4)", "We solve it"] },
+    { title: "Identity", emoji: "♾️", points: ["(x + 1)² = x² + 2x + 1", "True for EVERY value of x", "We use it to rewrite"] }
+  ]}
+/>
+
+<Stage kind="try" title="Identity Visualiser" />
+
+<Lab id="identity-visualiser" />
+
+<DidYouKnow>
+Ancient Indian and Greek mathematicians proved identities like these with **cut-and-rearrange diagrams**, just like the lab, long before modern algebraic notation existed. Euclid's *Elements* (about 300 BCE) states (a + b)² = a² + 2ab + b² as a fact about squares and rectangles.
+</DidYouKnow>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Squares ending in 5">
+Work out 15², 25², 35², 45². Spot the pattern (hint: look at the digits before the 25). Write numbers ending in 5 as 10n + 5 and use (a + b)² to prove your pattern always works. Then use it to find 85² and 105² mentally.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Ch 6 · Earlier NCERT 8 Ch 8">
+- Standard identities (a + b)², (a − b)², (a + b)(a − b), and (x + a)(x + b).
+- Applying identities for quick calculation, e.g. 99², 103 × 97.
+</CbseCorner>
+
+<Reflect id="math-alg-identities" prompt="What's the difference between an equation and an identity? Give an example of each." />

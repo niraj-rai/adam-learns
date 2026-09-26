@@ -31,12 +31,12 @@
       "cbseStyle": true,
       "prompt": "The SI unit of force is the…",
       "options": [
-        "kilogram",
         "newton",
-        "joule",
-        "pascal"
+        "pascal",
+        "kilogram",
+        "joule"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Force is measured in newtons (N), named after Isaac Newton."
     },
     {
@@ -106,14 +106,14 @@
       "ibCriterion": "A",
       "prompt": "A box sits still on the floor. Which statement is correct?",
       "options": [
-        "No forces act on it",
         "Gravity pulls it down and the floor pushes it up equally",
+        "No forces act on it",
         "Only gravity acts on it",
         "The floor pushes it up more than gravity pulls down"
       ],
-      "answer": 1,
+      "answer": 0,
       "feedback": {
-        "0": "Gravity always pulls on it! Being still means the forces are balanced, not absent."
+        "1": "Gravity always pulls on it! Being still means the forces are balanced, not absent."
       },
       "explain": "Still objects have balanced forces: weight down, support force from the floor up."
     },
@@ -167,14 +167,14 @@
       "ibCriterion": "A",
       "prompt": "A football rolls across the grass and slowly stops. Why?",
       "options": [
+        "Nothing: all things stop naturally",
         "It runs out of force",
-        "Friction from the grass is an unbalanced force slowing it",
         "Gravity pulls it backwards",
-        "Nothing: all things stop naturally"
+        "Friction from the grass is an unbalanced force slowing it"
       ],
-      "answer": 1,
+      "answer": 3,
       "feedback": {
-        "0": "Objects don’t ‘carry’ a force. It’s friction acting on the ball that slows it."
+        "1": "Objects don’t ‘carry’ a force. It’s friction acting on the ball that slows it."
       },
       "explain": "An unbalanced force (friction) acts opposite to the motion and slows the ball."
     }

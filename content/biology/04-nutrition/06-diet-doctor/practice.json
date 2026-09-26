@@ -8,12 +8,12 @@
       "ibCriterion": "A",
       "prompt": "A patient has bleeding gums. Which food would you recommend?",
       "options": [
+        "Ghee",
         "Amla",
         "White rice",
-        "Ghee",
         "Sugar"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "Amla is very rich in vitamin C."
     },
     {
@@ -24,11 +24,11 @@
       "prompt": "Why does eating iron-rich food with lemon juice help people with anaemia?",
       "options": [
         "Lemon adds iron",
-        "Vitamin C helps the body absorb iron",
+        "It makes food sour",
         "Lemon cures anaemia on its own",
-        "It makes food sour"
+        "Vitamin C helps the body absorb iron"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Vitamin C improves iron absorption."
     },
     {
@@ -92,12 +92,12 @@
       "ibCriterion": "A",
       "prompt": "A child who stays indoors all day develops soft bones. Besides milk, what else would help?",
       "options": [
+        "More fried food",
         "More sugar",
         "Time in morning sunlight",
-        "Less water",
-        "More fried food"
+        "Less water"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Sunlight helps the skin make vitamin D."
     },
     {
@@ -128,12 +128,12 @@
       "ibCriterion": "A",
       "prompt": "Night blindness is caused by a lack of…",
       "options": [
-        "Vitamin A",
         "Vitamin C",
-        "Iodine",
-        "Calcium"
+        "Vitamin A",
+        "Calcium",
+        "Iodine"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "Vitamin A is needed to see in dim light."
     },
     {

@@ -38,12 +38,12 @@
       "ibCriterion": "A",
       "prompt": "What is the main energy change in a solar panel?",
       "options": [
-        "Electrical → light",
         "Light → electrical",
         "Chemical → electrical",
-        "Kinetic → electrical"
+        "Kinetic → electrical",
+        "Electrical → light"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Solar panels turn light energy from the Sun into electrical energy."
     },
     {
@@ -68,14 +68,14 @@
       "ibCriterion": "A",
       "prompt": "A torch changes 10 J of chemical energy into 2 J of light. What happened to the other 8 J?",
       "options": [
-        "It was destroyed",
+        "It turned into mass",
         "It was changed mostly into heat that spread into the surroundings",
-        "It stayed in the battery",
-        "It turned into mass"
+        "It was destroyed",
+        "It stayed in the battery"
       ],
       "answer": 1,
       "feedback": {
-        "0": "Energy can never be destroyed! Where could it have gone?"
+        "2": "Energy can never be destroyed! Where could it have gone?"
       },
       "explain": "Energy is conserved. The ‘wasted’ energy spreads out as heat."
     },

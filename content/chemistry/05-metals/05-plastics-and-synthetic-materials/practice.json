@@ -7,8 +7,13 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "A polymer is…",
-      "options": ["a single atom", "a long chain made of many repeating small units", "a type of metal", "a gas"],
-      "answer": 1,
+      "options": [
+        "a single atom",
+        "a gas",
+        "a type of metal",
+        "a long chain made of many repeating small units"
+      ],
+      "answer": 3,
       "explain": "Polymers are long chains of monomers joined together."
     },
     {
@@ -18,14 +23,35 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Thermoplastic or thermosetting plastic?",
-      "bins": ["Thermoplastic", "Thermosetting"],
+      "bins": [
+        "Thermoplastic",
+        "Thermosetting"
+      ],
       "items": [
-        { "label": "Polythene bag", "bin": 0 },
-        { "label": "Bakelite switch", "bin": 1 },
-        { "label": "PVC pipe", "bin": 0 },
-        { "label": "Melamine plate", "bin": 1 },
-        { "label": "PET water bottle", "bin": 0 },
-        { "label": "Pressure cooker handle", "bin": 1 }
+        {
+          "label": "Polythene bag",
+          "bin": 0
+        },
+        {
+          "label": "Bakelite switch",
+          "bin": 1
+        },
+        {
+          "label": "PVC pipe",
+          "bin": 0
+        },
+        {
+          "label": "Melamine plate",
+          "bin": 1
+        },
+        {
+          "label": "PET water bottle",
+          "bin": 0
+        },
+        {
+          "label": "Pressure cooker handle",
+          "bin": 1
+        }
       ],
       "explain": "Thermoplastics soften on heating; thermosets don't, so they're used where heat resistance matters."
     },
@@ -37,10 +63,22 @@
       "cbseStyle": true,
       "prompt": "Match each synthetic fibre to a use.",
       "pairs": [
-        { "left": "Nylon", "right": "Parachutes and ropes" },
-        { "left": "Polyester", "right": "Wrinkle-free shirts" },
-        { "left": "Acrylic", "right": "Sweaters (wool substitute)" },
-        { "left": "Rayon", "right": "Silk-like fabric from wood pulp" }
+        {
+          "left": "Nylon",
+          "right": "Parachutes and ropes"
+        },
+        {
+          "left": "Polyester",
+          "right": "Wrinkle-free shirts"
+        },
+        {
+          "left": "Acrylic",
+          "right": "Sweaters (wool substitute)"
+        },
+        {
+          "left": "Rayon",
+          "right": "Silk-like fabric from wood pulp"
+        }
       ],
       "explain": "Each fibre's properties suit its use."
     },
@@ -50,14 +88,35 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Biodegradable or non-biodegradable?",
-      "bins": ["Biodegradable", "Non-biodegradable"],
+      "bins": [
+        "Biodegradable",
+        "Non-biodegradable"
+      ],
       "items": [
-        { "label": "Vegetable peels", "bin": 0 },
-        { "label": "Plastic bottle", "bin": 1 },
-        { "label": "Cotton cloth", "bin": 0 },
-        { "label": "Nylon rope", "bin": 1 },
-        { "label": "Paper", "bin": 0 },
-        { "label": "Polythene bag", "bin": 1 }
+        {
+          "label": "Vegetable peels",
+          "bin": 0
+        },
+        {
+          "label": "Plastic bottle",
+          "bin": 1
+        },
+        {
+          "label": "Cotton cloth",
+          "bin": 0
+        },
+        {
+          "label": "Nylon rope",
+          "bin": 1
+        },
+        {
+          "label": "Paper",
+          "bin": 0
+        },
+        {
+          "label": "Polythene bag",
+          "bin": 1
+        }
       ],
       "explain": "Natural materials are broken down by microorganisms; most plastics aren't."
     },
@@ -68,8 +127,13 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Why is a pressure cooker handle made of bakelite?",
-      "options": ["It melts easily", "It's a thermosetting plastic and a poor conductor of heat", "It is magnetic", "It's the cheapest metal"],
-      "answer": 1,
+      "options": [
+        "It's a thermosetting plastic and a poor conductor of heat",
+        "It's the cheapest metal",
+        "It melts easily",
+        "It is magnetic"
+      ],
+      "answer": 0,
       "explain": "Bakelite doesn't soften on heating and doesn't conduct heat to your hand."
     },
     {
@@ -79,8 +143,13 @@
       "ibCriterion": "D",
       "cbseStyle": true,
       "prompt": "Why should you avoid wearing polyester or nylon clothes while cooking?",
-      "options": ["They get dirty", "They catch fire easily, melt and stick to the skin", "They conduct electricity", "They are too heavy"],
-      "answer": 1,
+      "options": [
+        "They catch fire easily, melt and stick to the skin",
+        "They get dirty",
+        "They are too heavy",
+        "They conduct electricity"
+      ],
+      "answer": 0,
       "explain": "Synthetic fibres melt when they burn, causing severe burns. Cotton is safer in the kitchen."
     },
     {
@@ -89,7 +158,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Order from FASTEST to SLOWEST to break down in nature.",
-      "steps": ["Banana peel", "Cotton T-shirt", "Plastic bag", "Plastic bottle", "Nylon fishing line"],
+      "steps": [
+        "Banana peel",
+        "Cotton T-shirt",
+        "Plastic bag",
+        "Plastic bottle",
+        "Nylon fishing line"
+      ],
       "explain": "Natural materials take weeks or months; plastics take decades to centuries."
     },
     {
@@ -98,7 +173,12 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "What are microplastics?",
-      "options": ["New kinds of eco-friendly plastic", "Tiny pieces from larger plastics breaking apart", "Plastics used in microscopes", "Biodegradable bags"],
+      "options": [
+        "Biodegradable bags",
+        "Tiny pieces from larger plastics breaking apart",
+        "Plastics used in microscopes",
+        "New kinds of eco-friendly plastic"
+      ],
       "answer": 1,
       "explain": "Plastic breaks into tiny fragments rather than truly disappearing."
     },

@@ -1,0 +1,50 @@
+<Stage kind="wonder" title="Tidying up" />
+
+<Hook emoji="🧩">
+A shopkeeper counts: 3 boxes of pens, 2 loose pens, then 1 box sold, then 5 loose pens arrive. You don't need to open the boxes to describe what's left: 2 boxes and 7 loose pens. In algebra: 3x + 2 − x + 5 = **2x + 7**. Simplifying is just tidying up **like terms**.
+</Hook>
+
+<PredictFirst
+  question="What is 4a + 3b − a + 2b?"
+  options={["8ab", "3a + 5b", "5a + 5b", "3a + b"]}
+  answer={1}
+>
+Collect the a's (4a − a = 3a) and the b's (3b + 2b = 5b): **3a + 5b**. a's and b's are unlike terms, so they stay separate.
+</PredictFirst>
+
+<Stage kind="explain" title="Like terms" />
+
+<ConceptCard title="What counts as ‘like’?">
+<KeyTerm def="Terms with exactly the same letters raised to the same powers, like 3x² and −5x²">Like terms</KeyTerm> have the same letters with the same powers: 3x and −7x are like terms, but 3x and 3x² are not, and neither are 2xy and 2x.
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "Add: (3x² − 2x + 1) + (x² + 5x − 4).",
+    "Group like terms: (3x² + x²) + (−2x + 5x) + (1 − 4).",
+    "Combine: 4x² + 3x − 3.",
+    "Subtract: (5y + 3) − (2y − 4). The minus applies to BOTH terms in the second bracket: 5y + 3 − 2y + 4.",
+    "Combine: 3y + 7."
+  ]}
+/>
+
+<Stage kind="try" title="Algebra Tiles" />
+
+<Lab id="algebra-tiles" />
+
+<MythFact myth="3x + 2 can be simplified to 5x.">
+3x and 2 are **unlike terms**. Test with x = 10: 3x + 2 = 32, but 5x = 50. Different values, so they aren't equal.
+</MythFact>
+
+<Stage kind="apply" title="Communicate" />
+
+<Inquiry criterion="C" title="Spot the mistakes">
+Here are three “simplifications” with mistakes: 2x + 3x = 5x², 4a − (2a + 3) = 2a + 3, and x + x + x = x³. For each, explain the mistake clearly, show the correct answer, and check it by substituting a number.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 7 Ch 4 · Earlier NCERT 7 Ch 10 · Earlier NCERT 8 Ch 8">
+- Like and unlike terms; addition and subtraction of algebraic expressions.
+- Finding the value of an expression by substitution.
+</CbseCorner>
+
+<Reflect id="math-alg-simplify" prompt="What real-life example helps you remember what ‘like terms’ means?" />

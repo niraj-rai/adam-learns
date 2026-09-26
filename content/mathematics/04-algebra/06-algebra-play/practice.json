@@ -1,0 +1,109 @@
+{
+  "topicId": "algebra-play",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "B",
+      "prompt": "Think of a number, double it, add 10, halve it, then subtract the number you first thought of. What do you get?",
+      "options": [
+        "Your number",
+        "5",
+        "10",
+        "0"
+      ],
+      "answer": 1,
+      "explain": "x → 2x → 2x + 10 → x + 5 → 5."
+    },
+    {
+      "id": "q2",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Prove that this trick always gives back your starting number: add 4, multiply by 2, subtract 8, then halve.",
+      "modelAnswer": "Let the number be x. Add 4: x + 4. Multiply by 2: 2x + 8. Subtract 8: 2x. Halve: x. So the result is always the starting number, whatever x is.",
+      "rubric": [
+        "Uses a letter for the number",
+        "Correct expression at each step",
+        "Concludes it works for every number"
+      ],
+      "explain": "Criterion C: a general proof."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "B",
+      "prompt": "The sum of any two consecutive whole numbers is always…",
+      "options": [
+        "even",
+        "a square number",
+        "odd",
+        "a multiple of 3"
+      ],
+      "answer": 2,
+      "explain": "n + (n + 1) = 2n + 1, which is always odd."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "In a number pyramid, each brick is the sum of the two below it. The bottom row is x, 3, 5. The middle row is x + 3 and 8, and the top brick is 20. Find x.",
+      "answer": 9,
+      "explain": "Top = (x + 3) + 8 = x + 11 = 20, so x = 9.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "On a calendar, choose a 2 × 2 block of dates. If the top-left date is d, what is the sum of the four dates?",
+      "options": [
+        "d + 16",
+        "4d",
+        "4d + 16",
+        "4d + 8"
+      ],
+      "answer": 2,
+      "explain": "The dates are d, d + 1, d + 7 and d + 8, which add to 4d + 16."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Four dates in a 2 × 2 calendar block add up to 76. What is the top-left date?",
+      "answer": 15,
+      "explain": "4d + 16 = 76, so 4d = 60 and d = 15.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Take a two-digit number, reverse its digits, and subtract the smaller from the larger. The answer is always divisible by…",
+      "options": [
+        "9",
+        "2",
+        "5",
+        "10"
+      ],
+      "answer": 0,
+      "explain": "(10a + b) − (10b + a) = 9a − 9b = 9(a − b)."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "72 − 27 = 45 = 9 × ?",
+      "answer": 5,
+      "explain": "Using 9(a − b): a − b = 7 − 2 = 5.",
+      "tolerance": 0
+    }
+  ]
+}

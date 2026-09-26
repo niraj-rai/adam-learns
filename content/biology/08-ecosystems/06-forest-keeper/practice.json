@@ -8,12 +8,12 @@
       "ibCriterion": "A",
       "prompt": "In the Forest Keeper challenge, why did relocating deer alone never restore balance?",
       "options": [
-        "Deer can't be moved",
         "Without tigers, the remaining deer soon multiplied again",
+        "Tigers eat grass",
         "Grass doesn't need deer",
-        "Tigers eat grass"
+        "Deer can't be moved"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "The predator is needed for long-term balance."
     },
     {
@@ -24,9 +24,9 @@
       "prompt": "Which early action had the biggest long-term effect?",
       "options": [
         "Stopping poaching",
+        "Relocating deer every year",
         "Planting grass",
-        "Watching and waiting",
-        "Relocating deer every year"
+        "Watching and waiting"
       ],
       "answer": 0,
       "explain": "It lets the tiger population recover."
@@ -97,11 +97,11 @@
       "prompt": "Why is the tiger called a ‘top predator’?",
       "options": [
         "It is the tallest animal",
-        "No other animal preys on it in its ecosystem",
+        "It eats only plants",
         "It lives on mountain tops",
-        "It eats only plants"
+        "No other animal preys on it in its ecosystem"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "It sits at the top of the food chain."
     },
     {

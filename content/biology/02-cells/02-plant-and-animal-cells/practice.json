@@ -78,12 +78,12 @@
       "ibCriterion": "A",
       "prompt": "Why don’t onion peel cells have chloroplasts, even though they are plant cells?",
       "options": [
+        "Chloroplasts are too small to see",
         "Onions aren't plants",
-        "The onion bulb grows underground, where there is no light for photosynthesis",
         "The stain destroyed them",
-        "Chloroplasts are too small to see"
+        "The onion bulb grows underground, where there is no light for photosynthesis"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Only plant cells exposed to light (like leaf cells) have many chloroplasts."
     },
     {
@@ -93,12 +93,12 @@
       "ibCriterion": "C",
       "prompt": "Under the microscope you see regular, brick-shaped cells with thick outlines and green dots inside. What are they?",
       "options": [
-        "Animal cells",
-        "Plant cells from a leaf",
         "Bacteria",
-        "Red blood cells"
+        "Red blood cells",
+        "Plant cells from a leaf",
+        "Animal cells"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Cell walls and chloroplasts show they are leaf cells."
     },
     {
@@ -109,11 +109,11 @@
       "prompt": "What is the difference between the cell membrane and the cell wall?",
       "options": [
         "They are the same",
-        "The membrane is thin and controls what passes in and out; the wall is a tough outer layer (only in plants) that gives support",
         "The wall controls entry; the membrane gives support",
-        "Animals have walls; plants have membranes"
+        "Animals have walls; plants have membranes",
+        "The membrane is thin and controls what passes in and out; the wall is a tough outer layer (only in plants) that gives support"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Plant cells have both: the wall outside the membrane."
     },
     {
@@ -160,10 +160,10 @@
       "ibCriterion": "A",
       "prompt": "Which organelle would you expect to find in large numbers in muscle cells, which need lots of energy?",
       "options": [
-        "Chloroplasts",
-        "Mitochondria",
         "Cell walls",
-        "Large vacuoles"
+        "Mitochondria",
+        "Large vacuoles",
+        "Chloroplasts"
       ],
       "answer": 1,
       "explain": "Mitochondria release energy through respiration."

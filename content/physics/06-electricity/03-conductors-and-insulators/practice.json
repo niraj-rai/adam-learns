@@ -62,12 +62,12 @@
       "ibCriterion": "C",
       "prompt": "In the conductor tester, pencil lead made the bulb glow, but dimly. What does this tell you?",
       "options": [
-        "Graphite is an insulator",
-        "Graphite conducts, but not as well as metals",
         "The cell was weak",
-        "Graphite is a metal"
+        "Graphite is an insulator",
+        "Graphite is a metal",
+        "Graphite conducts, but not as well as metals"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Graphite is a non-metal that conducts, but with more resistance than copper."
     },
     {
@@ -97,12 +97,12 @@
       "ibCriterion": "A",
       "prompt": "Why do electricians wear rubber gloves and shoes?",
       "options": [
-        "To keep warm",
         "Rubber is an insulator, so current can't pass through their body to the ground",
         "Rubber is a good conductor",
+        "To keep warm",
         "For better grip only"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Insulators protect against electric shock."
     },
     {
@@ -112,12 +112,12 @@
       "ibCriterion": "C",
       "prompt": "Pure water is a poor conductor, but tap water and salt water conduct. What explains this?",
       "options": [
-        "Tap and salt water contain dissolved salts that carry charge",
-        "Tap water is colder",
         "Salt is a metal",
-        "All liquids conduct equally"
+        "Tap and salt water contain dissolved salts that carry charge",
+        "All liquids conduct equally",
+        "Tap water is colder"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "Dissolved salts allow current to flow, which is why wet hands are dangerous."
     },
     {

@@ -9,12 +9,12 @@
       "cbseStyle": true,
       "prompt": "What happens when you breathe IN?",
       "options": [
-        "The diaphragm moves up and the ribs move down",
         "The diaphragm moves down and the ribs move up and out",
+        "The diaphragm moves up and the ribs move down",
         "The lungs push air in",
         "Nothing moves"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "The chest space gets bigger, pressure drops and air rushes in."
     },
     {
@@ -48,12 +48,12 @@
       "ibCriterion": "A",
       "prompt": "What is the difference between breathing and respiration?",
       "options": [
-        "They are the same",
         "Breathing moves air in and out of the lungs; respiration releases energy from food in every cell",
         "Respiration happens only in the lungs",
+        "They are the same",
         "Breathing happens in cells"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Breathing is a physical process; respiration is a chemical process."
     },
     {
@@ -63,12 +63,12 @@
       "ibCriterion": "C",
       "prompt": "In the limewater test, exhaled air turned limewater milky much faster than room air. What does this show?",
       "options": [
-        "Exhaled air contains more carbon dioxide",
         "Exhaled air is colder",
         "Room air has no oxygen",
-        "Limewater detects oxygen"
+        "Limewater detects oxygen",
+        "Exhaled air contains more carbon dioxide"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "CO₂ is a waste product of respiration."
     },
     {
@@ -119,12 +119,12 @@
       "ibCriterion": "A",
       "prompt": "During very hard exercise, muscles may get cramps from a build-up of…",
       "options": [
-        "Oxygen",
-        "Lactic acid",
         "Glucose",
-        "Water"
+        "Oxygen",
+        "Water",
+        "Lactic acid"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "When there isn't enough oxygen, muscles respire anaerobically and make lactic acid."
     }
   ]

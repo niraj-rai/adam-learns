@@ -8,8 +8,13 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "The time taken by a pendulum to complete one oscillation is called its…",
-      "options": ["speed", "time period", "frequency of sound", "amplitude"],
-      "answer": 1,
+      "options": [
+        "speed",
+        "frequency of sound",
+        "time period",
+        "amplitude"
+      ],
+      "answer": 2,
       "explain": "Time period = time for one complete oscillation."
     },
     {
@@ -30,8 +35,16 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "From the Pendulum Lab, which changes affect the time period? Choose all that apply.",
-      "options": ["Making the string longer", "Using a heavier bob", "Pulling it back further (small angles)", "Making the string shorter"],
-      "answer": [0, 3],
+      "options": [
+        "Making the string longer",
+        "Using a heavier bob",
+        "Pulling it back further (small angles)",
+        "Making the string shorter"
+      ],
+      "answer": [
+        0,
+        3
+      ],
       "explain": "Only the length matters. Mass has no effect, and at small angles the release angle hardly matters."
     },
     {
@@ -41,10 +54,10 @@
       "ibCriterion": "B",
       "prompt": "Why is it better to time 10 oscillations rather than 1?",
       "options": [
-        "It is more fun",
+        "One swing can't be seen",
         "The error from starting and stopping the stopwatch is shared over 10 swings, so it's smaller per swing",
         "The pendulum swings faster later",
-        "One swing can't be seen"
+        "It is more fun"
       ],
       "answer": 1,
       "explain": "Your reaction time error (say 0.2 s) becomes only 0.02 s per swing when divided by 10."
@@ -56,9 +69,18 @@
       "ibCriterion": "B",
       "prompt": "In an investigation of pendulum length vs time period, match each variable to its type.",
       "pairs": [
-        { "left": "Length of string", "right": "Independent variable" },
-        { "left": "Time period", "right": "Dependent variable" },
-        { "left": "Mass of bob", "right": "Controlled variable" }
+        {
+          "left": "Length of string",
+          "right": "Independent variable"
+        },
+        {
+          "left": "Time period",
+          "right": "Dependent variable"
+        },
+        {
+          "left": "Mass of bob",
+          "right": "Controlled variable"
+        }
       ],
       "explain": "Change the length, measure the period, keep the mass (and angle) the same."
     },
@@ -69,10 +91,22 @@
       "ibCriterion": "A",
       "prompt": "Match each timekeeping method to how it works.",
       "pairs": [
-        { "left": "Sundial", "right": "Position of the Sun's shadow" },
-        { "left": "Ghati (water clock)", "right": "A bowl sinking in water in a fixed time" },
-        { "left": "Pendulum clock", "right": "Regular swinging of a pendulum" },
-        { "left": "Atomic clock", "right": "Vibrations of atoms" }
+        {
+          "left": "Sundial",
+          "right": "Position of the Sun's shadow"
+        },
+        {
+          "left": "Ghati (water clock)",
+          "right": "A bowl sinking in water in a fixed time"
+        },
+        {
+          "left": "Pendulum clock",
+          "right": "Regular swinging of a pendulum"
+        },
+        {
+          "left": "Atomic clock",
+          "right": "Vibrations of atoms"
+        }
       ],
       "explain": "Every clock uses something that repeats regularly."
     },
@@ -82,8 +116,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "A pendulum clock is running slow (its period is too long). What should you do?",
-      "options": ["Make the pendulum shorter", "Make the pendulum longer", "Use a heavier bob", "Swing it harder"],
-      "answer": 0,
+      "options": [
+        "Use a heavier bob",
+        "Make the pendulum longer",
+        "Swing it harder",
+        "Make the pendulum shorter"
+      ],
+      "answer": 3,
       "explain": "A shorter pendulum has a shorter period, so it ticks faster."
     },
     {
@@ -94,8 +133,21 @@
       "cbseStyle": true,
       "prompt": "Complete the sentence.",
       "text": "The SI unit of time is the ___. The time period of a simple pendulum depends on its ___.",
-      "blanks": [["second", "seconds"], ["length"]],
-      "wordBank": ["second", "minute", "length", "mass"],
+      "blanks": [
+        [
+          "second",
+          "seconds"
+        ],
+        [
+          "length"
+        ]
+      ],
+      "wordBank": [
+        "second",
+        "minute",
+        "length",
+        "mass"
+      ],
       "explain": "Second; length."
     },
     {

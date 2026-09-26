@@ -47,11 +47,11 @@
       "prompt": "How does a fuse protect a circuit?",
       "options": [
         "It stores extra current",
-        "Its thin wire melts when the current is too high, breaking the circuit",
         "It makes the current flow faster",
+        "Its thin wire melts when the current is too high, breaking the circuit",
         "It cools the wires"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "A fuse is a safety device that breaks the circuit before wires overheat."
     },
     {
@@ -84,12 +84,12 @@
       "ibCriterion": "C",
       "prompt": "In the Fuse Box, the geyser (2000 W) and induction cooktop (2000 W) were switched on together with a 15 A fuse. What happened, and why?",
       "options": [
+        "The appliances ran slower",
         "Nothing: 4000 W is fine",
         "The fuse blew, because 4000 ÷ 230 ≈ 17 A, which is more than 15 A",
-        "The appliances ran slower",
         "The fuse got stronger"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Too much current overloads the circuit, so the fuse cuts it off."
     },
     {

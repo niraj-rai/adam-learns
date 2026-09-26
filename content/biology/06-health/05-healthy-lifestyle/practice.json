@@ -41,12 +41,12 @@
       "ibCriterion": "C",
       "prompt": "In the Healthy Day Planner, a day with 6 hours of sleep and 5 hours of screen time scored low. Which change helps most?",
       "options": [
-        "More junk food",
         "More sleep and less screen time",
         "Less water",
-        "Skipping breakfast"
+        "Skipping breakfast",
+        "More junk food"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Teenagers need 9–11 hours of sleep; screens before bed disturb sleep."
     },
     {
@@ -56,12 +56,12 @@
       "ibCriterion": "A",
       "prompt": "Why is type 2 diabetes described as a lifestyle-related disease?",
       "options": [
-        "It is caused by a virus",
-        "Its risk is strongly linked to diet, activity and weight, as well as genes",
         "It spreads through touch",
-        "It only affects children"
+        "It only affects children",
+        "It is caused by a virus",
+        "Its risk is strongly linked to diet, activity and weight, as well as genes"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Healthy habits greatly reduce the risk."
     },
     {
@@ -71,12 +71,12 @@
       "ibCriterion": "A",
       "prompt": "Which is part of good mental health?",
       "options": [
-        "Never talking about feelings",
-        "Talking to trusted people, rest, and time with friends and nature",
         "Staying on screens all night",
-        "Skipping meals"
+        "Never talking about feelings",
+        "Skipping meals",
+        "Talking to trusted people, rest, and time with friends and nature"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Health includes mental and social wellbeing."
     },
     {

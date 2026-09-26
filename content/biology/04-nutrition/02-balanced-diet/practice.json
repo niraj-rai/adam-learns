@@ -39,12 +39,12 @@
       "ibCriterion": "C",
       "prompt": "In the Thali Builder, a plate of samosa, jalebi and cola was not balanced. What was the main problem?",
       "options": [
-        "Too many vegetables",
         "Too much fat and sugar, and no vegetables, fruit, dairy or protein",
-        "Too much protein",
-        "Too little salt"
+        "Too many vegetables",
+        "Too little salt",
+        "Too much protein"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Junk food provides energy but few other nutrients."
     },
     {
@@ -54,12 +54,12 @@
       "ibCriterion": "A",
       "prompt": "Which pair of foods would best help someone with anaemia?",
       "options": [
+        "Butter and cola",
         "Rice and sugar",
         "Palak and jaggery",
-        "Butter and cola",
         "Bread and jam"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Leafy greens and jaggery contain iron."
     },
     {
@@ -69,12 +69,12 @@
       "ibCriterion": "A",
       "prompt": "Why does India add iodine to table salt?",
       "options": [
+        "To preserve it",
         "To improve taste",
         "To prevent goitre caused by iodine deficiency",
-        "To preserve it",
         "To make it white"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Iodised salt is a simple public-health solution."
     },
     {

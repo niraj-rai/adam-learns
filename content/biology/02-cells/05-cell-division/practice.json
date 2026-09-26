@@ -30,12 +30,12 @@
       "ibCriterion": "A",
       "prompt": "How does a cut on your knee heal?",
       "options": [
+        "It doesn't heal",
         "Old cells stretch to fill the gap",
         "Cells near the cut divide to make new cells",
-        "Blood turns into skin",
-        "It doesn't heal"
+        "Blood turns into skin"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Cell division repairs damaged tissue."
     },
     {
@@ -46,11 +46,11 @@
       "prompt": "How does an amoeba reproduce?",
       "options": [
         "It lays eggs",
-        "It splits into two (binary fission)",
+        "It needs a partner",
         "It makes seeds",
-        "It needs a partner"
+        "It splits into two (binary fission)"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Many unicellular organisms reproduce by dividing into two."
     },
     {

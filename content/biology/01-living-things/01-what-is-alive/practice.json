@@ -78,12 +78,12 @@
       "ibCriterion": "A",
       "prompt": "A car moves, uses oxygen to burn fuel and gives out waste gases. Why is it NOT alive?",
       "options": [
-        "It is made of metal",
-        "It cannot grow, reproduce or sense its surroundings by itself",
+        "It needs a driver",
         "It is too fast",
-        "It needs a driver"
+        "It is made of metal",
+        "It cannot grow, reproduce or sense its surroundings by itself"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Living things must show ALL the life processes."
     },
     {
@@ -93,10 +93,10 @@
       "ibCriterion": "A",
       "prompt": "A mimosa (touch-me-not) plant folds its leaves when touched. Which life process does this show?",
       "options": [
-        "Growth",
+        "Reproduction",
         "Sensitivity",
         "Excretion",
-        "Reproduction"
+        "Growth"
       ],
       "answer": 1,
       "explain": "Responding to touch is sensitivity."
@@ -108,12 +108,12 @@
       "ibCriterion": "C",
       "prompt": "A dry seed shows no signs of life for months, then sprouts when watered. What is the best conclusion?",
       "options": [
+        "Water created life",
         "It was dead and came back to life",
-        "It was alive but dormant (resting)",
         "It is non-living",
-        "Water created life"
+        "It was alive but dormant (resting)"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Seeds respire very slowly while dormant."
     },
     {
@@ -158,11 +158,11 @@
       "prompt": "How do plants show movement?",
       "options": [
         "They don't move at all",
-        "Their roots, stems, leaves and flowers move slowly, e.g. turning towards light",
+        "Only when the wind blows",
         "They walk at night",
-        "Only when the wind blows"
+        "Their roots, stems, leaves and flowers move slowly, e.g. turning towards light"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Plant movements are slow but real, like sunflowers following the Sun."
     }
   ]

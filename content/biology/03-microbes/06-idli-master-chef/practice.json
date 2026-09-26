@@ -8,12 +8,12 @@
       "ibCriterion": "A",
       "prompt": "On a cold night, idli batter hasn’t fermented by morning. What is the most likely reason?",
       "options": [
-        "Too much rice",
         "The microbes were too cold to work quickly",
+        "Too much rice",
         "The batter had too much air",
         "Idli batter doesn't need fermenting"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Many cooks put the batter in a warm spot, such as an oven with the light on."
     },
     {
@@ -23,12 +23,12 @@
       "ibCriterion": "A",
       "prompt": "Why is boiled milk cooled to lukewarm before adding the curd starter?",
       "options": [
+        "So it tastes sweeter",
         "To save gas",
-        "Hot milk would kill the Lactobacillus bacteria",
         "Cold milk sets faster",
-        "So it tastes sweeter"
+        "Hot milk would kill the Lactobacillus bacteria"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "About 40 °C is ideal."
     },
     {
@@ -86,12 +86,12 @@
       "ibCriterion": "A",
       "prompt": "Which is the safest way to keep leftover sambar overnight?",
       "options": [
-        "Leave it covered on the stove",
         "Cool it quickly, refrigerate, and boil it again before serving",
         "Leave it on the counter uncovered",
+        "Leave it covered on the stove",
         "Add extra salt and leave it out"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Cooling slows microbes; boiling kills most before eating."
     },
     {

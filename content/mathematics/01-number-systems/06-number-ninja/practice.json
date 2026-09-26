@@ -8,12 +8,12 @@
       "ibCriterion": "A",
       "prompt": "Why is −1/4 greater than −1/2?",
       "options": [
+        "It isn't: −1/2 is greater",
         "It is closer to zero on the number line",
         "4 is bigger than 2",
-        "Negative fractions can't be compared",
-        "It isn't: −1/2 is greater"
+        "Negative fractions can't be compared"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "−1/4 = −0.25 lies to the right of −0.5 on the number line."
     },
     {
@@ -73,12 +73,12 @@
       "ibCriterion": "B",
       "prompt": "Work out −1 + 2 − 3 + 4 − … − 49 + 50.",
       "options": [
-        "25",
+        "50",
         "0",
-        "−25",
-        "50"
+        "25",
+        "−25"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "25 pairs, each (−odd + even) = 1."
     },
     {

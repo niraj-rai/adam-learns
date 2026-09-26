@@ -67,12 +67,12 @@
       "ibCriterion": "C",
       "prompt": "In the Compost Lab, why did the soggy, unturned bin smell bad?",
       "options": [
-        "Too much air",
-        "Without enough oxygen, different bacteria took over and made smelly gases",
         "It had too many dry leaves",
-        "Plastic was added"
+        "Plastic was added",
+        "Too much air",
+        "Without enough oxygen, different bacteria took over and made smelly gases"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Turning the heap and adding browns fixes it."
     },
     {
@@ -84,11 +84,11 @@
       "prompt": "Where do Rhizobium bacteria live?",
       "options": [
         "In the leaves of wheat",
+        "In the air",
         "In root nodules of pulses like moong and chana",
-        "In milk",
-        "In the air"
+        "In milk"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "They fix nitrogen for the plant."
     },
     {
@@ -99,11 +99,11 @@
       "prompt": "Why do farmers often grow a pulse crop between two cereal crops?",
       "options": [
         "Pulses use up all the nitrogen",
-        "Nitrogen-fixing bacteria in pulse roots add nitrogen back to the soil",
+        "Pulses grow faster",
         "It's the law",
-        "Pulses grow faster"
+        "Nitrogen-fixing bacteria in pulse roots add nitrogen back to the soil"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Crop rotation reduces the need for chemical fertilisers."
     },
     {

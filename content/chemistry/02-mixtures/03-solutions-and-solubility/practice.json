@@ -8,9 +8,18 @@
       "ibCriterion": "A",
       "prompt": "In sugar water, match each word to its part.",
       "pairs": [
-        { "left": "Solute", "right": "Sugar" },
-        { "left": "Solvent", "right": "Water" },
-        { "left": "Solution", "right": "Sugar water" }
+        {
+          "left": "Solute",
+          "right": "Sugar"
+        },
+        {
+          "left": "Solvent",
+          "right": "Water"
+        },
+        {
+          "left": "Solution",
+          "right": "Sugar water"
+        }
       ],
       "explain": "The solute dissolves in the solvent to make a solution."
     },
@@ -21,14 +30,35 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Sort into soluble and insoluble in water.",
-      "bins": ["Soluble", "Insoluble"],
+      "bins": [
+        "Soluble",
+        "Insoluble"
+      ],
       "items": [
-        { "label": "Salt", "bin": 0 },
-        { "label": "Sand", "bin": 1 },
-        { "label": "Sugar", "bin": 0 },
-        { "label": "Chalk powder", "bin": 1 },
-        { "label": "Lemon juice", "bin": 0 },
-        { "label": "Sawdust", "bin": 1 }
+        {
+          "label": "Salt",
+          "bin": 0
+        },
+        {
+          "label": "Sand",
+          "bin": 1
+        },
+        {
+          "label": "Sugar",
+          "bin": 0
+        },
+        {
+          "label": "Chalk powder",
+          "bin": 1
+        },
+        {
+          "label": "Lemon juice",
+          "bin": 0
+        },
+        {
+          "label": "Sawdust",
+          "bin": 1
+        }
       ],
       "explain": "Salt, sugar and lemon juice dissolve in water; sand, chalk and sawdust do not."
     },
@@ -38,7 +68,12 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "A solution that cannot dissolve any more solute at that temperature is…",
-      "options": ["dilute", "saturated", "insoluble", "unsaturated"],
+      "options": [
+        "unsaturated",
+        "saturated",
+        "dilute",
+        "insoluble"
+      ],
       "answer": 1,
       "explain": "A saturated solution holds the maximum amount of solute at that temperature."
     },
@@ -72,8 +107,18 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Which make sugar dissolve FASTER? Choose all that apply.",
-      "options": ["Stirring", "Using warmer water", "Using a sugar cube instead of powder", "Crushing the sugar into powder", "Using less water"],
-      "answer": [0, 1, 3],
+      "options": [
+        "Stirring",
+        "Using warmer water",
+        "Using a sugar cube instead of powder",
+        "Crushing the sugar into powder",
+        "Using less water"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
       "explain": "Stirring, heating and a larger surface area (powder) speed up dissolving. A cube has less surface area."
     },
     {
@@ -82,8 +127,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "The solubility of potassium nitrate is 32 g per 100 g water at 20 °C and 110 g at 60 °C. A saturated solution in 100 g water is cooled from 60 °C to 20 °C. What happens?",
-      "options": ["Nothing happens", "About 78 g of crystals form", "About 32 g of crystals form", "The water freezes"],
-      "answer": 1,
+      "options": [
+        "About 78 g of crystals form",
+        "Nothing happens",
+        "The water freezes",
+        "About 32 g of crystals form"
+      ],
+      "answer": 0,
       "hint": "How much can stay dissolved at 20 °C? The rest comes out.",
       "explain": "110 − 32 = 78 g can no longer stay dissolved, so it crystallises out."
     },
@@ -95,11 +145,11 @@
       "prompt": "What is the difference between melting and dissolving?",
       "options": [
         "There is no difference",
-        "Melting involves one substance changing state; dissolving needs a solute spreading into a solvent",
+        "Melting only happens to metals",
         "Dissolving needs heat but melting doesn't",
-        "Melting only happens to metals"
+        "Melting involves one substance changing state; dissolving needs a solute spreading into a solvent"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Melting: one substance, solid → liquid. Dissolving: solute particles spread out between solvent particles."
     },
     {
@@ -123,8 +173,22 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentences.",
       "text": "For most solids, solubility ___ as temperature increases. Gases are ___ soluble in warm water.",
-      "blanks": [["increases", "goes up", "rises"], ["less"]],
-      "wordBank": ["increases", "decreases", "less", "more"],
+      "blanks": [
+        [
+          "increases",
+          "goes up",
+          "rises"
+        ],
+        [
+          "less"
+        ]
+      ],
+      "wordBank": [
+        "increases",
+        "decreases",
+        "less",
+        "more"
+      ],
       "explain": "Most solids dissolve more when hot; gases dissolve less when hot (warm soda goes flat)."
     },
     {

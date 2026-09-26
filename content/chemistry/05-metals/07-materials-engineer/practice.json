@@ -9,10 +9,22 @@
       "cbseStyle": true,
       "prompt": "Match each material to the property that makes it ideal for its job.",
       "pairs": [
-        { "left": "Copper in wires", "right": "Good conductor and ductile" },
-        { "left": "Aluminium in aircraft", "right": "Light, strong and doesn't corrode" },
-        { "left": "Gold in jewellery", "right": "Unreactive, so it stays shiny" },
-        { "left": "Steel in bridges", "right": "Very strong and affordable" }
+        {
+          "left": "Copper in wires",
+          "right": "Good conductor and ductile"
+        },
+        {
+          "left": "Aluminium in aircraft",
+          "right": "Light, strong and doesn't corrode"
+        },
+        {
+          "left": "Gold in jewellery",
+          "right": "Unreactive, so it stays shiny"
+        },
+        {
+          "left": "Steel in bridges",
+          "right": "Very strong and affordable"
+        }
       ],
       "explain": "Choose materials by matching properties to needs."
     },
@@ -22,7 +34,12 @@
       "difficulty": 2,
       "ibCriterion": "D",
       "prompt": "Silver conducts electricity better than copper. Why do we still use copper for house wiring?",
-      "options": ["Copper is shinier", "Silver is far more expensive", "Silver is magnetic", "Copper is lighter than silver"],
+      "options": [
+        "Copper is shinier",
+        "Silver is far more expensive",
+        "Silver is magnetic",
+        "Copper is lighter than silver"
+      ],
       "answer": 1,
       "explain": "Copper does the job well at a fraction of the cost."
     },
@@ -32,8 +49,13 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Which material is best for a frying pan handle?",
-      "options": ["Copper", "Aluminium", "Bakelite", "Iron"],
-      "answer": 2,
+      "options": [
+        "Copper",
+        "Aluminium",
+        "Iron",
+        "Bakelite"
+      ],
+      "answer": 3,
       "explain": "Bakelite is a thermosetting plastic that insulates heat and doesn't soften."
     },
     {
@@ -42,14 +64,35 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Would you choose a CONDUCTOR or an INSULATOR for each part?",
-      "bins": ["Conductor", "Insulator"],
+      "bins": [
+        "Conductor",
+        "Insulator"
+      ],
       "items": [
-        { "label": "Inside of an electric wire", "bin": 0 },
-        { "label": "Covering of an electric wire", "bin": 1 },
-        { "label": "Base of a cooking pot", "bin": 0 },
-        { "label": "Oven gloves", "bin": 1 },
-        { "label": "Soldering iron tip", "bin": 0 },
-        { "label": "Switch cover", "bin": 1 }
+        {
+          "label": "Inside of an electric wire",
+          "bin": 0
+        },
+        {
+          "label": "Covering of an electric wire",
+          "bin": 1
+        },
+        {
+          "label": "Base of a cooking pot",
+          "bin": 0
+        },
+        {
+          "label": "Oven gloves",
+          "bin": 1
+        },
+        {
+          "label": "Soldering iron tip",
+          "bin": 0
+        },
+        {
+          "label": "Switch cover",
+          "bin": 1
+        }
       ],
       "explain": "Conductors carry heat or electricity where it's needed; insulators keep people safe."
     },
@@ -61,11 +104,11 @@
       "prompt": "Why are aeroplane bodies made from aluminium alloys rather than steel, even though steel is stronger?",
       "options": [
         "Aluminium is cheaper than steel",
-        "Aluminium alloys are much lighter, so the plane uses less fuel, and they resist corrosion",
         "Steel is magnetic",
-        "Aluminium is more reactive"
+        "Aluminium is more reactive",
+        "Aluminium alloys are much lighter, so the plane uses less fuel, and they resist corrosion"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Weight is critical in aircraft; aluminium alloys give strength with low density."
     },
     {
@@ -74,8 +117,19 @@
       "difficulty": 2,
       "ibCriterion": "D",
       "prompt": "Which factors should an engineer consider when choosing a material? Choose all that apply.",
-      "options": ["Properties needed for the job", "Cost", "Environmental impact and recyclability", "Only the colour", "Safety"],
-      "answer": [0, 1, 2, 4],
+      "options": [
+        "Properties needed for the job",
+        "Cost",
+        "Environmental impact and recyclability",
+        "Only the colour",
+        "Safety"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
       "explain": "Colour can matter for looks, but it's never the only factor."
     },
     {
@@ -84,8 +138,13 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Why is aluminium foil used for wrapping food?",
-      "options": ["It's magnetic", "It's malleable, non-toxic and keeps out air and moisture", "It's the strongest metal", "It conducts electricity"],
-      "answer": 1,
+      "options": [
+        "It's malleable, non-toxic and keeps out air and moisture",
+        "It's magnetic",
+        "It's the strongest metal",
+        "It conducts electricity"
+      ],
+      "answer": 0,
       "explain": "Malleability lets it be rolled very thin; it's safe with food."
     },
     {

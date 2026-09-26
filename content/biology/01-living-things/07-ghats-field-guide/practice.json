@@ -8,12 +8,12 @@
       "ibCriterion": "A",
       "prompt": "What does ‘endemic’ mean, as in ‘the lion-tailed macaque is endemic to the Western Ghats’?",
       "options": [
-        "Found only in that place",
         "Found everywhere",
         "Extinct",
-        "Dangerous"
+        "Dangerous",
+        "Found only in that place"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "Endemic species live naturally in only one region."
     },
     {
@@ -23,10 +23,10 @@
       "ibCriterion": "A",
       "prompt": "Using the field-guide key: an animal has a backbone, no feathers and no fur, and moist skin (not scaly). What is it?",
       "options": [
-        "King cobra",
+        "Lion-tailed macaque",
         "Purple frog",
-        "Great hornbill",
-        "Lion-tailed macaque"
+        "King cobra",
+        "Great hornbill"
       ],
       "answer": 1,
       "explain": "Moist skin without scales points to an amphibian."
@@ -38,12 +38,12 @@
       "ibCriterion": "A",
       "prompt": "Neelakurinji flowers only once every…",
       "options": [
-        "year",
-        "12 years",
+        "month",
         "100 years",
-        "month"
+        "12 years",
+        "year"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Its mass flowering turns the Nilgiri hills blue."
     },
     {
@@ -88,11 +88,11 @@
       "prompt": "Why is the bracket fungus important in the forest?",
       "options": [
         "It makes oxygen",
-        "It decomposes dead wood and recycles nutrients",
         "It feeds hornbills",
-        "It is a predator"
+        "It is a predator",
+        "It decomposes dead wood and recycles nutrients"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Decomposers return nutrients to the soil."
     },
     {

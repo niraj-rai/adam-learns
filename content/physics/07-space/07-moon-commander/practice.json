@@ -10,8 +10,8 @@
       "options": [
         "On the opposite side of Earth from the Sun",
         "Between Earth and the Sun",
-        "At right angles to the Sun",
-        "Behind the Sun"
+        "Behind the Sun",
+        "At right angles to the Sun"
       ],
       "answer": 1,
       "explain": "Its sunlit side faces away from us."
@@ -24,9 +24,9 @@
       "prompt": "A Moon that is half lit on the RIGHT side (as seen from India) is at…",
       "options": [
         "First quarter",
+        "New moon",
         "Last quarter",
-        "Full moon",
-        "New moon"
+        "Full moon"
       ],
       "answer": 0,
       "explain": "Waxing phases are lit on the right in the northern hemisphere."
@@ -71,12 +71,12 @@
       "ibCriterion": "C",
       "prompt": "Diwali is celebrated on Amavasya. Could a lunar eclipse ever happen on Diwali night?",
       "options": [
+        "Only in the southern hemisphere",
         "Yes, often",
-        "No: lunar eclipses happen only at full moon",
         "Only if it is cloudy",
-        "Only in the southern hemisphere"
+        "No: lunar eclipses happen only at full moon"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Amavasya is new moon; a SOLAR eclipse is possible, but never a lunar one."
     },
     {

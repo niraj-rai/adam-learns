@@ -8,10 +8,22 @@
       "ibCriterion": "A",
       "prompt": "Match each line shape on a distance–time graph to its meaning.",
       "pairs": [
-        { "left": "Flat (horizontal) line", "right": "Stopped" },
-        { "left": "Steep straight line", "right": "Moving fast at constant speed" },
-        { "left": "Gentle straight line", "right": "Moving slowly at constant speed" },
-        { "left": "Line sloping downwards", "right": "Coming back towards the start" }
+        {
+          "left": "Flat (horizontal) line",
+          "right": "Stopped"
+        },
+        {
+          "left": "Steep straight line",
+          "right": "Moving fast at constant speed"
+        },
+        {
+          "left": "Gentle straight line",
+          "right": "Moving slowly at constant speed"
+        },
+        {
+          "left": "Line sloping downwards",
+          "right": "Coming back towards the start"
+        }
       ],
       "explain": "Slope = speed; flat = zero speed; downward = returning."
     },
@@ -32,7 +44,12 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Two straight lines start at the origin. Line A is steeper than line B. What does this tell you?",
-      "options": ["A travelled for longer", "A is faster than B", "B is faster than A", "A stopped"],
+      "options": [
+        "B is faster than A",
+        "A is faster than B",
+        "A travelled for longer",
+        "A stopped"
+      ],
       "answer": 1,
       "explain": "A steeper slope means more distance per second: faster."
     },
@@ -53,7 +70,11 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "A graph shows: a gentle slope, then flat, then a steep slope. Put the story in order.",
-      "steps": ["Walked slowly", "Stood still", "Ran fast"],
+      "steps": [
+        "Walked slowly",
+        "Stood still",
+        "Ran fast"
+      ],
       "explain": "Gentle slope = slow; flat = stopped; steep = fast."
     },
     {
@@ -62,9 +83,16 @@
       "difficulty": 3,
       "ibCriterion": "C",
       "prompt": "On a distance–time graph, a line curves upwards and gets steeper and steeper. What is happening?",
-      "options": ["The object is slowing down", "The object is speeding up", "The object is stopped", "The object is going uphill"],
-      "answer": 1,
-      "feedback": { "3": "The graph shows distance over time, not the shape of the road!" },
+      "options": [
+        "The object is stopped",
+        "The object is going uphill",
+        "The object is slowing down",
+        "The object is speeding up"
+      ],
+      "answer": 3,
+      "feedback": {
+        "1": "The graph shows distance over time, not the shape of the road!"
+      },
       "explain": "Getting steeper = speed increasing."
     },
     {
@@ -74,8 +102,22 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentences.",
       "text": "On a distance–time graph, time is plotted on the ___ axis. The slope of the line gives the ___.",
-      "blanks": [["x", "horizontal", "x-axis"], ["speed"]],
-      "wordBank": ["x", "y", "speed", "distance"],
+      "blanks": [
+        [
+          "x",
+          "horizontal",
+          "x-axis"
+        ],
+        [
+          "speed"
+        ]
+      ],
+      "wordBank": [
+        "x",
+        "y",
+        "speed",
+        "distance"
+      ],
       "explain": "Time on the x-axis; slope = speed."
     },
     {

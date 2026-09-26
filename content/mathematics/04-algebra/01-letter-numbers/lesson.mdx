@@ -1,0 +1,47 @@
+<Stage kind="wonder" title="A rule for every size" />
+
+<Hook emoji="🔥">
+Make a row of squares from matchsticks. 1 square needs 4 sticks, 2 squares need 7, 3 squares need 10. How many for 100 squares? You could build it and count… or you could find a **rule** that works for any number of squares. That rule needs a number that can be *any* number: a **letter-number**.
+</Hook>
+
+<PredictFirst
+  question="Each new square adds 3 sticks. How many sticks for 10 squares?"
+  options={["30", "31", "40", "33"]}
+  answer={1}
+>
+The first square needs 4 sticks, and each of the 9 more adds 3: 4 + 27 = **31**. The rule 3n + 1 works for every n: 3 × 10 + 1 = 31.
+</PredictFirst>
+
+<Stage kind="explain" title="Expressions" />
+
+<ConceptCard title="Letter-numbers">
+A <KeyTerm def="A letter that stands for a number that can change, like n or x">variable</KeyTerm> (letter-number) such as n can stand for any number. An <KeyTerm def="A combination of numbers, letters and operations, like 3n + 1">expression</KeyTerm> like 3n + 1 describes a whole pattern at once. We write 3n for 3 × n, and in 3n + 1 the 3 is a **coefficient** and the 1 is a **constant**.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Words", emoji: "💬", points: ["5 more than twice a number", "A number divided by 4", "3 less than a number"] },
+    { title: "Algebra", emoji: "🔤", points: ["2x + 5", "x/4", "x − 3 (not 3 − x!)"] }
+  ]}
+/>
+
+<Stage kind="try" title="Matchstick Patterns" />
+
+<Lab id="matchstick-patterns" />
+
+<DidYouKnow>
+The Indian mathematician **Brahmagupta** (7th century CE) used short names of colours, like *kālaka* (black) and *nīlaka* (blue), as letters for unknown quantities, centuries before x and y became standard in Europe.
+</DidYouKnow>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="Pricing plans">
+Find two real pricing plans (auto-rickshaw fares, mobile data packs, or gym memberships) that have a fixed charge plus a charge per unit. Write an expression for each, and work out when each plan is the better deal.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 7 Ch 4 · Earlier NCERT 7 Ch 10">
+- Letter-numbers (variables), forming expressions from situations and patterns.
+- Terms, coefficients, constants; evaluating expressions.
+</CbseCorner>
+
+<Reflect id="math-alg-letters" prompt="Why is a rule with a letter more powerful than a table of numbers?" />

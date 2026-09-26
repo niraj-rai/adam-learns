@@ -1,0 +1,51 @@
+{
+  "id": "algebra-play",
+  "number": "4.6",
+  "title": "Algebra Play: Tricks and Puzzles",
+  "summary": "Think-of-a-number tricks, number pyramids and calendar puzzles, all explained with algebra.",
+  "emoji": "🎩",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Proving conjectures algebraically builds MYP Criteria B and C"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 6: Algebra Play",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "B",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can use algebra to explain why a number trick works.",
+    "I can solve puzzles by setting up expressions.",
+    "I can create and prove my own trick."
+  ],
+  "misconceptions": [
+    "Testing a few numbers proves a trick always works.",
+    "Algebra is only for exams."
+  ],
+  "prerequisites": [
+    "mathematics/algebra/simplifying-expressions"
+  ],
+  "labs": [
+    "number-trick"
+  ],
+  "keyTerms": [
+    "proof",
+    "general",
+    "expression",
+    "number pyramid"
+  ],
+  "estMinutes": 25
+}

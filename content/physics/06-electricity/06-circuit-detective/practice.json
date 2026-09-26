@@ -39,11 +39,11 @@
       "prompt": "A torch doesn't work. You swap in new cells and it still doesn't work. What should you check next?",
       "options": [
         "The colour of the torch",
-        "The bulb and the switch",
         "The brand of cells",
-        "Nothing: throw it away"
+        "Nothing: throw it away",
+        "The bulb and the switch"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Test one part at a time: the bulb's filament and the switch contacts."
     },
     {
@@ -53,12 +53,12 @@
       "ibCriterion": "A",
       "prompt": "How can you tell which leg of an LED goes towards the + terminal?",
       "options": [
-        "The shorter leg",
-        "The longer leg",
+        "The red one",
         "It doesn't matter",
-        "The red one"
+        "The longer leg",
+        "The shorter leg"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "The longer leg (the anode) connects towards +."
     },
     {
@@ -68,12 +68,12 @@
       "ibCriterion": "C",
       "prompt": "A circuit has one cell and one LED, the right way round, but it doesn't glow. What is the most likely reason?",
       "options": [
-        "The LED needs about 2 V, but one cell gives only 1.5 V",
-        "LEDs never work in circuits",
         "The wire is too short",
-        "The circuit is too complete"
+        "LEDs never work in circuits",
+        "The circuit is too complete",
+        "The LED needs about 2 V, but one cell gives only 1.5 V"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "Adding a second cell (3 V) makes it glow."
     },
     {
@@ -136,11 +136,11 @@
       "prompt": "Why does changing only ONE thing at a time help when fixing a circuit?",
       "options": [
         "It is faster",
+        "It makes the bulb brighter",
         "You know exactly which change fixed the problem",
-        "It uses fewer cells",
-        "It makes the bulb brighter"
+        "It uses fewer cells"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "This is the same idea as a fair test."
     },
     {

@@ -29,12 +29,12 @@
       "ibCriterion": "C",
       "prompt": "In the Germination Lab, seeds kept under boiled, cooled water did not germinate. Why was the water boiled first?",
       "options": [
-        "To kill germs only",
         "To remove dissolved air, so the seeds had no oxygen",
-        "To warm the seeds",
-        "To make it taste better"
+        "To make it taste better",
+        "To kill germs only",
+        "To warm the seeds"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "This tests whether seeds need air."
     },
     {
@@ -44,9 +44,9 @@
       "ibCriterion": "C",
       "prompt": "A seedling grown in a dark cupboard is tall, thin and pale yellow. What does this tell you?",
       "options": [
-        "Light is needed to germinate",
-        "Seeds can germinate without light, but the seedling needs light to become green and healthy",
         "The seed was dead",
+        "Seeds can germinate without light, but the seedling needs light to become green and healthy",
+        "Light is needed to germinate",
         "Dark cupboards are too cold"
       ],
       "answer": 1,

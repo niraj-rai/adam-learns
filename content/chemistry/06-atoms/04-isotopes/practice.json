@@ -8,8 +8,13 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Isotopes of an element have the same number of ___ but different numbers of ___.",
-      "options": ["neutrons; protons", "protons; neutrons", "electrons; protons", "shells; electrons"],
-      "answer": 1,
+      "options": [
+        "neutrons; protons",
+        "electrons; protons",
+        "protons; neutrons",
+        "shells; electrons"
+      ],
+      "answer": 2,
       "explain": "Same protons (same element), different neutrons (different mass)."
     },
     {
@@ -29,13 +34,31 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Are these pairs isotopes of the same element?",
-      "bins": ["Isotopes", "Not isotopes"],
+      "bins": [
+        "Isotopes",
+        "Not isotopes"
+      ],
       "items": [
-        { "label": "Chlorine-35 and chlorine-37", "bin": 0 },
-        { "label": "Carbon-12 and carbon-14", "bin": 0 },
-        { "label": "Argon-40 and calcium-40", "bin": 1 },
-        { "label": "Hydrogen-1 and deuterium (H-2)", "bin": 0 },
-        { "label": "Oxygen-16 and nitrogen-14", "bin": 1 }
+        {
+          "label": "Chlorine-35 and chlorine-37",
+          "bin": 0
+        },
+        {
+          "label": "Carbon-12 and carbon-14",
+          "bin": 0
+        },
+        {
+          "label": "Argon-40 and calcium-40",
+          "bin": 1
+        },
+        {
+          "label": "Hydrogen-1 and deuterium (H-2)",
+          "bin": 0
+        },
+        {
+          "label": "Oxygen-16 and nitrogen-14",
+          "bin": 1
+        }
       ],
       "explain": "Isotopes must be the same element (same protons). Argon-40 and calcium-40 are isobars (same mass number, different elements)."
     },
@@ -57,7 +80,12 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Why do isotopes of an element have the same chemical properties?",
-      "options": ["They have the same mass", "They have the same number and arrangement of electrons", "They have the same number of neutrons", "They are radioactive"],
+      "options": [
+        "They have the same mass",
+        "They have the same number and arrangement of electrons",
+        "They have the same number of neutrons",
+        "They are radioactive"
+      ],
       "answer": 1,
       "explain": "Chemical properties depend on electrons, which are the same for all isotopes of an element."
     },
@@ -69,10 +97,22 @@
       "cbseStyle": true,
       "prompt": "Match each isotope to its use.",
       "pairs": [
-        { "left": "Uranium-235", "right": "Fuel in nuclear power stations" },
-        { "left": "Cobalt-60", "right": "Cancer treatment" },
-        { "left": "Iodine-131", "right": "Treating thyroid problems (goitre)" },
-        { "left": "Carbon-14", "right": "Dating ancient objects" }
+        {
+          "left": "Uranium-235",
+          "right": "Fuel in nuclear power stations"
+        },
+        {
+          "left": "Cobalt-60",
+          "right": "Cancer treatment"
+        },
+        {
+          "left": "Iodine-131",
+          "right": "Treating thyroid problems (goitre)"
+        },
+        {
+          "left": "Carbon-14",
+          "right": "Dating ancient objects"
+        }
       ],
       "explain": "Radioactive isotopes have many uses in medicine, energy and archaeology."
     },
@@ -82,8 +122,13 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Which statement is TRUE?",
-      "options": ["All isotopes are radioactive", "Most isotopes are stable", "Isotopes are different elements", "Isotopes have different numbers of electrons"],
-      "answer": 1,
+      "options": [
+        "Most isotopes are stable",
+        "All isotopes are radioactive",
+        "Isotopes are different elements",
+        "Isotopes have different numbers of electrons"
+      ],
+      "answer": 0,
       "explain": "Only some isotopes are radioactive; most are stable."
     },
     {

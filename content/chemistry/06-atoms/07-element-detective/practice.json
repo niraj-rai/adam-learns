@@ -8,8 +8,13 @@
       "ibCriterion": "C",
       "cbseStyle": true,
       "prompt": "An element has electronic configuration 2, 8, 7. Which is it?",
-      "options": ["Fluorine", "Chlorine", "Argon", "Sulfur"],
-      "answer": 1,
+      "options": [
+        "Fluorine",
+        "Argon",
+        "Chlorine",
+        "Sulfur"
+      ],
+      "answer": 2,
       "explain": "2 + 8 + 7 = 17 electrons → chlorine."
     },
     {
@@ -18,8 +23,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "I am a noble gas with 2 electron shells. Who am I?",
-      "options": ["Helium", "Neon", "Argon", "Krypton"],
-      "answer": 1,
+      "options": [
+        "Argon",
+        "Helium",
+        "Neon",
+        "Krypton"
+      ],
+      "answer": 2,
       "explain": "Noble gas + 2 shells (2, 8) → neon."
     },
     {
@@ -28,7 +38,12 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "I am an alkali metal in period 4. Who am I?",
-      "options": ["Lithium", "Sodium", "Potassium", "Calcium"],
+      "options": [
+        "Sodium",
+        "Lithium",
+        "Potassium",
+        "Calcium"
+      ],
       "answer": 2,
       "explain": "Group 1 + period 4 → potassium (2, 8, 8, 1)."
     },
@@ -39,10 +54,22 @@
       "ibCriterion": "C",
       "prompt": "Match each clue to its element.",
       "pairs": [
-        { "left": "Atomic number 8; about 21% of air", "right": "Oxygen" },
-        { "left": "Metalloid used in computer chips", "right": "Silicon" },
-        { "left": "Lightest element", "right": "Hydrogen" },
-        { "left": "Group 2, period 4; in bones", "right": "Calcium" }
+        {
+          "left": "Atomic number 8; about 21% of air",
+          "right": "Oxygen"
+        },
+        {
+          "left": "Metalloid used in computer chips",
+          "right": "Silicon"
+        },
+        {
+          "left": "Lightest element",
+          "right": "Hydrogen"
+        },
+        {
+          "left": "Group 2, period 4; in bones",
+          "right": "Calcium"
+        }
       ],
       "explain": "Combine structure, position and properties."
     },
@@ -63,8 +90,13 @@
       "difficulty": 3,
       "ibCriterion": "C",
       "prompt": "Element Y forms Y²⁻ ions and has 3 electron shells. Which element is it?",
-      "options": ["Oxygen", "Sulfur", "Magnesium", "Chlorine"],
-      "answer": 1,
+      "options": [
+        "Magnesium",
+        "Oxygen",
+        "Chlorine",
+        "Sulfur"
+      ],
+      "answer": 3,
       "explain": "Gains 2 electrons → 6 outer electrons (group 16); 3 shells → period 3 → sulfur."
     },
     {
@@ -74,8 +106,20 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentence.",
       "text": "The number of electron shells tells you the ___, and the number of outer electrons tells you the ___.",
-      "blanks": [["period"], ["group"]],
-      "wordBank": ["period", "group", "mass", "charge"],
+      "blanks": [
+        [
+          "period"
+        ],
+        [
+          "group"
+        ]
+      ],
+      "wordBank": [
+        "period",
+        "group",
+        "mass",
+        "charge"
+      ],
       "explain": "Shells → period; outer electrons → group."
     },
     {

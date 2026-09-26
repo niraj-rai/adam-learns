@@ -9,11 +9,11 @@
       "prompt": "Which feature tells you a slide shows bacteria rather than animal cells?",
       "options": [
         "They are larger",
-        "They are tiny and have no nucleus",
         "They are green",
+        "They are tiny and have no nucleus",
         "They have cell walls and chloroplasts"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Bacteria are much smaller and lack a nucleus."
     },
     {
@@ -23,8 +23,8 @@
       "ibCriterion": "A",
       "prompt": "Which feature tells you a cell is a plant cell?",
       "options": [
-        "A nucleus",
         "A cell membrane",
+        "A nucleus",
         "A cell wall",
         "Cytoplasm"
       ],
@@ -39,11 +39,11 @@
       "prompt": "In the Mystery Slides, which specimen needed the highest magnification (1000×) to see clearly?",
       "options": [
         "Onion peel",
-        "Nerve cells",
         "Bacteria",
+        "Nerve cells",
         "Cheek cells"
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": "Bacteria are only a few micrometres long."
     },
     {
@@ -113,11 +113,11 @@
       "prompt": "When looking for cells on a new slide, which objective should you start with?",
       "options": [
         "The highest power",
+        "It doesn't matter",
         "The lowest power",
-        "The oil lens",
-        "It doesn't matter"
+        "The oil lens"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Low power shows a wide area, which makes the specimen easier to find."
     },
     {

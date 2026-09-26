@@ -9,11 +9,26 @@
       "cbseStyle": true,
       "prompt": "Match each element to its electron arrangement.",
       "pairs": [
-        { "left": "Carbon (6)", "right": "2, 4" },
-        { "left": "Sodium (11)", "right": "2, 8, 1" },
-        { "left": "Chlorine (17)", "right": "2, 8, 7" },
-        { "left": "Argon (18)", "right": "2, 8, 8" },
-        { "left": "Oxygen (8)", "right": "2, 6" }
+        {
+          "left": "Carbon (6)",
+          "right": "2, 4"
+        },
+        {
+          "left": "Sodium (11)",
+          "right": "2, 8, 1"
+        },
+        {
+          "left": "Chlorine (17)",
+          "right": "2, 8, 7"
+        },
+        {
+          "left": "Argon (18)",
+          "right": "2, 8, 8"
+        },
+        {
+          "left": "Oxygen (8)",
+          "right": "2, 6"
+        }
       ],
       "explain": "Fill 2, then 8, then 8."
     },
@@ -23,8 +38,13 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "What is the electron arrangement of magnesium (12 electrons)?",
-      "options": ["2, 10", "2, 8, 2", "8, 4", "2, 2, 8"],
-      "answer": 1,
+      "options": [
+        "2, 2, 8",
+        "2, 10",
+        "8, 4",
+        "2, 8, 2"
+      ],
+      "answer": 3,
       "explain": "2 in the first shell, 8 in the second, 2 in the third."
     },
     {
@@ -46,14 +66,36 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Sort by valency.",
-      "bins": ["Valency 1", "Valency 2", "Valency 0"],
+      "bins": [
+        "Valency 1",
+        "Valency 2",
+        "Valency 0"
+      ],
       "items": [
-        { "label": "Sodium (2, 8, 1)", "bin": 0 },
-        { "label": "Chlorine (2, 8, 7)", "bin": 0 },
-        { "label": "Magnesium (2, 8, 2)", "bin": 1 },
-        { "label": "Oxygen (2, 6)", "bin": 1 },
-        { "label": "Neon (2, 8)", "bin": 2 },
-        { "label": "Helium (2)", "bin": 2 }
+        {
+          "label": "Sodium (2, 8, 1)",
+          "bin": 0
+        },
+        {
+          "label": "Chlorine (2, 8, 7)",
+          "bin": 0
+        },
+        {
+          "label": "Magnesium (2, 8, 2)",
+          "bin": 1
+        },
+        {
+          "label": "Oxygen (2, 6)",
+          "bin": 1
+        },
+        {
+          "label": "Neon (2, 8)",
+          "bin": 2
+        },
+        {
+          "label": "Helium (2)",
+          "bin": 2
+        }
       ],
       "explain": "Lose or gain the fewest electrons to reach a full outer shell; full shells have valency 0."
     },
@@ -64,8 +106,13 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Why do noble gases have a valency of zero?",
-      "options": ["They are gases", "Their outer shells are already full", "They have no electrons", "They are very heavy"],
-      "answer": 1,
+      "options": [
+        "They are very heavy",
+        "They are gases",
+        "Their outer shells are already full",
+        "They have no electrons"
+      ],
+      "answer": 2,
       "explain": "A full outer shell is stable, so they don't need to lose, gain or share electrons."
     },
     {
@@ -75,12 +122,12 @@
       "ibCriterion": "C",
       "prompt": "Element X has the arrangement 2, 8, 6. Which statement is correct?",
       "options": [
-        "It is in group 6 and period 2",
         "It is in group 16 and period 3, with valency 2",
+        "It is in group 6 and period 2",
         "It is a noble gas",
         "It has valency 6"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "3 shells → period 3; 6 outer electrons → group 16; needs 2 more → valency 2. It's sulfur."
     },
     {
@@ -90,7 +137,16 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentences.",
       "text": "The first shell holds up to ___ electrons. The second shell holds up to ___ electrons.",
-      "blanks": [["2", "two"], ["8", "eight"]],
+      "blanks": [
+        [
+          "2",
+          "two"
+        ],
+        [
+          "8",
+          "eight"
+        ]
+      ],
       "explain": "2, then 8."
     },
     {

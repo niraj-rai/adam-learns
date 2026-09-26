@@ -78,12 +78,12 @@
       "ibCriterion": "A",
       "prompt": "Why do many desert plants, like cactus, have spines instead of broad leaves?",
       "options": [
-        "To look scary",
         "To reduce water loss and protect them from animals",
+        "To make more food",
         "To catch insects",
-        "To make more food"
+        "To look scary"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Small leaf area means less water evaporates."
     },
     {
@@ -94,11 +94,11 @@
       "prompt": "In the Adapt-o-matic, a design with ‘gills, hump, thick fur’ failed in the desert. Which feature(s) caused the problem?",
       "options": [
         "Only the hump",
+        "All three",
         "Gills and thick fur",
-        "Only the gills",
-        "All three"
+        "Only the gills"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Gills can’t take oxygen from air, and a thick fur coat is an adaptation for freezing cold, not for desert heat."
     },
     {
@@ -108,12 +108,12 @@
       "ibCriterion": "A",
       "prompt": "A Ganges river dolphin lives in water. How does it breathe?",
       "options": [
-        "With gills",
         "With lungs, coming to the surface for air",
-        "It doesn't need to breathe",
-        "Through its skin only"
+        "Through its skin only",
+        "With gills",
+        "It doesn't need to breathe"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Dolphins are mammals adapted to water, but they still breathe air."
     },
     {

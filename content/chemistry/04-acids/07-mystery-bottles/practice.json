@@ -7,8 +7,13 @@
       "difficulty": 2,
       "ibCriterion": "B",
       "prompt": "Which two solutions can universal indicator NOT tell apart?",
-      "options": ["Hydrochloric acid and vinegar", "Pure water and salt water", "Baking soda and sodium hydroxide", "Vinegar and baking soda"],
-      "answer": 1,
+      "options": [
+        "Pure water and salt water",
+        "Hydrochloric acid and vinegar",
+        "Baking soda and sodium hydroxide",
+        "Vinegar and baking soda"
+      ],
+      "answer": 0,
       "explain": "Both are pH 7 (neutral), so indicators show the same colour."
     },
     {
@@ -17,8 +22,13 @@
       "difficulty": 2,
       "ibCriterion": "B",
       "prompt": "Which test tells pure water from salt water?",
-      "options": ["Red litmus", "Phenolphthalein", "Evaporating a drop: salt water leaves a white solid", "Magnesium ribbon"],
-      "answer": 2,
+      "options": [
+        "Phenolphthalein",
+        "Magnesium ribbon",
+        "Red litmus",
+        "Evaporating a drop: salt water leaves a white solid"
+      ],
+      "answer": 3,
       "explain": "Evaporation leaves dissolved salt behind; pure water leaves nothing."
     },
     {
@@ -27,8 +37,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "A bottle turns universal indicator purple (pH 14). It is…",
-      "options": ["A strong acid", "A weak acid", "A weak base", "A strong base"],
-      "answer": 3,
+      "options": [
+        "A strong base",
+        "A weak acid",
+        "A weak base",
+        "A strong acid"
+      ],
+      "answer": 0,
       "explain": "pH 14 is a strong base, such as sodium hydroxide."
     },
     {
@@ -37,7 +52,12 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Magnesium ribbon fizzes RAPIDLY in bottle A and SLOWLY in bottle B. Both turn blue litmus red. What are they?",
-      "options": ["A is a weak acid, B is a strong acid", "A is a strong acid, B is a weak acid", "Both are bases", "Both are neutral"],
+      "options": [
+        "A is a weak acid, B is a strong acid",
+        "A is a strong acid, B is a weak acid",
+        "Both are bases",
+        "Both are neutral"
+      ],
       "answer": 1,
       "explain": "Both are acids (blue litmus → red). Faster fizzing means the stronger acid."
     },
@@ -47,14 +67,36 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Sort by what each result tells you.",
-      "bins": ["Acid", "Base", "Can't tell yet"],
+      "bins": [
+        "Acid",
+        "Base",
+        "Can't tell yet"
+      ],
       "items": [
-        { "label": "Blue litmus turns red", "bin": 0 },
-        { "label": "Phenolphthalein turns pink", "bin": 1 },
-        { "label": "Turmeric stays yellow", "bin": 2 },
-        { "label": "Magnesium ribbon fizzes", "bin": 0 },
-        { "label": "Red litmus turns blue", "bin": 1 },
-        { "label": "Phenolphthalein stays colourless", "bin": 2 }
+        {
+          "label": "Blue litmus turns red",
+          "bin": 0
+        },
+        {
+          "label": "Phenolphthalein turns pink",
+          "bin": 1
+        },
+        {
+          "label": "Turmeric stays yellow",
+          "bin": 2
+        },
+        {
+          "label": "Magnesium ribbon fizzes",
+          "bin": 0
+        },
+        {
+          "label": "Red litmus turns blue",
+          "bin": 1
+        },
+        {
+          "label": "Phenolphthalein stays colourless",
+          "bin": 2
+        }
       ],
       "explain": "Turmeric staying yellow or phenolphthalein staying colourless could mean acid OR neutral."
     },

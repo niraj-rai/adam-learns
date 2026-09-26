@@ -1,0 +1,37 @@
+{
+  "id": "algebra",
+  "number": 4,
+  "title": "Algebra: Expressions and Identities",
+  "summary": "Letter-numbers that describe patterns, simplifying and expanding expressions, identities you can see as shapes, factorising, and the algebra behind magic tricks.",
+  "ib": {
+    "keyConcept": "Logic",
+    "relatedConcepts": [
+      "Generalization",
+      "Pattern",
+      "Equivalence"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Algebra lets us generalize patterns logically and prove that different-looking expressions are equivalent."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is an algebraic expression?",
+      "How do we expand and factorise expressions?",
+      "What are the standard identities?"
+    ],
+    "conceptual": [
+      "How can a letter stand for every number at once?",
+      "Why are identities true for every value of the variable?"
+    ],
+    "debatable": [
+      "Is algebra a language, a tool, or a way of thinking?",
+      "Should magicians reveal how their tricks work?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 7 (Ganita Prakash) Ch 4: Expressions Using Letter-Numbers",
+    "Class 8 (Ganita Prakash) Ch 6: We Distribute, Yet Things Multiply",
+    "Class 8 (Ganita Prakash) Part 2 Ch 6: Algebra Play",
+    "Earlier NCERT Class 7 Ch 10; Class 8 Ch 8: Algebraic Expressions and Identities; Ch 12: Factorisation"
+  ]
+}

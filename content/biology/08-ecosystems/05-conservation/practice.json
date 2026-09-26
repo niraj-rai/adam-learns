@@ -69,11 +69,11 @@
       "prompt": "In the Conservation Planner, why were connected forest squares worth more?",
       "options": [
         "They look nicer",
-        "Large connected habitats support more species and allow animals to move",
         "They earn more money",
-        "They are easier to draw"
+        "They are easier to draw",
+        "Large connected habitats support more species and allow animals to move"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Fragmented habitats support fewer species."
     },
     {
@@ -84,11 +84,11 @@
       "prompt": "The Chipko movement of the 1970s, in the Himalayan region, was famous for…",
       "options": [
         "Building dams",
-        "Villagers hugging trees to stop them being cut down",
+        "Starting zoos",
         "Hunting tigers",
-        "Starting zoos"
+        "Villagers hugging trees to stop them being cut down"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Many of the protesters were women from local villages."
     },
     {
@@ -133,11 +133,11 @@
       "prompt": "What is the Red Data Book?",
       "options": [
         "A cookbook",
-        "A record of endangered and threatened species",
         "A book of maps",
+        "A record of endangered and threatened species",
         "A list of national parks only"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "It helps prioritise conservation."
     }
   ]

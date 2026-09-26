@@ -30,12 +30,12 @@
       "ibCriterion": "A",
       "prompt": "Between which two whole numbers does √70 lie?",
       "options": [
-        "8 and 9",
-        "7 and 8",
+        "34 and 36",
         "9 and 10",
-        "34 and 36"
+        "8 and 9",
+        "7 and 8"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "64 < 70 < 81, so 8 < √70 < 9."
     },
     {
@@ -103,12 +103,12 @@
       "ibCriterion": "A",
       "prompt": "Which of these is irrational (its decimal never ends or repeats)?",
       "options": [
+        "√0.25",
         "√2",
         "√49",
-        "√0.25",
         "√(9/16)"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "2 is not a perfect square, so √2 = 1.41421356… is irrational. √49 = 7, √0.25 = 0.5, √(9/16) = 3/4."
     }
   ]

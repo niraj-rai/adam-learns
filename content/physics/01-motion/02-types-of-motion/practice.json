@@ -8,16 +8,44 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Sort each motion.",
-      "bins": ["Linear", "Circular", "Oscillatory"],
+      "bins": [
+        "Linear",
+        "Circular",
+        "Oscillatory"
+      ],
       "items": [
-        { "label": "Car on a straight road", "bin": 0 },
-        { "label": "Giant wheel", "bin": 1 },
-        { "label": "Pendulum of a clock", "bin": 2 },
-        { "label": "Ball dropped from a height", "bin": 0 },
-        { "label": "Blades of a ceiling fan", "bin": 1 },
-        { "label": "A swing", "bin": 2 },
-        { "label": "March-past on Republic Day", "bin": 0 },
-        { "label": "Vibrating tabla skin", "bin": 2 }
+        {
+          "label": "Car on a straight road",
+          "bin": 0
+        },
+        {
+          "label": "Giant wheel",
+          "bin": 1
+        },
+        {
+          "label": "Pendulum of a clock",
+          "bin": 2
+        },
+        {
+          "label": "Ball dropped from a height",
+          "bin": 0
+        },
+        {
+          "label": "Blades of a ceiling fan",
+          "bin": 1
+        },
+        {
+          "label": "A swing",
+          "bin": 2
+        },
+        {
+          "label": "March-past on Republic Day",
+          "bin": 0
+        },
+        {
+          "label": "Vibrating tabla skin",
+          "bin": 2
+        }
       ],
       "explain": "Straight line = linear; around a centre = circular; to and fro = oscillatory."
     },
@@ -27,8 +55,13 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Motion that repeats itself after a fixed time is called…",
-      "options": ["Linear motion", "Random motion", "Periodic motion", "Rest"],
-      "answer": 2,
+      "options": [
+        "Random motion",
+        "Periodic motion",
+        "Rest",
+        "Linear motion"
+      ],
+      "answer": 1,
       "explain": "Periodic motion repeats at regular intervals, like a pendulum or the Earth's orbit."
     },
     {
@@ -37,8 +70,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Adam and Priya sit in the same moving bus. Relative to Priya, Adam is…",
-      "options": ["moving forward", "moving backward", "at rest", "moving in a circle"],
-      "answer": 2,
+      "options": [
+        "at rest",
+        "moving forward",
+        "moving in a circle",
+        "moving backward"
+      ],
+      "answer": 0,
       "explain": "They move together, so Adam's position doesn't change relative to Priya."
     },
     {
@@ -49,11 +87,11 @@
       "prompt": "What is the difference between circular and oscillatory motion?",
       "options": [
         "There is no difference",
-        "Circular keeps going around in one direction; oscillatory goes back and forth",
         "Oscillatory is always faster",
+        "Circular keeps going around in one direction; oscillatory goes back and forth",
         "Circular motion is always in a straight line"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Oscillatory motion reverses direction; circular motion doesn't."
     },
     {
@@ -62,8 +100,19 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Which are examples of PERIODIC motion? Choose all that apply.",
-      "options": ["The hands of a clock", "Your heartbeat", "A swinging pendulum", "A football kicked once", "The Moon orbiting the Earth"],
-      "answer": [0, 1, 2, 4],
+      "options": [
+        "The hands of a clock",
+        "Your heartbeat",
+        "A swinging pendulum",
+        "A football kicked once",
+        "The Moon orbiting the Earth"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
       "explain": "A single kick doesn't repeat, so it isn't periodic."
     },
     {
@@ -72,7 +121,12 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "A bicycle moves along a straight road. What motion do its wheels show?",
-      "options": ["Only linear", "Only circular", "Both circular (rotating) and linear (moving forward)", "Oscillatory"],
+      "options": [
+        "Only linear",
+        "Only circular",
+        "Both circular (rotating) and linear (moving forward)",
+        "Oscillatory"
+      ],
       "answer": 2,
       "explain": "The wheels rotate while the whole bicycle moves in a straight line."
     },
@@ -83,8 +137,20 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentence.",
       "text": "An object is in motion if its ___ changes with time compared with a ___ point.",
-      "blanks": [["position"], ["reference"]],
-      "wordBank": ["position", "reference", "colour", "starting"],
+      "blanks": [
+        [
+          "position"
+        ],
+        [
+          "reference"
+        ]
+      ],
+      "wordBank": [
+        "position",
+        "reference",
+        "colour",
+        "starting"
+      ],
       "explain": "Motion = change in position relative to a reference point."
     },
     {
@@ -94,9 +160,18 @@
       "ibCriterion": "A",
       "prompt": "Match each object to its type of motion.",
       "pairs": [
-        { "left": "Merry-go-round", "right": "Circular" },
-        { "left": "Plucked guitar string", "right": "Oscillatory" },
-        { "left": "Lift going up", "right": "Linear" }
+        {
+          "left": "Merry-go-round",
+          "right": "Circular"
+        },
+        {
+          "left": "Plucked guitar string",
+          "right": "Oscillatory"
+        },
+        {
+          "left": "Lift going up",
+          "right": "Linear"
+        }
       ],
       "explain": "Look at the path: around, to-and-fro, or straight."
     },

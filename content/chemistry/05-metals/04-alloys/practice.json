@@ -9,11 +9,26 @@
       "cbseStyle": true,
       "prompt": "Match each alloy to its main components.",
       "pairs": [
-        { "left": "Brass", "right": "Copper + zinc" },
-        { "left": "Bronze", "right": "Copper + tin" },
-        { "left": "Steel", "right": "Iron + carbon" },
-        { "left": "Stainless steel", "right": "Iron + chromium + nickel" },
-        { "left": "Solder", "right": "Tin + lead" }
+        {
+          "left": "Brass",
+          "right": "Copper + zinc"
+        },
+        {
+          "left": "Bronze",
+          "right": "Copper + tin"
+        },
+        {
+          "left": "Steel",
+          "right": "Iron + carbon"
+        },
+        {
+          "left": "Stainless steel",
+          "right": "Iron + chromium + nickel"
+        },
+        {
+          "left": "Solder",
+          "right": "Tin + lead"
+        }
       ],
       "explain": "Know the components of the five common alloys."
     },
@@ -23,7 +38,12 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "An alloy is a…",
-      "options": ["compound", "mixture", "pure element", "gas"],
+      "options": [
+        "pure element",
+        "mixture",
+        "gas",
+        "compound"
+      ],
       "answer": 1,
       "explain": "Alloys are mixtures: the proportions can vary and the elements aren't chemically joined."
     },
@@ -58,7 +78,12 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Why is solder used to join electrical wires?",
-      "options": ["It is magnetic", "It has a low melting point", "It is very hard", "It doesn't conduct electricity"],
+      "options": [
+        "It doesn't conduct electricity",
+        "It has a low melting point",
+        "It is magnetic",
+        "It is very hard"
+      ],
       "answer": 1,
       "explain": "Solder melts at a low temperature (about 183 °C), so it can join wires without damaging parts."
     },
@@ -69,12 +94,12 @@
       "ibCriterion": "C",
       "prompt": "Using particles, why is an alloy usually harder than the pure metal?",
       "options": [
-        "Its atoms are all bigger",
-        "Different-sized atoms disrupt the layers so they can't slide easily",
         "It contains no atoms",
-        "It is colder"
+        "It is colder",
+        "Its atoms are all bigger",
+        "Different-sized atoms disrupt the layers so they can't slide easily"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Mixed atom sizes stop layers sliding, making the alloy harder."
     },
     {
@@ -84,10 +109,22 @@
       "ibCriterion": "A",
       "prompt": "Match each alloy to a use.",
       "pairs": [
-        { "left": "Stainless steel", "right": "Kitchen utensils" },
-        { "left": "Brass", "right": "Door handles and taps" },
-        { "left": "Bronze", "right": "Statues and medals" },
-        { "left": "22-carat gold", "right": "Jewellery" }
+        {
+          "left": "Stainless steel",
+          "right": "Kitchen utensils"
+        },
+        {
+          "left": "Brass",
+          "right": "Door handles and taps"
+        },
+        {
+          "left": "Bronze",
+          "right": "Statues and medals"
+        },
+        {
+          "left": "22-carat gold",
+          "right": "Jewellery"
+        }
       ],
       "explain": "Each alloy's properties suit its use."
     },
@@ -97,7 +134,12 @@
       "difficulty": 2,
       "ibCriterion": "D",
       "prompt": "What does the hallmark '916' on Indian gold jewellery mean?",
-      "options": ["It was made in 1916", "It is 91.6% gold (22 carat)", "It weighs 9.16 g", "It is 916 years old"],
+      "options": [
+        "It was made in 1916",
+        "It is 91.6% gold (22 carat)",
+        "It is 916 years old",
+        "It weighs 9.16 g"
+      ],
       "answer": 1,
       "explain": "916 = 91.6% gold = 22 carat."
     },

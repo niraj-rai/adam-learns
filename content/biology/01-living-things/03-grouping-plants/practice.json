@@ -102,10 +102,10 @@
       "ibCriterion": "A",
       "prompt": "Which is TRUE about the coconut palm?",
       "options": [
-        "It has a taproot and net-like veins",
+        "It is a shrub",
         "It is a tree but has fibrous roots and parallel veins",
         "It is a herb",
-        "It is a shrub"
+        "It has a taproot and net-like veins"
       ],
       "answer": 1,
       "explain": "Coconut is a monocot, even though it is tall like a tree."
@@ -117,12 +117,12 @@
       "ibCriterion": "A",
       "prompt": "You soak a chana (chickpea) seed and split it gently. It opens into two halves. What does this tell you?",
       "options": [
-        "It is a monocot (one seed leaf)",
         "It is a dicot (two seed leaves)",
+        "It is dead",
         "It is not a seed",
-        "It is dead"
+        "It is a monocot (one seed leaf)"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Dicots have two cotyledons (seed leaves)."
     },
     {

@@ -47,12 +47,12 @@
       "ibCriterion": "A",
       "prompt": "Write 150,000,000 in standard form.",
       "options": [
+        "15 × 10⁷",
         "1.5 × 10⁸",
         "1.5 × 10⁷",
-        "15 × 10⁷",
         "1.5 × 10⁹"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "1.5 × 10⁸."
     },
     {

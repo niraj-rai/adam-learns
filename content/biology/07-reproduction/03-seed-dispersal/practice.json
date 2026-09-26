@@ -49,12 +49,12 @@
       "ibCriterion": "A",
       "prompt": "Why is it important for seeds to be dispersed away from the parent plant?",
       "options": [
-        "So seedlings don't compete with the parent for light, water and nutrients",
         "So the parent plant grows taller",
+        "So seedlings don't compete with the parent for light, water and nutrients",
         "So seeds stay safe in the shade",
         "It isn't important"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "Dispersal also lets plants reach new places."
     },
     {
@@ -79,12 +79,12 @@
       "ibCriterion": "A",
       "prompt": "How do birds help disperse the seeds of banyan and jamun trees?",
       "options": [
+        "They blow them with their wings",
         "They carry the whole tree",
-        "They eat the fruits and the seeds pass out in their droppings far away",
         "They plant them on purpose",
-        "They blow them with their wings"
+        "They eat the fruits and the seeds pass out in their droppings far away"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Seeds often survive being eaten."
     },
     {
@@ -128,12 +128,12 @@
       "ibCriterion": "A",
       "prompt": "Which plant disperses its seeds by explosion?",
       "options": [
-        "Balsam",
-        "Coconut",
+        "Mango",
         "Madar",
-        "Mango"
+        "Balsam",
+        "Coconut"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "The ripe pod bursts and flings seeds away."
     },
     {

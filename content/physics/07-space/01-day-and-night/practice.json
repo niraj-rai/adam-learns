@@ -9,12 +9,12 @@
       "cbseStyle": true,
       "prompt": "What causes day and night?",
       "options": [
-        "The Sun moving around the Earth",
         "The Earth rotating on its axis",
+        "Clouds covering the Sun",
         "The Moon blocking the Sun",
-        "Clouds covering the Sun"
+        "The Sun moving around the Earth"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Earth spins once every 24 hours; the side facing the Sun has day."
     },
     {
@@ -25,12 +25,12 @@
       "cbseStyle": true,
       "prompt": "The Sun appears to rise in the east because Earth rotates…",
       "options": [
-        "from east to west",
         "from west to east",
         "from north to south",
-        "it doesn't rotate"
+        "it doesn't rotate",
+        "from east to west"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "As Earth turns west to east, places turn towards the Sun on their eastern side first."
     },
     {
@@ -40,12 +40,12 @@
       "ibCriterion": "C",
       "prompt": "In the shadow-stick tab, which way does the shadow point at 9 am in Bengaluru?",
       "options": [
-        "East",
         "West",
+        "East",
         "North",
         "There is no shadow"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "The morning Sun is in the east, so shadows point west."
     },
     {
@@ -96,12 +96,12 @@
       "ibCriterion": "A",
       "prompt": "On ‘Zero Shadow Day’ in Bengaluru (late April and mid-August), why do vertical poles cast no shadow at noon?",
       "options": [
-        "The Sun is directly overhead",
         "It is cloudy",
+        "The Sun is directly overhead",
         "The Sun is behind Earth",
         "Shadows are too dark to see"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "Places between the Tropics of Cancer and Capricorn get the Sun directly overhead twice a year."
     },
     {

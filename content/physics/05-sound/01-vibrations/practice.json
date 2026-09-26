@@ -40,11 +40,11 @@
       "prompt": "Where is the human voice produced?",
       "options": [
         "In the lungs",
-        "In the larynx (voice box), by vibrating vocal cords",
+        "In the ears",
         "In the nose",
-        "In the ears"
+        "In the larynx (voice box), by vibrating vocal cords"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Air from the lungs makes the vocal cords in the larynx vibrate."
     },
     {
@@ -54,12 +54,12 @@
       "ibCriterion": "C",
       "prompt": "In the Vibration Lab, what happened when the ruler's overhang was made SHORTER?",
       "options": [
-        "It vibrated more slowly and the pitch went down",
-        "It vibrated faster and the pitch went up",
+        "The sound got louder only",
         "It stopped vibrating",
-        "The sound got louder only"
+        "It vibrated more slowly and the pitch went down",
+        "It vibrated faster and the pitch went up"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "A shorter vibrating part vibrates faster: higher frequency, higher pitch."
     },
     {

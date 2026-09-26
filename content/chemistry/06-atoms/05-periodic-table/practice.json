@@ -8,7 +8,12 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "The modern periodic table arranges elements in order of increasing…",
-      "options": ["atomic mass", "atomic number", "date of discovery", "density"],
+      "options": [
+        "atomic mass",
+        "atomic number",
+        "date of discovery",
+        "density"
+      ],
       "answer": 1,
       "explain": "Atomic number = number of protons."
     },
@@ -19,9 +24,18 @@
       "ibCriterion": "A",
       "prompt": "Match each term to its meaning.",
       "pairs": [
-        { "left": "Group", "right": "A vertical column: same number of outer electrons" },
-        { "left": "Period", "right": "A horizontal row: same number of shells" },
-        { "left": "Metalloid", "right": "Element with properties between metals and non-metals" }
+        {
+          "left": "Group",
+          "right": "A vertical column: same number of outer electrons"
+        },
+        {
+          "left": "Period",
+          "right": "A horizontal row: same number of shells"
+        },
+        {
+          "left": "Metalloid",
+          "right": "Element with properties between metals and non-metals"
+        }
       ],
       "explain": "Groups ↓, periods →."
     },
@@ -31,8 +45,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Element X has electron arrangement 2, 8, 3. Where is it on the periodic table?",
-      "options": ["Group 3, period 2", "Group 13, period 3", "Group 2, period 3", "Group 18, period 3"],
-      "answer": 1,
+      "options": [
+        "Group 3, period 2",
+        "Group 2, period 3",
+        "Group 13, period 3",
+        "Group 18, period 3"
+      ],
+      "answer": 2,
       "hint": "3 shells → period? 3 outer electrons → group 13.",
       "explain": "3 shells = period 3; 3 outer electrons = group 13. It's aluminium."
     },
@@ -42,14 +61,36 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Metal, metalloid or non-metal?",
-      "bins": ["Metal", "Metalloid", "Non-metal"],
+      "bins": [
+        "Metal",
+        "Metalloid",
+        "Non-metal"
+      ],
       "items": [
-        { "label": "Magnesium", "bin": 0 },
-        { "label": "Silicon", "bin": 1 },
-        { "label": "Sulfur", "bin": 2 },
-        { "label": "Potassium", "bin": 0 },
-        { "label": "Boron", "bin": 1 },
-        { "label": "Nitrogen", "bin": 2 }
+        {
+          "label": "Magnesium",
+          "bin": 0
+        },
+        {
+          "label": "Silicon",
+          "bin": 1
+        },
+        {
+          "label": "Sulfur",
+          "bin": 2
+        },
+        {
+          "label": "Potassium",
+          "bin": 0
+        },
+        {
+          "label": "Boron",
+          "bin": 1
+        },
+        {
+          "label": "Nitrogen",
+          "bin": 2
+        }
       ],
       "explain": "Metals on the left, non-metals on the right, metalloids along the staircase."
     },
@@ -59,8 +100,13 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Why do elements in the same group have similar chemical properties?",
-      "options": ["They have the same mass", "They have the same number of outer electrons", "They were discovered together", "They have the same number of shells"],
-      "answer": 1,
+      "options": [
+        "They have the same number of outer electrons",
+        "They have the same number of shells",
+        "They were discovered together",
+        "They have the same mass"
+      ],
+      "answer": 0,
       "explain": "Chemical properties depend on outer electrons."
     },
     {
@@ -70,12 +116,12 @@
       "ibCriterion": "D",
       "prompt": "What made Mendeleev's periodic table so impressive?",
       "options": [
+        "It was arranged alphabetically",
         "It was very colourful",
-        "He left gaps and correctly predicted the properties of undiscovered elements",
         "It had all 118 elements",
-        "It was arranged alphabetically"
+        "He left gaps and correctly predicted the properties of undiscovered elements"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "A good scientific model makes predictions that are later confirmed."
     },
     {
@@ -96,8 +142,20 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentences.",
       "text": "There are ___ known elements today. Metals are found on the ___ side of the periodic table.",
-      "blanks": [["118"], ["left"]],
-      "wordBank": ["118", "63", "left", "right"],
+      "blanks": [
+        [
+          "118"
+        ],
+        [
+          "left"
+        ]
+      ],
+      "wordBank": [
+        "118",
+        "63",
+        "left",
+        "right"
+      ],
       "explain": "118 elements; metals on the left, non-metals on the right."
     },
     {

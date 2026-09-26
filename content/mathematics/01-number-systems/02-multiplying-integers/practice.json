@@ -51,9 +51,9 @@
       "prompt": "Continue the pattern: −4 × 2 = −8, −4 × 1 = −4, −4 × 0 = 0, −4 × (−1) = ?",
       "options": [
         "4",
-        "−4",
+        "−8",
         "0",
-        "−8"
+        "−4"
       ],
       "answer": 0,
       "explain": "Each answer goes up by 4, so the next one is 0 + 4 = 4."

@@ -24,12 +24,12 @@
       "ibCriterion": "A",
       "prompt": "In a food chain, what do the arrows show?",
       "options": [
+        "Who is faster",
         "Who is bigger",
         "The direction energy flows (from food to eater)",
-        "Who is faster",
         "Where animals live"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Grass → deer means energy passes from grass to deer."
     },
     {
@@ -40,11 +40,11 @@
       "prompt": "In the Western Ghats food web, removing deer left which animal with NO food?",
       "options": [
         "Leopard",
-        "Tiger",
+        "Frog",
         "Hornbill",
-        "Frog"
+        "Tiger"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "In this web, tigers eat only deer; leopards also eat langurs."
     },
     {
@@ -54,12 +54,12 @@
       "ibCriterion": "A",
       "prompt": "Why are food webs more stable than a single food chain?",
       "options": [
-        "They have fewer animals",
-        "Animals have several food sources, so losing one doesn't starve them",
         "They have no producers",
-        "They are smaller"
+        "They are smaller",
+        "They have fewer animals",
+        "Animals have several food sources, so losing one doesn't starve them"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Variety gives resilience."
     },
     {
@@ -69,10 +69,10 @@
       "ibCriterion": "C",
       "prompt": "If snakes disappeared from a farm, what might happen to the number of rats?",
       "options": [
-        "Decrease",
+        "Rats would become snakes",
         "Increase, because a predator is gone",
-        "Stay the same",
-        "Rats would become snakes"
+        "Decrease",
+        "Stay the same"
       ],
       "answer": 1,
       "explain": "Fewer predators can mean more prey, which may damage crops."

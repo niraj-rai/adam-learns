@@ -9,9 +9,18 @@
       "cbseStyle": true,
       "prompt": "Match each particle to its charge.",
       "pairs": [
-        { "left": "Proton", "right": "+1" },
-        { "left": "Neutron", "right": "0 (neutral)" },
-        { "left": "Electron", "right": "−1" }
+        {
+          "left": "Proton",
+          "right": "+1"
+        },
+        {
+          "left": "Neutron",
+          "right": "0 (neutral)"
+        },
+        {
+          "left": "Electron",
+          "right": "−1"
+        }
       ],
       "explain": "Protons positive, neutrons neutral, electrons negative."
     },
@@ -21,11 +30,23 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Where is each particle found?",
-      "bins": ["In the nucleus", "Around the nucleus (shells)"],
+      "bins": [
+        "In the nucleus",
+        "Around the nucleus (shells)"
+      ],
       "items": [
-        { "label": "Proton", "bin": 0 },
-        { "label": "Neutron", "bin": 0 },
-        { "label": "Electron", "bin": 1 }
+        {
+          "label": "Proton",
+          "bin": 0
+        },
+        {
+          "label": "Neutron",
+          "bin": 0
+        },
+        {
+          "label": "Electron",
+          "bin": 1
+        }
       ],
       "explain": "Protons and neutrons are in the nucleus; electrons are in shells around it."
     },
@@ -69,7 +90,12 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "The atomic number of an element tells you the number of…",
-      "options": ["neutrons", "protons", "protons + neutrons", "shells"],
+      "options": [
+        "shells",
+        "protons",
+        "protons + neutrons",
+        "neutrons"
+      ],
       "answer": 1,
       "explain": "Atomic number = number of protons."
     },
@@ -79,9 +105,16 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "An atom gains one electron. It becomes…",
-      "options": ["a different element", "a positive ion", "a negative ion", "a heavier isotope"],
+      "options": [
+        "a positive ion",
+        "a different element",
+        "a negative ion",
+        "a heavier isotope"
+      ],
       "answer": 2,
-      "feedback": { "0": "Only changing the number of protons changes the element." },
+      "feedback": {
+        "1": "Only changing the number of protons changes the element."
+      },
       "explain": "More electrons than protons → negative ion."
     },
     {
@@ -91,8 +124,20 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentences.",
       "text": "Mass number = number of protons + number of ___. In a neutral atom, the number of electrons equals the number of ___.",
-      "blanks": [["neutrons"], ["protons"]],
-      "wordBank": ["neutrons", "protons", "electrons", "shells"],
+      "blanks": [
+        [
+          "neutrons"
+        ],
+        [
+          "protons"
+        ]
+      ],
+      "wordBank": [
+        "neutrons",
+        "protons",
+        "electrons",
+        "shells"
+      ],
       "explain": "Electrons are too light to count in the mass number; in a neutral atom, electrons = protons."
     },
     {
@@ -101,8 +146,13 @@
       "difficulty": 3,
       "ibCriterion": "C",
       "prompt": "Particle X has 8 protons, 8 neutrons and 10 electrons. What is it?",
-      "options": ["A neutral oxygen atom", "An oxide ion, O²⁻", "A neon atom", "An oxygen ion O²⁺"],
-      "answer": 1,
+      "options": [
+        "An oxide ion, O²⁻",
+        "An oxygen ion O²⁺",
+        "A neon atom",
+        "A neutral oxygen atom"
+      ],
+      "answer": 0,
       "explain": "8 protons = oxygen; 2 extra electrons = 2− charge: the oxide ion O²⁻."
     },
     {

@@ -1,0 +1,128 @@
+{
+  "topicId": "algebraic-identities",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Expand (x + 3)².",
+      "options": [
+        "x² + 9",
+        "x² + 6x + 9",
+        "x² + 3x + 9",
+        "x² + 6x + 6"
+      ],
+      "answer": 1,
+      "explain": "(a + b)² = a² + 2ab + b²: x² + 2(3)x + 9.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Expand (2a − 5)².",
+      "options": [
+        "4a² − 25",
+        "4a² − 20a + 25",
+        "4a² − 10a + 25",
+        "2a² − 20a + 25"
+      ],
+      "answer": 1,
+      "explain": "(2a)² − 2(2a)(5) + 5² = 4a² − 20a + 25.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Expand (y + 7)(y − 7).",
+      "options": [
+        "y² − 7",
+        "y² − 49",
+        "y² − 14y − 49",
+        "y² + 49"
+      ],
+      "answer": 1,
+      "explain": "(a + b)(a − b) = a² − b²."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Use an identity to work out 103².",
+      "answer": 10609,
+      "explain": "(100 + 3)² = 10000 + 600 + 9 = 10609.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Use an identity to work out 98 × 102.",
+      "answer": 9996,
+      "explain": "(100 − 2)(100 + 2) = 10000 − 4 = 9996.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Work out 57² − 43² without squaring.",
+      "answer": 1400,
+      "explain": "(57 + 43)(57 − 43) = 100 × 14 = 1400.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "11² = 121, 21² = 441, 31² = 961. Which is 71²?",
+      "options": [
+        "4901",
+        "5141",
+        "5041",
+        "4941"
+      ],
+      "answer": 2,
+      "explain": "(70 + 1)² = 4900 + 140 + 1 = 5041."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain, with a diagram described in words, why (a + b)² is not equal to a² + b².",
+      "modelAnswer": "Draw a square with side a + b. Split each side into a and b. The square splits into four parts: an a × a square (a²), a b × b square (b²), and two a × b rectangles (2ab). So (a + b)² = a² + 2ab + b². Writing a² + b² leaves out the two rectangles. For example, (3 + 4)² = 49, but 3² + 4² = 25.",
+      "rubric": [
+        "Describes the square split into four parts",
+        "Identifies the two ab rectangles",
+        "Numerical check"
+      ],
+      "explain": "Criterion C: explain using a diagram."
+    },
+    {
+      "id": "q9",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the identity.",
+      "text": "a² − b² = (a + b)(___)",
+      "blanks": [
+        [
+          "a − b",
+          "a-b",
+          "a - b"
+        ]
+      ],
+      "explain": "This is the difference of squares identity."
+    }
+  ]
+}

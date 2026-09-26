@@ -48,12 +48,12 @@
       "cbseStyle": true,
       "prompt": "The north pole of one magnet is brought near the north pole of another. They…",
       "options": [
-        "attract",
         "repel",
+        "attract",
         "do nothing",
         "swap poles"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Like poles repel; unlike poles attract."
     },
     {
@@ -63,12 +63,12 @@
       "ibCriterion": "A",
       "prompt": "Where is a bar magnet strongest?",
       "options": [
-        "In the middle",
         "At its poles (ends)",
+        "It depends on its colour",
         "Equally strong everywhere",
-        "It depends on its colour"
+        "In the middle"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Iron filings cluster most thickly at the poles."
     },
     {
@@ -78,12 +78,12 @@
       "ibCriterion": "A",
       "prompt": "A bar magnet is hung freely by a thread. It comes to rest pointing…",
       "options": [
-        "east–west",
-        "north–south",
         "upwards",
-        "in any direction"
+        "in any direction",
+        "north–south",
+        "east–west"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Earth behaves like a giant magnet, so a free magnet lines up north–south."
     },
     {
@@ -93,12 +93,12 @@
       "ibCriterion": "C",
       "prompt": "In the Field Mapper, you place a compass beyond the magnet's N pole, along its axis. Its north end points…",
       "options": [
-        "towards the magnet",
         "away from the magnet",
-        "up the page",
-        "down the page"
+        "towards the magnet",
+        "down the page",
+        "up the page"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Field lines leave the N pole, so the compass points away from it."
     },
     {

@@ -7,7 +7,13 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Put the models of the atom in the order they were proposed.",
-      "steps": ["Kanad's paramanu (idea)", "Dalton's solid spheres", "Thomson's plum pudding", "Rutherford's nuclear model", "Bohr's shells"],
+      "steps": [
+        "Kanad's paramanu (idea)",
+        "Dalton's solid spheres",
+        "Thomson's plum pudding",
+        "Rutherford's nuclear model",
+        "Bohr's shells"
+      ],
       "explain": "Each model built on or replaced the one before, as new evidence appeared."
     },
     {
@@ -18,11 +24,26 @@
       "cbseStyle": true,
       "prompt": "Match each scientist to their discovery or idea.",
       "pairs": [
-        { "left": "J.J. Thomson", "right": "Discovered the electron" },
-        { "left": "Ernest Rutherford", "right": "Discovered the nucleus" },
-        { "left": "Niels Bohr", "right": "Electrons in fixed shells" },
-        { "left": "James Chadwick", "right": "Discovered the neutron" },
-        { "left": "John Dalton", "right": "First scientific atomic theory" }
+        {
+          "left": "J.J. Thomson",
+          "right": "Discovered the electron"
+        },
+        {
+          "left": "Ernest Rutherford",
+          "right": "Discovered the nucleus"
+        },
+        {
+          "left": "Niels Bohr",
+          "right": "Electrons in fixed shells"
+        },
+        {
+          "left": "James Chadwick",
+          "right": "Discovered the neutron"
+        },
+        {
+          "left": "John Dalton",
+          "right": "First scientific atomic theory"
+        }
       ],
       "explain": "Each scientist added a key piece to the atomic model."
     },
@@ -33,8 +54,13 @@
       "ibCriterion": "C",
       "cbseStyle": true,
       "prompt": "In the gold foil experiment, MOST alpha particles went straight through. This shows that…",
-      "options": ["the atom is mostly empty space", "gold is a liquid", "the atom is a solid ball", "alpha particles are very small"],
-      "answer": 0,
+      "options": [
+        "alpha particles are very small",
+        "gold is a liquid",
+        "the atom is mostly empty space",
+        "the atom is a solid ball"
+      ],
+      "answer": 2,
       "explain": "If most particles meet nothing, most of the atom must be empty space."
     },
     {
@@ -44,12 +70,12 @@
       "ibCriterion": "C",
       "prompt": "A very few alpha particles bounced straight back. What did this suggest?",
       "options": [
-        "Electrons are very heavy",
-        "There is a tiny, dense, positively charged nucleus",
+        "Atoms are made of pudding",
         "The foil was too thick",
-        "Atoms are made of pudding"
+        "There is a tiny, dense, positively charged nucleus",
+        "Electrons are very heavy"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Only a tiny, heavy, positive centre could turn a fast positive particle all the way round."
     },
     {
@@ -74,8 +100,23 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentence.",
       "text": "The ancient Indian philosopher ___ called the smallest particles of matter ___.",
-      "blanks": [["Kanad", "Kanada", "Maharishi Kanad"], ["paramanu", "parmanu"]],
-      "wordBank": ["Kanad", "paramanu", "Dalton", "atomos"],
+      "blanks": [
+        [
+          "Kanad",
+          "Kanada",
+          "Maharishi Kanad"
+        ],
+        [
+          "paramanu",
+          "parmanu"
+        ]
+      ],
+      "wordBank": [
+        "Kanad",
+        "paramanu",
+        "Dalton",
+        "atomos"
+      ],
       "explain": "Maharishi Kanad described paramanu over 2,000 years ago."
     },
     {
@@ -85,12 +126,12 @@
       "ibCriterion": "D",
       "prompt": "Why was the plum pudding model replaced?",
       "options": [
-        "Thomson was a careless scientist",
-        "New experimental evidence (gold foil results) could not be explained by it",
         "It was too simple to draw",
-        "Rutherford didn't like puddings"
+        "Rutherford didn't like puddings",
+        "New experimental evidence (gold foil results) could not be explained by it",
+        "Thomson was a careless scientist"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Models are replaced when new evidence doesn't fit. That's how science progresses."
     },
     {
@@ -107,7 +148,11 @@
         "Atoms contain electrons",
         "Atoms have a tiny nucleus"
       ],
-      "answer": [0, 1, 2],
+      "answer": [
+        0,
+        1,
+        2
+      ],
       "explain": "Electrons (1897) and the nucleus (1911) were discovered after Dalton."
     },
     {

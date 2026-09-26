@@ -8,12 +8,12 @@
       "ibCriterion": "A",
       "prompt": "In 1854, John Snow stopped a cholera outbreak in London by…",
       "options": [
-        "Inventing a vaccine",
         "Mapping cases and removing the handle of the contaminated water pump",
-        "Killing mosquitoes",
-        "Closing schools"
+        "Closing schools",
+        "Inventing a vaccine",
+        "Killing mosquitoes"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "This founded the science of epidemiology."
     },
     {
@@ -23,9 +23,9 @@
       "ibCriterion": "C",
       "prompt": "On the map, a few cases were far from well B. What's the most likely explanation?",
       "options": [
-        "Well B is not the source after all",
-        "Those people visited, worked or drank water near well B",
         "Cholera spreads through the air",
+        "Those people visited, worked or drank water near well B",
+        "Well B is not the source after all",
         "They had a different disease"
       ],
       "answer": 1,
@@ -38,12 +38,12 @@
       "ibCriterion": "A",
       "prompt": "What is ORS?",
       "options": [
-        "A vaccine",
         "Oral rehydration solution: water, salt and sugar that replaces fluids lost through diarrhoea",
+        "A mosquito spray",
         "An antibiotic",
-        "A mosquito spray"
+        "A vaccine"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "ORS is simple and cheap, and it saves lives."
     },
     {
@@ -105,12 +105,12 @@
       "ibCriterion": "A",
       "prompt": "What does an epidemiologist study?",
       "options": [
-        "Rocks",
         "The patterns, causes and spread of diseases in populations",
+        "Rocks",
         "Stars",
         "Only individual patients' X-rays"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Epidemiologists are disease detectives."
     },
     {

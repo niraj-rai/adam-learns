@@ -27,8 +27,8 @@
       "options": [
         "reflection",
         "dispersion",
-        "diffusion",
-        "magnification"
+        "magnification",
+        "diffusion"
       ],
       "answer": 1,
       "explain": "Dispersion: different colours bend by different amounts."
@@ -40,12 +40,12 @@
       "ibCriterion": "C",
       "prompt": "In the Prism Lab, a second upside-down prism was added. What came out?",
       "options": [
-        "Seven brighter colours",
-        "White light again",
         "Only red light",
-        "No light"
+        "Seven brighter colours",
+        "No light",
+        "White light again"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "The colours recombine, proving they were in white light all along."
     },
     {
@@ -55,12 +55,12 @@
       "ibCriterion": "A",
       "prompt": "When Newton’s colour disc spins fast, it looks…",
       "options": [
-        "black",
         "almost white",
-        "red",
-        "rainbow-striped"
+        "rainbow-striped",
+        "black",
+        "red"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "The colours blend in your eye because each image lasts a fraction of a second."
     },
     {

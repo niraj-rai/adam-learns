@@ -1,0 +1,56 @@
+{
+  "id": "factorisation",
+  "number": "4.5",
+  "title": "Factorisation",
+  "summary": "Taking out common factors and factorising quadratics: multiplication in reverse.",
+  "emoji": "🧱",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Factorising quadratics is MYP 3 (Extended preview)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 12: Factorisation",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 6: We Distribute, Yet Things Multiply",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can factorise by taking out common factors.",
+    "I can factorise x² + bx + c and a² − b².",
+    "I can check a factorisation by expanding."
+  ],
+  "misconceptions": [
+    "x² + 5x + 6 = (x + 5)(x + 6)",
+    "Factorising and expanding are unrelated.",
+    "Every expression can be factorised with whole numbers."
+  ],
+  "prerequisites": [
+    "mathematics/algebra/algebraic-identities"
+  ],
+  "labs": [
+    "factor-rectangle"
+  ],
+  "keyTerms": [
+    "factorise",
+    "common factor",
+    "quadratic expression",
+    "difference of squares"
+  ],
+  "estMinutes": 30
+}

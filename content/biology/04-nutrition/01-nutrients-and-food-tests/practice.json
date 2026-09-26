@@ -42,8 +42,8 @@
       "options": [
         "Protein",
         "Starch",
-        "Fat",
-        "Vitamin C"
+        "Vitamin C",
+        "Fat"
       ],
       "answer": 1,
       "explain": "The iodine test detects starch."
@@ -55,12 +55,12 @@
       "ibCriterion": "C",
       "prompt": "In the Food Test Lab, which food gave a positive result for BOTH protein and fat?",
       "options": [
-        "Rice",
-        "Groundnuts",
+        "Banana",
         "Potato",
-        "Banana"
+        "Groundnuts",
+        "Rice"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Groundnuts are rich in both."
     },
     {
@@ -110,12 +110,12 @@
       "cbseStyle": true,
       "prompt": "A food is rubbed on paper and leaves an oily, see-through patch. What does it contain?",
       "options": [
-        "Starch",
         "Protein",
         "Fat",
-        "Water only"
+        "Water only",
+        "Starch"
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": "The paper test shows fat."
     },
     {

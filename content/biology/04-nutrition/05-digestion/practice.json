@@ -56,12 +56,12 @@
       "ibCriterion": "C",
       "prompt": "In the saliva test, why did the starch tube with water stay blue-black?",
       "options": [
-        "Water has starch in it",
-        "It was the control: without saliva, the starch wasn't digested",
+        "It was too cold",
         "The iodine was old",
-        "It was too cold"
+        "It was the control: without saliva, the starch wasn't digested",
+        "Water has starch in it"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "The control shows it was the saliva that digested starch."
     },
     {
@@ -71,10 +71,10 @@
       "ibCriterion": "A",
       "prompt": "Why is the inner wall of the small intestine covered with millions of finger-like villi?",
       "options": [
-        "To squeeze food",
-        "To give a huge surface area for absorbing nutrients",
         "To make acid",
-        "To store food"
+        "To give a huge surface area for absorbing nutrients",
+        "To store food",
+        "To squeeze food"
       ],
       "answer": 1,
       "explain": "More surface area means faster absorption into the blood."
@@ -86,12 +86,12 @@
       "ibCriterion": "A",
       "prompt": "How does food move down the oesophagus?",
       "options": [
-        "Only by gravity",
         "By waves of muscle contraction called peristalsis",
-        "By air pressure",
-        "By saliva pushing it"
+        "Only by gravity",
+        "By saliva pushing it",
+        "By air pressure"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Astronauts can swallow in space!"
     },
     {

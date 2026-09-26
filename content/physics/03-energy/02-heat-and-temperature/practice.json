@@ -9,12 +9,12 @@
       "cbseStyle": true,
       "prompt": "Heat always flows…",
       "options": [
+        "only through metals",
         "from a colder object to a hotter one",
-        "from a hotter object to a colder one",
         "from a bigger object to a smaller one",
-        "only through metals"
+        "from a hotter object to a colder one"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Heat flows from hot to cold until both are at the same temperature."
     },
     {
@@ -47,12 +47,12 @@
       "ibCriterion": "A",
       "prompt": "A cup of water at 90 °C and a bucket of water at 40 °C. Which statement is correct?",
       "options": [
-        "The cup has more heat energy because it's hotter",
-        "The bucket can have more heat energy because it has much more water, even though it's at a lower temperature",
+        "The bucket has a higher temperature",
         "They have the same heat energy",
-        "The bucket has a higher temperature"
+        "The cup has more heat energy because it's hotter",
+        "The bucket can have more heat energy because it has much more water, even though it's at a lower temperature"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Temperature is how hot; the total thermal energy also depends on how much matter there is."
     },
     {
@@ -100,14 +100,14 @@
       "ibCriterion": "A",
       "prompt": "You hold an ice cube and your hand feels cold. What is really happening?",
       "options": [
+        "The ice gives your hand energy",
         "Cold flows from the ice into your hand",
         "Heat flows from your hand into the ice",
-        "Nothing flows",
-        "The ice gives your hand energy"
+        "Nothing flows"
       ],
-      "answer": 1,
+      "answer": 2,
       "feedback": {
-        "0": "There's no such thing as ‘cold’ flowing. Heat leaves your hand."
+        "1": "There's no such thing as ‘cold’ flowing. Heat leaves your hand."
       },
       "explain": "Your hand loses heat to the ice, so it feels cold."
     },

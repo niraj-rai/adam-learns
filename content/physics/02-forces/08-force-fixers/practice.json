@@ -39,11 +39,11 @@
       "prompt": "Why do buses in hilly areas like Ooty have deep treads on their tyres?",
       "options": [
         "To look tough",
-        "To increase friction (grip) on steep, wet roads",
         "To reduce weight",
+        "To increase friction (grip) on steep, wet roads",
         "To go faster"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Treads increase grip and push water away."
     },
     {
@@ -53,12 +53,12 @@
       "ibCriterion": "A",
       "prompt": "A suction hook sticks to a smooth tile because…",
       "options": [
-        "it is glued",
         "air pressure outside pushes it against the tile, as there is almost no air behind it",
+        "friction alone",
         "magnetism",
-        "friction alone"
+        "it is glued"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Pressing squeezes the air out. The higher atmospheric pressure outside holds the hook on."
     },
     {
@@ -132,12 +132,12 @@
       "ibCriterion": "A",
       "prompt": "A truck and a car hit their brakes at the same speed. Why does the loaded truck need a longer distance to stop?",
       "options": [
-        "It has less friction",
         "It has much more mass, so the same kind of braking force slows it less quickly",
-        "Gravity is weaker on trucks",
-        "Its tyres are bigger"
+        "It has less friction",
+        "Its tyres are bigger",
+        "Gravity is weaker on trucks"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "More mass needs more force to slow down at the same rate."
     },
     {

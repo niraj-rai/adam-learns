@@ -8,17 +8,48 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Sort each substance: element, compound or mixture?",
-      "bins": ["Element", "Compound", "Mixture"],
+      "bins": [
+        "Element",
+        "Compound",
+        "Mixture"
+      ],
       "items": [
-        { "label": "Iron", "bin": 0 },
-        { "label": "Water", "bin": 1 },
-        { "label": "Air", "bin": 2 },
-        { "label": "Oxygen gas", "bin": 0 },
-        { "label": "Carbon dioxide", "bin": 1 },
-        { "label": "Salt water", "bin": 2 },
-        { "label": "Gold", "bin": 0 },
-        { "label": "Table salt", "bin": 1 },
-        { "label": "Brass", "bin": 2 }
+        {
+          "label": "Iron",
+          "bin": 0
+        },
+        {
+          "label": "Water",
+          "bin": 1
+        },
+        {
+          "label": "Air",
+          "bin": 2
+        },
+        {
+          "label": "Oxygen gas",
+          "bin": 0
+        },
+        {
+          "label": "Carbon dioxide",
+          "bin": 1
+        },
+        {
+          "label": "Salt water",
+          "bin": 2
+        },
+        {
+          "label": "Gold",
+          "bin": 0
+        },
+        {
+          "label": "Table salt",
+          "bin": 1
+        },
+        {
+          "label": "Brass",
+          "bin": 2
+        }
       ],
       "hint": "Element = one kind of atom. Compound = different atoms chemically joined. Mixture = not joined.",
       "explain": "Elements: iron, oxygen, gold. Compounds: water, carbon dioxide, salt. Mixtures: air, salt water, brass."
@@ -30,12 +61,12 @@
       "ibCriterion": "A",
       "prompt": "What is an element?",
       "options": [
-        "A substance made of only one kind of atom",
-        "Two substances mixed together",
         "Any substance that is a solid",
-        "A substance made of molecules"
+        "A substance made of molecules",
+        "A substance made of only one kind of atom",
+        "Two substances mixed together"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "An element contains only one kind of atom and can't be broken down into simpler substances chemically."
     },
     {
@@ -44,9 +75,16 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Oxygen gas is made of O₂ molecules. Is it an element or a compound?",
-      "options": ["Compound, because it's made of molecules", "Element, because both atoms are oxygen", "Mixture", "Neither"],
+      "options": [
+        "Compound, because it's made of molecules",
+        "Element, because both atoms are oxygen",
+        "Mixture",
+        "Neither"
+      ],
       "answer": 1,
-      "feedback": { "0": "A molecule is only a compound if it contains DIFFERENT kinds of atoms." },
+      "feedback": {
+        "0": "A molecule is only a compound if it contains DIFFERENT kinds of atoms."
+      },
       "explain": "Both atoms in O₂ are oxygen, so oxygen gas is an element made of molecules."
     },
     {
@@ -56,11 +94,26 @@
       "ibCriterion": "A",
       "prompt": "Match each element to its symbol.",
       "pairs": [
-        { "left": "Iron", "right": "Fe" },
-        { "left": "Gold", "right": "Au" },
-        { "left": "Sodium", "right": "Na" },
-        { "left": "Carbon", "right": "C" },
-        { "left": "Oxygen", "right": "O" }
+        {
+          "left": "Iron",
+          "right": "Fe"
+        },
+        {
+          "left": "Gold",
+          "right": "Au"
+        },
+        {
+          "left": "Sodium",
+          "right": "Na"
+        },
+        {
+          "left": "Carbon",
+          "right": "C"
+        },
+        {
+          "left": "Oxygen",
+          "right": "O"
+        }
       ],
       "explain": "Some symbols come from Latin names: Fe (ferrum), Au (aurum), Na (natrium)."
     },
@@ -70,8 +123,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "A grey-yellow powder is tested with a magnet. Grey bits jump onto the magnet. What is the powder?",
-      "options": ["The compound iron sulfide", "A mixture of iron and sulfur", "Pure sulfur", "Pure iron"],
-      "answer": 1,
+      "options": [
+        "Pure sulfur",
+        "The compound iron sulfide",
+        "Pure iron",
+        "A mixture of iron and sulfur"
+      ],
+      "answer": 3,
       "explain": "In a mixture, iron keeps its magnetic property. In the compound iron sulfide, it doesn't."
     },
     {
@@ -88,7 +146,12 @@
         "It can be separated with a magnet or filter",
         "Energy is usually given out or taken in when it forms"
       ],
-      "answer": [0, 1, 2, 4],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
       "explain": "Compounds need chemical reactions to be separated, not physical methods like magnets or filters."
     },
     {
@@ -98,7 +161,19 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentences about water, H₂O.",
       "text": "Water is a ___ . Each molecule has ___ hydrogen atoms joined to ___ oxygen atom.",
-      "blanks": [["compound"], ["2", "two"], ["1", "one"]],
+      "blanks": [
+        [
+          "compound"
+        ],
+        [
+          "2",
+          "two"
+        ],
+        [
+          "1",
+          "one"
+        ]
+      ],
       "explain": "H₂O: the small 2 means two hydrogen atoms; no number after O means one oxygen atom."
     },
     {

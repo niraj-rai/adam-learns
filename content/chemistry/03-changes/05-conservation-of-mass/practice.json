@@ -60,13 +60,15 @@
       "ibCriterion": "C",
       "prompt": "Baking soda and vinegar react in an OPEN flask on a balance. The reading goes down. Why?",
       "options": [
+        "The vinegar evaporated instantly",
         "Mass was destroyed",
         "Carbon dioxide gas escaped into the air",
-        "The vinegar evaporated instantly",
         "The balance is broken"
       ],
-      "answer": 1,
-      "feedback": { "0": "Mass is never destroyed. Look for where it went!" },
+      "answer": 2,
+      "feedback": {
+        "1": "Mass is never destroyed. Look for where it went!"
+      },
       "explain": "The gas product left the flask, taking its mass with it."
     },
     {
@@ -76,12 +78,12 @@
       "ibCriterion": "C",
       "prompt": "Why does the mass INCREASE when steel wool burns on a balance?",
       "options": [
-        "Heat has mass",
         "Oxygen from the air joins with the iron",
+        "Heat has mass",
         "The steel wool absorbs water",
         "Light adds mass"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Iron + oxygen → iron oxide. The added oxygen atoms increase the mass."
     },
     {
@@ -90,14 +92,36 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "In an OPEN container, will the balance reading go up, down or stay the same?",
-      "bins": ["Goes up", "Goes down", "Stays the same"],
+      "bins": [
+        "Goes up",
+        "Goes down",
+        "Stays the same"
+      ],
       "items": [
-        { "label": "Burning steel wool", "bin": 0 },
-        { "label": "Vinegar + baking soda", "bin": 1 },
-        { "label": "Burning a candle", "bin": 1 },
-        { "label": "Iron nail rusting", "bin": 0 },
-        { "label": "Mixing two solutions to make a precipitate", "bin": 2 },
-        { "label": "Dissolving salt in water", "bin": 2 }
+        {
+          "label": "Burning steel wool",
+          "bin": 0
+        },
+        {
+          "label": "Vinegar + baking soda",
+          "bin": 1
+        },
+        {
+          "label": "Burning a candle",
+          "bin": 1
+        },
+        {
+          "label": "Iron nail rusting",
+          "bin": 0
+        },
+        {
+          "label": "Mixing two solutions to make a precipitate",
+          "bin": 2
+        },
+        {
+          "label": "Dissolving salt in water",
+          "bin": 2
+        }
       ],
       "explain": "Gas in (oxygen joins) → up; gas out → down; no gas in or out → same."
     },
@@ -108,10 +132,10 @@
       "ibCriterion": "B",
       "prompt": "How can you show that mass is conserved when vinegar reacts with baking soda?",
       "options": [
-        "Do it in an open beaker",
+        "Use more vinegar",
         "Do it in a flask sealed with a balloon, and weigh before and after",
         "Heat it strongly",
-        "Use more vinegar"
+        "Do it in an open beaker"
       ],
       "answer": 1,
       "explain": "A closed system traps the gas, so the reading stays the same."
@@ -123,8 +147,20 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentence.",
       "text": "In a chemical reaction, ___ are rearranged but never created or destroyed, so the total ___ stays the same.",
-      "blanks": [["atoms"], ["mass"]],
-      "wordBank": ["atoms", "mass", "colour", "volume"],
+      "blanks": [
+        [
+          "atoms"
+        ],
+        [
+          "mass"
+        ]
+      ],
+      "wordBank": [
+        "atoms",
+        "mass",
+        "colour",
+        "volume"
+      ],
       "explain": "Atoms are conserved, so mass is conserved."
     },
     {

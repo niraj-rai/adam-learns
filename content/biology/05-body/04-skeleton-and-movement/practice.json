@@ -61,11 +61,11 @@
       "prompt": "In the arm model, what happened to the triceps when the biceps contracted?",
       "options": [
         "It also contracted",
+        "It turned into bone",
         "It relaxed",
-        "It disappeared",
-        "It turned into bone"
+        "It disappeared"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Antagonistic pairs: one contracts, the other relaxes."
     },
     {
@@ -75,12 +75,12 @@
       "ibCriterion": "A",
       "prompt": "Why must muscles work in pairs?",
       "options": [
-        "Muscles can only pull, not push",
-        "One muscle is always resting",
         "It looks better",
-        "Bones are too heavy"
+        "Bones are too heavy",
+        "One muscle is always resting",
+        "Muscles can only pull, not push"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "Each muscle of the pair pulls the bone in the opposite direction."
     },
     {
@@ -101,10 +101,10 @@
       "ibCriterion": "A",
       "prompt": "What connects muscles to bones?",
       "options": [
-        "Ligaments",
+        "Nerves",
         "Tendons",
         "Cartilage",
-        "Nerves"
+        "Ligaments"
       ],
       "answer": 1,
       "explain": "Ligaments connect bone to bone."

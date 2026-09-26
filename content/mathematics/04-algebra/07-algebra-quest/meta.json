@@ -1,0 +1,60 @@
+{
+  "id": "algebra-quest",
+  "number": "4.7",
+  "title": "Boss Challenge: Algebra Quest",
+  "summary": "Ten problems on expressions, expanding, identities and factorising. Three lives!",
+  "emoji": "🏆",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 6: We Distribute, Yet Things Multiply",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 8: Algebraic Expressions and Identities",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 12: Factorisation",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can simplify, expand and factorise confidently.",
+    "I can explain and check my reasoning."
+  ],
+  "misconceptions": [
+    "Expanding and factorising are separate topics with no link."
+  ],
+  "prerequisites": [
+    "mathematics/algebra/factorisation",
+    "mathematics/algebra/algebra-play"
+  ],
+  "labs": [
+    "algebra-quest"
+  ],
+  "keyTerms": [
+    "expression",
+    "identity",
+    "factorise",
+    "expand"
+  ],
+  "estMinutes": 20
+}

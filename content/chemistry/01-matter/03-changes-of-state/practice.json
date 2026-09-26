@@ -8,11 +8,26 @@
       "ibCriterion": "A",
       "prompt": "Match each change of state to its name.",
       "pairs": [
-        { "left": "Solid → liquid", "right": "Melting" },
-        { "left": "Liquid → gas", "right": "Evaporation / boiling" },
-        { "left": "Gas → liquid", "right": "Condensation" },
-        { "left": "Liquid → solid", "right": "Freezing" },
-        { "left": "Solid → gas", "right": "Sublimation" }
+        {
+          "left": "Solid → liquid",
+          "right": "Melting"
+        },
+        {
+          "left": "Liquid → gas",
+          "right": "Evaporation / boiling"
+        },
+        {
+          "left": "Gas → liquid",
+          "right": "Condensation"
+        },
+        {
+          "left": "Liquid → solid",
+          "right": "Freezing"
+        },
+        {
+          "left": "Solid → gas",
+          "right": "Sublimation"
+        }
       ],
       "explain": "Melting, evaporation/boiling, condensation, freezing and sublimation (plus deposition: gas → solid)."
     },
@@ -22,9 +37,16 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Droplets form on the outside of a cold glass of nimbu pani. This is an example of…",
-      "options": ["Evaporation", "Condensation", "Melting", "Sublimation"],
-      "answer": 1,
-      "feedback": { "0": "The water isn't leaving the glass; it is appearing on it from the air." },
+      "options": [
+        "Evaporation",
+        "Melting",
+        "Sublimation",
+        "Condensation"
+      ],
+      "answer": 3,
+      "feedback": {
+        "0": "The water isn't leaving the glass; it is appearing on it from the air."
+      },
       "hint": "Where did the water on the OUTSIDE of the glass come from?",
       "explain": "Water vapour in the air touches the cold glass, cools down and condenses into liquid droplets."
     },
@@ -35,12 +57,12 @@
       "ibCriterion": "A",
       "prompt": "While ice is melting, the temperature stays at 0 °C even though we keep heating. Where does the heat energy go?",
       "options": [
-        "It is lost to the air",
-        "It overcomes the forces of attraction between particles",
         "It makes the particles bigger",
-        "It is destroyed"
+        "It is destroyed",
+        "It overcomes the forces of attraction between particles",
+        "It is lost to the air"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "The energy (latent heat) breaks the forces holding the particles in fixed positions, instead of making them move faster."
     },
     {
@@ -49,14 +71,35 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Sort these statements into evaporation or boiling.",
-      "bins": ["Evaporation", "Boiling"],
+      "bins": [
+        "Evaporation",
+        "Boiling"
+      ],
       "items": [
-        { "label": "Happens at any temperature", "bin": 0 },
-        { "label": "Happens only at one temperature", "bin": 1 },
-        { "label": "Only at the surface", "bin": 0 },
-        { "label": "Bubbles form throughout the liquid", "bin": 1 },
-        { "label": "Cools the remaining liquid", "bin": 0 },
-        { "label": "Temperature stays constant while it happens", "bin": 1 }
+        {
+          "label": "Happens at any temperature",
+          "bin": 0
+        },
+        {
+          "label": "Happens only at one temperature",
+          "bin": 1
+        },
+        {
+          "label": "Only at the surface",
+          "bin": 0
+        },
+        {
+          "label": "Bubbles form throughout the liquid",
+          "bin": 1
+        },
+        {
+          "label": "Cools the remaining liquid",
+          "bin": 0
+        },
+        {
+          "label": "Temperature stays constant while it happens",
+          "bin": 1
+        }
       ],
       "explain": "Evaporation: any temperature, surface only, causes cooling. Boiling: at the boiling point, throughout the liquid, with bubbles."
     },
@@ -93,8 +136,18 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Which of these make wet clothes dry FASTER? Choose all that apply.",
-      "options": ["A sunny day", "A windy day", "Folding the clothes into a pile", "A very humid day", "Spreading the clothes out"],
-      "answer": [0, 1, 4],
+      "options": [
+        "A sunny day",
+        "A windy day",
+        "Folding the clothes into a pile",
+        "A very humid day",
+        "Spreading the clothes out"
+      ],
+      "answer": [
+        0,
+        1,
+        4
+      ],
       "hint": "Think about temperature, wind, surface area and humidity.",
       "explain": "Higher temperature, wind and a larger surface area all speed up evaporation. Humid air slows it down, and folding reduces the surface area."
     },
@@ -104,7 +157,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Ice at −20 °C is heated until it becomes steam at 120 °C. Put the parts of the heating curve in order.",
-      "steps": ["Ice warms up to 0 °C", "Ice melts at 0 °C", "Water warms up to 100 °C", "Water boils at 100 °C", "Steam warms above 100 °C"],
+      "steps": [
+        "Ice warms up to 0 °C",
+        "Ice melts at 0 °C",
+        "Water warms up to 100 °C",
+        "Water boils at 100 °C",
+        "Steam warms above 100 °C"
+      ],
       "explain": "The curve rises (solid), flattens (melting), rises (liquid), flattens (boiling), then rises again (gas)."
     },
     {
@@ -113,7 +172,12 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Camphor (kapur) left on a plate slowly disappears without melting. This is…",
-      "options": ["Evaporation", "Condensation", "Sublimation", "Deposition"],
+      "options": [
+        "Condensation",
+        "Deposition",
+        "Sublimation",
+        "Evaporation"
+      ],
       "answer": 2,
       "explain": "Camphor changes directly from solid to gas: sublimation. Naphthalene balls and dry ice do this too."
     },
@@ -125,11 +189,11 @@
       "prompt": "On a heating curve for water, the boiling part is LONGER than the melting part. What does this tell you?",
       "options": [
         "Boiling happens at a lower temperature",
-        "More energy is needed to separate particles completely into a gas than to loosen them into a liquid",
         "The thermometer was broken",
-        "Water particles get heavier when hot"
+        "Water particles get heavier when hot",
+        "More energy is needed to separate particles completely into a gas than to loosen them into a liquid"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "To become a gas, particles must be separated completely, which needs much more energy than loosening them into a liquid. Water's latent heat of vaporisation is about 7 times its latent heat of fusion."
     },
     {
@@ -138,9 +202,16 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "What are the big bubbles inside boiling water made of?",
-      "options": ["Air", "Oxygen and hydrogen", "Water vapour", "Nothing, they're empty"],
-      "answer": 2,
-      "feedback": { "0": "This is a very common mix-up! Air comes out only in the tiny bubbles before boiling." },
+      "options": [
+        "Water vapour",
+        "Nothing, they're empty",
+        "Oxygen and hydrogen",
+        "Air"
+      ],
+      "answer": 0,
+      "feedback": {
+        "3": "This is a very common mix-up! Air comes out only in the tiny bubbles before boiling."
+      },
       "explain": "They are pockets of water vapour: water in the gas state forming inside the liquid."
     },
     {

@@ -9,12 +9,12 @@
       "cbseStyle": true,
       "prompt": "Why does warm water rise in a pot heated from below?",
       "options": [
+        "The flame pushes it",
         "Warm water is heavier",
         "Warm water expands, becomes less dense and floats up",
-        "The flame pushes it",
         "Cold water pulls it up"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Less dense fluid rises; denser fluid sinks. This makes a convection current."
     },
     {
@@ -79,12 +79,12 @@
       "ibCriterion": "A",
       "prompt": "How does heat from the Sun reach the Earth?",
       "options": [
-        "Conduction",
         "Convection",
         "Radiation",
+        "Conduction",
         "All three equally"
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": "Space is almost empty, so there are no particles for conduction or convection. Radiation needs no medium."
     },
     {
@@ -94,8 +94,8 @@
       "ibCriterion": "C",
       "prompt": "In the lamp experiment, which can warmed up fastest?",
       "options": [
-        "Shiny foil",
         "White",
+        "Shiny foil",
         "Dull black",
         "All the same"
       ],

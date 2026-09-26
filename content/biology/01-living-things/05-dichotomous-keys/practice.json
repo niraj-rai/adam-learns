@@ -8,12 +8,12 @@
       "ibCriterion": "A",
       "prompt": "What does ‘dichotomous’ mean?",
       "options": [
-        "Dividing into two",
-        "Having many colours",
         "Living in water",
-        "Very small"
+        "Dividing into two",
+        "Very small",
+        "Having many colours"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "Each step of a dichotomous key splits a group into two."
     },
     {
@@ -43,12 +43,12 @@
       "ibCriterion": "C",
       "prompt": "In the Key Builder, which question could NOT split the group {butterfly, sparrow}?",
       "options": [
-        "Does it have wings?",
-        "Does it have feathers?",
+        "All would work",
         "Does it have six legs?",
-        "All would work"
+        "Does it have feathers?",
+        "Does it have wings?"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "Both have wings, so that question doesn't divide them."
     },
     {
@@ -98,12 +98,12 @@
       "ibCriterion": "A",
       "prompt": "Why might ‘Is it brown?’ be a poor question in a key for birds?",
       "options": [
+        "Keys can't use colours at all",
         "Colour can vary between males, females, young birds and in different light",
         "Birds are never brown",
-        "It is too easy",
-        "Keys can't use colours at all"
+        "It is too easy"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "Choose features that are reliable for every individual."
     },
     {

@@ -66,10 +66,10 @@
       "ibCriterion": "C",
       "prompt": "In the jal tarang, a bowl sounds too HIGH. What should you do?",
       "options": [
-        "Pour some water out",
-        "Add a little water",
         "Strike it harder",
-        "Use a smaller stick"
+        "Add a little water",
+        "Use a smaller stick",
+        "Pour some water out"
       ],
       "answer": 1,
       "explain": "More water makes a struck bowl vibrate more slowly: a lower pitch."
@@ -81,12 +81,12 @@
       "ibCriterion": "C",
       "prompt": "You add water to a bottle and BLOW across its mouth. What happens to the pitch, and why?",
       "options": [
-        "It goes down, because there is more water to vibrate",
-        "It goes up, because the vibrating air column is shorter",
         "It stays the same",
-        "It goes down, because the bottle is heavier"
+        "It goes down, because the bottle is heavier",
+        "It goes up, because the vibrating air column is shorter",
+        "It goes down, because there is more water to vibrate"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "When blowing, the air column vibrates; less air means higher pitch."
     },
     {
@@ -107,10 +107,10 @@
       "ibCriterion": "A",
       "prompt": "How does a flute player (bansuri) play different notes?",
       "options": [
-        "By blowing harder only",
-        "By covering and uncovering holes to change the length of the vibrating air column",
         "By tightening the flute",
-        "By moving the flute faster"
+        "By covering and uncovering holes to change the length of the vibrating air column",
+        "By moving the flute faster",
+        "By blowing harder only"
       ],
       "answer": 1,
       "explain": "Shorter air column → higher pitch."

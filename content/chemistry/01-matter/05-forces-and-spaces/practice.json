@@ -7,8 +7,13 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Which state is the MOST compressible?",
-      "options": ["Solid", "Liquid", "Gas", "All the same"],
-      "answer": 2,
+      "options": [
+        "Gas",
+        "Solid",
+        "Liquid",
+        "All the same"
+      ],
+      "answer": 0,
       "explain": "Gases have large spaces between particles, so they can be squashed easily."
     },
     {
@@ -17,14 +22,36 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Sort each statement into the state it describes.",
-      "bins": ["Solid", "Liquid", "Gas"],
+      "bins": [
+        "Solid",
+        "Liquid",
+        "Gas"
+      ],
       "items": [
-        { "label": "Strongest forces of attraction", "bin": 0 },
-        { "label": "Largest interparticle spaces", "bin": 2 },
-        { "label": "Hardly compressible, but can flow", "bin": 1 },
-        { "label": "Rigid: keeps its shape", "bin": 0 },
-        { "label": "Weakest forces of attraction", "bin": 2 },
-        { "label": "Particles touch but slide", "bin": 1 }
+        {
+          "label": "Strongest forces of attraction",
+          "bin": 0
+        },
+        {
+          "label": "Largest interparticle spaces",
+          "bin": 2
+        },
+        {
+          "label": "Hardly compressible, but can flow",
+          "bin": 1
+        },
+        {
+          "label": "Rigid: keeps its shape",
+          "bin": 0
+        },
+        {
+          "label": "Weakest forces of attraction",
+          "bin": 2
+        },
+        {
+          "label": "Particles touch but slide",
+          "bin": 1
+        }
       ],
       "explain": "Forces are strongest and spaces smallest in solids; forces weakest and spaces largest in gases; liquids are in between."
     },
@@ -36,12 +63,12 @@
       "cbseStyle": true,
       "prompt": "Why can a large volume of LPG be stored in a small cylinder?",
       "options": [
-        "LPG particles are very small",
-        "Gases have large interparticle spaces, so they can be compressed",
         "LPG has no mass",
-        "The cylinder is magic"
+        "The cylinder is magic",
+        "LPG particles are very small",
+        "Gases have large interparticle spaces, so they can be compressed"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "The large spaces between gas particles let us push them much closer together, so a lot of gas fits in a small space."
     },
     {
@@ -52,12 +79,14 @@
       "prompt": "When air in a syringe is compressed, what happens to the air particles?",
       "options": [
         "They become smaller",
+        "They turn into water",
         "They are destroyed",
-        "They move closer together",
-        "They turn into water"
+        "They move closer together"
       ],
-      "answer": 2,
-      "feedback": { "0": "Common mix-up! The particles stay the same size; the spaces between them shrink." },
+      "answer": 3,
+      "feedback": {
+        "0": "Common mix-up! The particles stay the same size; the spaces between them shrink."
+      },
       "explain": "Compression reduces the spaces between particles. The particles themselves don't change size."
     },
     {
@@ -67,12 +96,12 @@
       "ibCriterion": "C",
       "prompt": "A glass is filled to the brim with water. A spoon of sugar is stirred in and the water hardly overflows. What does this suggest?",
       "options": [
-        "Sugar has no volume",
         "There are spaces between water particles that sugar particles can fit into",
-        "The sugar evaporated",
-        "The water particles shrank"
+        "Sugar has no volume",
+        "The water particles shrank",
+        "The sugar evaporated"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "The dissolved sugar particles fit into the spaces between the water particles, which is evidence for interparticle spaces."
     },
     {
@@ -83,8 +112,28 @@
       "cbseStyle": true,
       "prompt": "Complete the sentences.",
       "text": "The forces of attraction between particles are ___ in solids and ___ in gases. Gases can be compressed because their interparticle spaces are ___.",
-      "blanks": [["strongest", "strong"], ["weakest", "weak"], ["large", "very large", "big"]],
-      "wordBank": ["strongest", "weakest", "large", "small", "zero"],
+      "blanks": [
+        [
+          "strongest",
+          "strong"
+        ],
+        [
+          "weakest",
+          "weak"
+        ],
+        [
+          "large",
+          "very large",
+          "big"
+        ]
+      ],
+      "wordBank": [
+        "strongest",
+        "weakest",
+        "large",
+        "small",
+        "zero"
+      ],
       "explain": "Strongest in solids, weakest in gases; gases have large spaces."
     },
     {
@@ -104,8 +153,18 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Which of these use a COMPRESSED gas? Choose all that apply.",
-      "options": ["LPG cylinder", "Hospital oxygen cylinder", "Bicycle tyre", "A glass of water", "A brick"],
-      "answer": [0, 1, 2],
+      "options": [
+        "LPG cylinder",
+        "Hospital oxygen cylinder",
+        "Bicycle tyre",
+        "A glass of water",
+        "A brick"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
       "explain": "LPG, oxygen cylinders and tyres all store gas squeezed into a smaller space."
     },
     {
@@ -115,12 +174,12 @@
       "ibCriterion": "C",
       "prompt": "In the syringe lab, going from push force 0 to 20 squashes the gas a lot, but going from 80 to 100 squashes it only a little. Why?",
       "options": [
-        "The syringe is broken",
         "As particles get closer together, there is less space left to remove",
         "The gas turns into a solid",
+        "The syringe is broken",
         "Gas particles get bigger when pushed"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "The more squashed the gas, the less empty space is left, so each extra push has a smaller effect."
     },
     {

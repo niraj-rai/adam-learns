@@ -9,10 +9,10 @@
       "cbseStyle": true,
       "prompt": "Which blood cells fight infection?",
       "options": [
-        "Red blood cells",
+        "Plasma",
         "White blood cells",
         "Platelets",
-        "Plasma"
+        "Red blood cells"
       ],
       "answer": 1,
       "explain": "Some engulf germs; others make antibodies."
@@ -24,10 +24,10 @@
       "ibCriterion": "C",
       "prompt": "In the Immune Memory graph, how did the second response compare with the first?",
       "options": [
-        "Slower and smaller",
-        "Faster and much larger",
         "The same",
-        "It didn't happen"
+        "Faster and much larger",
+        "It didn't happen",
+        "Slower and smaller"
       ],
       "answer": 1,
       "explain": "Memory cells recognise the germ at once."
@@ -39,12 +39,12 @@
       "ibCriterion": "A",
       "prompt": "How does a vaccine protect you?",
       "options": [
+        "It is an antibiotic",
         "It kills all germs in your body",
         "It trains your immune system with a harmless form of the germ, so memory cells are ready",
-        "It is an antibiotic",
         "It makes blood thicker"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "The vaccine is a safe ‘first meeting’."
     },
     {
@@ -55,9 +55,9 @@
       "prompt": "Who made the first vaccine, against smallpox, in 1796?",
       "options": [
         "Edward Jenner",
-        "Alexander Fleming",
+        "Robert Hooke",
         "Louis Pasteur",
-        "Robert Hooke"
+        "Alexander Fleming"
       ],
       "answer": 0,
       "explain": "Smallpox was declared eradicated worldwide in 1980."

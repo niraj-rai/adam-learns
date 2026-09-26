@@ -34,12 +34,12 @@
       "ibCriterion": "A",
       "prompt": "Why is a tin-sheet roof a poor choice for a hot place?",
       "options": [
-        "Tin is too heavy",
         "Thin metal conducts heat quickly into the room",
         "Tin reflects too much sunlight",
+        "Tin is too heavy",
         "Tin roofs are too expensive"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Thin metal is a good conductor, so the room gets very hot under it."
     },
     {
@@ -49,12 +49,12 @@
       "ibCriterion": "A",
       "prompt": "Sunshades (chajjas) over south-facing windows block the summer sun but let the winter sun in. Why?",
       "options": [
+        "Winter sunlight has no heat",
         "The Sun is higher in the sky in summer and lower in winter",
-        "The Sun is hotter in winter",
         "Chajjas melt in summer",
-        "Winter sunlight has no heat"
+        "The Sun is hotter in winter"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "The high summer sun is blocked by the overhang; low winter sunlight shines in beneath it."
     },
     {

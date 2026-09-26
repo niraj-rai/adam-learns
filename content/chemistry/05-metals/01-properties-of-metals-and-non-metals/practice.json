@@ -9,11 +9,26 @@
       "cbseStyle": true,
       "prompt": "Match each property to its meaning.",
       "pairs": [
-        { "left": "Malleable", "right": "Can be hammered into thin sheets" },
-        { "left": "Ductile", "right": "Can be drawn into wires" },
-        { "left": "Sonorous", "right": "Makes a ringing sound when struck" },
-        { "left": "Lustrous", "right": "Shiny" },
-        { "left": "Brittle", "right": "Breaks easily when hammered" }
+        {
+          "left": "Malleable",
+          "right": "Can be hammered into thin sheets"
+        },
+        {
+          "left": "Ductile",
+          "right": "Can be drawn into wires"
+        },
+        {
+          "left": "Sonorous",
+          "right": "Makes a ringing sound when struck"
+        },
+        {
+          "left": "Lustrous",
+          "right": "Shiny"
+        },
+        {
+          "left": "Brittle",
+          "right": "Breaks easily when hammered"
+        }
       ],
       "explain": "Metals are malleable, ductile, sonorous and lustrous; many non-metals are brittle."
     },
@@ -24,16 +39,43 @@
       "ibCriterion": "A",
       "cbseStyle": true,
       "prompt": "Sort these elements into metals and non-metals.",
-      "bins": ["Metal", "Non-metal"],
+      "bins": [
+        "Metal",
+        "Non-metal"
+      ],
       "items": [
-        { "label": "Iron", "bin": 0 },
-        { "label": "Sulfur", "bin": 1 },
-        { "label": "Copper", "bin": 0 },
-        { "label": "Oxygen", "bin": 1 },
-        { "label": "Aluminium", "bin": 0 },
-        { "label": "Carbon", "bin": 1 },
-        { "label": "Mercury", "bin": 0 },
-        { "label": "Iodine", "bin": 1 }
+        {
+          "label": "Iron",
+          "bin": 0
+        },
+        {
+          "label": "Sulfur",
+          "bin": 1
+        },
+        {
+          "label": "Copper",
+          "bin": 0
+        },
+        {
+          "label": "Oxygen",
+          "bin": 1
+        },
+        {
+          "label": "Aluminium",
+          "bin": 0
+        },
+        {
+          "label": "Carbon",
+          "bin": 1
+        },
+        {
+          "label": "Mercury",
+          "bin": 0
+        },
+        {
+          "label": "Iodine",
+          "bin": 1
+        }
       ],
       "explain": "Mercury is a (liquid) metal; iodine is a (shiny) non-metal."
     },
@@ -43,7 +85,12 @@
       "difficulty": 2,
       "ibCriterion": "A",
       "prompt": "Which non-metal conducts electricity?",
-      "options": ["Sulfur", "Graphite (carbon)", "Oxygen", "Iodine"],
+      "options": [
+        "Oxygen",
+        "Graphite (carbon)",
+        "Sulfur",
+        "Iodine"
+      ],
       "answer": 1,
       "explain": "Graphite conducts electricity: an important exception, used in batteries and pencils."
     },
@@ -53,8 +100,13 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "prompt": "Which metal is a liquid at room temperature?",
-      "options": ["Sodium", "Mercury", "Gold", "Zinc"],
-      "answer": 1,
+      "options": [
+        "Mercury",
+        "Zinc",
+        "Sodium",
+        "Gold"
+      ],
+      "answer": 0,
       "explain": "Mercury melts at −39 °C, so it's liquid at room temperature."
     },
     {
@@ -65,10 +117,22 @@
       "cbseStyle": true,
       "prompt": "Match each use to the property it depends on.",
       "pairs": [
-        { "left": "Electric wires made of copper", "right": "Ductile and conducts electricity" },
-        { "left": "Aluminium foil for food", "right": "Malleable" },
-        { "left": "Metal school bells", "right": "Sonorous" },
-        { "left": "Metal cooking pots", "right": "Good conductor of heat" }
+        {
+          "left": "Electric wires made of copper",
+          "right": "Ductile and conducts electricity"
+        },
+        {
+          "left": "Aluminium foil for food",
+          "right": "Malleable"
+        },
+        {
+          "left": "Metal school bells",
+          "right": "Sonorous"
+        },
+        {
+          "left": "Metal cooking pots",
+          "right": "Good conductor of heat"
+        }
       ],
       "explain": "Uses follow from properties."
     },
@@ -80,10 +144,10 @@
       "cbseStyle": true,
       "prompt": "Why are cooking pots made of metal but their handles made of plastic or wood?",
       "options": [
-        "Plastic is prettier",
+        "Plastic cooks food faster",
         "Metal conducts heat to cook food; plastic and wood are poor conductors, so the handle stays cool",
         "Metal handles are too heavy",
-        "Plastic cooks food faster"
+        "Plastic is prettier"
       ],
       "answer": 1,
       "explain": "Conductors heat the food; insulators protect your hand."
@@ -94,8 +158,13 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "A material is shiny, brittle and does not conduct electricity. It is most likely…",
-      "options": ["a metal", "a non-metal (such as iodine)", "mercury", "an alloy"],
-      "answer": 1,
+      "options": [
+        "a non-metal (such as iodine)",
+        "an alloy",
+        "mercury",
+        "a metal"
+      ],
+      "answer": 0,
       "explain": "Brittle and non-conducting point to a non-metal; shininess alone isn't enough to call it a metal."
     },
     {
@@ -105,8 +174,20 @@
       "ibCriterion": "A",
       "prompt": "Complete the sentence.",
       "text": "The ability of metals to be drawn into thin wires is called ___, and to be beaten into sheets is called ___.",
-      "blanks": [["ductility"], ["malleability"]],
-      "wordBank": ["ductility", "malleability", "sonority", "lustre"],
+      "blanks": [
+        [
+          "ductility"
+        ],
+        [
+          "malleability"
+        ]
+      ],
+      "wordBank": [
+        "ductility",
+        "malleability",
+        "sonority",
+        "lustre"
+      ],
       "explain": "Ductility → wires; malleability → sheets."
     },
     {

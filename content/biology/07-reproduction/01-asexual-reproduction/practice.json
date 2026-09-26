@@ -67,8 +67,8 @@
       "prompt": "Why are plants grown from cuttings identical to the parent?",
       "options": [
         "They come from only one parent, with no mixing of features",
-        "They are grown in the same soil",
         "They are watered the same way",
+        "They are grown in the same soil",
         "They grow at the same time"
       ],
       "answer": 0,
@@ -148,12 +148,12 @@
       "ibCriterion": "A",
       "prompt": "Where are the ‘eyes’ on a potato?",
       "options": [
+        "On the roots only",
         "On the leaves",
         "On the tuber (the potato itself)",
-        "On the flowers",
-        "On the roots only"
+        "On the flowers"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "The potato is a swollen underground stem."
     }
   ]

@@ -31,9 +31,9 @@
       "prompt": "What is the prime factorisation of 84?",
       "options": [
         "2² × 3 × 7",
+        "2 × 3 × 7",
         "2 × 42",
-        "4 × 21",
-        "2 × 3 × 7"
+        "4 × 21"
       ],
       "answer": 0,
       "explain": "84 = 2 × 42 = 2 × 2 × 21 = 2 × 2 × 3 × 7 = 2² × 3 × 7.",
@@ -88,12 +88,12 @@
       "ibCriterion": "B",
       "prompt": "4, 9, 25 and 49 each have exactly 3 factors. What do numbers with exactly 3 factors have in common?",
       "options": [
-        "They are squares of prime numbers",
-        "They are prime numbers",
+        "They are multiples of 3",
         "They are even",
-        "They are multiples of 3"
+        "They are prime numbers",
+        "They are squares of prime numbers"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "If p is prime, p² has factors 1, p and p², exactly three."
     },
     {
@@ -113,12 +113,12 @@
       "ibCriterion": "A",
       "prompt": "Which pair of numbers is co-prime (HCF = 1)?",
       "options": [
-        "8 and 15",
-        "12 and 18",
+        "9 and 27",
         "14 and 21",
-        "9 and 27"
+        "12 and 18",
+        "8 and 15"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "8 = 2³ and 15 = 3 × 5 share no prime factors."
     }
   ]

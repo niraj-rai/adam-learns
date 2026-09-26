@@ -9,12 +9,12 @@
       "cbseStyle": true,
       "prompt": "Which gas makes bread dough rise?",
       "options": [
-        "Oxygen",
-        "Carbon dioxide",
         "Nitrogen",
-        "Hydrogen"
+        "Hydrogen",
+        "Carbon dioxide",
+        "Oxygen"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Yeast releases carbon dioxide as it ferments sugar."
     },
     {
@@ -25,12 +25,12 @@
       "cbseStyle": true,
       "prompt": "Which bacterium turns milk into curd?",
       "options": [
-        "Rhizobium",
         "Lactobacillus",
         "Vibrio",
-        "Plasmodium"
+        "Plasmodium",
+        "Rhizobium"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Lactobacillus makes lactic acid, which thickens milk."
     },
     {
@@ -40,12 +40,12 @@
       "ibCriterion": "C",
       "prompt": "In the Fermentation Lab, what happened to dough kept at 60 °C?",
       "options": [
-        "It rose fastest",
         "It didn't rise: the yeast was killed",
         "It rose slowly",
-        "It turned into curd"
+        "It turned into curd",
+        "It rose fastest"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Yeast is a living fungus; too much heat kills it."
     },
     {
@@ -56,11 +56,11 @@
       "prompt": "Why does curd take longer to set in winter?",
       "options": [
         "Milk is thicker in winter",
-        "The bacteria work more slowly when it's cold",
         "There are no bacteria in winter",
+        "The bacteria work more slowly when it's cold",
         "Winter milk has no sugar"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "Microbes are slower at low temperatures."
     },
     {

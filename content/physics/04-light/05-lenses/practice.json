@@ -10,11 +10,11 @@
       "prompt": "A convex lens is…",
       "options": [
         "thinner in the middle and spreads light out",
-        "thicker in the middle and brings light together",
         "flat",
-        "a kind of mirror"
+        "a kind of mirror",
+        "thicker in the middle and brings light together"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Convex lenses are thicker at the centre and converge light."
     },
     {
@@ -40,11 +40,11 @@
       "prompt": "A convex lens forms a sharp image of a distant window on a sheet of paper. The image is…",
       "options": [
         "upright and larger",
-        "inverted and smaller",
         "virtual",
-        "the same size"
+        "the same size",
+        "inverted and smaller"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Distant objects form real, inverted, diminished images near the focus: just like a camera or your eye."
     },
     {

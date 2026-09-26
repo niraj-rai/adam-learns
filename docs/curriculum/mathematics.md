@@ -47,11 +47,24 @@ CBSE mapping uses the new *Ganita Prakash* books (GP 6; GP 7 Parts 1–2; GP 8 P
 | 3.5 | A story of numbers | MYP 2 | GP 8 Ch 3 ✅ | ★ | **Number Systems Explorer**: bases 2/5/10/20/60, Roman numerals |
 | 3.6 | Boss: Power Surge | MYP 3 | Mixed | ★★★ | 10 mixed problems (3 lives) |
 
-### Units 4–9 (planned)
+### Unit 4: Algebra: Expressions and Identities ✅ built
+
+*IB Key Concept:* **Logic** · *Related:* Generalization, Pattern, Equivalence · *Global Context:* Scientific and technical innovation
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 4.1 | Letter-numbers: expressions from patterns | MYP 2 | GP 7 Ch 4 ✅, earlier NCERT 7 Ch 10 ✅ | ★ | **Matchstick Patterns**: find a × n + b |
+| 4.2 | Simplifying expressions | MYP 2 | GP 7 Ch 4 ✅, earlier NCERT 7 Ch 10, 8 Ch 8 ✅ | ★ | **Algebra Tiles**: zero pairs, like terms, substitution |
+| 4.3 | We distribute, yet things multiply | MYP 3 | GP 8 Ch 6 ✅, earlier NCERT 8 Ch 8 ✅ | ★★ | **Area Multiplier**: numbers and (x + a)(x + b) |
+| 4.4 | Algebraic identities | MYP 3 | GP 8 Ch 6 ✅, earlier NCERT 8 Ch 8 ✅ | ★★ | **Identity Visualiser**: (a + b)², a² − b², mental maths |
+| 4.5 | Factorisation | MYP 3 | Earlier NCERT 8 Ch 12 ✅, GP 8 Ch 6 ✅ | ★★★ | **Factor Rectangle**: multiply to c, add to b |
+| 4.6 | Algebra play: tricks and puzzles | MYP 3 | GP 8 P2 Ch 6 ✅ | ★★ | **Algebra Magic Tricks**: bags and coins |
+| 4.7 | Boss: Algebra Quest | MYP 3 | Mixed | ★★★ | 10 mixed problems (3 lives) |
+
+### Units 5–9 (planned)
 
 | Unit | Topics | IB | CBSE | ★ | Signature labs |
 |---|---|---|---|---|---|
-| 4. Algebra: Expressions & Identities | Letter-numbers, expressions, distributive property, identities, factorisation, algebra play | MYP 2–3 | GP 7 Ch 4; GP 8 Ch 6, P2 Ch 6; earlier NCERT 8 Ch 8, 12 | ★★★ | **Algebra Tiles** |
 | 5. Linear Equations & Graphs | Solving linear equations, coordinates, linear graphs, real-world graphs | MYP 2–3 | GP 7 P2 Ch 7; earlier NCERT 8 Ch 2, 13 | ★★★ | **Balance Scale** solver, **Plot It** |
 | 6. Ratio, Proportion & Percentages | Ratio, rule of three, direct/inverse proportion, percentages, profit/loss, tax, compound interest | MYP 2–3 | GP 8 Ch 7, P2 Ch 1, P2 Ch 3; earlier NCERT 8 Ch 7, 11 | ★★★ | **Recipe Scaler**, Interest Growth |
 | 7. Geometry: Angles, Shapes & Pythagoras | Parallel lines and transversals, triangles, congruence, quadrilaterals, constructions, Baudhayana–Pythagoras theorem | MYP 1–3 | GP 7 Ch 5, 7, P2 Ch 1, 6; GP 8 Ch 4, P2 Ch 2 | ★★★ | **Geometry Sandbox**, Pythagoras Proof |

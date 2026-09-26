@@ -19,12 +19,12 @@
       "ibCriterion": "A",
       "prompt": "What is 3⁻²?",
       "options": [
+        "−6",
         "1/9",
         "−9",
-        "−6",
         "1/6"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "3⁻² = 1/3² = 1/9.",
       "cbseStyle": true
     },
@@ -61,9 +61,9 @@
       "prompt": "Continue the pattern: 1000, 100, 10, 1, 0.1, …",
       "options": [
         "0.01 = 10⁻²",
-        "0 = 10⁰",
+        "0.1 = 10⁻²",
         "−10 = 10⁻¹",
-        "0.1 = 10⁻²"
+        "0 = 10⁰"
       ],
       "answer": 0,
       "explain": "Each step divides by 10, and each exponent goes down by 1."
@@ -99,12 +99,12 @@
       "ibCriterion": "A",
       "prompt": "Simplify 5⁻² × 5⁵.",
       "options": [
-        "125",
-        "5⁻¹⁰",
         "1/125",
-        "25"
+        "125",
+        "25",
+        "5⁻¹⁰"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "5⁻²⁺⁵ = 5³ = 125."
     },
     {
@@ -114,12 +114,12 @@
       "ibCriterion": "B",
       "prompt": "Which is the smallest?",
       "options": [
-        "10⁻¹",
-        "2⁻³",
         "3⁻²",
-        "5⁻¹"
+        "2⁻³",
+        "5⁻¹",
+        "10⁻¹"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "2⁻³ = 0.125, 3⁻² ≈ 0.111, 10⁻¹ = 0.1, 5⁻¹ = 0.2."
     }
   ]

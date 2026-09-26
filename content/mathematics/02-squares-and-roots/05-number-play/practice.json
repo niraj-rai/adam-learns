@@ -46,8 +46,8 @@
       "options": [
         "32",
         "15",
-        "21",
-        "30"
+        "30",
+        "21"
       ],
       "answer": 0,
       "explain": "32 is a power of 2. 15 = 7 + 8, 21 = 10 + 11, 30 = 9 + 10 + 11."
@@ -59,12 +59,12 @@
       "ibCriterion": "B",
       "prompt": "The sum of any three consecutive whole numbers is always…",
       "options": [
+        "odd",
         "divisible by 3",
         "even",
-        "odd",
         "a square number"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "(n − 1) + n + (n + 1) = 3n."
     },
     {
@@ -98,12 +98,12 @@
       "ibCriterion": "B",
       "prompt": "What kind of number do you always get when you multiply two odd numbers?",
       "options": [
+        "It depends",
         "Odd",
         "Even",
-        "Prime",
-        "It depends"
+        "Prime"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "Odd × odd has no factor of 2, so it is always odd (e.g. 3 × 5 = 15)."
     },
     {
