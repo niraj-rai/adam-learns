@@ -1,0 +1,33 @@
+{
+  "id": "materials-and-water",
+  "number": 0,
+  "stage": "G5",
+  "title": "Starter: Water and Materials",
+  "summary": "Grade 5: water as ice, liquid and steam, the water cycle, mixing and dissolving, and the fibres our clothes are made from.",
+  "ib": {
+    "keyConcept": "Change",
+    "relatedConcepts": [
+      "Properties",
+      "Transformation",
+      "Sustainability"
+    ],
+    "globalContext": "PYP theme: How the world works",
+    "statementOfInquiry": "Materials change when we heat, cool or mix them, and we choose materials for their properties."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What are the three states of water?",
+      "Where do fibres come from?"
+    ],
+    "conceptual": [
+      "How does heating and cooling change materials?"
+    ],
+    "debatable": [
+      "Should we buy fewer new clothes to protect the planet?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 5 Our Wondrous World: Water — The Essence of Life",
+    "Class 5 Our Wondrous World: Clothes — How Things are Made"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "topicId": "angles-as-turns",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many degrees are in a full turn?",
+      "options": [
+        "180°",
+        "100°",
+        "90°",
+        "360°"
+      ],
+      "answer": 3,
+      "explain": "One full circle.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A half turn is…",
+      "options": [
+        "180°",
+        "45°",
+        "360°",
+        "90°"
+      ],
+      "answer": 0,
+      "explain": "Half of 360°.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which angle is acute?",
+      "options": [
+        "120°",
+        "180°",
+        "40°",
+        "90°"
+      ],
+      "answer": 2,
+      "explain": "Less than a right angle."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "You face East and make a half turn. Which way do you face?",
+      "options": [
+        "East",
+        "West",
+        "South",
+        "North"
+      ],
+      "answer": 1,
+      "explain": "Half turn = face the opposite way."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "At 3 o’clock, the hands of a clock make…",
+      "options": [
+        "a straight angle",
+        "no angle",
+        "an acute angle",
+        "a right angle"
+      ],
+      "answer": 3,
+      "explain": "A quarter of the clock face.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is an obtuse angle?",
+      "options": [
+        "130°",
+        "360°",
+        "30°",
+        "90°"
+      ],
+      "answer": 0,
+      "explain": "Between 90° and 180°."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many degrees are in three quarter turns?",
+      "answer": 270,
+      "tolerance": 0,
+      "explain": "3 × 90.",
+      "unit": "°"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Two angles are drawn. One has long arms and one has short arms, but both are quarter turns. Which angle is bigger? Explain.",
+      "modelAnswer": "They are the same size. Both are quarter turns, so both are 90°. The size of an angle depends on how much one arm turns from the other, not on how long the arms are.",
+      "rubric": [
+        "Same size",
+        "Angle = amount of turn, not arm length"
+      ],
+      "explain": "Reasoning."
+    }
+  ]
+}

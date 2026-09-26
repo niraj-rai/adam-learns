@@ -1,0 +1,126 @@
+{
+  "topicId": "fibres-and-fabrics",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which fibre comes from a plant?",
+      "options": [
+        "Silk",
+        "Nylon",
+        "Cotton",
+        "Wool"
+      ],
+      "answer": 2,
+      "explain": "From the cotton boll.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Silk comes from…",
+      "options": [
+        "oil",
+        "silkworm cocoons",
+        "sheep",
+        "coconut husk"
+      ],
+      "answer": 1,
+      "explain": "Silkworms spin cocoons.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Twisting fibres together to make yarn is called…",
+      "options": [
+        "weaving",
+        "ginning",
+        "dyeing",
+        "spinning"
+      ],
+      "answer": 3,
+      "explain": "Like Gandhiji’s charkha."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which clothes are best for a hot summer day?",
+      "options": [
+        "Loose cotton clothes",
+        "Leather coats",
+        "Tight nylon jackets",
+        "Thick woollen sweaters"
+      ],
+      "answer": 0,
+      "explain": "Cotton lets sweat evaporate and keeps us cool."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why do woollen clothes keep us warm?",
+      "options": [
+        "They are heavy",
+        "They make heat",
+        "They trap air, which stops body heat escaping",
+        "They are always dark"
+      ],
+      "answer": 2,
+      "explain": "Air is a poor conductor of heat."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is a synthetic fibre?",
+      "options": [
+        "Wool",
+        "Polyester",
+        "Cotton",
+        "Jute"
+      ],
+      "answer": 1,
+      "explain": "Made in factories from chemicals."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Doormats and ropes are often made from coir. Where does coir come from?",
+      "options": [
+        "Petrol",
+        "Sheep",
+        "Silkworms",
+        "Coconut husks"
+      ],
+      "answer": 3,
+      "explain": "A plant fibre from Kerala and the coast."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Describe how cotton in a field becomes a shirt.",
+      "modelAnswer": "Cotton bolls are picked, and the seeds are removed (ginning). The fibres are spun into yarn, and the yarn is woven into fabric. The fabric is dyed, then cut and stitched into a shirt.",
+      "rubric": [
+        "Picking/ginning",
+        "Spinning to yarn",
+        "Weaving and stitching"
+      ],
+      "explain": "Sequencing."
+    }
+  ]
+}

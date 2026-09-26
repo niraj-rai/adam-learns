@@ -1,0 +1,50 @@
+<Stage kind="wonder" title="How far, how heavy, how much, how long?" />
+
+<Hook emoji="📏">
+At the Olympics, a sprinter can lose by one hundredth of a second. A shopkeeper weighs rice in kilograms and saffron in grams. Choosing the right **unit** matters!
+</Hook>
+
+<PredictFirst
+  question="Which is heavier: 1 kg of cotton or 1 kg of iron?"
+  options={["Iron", "They weigh the same", "Cotton", "It depends on the size"]}
+  answer={1}
+>
+Both are 1 kg! Iron just takes up less space.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<Compare
+  columns={[
+    { title: "Length", emoji: "📏", points: ["1 km = 1000 m", "1 m = 100 cm", "1 cm = 10 mm"] },
+    { title: "Weight", emoji: "⚖️", points: ["1 kg = 1000 g"] },
+    { title: "Capacity", emoji: "🥛", points: ["1 L = 1000 mL"] },
+    { title: "Time", emoji: "⏱️", points: ["1 h = 60 min", "1 min = 60 s"] }
+  ]}
+/>
+
+<StepReveal
+  steps={[
+    "Convert 2 km 350 m into metres.",
+    "2 km = 2 × 1000 = 2000 m.",
+    "2000 + 350 = 2350 m."
+  ]}
+/>
+
+<Stage kind="try" title="Measure and Convert" />
+
+<Lab id="unit-converter" />
+
+
+
+<Stage kind="apply" title="Try it yourself" />
+
+<Inquiry criterion="D" title="My school day">
+Time three things: brushing your teeth, walking to the bus or school gate, and eating lunch. Write each in minutes and seconds, then in seconds only. Which took longest? How long would each take over a whole school year (about 220 days)?
+</Inquiry>
+
+<CbseCorner source="NCERT Class 5 Maths Mela: Far and Near; Weight and Capacity; Racing Seconds">
+- Measurement of length, weight, capacity and time; conversion of units.
+</CbseCorner>
+
+<Reflect id="g5-measure" prompt="Which unit would you use to measure the length of a cricket pitch?" />

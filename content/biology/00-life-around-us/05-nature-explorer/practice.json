@@ -1,0 +1,124 @@
+{
+  "topicId": "nature-explorer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is a protective food?",
+      "options": [
+        "Guava",
+        "Sugar",
+        "Rice",
+        "Butter"
+      ],
+      "answer": 0,
+      "explain": "Rich in vitamin C."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Mould on bread is a kind of…",
+      "options": [
+        "plant seed",
+        "salt",
+        "fungus",
+        "insect"
+      ],
+      "answer": 2,
+      "explain": "A microbe that feeds on food."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which animal is suited to living in water?",
+      "options": [
+        "Yak",
+        "Fish",
+        "Eagle",
+        "Camel"
+      ],
+      "answer": 1,
+      "explain": "Gills and fins."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which way of saving food works by removing water?",
+      "options": [
+        "Freezing",
+        "Boiling",
+        "Pickling in oil",
+        "Sun-drying"
+      ],
+      "answer": 3,
+      "explain": "Microbes need water."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A river splits into many channels near the sea. This area is called a…",
+      "options": [
+        "delta",
+        "plateau",
+        "desert",
+        "glacier"
+      ],
+      "answer": 0,
+      "explain": "Like the Sundarbans."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which waste can be recycled?",
+      "options": [
+        "Banana peels",
+        "Leftover rice",
+        "Old newspapers",
+        "Tea leaves"
+      ],
+      "answer": 2,
+      "explain": "Paper can be made into new paper."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why do we need to eat different kinds of food, not just one?",
+      "options": [
+        "Only for the taste",
+        "Each food group does a different job for the body",
+        "Because one food is always poisonous",
+        "To make meals longer"
+      ],
+      "answer": 1,
+      "explain": "A balanced diet."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "How are food, water and habitats connected for a tiger in the Sundarbans?",
+      "modelAnswer": "The tiger needs the mangrove forest (its habitat) for shelter and hunting. It eats deer, fish and other animals that live there, which themselves depend on the plants and water of the delta. If the forest or river is damaged, the tiger loses its food and home.",
+      "rubric": [
+        "Habitat gives shelter/food",
+        "Food chain link",
+        "Damage harms tiger"
+      ],
+      "explain": "Connecting ideas."
+    }
+  ]
+}

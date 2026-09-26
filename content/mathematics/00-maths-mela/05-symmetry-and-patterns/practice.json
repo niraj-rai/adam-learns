@@ -1,0 +1,120 @@
+{
+  "topicId": "symmetry-and-patterns",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "How many lines of symmetry does a rectangle (not a square) have?",
+      "options": [
+        "1",
+        "4",
+        "0",
+        "2"
+      ],
+      "answer": 3,
+      "explain": "Its diagonals are not lines of symmetry.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which letter has a vertical line of symmetry?",
+      "options": [
+        "A",
+        "F",
+        "R",
+        "G"
+      ],
+      "answer": 0,
+      "explain": "Its left and right halves match.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many lines of symmetry does an equilateral triangle have?",
+      "options": [
+        "2",
+        "0",
+        "3",
+        "1"
+      ],
+      "answer": 2,
+      "explain": "One from each corner to the middle of the opposite side."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which shape cannot tile a floor without gaps?",
+      "options": [
+        "Rectangle",
+        "Circle",
+        "Hexagon",
+        "Square"
+      ],
+      "answer": 1,
+      "explain": "Circles leave gaps."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What comes next? 🔺🔵🔵🔺🔵🔵🔺…",
+      "options": [
+        "🟩",
+        "⭐",
+        "🔺",
+        "🔵"
+      ],
+      "answer": 3,
+      "explain": "The pattern repeats 🔺🔵🔵."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which shape has no line of symmetry?",
+      "options": [
+        "A scalene triangle (all sides different)",
+        "A regular hexagon",
+        "A circle",
+        "A square"
+      ],
+      "answer": 0,
+      "explain": "No fold makes the halves match."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How many lines of symmetry does a regular hexagon have?",
+      "answer": 6,
+      "tolerance": 0,
+      "explain": "Three through opposite corners and three through opposite sides."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Explain how you can check whether a shape has a line of symmetry.",
+      "modelAnswer": "Fold the shape (or use a mirror) along a line. If the two halves match exactly, with every part lying on top of the other, that line is a line of symmetry.",
+      "rubric": [
+        "Fold or mirror",
+        "Halves match exactly"
+      ],
+      "explain": "Explaining."
+    }
+  ]
+}

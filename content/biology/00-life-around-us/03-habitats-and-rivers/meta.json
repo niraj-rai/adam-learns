@@ -1,0 +1,57 @@
+{
+  "id": "habitats-and-rivers",
+  "number": "0.3",
+  "title": "Homes of Plants and Animals",
+  "summary": "Habitats from mountains to deserts, the journey of a river, and how living things are suited to where they live.",
+  "emoji": "🏞️",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Living things, PYP 5 Science"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 2: Journey of a River",
+        "verified": true
+      },
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 6: Some Unique Places",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can name different habitats.",
+    "I can describe how animals are suited to their habitat.",
+    "I can describe a river’s journey from mountain to sea."
+  ],
+  "misconceptions": [
+    "Any animal can live anywhere.",
+    "Deserts have no living things.",
+    "Rivers begin in the sea."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "adaptation-lab"
+  ],
+  "keyTerms": [
+    "habitat",
+    "adaptation",
+    "desert",
+    "forest",
+    "river",
+    "glacier",
+    "delta"
+  ],
+  "estMinutes": 20
+}

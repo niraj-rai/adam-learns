@@ -1,0 +1,53 @@
+{
+  "id": "material-explorer",
+  "number": "0.4",
+  "title": "Boss Challenge: Material Explorer",
+  "summary": "Ten Grade 5 puzzles about water, mixing and fabrics. Three lives!",
+  "emoji": "🧪",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Unit check-in (PYP 5)"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 1",
+        "verified": true
+      },
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 8",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can use what I learnt in this unit."
+  ],
+  "misconceptions": [
+    "Rushing: read each question carefully."
+  ],
+  "prerequisites": [
+    "chemistry/materials-and-water/states-of-water",
+    "chemistry/materials-and-water/mixing-and-dissolving",
+    "chemistry/materials-and-water/fibres-and-fabrics"
+  ],
+  "labs": [
+    "material-explorer"
+  ],
+  "keyTerms": [
+    "evaporation",
+    "dissolve",
+    "fibre"
+  ],
+  "estMinutes": 15
+}

@@ -2,6 +2,14 @@
 
 > Phase 4, after Physics, Chemistry and Biology. IB MYP Mathematics has Standard and Extended tracks in MYP 4–5. CBSE uses *Ganita Prakash* (the new NCERT maths series) for Classes 6–8.
 
+## Grade 5 (L0 starter) ✅ built (IB PYP 5; NCERT Class 5 books verified 2026)
+
+| Unit | Topics | NCERT Class 5 | Labs |
+|---|---|---|---|
+| 0. Starter: Maths Mela | Big numbers · Fractions · Angles as turns · Length, weight, capacity and time · Symmetry and patterns · Data and maps · Boss | Maths Mela (2025): all 15 chapters | **Place Value Counter**, Fraction Wall, **Angles as Turns**, **Measure and Convert**, Tiling Studio, Chart Maker, Maths Mela Master |
+
+Grade 5 units are a single "Unit 0" starter per subject (stage G5), written in simpler language. Bold labs are new for Grade 5.
+
 ## L0–L2: Up to Grade 8
 
 IB MYP Mathematics criteria: **A** Knowing & understanding · **B** Investigating patterns · **C** Communicating · **D** Applying mathematics in real-life contexts. The app shows these labels on Maths lessons and questions (Sciences keep their own).

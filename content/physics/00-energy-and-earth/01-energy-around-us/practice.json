@@ -1,0 +1,148 @@
+{
+  "topicId": "energy-around-us",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which of these is a renewable source of energy?",
+      "options": [
+        "Sunlight",
+        "Diesel",
+        "Petrol",
+        "Coal"
+      ],
+      "answer": 0,
+      "explain": "The Sun keeps shining.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A ceiling fan changes electricity mainly into…",
+      "options": [
+        "light",
+        "sound only",
+        "movement",
+        "water"
+      ],
+      "answer": 2,
+      "explain": "The blades turn."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which form of energy do we get from a burning candle?",
+      "options": [
+        "Electricity",
+        "Light and heat",
+        "Only sound",
+        "Wind"
+      ],
+      "answer": 1,
+      "explain": "A flame glows and is hot."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why should we save petrol and coal?",
+      "options": [
+        "They are free",
+        "They grow back quickly",
+        "They are made by plants every day",
+        "They will run out one day and their smoke pollutes the air"
+      ],
+      "answer": 3,
+      "explain": "They are non-renewable."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is the best way to save electricity at home?",
+      "options": [
+        "Switch off lights and fans when leaving a room",
+        "Keep the fridge door open",
+        "Use lights during the day",
+        "Leave the TV on all night"
+      ],
+      "answer": 0,
+      "explain": "Energy not used is energy saved.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A solar cooker uses energy from…",
+      "options": [
+        "a battery",
+        "coal",
+        "the Sun",
+        "the wind"
+      ],
+      "answer": 2,
+      "explain": "It traps sunlight to cook food."
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Sort the energy sources.",
+      "bins": [
+        "Renewable",
+        "Non-renewable"
+      ],
+      "items": [
+        {
+          "label": "Wind",
+          "bin": 0
+        },
+        {
+          "label": "Coal",
+          "bin": 1
+        },
+        {
+          "label": "Sunlight",
+          "bin": 0
+        },
+        {
+          "label": "Petrol",
+          "bin": 1
+        },
+        {
+          "label": "Flowing water",
+          "bin": 0
+        },
+        {
+          "label": "Cooking gas (LPG)",
+          "bin": 1
+        }
+      ],
+      "explain": "Renewable sources are refilled by nature."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Your class wants to use less electricity. Suggest three ideas and say why each helps.",
+      "modelAnswer": "Switch off lights and fans when the room is empty, because they waste energy when no one needs them. Open windows to use daylight instead of bulbs. Use LED bulbs, which give the same light using less electricity.",
+      "rubric": [
+        "Three sensible ideas",
+        "Each idea has a reason"
+      ],
+      "explain": "Explaining ideas."
+    }
+  ]
+}

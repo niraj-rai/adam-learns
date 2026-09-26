@@ -1,0 +1,34 @@
+{
+  "id": "life-around-us",
+  "number": 0,
+  "stage": "G5",
+  "title": "Starter: Life Around Us",
+  "summary": "Grade 5: the food we eat and how to keep it fresh, where plants and animals live, and how we can care for our shared Earth.",
+  "ib": {
+    "keyConcept": "Connection",
+    "relatedConcepts": [
+      "Interdependence",
+      "Health",
+      "Responsibility"
+    ],
+    "globalContext": "PYP theme: Sharing the planet",
+    "statementOfInquiry": "Living things depend on food, water and their habitats, and people are responsible for caring for them."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What food groups do we need?",
+      "Why do foods spoil?"
+    ],
+    "conceptual": [
+      "How are living things suited to where they live?"
+    ],
+    "debatable": [
+      "Should plastic bags be banned in every market?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 5 Our Wondrous World: The Mystery of Food",
+    "Class 5 Our Wondrous World: Journey of a River",
+    "Class 5 Our Wondrous World: Earth: Our Shared Home"
+  ]
+}

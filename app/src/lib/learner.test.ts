@@ -46,10 +46,10 @@ describe('learner', () => {
     expect(topicGrade(next.topic!)).toBe(8)
   })
 
-  it('falls back to the nearest grade with content', () => {
+  it('has content for every grade in every subject', () => {
     expect(gradeTopics('physics', 9).length).toBeGreaterThan(0)
-    expect(effectiveGrade(10, 'mathematics')).toBe(10)
-    expect(effectiveGrade(5, 'mathematics')).toBeGreaterThan(5)
+    for (const subject of ['physics', 'chemistry', 'biology', 'mathematics'])
+      for (const g of [5, 6, 7, 8, 9, 10] as const) expect(effectiveGrade(g, subject), `${subject} grade ${g}`).toBe(g)
   })
 })
 

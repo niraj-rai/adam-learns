@@ -1,0 +1,53 @@
+{
+  "id": "angles-as-turns",
+  "number": "0.3",
+  "title": "Angles as Turns",
+  "summary": "Quarter, half and full turns, degrees, right, acute and obtuse angles, and directions.",
+  "emoji": "🧭",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Geometry, PYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Maths Mela (2025) Ch 3: Angles as Turns",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can describe turns as fractions of a full turn.",
+    "I can measure turns in degrees.",
+    "I can name acute, right and obtuse angles."
+  ],
+  "misconceptions": [
+    "Longer arms make a bigger angle.",
+    "A right angle must point to the right.",
+    "A half turn is 90°."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "angle-turns"
+  ],
+  "keyTerms": [
+    "turn",
+    "angle",
+    "degree",
+    "right angle",
+    "acute angle",
+    "obtuse angle",
+    "straight angle",
+    "clockwise"
+  ],
+  "estMinutes": 20
+}

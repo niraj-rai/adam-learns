@@ -1,0 +1,106 @@
+{
+  "topicId": "measurement",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many metres are in 4 km?",
+      "answer": 4000,
+      "tolerance": 0,
+      "explain": "4 × 1000.",
+      "unit": "m",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many grams are in 3 kg 200 g?",
+      "answer": 3200,
+      "tolerance": 0,
+      "explain": "3000 + 200.",
+      "unit": "g",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many millilitres are in 2 L 500 mL?",
+      "answer": 2500,
+      "tolerance": 0,
+      "explain": "2000 + 500.",
+      "unit": "mL"
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many seconds are in 3 minutes?",
+      "answer": 180,
+      "tolerance": 0,
+      "explain": "3 × 60.",
+      "unit": "s",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which unit is best for measuring the distance between two cities?",
+      "options": [
+        "Millilitres",
+        "Centimetres",
+        "Kilometres",
+        "Grams"
+      ],
+      "answer": 2,
+      "explain": "Big distances use km."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A bucket holds 10 L. How many 500 mL mugs of water fill it?",
+      "answer": 20,
+      "tolerance": 0,
+      "explain": "10,000 ÷ 500."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A film starts at 4:15 pm and lasts 2 hours 30 minutes. When does it end?",
+      "options": [
+        "7:45 pm",
+        "6:45 pm",
+        "6:15 pm",
+        "6:30 pm"
+      ],
+      "answer": 1,
+      "explain": "4:15 + 2:30.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Aman says 90 seconds is less than 2 minutes but more than 1 minute. Is he right? Explain.",
+      "modelAnswer": "Yes. One minute is 60 seconds and two minutes is 120 seconds. 90 seconds = 1 minute 30 seconds, which is between them.",
+      "rubric": [
+        "Says yes",
+        "Uses 60 seconds = 1 minute"
+      ],
+      "explain": "Reasoning."
+    }
+  ]
+}

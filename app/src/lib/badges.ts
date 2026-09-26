@@ -122,6 +122,14 @@ export type BadgeId =
   | 'measure-master'
   | 'unit-statistics-and-probability'
   | 'stats-master'
+  | 'unit-energy-and-earth'
+  | 'spark-starter'
+  | 'unit-materials-and-water'
+  | 'material-explorer'
+  | 'unit-life-around-us'
+  | 'nature-explorer'
+  | 'unit-maths-mela'
+  | 'mela-master'
   | 'light-master'
   | 'perfect-score'
 
@@ -250,5 +258,13 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'measure-master': { title: "Circles and Solids Master", emoji: '⭕', description: "Solved ten Grade 10 circle and solid problems (Boss Challenge)" },
   'unit-statistics-and-probability': { title: "Data Scientist", emoji: '📊', description: "Mastered every core topic in Grade 10 Maths Unit 21: Statistics and Probability" },
   'stats-master': { title: "Statistics Master", emoji: '🎲', description: "Solved ten Grade 10 statistics and probability problems (Boss Challenge)" },
+  'unit-energy-and-earth': { title: "Young Physicist", emoji: '✨', description: "Mastered every topic in the Grade 5 Physics starter unit: Energy, Day and Night" },
+  'spark-starter': { title: "Spark Starter", emoji: '✨', description: "Solved ten Grade 5 energy and Earth puzzles (Boss Challenge)" },
+  'unit-materials-and-water': { title: "Young Chemist", emoji: '💧', description: "Mastered every topic in the Grade 5 Chemistry starter unit: Water and Materials" },
+  'material-explorer': { title: "Material Explorer", emoji: '🧪', description: "Solved ten Grade 5 materials puzzles (Boss Challenge)" },
+  'unit-life-around-us': { title: "Young Biologist", emoji: '🌳', description: "Mastered every topic in the Grade 5 Biology starter unit: Life Around Us" },
+  'nature-explorer': { title: "Nature Explorer", emoji: '🌳', description: "Solved ten Grade 5 nature puzzles (Boss Challenge)" },
+  'unit-maths-mela': { title: "Young Mathematician", emoji: '🎡', description: "Mastered every topic in the Grade 5 Maths starter unit: Maths Mela" },
+  'mela-master': { title: "Maths Mela Master", emoji: '🎡', description: "Solved ten Grade 5 maths puzzles (Boss Challenge)" },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

@@ -1,0 +1,149 @@
+{
+  "topicId": "food-and-nutrients",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which food group gives us most of our energy?",
+      "options": [
+        "Carbohydrates",
+        "Vitamins",
+        "Water",
+        "Minerals"
+      ],
+      "answer": 0,
+      "explain": "Rice, roti and potatoes.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which of these is rich in protein?",
+      "options": [
+        "Rice",
+        "Sugar",
+        "Dal",
+        "Oil"
+      ],
+      "answer": 2,
+      "explain": "Pulses build the body.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Fruits and vegetables mainly give us…",
+      "options": [
+        "nothing useful",
+        "vitamins, minerals and fibre",
+        "only protein",
+        "only fat"
+      ],
+      "answer": 1,
+      "explain": "Protective foods."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why do we need fibre (roughage)?",
+      "options": [
+        "It makes bones",
+        "It builds muscles",
+        "It gives lots of energy",
+        "It helps food move through our gut"
+      ],
+      "answer": 3,
+      "explain": "Fibre prevents constipation."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which meal is the most balanced?",
+      "options": [
+        "Roti, dal, sabzi, curd and a fruit",
+        "Only rice",
+        "Chips and a cold drink",
+        "Sweets and biscuits"
+      ],
+      "answer": 0,
+      "explain": "All groups are there."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why is drinking water important?",
+      "options": [
+        "It gives protein",
+        "It replaces all food",
+        "It helps digestion and keeps the body cool",
+        "It is only needed in summer"
+      ],
+      "answer": 2,
+      "explain": "We need water every day."
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Sort the foods.",
+      "bins": [
+        "Energy-giving",
+        "Body-building",
+        "Protective"
+      ],
+      "items": [
+        {
+          "label": "Rice",
+          "bin": 0
+        },
+        {
+          "label": "Paneer",
+          "bin": 1
+        },
+        {
+          "label": "Spinach",
+          "bin": 2
+        },
+        {
+          "label": "Ghee",
+          "bin": 0
+        },
+        {
+          "label": "Eggs",
+          "bin": 1
+        },
+        {
+          "label": "Orange",
+          "bin": 2
+        }
+      ],
+      "explain": "Carbs and fats give energy; proteins build; fruit and vegetables protect."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Plan a healthy school tiffin and explain why it is balanced.",
+      "modelAnswer": "For example: two rotis with paneer sabzi, some cucumber and carrot sticks, and a banana, with a bottle of water. The rotis give energy, the paneer gives protein, and the vegetables and fruit give vitamins, minerals and fibre.",
+      "rubric": [
+        "Includes all groups",
+        "Explains each item’s job"
+      ],
+      "explain": "Planning."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "topicId": "material-explorer",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Melting is when…",
+      "options": [
+        "a solid turns into a liquid",
+        "a liquid turns into a solid",
+        "a liquid turns into a gas",
+        "a gas turns into a liquid"
+      ],
+      "answer": 0,
+      "explain": "Like ice to water."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "The misty drops on a bathroom mirror after a hot shower come from…",
+      "options": [
+        "evaporation of the mirror",
+        "soap",
+        "condensation of water vapour",
+        "the mirror melting"
+      ],
+      "answer": 2,
+      "explain": "Warm vapour meets the cold mirror."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is insoluble in water?",
+      "options": [
+        "Glucose",
+        "Chalk powder",
+        "Sugar",
+        "Salt"
+      ],
+      "answer": 1,
+      "explain": "It makes the water cloudy and settles."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Jute is used to make…",
+      "options": [
+        "glass bottles",
+        "silk saris",
+        "woollen socks",
+        "sacks and bags"
+      ],
+      "answer": 3,
+      "explain": "It is strong and rough."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which change can be reversed easily?",
+      "options": [
+        "Ice melting into water",
+        "Baking a cake",
+        "Burning paper",
+        "Cooking an egg"
+      ],
+      "answer": 0,
+      "explain": "Freeze the water again!"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "How do salt pans on the coast make salt?",
+      "options": [
+        "They freeze sea water",
+        "Salt grows from the sand",
+        "Sea water evaporates in the sun and leaves salt behind",
+        "They filter sea water"
+      ],
+      "answer": 2,
+      "explain": "Evaporation."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which fibre would you choose for a strong fishing net?",
+      "options": [
+        "Cotton wool",
+        "Nylon",
+        "Paper",
+        "Silk thread"
+      ],
+      "answer": 1,
+      "explain": "Nylon is very strong and doesn’t rot in water."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why should we not waste water, even though it goes round the water cycle?",
+      "modelAnswer": "Only a small part of Earth’s water is fresh water we can use, and it takes time for the water cycle to refill rivers, lakes and groundwater. Many people face water shortages, so wasting clean water means less for others.",
+      "rubric": [
+        "Little fresh water",
+        "Refill is slow / shortages"
+      ],
+      "explain": "Explaining ideas."
+    }
+  ]
+}

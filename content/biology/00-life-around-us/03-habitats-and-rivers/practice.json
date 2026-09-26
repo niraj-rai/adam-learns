@@ -1,0 +1,125 @@
+{
+  "topicId": "habitats-and-rivers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The place where a plant or animal lives is its…",
+      "options": [
+        "shadow",
+        "hobby",
+        "season",
+        "habitat"
+      ],
+      "answer": 3,
+      "explain": "It gives food, water and shelter.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which animal is suited to very cold mountains?",
+      "options": [
+        "Snow leopard",
+        "Peacock",
+        "Camel",
+        "Crocodile"
+      ],
+      "answer": 0,
+      "explain": "Thick fur and wide paws for snow."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where does the Ganga begin?",
+      "options": [
+        "In the Bay of Bengal",
+        "In the Thar desert",
+        "At the Gangotri glacier in the Himalaya",
+        "In Mumbai"
+      ],
+      "answer": 2,
+      "explain": "Melting ice feeds the river.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why does a cactus have spines instead of big leaves?",
+      "options": [
+        "To stay warm",
+        "To lose less water and keep animals away",
+        "To swim",
+        "To catch fish"
+      ],
+      "answer": 1,
+      "explain": "Big leaves lose more water."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A fish breathes using its…",
+      "options": [
+        "tail",
+        "lungs",
+        "fins",
+        "gills"
+      ],
+      "answer": 3,
+      "explain": "Gills take oxygen from water."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why do many towns grow beside rivers?",
+      "options": [
+        "Rivers give water for drinking, farming and transport",
+        "Rivers are always cold",
+        "Rivers are quiet",
+        "There is no reason"
+      ],
+      "answer": 0,
+      "explain": "Many old cities are on river banks."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where is the Sundarbans, the home of the Bengal tiger?",
+      "options": [
+        "In a city park",
+        "In the Thar desert",
+        "In the delta where the Ganga meets the sea",
+        "At the top of the Himalaya"
+      ],
+      "answer": 2,
+      "explain": "A mangrove forest."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Choose an animal and explain two ways it is suited to its habitat.",
+      "modelAnswer": "For example, a camel lives in the hot desert. Its hump stores fat for energy when food is scarce, and its long eyelashes and closable nostrils keep out sand.",
+      "rubric": [
+        "Names animal and habitat",
+        "Two correct adaptations with reasons"
+      ],
+      "explain": "Explaining ideas."
+    }
+  ]
+}

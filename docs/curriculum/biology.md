@@ -2,6 +2,14 @@
 
 > Phase 4. Same legend as [chemistry.md](chemistry.md). The detailed topic breakdown will be added when this subject starts. Treat the ⚠️ CBSE *Curiosity* chapter tags as unverified.
 
+## Grade 5 (L0 starter) ✅ built (IB PYP 5; NCERT Class 5 books verified 2026)
+
+| Unit | Topics | NCERT Class 5 | Labs |
+|---|---|---|---|
+| 0. Starter: Life Around Us | Food and nutrients · Keeping food fresh · Homes of plants and animals · Earth: our shared home · Boss | Our Wondrous World Ch 2 (Journey of a River), Ch 3 (The Mystery of Food), Ch 6 (Some Unique Places), Ch 10 (Earth: Our Shared Home) | Build a Balanced Thali, Food Preserver, Adapt-o-matic, Waste Sorter, Nature Explorer |
+
+Grade 5 units are a single "Unit 0" starter per subject (stage G5), written in simpler language. Bold labs are new for Grade 5.
+
 ## L0–L2: Up to Grade 8
 
 ### Unit 1: Living Things & Classification ✅ built

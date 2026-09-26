@@ -1,0 +1,51 @@
+{
+  "id": "fractions",
+  "number": "0.2",
+  "title": "Fractions",
+  "summary": "Parts of a whole, equivalent fractions, comparing fractions, and fractions of a quantity.",
+  "emoji": "🍕",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Number, PYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Maths Mela (2025) Ch 2: Fractions",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can show a fraction as part of a whole.",
+    "I can find equivalent fractions.",
+    "I can compare fractions and find a fraction of an amount."
+  ],
+  "misconceptions": [
+    "1/4 is bigger than 1/3 because 4 is bigger than 3.",
+    "Fraction parts don’t need to be equal.",
+    "2/4 and 1/2 are different amounts."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "fraction-wall"
+  ],
+  "keyTerms": [
+    "fraction",
+    "numerator",
+    "denominator",
+    "equivalent fractions",
+    "half",
+    "quarter"
+  ],
+  "estMinutes": 20
+}

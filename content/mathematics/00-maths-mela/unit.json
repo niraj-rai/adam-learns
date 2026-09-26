@@ -1,0 +1,32 @@
+{
+  "id": "maths-mela",
+  "number": 0,
+  "stage": "G5",
+  "title": "Starter: Maths Mela",
+  "summary": "Grade 5: big numbers and the Indian place-value system, fractions, angles as turns, measuring and converting, symmetry, and reading data and maps.",
+  "ib": {
+    "keyConcept": "Form",
+    "relatedConcepts": [
+      "Quantity",
+      "Pattern",
+      "Measurement"
+    ],
+    "globalContext": "PYP theme: How we organise ourselves",
+    "statementOfInquiry": "Numbers, shapes and measures help us describe, compare and organise the world around us."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "How do we read numbers in lakhs?",
+      "How many degrees are in a full turn?"
+    ],
+    "conceptual": [
+      "Why do we need standard units to measure?"
+    ],
+    "debatable": [
+      "Is it better to estimate or to measure exactly?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 5 Maths Mela (2025)"
+  ]
+}

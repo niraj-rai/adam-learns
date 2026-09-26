@@ -1,0 +1,125 @@
+{
+  "topicId": "seasons-and-the-year",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is one trip of the Earth round the Sun called?",
+      "options": [
+        "A month",
+        "A day",
+        "A week",
+        "A year"
+      ],
+      "answer": 3,
+      "explain": "About 365¼ days.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What mainly causes the seasons?",
+      "options": [
+        "The tilt of the Earth’s axis",
+        "The Moon",
+        "Clouds",
+        "The Earth moving much closer to the Sun"
+      ],
+      "answer": 0,
+      "explain": "The tilt changes how directly sunlight falls.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many days does February have in a leap year?",
+      "options": [
+        "31",
+        "28",
+        "29",
+        "30"
+      ],
+      "answer": 2,
+      "explain": "An extra day every four years."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In June, India has summer. What season is it in Australia (southern half)?",
+      "options": [
+        "Spring",
+        "Winter",
+        "Monsoon",
+        "Summer"
+      ],
+      "answer": 1,
+      "explain": "The southern half leans away from the Sun."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In summer, days are…",
+      "options": [
+        "dark all day",
+        "always 12 hours",
+        "shorter than nights",
+        "longer than nights"
+      ],
+      "answer": 3,
+      "explain": "The Sun is up for longer."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which season brings most of India’s rain?",
+      "options": [
+        "Monsoon",
+        "Winter",
+        "Summer",
+        "Spring"
+      ],
+      "answer": 0,
+      "explain": "Moist winds from the sea bring rain from June to September."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why do we need leap years?",
+      "options": [
+        "Because the Moon changes",
+        "Because the Earth speeds up",
+        "A year is about 365¼ days, so the quarters add up",
+        "To have more holidays"
+      ],
+      "answer": 2,
+      "explain": "Four quarters make a day."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Explain the difference between the Earth’s rotation and revolution.",
+      "modelAnswer": "Rotation is the Earth spinning on its axis, once every 24 hours, which gives day and night. Revolution is the Earth travelling round the Sun, once in about 365 days, which gives a year and, with the tilt, the seasons.",
+      "rubric": [
+        "Rotation: spin, day and night",
+        "Revolution: round the Sun, a year"
+      ],
+      "explain": "Explaining ideas."
+    }
+  ]
+}

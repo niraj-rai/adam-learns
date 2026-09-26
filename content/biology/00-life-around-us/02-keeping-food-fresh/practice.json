@@ -1,0 +1,125 @@
+{
+  "topicId": "keeping-food-fresh",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What makes food spoil?",
+      "options": [
+        "Tiny living things called microbes",
+        "Salt",
+        "The colour of the plate",
+        "Too much light at night"
+      ],
+      "answer": 0,
+      "explain": "Microbes feed on food.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why do we keep milk in the fridge?",
+      "options": [
+        "To make it thicker",
+        "Cold kills all microbes",
+        "Cold slows down the growth of microbes",
+        "To make it sweeter"
+      ],
+      "answer": 2,
+      "explain": "It slows them, but doesn’t kill them all.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is a sign that food has spoilt?",
+      "options": [
+        "It is tasty",
+        "A bad smell or fuzzy mould",
+        "It is still warm",
+        "It is on a steel plate"
+      ],
+      "answer": 1,
+      "explain": "Don’t eat spoilt food."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Papads and chillies are dried in the sun because…",
+      "options": [
+        "the sun adds vitamins",
+        "it makes them heavier",
+        "it makes them wet",
+        "microbes can’t grow without water"
+      ],
+      "answer": 3,
+      "explain": "Drying removes water."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which method is used for mango pickle?",
+      "options": [
+        "Salt, oil and spices",
+        "Adding water daily",
+        "Keeping it wet and warm",
+        "Freezing"
+      ],
+      "answer": 0,
+      "explain": "Microbes can’t grow easily."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why do we boil milk?",
+      "options": [
+        "To add protein",
+        "To make it cold",
+        "To kill many of the microbes in it",
+        "To change its colour"
+      ],
+      "answer": 2,
+      "explain": "Heat kills microbes."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which conditions help microbes grow fastest?",
+      "options": [
+        "Cold and dry",
+        "Warm and moist",
+        "Frozen",
+        "Very salty"
+      ],
+      "answer": 1,
+      "explain": "Like a hot, humid kitchen."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Explain why jam made with lots of sugar can be kept for months.",
+      "modelAnswer": "The large amount of sugar takes water away from microbes, so they cannot grow. Jam is also cooked, which kills microbes, and kept in a closed jar.",
+      "rubric": [
+        "Sugar stops microbe growth",
+        "Cooking or sealing"
+      ],
+      "explain": "Explaining ideas."
+    }
+  ]
+}

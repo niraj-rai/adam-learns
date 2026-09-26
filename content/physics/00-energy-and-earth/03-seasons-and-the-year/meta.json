@@ -1,0 +1,53 @@
+{
+  "id": "seasons-and-the-year",
+  "number": "0.3",
+  "title": "Seasons and the Year",
+  "summary": "The Earth’s journey round the Sun, the tilted axis, seasons in India, and leap years.",
+  "emoji": "🌞",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Earth and space, PYP 5 Science"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 9: Rhythms of Nature",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can explain what a year is.",
+    "I can explain that the Earth’s tilt causes seasons.",
+    "I can describe India’s seasons."
+  ],
+  "misconceptions": [
+    "Summer happens because the Earth is closer to the Sun.",
+    "Every country has summer at the same time.",
+    "A year is exactly 365 days."
+  ],
+  "prerequisites": [
+    "physics/energy-and-earth/day-and-night"
+  ],
+  "labs": [
+    "seasons-lab"
+  ],
+  "keyTerms": [
+    "revolution",
+    "orbit",
+    "year",
+    "tilt",
+    "season",
+    "leap year"
+  ],
+  "estMinutes": 20
+}

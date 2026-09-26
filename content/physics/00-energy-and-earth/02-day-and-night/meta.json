@@ -1,0 +1,53 @@
+{
+  "id": "day-and-night",
+  "number": "0.2",
+  "title": "Day and Night",
+  "summary": "The spinning Earth, sunrise in the east, and why it is night in America when it is day in India.",
+  "emoji": "🌍",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Earth and space, PYP 5 Science"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 9: Rhythms of Nature",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can explain day and night using the spinning Earth.",
+    "I can say where the Sun rises and sets.",
+    "I can explain why different countries have day at different times."
+  ],
+  "misconceptions": [
+    "The Sun moves round the Earth every day.",
+    "At night the Sun goes out.",
+    "It is daytime everywhere at the same time."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "day-night"
+  ],
+  "keyTerms": [
+    "rotation",
+    "axis",
+    "day",
+    "night",
+    "sunrise",
+    "sunset",
+    "east",
+    "west"
+  ],
+  "estMinutes": 20
+}

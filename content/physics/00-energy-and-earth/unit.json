@@ -1,0 +1,33 @@
+{
+  "id": "energy-and-earth",
+  "number": 0,
+  "stage": "G5",
+  "title": "Starter: Energy, Day and Night",
+  "summary": "Grade 5: energy all around us and how to save it, why we have day and night, and how the Earth’s journey round the Sun gives seasons.",
+  "ib": {
+    "keyConcept": "Causation",
+    "relatedConcepts": [
+      "Energy",
+      "Patterns",
+      "Cycles"
+    ],
+    "globalContext": "PYP theme: How the world works",
+    "statementOfInquiry": "The Sun’s energy and the Earth’s movements create the patterns of our days and years."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "Where does our energy come from?",
+      "Why do we have day and night?"
+    ],
+    "conceptual": [
+      "How do the Earth’s movements create patterns in our lives?"
+    ],
+    "debatable": [
+      "Should every school run on solar power?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 5 Our Wondrous World: Energy — How Things Work",
+    "Class 5 Our Wondrous World: Rhythms of Nature"
+  ]
+}

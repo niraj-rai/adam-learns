@@ -1,0 +1,53 @@
+{
+  "id": "food-and-nutrients",
+  "number": "0.1",
+  "title": "Food and Nutrients",
+  "summary": "Energy-giving, body-building and protective foods, and a balanced meal.",
+  "emoji": "🍱",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Health, PYP 5 Science"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 3: The Mystery of Food",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can name the main food groups.",
+    "I can say what each food group does.",
+    "I can plan a balanced meal."
+  ],
+  "misconceptions": [
+    "Only expensive food is healthy.",
+    "Fat is always bad for you.",
+    "You only need food for energy."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "thali-builder"
+  ],
+  "keyTerms": [
+    "nutrients",
+    "carbohydrates",
+    "proteins",
+    "fats",
+    "vitamins",
+    "minerals",
+    "balanced diet",
+    "fibre"
+  ],
+  "estMinutes": 20
+}

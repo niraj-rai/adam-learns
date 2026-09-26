@@ -1,0 +1,52 @@
+{
+  "id": "energy-around-us",
+  "number": "0.1",
+  "title": "Energy Around Us",
+  "summary": "Forms of energy, where energy comes from, renewable and non-renewable sources, and saving energy.",
+  "emoji": "⚡",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Energy, PYP 5 Science"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 7: Energy — How Things Work",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can name different forms of energy.",
+    "I can tell renewable and non-renewable sources apart.",
+    "I can suggest ways to save energy."
+  ],
+  "misconceptions": [
+    "Energy gets used up and disappears.",
+    "Only electricity is energy.",
+    "Coal will never run out."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "energy-chain"
+  ],
+  "keyTerms": [
+    "energy",
+    "light",
+    "heat",
+    "sound",
+    "renewable",
+    "non-renewable",
+    "solar energy"
+  ],
+  "estMinutes": 20
+}

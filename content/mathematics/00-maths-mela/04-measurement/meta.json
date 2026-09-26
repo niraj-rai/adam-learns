@@ -1,0 +1,65 @@
+{
+  "id": "measurement",
+  "number": "0.4",
+  "title": "Length, Weight, Capacity and Time",
+  "summary": "Kilometres and metres, kilograms and grams, litres and millilitres, and hours, minutes and seconds.",
+  "emoji": "📏",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Measurement, PYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Maths Mela (2025) Ch 5: Far and Near",
+        "verified": true
+      },
+      {
+        "class": 5,
+        "chapter": "Maths Mela (2025) Ch 8: Weight and Capacity",
+        "verified": true
+      },
+      {
+        "class": 5,
+        "chapter": "Maths Mela (2025) Ch 12: Racing Seconds",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can convert between units of length, weight and capacity.",
+    "I can convert between hours, minutes and seconds.",
+    "I can choose a sensible unit."
+  ],
+  "misconceptions": [
+    "1 minute = 100 seconds.",
+    "A bigger number always means a bigger amount, whatever the unit.",
+    "1 kg of cotton is lighter than 1 kg of iron."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "unit-converter"
+  ],
+  "keyTerms": [
+    "kilometre",
+    "metre",
+    "centimetre",
+    "kilogram",
+    "gram",
+    "litre",
+    "millilitre",
+    "second",
+    "minute",
+    "hour"
+  ],
+  "estMinutes": 20
+}

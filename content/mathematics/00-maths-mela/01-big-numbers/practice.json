@@ -1,0 +1,112 @@
+{
+  "topicId": "big-numbers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the place value of 7 in 4,73,215?",
+      "options": [
+        "7,00,000",
+        "70,000",
+        "7",
+        "7,000"
+      ],
+      "answer": 1,
+      "explain": "It is in the ten-thousands place.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Write “three lakh six thousand forty” in numerals.",
+      "options": [
+        "3,60,040",
+        "3,06,400",
+        "30,60,040",
+        "3,06,040"
+      ],
+      "answer": 3,
+      "explain": "3 lakh + 6 thousand + 40.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which number is the largest?",
+      "options": [
+        "5,02,000",
+        "5,002",
+        "52,000",
+        "50,200"
+      ],
+      "answer": 0,
+      "explain": "5 lakh is bigger than the others."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How is 2,45,678 written in the international system?",
+      "options": [
+        "24,5678",
+        "2456,78",
+        "245,678",
+        "2,456,78"
+      ],
+      "answer": 2,
+      "explain": "Groups of three from the right."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A school has 1,250 students. Each needs 4 notebooks. How many notebooks in all?",
+      "answer": 5000,
+      "tolerance": 0,
+      "explain": "1,250 × 4.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A train travels 1,386 km on day 1 and 947 km on day 2. How far altogether (km)?",
+      "answer": 2333,
+      "tolerance": 0,
+      "explain": "1,386 + 947.",
+      "unit": "km"
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many thousands make one lakh?",
+      "answer": 100,
+      "tolerance": 0,
+      "explain": "1,00,000 ÷ 1,000."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Explain why the 3 in 30,000 is worth more than the 3 in 300.",
+      "modelAnswer": "In 30,000 the 3 is in the ten-thousands place, so it means 3 ten thousands = 30,000. In 300 it is in the hundreds place, so it means only 3 hundreds = 300. Each place is worth ten times the place to its right.",
+      "rubric": [
+        "Names the two places",
+        "Compares their values"
+      ],
+      "explain": "Explaining."
+    }
+  ]
+}

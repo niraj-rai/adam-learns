@@ -1,0 +1,111 @@
+{
+  "topicId": "data-and-maps",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In a pictograph, 1 ⭐ = 10 children. How many children do 6 ⭐ show?",
+      "answer": 60,
+      "tolerance": 0,
+      "explain": "6 × 10.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many does this tally show: four groups of five and 3 more lines?",
+      "answer": 23,
+      "tolerance": 0,
+      "explain": "20 + 3."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "On most maps, which direction is at the top?",
+      "options": [
+        "East",
+        "South",
+        "West",
+        "North"
+      ],
+      "answer": 3,
+      "explain": "Maps usually point North up.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In a bar graph, the tallest bar shows…",
+      "options": [
+        "the biggest number",
+        "the first item",
+        "the smallest number",
+        "nothing"
+      ],
+      "answer": 0,
+      "explain": "Taller = more."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A map scale says 1 cm = 5 km. Two towns are 3 cm apart on the map. How far apart are they really?",
+      "options": [
+        "5 km",
+        "3 km",
+        "15 km",
+        "8 km"
+      ],
+      "answer": 2,
+      "explain": "3 × 5.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why must a pictograph have a key?",
+      "options": [
+        "To make it colourful",
+        "To show how many each picture stands for",
+        "It doesn’t need one",
+        "To show the title"
+      ],
+      "answer": 1,
+      "explain": "Without a key, we can’t read it."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A bar graph shows 12 votes for mango and 7 for banana. How many more votes did mango get?",
+      "answer": 5,
+      "tolerance": 0,
+      "explain": "12 − 7."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Give directions from your classroom to the school gate using the words left, right, straight and turn.",
+      "modelAnswer": "For example: Leave the classroom and turn left. Walk straight down the corridor past the library. Go down the stairs, turn right, and walk straight to the gate.",
+      "rubric": [
+        "Clear steps in order",
+        "Uses direction words correctly"
+      ],
+      "explain": "Communicating."
+    }
+  ]
+}

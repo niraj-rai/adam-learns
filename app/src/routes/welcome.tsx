@@ -19,12 +19,12 @@ export const Route = createFileRoute('/welcome')({
 })
 
 const GRADE_INFO: Record<Grade, { ib: string; cbse: string; note?: string }> = {
-  5: { ib: 'PYP 5', cbse: 'Class 5', note: 'Starter units are on the way' },
+  5: { ib: 'PYP 5', cbse: 'Class 5', note: 'Starter units in every subject' },
   6: { ib: 'MYP 1', cbse: 'Class 6' },
   7: { ib: 'MYP 2', cbse: 'Class 7' },
   8: { ib: 'MYP 3', cbse: 'Class 8' },
-  9: { ib: 'MYP 4', cbse: 'Class 9', note: 'Being added unit by unit' },
-  10: { ib: 'MYP 5', cbse: 'Class 10', note: 'Coming after Grade 9' },
+  9: { ib: 'MYP 4', cbse: 'Class 9' },
+  10: { ib: 'MYP 5', cbse: 'Class 10' },
 }
 
 function Welcome() {

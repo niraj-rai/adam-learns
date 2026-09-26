@@ -6,6 +6,14 @@
 > ✅ = verified NCERT *Curiosity* chapter numbers (checked 2026-09-25). ⚠️ = to verify.
 > *Curiosity* Class 8 has 13 chapters. The physics ones are Ch 4 (Electricity: Magnetic and Heating Effects), Ch 5 (Exploring Forces), Ch 6 (Pressure, Winds, Storms and Cyclones), Ch 10 (Light: Mirrors and Lenses) and Ch 11 (Keeping Time with the Skies).
 
+## Grade 5 (L0 starter) ✅ built (IB PYP 5; NCERT Class 5 books verified 2026)
+
+| Unit | Topics | NCERT Class 5 | Labs |
+|---|---|---|---|
+| 0. Starter: Energy, Day and Night | Energy around us · Day and night · Seasons and the year · Boss | Our Wondrous World Ch 7 (Energy — How Things Work), Ch 9 (Rhythms of Nature) | Energy Chain, Day, Night and the Moving Sun, Seasons Lab, Spark Starter |
+
+Grade 5 units are a single "Unit 0" starter per subject (stage G5), written in simpler language. Bold labs are new for Grade 5.
+
 ## L0–L2: Up to Grade 8
 
 ### Unit 1: Measurement & Motion ✅ built

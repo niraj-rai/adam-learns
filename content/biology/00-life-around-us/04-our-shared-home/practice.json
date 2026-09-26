@@ -1,0 +1,125 @@
+{
+  "topicId": "our-shared-home",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which waste goes in the wet waste bin?",
+      "options": [
+        "Glass bottle",
+        "Metal can",
+        "Plastic wrapper",
+        "Fruit and vegetable peels"
+      ],
+      "answer": 3,
+      "explain": "It can be composted.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Carrying a cloth bag instead of taking plastic bags is an example of…",
+      "options": [
+        "reducing waste",
+        "littering",
+        "recycling",
+        "burning"
+      ],
+      "answer": 0,
+      "explain": "Less plastic is used.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why is plastic harmful to animals?",
+      "options": [
+        "It gives them vitamins",
+        "It turns into soil quickly",
+        "Animals may eat it or get tangled, and it doesn’t rot",
+        "It is tasty food"
+      ],
+      "answer": 2,
+      "explain": "Cows and turtles often swallow plastic."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is compost?",
+      "options": [
+        "Melted plastic",
+        "Rich soil made from rotted wet waste",
+        "Smoke",
+        "Broken glass"
+      ],
+      "answer": 1,
+      "explain": "Great for plants."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Using an old jar to keep pencils is…",
+      "options": [
+        "reducing",
+        "burning",
+        "polluting",
+        "reusing"
+      ],
+      "answer": 3,
+      "explain": "Same item, new job."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why should we not burn garbage?",
+      "options": [
+        "The smoke pollutes the air and harms our lungs",
+        "It makes the garbage heavier",
+        "It is good for the soil",
+        "It creates more space"
+      ],
+      "answer": 0,
+      "explain": "Burning plastic releases poisonous gases."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which action helps protect wild animals?",
+      "options": [
+        "Cutting trees for new roads everywhere",
+        "Keeping wild birds in cages",
+        "Saving forests and not buying things made from wild animals",
+        "Littering in parks"
+      ],
+      "answer": 2,
+      "explain": "Habitats matter."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Suggest three things your school can do to make less waste.",
+      "modelAnswer": "Put separate bins for wet and dry waste, and compost the wet waste for the school garden. Ask students to bring steel tiffins and bottles instead of packets. Collect paper for recycling.",
+      "rubric": [
+        "Three sensible actions",
+        "Linked to reduce/reuse/recycle"
+      ],
+      "explain": "Planning."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "topicId": "mela-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which number is “one lakh twenty thousand”?",
+      "options": [
+        "1,02,000",
+        "12,000",
+        "12,00,000",
+        "1,20,000"
+      ],
+      "answer": 3,
+      "explain": "1 lakh + 20 thousand."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is 3/4 of 24?",
+      "answer": 18,
+      "tolerance": 0,
+      "explain": "24 ÷ 4 × 3."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which angle is bigger than a right angle?",
+      "options": [
+        "150°",
+        "90°",
+        "60°",
+        "20°"
+      ],
+      "answer": 0,
+      "explain": "Obtuse."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many metres are in 5 km 75 m?",
+      "answer": 5075,
+      "tolerance": 0,
+      "explain": "5000 + 75.",
+      "unit": "m"
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many minutes are in 2 hours?",
+      "answer": 120,
+      "tolerance": 0,
+      "explain": "2 × 60.",
+      "unit": "min"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A shop sells 1,250 kites on Makar Sankranti and 875 the next day. How many in total?",
+      "options": [
+        "2,215",
+        "2,025",
+        "2,125",
+        "375"
+      ],
+      "answer": 2,
+      "explain": "1,250 + 875."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which shape has exactly one line of symmetry?",
+      "options": [
+        "A scalene triangle",
+        "An isosceles triangle (two equal sides)",
+        "A square",
+        "A circle"
+      ],
+      "answer": 1,
+      "explain": "The fold goes through the top corner."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "You have ₹500. Samosas cost ₹15 each. How many can you buy, and how much money is left? Show your working.",
+      "modelAnswer": "500 ÷ 15: 15 × 33 = 495, so you can buy 33 samosas. 500 − 495 = ₹5 is left.",
+      "rubric": [
+        "33 samosas",
+        "₹5 left",
+        "Shows working"
+      ],
+      "explain": "Problem solving."
+    }
+  ]
+}

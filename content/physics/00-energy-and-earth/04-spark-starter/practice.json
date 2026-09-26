@@ -1,0 +1,119 @@
+{
+  "topicId": "spark-starter",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is NOT a form of energy?",
+      "options": [
+        "Heat",
+        "Wood table",
+        "Light",
+        "Sound"
+      ],
+      "answer": 1,
+      "explain": "A table is an object, not energy."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Wind turbines turn wind into…",
+      "options": [
+        "petrol",
+        "coal",
+        "water",
+        "electricity"
+      ],
+      "answer": 3,
+      "explain": "Wind is renewable."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The Sun sets in the…",
+      "options": [
+        "west",
+        "east",
+        "north",
+        "south"
+      ],
+      "answer": 0,
+      "explain": "It rises in the east."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many hours in one day?",
+      "options": [
+        "12",
+        "60",
+        "24",
+        "365"
+      ],
+      "answer": 2,
+      "explain": "One spin of the Earth."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why is it colder in winter?",
+      "options": [
+        "The Sun is switched off",
+        "Our half of the Earth leans away from the Sun, so sunlight is weaker and days are shorter",
+        "The Earth stops spinning",
+        "The Moon covers the Sun"
+      ],
+      "answer": 1,
+      "explain": "The tilt again!"
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many years are there between one leap year and the next?",
+      "answer": 4,
+      "tolerance": 0,
+      "explain": "Every fourth year.",
+      "unit": "years"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A solar panel on a roof uses which energy source?",
+      "options": [
+        "Coal",
+        "Petrol",
+        "Wind",
+        "Sunlight"
+      ],
+      "answer": 3,
+      "explain": "Solar means “of the Sun”."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why is it better to use solar energy than coal to make electricity?",
+      "modelAnswer": "Sunlight is renewable, so it will not run out, while coal will. Burning coal makes smoke that pollutes the air, but solar panels do not make smoke.",
+      "rubric": [
+        "Renewable vs runs out",
+        "Clean vs pollution"
+      ],
+      "explain": "Explaining ideas."
+    }
+  ]
+}

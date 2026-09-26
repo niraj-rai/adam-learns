@@ -1,0 +1,126 @@
+{
+  "topicId": "states-of-water",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is ice?",
+      "options": [
+        "Frozen air",
+        "A different chemical from water",
+        "Water in solid form",
+        "A gas"
+      ],
+      "answer": 2,
+      "explain": "Ice melts back into water.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the change from liquid water to water vapour called?",
+      "options": [
+        "Condensation",
+        "Evaporation",
+        "Freezing",
+        "Melting"
+      ],
+      "answer": 1,
+      "explain": "It happens faster when it is warm.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "At what temperature does pure water boil?",
+      "options": [
+        "50 °C",
+        "0 °C",
+        "37 °C",
+        "100 °C"
+      ],
+      "answer": 3,
+      "explain": "At sea level."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why do wet clothes dry faster on a sunny, windy day?",
+      "options": [
+        "Heat and wind make water evaporate faster",
+        "Wind blows the water away as drops",
+        "The sun sucks water out",
+        "Clothes don’t dry in wind"
+      ],
+      "answer": 0,
+      "explain": "Evaporation speeds up."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Clouds are made of…",
+      "options": [
+        "dust only",
+        "smoke",
+        "tiny drops of water",
+        "cotton"
+      ],
+      "answer": 2,
+      "explain": "Water vapour that has condensed.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Put the water cycle in order, starting at the sea.",
+      "steps": [
+        "Water in the sea is warmed by the Sun",
+        "It evaporates as water vapour",
+        "The vapour cools and forms clouds",
+        "Rain falls",
+        "Rivers carry water back to the sea"
+      ],
+      "explain": "Evaporation, condensation, precipitation, collection."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What happens to water when it freezes?",
+      "options": [
+        "It turns into steam",
+        "It turns into solid ice",
+        "It becomes salty",
+        "It disappears"
+      ],
+      "answer": 1,
+      "explain": "At 0 °C."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A stepwell (baoli) was built in many old Indian towns. How does it help people during the dry months?",
+      "modelAnswer": "A stepwell collects and stores rainwater and groundwater during the monsoon. In the dry months people can walk down the steps to reach the water, which stays cool and does not evaporate quickly.",
+      "rubric": [
+        "Collects/stores rainwater",
+        "Available in dry season"
+      ],
+      "explain": "Explaining ideas."
+    }
+  ]
+}

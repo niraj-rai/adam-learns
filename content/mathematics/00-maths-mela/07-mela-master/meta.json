@@ -1,0 +1,52 @@
+{
+  "id": "mela-master",
+  "number": "0.7",
+  "title": "Boss Challenge: Maths Mela Master",
+  "summary": "Ten Grade 5 puzzles about numbers, fractions, angles, measurement and symmetry. Three lives!",
+  "emoji": "🎡",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Unit check-in (PYP 5)"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Maths Mela (2025) Ch 1–15",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can use what I learnt in this unit."
+  ],
+  "misconceptions": [
+    "Rushing: read each question carefully."
+  ],
+  "prerequisites": [
+    "mathematics/maths-mela/big-numbers",
+    "mathematics/maths-mela/fractions",
+    "mathematics/maths-mela/angles-as-turns",
+    "mathematics/maths-mela/measurement",
+    "mathematics/maths-mela/symmetry-and-patterns",
+    "mathematics/maths-mela/data-and-maps"
+  ],
+  "labs": [
+    "mela-master"
+  ],
+  "keyTerms": [
+    "place value",
+    "fraction",
+    "angle",
+    "symmetry"
+  ],
+  "estMinutes": 15
+}

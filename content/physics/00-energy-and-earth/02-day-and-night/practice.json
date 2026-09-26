@@ -1,0 +1,126 @@
+{
+  "topicId": "day-and-night",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why do we have day and night?",
+      "options": [
+        "The Earth spins on its axis",
+        "The Moon hides the Sun",
+        "Clouds cover the Sun",
+        "The Sun goes round the Earth"
+      ],
+      "answer": 0,
+      "explain": "Each place turns towards and away from the Sun.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In which direction does the Sun rise?",
+      "options": [
+        "South",
+        "North",
+        "East",
+        "West"
+      ],
+      "answer": 2,
+      "explain": "Because the Earth spins west to east.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How long does the Earth take to spin once?",
+      "options": [
+        "About 1 year",
+        "About 24 hours",
+        "About 7 days",
+        "About 1 hour"
+      ],
+      "answer": 1,
+      "explain": "That is one day."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which part of India sees the sunrise first?",
+      "options": [
+        "Ladakh in the north",
+        "Gujarat in the west",
+        "Kerala in the south",
+        "Arunachal Pradesh in the east"
+      ],
+      "answer": 3,
+      "explain": "The east turns to face the Sun first."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "When it is day in India, it is night in…",
+      "options": [
+        "the USA, on the other side of the Earth",
+        "Nepal, next to India",
+        "no country",
+        "every country"
+      ],
+      "answer": 0,
+      "explain": "The far side faces away from the Sun."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "At what time of day is your shadow shortest?",
+      "options": [
+        "Early morning",
+        "At night",
+        "Around noon",
+        "Late evening"
+      ],
+      "answer": 2,
+      "explain": "The Sun is highest in the sky."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the Earth’s axis?",
+      "options": [
+        "A road around the Earth",
+        "An imaginary line through the North and South Poles",
+        "The equator",
+        "A real metal rod"
+      ],
+      "answer": 1,
+      "explain": "The Earth spins around it."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Your little cousin thinks the Sun moves across the sky. How would you explain what really happens?",
+      "modelAnswer": "The Sun stays in its place. The Earth spins round once every 24 hours. As our part of the Earth turns towards the Sun, we see it rise in the east; as we turn away, it seems to set in the west, and it becomes night.",
+      "rubric": [
+        "Sun does not move across the sky",
+        "Earth spins",
+        "Links to rising and setting"
+      ],
+      "explain": "Explaining ideas."
+    }
+  ]
+}

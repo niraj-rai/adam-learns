@@ -1,0 +1,125 @@
+{
+  "topicId": "mixing-and-dissolving",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which of these dissolves in water?",
+      "options": [
+        "Sawdust",
+        "Salt",
+        "Sand",
+        "Pebbles"
+      ],
+      "answer": 1,
+      "explain": "It disappears but makes the water salty.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How can you make sugar dissolve faster?",
+      "options": [
+        "Use ice-cold water",
+        "Use a big lump",
+        "Don’t stir",
+        "Use warm water and stir"
+      ],
+      "answer": 3,
+      "explain": "Warmth and stirring help.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Oil is poured into water. What happens?",
+      "options": [
+        "It floats on top",
+        "It sinks and disappears",
+        "It dissolves",
+        "It turns into water"
+      ],
+      "answer": 0,
+      "explain": "Oil doesn’t mix with water."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "How can you get salt back from salty water?",
+      "options": [
+        "Freeze it quickly",
+        "Stir it",
+        "Let the water evaporate in the sun",
+        "Filter it"
+      ],
+      "answer": 2,
+      "explain": "The salt stays behind."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Muddy water is poured through a cloth. What is this called?",
+      "options": [
+        "Boiling",
+        "Filtering",
+        "Dissolving",
+        "Melting"
+      ],
+      "answer": 1,
+      "explain": "The cloth catches the mud."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A spoon of sugar is dissolved in a glass of water. Where is the sugar?",
+      "options": [
+        "Stuck to the spoon",
+        "Gone for ever",
+        "In the air",
+        "Spread through the water in tiny pieces"
+      ],
+      "answer": 3,
+      "explain": "You can taste it."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is a mixture you drink?",
+      "options": [
+        "Lemonade (nimbu pani)",
+        "Pure water",
+        "Air",
+        "A glass"
+      ],
+      "answer": 0,
+      "explain": "Water, lemon, sugar and salt!"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "How would you separate a mixture of sand, salt and water?",
+      "modelAnswer": "First filter the mixture through cloth or filter paper to catch the sand. Then leave the salty water in the sun (or heat it) so the water evaporates, leaving the salt behind.",
+      "rubric": [
+        "Filter to remove sand",
+        "Evaporate to get salt"
+      ],
+      "explain": "Planning."
+    }
+  ]
+}
