@@ -1,0 +1,12 @@
+export type Tissue = { id: string; name: string; group: string; cells: string; job: string; clue: string }
+
+export const TISSUES: Tissue[] = [
+  { id: 'meristem', name: 'Apical meristem', group: 'Meristematic', cells: 'Small, packed cells with thin walls, dense cytoplasm, big nuclei and no vacuoles; they keep dividing.', job: 'Makes new cells so the root and shoot tips grow longer.', clue: 'keeps dividing to make roots and shoots grow longer' },
+  { id: 'epidermis', name: 'Epidermis', group: 'Permanent · protective', cells: 'A single layer of flat, tightly packed cells, often with a waxy cuticle; stomata in leaves.', job: 'Protects the plant from water loss, germs and injury.', clue: 'covers and protects the plant, often with a waxy cuticle' },
+  { id: 'collenchyma', name: 'Collenchyma', group: 'Permanent · simple', cells: 'Living, elongated cells thickened at the corners.', job: 'Gives flexibility and support, so stems and leaves bend without breaking.', clue: 'lets young stems bend without breaking' },
+  { id: 'parenchyma', name: 'Parenchyma (cortex and pith)', group: 'Permanent · simple', cells: 'Living, loosely packed, thin-walled cells with spaces between them.', job: 'Stores food; with chloroplasts it photosynthesises (chlorenchyma); with air spaces it helps plants float (aerenchyma).', clue: 'stores food in loosely packed, thin-walled cells' },
+  { id: 'sclerenchyma', name: 'Sclerenchyma', group: 'Permanent · simple', cells: 'Dead, long, narrow cells with walls thickened by lignin; no spaces between them.', job: 'Makes plant parts hard and stiff: coconut husk fibres, jute and seed coats.', clue: 'is made of dead, lignified cells that make parts hard (like coconut husk)' },
+  { id: 'xylem', name: 'Xylem', group: 'Permanent · complex', cells: 'Tracheids and vessels (dead, hollow tubes), xylem parenchyma and fibres.', job: 'Carries water and minerals UP from the roots; also supports the plant.', clue: 'carries water and minerals up from the roots' },
+  { id: 'phloem', name: 'Phloem', group: 'Permanent · complex', cells: 'Sieve tubes, companion cells, phloem fibres and parenchyma; mostly living.', job: 'Carries food (sugars) made in the leaves to all parts of the plant, up and down.', clue: 'carries food from the leaves to other parts' },
+  { id: 'cambium', name: 'Cambium (lateral meristem)', group: 'Meristematic', cells: 'A thin ring of dividing cells between xylem and phloem.', job: 'Makes the stem and root grow thicker (girth).', clue: 'makes the stem grow thicker' },
+]

@@ -1,0 +1,139 @@
+{
+  "topicId": "muscles-and-joints",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why do muscles work in pairs?",
+      "options": [
+        "Muscles can only push",
+        "One muscle is always resting",
+        "Bones are too heavy for one muscle",
+        "Muscles can only pull, so a second muscle is needed to move the bone back"
+      ],
+      "answer": 3,
+      "explain": "Contracting muscles pull; they cannot push.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What joins one bone to another at a joint?",
+      "options": [
+        "Ligament",
+        "Tendon",
+        "Nerve",
+        "Cartilage only"
+      ],
+      "answer": 0,
+      "explain": "Ligaments hold bones together.",
+      "feedback": {
+        "1": "Tendons join muscles to bones."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each joint to where it is found.",
+      "pairs": [
+        {
+          "left": "Hinge joint",
+          "right": "Knee"
+        },
+        {
+          "left": "Ball and socket joint",
+          "right": "Hip"
+        },
+        {
+          "left": "Pivot joint",
+          "right": "Top of the neck"
+        },
+        {
+          "left": "Fixed joint",
+          "right": "Skull"
+        }
+      ],
+      "explain": "Each type allows a different range of movement."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which joint lets your arm move in a full circle?",
+      "options": [
+        "Fixed joint in the skull",
+        "Pivot joint in the neck",
+        "Ball and socket joint at the shoulder",
+        "Hinge joint at the elbow"
+      ],
+      "answer": 2,
+      "explain": "A ball in a cup-shaped socket allows movement in all directions."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "What is the role of cartilage at the end of bones in a joint?",
+      "options": [
+        "It joins muscle to bone",
+        "It reduces friction and absorbs shock",
+        "It stores fat",
+        "It makes blood cells"
+      ],
+      "answer": 1,
+      "explain": "Smooth, slightly springy cartilage protects the bone ends."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which vitamin helps the body absorb calcium to build bones, and is made in the skin in sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "answer": 3,
+      "explain": "Vitamin D deficiency can cause rickets in children."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "When you kick a football, your leg straightens at the knee. Which muscle contracts?",
+      "options": [
+        "The quadriceps at the front of the thigh",
+        "The hamstrings at the back of the thigh",
+        "The biceps",
+        "The heart"
+      ],
+      "answer": 0,
+      "explain": "The quadriceps pulls the lower leg straight; the hamstrings bend the knee."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Explain why the teenage years are especially important for building strong bones, and suggest two habits that help.",
+      "modelAnswer": "Most bone mass is built during childhood and the teenage years, reaching a peak in the early twenties; after that it slowly declines. Building more bone now means stronger bones and less risk of fractures and osteoporosis later in life. Habits: eating calcium-rich foods (milk, curd, ragi, leafy greens), getting some sunlight for vitamin D, and doing regular weight-bearing exercise such as running, skipping or sports.",
+      "rubric": [
+        "Peak bone mass is built in the teens/early twenties",
+        "Benefit later in life (less osteoporosis/fracture)",
+        "Two valid habits"
+      ],
+      "explain": "Criterion D: health choices."
+    }
+  ]
+}

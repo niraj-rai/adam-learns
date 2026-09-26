@@ -1,0 +1,63 @@
+{
+  "id": "flowering-plants",
+  "number": "11.2",
+  "title": "Sexual Reproduction in Flowering Plants",
+  "summary": "Pollination, the pollen tube, fertilisation, and how ovules and ovaries become seeds and fruits.",
+  "emoji": "🌸",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Reproduction in plants, MYP 4 Biology"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 11: Reproduction",
+        "verified": true
+      },
+      {
+        "class": 10,
+        "chapter": "Earlier NCERT: How do Organisms Reproduce?",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe self- and cross-pollination.",
+    "I can explain fertilisation in flowering plants.",
+    "I can explain how seeds and fruits form."
+  ],
+  "misconceptions": [
+    "Pollination and fertilisation are the same.",
+    "The seed forms from the ovary.",
+    "Only insects pollinate flowers."
+  ],
+  "prerequisites": [
+    "biology/reproduction/flowers-and-pollination",
+    "biology/life-continues/asexual-reproduction"
+  ],
+  "labs": [
+    "pollen-tube"
+  ],
+  "keyTerms": [
+    "pollination",
+    "self-pollination",
+    "cross-pollination",
+    "pollen tube",
+    "fertilisation",
+    "zygote",
+    "ovule",
+    "seed",
+    "fruit"
+  ],
+  "estMinutes": 25
+}

@@ -1,0 +1,151 @@
+{
+  "topicId": "plant-tissues",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which tissue makes a plant grow in length?",
+      "options": [
+        "Sclerenchyma",
+        "Lateral meristem",
+        "Phloem",
+        "Apical meristem"
+      ],
+      "answer": 3,
+      "explain": "Found at root and shoot tips.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which tissue carries water and minerals from the roots to the leaves?",
+      "options": [
+        "Xylem",
+        "Phloem",
+        "Parenchyma",
+        "Collenchyma"
+      ],
+      "answer": 0,
+      "explain": "Xylem vessels are hollow tubes carrying water upwards.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The husk of a coconut is made of which tissue?",
+      "options": [
+        "Meristem",
+        "Collenchyma",
+        "Sclerenchyma",
+        "Parenchyma"
+      ],
+      "answer": 2,
+      "explain": "Dead cells with thick lignified walls: hard and stiff.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which tissue lets the leaf stalks and young stems bend without breaking?",
+      "options": [
+        "Xylem",
+        "Collenchyma",
+        "Epidermis",
+        "Sclerenchyma"
+      ],
+      "answer": 1,
+      "explain": "Collenchyma cells are thickened at the corners, giving flexible support."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sort the plant tissues.",
+      "bins": [
+        "Meristematic",
+        "Simple permanent",
+        "Complex permanent"
+      ],
+      "items": [
+        {
+          "label": "Cambium",
+          "bin": 0
+        },
+        {
+          "label": "Parenchyma",
+          "bin": 1
+        },
+        {
+          "label": "Xylem",
+          "bin": 2
+        },
+        {
+          "label": "Sclerenchyma",
+          "bin": 1
+        },
+        {
+          "label": "Phloem",
+          "bin": 2
+        },
+        {
+          "label": "Root tip",
+          "bin": 0
+        }
+      ],
+      "explain": "Meristems divide; simple permanent tissues have one cell type; complex tissues have several."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Grass on a lawn grows back quickly after it is cut. Which tissue makes this possible?",
+      "options": [
+        "Cork",
+        "Apical meristem at the cut tip",
+        "Xylem",
+        "Intercalary meristem at the base of the leaves"
+      ],
+      "answer": 3,
+      "explain": "Intercalary meristems at the nodes and leaf bases keep dividing after the tips are removed."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "How does phloem differ from xylem?",
+      "options": [
+        "Phloem carries food in both directions and is mostly living",
+        "Phloem carries water upwards and is dead",
+        "They are identical",
+        "Phloem is found only in roots"
+      ],
+      "answer": 0,
+      "explain": "Xylem: water up, mostly dead cells. Phloem: food up and down, living cells."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain how the structure of xylem vessels suits their function.",
+      "modelAnswer": "Xylem vessels are long, hollow tubes made of dead cells joined end to end with no cytoplasm or end walls, so water can flow freely up the plant. Their walls are thickened with lignin, which makes them strong enough to support the plant and stop the tubes collapsing.",
+      "rubric": [
+        "Hollow tubes with no end walls or cytoplasm",
+        "Allows free flow of water",
+        "Lignin makes them strong and supportive"
+      ],
+      "explain": "Criterion A: structure and function."
+    }
+  ]
+}

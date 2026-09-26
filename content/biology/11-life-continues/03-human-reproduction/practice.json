@@ -1,0 +1,130 @@
+{
+  "topicId": "human-reproduction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which organ produces eggs in the human female?",
+      "options": [
+        "Oviduct",
+        "Uterus",
+        "Placenta",
+        "Ovary"
+      ],
+      "answer": 3,
+      "explain": "Ovaries release eggs and make hormones.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where does the embryo implant and develop?",
+      "options": [
+        "In the uterus",
+        "In the oviduct",
+        "In the stomach",
+        "In the ovary"
+      ],
+      "answer": 0,
+      "explain": "The thick uterus lining supports the growing embryo.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What does the placenta do?",
+      "options": [
+        "Makes the egg",
+        "Produces sperm",
+        "Passes food and oxygen to the baby and removes its wastes",
+        "Stores the baby’s food for later"
+      ],
+      "answer": 2,
+      "explain": "Exchange happens across the placenta without the bloods mixing.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which organ makes sperm?",
+      "options": [
+        "Ovary",
+        "Testes",
+        "Sperm duct",
+        "Prostate"
+      ],
+      "answer": 1,
+      "explain": "Sperm are made in the testes.",
+      "feedback": {
+        "2": "The sperm duct carries sperm; it doesn’t make them."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Put the events in order.",
+      "steps": [
+        "Egg is released from the ovary",
+        "Fertilisation in the oviduct forms a zygote",
+        "Zygote divides and implants in the uterus",
+        "Placenta forms",
+        "Birth after about 40 weeks"
+      ],
+      "explain": "Ovulation → fertilisation → implantation → placenta → birth."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "What happens to the uterus lining if the egg is not fertilised?",
+      "options": [
+        "It stays thick forever",
+        "It turns into a placenta",
+        "It becomes a new egg",
+        "It breaks down and leaves the body (menstruation)"
+      ],
+      "answer": 3,
+      "explain": "The lining is shed about once a month."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why can harmful substances like alcohol and nicotine affect a developing baby?",
+      "options": [
+        "They can pass from the mother’s blood across the placenta",
+        "They are made by the baby",
+        "They only affect the mother",
+        "The baby breathes air"
+      ],
+      "answer": 0,
+      "explain": "The placenta lets small molecules through, including some harmful ones."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why the mother’s blood and the baby’s blood do not mix, yet the baby still receives food and oxygen.",
+      "modelAnswer": "The placenta keeps the two blood systems separate but very close together, with a thin barrier between them and a large surface area. Oxygen and dissolved food diffuse from the mother’s blood across this barrier into the baby’s blood, and carbon dioxide and wastes diffuse the other way. This protects the baby from differences in blood type and many germs while still allowing exchange.",
+      "rubric": [
+        "Placenta keeps bloods separate",
+        "Substances diffuse across a thin barrier",
+        "Food/oxygen in, wastes out"
+      ],
+      "explain": "Criterion A: explaining the placenta."
+    }
+  ]
+}

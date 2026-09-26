@@ -1,0 +1,138 @@
+{
+  "topicId": "organelles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which organelle releases energy from glucose?",
+      "options": [
+        "Golgi apparatus",
+        "Ribosome",
+        "Nucleus",
+        "Mitochondria"
+      ],
+      "answer": 3,
+      "explain": "Mitochondria carry out aerobic respiration.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where are proteins made in a cell?",
+      "options": [
+        "Ribosomes",
+        "Cell wall",
+        "Vacuole",
+        "Lysosomes"
+      ],
+      "answer": 0,
+      "explain": "Ribosomes assemble proteins using instructions from DNA.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which organelle is called the “suicide bag” of the cell?",
+      "options": [
+        "Mitochondrion",
+        "Plastid",
+        "Lysosome",
+        "Golgi apparatus"
+      ],
+      "answer": 2,
+      "explain": "Its enzymes can digest the cell itself if it is badly damaged.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which three structures are found in plant cells but not animal cells?",
+      "options": [
+        "Lysosomes, Golgi and ER",
+        "Cell wall, chloroplasts and a large vacuole",
+        "Cell membrane, cytoplasm and nucleus",
+        "Nucleus, mitochondria and ribosomes"
+      ],
+      "answer": 1,
+      "explain": "Both kinds of cell share the rest."
+    },
+    {
+      "id": "q5",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each organelle to its job.",
+      "pairs": [
+        {
+          "left": "Nucleus",
+          "right": "Contains DNA; controls the cell"
+        },
+        {
+          "left": "Golgi apparatus",
+          "right": "Packages and sends out substances"
+        },
+        {
+          "left": "Chloroplast",
+          "right": "Photosynthesis"
+        },
+        {
+          "left": "Cell membrane",
+          "right": "Controls what enters and leaves"
+        }
+      ],
+      "explain": "Each organelle has a specific job."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Cells in the pancreas make and release large amounts of digestive enzymes (proteins). Which organelles would they have a lot of?",
+      "options": [
+        "Chloroplasts and vacuoles",
+        "Cell walls",
+        "Lysosomes only",
+        "Rough ER and Golgi apparatus"
+      ],
+      "answer": 3,
+      "explain": "Rough ER makes and transports proteins; the Golgi packages them for export."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "What is the difference between the cell wall and the cell membrane?",
+      "options": [
+        "The wall is rigid and supports; the membrane is flexible and controls entry and exit",
+        "The wall controls what enters; the membrane gives support",
+        "Only animal cells have a membrane",
+        "They are the same thing"
+      ],
+      "answer": 0,
+      "explain": "The cellulose wall is fully permeable; the membrane is partially permeable."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sperm cells swim a long way and contain many mitochondria. Explain the link between their structure and function.",
+      "modelAnswer": "Swimming needs a lot of energy. Mitochondria carry out respiration, releasing energy from glucose. Having many mitochondria (packed in the middle piece near the tail) lets the sperm release enough energy to beat its tail and swim to the egg.",
+      "rubric": [
+        "Swimming needs lots of energy",
+        "Mitochondria release energy by respiration",
+        "More mitochondria = more energy for the tail"
+      ],
+      "explain": "Criterion A: structure and function."
+    }
+  ]
+}

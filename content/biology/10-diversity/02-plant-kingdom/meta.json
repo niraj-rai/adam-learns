@@ -1,0 +1,63 @@
+{
+  "id": "plant-kingdom",
+  "number": "10.2",
+  "title": "The Plant Kingdom",
+  "summary": "Thallophyta, Bryophyta, Pteridophyta, gymnosperms and angiosperms: from simple algae to flowering plants.",
+  "emoji": "🌿",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Plant diversity, MYP 4 Biology"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 12: Patterns in Life: Diversity and Classification",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT (before 2023): Diversity in Living Organisms",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can name the five main plant groups and their features.",
+    "I can use a dichotomous key to classify plants.",
+    "I can distinguish monocots from dicots."
+  ],
+  "misconceptions": [
+    "All plants have flowers.",
+    "Seaweed is not a plant-like organism.",
+    "Ferns make seeds."
+  ],
+  "prerequisites": [
+    "biology/living-things/grouping-plants",
+    "biology/diversity/classification-system"
+  ],
+  "labs": [
+    "plant-divisions"
+  ],
+  "keyTerms": [
+    "Thallophyta",
+    "Bryophyta",
+    "Pteridophyta",
+    "gymnosperm",
+    "angiosperm",
+    "monocot",
+    "dicot",
+    "vascular tissue",
+    "spores"
+  ],
+  "estMinutes": 25
+}

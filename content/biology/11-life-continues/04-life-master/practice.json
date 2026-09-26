@@ -1,0 +1,120 @@
+{
+  "topicId": "life-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which method produces offspring with the most variation?",
+      "options": [
+        "Sexual reproduction with cross-pollination",
+        "Vegetative propagation",
+        "Budding",
+        "Binary fission"
+      ],
+      "answer": 0,
+      "explain": "Combining gametes from two parents creates new combinations."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Bryophyllum can grow new plants from buds on the edges of its leaves. This is…",
+      "options": [
+        "spore formation",
+        "fertilisation",
+        "vegetative propagation",
+        "pollination"
+      ],
+      "answer": 2,
+      "explain": "New plants grow from a leaf, with no seeds."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Starting with one bacterium that divides every 20 minutes, how many bacteria are there after 2 hours?",
+      "answer": 64,
+      "tolerance": 0,
+      "explain": "2 hours = 6 divisions; 2⁶ = 64.",
+      "unit": "bacteria"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which part of a flower receives pollen?",
+      "options": [
+        "Sepal",
+        "Stigma",
+        "Anther",
+        "Ovary"
+      ],
+      "answer": 1,
+      "explain": "The sticky stigma catches pollen."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which statement is TRUE?",
+      "options": [
+        "Clones show lots of variation",
+        "Pollination and fertilisation are the same",
+        "The ovary becomes the seed",
+        "The ovule becomes the seed and the ovary becomes the fruit"
+      ],
+      "answer": 3,
+      "explain": "Ovule → seed; ovary → fruit."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which human organ is the site of fertilisation?",
+      "options": [
+        "Oviduct",
+        "Ovary",
+        "Uterus",
+        "Placenta"
+      ],
+      "answer": 0,
+      "explain": "The zygote then travels to the uterus."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Why does a zygote have a full set of chromosomes?",
+      "options": [
+        "It makes new chromosomes",
+        "The placenta gives it chromosomes",
+        "It receives half from the sperm and half from the egg",
+        "It copies the mother’s cells"
+      ],
+      "answer": 2,
+      "explain": "Each gamete carries half the chromosomes; fusion restores the full set."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Compare asexual and sexual reproduction, giving one advantage of each.",
+      "modelAnswer": "Asexual reproduction needs only one parent and no gametes; the offspring are identical clones. Advantage: it is fast and needs no partner, so good traits are copied exactly. Sexual reproduction involves the fusion of male and female gametes, usually from two parents, producing varied offspring. Advantage: variation increases the chance that some offspring survive disease or environmental change.",
+      "rubric": [
+        "Asexual: one parent, identical offspring",
+        "Sexual: gametes fuse, varied offspring",
+        "One valid advantage of each"
+      ],
+      "explain": "Criterion A: comparing modes of reproduction."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "animal-tissues",
+  "number": "9.4",
+  "title": "Animal Tissues",
+  "summary": "Epithelial, connective, muscular and nervous tissue: what they look like and what they do.",
+  "emoji": "🔬",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Animal tissues, MYP 4 Biology"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 3: Tissues in Action",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Tissues",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can name the four types of animal tissue.",
+    "I can describe types of epithelial, connective and muscle tissue.",
+    "I can identify tissues from their appearance under a microscope."
+  ],
+  "misconceptions": [
+    "Blood is not a tissue.",
+    "All muscles are under our control.",
+    "Bone is dead."
+  ],
+  "prerequisites": [
+    "biology/cells/specialised-cells",
+    "biology/cells-and-tissues/organelles"
+  ],
+  "labs": [
+    "tissue-slides"
+  ],
+  "keyTerms": [
+    "epithelial tissue",
+    "connective tissue",
+    "muscular tissue",
+    "nervous tissue",
+    "neuron",
+    "striated",
+    "matrix"
+  ],
+  "estMinutes": 30
+}

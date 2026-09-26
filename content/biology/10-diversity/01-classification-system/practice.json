@@ -1,0 +1,131 @@
+{
+  "topicId": "classification-system",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is the correct way to write the scientific name of the mango?",
+      "options": [
+        "Mangifera Indica",
+        "MANGIFERA INDICA",
+        "Mangifera indica",
+        "mangifera Indica"
+      ],
+      "answer": 2,
+      "explain": "Capital genus, lower-case species, in italics.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In which kingdom are bacteria placed?",
+      "options": [
+        "Protista",
+        "Monera",
+        "Plantae",
+        "Fungi"
+      ],
+      "answer": 1,
+      "explain": "Bacteria are prokaryotes: no nucleus.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Put the ranks in order from the biggest group to the smallest.",
+      "steps": [
+        "Kingdom",
+        "Phylum",
+        "Class",
+        "Order",
+        "Family",
+        "Genus",
+        "Species"
+      ],
+      "explain": "Each rank contains the ones below it."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which kingdom has organisms with cell walls made of chitin that absorb their food?",
+      "options": [
+        "Monera",
+        "Plantae",
+        "Animalia",
+        "Fungi"
+      ],
+      "answer": 3,
+      "explain": "Fungi are saprophytes with chitin walls."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is a species?",
+      "options": [
+        "A group of similar organisms that can breed together to produce fertile offspring",
+        "All the animals in a habitat",
+        "Organisms with the same colour",
+        "Any group of plants"
+      ],
+      "answer": 0,
+      "explain": "The ability to produce fertile offspring defines a species."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Amoeba is single-celled and has a nucleus. Which kingdom is it in?",
+      "options": [
+        "Monera",
+        "Animalia",
+        "Protista",
+        "Fungi"
+      ],
+      "answer": 2,
+      "explain": "Single-celled eukaryotes are protists.",
+      "feedback": {
+        "0": "Monera have no nucleus."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Two animals are in the same family but different genera. Two others are in the same order but different families. Which pair is more closely related?",
+      "options": [
+        "You can’t tell",
+        "The pair in the same family",
+        "They are equally related",
+        "The pair in the same order"
+      ],
+      "answer": 1,
+      "explain": "Family is a lower (smaller) rank than order."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain two advantages of giving every species a scientific name.",
+      "modelAnswer": "A scientific name is the same everywhere in the world, so scientists speaking different languages know exactly which species is meant; local common names vary and can refer to several species. The name also shows relationships: the genus name groups closely related species together (e.g. Panthera tigris and Panthera leo).",
+      "rubric": [
+        "Universal: avoids confusion between languages or local names",
+        "Shows relationships through the genus",
+        "Clear explanation"
+      ],
+      "explain": "Criterion A/D: purpose of classification."
+    }
+  ]
+}

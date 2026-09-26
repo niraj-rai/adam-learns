@@ -1,0 +1,129 @@
+{
+  "topicId": "flowering-plants",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is pollination?",
+      "options": [
+        "The dispersal of seeds",
+        "The fusion of male and female gametes",
+        "The growth of the pollen tube",
+        "The transfer of pollen from an anther to a stigma"
+      ],
+      "answer": 3,
+      "explain": "It happens before fertilisation.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "After fertilisation, the ovary develops into the…",
+      "options": [
+        "fruit",
+        "seed",
+        "embryo",
+        "pollen"
+      ],
+      "answer": 0,
+      "explain": "The ovule becomes the seed; the ovary the fruit.",
+      "feedback": {
+        "1": "The ovule becomes the seed."
+      },
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Put the events in order.",
+      "steps": [
+        "Pollen lands on the stigma",
+        "Pollen tube grows down the style",
+        "Male gamete fuses with the egg in the ovule",
+        "Zygote develops into an embryo",
+        "Ovary ripens into a fruit"
+      ],
+      "explain": "Pollination → tube growth → fertilisation → seed → fruit."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the advantage of cross-pollination over self-pollination?",
+      "options": [
+        "It needs no pollinators",
+        "It is always faster",
+        "It produces more variation in the offspring",
+        "It produces clones"
+      ],
+      "answer": 2,
+      "explain": "Mixing genes from two plants creates variety."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "What is the job of the pollen tube?",
+      "options": [
+        "To make pollen",
+        "To carry the male gamete from the stigma to the ovule",
+        "To store food for the seed",
+        "To attract insects"
+      ],
+      "answer": 1,
+      "explain": "The tube delivers the male gamete for fertilisation."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Which flower is most likely wind-pollinated?",
+      "options": [
+        "Flowers that open only at night with strong scent",
+        "Flowers with sticky, heavy pollen",
+        "Large, brightly coloured, scented flowers with nectar",
+        "Small, dull flowers with feathery stigmas and lots of light pollen (like wheat)"
+      ],
+      "answer": 3,
+      "explain": "Wind-pollinated flowers don’t need to attract animals."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is formed when a male gamete fuses with an egg cell?",
+      "options": [
+        "A zygote",
+        "A pollen grain",
+        "A bud",
+        "A spore"
+      ],
+      "answer": 0,
+      "explain": "The zygote grows into the embryo."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain the difference between pollination and fertilisation in flowering plants.",
+      "modelAnswer": "Pollination is the transfer of pollen grains from the anther to the stigma. Fertilisation happens later: the pollen grain grows a tube down the style to an ovule, and a male gamete from the pollen fuses with the female gamete (egg) inside the ovule to form a zygote.",
+      "rubric": [
+        "Pollination: pollen from anther to stigma",
+        "Fertilisation: fusion of male and female gametes",
+        "Pollen tube links them; fertilisation happens in the ovule"
+      ],
+      "explain": "Criterion A: distinguishing processes."
+    }
+  ]
+}

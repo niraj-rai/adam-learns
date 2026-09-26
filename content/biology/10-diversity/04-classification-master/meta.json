@@ -1,0 +1,60 @@
+{
+  "id": "classification-master",
+  "number": "10.4",
+  "title": "Boss Challenge: Classification Master",
+  "summary": "Ten problems on kingdoms, scientific names, plant groups and animal phyla. Three lives!",
+  "emoji": "🦚",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 12: Patterns in Life: Diversity and Classification",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT (before 2023): Diversity in Living Organisms",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can classify organisms using their features.",
+    "I can write scientific names correctly.",
+    "I can explain the basis of classification."
+  ],
+  "misconceptions": [
+    "Fungi are plants.",
+    "Whales are fish.",
+    "Ferns have seeds."
+  ],
+  "prerequisites": [
+    "biology/diversity/classification-system",
+    "biology/diversity/plant-kingdom",
+    "biology/diversity/animal-kingdom"
+  ],
+  "labs": [
+    "classification-master"
+  ],
+  "keyTerms": [
+    "kingdom",
+    "species",
+    "binomial nomenclature",
+    "phylum",
+    "vertebrate"
+  ],
+  "estMinutes": 20
+}

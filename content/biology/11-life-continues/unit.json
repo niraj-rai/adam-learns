@@ -1,0 +1,35 @@
+{
+  "id": "life-continues",
+  "number": 11,
+  "stage": "G9",
+  "title": "Reproduction: How Life Continues",
+  "summary": "Grade 9: asexual reproduction and clones, sexual reproduction in flowering plants, and human reproduction and reproductive health.",
+  "ib": {
+    "keyConcept": "Change",
+    "relatedConcepts": [
+      "Transformation",
+      "Consequences",
+      "Patterns"
+    ],
+    "globalContext": "Identities and relationships",
+    "statementOfInquiry": "Living things pass on their characteristics by reproducing, and the way they reproduce affects the variation and survival of their species."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What are the types of asexual reproduction?",
+      "What happens in fertilisation?",
+      "What does the placenta do?"
+    ],
+    "conceptual": [
+      "Why does sexual reproduction create variation?",
+      "How are flowers and human reproductive systems both suited to bringing gametes together?"
+    ],
+    "debatable": [
+      "Should reproductive health education begin earlier in schools?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 (Exploration, 2026) Ch 11: Reproduction",
+    "Earlier NCERT Class 10: How do Organisms Reproduce?"
+  ]
+}

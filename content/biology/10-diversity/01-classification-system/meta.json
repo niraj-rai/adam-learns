@@ -1,0 +1,64 @@
+{
+  "id": "classification-system",
+  "number": "10.1",
+  "title": "Kingdoms, Ranks and Scientific Names",
+  "summary": "Whittaker's five kingdoms, the hierarchy from kingdom to species, and binomial nomenclature.",
+  "emoji": "🪜",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Classification, MYP 4 Biology"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 12: Patterns in Life: Diversity and Classification",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT (before 2023): Diversity in Living Organisms",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe the five kingdoms and their key features.",
+    "I can list the ranks of classification in order.",
+    "I can write scientific names correctly."
+  ],
+  "misconceptions": [
+    "Fungi are plants.",
+    "Two organisms in the same class are closer relatives than two in the same genus.",
+    "Scientific names can be written any way."
+  ],
+  "prerequisites": [
+    "biology/living-things/classifying-life"
+  ],
+  "labs": [
+    "taxonomy-ladder"
+  ],
+  "keyTerms": [
+    "classification",
+    "kingdom",
+    "phylum",
+    "class",
+    "order",
+    "family",
+    "genus",
+    "species",
+    "binomial nomenclature",
+    "prokaryote",
+    "eukaryote"
+  ],
+  "estMinutes": 30
+}

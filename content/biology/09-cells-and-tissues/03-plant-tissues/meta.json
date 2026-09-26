@@ -1,0 +1,63 @@
+{
+  "id": "plant-tissues",
+  "number": "9.3",
+  "title": "Plant Tissues",
+  "summary": "Meristematic and permanent tissues: parenchyma, collenchyma, sclerenchyma, xylem and phloem.",
+  "emoji": "🌱",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Plant tissues, MYP 4 Biology"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 3: Tissues in Action",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Tissues",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can distinguish meristematic from permanent tissues.",
+    "I can describe simple and complex permanent tissues.",
+    "I can relate each plant tissue's structure to its function."
+  ],
+  "misconceptions": [
+    "Plants grow everywhere at once.",
+    "Xylem and phloem carry the same things.",
+    "All plant cells are alive."
+  ],
+  "prerequisites": [
+    "biology/cells/levels-of-organisation",
+    "biology/cells-and-tissues/organelles"
+  ],
+  "labs": [
+    "stem-section"
+  ],
+  "keyTerms": [
+    "tissue",
+    "meristematic tissue",
+    "permanent tissue",
+    "parenchyma",
+    "collenchyma",
+    "sclerenchyma",
+    "xylem",
+    "phloem",
+    "epidermis"
+  ],
+  "estMinutes": 30
+}

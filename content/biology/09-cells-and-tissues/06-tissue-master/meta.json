@@ -1,0 +1,62 @@
+{
+  "id": "tissue-master",
+  "number": "9.6",
+  "title": "Boss Challenge: Tissue Master",
+  "summary": "Ten problems on organelles, osmosis, plant and animal tissues and muscles. Three lives!",
+  "emoji": "🔬",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 3: Tissues in Action",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Tissues",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can link organelles and tissues to their functions.",
+    "I can predict the effects of osmosis.",
+    "I can identify tissues from their features."
+  ],
+  "misconceptions": [
+    "Plant cells burst in water.",
+    "Muscles push.",
+    "Blood is not a tissue."
+  ],
+  "prerequisites": [
+    "biology/cells-and-tissues/organelles",
+    "biology/cells-and-tissues/osmosis",
+    "biology/cells-and-tissues/plant-tissues",
+    "biology/cells-and-tissues/animal-tissues",
+    "biology/cells-and-tissues/muscles-and-joints"
+  ],
+  "labs": [
+    "tissue-master"
+  ],
+  "keyTerms": [
+    "organelle",
+    "osmosis",
+    "meristem",
+    "xylem",
+    "connective tissue"
+  ],
+  "estMinutes": 20
+}

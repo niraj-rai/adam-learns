@@ -1,0 +1,64 @@
+{
+  "id": "human-reproduction",
+  "number": "11.3",
+  "title": "Human Reproduction and Reproductive Health",
+  "summary": "Male and female reproductive systems, fertilisation, the placenta, development of the baby, and reproductive health.",
+  "emoji": "👶",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Human reproduction, MYP 4 Biology"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 11: Reproduction",
+        "verified": true
+      },
+      {
+        "class": 10,
+        "chapter": "Earlier NCERT: How do Organisms Reproduce?",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe the main organs of the male and female reproductive systems and their jobs.",
+    "I can describe fertilisation, implantation and the role of the placenta.",
+    "I can explain why reproductive health matters."
+  ],
+  "misconceptions": [
+    "Fertilisation happens in the uterus.",
+    "The mother's and baby's blood mix in the placenta.",
+    "Reproductive health is only an adult topic."
+  ],
+  "prerequisites": [
+    "biology/reproduction/reproduction-in-animals",
+    "biology/reproduction/adolescence"
+  ],
+  "labs": [
+    "pregnancy-timeline"
+  ],
+  "keyTerms": [
+    "gamete",
+    "ovary",
+    "oviduct",
+    "uterus",
+    "testis",
+    "fertilisation",
+    "zygote",
+    "implantation",
+    "placenta",
+    "menstrual cycle"
+  ],
+  "estMinutes": 30
+}

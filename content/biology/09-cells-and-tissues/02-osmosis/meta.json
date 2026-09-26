@@ -1,0 +1,62 @@
+{
+  "id": "osmosis",
+  "number": "9.2",
+  "title": "Diffusion and Osmosis",
+  "summary": "How substances move in and out of cells, and what happens to cells in dilute and concentrated solutions.",
+  "emoji": "🥔",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Movement across membranes, MYP 4 Biology"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 2: Cell",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: The Fundamental Unit of Life",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can define diffusion and osmosis.",
+    "I can predict what happens to plant and animal cells in different solutions.",
+    "I can analyse data from a potato osmosis experiment."
+  ],
+  "misconceptions": [
+    "In osmosis the solute moves, not the water.",
+    "Plant cells burst in pure water.",
+    "Osmosis needs energy from the cell."
+  ],
+  "prerequisites": [
+    "biology/cells-and-tissues/organelles",
+    "chemistry/matter/diffusion"
+  ],
+  "labs": [
+    "osmosis-lab"
+  ],
+  "keyTerms": [
+    "diffusion",
+    "osmosis",
+    "partially permeable membrane",
+    "hypotonic",
+    "hypertonic",
+    "isotonic",
+    "turgid",
+    "plasmolysis"
+  ],
+  "estMinutes": 35
+}

@@ -1,0 +1,134 @@
+{
+  "topicId": "asexual-reproduction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How does Amoeba reproduce?",
+      "options": [
+        "Pollination",
+        "Spore formation",
+        "Binary fission",
+        "Budding"
+      ],
+      "answer": 2,
+      "explain": "It splits into two identical daughter cells.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which organism reproduces by budding?",
+      "options": [
+        "Spirogyra",
+        "Hydra",
+        "Planaria",
+        "Rhizopus"
+      ],
+      "answer": 1,
+      "explain": "A bud grows on the parent and breaks off (yeast does this too).",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Bread mould spreads by…",
+      "options": [
+        "seeds",
+        "budding",
+        "binary fission",
+        "spores"
+      ],
+      "answer": 3,
+      "explain": "Rhizopus releases spores from sporangia.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A bacterium divides every 30 minutes. Starting with one, how many are there after 3 hours?",
+      "answer": 64,
+      "tolerance": 0,
+      "explain": "3 hours = 6 divisions; 2⁶ = 64.",
+      "unit": "bacteria"
+    },
+    {
+      "id": "q5",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each method to an example.",
+      "pairs": [
+        {
+          "left": "Fragmentation",
+          "right": "Spirogyra"
+        },
+        {
+          "left": "Regeneration",
+          "right": "Planaria"
+        },
+        {
+          "left": "Vegetative propagation",
+          "right": "Potato"
+        },
+        {
+          "left": "Multiple fission",
+          "right": "Plasmodium"
+        }
+      ],
+      "explain": "Each organism uses a different asexual method."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why are all the offspring from asexual reproduction identical?",
+      "options": [
+        "They all come from one parent’s cells copying their DNA exactly",
+        "They grow in the same place",
+        "Two parents mix their DNA",
+        "They share the same food"
+      ],
+      "answer": 0,
+      "explain": "No gametes fuse, so there is no new combination of DNA."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "What is one advantage of growing sugarcane by vegetative propagation?",
+      "options": [
+        "It produces more seeds",
+        "It needs pollinating insects",
+        "All the plants have the same good qualities as the parent",
+        "It creates lots of variation"
+      ],
+      "answer": 2,
+      "explain": "Clones keep the desired traits."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Explain why a banana plantation made entirely of clones is at risk from a single disease.",
+      "modelAnswer": "All the plants are genetically identical, so they have exactly the same resistance or weakness to diseases. If a disease can infect one plant, it can infect them all, and there is no variation that might give some plants resistance. The disease could spread through the whole plantation and destroy it.",
+      "rubric": [
+        "Clones are genetically identical",
+        "No variation, so none may be resistant",
+        "Disease could wipe out the whole crop"
+      ],
+      "explain": "Criterion D: variation and food security."
+    }
+  ]
+}

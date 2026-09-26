@@ -1,0 +1,155 @@
+{
+  "topicId": "animal-tissues",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which tissue covers the body and lines organs?",
+      "options": [
+        "Nervous tissue",
+        "Epithelial tissue",
+        "Connective tissue",
+        "Muscular tissue"
+      ],
+      "answer": 1,
+      "explain": "Epithelium forms coverings and linings.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which muscle type is found in the walls of the stomach and intestines?",
+      "options": [
+        "Skeletal muscle",
+        "Striated muscle",
+        "Cardiac muscle",
+        "Smooth muscle"
+      ],
+      "answer": 3,
+      "explain": "Smooth, involuntary muscle pushes food along the gut.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What connects a muscle to a bone?",
+      "options": [
+        "A tendon",
+        "A neuron",
+        "Cartilage",
+        "A ligament"
+      ],
+      "answer": 0,
+      "explain": "Tendons join muscle to bone; ligaments join bone to bone.",
+      "feedback": {
+        "3": "Ligaments join bone to bone."
+      },
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A tissue has long, striated cells with many nuclei. It is…",
+      "options": [
+        "smooth muscle",
+        "nervous tissue",
+        "skeletal muscle",
+        "cardiac muscle"
+      ],
+      "answer": 2,
+      "explain": "Skeletal fibres are long, striped and multinucleate."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sort the tissues.",
+      "bins": [
+        "Epithelial",
+        "Connective",
+        "Muscular",
+        "Nervous"
+      ],
+      "items": [
+        {
+          "label": "Blood",
+          "bin": 1
+        },
+        {
+          "label": "Lining of the mouth",
+          "bin": 0
+        },
+        {
+          "label": "Heart wall",
+          "bin": 2
+        },
+        {
+          "label": "Spinal cord",
+          "bin": 3
+        },
+        {
+          "label": "Cartilage in the ear",
+          "bin": 1
+        },
+        {
+          "label": "Biceps",
+          "bin": 2
+        }
+      ],
+      "explain": "Covers/lines: epithelial; cells in a matrix: connective; contracts: muscular; carries impulses: nervous."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why does the windpipe have ciliated epithelium?",
+      "options": [
+        "To pump blood",
+        "The cilia sweep mucus and trapped dust up and out of the airways",
+        "To absorb food",
+        "To make hormones"
+      ],
+      "answer": 1,
+      "explain": "Cilia beat to move mucus away from the lungs."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which feature helps a neuron carry messages over long distances?",
+      "options": [
+        "Many nuclei",
+        "Stripes",
+        "A cellulose wall",
+        "A long axon"
+      ],
+      "answer": 3,
+      "explain": "The axon can be up to about a metre long."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Compare cardiac muscle with skeletal muscle, and explain why cardiac muscle needs to be different.",
+      "modelAnswer": "Both are striated. Skeletal muscle has long, unbranched fibres with many nuclei, is voluntary and tires with use. Cardiac muscle cells are branched, have one nucleus each, are involuntary and contract rhythmically without tiring. The heart must keep beating automatically every second for a whole lifetime, so it needs muscle that never fatigues and works without conscious control.",
+      "rubric": [
+        "Both striated",
+        "At least two differences (branched, one nucleus, involuntary, no fatigue)",
+        "Linked to the heart beating nonstop for life"
+      ],
+      "explain": "Criterion A: comparing tissues."
+    }
+  ]
+}

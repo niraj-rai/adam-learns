@@ -1,0 +1,65 @@
+{
+  "id": "animal-kingdom",
+  "number": "10.3",
+  "title": "The Animal Kingdom",
+  "summary": "From sponges to chordates: the main animal phyla and the five classes of vertebrates.",
+  "emoji": "🦀",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Animal diversity, MYP 4 Biology"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 12: Patterns in Life: Diversity and Classification",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT (before 2023): Diversity in Living Organisms",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can name the main animal phyla and their features.",
+    "I can classify vertebrates into five classes.",
+    "I can use a key to classify animals."
+  ],
+  "misconceptions": [
+    "Whales and dolphins are fish.",
+    "Bats are birds.",
+    "Spiders and starfish are insects/fish."
+  ],
+  "prerequisites": [
+    "biology/living-things/dichotomous-keys",
+    "biology/diversity/classification-system"
+  ],
+  "labs": [
+    "animal-phyla"
+  ],
+  "keyTerms": [
+    "invertebrate",
+    "vertebrate",
+    "Porifera",
+    "Cnidaria",
+    "Arthropoda",
+    "Mollusca",
+    "Annelida",
+    "Echinodermata",
+    "Chordata",
+    "cold-blooded",
+    "warm-blooded"
+  ],
+  "estMinutes": 30
+}

@@ -77,6 +77,12 @@ export type BadgeId =
   | 'mixture-master'
   | 'unit-atoms-and-moles'
   | 'mole-master'
+  | 'unit-cells-and-tissues'
+  | 'tissue-master'
+  | 'unit-diversity'
+  | 'classification-master'
+  | 'unit-life-continues'
+  | 'life-master'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -158,5 +164,11 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'mixture-master': { title: 'Mixture Master', emoji: '🥛', description: 'Solved ten Grade 9 mixtures problems (Boss Challenge)' },
   'unit-atoms-and-moles': { title: 'Mole Counter', emoji: '⚛️', description: 'Mastered every core topic in Grade 9 Chemistry Unit 8: Atoms, Molecules and the Mole' },
   'mole-master': { title: 'Mole Master', emoji: '🧺', description: 'Solved ten Grade 9 formula and mole problems (Boss Challenge)' },
+  'unit-cells-and-tissues': { title: 'Tissue Expert', emoji: '🧫', description: 'Mastered every core topic in Grade 9 Biology Unit 9: Cells and Tissues in Action' },
+  'tissue-master': { title: 'Tissue Master', emoji: '🔬', description: 'Solved ten Grade 9 cells and tissues problems (Boss Challenge)' },
+  'unit-diversity': { title: 'Taxonomist', emoji: '🪜', description: 'Mastered every core topic in Grade 9 Biology Unit 10: Diversity and Classification' },
+  'classification-master': { title: 'Classification Master', emoji: '🦚', description: 'Solved ten Grade 9 classification problems (Boss Challenge)' },
+  'unit-life-continues': { title: 'Life Cycle Expert', emoji: '🌸', description: 'Mastered every core topic in Grade 9 Biology Unit 11: Reproduction' },
+  'life-master': { title: 'Life Cycle Master', emoji: '🌺', description: 'Solved ten Grade 9 reproduction problems (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

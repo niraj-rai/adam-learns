@@ -1,0 +1,60 @@
+{
+  "id": "life-master",
+  "number": "11.4",
+  "title": "Boss Challenge: Life Cycle Master",
+  "summary": "Ten problems on asexual reproduction, flowering plants and human reproduction. Three lives!",
+  "emoji": "🌸",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 11: Reproduction",
+        "verified": true
+      },
+      {
+        "class": 10,
+        "chapter": "Earlier NCERT: How do Organisms Reproduce?",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can identify methods of reproduction.",
+    "I can sequence fertilisation and development.",
+    "I can explain the value of variation."
+  ],
+  "misconceptions": [
+    "Pollination is fertilisation.",
+    "Clones show variation.",
+    "Fertilisation happens in the uterus."
+  ],
+  "prerequisites": [
+    "biology/life-continues/asexual-reproduction",
+    "biology/life-continues/flowering-plants",
+    "biology/life-continues/human-reproduction"
+  ],
+  "labs": [
+    "life-master"
+  ],
+  "keyTerms": [
+    "binary fission",
+    "budding",
+    "pollination",
+    "zygote",
+    "placenta"
+  ],
+  "estMinutes": 20
+}

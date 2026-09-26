@@ -1,0 +1,120 @@
+{
+  "topicId": "tissue-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which organelle contains the instructions (DNA) for making proteins?",
+      "options": [
+        "Vacuole",
+        "Lysosome",
+        "Nucleus",
+        "Ribosome"
+      ],
+      "answer": 2,
+      "explain": "DNA in the nucleus carries the instructions; ribosomes follow them."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which statement about plasmolysis is correct?",
+      "options": [
+        "It needs sunlight",
+        "It happens when a plant cell loses water in a concentrated solution",
+        "It happens in pure water",
+        "It happens when an animal cell bursts"
+      ],
+      "answer": 1,
+      "explain": "The cytoplasm shrinks away from the cell wall."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A 2.5 g potato cylinder becomes 2.0 g in a strong sugar solution. What is the percentage change in mass? (Use a minus sign for a loss.)",
+      "answer": -20,
+      "tolerance": 0,
+      "explain": "(2.0 − 2.5) ÷ 2.5 × 100 = −20%.",
+      "unit": "%"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which tissue gives the stalks of leaves flexible support?",
+      "options": [
+        "Sclerenchyma",
+        "Meristem",
+        "Xylem",
+        "Collenchyma"
+      ],
+      "answer": 3,
+      "explain": "Thick-cornered living cells: support with flexibility."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which type of tissue is cartilage?",
+      "options": [
+        "Connective",
+        "Nervous",
+        "Epithelial",
+        "Muscular"
+      ],
+      "answer": 0,
+      "explain": "Cartilage cells sit in a flexible matrix."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A tissue sample has spindle-shaped cells with one nucleus and no stripes. Where might it come from?",
+      "options": [
+        "The brain",
+        "The heart",
+        "The wall of the intestine",
+        "The biceps"
+      ],
+      "answer": 2,
+      "explain": "That describes smooth muscle, found in the gut wall."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which pair is correctly matched?",
+      "options": [
+        "Phloem: carries food in both directions",
+        "Xylem: carries food downwards",
+        "Tendon: joins bone to bone",
+        "Lysosome: makes proteins"
+      ],
+      "answer": 0,
+      "explain": "Phloem transports sugars up and down; xylem carries water up."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A gardener sprinkles too much fertiliser (a salt) around a plant and it wilts. Explain why, using osmosis.",
+      "modelAnswer": "The fertiliser makes the soil water very concentrated (hypertonic) compared with the root cells. Water moves out of the root cells into the soil by osmosis instead of in. The plant loses water, its cells lose turgor (and may plasmolyse), so it wilts.",
+      "rubric": [
+        "Soil water becomes more concentrated than root cells",
+        "Water leaves roots by osmosis",
+        "Cells lose turgor, so the plant wilts"
+      ],
+      "explain": "Criterion D: applying osmosis."
+    }
+  ]
+}

@@ -108,3 +108,38 @@ Tissues · Diversity of life · Life processes (nutrition, respiration, transpor
 ## L4: Grades 11–12
 
 IB DP Biology themes (Unity & diversity, Form & function, Interaction & interdependence, Continuity & change), mapped to CBSE 11–12 (NEET base) when this level starts.
+
+## Grade 9 (L3) ✅ built
+
+CBSE Class 9 now uses the integrated NCERT book **Exploration** (2026): biology is Ch 2 Cell, Ch 3 Tissues in Action, Ch 11 Reproduction (moved down from Class 10) and Ch 12 Patterns in Life: Diversity and Classification. Grade 9 units have `stage: "G9"`.
+
+### Unit 9: Cells and Tissues in Action
+| # | Topic | IB | CBSE | Lab |
+|---|---|---|---|---|
+| 9.1 | Organelles and their jobs | MYP 4 | Exploration Ch 2 ✅ | **Organelle Factory** |
+| 9.2 | Diffusion and osmosis | MYP 4 | Exploration Ch 2 ✅ | **Osmosis Lab** |
+| 9.3 | Plant tissues | MYP 4 | Exploration Ch 3 ✅ | **Inside a Stem** |
+| 9.4 | Animal tissues | MYP 4 | Exploration Ch 3 ✅ | **Tissue Slides** |
+| 9.5 | Muscles, bones and joints | MYP 4 | Exploration Ch 3 ✅ | **Muscles, Bones and Joints**, Joint Explorer |
+| 9.6 | Boss: Tissue Master | MYP 4 | Mixed | 10 problems |
+
+### Unit 10: Diversity and Classification
+| # | Topic | IB | CBSE | Lab |
+|---|---|---|---|---|
+| 10.1 | Kingdoms, ranks and scientific names | MYP 4 | Exploration Ch 12 ✅ | **Taxonomy Ladder** |
+| 10.2 | The plant kingdom | MYP 4 | Exploration Ch 12 ✅ | **Plant Kingdom Key** |
+| 10.3 | The animal kingdom | MYP 4 | Exploration Ch 12 ✅ | **Animal Kingdom Key** |
+| 10.4 | Boss: Classification Master | MYP 4 | Mixed | 10 problems |
+
+### Unit 11: Reproduction: How Life Continues
+| # | Topic | IB | CBSE | Lab |
+|---|---|---|---|---|
+| 11.1 | Asexual reproduction and clones | MYP 4 | Exploration Ch 11 ✅ (earlier NCERT 10) | **Clone Lab** |
+| 11.2 | Sexual reproduction in flowering plants | MYP 4 | Exploration Ch 11 ✅ | **From Flower to Fruit** |
+| 11.3 | Human reproduction and reproductive health | MYP 4 | Exploration Ch 11 ✅ | **How a Baby Develops** |
+| 11.4 | Boss: Life Cycle Master | MYP 4 | Mixed | 10 problems |
+
+Exploration Ch 13 (Earth as a System) is Earth science and isn't covered yet.
+
+### Grade 10 (planned, to be checked against the current NCERT Class 10 book)
+Life processes (nutrition, respiration, transport, excretion), control and coordination, heredity, our environment.

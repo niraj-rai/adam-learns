@@ -1,0 +1,35 @@
+{
+  "id": "diversity",
+  "number": 10,
+  "stage": "G9",
+  "title": "Diversity and Classification",
+  "summary": "Grade 9: the five kingdoms, the taxonomy ladder and binomial names, and the major groups of plants and animals.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": [
+      "Patterns",
+      "Form",
+      "Evidence"
+    ],
+    "globalContext": "Globalization and sustainability",
+    "statementOfInquiry": "Classifying living things by shared features reveals patterns of relationship and helps us understand and protect biodiversity."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What are the five kingdoms?",
+      "What are the rules of binomial nomenclature?",
+      "What are the main groups of plants and animals?"
+    ],
+    "conceptual": [
+      "Why do scientists use features like cell type and body design to classify?",
+      "How does classification show evolutionary relationships?"
+    ],
+    "debatable": [
+      "Should every newly discovered species get a Latin name, or could local names be used?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 (Exploration, 2026) Ch 12: Patterns in Life: Diversity and Classification",
+    "Earlier NCERT Class 9 (before 2023): Diversity in Living Organisms"
+  ]
+}

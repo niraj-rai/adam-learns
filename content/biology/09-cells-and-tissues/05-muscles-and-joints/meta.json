@@ -1,0 +1,58 @@
+{
+  "id": "muscles-and-joints",
+  "number": "9.5",
+  "title": "Muscles, Bones and Joints",
+  "summary": "The musculoskeletal system: antagonistic muscles, tendons and ligaments, types of joints, and keeping bones healthy.",
+  "emoji": "💪",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Musculoskeletal system, MYP 4 Biology"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 3: Tissues in Action",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain how antagonistic muscles move bones.",
+    "I can name types of joints and their movements.",
+    "I can explain how nutrition and exercise keep bones and muscles healthy."
+  ],
+  "misconceptions": [
+    "Muscles can push as well as pull.",
+    "Ligaments and tendons are the same.",
+    "Bone health only matters when you are old."
+  ],
+  "prerequisites": [
+    "biology/body/skeleton-and-movement",
+    "biology/cells-and-tissues/animal-tissues"
+  ],
+  "labs": [
+    "muscle-pairs",
+    "joint-explorer"
+  ],
+  "keyTerms": [
+    "antagonistic muscles",
+    "tendon",
+    "ligament",
+    "joint",
+    "cartilage",
+    "synovial fluid",
+    "calcium",
+    "vitamin D"
+  ],
+  "estMinutes": 25
+}

@@ -1,0 +1,62 @@
+{
+  "id": "asexual-reproduction",
+  "number": "11.1",
+  "title": "Asexual Reproduction and Clones",
+  "summary": "Fission, budding, fragmentation, regeneration, spores and vegetative propagation, and why clones have no variation.",
+  "emoji": "🧬",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Reproduction, MYP 4 Biology"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 11: Reproduction",
+        "verified": true
+      },
+      {
+        "class": 10,
+        "chapter": "Earlier NCERT: How do Organisms Reproduce?",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe six methods of asexual reproduction with examples.",
+    "I can explain why offspring of asexual reproduction are clones.",
+    "I can evaluate advantages and disadvantages of asexual reproduction."
+  ],
+  "misconceptions": [
+    "Only simple organisms reproduce asexually.",
+    "Asexual reproduction needs two parents.",
+    "Clones are always better."
+  ],
+  "prerequisites": [
+    "biology/reproduction/asexual-reproduction",
+    "biology/cells/cell-division"
+  ],
+  "labs": [
+    "clone-lab"
+  ],
+  "keyTerms": [
+    "asexual reproduction",
+    "binary fission",
+    "budding",
+    "fragmentation",
+    "regeneration",
+    "spore",
+    "vegetative propagation",
+    "clone"
+  ],
+  "estMinutes": 30
+}

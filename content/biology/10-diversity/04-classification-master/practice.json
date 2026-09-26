@@ -1,0 +1,124 @@
+{
+  "topicId": "classification-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which rank contains the fewest kinds of organisms?",
+      "options": [
+        "Species",
+        "Kingdom",
+        "Class",
+        "Family"
+      ],
+      "answer": 0,
+      "explain": "Species is the smallest rank."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which kingdom includes yeast?",
+      "options": [
+        "Plantae",
+        "Protista",
+        "Fungi",
+        "Monera"
+      ],
+      "answer": 2,
+      "explain": "Yeast is a single-celled fungus."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which of these plants produces seeds inside fruits?",
+      "options": [
+        "Moss",
+        "Pea",
+        "Fern",
+        "Pine"
+      ],
+      "answer": 1,
+      "explain": "The pea is an angiosperm (flowering plant)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A crab has jointed legs and a hard exoskeleton. Which phylum?",
+      "options": [
+        "Mollusca",
+        "Pisces",
+        "Echinodermata",
+        "Arthropoda"
+      ],
+      "answer": 3,
+      "explain": "Crabs are crustaceans, a group of arthropods."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which animal is warm-blooded?",
+      "options": [
+        "Peacock",
+        "Cobra",
+        "Rohu fish",
+        "Frog"
+      ],
+      "answer": 0,
+      "explain": "Birds and mammals are warm-blooded."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which pair is correctly matched?",
+      "options": [
+        "Moss: Pteridophyta",
+        "Pine: Angiosperm",
+        "Spirogyra: Thallophyta",
+        "Fern: Bryophyta"
+      ],
+      "answer": 2,
+      "explain": "Spirogyra is an alga."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In the name Homo sapiens, what does “Homo” tell you?",
+      "options": [
+        "The species",
+        "The genus",
+        "The family",
+        "The kingdom"
+      ],
+      "answer": 1,
+      "explain": "The first word is the genus."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why the five-kingdom system placed fungi in a kingdom of their own instead of with plants.",
+      "modelAnswer": "Fungi cannot make their own food because they have no chlorophyll; instead they absorb nutrients from dead or living matter (saprophytic or parasitic nutrition). Their cell walls are made of chitin, not cellulose. These differences in nutrition and cell structure are basic enough to justify a separate kingdom.",
+      "rubric": [
+        "No chlorophyll / cannot photosynthesise",
+        "Absorb food (saprophytes)",
+        "Chitin cell walls, not cellulose"
+      ],
+      "explain": "Criterion A: basis of classification."
+    }
+  ]
+}

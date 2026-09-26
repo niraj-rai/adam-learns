@@ -1,0 +1,35 @@
+{
+  "id": "cells-and-tissues",
+  "number": 9,
+  "stage": "G9",
+  "title": "Cells and Tissues in Action",
+  "summary": "Grade 9: organelles and their jobs, diffusion and osmosis, plant tissues, animal tissues, and the muscles, bones and joints that move us.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": [
+      "Form",
+      "Function",
+      "Interaction"
+    ],
+    "globalContext": "Identities and relationships",
+    "statementOfInquiry": "The form of each cell and tissue suits its function, and tissues working together as systems keep an organism alive."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What does each organelle do?",
+      "What is osmosis?",
+      "What are the four types of animal tissue?"
+    ],
+    "conceptual": [
+      "How does the structure of a tissue suit its function?",
+      "Why do plant cells not burst in water, while animal cells can?"
+    ],
+    "debatable": [
+      "Should schools require daily physical activity to build bone and muscle health?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 (Exploration, 2026) Ch 2: Cell; Ch 3: Tissues in Action",
+    "Earlier NCERT Class 9: The Fundamental Unit of Life; Tissues"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "organelles",
+  "number": "9.1",
+  "title": "Organelles and Their Jobs",
+  "summary": "The nucleus, mitochondria, ribosomes, ER, Golgi, lysosomes and plastids: a cell as a busy factory.",
+  "emoji": "🏭",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Cells, MYP 4 Biology"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 2: Cell",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: The Fundamental Unit of Life",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe the function of the main organelles.",
+    "I can compare plant and animal cells.",
+    "I can relate the number of organelles to a cell's job."
+  ],
+  "misconceptions": [
+    "Only animal cells have mitochondria.",
+    "The cell wall controls what enters the cell.",
+    "Plant cells don't respire because they photosynthesise."
+  ],
+  "prerequisites": [
+    "biology/cells/plant-and-animal-cells"
+  ],
+  "labs": [
+    "organelle-factory"
+  ],
+  "keyTerms": [
+    "organelle",
+    "nucleus",
+    "mitochondria",
+    "ribosome",
+    "endoplasmic reticulum",
+    "Golgi apparatus",
+    "lysosome",
+    "plastid",
+    "vacuole"
+  ],
+  "estMinutes": 30
+}

@@ -1,0 +1,60 @@
+<Stage kind="wonder" title="Why do salted cucumbers go limp?" />
+
+<Hook emoji="🥒">
+Sprinkle salt on cucumber slices for a salad and after a few minutes they sit in a puddle of water and go floppy. Soak raisins in water overnight and they swell up plump. Water is moving in and out of the cells, all by itself.
+</Hook>
+
+<PredictFirst
+  question="Raisins are soaked in plain water overnight. What happens?"
+  options={["They shrink", "They swell as water moves in", "They dissolve", "Nothing"]}
+  answer={1}
+>
+The inside of a raisin is full of concentrated sugar. Water moves **into** its cells by osmosis, so it swells.
+</PredictFirst>
+
+<Stage kind="explain" title="Moving across membranes" />
+
+<ConceptCard title="Diffusion" emoji="🌬️">
+<KeyTerm def="The net movement of particles from a region of higher concentration to a region of lower concentration, until they are evenly spread.">Diffusion</KeyTerm> is how oxygen enters cells and carbon dioxide leaves. It needs no energy from the cell.
+</ConceptCard>
+
+<ConceptCard title="Osmosis" emoji="💧">
+<KeyTerm def="The net movement of water molecules from a dilute solution (more water) to a concentrated solution (less water) through a partially permeable membrane.">Osmosis</KeyTerm> is a special case of diffusion: the movement of **water** through a <KeyTerm def="A membrane that lets some molecules (like water) through but not others (like sugar).">partially permeable membrane</KeyTerm>, such as the cell membrane.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Hypotonic (more dilute outside)", emoji: "⬇️💧", points: ["Water moves IN", "Plant cell: turgid (firm)", "Animal cell: swells, may burst"] },
+    { title: "Isotonic (same)", emoji: "⚖️", points: ["No net movement", "Cells stay the same"] },
+    { title: "Hypertonic (more concentrated outside)", emoji: "⬆️💧", points: ["Water moves OUT", "Plant cell: plasmolysed", "Animal cell: shrinks"] }
+  ]}
+/>
+
+<Stage kind="try" title="Osmosis Lab" />
+
+<Lab id="osmosis-lab" />
+
+<RealLife>
+Pickles and jams stay fresh because the high concentration of salt or sugar pulls water out of any bacteria by osmosis, so they can't grow. Drips in hospitals use 0.9% saline, isotonic with blood, so red blood cells neither swell nor shrink.
+</RealLife>
+
+<TryAtHome
+  title="Potato osmosis"
+  materials={["a potato", "a knife (with an adult)", "salt", "three cups of water", "a kitchen scale or ruler"]}
+  safety="Ask an adult to cut the potato. Don't eat the salty strips."
+>
+Cut three equal potato chips. Put one in plain water, one in slightly salty water and one in very salty water. After 30 minutes, compare their length, mass and how bendy they are. Explain your results using osmosis.
+</TryAtHome>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Finding the potato's concentration">
+Design an experiment to find the concentration of sugar solution that causes no change in the mass of potato cylinders. List your independent, dependent and control variables, and explain how you'd use a graph to find the answer.
+</Inquiry>
+
+<CbseCorner source="Exploration (Class 9, 2026) Ch 2 · Earlier NCERT Class 9: The Fundamental Unit of Life">
+- Diffusion and osmosis; plasma membrane as a selectively permeable membrane.
+- Hypotonic, isotonic and hypertonic solutions; plasmolysis; endosmosis and exosmosis.
+</CbseCorner>
+
+<Reflect id="bio9-cells-osmosis" prompt="Why do plants wilt when they are not watered, and recover when you water them? Use the word turgid." />

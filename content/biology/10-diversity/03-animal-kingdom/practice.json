@@ -1,0 +1,137 @@
+{
+  "topicId": "animal-kingdom",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which phylum has animals with jointed legs and an exoskeleton?",
+      "options": [
+        "Porifera",
+        "Annelida",
+        "Mollusca",
+        "Arthropoda"
+      ],
+      "answer": 3,
+      "explain": "Arthro = joint, poda = foot.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "An earthworm belongs to which phylum?",
+      "options": [
+        "Annelida",
+        "Platyhelminthes",
+        "Nematoda",
+        "Arthropoda"
+      ],
+      "answer": 0,
+      "explain": "Its body is divided into ring-like segments.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which vertebrate class has feathers?",
+      "options": [
+        "Amphibians",
+        "Reptiles",
+        "Birds (Aves)",
+        "Mammals"
+      ],
+      "answer": 2,
+      "explain": "Only birds have feathers."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why is a bat classified as a mammal, not a bird?",
+      "options": [
+        "It flies",
+        "It has fur and feeds its young on milk",
+        "It lays eggs",
+        "It has feathers"
+      ],
+      "answer": 1,
+      "explain": "Flying doesn’t decide the class; fur and milk do."
+    },
+    {
+      "id": "q5",
+      "type": "match-pairs",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Match each animal to its group.",
+      "pairs": [
+        {
+          "left": "Starfish",
+          "right": "Echinodermata"
+        },
+        {
+          "left": "Snail",
+          "right": "Mollusca"
+        },
+        {
+          "left": "Hydra",
+          "right": "Cnidaria"
+        },
+        {
+          "left": "Tapeworm",
+          "right": "Platyhelminthes"
+        }
+      ],
+      "explain": "Spiny skin, soft body with foot, stinging tentacles, flat body."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which animals are cold-blooded?",
+      "options": [
+        "Only fish",
+        "All vertebrates",
+        "Birds and mammals",
+        "Fish, amphibians and reptiles"
+      ],
+      "answer": 3,
+      "explain": "Their body temperature follows the surroundings."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A frog has smooth, moist skin, lays eggs in water, and its young breathe with gills. Which class is it?",
+      "options": [
+        "Amphibians",
+        "Mammals",
+        "Reptiles",
+        "Fish"
+      ],
+      "answer": 0,
+      "explain": "Amphibians live a “double life” in water and on land."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A student says a whale is a fish because it lives in the sea and has fins. Use three features to explain why it is a mammal.",
+      "modelAnswer": "Whales breathe air using lungs, not gills; they are warm-blooded; they give birth to live young and feed them on milk; they have some hair. These are mammal features. Living in water and having fins are adaptations to their habitat, not features used for classification.",
+      "rubric": [
+        "Breathes with lungs",
+        "Warm-blooded / milk / live young / hair",
+        "Habitat and fins are adaptations, not the basis of classification"
+      ],
+      "explain": "Criterion A: classifying correctly."
+    }
+  ]
+}

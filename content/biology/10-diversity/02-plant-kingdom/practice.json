@@ -1,0 +1,150 @@
+{
+  "topicId": "plant-kingdom",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which plant group has no roots, stems or leaves and lives mainly in water?",
+      "options": [
+        "Thallophyta (algae)",
+        "Gymnosperms",
+        "Pteridophyta",
+        "Bryophyta"
+      ],
+      "answer": 0,
+      "explain": "Algae like Spirogyra have a simple thallus.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which group is called the “amphibians of the plant kingdom”?",
+      "options": [
+        "Pteridophyta",
+        "Thallophyta",
+        "Bryophyta",
+        "Angiosperms"
+      ],
+      "answer": 2,
+      "explain": "Mosses live on land but need water to reproduce.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What makes gymnosperms different from angiosperms?",
+      "options": [
+        "They have no seeds",
+        "Their seeds are not enclosed in a fruit",
+        "They live in water",
+        "They have no vascular tissue"
+      ],
+      "answer": 1,
+      "explain": "Gymno = naked; angio = enclosed."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sort the plants.",
+      "bins": [
+        "No seeds",
+        "Naked seeds",
+        "Seeds in fruits"
+      ],
+      "items": [
+        {
+          "label": "Fern",
+          "bin": 0
+        },
+        {
+          "label": "Pine",
+          "bin": 1
+        },
+        {
+          "label": "Mango",
+          "bin": 2
+        },
+        {
+          "label": "Moss",
+          "bin": 0
+        },
+        {
+          "label": "Cycas",
+          "bin": 1
+        },
+        {
+          "label": "Wheat",
+          "bin": 2
+        }
+      ],
+      "explain": "Cryptogams have no seeds; gymnosperms have naked seeds; angiosperms have seeds in fruits."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A plant has leaves with parallel veins and fibrous roots. It is most likely…",
+      "options": [
+        "a fern",
+        "a dicot, such as pea",
+        "a gymnosperm",
+        "a monocot, such as maize"
+      ],
+      "answer": 3,
+      "explain": "Parallel venation and fibrous roots are monocot features."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which feature first separates mosses from ferns in a key?",
+      "options": [
+        "Whether the plant has vascular tissue",
+        "Whether it is green",
+        "Whether it has flowers",
+        "Whether its seeds are in cones"
+      ],
+      "answer": 0,
+      "explain": "Neither has flowers or seeds; ferns have vascular tissue, mosses don’t."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Why can angiosperms and gymnosperms grow in drier places than mosses?",
+      "options": [
+        "They need no sunlight",
+        "They have no leaves",
+        "They have vascular tissue and seeds that don’t need water to spread",
+        "They are smaller"
+      ],
+      "answer": 2,
+      "explain": "Seeds and xylem free them from depending on water for reproduction and transport."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Describe how you would classify an unknown plant into one of the five plant groups, listing the questions you would ask in order.",
+      "modelAnswer": "First ask whether the body is divided into roots, stem and leaves; if not, it is a thallophyte (alga). If yes, ask whether it has vascular tissue; if not, it is a bryophyte (moss). If yes, ask whether it makes seeds; if not, it is a pteridophyte (fern). If it makes seeds, ask whether they are inside a fruit: if not, it is a gymnosperm; if yes, it is an angiosperm.",
+      "rubric": [
+        "Body differentiated?",
+        "Vascular tissue? then seeds?",
+        "Seeds enclosed in fruit? with correct groups"
+      ],
+      "explain": "Criterion C: using a key."
+    }
+  ]
+}

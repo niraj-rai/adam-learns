@@ -1,0 +1,121 @@
+{
+  "topicId": "osmosis",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What moves during osmosis?",
+      "options": [
+        "Water molecules",
+        "Salt particles",
+        "Sugar molecules",
+        "Oxygen gas"
+      ],
+      "answer": 0,
+      "explain": "Osmosis is the movement of water across a partially permeable membrane.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A plant cell is placed in a concentrated salt solution. What happens?",
+      "options": [
+        "The cell wall dissolves",
+        "Water enters and the cell bursts",
+        "Water leaves and the cell becomes plasmolysed",
+        "Nothing happens"
+      ],
+      "answer": 2,
+      "explain": "The outside is hypertonic, so water moves out and the cytoplasm pulls away from the wall.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why don’t plant cells burst in pure water?",
+      "options": [
+        "Their vacuole pumps water out",
+        "The strong cell wall stops them over-expanding",
+        "They have no membrane",
+        "Water can’t enter plant cells"
+      ],
+      "answer": 1,
+      "explain": "The cell becomes turgid, pressing against the wall."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A solution that has the same concentration as the inside of a cell is called…",
+      "options": [
+        "saturated",
+        "hypotonic",
+        "hypertonic",
+        "isotonic"
+      ],
+      "answer": 3,
+      "explain": "Iso = same.",
+      "feedback": {
+        "1": "Hypotonic means more dilute than the cell."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A potato strip weighs 4.0 g before and 4.4 g after soaking. What is the percentage change in mass?",
+      "answer": 10,
+      "tolerance": 0,
+      "explain": "(4.4 − 4.0) ÷ 4.0 × 100 = +10%.",
+      "unit": "%"
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A strip of 5.0 g loses 20% of its mass in strong sugar solution. What is its new mass?",
+      "answer": 4,
+      "tolerance": 0,
+      "explain": "20% of 5.0 = 1.0 g lost; 5.0 − 1.0 = 4.0 g.",
+      "unit": "g"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Potato strips gain mass in 0.1 mol/L and lose mass in 0.5 mol/L sugar solution. What can you conclude?",
+      "options": [
+        "The potato cells’ concentration is between 0.1 and 0.5 mol/L",
+        "The potato cells are pure water",
+        "Osmosis doesn’t happen in potatoes",
+        "The cells are more concentrated than 0.5 mol/L"
+      ],
+      "answer": 0,
+      "explain": "No change would occur at the concentration equal to the cells’."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why a doctor gives a patient 0.9% saline in a drip rather than pure water.",
+      "modelAnswer": "0.9% saline is isotonic with blood, so there is no net movement of water into or out of red blood cells and they keep their shape. Pure water would be hypotonic: water would enter the red blood cells by osmosis and they could swell and burst, which is dangerous.",
+      "rubric": [
+        "0.9% saline is isotonic with blood",
+        "Pure water is hypotonic",
+        "Red cells would swell and burst by osmosis"
+      ],
+      "explain": "Criterion A/D: applying osmosis to medicine."
+    }
+  ]
+}
