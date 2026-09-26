@@ -1,0 +1,35 @@
+{
+  "id": "reflection-refraction",
+  "number": 12,
+  "stage": "G10",
+  "title": "Light, the Eye and Colour",
+  "summary": "Grade 10: the mirror and lens formulas with the sign convention, refraction and Snell's law, the human eye and its defects, and dispersion and scattering.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Models",
+      "Form",
+      "Function"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Simple rules for how light reflects and refracts let us design spectacles, cameras and fibre-optic networks, and explain the colours of the sky."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is the mirror formula?",
+      "What is refractive index?",
+      "How are myopia and hypermetropia corrected?"
+    ],
+    "conceptual": [
+      "Why do we need a sign convention?",
+      "Why is the sky blue and the sunset red?"
+    ],
+    "debatable": [
+      "Should eye tests be compulsory every year in schools?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 10: Light: Reflection and Refraction",
+    "Class 10: The Human Eye and the Colourful World"
+  ]
+}

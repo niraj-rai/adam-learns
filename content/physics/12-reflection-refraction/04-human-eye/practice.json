@@ -1,0 +1,123 @@
+{
+  "topicId": "human-eye",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which part of the eye does most of the refraction of light?",
+      "options": [
+        "Cornea",
+        "Pupil",
+        "Retina",
+        "Iris"
+      ],
+      "answer": 0,
+      "explain": "Light bends most as it enters the curved cornea.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What controls the size of the pupil?",
+      "options": [
+        "The optic nerve",
+        "The retina",
+        "The iris",
+        "The eye lens"
+      ],
+      "answer": 2,
+      "explain": "The iris opens and closes the pupil.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which lens corrects hypermetropia?",
+      "options": [
+        "Cylindrical mirror",
+        "Convex lens",
+        "Concave lens",
+        "No lens"
+      ],
+      "answer": 1,
+      "explain": "It adds converging power so near images move onto the retina.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A myopic person has a far point of 80 cm. What is the power of the lens needed? (1 d.p.)",
+      "answer": -1.25,
+      "tolerance": 0.01,
+      "explain": "P = −1/0.8 = −1.25 D.",
+      "unit": "D"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the near point of a normal adult eye?",
+      "options": [
+        "Infinity",
+        "About 2.5 cm",
+        "About 2.5 m",
+        "About 25 cm"
+      ],
+      "answer": 3,
+      "explain": "The closest distance for clear vision without strain."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is accommodation?",
+      "options": [
+        "The eye lens changing its focal length to focus at different distances",
+        "Seeing in colour",
+        "The eye getting used to bright light",
+        "The pupil getting bigger in the dark"
+      ],
+      "answer": 0,
+      "explain": "Ciliary muscles change the lens shape."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why can older people need bifocal lenses?",
+      "options": [
+        "They may have both myopia and presbyopia",
+        "Their eyes are too small",
+        "Their retina stops working",
+        "They are colour-blind"
+      ],
+      "answer": 0,
+      "explain": "The upper part corrects far vision; the lower part near vision."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why a person with myopia needs a concave lens, including what happens to the light with and without it.",
+      "modelAnswer": "In myopia, light from distant objects is focused in front of the retina because the eye’s lens system is too strong or the eyeball too long, so the image is blurred. A concave lens diverges the light slightly before it enters the eye, so the eye focuses it further back, exactly on the retina. Its focal length equals the far point (P = −1/far point).",
+      "rubric": [
+        "Without: focus in front of the retina",
+        "Concave lens diverges light",
+        "Focus moves onto the retina"
+      ],
+      "explain": "Criterion A: explaining correction."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "magnetic-fields",
+  "number": "13.4",
+  "title": "Magnetic Effects of Current",
+  "summary": "Field lines, the field of a straight wire, a coil and a solenoid, the right-hand thumb rule, and electromagnets.",
+  "emoji": "🧭",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Electromagnetism, MYP 5 Physics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Magnetic Effects of Electric Current",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can draw and interpret magnetic field lines.",
+    "I can use the right-hand thumb rule.",
+    "I can describe the field of a solenoid and how electromagnets work."
+  ],
+  "misconceptions": [
+    "Field lines can cross.",
+    "Only magnets produce magnetic fields.",
+    "The field inside a solenoid is weak."
+  ],
+  "prerequisites": [
+    "physics/electricity/magnets",
+    "physics/electricity/electromagnets"
+  ],
+  "labs": [
+    "field-mapper"
+  ],
+  "keyTerms": [
+    "magnetic field",
+    "field lines",
+    "right-hand thumb rule",
+    "solenoid",
+    "electromagnet"
+  ],
+  "estMinutes": 25
+}

@@ -1,0 +1,56 @@
+{
+  "id": "dispersion-and-scattering",
+  "number": "12.5",
+  "title": "Dispersion and Scattering of Light",
+  "summary": "Prisms and spectra, rainbows, twinkling stars, the blue sky and red sunsets.",
+  "emoji": "🌈",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Light, MYP 5 Physics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "The Human Eye and the Colourful World",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain dispersion by a prism.",
+    "I can explain how rainbows form.",
+    "I can explain the blue sky, red sunsets and the Tyndall effect."
+  ],
+  "misconceptions": [
+    "The prism adds colour to white light.",
+    "The sky is blue because it reflects the sea.",
+    "Red light is scattered most."
+  ],
+  "prerequisites": [
+    "physics/reflection-refraction/refraction",
+    "physics/light/colours-of-light"
+  ],
+  "labs": [
+    "sky-colours",
+    "prism-lab"
+  ],
+  "keyTerms": [
+    "dispersion",
+    "spectrum",
+    "rainbow",
+    "atmospheric refraction",
+    "scattering",
+    "Tyndall effect"
+  ],
+  "estMinutes": 25
+}

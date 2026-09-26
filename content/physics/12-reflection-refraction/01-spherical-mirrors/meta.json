@@ -1,0 +1,56 @@
+{
+  "id": "spherical-mirrors",
+  "number": "12.1",
+  "title": "Spherical Mirrors and the Mirror Formula",
+  "summary": "Concave and convex mirrors, the New Cartesian sign convention, 1/v + 1/u = 1/f and magnification.",
+  "emoji": "🪞",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Light, MYP 5 Physics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Light: Reflection and Refraction",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can use the sign convention for mirrors.",
+    "I can use the mirror formula and magnification.",
+    "I can describe the image formed for different object positions."
+  ],
+  "misconceptions": [
+    "Distances are always positive.",
+    "A convex mirror can form a real image.",
+    "Magnification can't be negative."
+  ],
+  "prerequisites": [
+    "physics/light/curved-mirrors"
+  ],
+  "labs": [
+    "mirror-formula",
+    "optics-bench"
+  ],
+  "keyTerms": [
+    "pole",
+    "centre of curvature",
+    "principal focus",
+    "focal length",
+    "sign convention",
+    "mirror formula",
+    "magnification"
+  ],
+  "estMinutes": 35
+}

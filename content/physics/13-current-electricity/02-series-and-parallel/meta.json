@@ -1,0 +1,53 @@
+{
+  "id": "series-and-parallel",
+  "number": "13.2",
+  "title": "Resistance, Resistivity and Combinations",
+  "summary": "What affects resistance, R = ρL/A, and resistors in series and in parallel.",
+  "emoji": "🔀",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Electricity, MYP 5 Physics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Electricity",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can use R = ρL/A.",
+    "I can find the equivalent resistance of series and parallel combinations.",
+    "I can explain why homes use parallel wiring."
+  ],
+  "misconceptions": [
+    "Adding resistors in parallel increases resistance.",
+    "Thicker wires have more resistance.",
+    "Each branch in parallel gets a share of the voltage."
+  ],
+  "prerequisites": [
+    "physics/current-electricity/ohms-law"
+  ],
+  "labs": [
+    "resistor-network"
+  ],
+  "keyTerms": [
+    "resistivity",
+    "series",
+    "parallel",
+    "equivalent resistance",
+    "nichrome"
+  ],
+  "estMinutes": 35
+}

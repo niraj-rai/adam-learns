@@ -1,0 +1,114 @@
+{
+  "topicId": "spherical-mirrors",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A concave mirror has a radius of curvature of 40 cm. What is its focal length (magnitude, in cm)?",
+      "answer": 20,
+      "tolerance": 0,
+      "explain": "f = R/2 = 20 cm (negative by the sign convention).",
+      "unit": "cm",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "An object is 20 cm in front of a concave mirror with f = −10 cm. Find v (in cm, with sign).",
+      "answer": -20,
+      "tolerance": 0,
+      "explain": "1/v = −1/10 + 1/20 = −1/20, so v = −20 cm.",
+      "unit": "cm",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "An image is formed at v = −30 cm when u = −15 cm. What is the magnification?",
+      "answer": -2,
+      "tolerance": 0,
+      "explain": "m = −v/u = −(−30)/(−15) = −2."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What type of image does a convex mirror always form?",
+      "options": [
+        "Real and the same size",
+        "Real and inverted",
+        "Virtual, upright and diminished",
+        "Virtual and magnified"
+      ],
+      "answer": 2,
+      "explain": "That’s why it’s used for rear-view mirrors.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Where must an object be placed in front of a concave mirror to get a virtual, magnified image?",
+      "options": [
+        "Beyond C",
+        "Between the pole and the focus",
+        "At F",
+        "At C"
+      ],
+      "answer": 1,
+      "explain": "Inside F the reflected rays diverge."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "By the New Cartesian sign convention, the object distance u for a real object in front of a mirror is…",
+      "options": [
+        "always equal to f",
+        "zero",
+        "positive",
+        "negative"
+      ],
+      "answer": 3,
+      "explain": "It is measured against the direction of the incident light."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which mirror is used in a car headlight, and where is the bulb placed?",
+      "options": [
+        "Concave, at its focus",
+        "Plane, anywhere",
+        "Convex, at its focus",
+        "Concave, at C"
+      ],
+      "answer": 0,
+      "explain": "Light from the focus reflects into a parallel beam."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A dentist uses a concave mirror with f = 2 cm held 1.5 cm from a tooth. Find the position and nature of the image, and explain why this helps the dentist.",
+      "modelAnswer": "u = −1.5 cm, f = −2 cm. 1/v = 1/f − 1/u = −1/2 + 1/1.5 = 1/6, so v = +6 cm. The image is 6 cm behind the mirror: virtual and upright. m = −v/u = −6/−1.5 = +4, so it is magnified four times, letting the dentist see the tooth clearly.",
+      "rubric": [
+        "Correct v = +6 cm",
+        "Virtual, upright, magnified (m = 4)",
+        "Links magnification to seeing detail"
+      ],
+      "explain": "Criterion D: applying the formula."
+    }
+  ]
+}

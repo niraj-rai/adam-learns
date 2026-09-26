@@ -1,0 +1,118 @@
+{
+  "topicId": "refraction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Light travels at 2.25 × 10⁸ m/s in water. What is the refractive index of water? (c = 3 × 10⁸ m/s; 2 d.p.)",
+      "answer": 1.33,
+      "tolerance": 0.01,
+      "explain": "n = 3 ÷ 2.25 ≈ 1.33.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Light passes from glass into air. How does it bend?",
+      "options": [
+        "Away from the normal",
+        "It doesn’t bend",
+        "It always reflects",
+        "Towards the normal"
+      ],
+      "answer": 0,
+      "explain": "It speeds up entering a less dense medium.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A ray hits a glass surface along the normal (i = 0°). What happens?",
+      "options": [
+        "It bends towards the normal",
+        "It bends away from the normal",
+        "It passes straight through without bending",
+        "It reflects completely"
+      ],
+      "answer": 2,
+      "explain": "sin 0 = 0, so r = 0."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which medium is optically densest?",
+      "options": [
+        "Water (n = 1.33)",
+        "Diamond (n = 2.42)",
+        "Glass (n = 1.52)",
+        "Air (n = 1.00)"
+      ],
+      "answer": 1,
+      "explain": "Higher n means slower light.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "The refractive index of glass is 1.5. What is the speed of light in it? Give the answer × 10⁸ m/s.",
+      "answer": 2,
+      "tolerance": 0,
+      "explain": "v = c/n = 3 ÷ 1.5 = 2 × 10⁸ m/s.",
+      "unit": "× 10⁸ m/s"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Which two conditions are needed for total internal reflection?",
+      "options": [
+        "i must be exactly 0°",
+        "The surface must be a mirror",
+        "Light goes from rarer to denser, at any angle",
+        "Light goes from denser to rarer, and i is greater than the critical angle"
+      ],
+      "answer": 3,
+      "explain": "Both conditions are needed."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why does a swimming pool look shallower than it really is?",
+      "options": [
+        "Light from the bottom bends away from the normal as it leaves the water",
+        "The pool reflects the sky",
+        "Water magnifies things",
+        "Light speeds up in water"
+      ],
+      "answer": 0,
+      "explain": "Your brain traces the rays back in straight lines to a point above the true bottom."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain how an optical fibre carries a light signal around bends.",
+      "modelAnswer": "An optical fibre is a thin glass strand with a core of higher refractive index than its cladding. Light enters at a small angle and strikes the core boundary at more than the critical angle, so it is totally internally reflected. It keeps reflecting along the fibre, even around gentle bends, with very little light lost.",
+      "rubric": [
+        "Core denser than cladding",
+        "Angle greater than critical angle",
+        "Repeated total internal reflection along the fibre"
+      ],
+      "explain": "Criterion A: applying TIR."
+    }
+  ]
+}

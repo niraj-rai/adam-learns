@@ -1,0 +1,45 @@
+<Stage kind="wonder" title="More bulbs, more light?" />
+
+<Hook emoji="💡">
+Add a second bulb in series and both get dimmer. Add it in parallel and both stay bright, but the battery runs down faster. The way resistors are connected changes everything.
+</Hook>
+
+<PredictFirst
+  question="Two 10 Ω resistors are connected in parallel. What is their combined resistance?"
+  options={["20 Ω", "10 Ω", "5 Ω", "100 Ω"]}
+  answer={2}
+>
+In parallel, the current has two paths, so it's easier to flow: 1/R = 1/10 + 1/10, **R = 5 Ω**.
+</PredictFirst>
+
+<Stage kind="explain" title="What affects resistance" />
+
+<Formula tex="R = \rho \frac{L}{A}" caption="ρ = resistivity (Ω m), L = length, A = cross-sectional area" />
+
+<ConceptCard title="Resistivity" emoji="🧵">
+Resistance increases with **length**, decreases with **thickness**, and depends on the material through its <KeyTerm def="A property of a material that measures how strongly it resists current: R = ρL/A. Unit: ohm metre (Ω m).">resistivity</KeyTerm> ρ. Copper and aluminium (low ρ) make good wires; nichrome (high ρ) makes heating elements; tungsten makes filaments.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Series", emoji: "➡️", points: ["R = R₁ + R₂ + R₃", "Same current everywhere", "Voltages add to the supply", "One break stops everything"] },
+    { title: "Parallel", emoji: "🔀", points: ["1/R = 1/R₁ + 1/R₂ + 1/R₃", "Same voltage across each", "Currents add up", "Each branch works on its own"] }
+  ]}
+/>
+
+<Stage kind="try" title="Series and Parallel" />
+
+<Lab id="resistor-network" />
+
+<Stage kind="apply" title="Reflect on impacts" />
+
+<Inquiry criterion="D" title="Festive lights">
+Some cheap festive light strings go completely dark when one bulb fails; others keep glowing. Explain the difference using series and parallel circuits, and discuss which design is better for safety, cost and energy use.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Electricity">
+- Factors affecting resistance; resistivity.
+- Resistors in series and parallel; equivalent resistance.
+</CbseCorner>
+
+<Reflect id="phys10-circuits" prompt="Look at the switches in your home. What tells you the lights are wired in parallel?" />

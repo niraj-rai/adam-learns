@@ -1,0 +1,47 @@
+<Stage kind="wonder" title="Why do wires get warm?" />
+
+<Hook emoji="🔥">
+Electric irons, geysers, toasters and incandescent bulbs all turn electrical energy into heat on purpose. But the same heating effect in overloaded wiring can start fires. Understanding it helps us use electricity well and safely.
+</Hook>
+
+<PredictFirst
+  question="The current through a wire is doubled. How much more heat is produced each second?"
+  options={["Twice as much", "The same", "Four times as much", "Half as much"]}
+  answer={2}
+>
+Heat H = I²Rt, so doubling I gives **four times** the heat.
+</PredictFirst>
+
+<Stage kind="explain" title="Heat and power" />
+
+<Formula tex="H = I^2 R t" caption="Joule's law of heating" />
+
+<Formula tex="P = VI = I^2R = \frac{V^2}{R}" caption="Electric power in watts; energy = power × time" />
+
+<ConceptCard title="Paying for electricity" emoji="🧾">
+Energy is sold in <KeyTerm def="The energy used by a 1 kW appliance in 1 hour: 1 kWh = 3.6 × 10⁶ J, one 'unit' of electricity.">kilowatt-hours</KeyTerm>: a 2 kW heater running for 3 hours uses 6 kWh (6 units).
+</ConceptCard>
+
+<Stage kind="try" title="Power, Heat and Fuses" />
+
+<Lab id="fuse-box" />
+
+<ConceptCard title="Staying safe" emoji="🛡️">
+- **Overloading**: too many appliances on one circuit draw too much current.
+- **Short circuit**: live and neutral touch, so resistance is almost zero and the current is huge.
+- A **fuse** (a thin wire that melts) or an **MCB** (a switch that trips) cuts the supply. The **earth wire** protects you if a metal case becomes live.
+</ConceptCard>
+
+<Stage kind="apply" title="Reflect on impacts" />
+
+<Inquiry criterion="D" title="Choosing appliances">
+Compare a 1500 W air conditioner with a 5-star BEE rating and a 2000 W older model, each used 8 hours a day in summer. Calculate the monthly units and cost at ₹7 per unit. How much would switching save in a year, and what is the environmental benefit?
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Electricity">
+- Heating effect of electric current and its applications; Joule's law.
+- Electric power; commercial unit of energy (kWh).
+- (Domestic circuits and fuses: see also Magnetic Effects of Electric Current.)
+</CbseCorner>
+
+<Reflect id="phys10-power" prompt="Which appliance in your home would you switch off first to save electricity, and why?" />

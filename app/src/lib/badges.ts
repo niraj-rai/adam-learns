@@ -95,6 +95,10 @@ export type BadgeId =
   | 'solid-master'
   | 'unit-patterns-and-chance'
   | 'chance-master'
+  | 'unit-reflection-refraction'
+  | 'unit-current-electricity'
+  | 'circuit-master'
+  | 'light-master'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -194,5 +198,9 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'solid-master': { title: "Solid Master", emoji: '🍦', description: "Solved ten Grade 9 mensuration problems (Boss Challenge)" },
   'unit-patterns-and-chance': { title: "Pattern Seer", emoji: '🔮', description: "Mastered every core topic in Grade 9 Maths Unit 15: Sequences, Statistics and Probability" },
   'chance-master': { title: "Chance Master", emoji: '🎲', description: "Solved ten Grade 9 sequences and probability problems (Boss Challenge)" },
+  'unit-reflection-refraction': { title: "Optics Expert", emoji: '🔦', description: "Mastered every core topic in Grade 10 Physics Unit 12: Light, the Eye and Colour" },
+  'light-master': { title: "Light Master", emoji: '🌈', description: "Solved ten Grade 10 light problems (Boss Challenge)" },
+  'unit-current-electricity': { title: "Electrician", emoji: '🔌', description: "Mastered every core topic in Grade 10 Physics Unit 13: Electricity and Magnetism" },
+  'circuit-master': { title: "Circuit Master", emoji: '⚡', description: "Solved ten Grade 10 electricity problems (Boss Challenge)" },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

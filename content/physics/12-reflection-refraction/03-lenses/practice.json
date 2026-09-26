@@ -1,0 +1,109 @@
+{
+  "topicId": "lenses",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the power of a concave lens of focal length 25 cm?",
+      "answer": -4,
+      "tolerance": 0,
+      "explain": "P = 1/(−0.25) = −4 D.",
+      "unit": "D",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "An object is 20 cm from a convex lens with f = 10 cm. Find v in cm.",
+      "answer": 20,
+      "tolerance": 0,
+      "explain": "1/v = 1/10 − 1/20 = 1/20.",
+      "unit": "cm",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "For u = −20 cm and v = +20 cm, what is the magnification of a lens?",
+      "answer": -1,
+      "tolerance": 0,
+      "explain": "m = v/u = 20/−20 = −1: inverted, same size."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which lens always forms a virtual, upright, diminished image of a real object?",
+      "options": [
+        "Concave lens",
+        "Convex lens",
+        "Both",
+        "Neither"
+      ],
+      "answer": 0,
+      "explain": "It diverges the light."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Where should an object be placed for a convex lens to act as a magnifying glass?",
+      "options": [
+        "At 2F",
+        "Beyond 2F",
+        "Between the optical centre and F",
+        "At F"
+      ],
+      "answer": 2,
+      "explain": "Then the image is virtual, upright and magnified."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Two thin lenses of power +3 D and −1 D are placed together. What is the combined power?",
+      "answer": 2,
+      "tolerance": 0,
+      "explain": "Powers add: 3 + (−1) = +2 D.",
+      "unit": "D"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A lens of power +5 D has a focal length of…",
+      "options": [
+        "0.5 cm",
+        "20 cm",
+        "5 cm",
+        "50 cm"
+      ],
+      "answer": 1,
+      "explain": "f = 1/5 m = 0.2 m."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A projector lens (f = +10 cm) must form a real image on a screen 3 m away. Estimate how far the slide must be from the lens, and describe the image.",
+      "modelAnswer": "v = +300 cm, f = +10 cm. 1/u = 1/v − 1/f = 1/300 − 1/10 = −29/300, so u ≈ −10.3 cm: the slide is just beyond the focus, about 10.3 cm from the lens. m = v/u ≈ 300/−10.3 ≈ −29: a real, inverted image about 29 times larger (so slides are put in upside down).",
+      "rubric": [
+        "Uses lens formula with v = 300",
+        "u about −10.3 cm",
+        "Real, inverted, highly magnified"
+      ],
+      "explain": "Criterion D: applying the lens formula."
+    }
+  ]
+}

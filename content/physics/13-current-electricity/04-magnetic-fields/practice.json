@@ -1,0 +1,127 @@
+{
+  "topicId": "magnetic-fields",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why can two magnetic field lines never cross?",
+      "options": [
+        "They repel each other",
+        "They are made of iron",
+        "They are too far apart",
+        "The field can only have one direction at any point"
+      ],
+      "answer": 3,
+      "explain": "A compass there would have to point two ways at once.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which rule gives the direction of the magnetic field around a straight current-carrying wire?",
+      "options": [
+        "Right-hand thumb rule",
+        "Snell’s law",
+        "Ohm’s law",
+        "Fleming’s left-hand rule"
+      ],
+      "answer": 0,
+      "explain": "Thumb along the current, fingers show the field.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How does the field around a straight wire change as you move away from it?",
+      "options": [
+        "It reverses",
+        "It stays the same",
+        "It gets weaker",
+        "It gets stronger"
+      ],
+      "answer": 2,
+      "explain": "The circles are spaced further apart."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the field like inside a long solenoid?",
+      "options": [
+        "Circular",
+        "Strong and uniform (parallel lines)",
+        "Zero",
+        "Random"
+      ],
+      "answer": 1,
+      "explain": "Like the inside of a bar magnet.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which change would make an electromagnet stronger?",
+      "options": [
+        "Using fewer turns",
+        "Reducing the current",
+        "Using a plastic core",
+        "Adding more turns of wire"
+      ],
+      "answer": 3,
+      "explain": "More turns and more current both strengthen it."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A current flows vertically downwards in a wire. Seen from above, the field lines around it go…",
+      "options": [
+        "clockwise",
+        "anticlockwise",
+        "up and down",
+        "nowhere"
+      ],
+      "answer": 0,
+      "explain": "Thumb pointing down: fingers curl clockwise seen from above."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why is soft iron used for the core of an electromagnet, rather than steel?",
+      "options": [
+        "It never becomes magnetic",
+        "It keeps its magnetism for ever",
+        "It magnetises strongly but loses its magnetism when the current stops",
+        "It is lighter"
+      ],
+      "answer": 2,
+      "explain": "That makes the magnet easy to switch off."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Describe how a scrap-yard crane uses an electromagnet to lift and drop cars.",
+      "modelAnswer": "The crane has a large coil wound on a soft iron core. When current flows, the coil and core become a strong magnet that attracts the steel car so it can be lifted. To drop the car, the current is switched off; the soft iron loses its magnetism and the car falls.",
+      "rubric": [
+        "Coil with soft iron core",
+        "Current on: strong magnet lifts steel",
+        "Current off: magnetism lost, car released"
+      ],
+      "explain": "Criterion D: applications."
+    }
+  ]
+}

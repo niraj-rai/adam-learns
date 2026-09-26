@@ -1,0 +1,53 @@
+<Stage kind="wonder" title="Where exactly is the image?" />
+
+<Hook emoji="🪞">
+A dentist's mirror, a car's headlight reflector and the giant dish of a solar cooker are all concave mirrors; a shop's security mirror is convex. In Grade 8 you drew their images with rays. Now you'll predict **exactly** where the image forms and how big it is, with one formula.
+</Hook>
+
+<PredictFirst
+  question="An object is placed at the centre of curvature C of a concave mirror. Where is the image?"
+  options={["At F", "At C, same size and inverted", "Behind the mirror", "At infinity"]}
+  answer={1}
+>
+At C the image forms back at C: real, inverted and the **same size**. The mirror formula will confirm this.
+</PredictFirst>
+
+<Stage kind="explain" title="The mirror formula" />
+
+<ConceptCard title="New Cartesian sign convention" emoji="➕➖">
+- Measure all distances from the **pole** P.
+- Distances in the direction of the incident light (usually to the right) are **positive**; against it, **negative**. So the object distance u is negative.
+- Heights above the principal axis are positive, below negative.
+- A concave mirror has a negative f; a convex mirror a positive f. And f = R/2.
+</ConceptCard>
+
+<Formula tex="\frac{1}{v} + \frac{1}{u} = \frac{1}{f} \qquad m = \frac{h'}{h} = -\frac{v}{u}" caption="v = image distance, u = object distance, f = focal length, m = magnification" />
+
+<Stage kind="try" title="Mirror Formula Bench" />
+
+<Lab id="mirror-formula" />
+
+<StepReveal
+  steps={[
+    "A concave mirror has f = −15 cm. An object is 10 cm in front: u = −10 cm.",
+    "1/v = 1/f − 1/u = −1/15 + 1/10 = 1/30, so v = +30 cm.",
+    "v is positive: the image is behind the mirror, so it is virtual.",
+    "m = −v/u = −30/−10 = +3: upright and three times as big. That's a make-up mirror!"
+  ]}
+/>
+
+<Lab id="optics-bench" />
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Solar cookers">
+Concave mirrors focus sunlight in solar cookers used across India. Research how a solar cooker works. Using the mirror formula, explain why the cooking pot is placed at the focus. What are the advantages and limitations of solar cooking?
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Light: Reflection and Refraction">
+- Spherical mirrors: pole, centre of curvature, principal focus, focal length (f = R/2).
+- Image formation by concave and convex mirrors; uses.
+- Sign convention; mirror formula; magnification.
+</CbseCorner>
+
+<Reflect id="phys10-mirrors" prompt="Why do you think scientists agreed on one sign convention instead of letting everyone choose?" />

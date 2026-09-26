@@ -1,0 +1,57 @@
+{
+  "id": "ohms-law",
+  "number": "13.1",
+  "title": "Current, Voltage and Ohm's Law",
+  "summary": "Charge, current, potential difference, Ohm's law and V–I graphs.",
+  "emoji": "🔋",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Electricity, MYP 5 Physics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Electricity",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can define current and potential difference.",
+    "I can use V = IR.",
+    "I can interpret V–I graphs for ohmic and non-ohmic components."
+  ],
+  "misconceptions": [
+    "Current is used up in a circuit.",
+    "Voltage flows through a circuit.",
+    "A voltmeter is connected in series."
+  ],
+  "prerequisites": [
+    "physics/electricity/electric-circuits",
+    "physics/electricity/conductors-and-insulators"
+  ],
+  "labs": [
+    "ohms-law"
+  ],
+  "keyTerms": [
+    "charge",
+    "current",
+    "ampere",
+    "potential difference",
+    "volt",
+    "resistance",
+    "ohm",
+    "Ohm's law"
+  ],
+  "estMinutes": 30
+}

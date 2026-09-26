@@ -161,13 +161,14 @@ Exploration Ch 6 covers balanced forces, inertia, the three laws, momentum and f
 
 Grade 9 Physics (Exploration Ch 4, 6, 7, 10) is complete.
 
-### Grade 10 (planned, to be checked against the current NCERT Class 10 book)
+### Grade 10 ✅ built (NCERT Class 10 books unchanged for 2026–27; IB MYP 5)
 
-| Unit | Topics | IB | ★ |
-|---|---|---|---|
-| Light | Reflection/refraction laws, mirror and lens formulas, human eye, dispersion | MYP 5 | ★★★★ |
-| Electricity | Ohm's law, resistance, series/parallel, power, heating | MYP 5 | ★★★★ |
-| Magnetic Effects | Fields, motor rule, electromagnetic induction | MYP 5 | ★★★★ |
+| Unit | Topics | Labs |
+|---|---|---|
+| 12. Light, the Eye and Colour | Spherical mirrors and the mirror formula · Refraction and Snell's law · Lenses, lens formula and power · The human eye and its defects · Dispersion and scattering · Boss | Mirror Formula Bench (+ Optics Bench), Snell's Law, Lens Formula Bench, Eye Doctor, Why Is the Sky Blue? (+ Prism Lab), Light Master |
+| 13. Electricity and Magnetism | Ohm's law · Resistance, resistivity, series and parallel · Heating effect and power · Magnetic effects of current · Motors, induction and domestic circuits · Boss | Ohm's Law, Series and Parallel, Power Heat and Fuses, Magnetic Field Mapper, Force on a Current, Circuit Master |
+
+Motors, electromagnetic induction and generators were removed from the rationalised CBSE syllabus but are kept for IB MYP 5.
 
 ## L4: Grades 11–12
 IB DP Physics themes A–E (Space, time and motion; The particulate nature of matter; Wave behaviour; Fields; Nuclear and quantum physics), mapped to CBSE 11–12 chapters when this level starts.

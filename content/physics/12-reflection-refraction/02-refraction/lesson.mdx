@@ -1,0 +1,43 @@
+<Stage kind="wonder" title="The coin that appears" />
+
+<Hook emoji="🪙">
+Put a coin in an empty cup and move back until it just disappears behind the rim. Now have a friend pour in water, and the coin comes back into view without moving. Light bends as it leaves the water: **refraction**.
+</Hook>
+
+<PredictFirst
+  question="Light passes from air into glass at an angle. Which way does it bend?"
+  options={["Away from the normal", "Towards the normal", "It doesn't bend", "Straight back"]}
+  answer={1}
+>
+Glass is optically denser, so light **slows down** and bends **towards** the normal.
+</PredictFirst>
+
+<Stage kind="explain" title="The laws of refraction" />
+
+<ConceptCard title="Two laws" emoji="📏">
+1. The incident ray, the refracted ray and the normal all lie in the same plane.
+2. <KeyTerm def="n₁ sin i = n₂ sin r: the ratio sin i / sin r is constant for a given pair of media and colour of light.">Snell's law</KeyTerm>: sin i / sin r is constant for a given pair of media.
+</ConceptCard>
+
+<Formula tex="n = \frac{c}{v} \qquad n_1 \sin i = n_2 \sin r" caption="Refractive index n: how many times slower light travels in the material than in a vacuum" />
+
+<Stage kind="try" title="Refraction and Snell's Law" />
+
+<Lab id="snell-lab" />
+
+<ConceptCard title="Total internal reflection" emoji="💡">
+Going from a denser to a less dense medium, light bends away from the normal. At the <KeyTerm def="The angle of incidence in the denser medium for which the angle of refraction is 90°.">critical angle</KeyTerm> the refracted ray skims the surface; beyond it, all the light reflects back inside. Optical fibres, endoscopes and the sparkle of diamonds use this.
+</ConceptCard>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Measuring n for a glass block">
+Plan an experiment with a rectangular glass slab, pins (or a ray box) and a protractor to find the refractive index of glass. Describe how you would measure i and r for several angles, and how a graph of sin i against sin r gives n.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Light: Reflection and Refraction">
+- Refraction through a glass slab; laws of refraction; refractive index (absolute and relative).
+- (Total internal reflection is an IB MYP extension here.)
+</CbseCorner>
+
+<Reflect id="phys10-refraction" prompt="Where have you seen refraction today (water, glass, air on a hot road)?" />

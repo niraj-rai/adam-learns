@@ -1,0 +1,107 @@
+{
+  "topicId": "electric-power",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A 230 V kettle draws 8 A. What is its power in watts?",
+      "answer": 1840,
+      "tolerance": 0,
+      "explain": "P = VI = 230 × 8.",
+      "unit": "W",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How much heat is produced when 2 A flows through a 50 Ω resistor for 10 s?",
+      "answer": 2000,
+      "tolerance": 0,
+      "explain": "H = I²Rt = 4 × 50 × 10.",
+      "unit": "J",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A 100 W bulb is on for 10 hours. How many units (kWh) does it use?",
+      "answer": 1,
+      "tolerance": 0,
+      "explain": "0.1 kW × 10 h.",
+      "unit": "kWh"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What happens in a short circuit?",
+      "options": [
+        "The resistance becomes very small and the current very large",
+        "The current stops completely",
+        "The voltage rises to 1000 V",
+        "The appliance saves energy"
+      ],
+      "answer": 0,
+      "explain": "Live and neutral touch directly.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A fuse is connected in…",
+      "options": [
+        "the earth wire",
+        "parallel with the appliance",
+        "series with the live wire",
+        "the neutral wire only"
+      ],
+      "answer": 2,
+      "explain": "It must break the live path when it melts."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "What is the resistance of a 1000 W heater designed for 200 V?",
+      "answer": 40,
+      "tolerance": 0,
+      "explain": "R = V²/P = 40 000 ÷ 1000.",
+      "unit": "Ω"
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "An appliance draws 4.2 A. What is the smallest standard fuse to use from 3 A, 5 A, 13 A?",
+      "answer": 5,
+      "tolerance": 0,
+      "explain": "Just above the normal current.",
+      "unit": "A"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain how an earth wire and a fuse together protect someone from an electric shock if the metal case of a toaster becomes live.",
+      "modelAnswer": "If a fault makes the metal case live, current flows through the low-resistance earth wire to the ground instead of through a person touching it. This large current is much bigger than normal, so the fuse in the live wire melts (or the MCB trips) and cuts off the supply, leaving the case safe.",
+      "rubric": [
+        "Earth wire gives a low-resistance path to ground",
+        "Large current flows",
+        "Fuse melts/MCB trips, cutting the supply"
+      ],
+      "explain": "Criterion D: electrical safety."
+    }
+  ]
+}

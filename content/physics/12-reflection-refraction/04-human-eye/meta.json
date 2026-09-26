@@ -1,0 +1,59 @@
+{
+  "id": "human-eye",
+  "number": "12.4",
+  "title": "The Human Eye and Its Defects",
+  "summary": "How the eye focuses, power of accommodation, and correcting myopia, hypermetropia and presbyopia.",
+  "emoji": "👓",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Light and vision, MYP 5 Physics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "The Human Eye and the Colourful World",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe the parts of the eye and accommodation.",
+    "I can explain myopia, hypermetropia and presbyopia.",
+    "I can calculate the lens power needed to correct them."
+  ],
+  "misconceptions": [
+    "The cornea does no focusing.",
+    "Short-sighted people need convex lenses.",
+    "The eye lens has a fixed focal length."
+  ],
+  "prerequisites": [
+    "physics/reflection-refraction/lenses"
+  ],
+  "labs": [
+    "eye-doctor"
+  ],
+  "keyTerms": [
+    "cornea",
+    "iris",
+    "pupil",
+    "eye lens",
+    "retina",
+    "accommodation",
+    "near point",
+    "far point",
+    "myopia",
+    "hypermetropia",
+    "presbyopia"
+  ],
+  "estMinutes": 30
+}

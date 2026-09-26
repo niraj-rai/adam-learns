@@ -1,0 +1,57 @@
+{
+  "id": "light-master",
+  "number": "12.6",
+  "title": "Boss Challenge: Light Master",
+  "summary": "Ten problems on mirrors, lenses, refraction, the eye and scattering. Three lives!",
+  "emoji": "🔦",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Light: Reflection and Refraction",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply the mirror and lens formulas.",
+    "I can explain refraction and the eye.",
+    "I can explain dispersion and scattering."
+  ],
+  "misconceptions": [
+    "Distances are always positive.",
+    "Myopia needs convex lenses.",
+    "Red is scattered most."
+  ],
+  "prerequisites": [
+    "physics/reflection-refraction/spherical-mirrors",
+    "physics/reflection-refraction/refraction",
+    "physics/reflection-refraction/lenses",
+    "physics/reflection-refraction/human-eye",
+    "physics/reflection-refraction/dispersion-and-scattering"
+  ],
+  "labs": [
+    "light-master"
+  ],
+  "keyTerms": [
+    "mirror formula",
+    "lens formula",
+    "refractive index",
+    "power",
+    "scattering"
+  ],
+  "estMinutes": 20
+}

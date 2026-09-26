@@ -1,0 +1,58 @@
+{
+  "id": "electric-power",
+  "number": "13.3",
+  "title": "Heating Effect and Electric Power",
+  "summary": "Joule's law of heating, electric power P = VI = I²R, energy in kWh, fuses and MCBs.",
+  "emoji": "🔌",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Electricity, MYP 5 Physics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Electricity",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can use H = I²Rt and P = VI = I²R = V²/R.",
+    "I can calculate energy in kWh and its cost.",
+    "I can explain how fuses and MCBs protect circuits."
+  ],
+  "misconceptions": [
+    "A fuse limits the current to its rating.",
+    "Heat is proportional to current.",
+    "Higher-wattage bulbs have higher resistance."
+  ],
+  "prerequisites": [
+    "physics/current-electricity/series-and-parallel",
+    "physics/electricity/heating-effect"
+  ],
+  "labs": [
+    "fuse-box"
+  ],
+  "keyTerms": [
+    "heating effect",
+    "Joule's law",
+    "electric power",
+    "watt",
+    "kilowatt-hour",
+    "fuse",
+    "MCB",
+    "overloading",
+    "short circuit"
+  ],
+  "estMinutes": 30
+}

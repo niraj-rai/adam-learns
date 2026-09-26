@@ -1,0 +1,35 @@
+{
+  "id": "current-electricity",
+  "number": 13,
+  "stage": "G10",
+  "title": "Electricity and Magnetism",
+  "summary": "Grade 10: current and potential difference, Ohm's law, resistance and resistivity, series and parallel circuits, electric power and heating, magnetic fields of currents, motors and domestic circuits.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": [
+      "Energy",
+      "Interaction",
+      "Models"
+    ],
+    "globalContext": "Globalization and sustainability",
+    "statementOfInquiry": "Understanding how charge flows and how currents interact with magnetic fields lets us power homes safely and efficiently."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is Ohm's law?",
+      "How is power calculated?",
+      "What does a fuse do?"
+    ],
+    "conceptual": [
+      "Why are homes wired in parallel?",
+      "How does a current create a force in a magnetic field?"
+    ],
+    "debatable": [
+      "Should electricity be priced higher at peak times to reduce demand?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 10: Electricity",
+    "Class 10: Magnetic Effects of Electric Current"
+  ]
+}

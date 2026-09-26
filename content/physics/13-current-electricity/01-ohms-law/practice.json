@@ -1,0 +1,111 @@
+{
+  "topicId": "ohms-law",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A current of 2 A flows for 30 s. How much charge passes?",
+      "answer": 60,
+      "tolerance": 0,
+      "explain": "Q = It = 2 × 30.",
+      "unit": "C",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A 6 V battery drives a current of 0.5 A through a lamp. What is the lamp’s resistance?",
+      "answer": 12,
+      "tolerance": 0,
+      "explain": "R = V/I = 6 ÷ 0.5.",
+      "unit": "Ω",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "How much work is done moving 5 C of charge across a potential difference of 12 V?",
+      "answer": 60,
+      "tolerance": 0,
+      "explain": "W = VQ = 12 × 5.",
+      "unit": "J"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How is a voltmeter connected to measure the voltage across a lamp?",
+      "options": [
+        "Across the battery only",
+        "Anywhere in the circuit",
+        "In series with the lamp",
+        "In parallel with the lamp"
+      ],
+      "answer": 3,
+      "explain": "It compares the potential at two points.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "The V–I graph of a component is a straight line through the origin. This means…",
+      "options": [
+        "it obeys Ohm’s law (constant resistance)",
+        "it is a filament bulb",
+        "its resistance increases with current",
+        "it doesn’t conduct"
+      ],
+      "answer": 0,
+      "explain": "Straight line: V ∝ I."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why does the V–I graph of a filament bulb curve?",
+      "options": [
+        "Its resistance decreases",
+        "The voltmeter is wrong",
+        "Its resistance increases as it gets hotter",
+        "Bulbs don’t follow any rule"
+      ],
+      "answer": 2,
+      "explain": "Hotter metal resists current more."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A resistor of 20 Ω has 0.3 A through it. What is the voltage across it?",
+      "answer": 6,
+      "tolerance": 0,
+      "explain": "V = IR = 0.3 × 20.",
+      "unit": "V"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why the current in a series circuit is the same at every point.",
+      "modelAnswer": "Charge is not created or destroyed in a circuit. In a series circuit there is only one path, so the same amount of charge must pass every point each second. The current (rate of flow of charge) is therefore the same everywhere; it is energy, not charge, that is transferred to the components.",
+      "rubric": [
+        "Charge conserved",
+        "Only one path in series",
+        "Energy transferred, not charge used up"
+      ],
+      "explain": "Criterion C: communicating reasoning."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "circuit-master",
+  "number": "13.6",
+  "title": "Boss Challenge: Circuit Master",
+  "summary": "Ten problems on Ohm's law, resistors, power and magnetism. Three lives!",
+  "emoji": "⚡",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Electricity",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can solve circuit problems.",
+    "I can calculate power and energy.",
+    "I can apply magnetism rules."
+  ],
+  "misconceptions": [
+    "Parallel resistance is bigger.",
+    "Heat ∝ current.",
+    "Current is used up."
+  ],
+  "prerequisites": [
+    "physics/current-electricity/ohms-law",
+    "physics/current-electricity/series-and-parallel",
+    "physics/current-electricity/electric-power",
+    "physics/current-electricity/magnetic-fields",
+    "physics/current-electricity/motors-and-induction"
+  ],
+  "labs": [
+    "circuit-master"
+  ],
+  "keyTerms": [
+    "Ohm's law",
+    "resistance",
+    "power",
+    "fuse",
+    "magnetic field"
+  ],
+  "estMinutes": 20
+}

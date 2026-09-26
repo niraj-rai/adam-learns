@@ -1,0 +1,127 @@
+{
+  "topicId": "dispersion-and-scattering",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is dispersion?",
+      "options": [
+        "Splitting of white light into its colours",
+        "Bending of light at a boundary",
+        "Bouncing of light off a mirror",
+        "Absorption of light"
+      ],
+      "answer": 0,
+      "explain": "Different colours bend by different amounts.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In a spectrum from a prism, which colour is bent the least?",
+      "options": [
+        "Blue",
+        "Violet",
+        "Red",
+        "Green"
+      ],
+      "answer": 2,
+      "explain": "Red has the longest wavelength and bends least.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why do stars twinkle but planets usually don’t?",
+      "options": [
+        "Stars are hotter",
+        "Stars are point sources, so atmospheric refraction makes their light flicker",
+        "Planets are closer to the Moon",
+        "Stars rotate"
+      ],
+      "answer": 1,
+      "explain": "Planets are extended sources, so the flickers average out.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why does the sky look dark to astronauts above the atmosphere?",
+      "options": [
+        "Space absorbs blue light",
+        "The Sun is dimmer in space",
+        "Their visors are tinted",
+        "There is no air to scatter sunlight"
+      ],
+      "answer": 3,
+      "explain": "No scattering, no blue sky."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where must the Sun be to see a rainbow?",
+      "options": [
+        "Behind you",
+        "Directly overhead",
+        "In front of you",
+        "Below the horizon"
+      ],
+      "answer": 0,
+      "explain": "Raindrops refract and reflect sunlight back towards you."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The beam of sunlight entering a dusty room is visible because of…",
+      "options": [
+        "dispersion",
+        "total internal reflection",
+        "the Tyndall effect (scattering by particles)",
+        "refraction in glass"
+      ],
+      "answer": 2,
+      "explain": "Dust particles scatter light sideways into your eyes."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which colour of light is scattered most by air molecules?",
+      "options": [
+        "All equally",
+        "Blue (short wavelength)",
+        "Red (long wavelength)",
+        "Yellow"
+      ],
+      "answer": 1,
+      "explain": "Scattering ∝ 1/λ⁴."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why the Sun looks reddish at sunrise and sunset but white-yellow at noon.",
+      "modelAnswer": "At sunrise and sunset, sunlight passes through a much longer path of atmosphere to reach us. Along the way, most of the shorter wavelengths (blue, violet) are scattered out of the beam by air molecules. The light that reaches us is mainly the longer, less-scattered wavelengths (red, orange). At noon the path is short, so little is scattered and the Sun looks white-yellow.",
+      "rubric": [
+        "Longer path through air at sunrise/sunset",
+        "Blue scattered away more (short wavelength)",
+        "Red/orange reaches us"
+      ],
+      "explain": "Criterion A: explaining a phenomenon."
+    }
+  ]
+}

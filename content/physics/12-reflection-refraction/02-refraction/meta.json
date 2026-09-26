@@ -1,0 +1,56 @@
+{
+  "id": "refraction",
+  "number": "12.2",
+  "title": "Refraction and Snell's Law",
+  "summary": "Laws of refraction, refractive index, Snell's law, and total internal reflection.",
+  "emoji": "💎",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Light, MYP 5 Physics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Light: Reflection and Refraction",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can state the laws of refraction.",
+    "I can calculate refractive index and use Snell's law.",
+    "I can explain total internal reflection and its uses."
+  ],
+  "misconceptions": [
+    "Light speeds up in glass.",
+    "Light always bends at a boundary, even when it hits along the normal.",
+    "Refraction is a kind of reflection."
+  ],
+  "prerequisites": [
+    "physics/reflection-refraction/spherical-mirrors",
+    "physics/light/lenses"
+  ],
+  "labs": [
+    "snell-lab"
+  ],
+  "keyTerms": [
+    "refraction",
+    "refractive index",
+    "Snell's law",
+    "normal",
+    "critical angle",
+    "total internal reflection",
+    "optical fibre"
+  ],
+  "estMinutes": 30
+}

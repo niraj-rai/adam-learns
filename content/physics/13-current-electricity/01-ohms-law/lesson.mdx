@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="What actually flows?" />
+
+<Hook emoji="🔋">
+Flip a switch and the fan starts instantly, even though the electrons in the wires drift along at less than a millimetre per second. What flows, what pushes it, and what holds it back? Three quantities, current, voltage and resistance, are linked by one of the most useful laws in physics.
+</Hook>
+
+<PredictFirst
+  question="The voltage across a resistor is doubled. What happens to the current through it?"
+  options={["It halves", "It stays the same", "It doubles", "It becomes zero"]}
+  answer={2}
+>
+For a resistor at constant temperature, current is proportional to voltage: **double the voltage, double the current**.
+</PredictFirst>
+
+<Stage kind="explain" title="Three linked quantities" />
+
+<Compare
+  columns={[
+    { title: "Current I", emoji: "➡️", points: ["Rate of flow of charge: I = Q/t", "Unit: ampere (A)", "Measured with an ammeter in series"] },
+    { title: "Potential difference V", emoji: "⬆️", points: ["Work done per unit charge: V = W/Q", "Unit: volt (V)", "Measured with a voltmeter in parallel"] },
+    { title: "Resistance R", emoji: "🧱", points: ["Opposition to current", "Unit: ohm (Ω)", "R = V/I"] }
+  ]}
+/>
+
+<Formula tex="V = I \times R" caption="Ohm's law: for a metal conductor at constant temperature" />
+
+<Stage kind="try" title="Ohm's Law" />
+
+<Lab id="ohms-law" />
+
+<MythFact myth="Current gets used up as it goes round a circuit.">
+The current is the **same** all the way round a series circuit. What gets transferred is **energy**: the cell gives energy to the charges, and they give it to the components.
+</MythFact>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Is a pencil ohmic?">
+Plan an experiment to find whether the graphite in a pencil obeys Ohm's law, using a battery pack, an ammeter, a voltmeter and crocodile clips. What would you change, measure and keep the same? What graph shape would show it is ohmic?
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Electricity">
+- Electric current, charge, potential and potential difference; ammeter and voltmeter.
+- Ohm's law; V–I graphs; resistance.
+</CbseCorner>
+
+<Reflect id="phys10-ohm" prompt="Use a water-pipe analogy to explain current, voltage and resistance to a friend. Where does the analogy break down?" />

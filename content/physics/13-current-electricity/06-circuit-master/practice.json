@@ -1,0 +1,108 @@
+{
+  "topicId": "circuit-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A 9 V battery is connected across 3 Ω and 6 Ω in series. What current flows?",
+      "answer": 1,
+      "tolerance": 0,
+      "explain": "R = 9 Ω; I = 9 ÷ 9.",
+      "unit": "A"
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Three 6 Ω resistors are in parallel. What is the combined resistance?",
+      "answer": 2,
+      "tolerance": 0,
+      "explain": "1/R = 3/6.",
+      "unit": "Ω"
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A 60 W bulb runs on 240 V. What current does it draw?",
+      "answer": 0.25,
+      "tolerance": 0,
+      "explain": "I = P/V = 60 ÷ 240.",
+      "unit": "A"
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A 1.5 kW heater is used for 2 hours a day for 30 days. How many units does it use?",
+      "answer": 90,
+      "tolerance": 0,
+      "explain": "1.5 × 2 × 30.",
+      "unit": "kWh"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A copper wire is replaced by one of the same size made of nichrome. The resistance…",
+      "options": [
+        "stays the same",
+        "becomes zero",
+        "decreases",
+        "increases a lot"
+      ],
+      "answer": 3,
+      "explain": "Nichrome has much higher resistivity."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which device protects a circuit by switching off automatically when the current is too high, and can be reset?",
+      "options": [
+        "MCB (miniature circuit breaker)",
+        "Fuse",
+        "Voltmeter",
+        "Earth wire"
+      ],
+      "answer": 0,
+      "explain": "A fuse melts and must be replaced."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "What happens to the force on a wire if both the current and the field are reversed?",
+      "options": [
+        "It doubles",
+        "It becomes zero",
+        "It stays in the same direction",
+        "It reverses"
+      ],
+      "answer": 2,
+      "explain": "Two reversals cancel."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A family runs a 2000 W geyser, a 1000 W iron and a 100 W TV at the same time on a 230 V circuit with a 10 A fuse. What happens? Show your working.",
+      "modelAnswer": "Total power = 3100 W. Current I = P/V = 3100 ÷ 230 ≈ 13.5 A. This is more than the 10 A fuse rating, so the fuse melts (or the MCB trips) and the circuit is switched off to prevent the wires overheating. They should use a 15 A circuit for the geyser or not run them together.",
+      "rubric": [
+        "Total power 3100 W",
+        "Current ≈ 13.5 A",
+        "Exceeds 10 A: fuse blows / MCB trips"
+      ],
+      "explain": "Criterion D: safety calculation."
+    }
+  ]
+}

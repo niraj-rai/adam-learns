@@ -1,0 +1,111 @@
+{
+  "topicId": "light-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "An object is 12 cm from a concave mirror with f = −8 cm. Find v in cm (with sign).",
+      "answer": -24,
+      "tolerance": 0,
+      "explain": "1/v = −1/8 + 1/12 = −1/24.",
+      "unit": "cm"
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the focal length in cm of a lens of power +2.5 D?",
+      "answer": 40,
+      "tolerance": 0,
+      "explain": "f = 1/2.5 m = 0.4 m.",
+      "unit": "cm"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A ray passes from water (n = 1.33) into glass (n = 1.5). It bends…",
+      "options": [
+        "towards the normal",
+        "back into the water",
+        "not at all",
+        "away from the normal"
+      ],
+      "answer": 0,
+      "explain": "It enters a denser medium."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which image is formed by a concave lens?",
+      "options": [
+        "Virtual, inverted, magnified",
+        "Real, inverted, magnified",
+        "Virtual, upright, diminished",
+        "Real, upright, same size"
+      ],
+      "answer": 2,
+      "explain": "Always, for a real object."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "For a mirror, u = −25 cm and v = −25 cm. What is m?",
+      "answer": -1,
+      "tolerance": 0,
+      "explain": "m = −v/u = −1."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why do danger lights use red?",
+      "options": [
+        "Red is the brightest colour",
+        "Red is scattered least, so it travels furthest through fog and haze",
+        "Red light is fastest",
+        "Red is scattered most"
+      ],
+      "answer": 1,
+      "explain": "Longest visible wavelength."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "A hypermetropic person’s near point is 1 m. The correcting lens is…",
+      "options": [
+        "concave, about −3 D",
+        "convex, about +1 D",
+        "concave, about −1 D",
+        "convex, about +3 D"
+      ],
+      "answer": 3,
+      "explain": "P = 1/0.25 − 1/1 = 3 D."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain the difference between the mirror formula and the lens formula, and why the sign convention matters for both.",
+      "modelAnswer": "Mirror: 1/v + 1/u = 1/f; lens: 1/v − 1/u = 1/f. In both, distances are measured from the pole or optical centre using the New Cartesian sign convention (object distance negative, distances along the incident light positive). The signs tell us whether images are real or virtual, and upright or inverted; using the wrong sign gives the wrong position and nature of the image.",
+      "rubric": [
+        "States both formulas correctly",
+        "Describes the sign convention",
+        "Explains why signs matter"
+      ],
+      "explain": "Criterion C: communicating."
+    }
+  ]
+}

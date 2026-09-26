@@ -1,0 +1,127 @@
+{
+  "topicId": "motors-and-induction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In Fleming’s left-hand rule, what does the first finger represent?",
+      "options": [
+        "The voltage",
+        "The force",
+        "The magnetic field",
+        "The current"
+      ],
+      "answer": 2,
+      "explain": "First finger: Field.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "When is the force on a current-carrying wire in a magnetic field greatest?",
+      "options": [
+        "When the magnet is far away",
+        "When the wire is at right angles to the field",
+        "When there is no current",
+        "When the wire is parallel to the field"
+      ],
+      "answer": 1,
+      "explain": "Parallel to the field gives no force.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the job of the split-ring commutator in a DC motor?",
+      "options": [
+        "It makes the magnet stronger",
+        "It stops the coil",
+        "It increases the voltage",
+        "It reverses the current in the coil every half turn"
+      ],
+      "answer": 3,
+      "explain": "This keeps the coil turning in one direction."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which wire in a home circuit is at a high potential (230 V)?",
+      "options": [
+        "Live",
+        "Earth",
+        "Neutral",
+        "All three"
+      ],
+      "answer": 0,
+      "explain": "Live is red/brown.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "What is electromagnetic induction?",
+      "options": [
+        "Light bending in glass",
+        "A current heating a wire",
+        "Producing a current by changing the magnetic field through a coil",
+        "A magnet attracting iron"
+      ],
+      "answer": 2,
+      "explain": "Discovered by Faraday."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why do heavy appliances like geysers use a separate 15 A circuit?",
+      "options": [
+        "They need a different voltage",
+        "They draw large currents that would overload a lighting circuit",
+        "They don’t need earthing",
+        "To save electricity"
+      ],
+      "answer": 1,
+      "explain": "Lighting circuits are usually rated 5 A."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How could you make a simple motor spin faster?",
+      "options": [
+        "Use fewer turns and less current",
+        "Remove the commutator",
+        "Reverse the magnet only",
+        "Increase the current or use a stronger magnet"
+      ],
+      "answer": 3,
+      "explain": "Both increase the force."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why a coil carrying current between the poles of a magnet starts to rotate.",
+      "modelAnswer": "The two long sides of the coil carry current in opposite directions. By Fleming’s left-hand rule, the magnetic field pushes one side up and the other side down. These two opposite forces form a turning effect (a couple) on the coil, so it rotates about its axis.",
+      "rubric": [
+        "Opposite currents in the two sides",
+        "Forces in opposite directions (Fleming’s rule)",
+        "Turning effect makes the coil rotate"
+      ],
+      "explain": "Criterion A: explaining a motor."
+    }
+  ]
+}

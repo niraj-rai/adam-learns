@@ -1,0 +1,52 @@
+<Stage kind="wonder" title="From magnifier to projector" />
+
+<Hook emoji="🔍">
+The same convex lens can be a magnifying glass, a camera lens or a projector lens: it depends only on where the object is. And the number printed on a spectacle prescription, like "−1.5", is the lens's **power**.
+</Hook>
+
+<PredictFirst
+  question="A convex lens has a focal length of 50 cm. What is its power?"
+  options={["+50 D", "+2 D", "−2 D", "+0.02 D"]}
+  answer={1}
+>
+Power P = 1/f with f in **metres**: 1 ÷ 0.5 = **+2 D** (dioptres).
+</PredictFirst>
+
+<Stage kind="explain" title="The lens formula" />
+
+<Formula tex="\frac{1}{v} - \frac{1}{u} = \frac{1}{f} \qquad m = \frac{v}{u} \qquad P = \frac{1}{f\,(\text{m})}" caption="Note the minus sign: the lens formula differs from the mirror formula" />
+
+<Compare
+  columns={[
+    { title: "Convex (converging)", emoji: "🔍", points: ["f and P positive", "Real, inverted images when the object is beyond F", "Virtual, magnified image inside F (magnifier)"] },
+    { title: "Concave (diverging)", emoji: "👓", points: ["f and P negative", "Always virtual, upright, diminished", "Used to correct short sight"] }
+  ]}
+/>
+
+<Stage kind="try" title="Lens Formula Bench" />
+
+<Lab id="lens-formula" />
+
+<StepReveal
+  steps={[
+    "A convex lens has f = +20 cm; the object is 30 cm away: u = −30 cm.",
+    "1/v = 1/f + 1/u = 1/20 − 1/30 = 1/60, so v = +60 cm.",
+    "v is positive: a real image on the far side of the lens.",
+    "m = v/u = 60/−30 = −2: inverted and twice the size, like a projector."
+  ]}
+/>
+
+<Lab id="optics-bench" />
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Build a pinhole-and-lens camera">
+Using a cardboard tube, tracing paper and a magnifying glass, build a simple camera that shows an image of a window on the paper screen. Measure u and v and check them with the lens formula. What is the image like, and why?
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Light: Reflection and Refraction">
+- Refraction by spherical lenses; image formation by convex and concave lenses.
+- Lens formula; magnification; power of a lens (dioptre).
+</CbseCorner>
+
+<Reflect id="phys10-lenses" prompt="Look at a pair of spectacles or a phone camera. What kind of lens do you think it uses?" />

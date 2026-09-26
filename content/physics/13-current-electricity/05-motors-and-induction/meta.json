@@ -1,0 +1,57 @@
+{
+  "id": "motors-and-induction",
+  "number": "13.5",
+  "title": "Motors, Induction and Domestic Circuits",
+  "summary": "Force on a current in a magnetic field, Fleming's left-hand rule, the DC motor, induction and home wiring.",
+  "emoji": "⚙️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Electromagnetism, MYP 5 Physics (motors and induction beyond the rationalised CBSE syllabus)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Magnetic Effects of Electric Current",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can use Fleming's left-hand rule.",
+    "I can explain how a simple DC motor works.",
+    "I can describe domestic circuits and safety devices."
+  ],
+  "misconceptions": [
+    "The force is along the field.",
+    "A motor makes energy.",
+    "The neutral wire is always safe to touch."
+  ],
+  "prerequisites": [
+    "physics/current-electricity/magnetic-fields",
+    "physics/current-electricity/electric-power"
+  ],
+  "labs": [
+    "motor-lab"
+  ],
+  "keyTerms": [
+    "Fleming's left-hand rule",
+    "motor",
+    "commutator",
+    "electromagnetic induction",
+    "generator",
+    "live wire",
+    "neutral wire",
+    "earth wire"
+  ],
+  "estMinutes": 30
+}

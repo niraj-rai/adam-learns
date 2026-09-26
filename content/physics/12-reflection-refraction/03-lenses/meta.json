@@ -1,0 +1,56 @@
+{
+  "id": "lenses",
+  "number": "12.3",
+  "title": "Lenses, the Lens Formula and Power",
+  "summary": "Convex and concave lenses, 1/v − 1/u = 1/f, magnification and the power of a lens.",
+  "emoji": "🔍",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Light, MYP 5 Physics"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Light: Reflection and Refraction",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can use the lens formula and magnification.",
+    "I can calculate lens power in dioptres.",
+    "I can describe images formed by convex and concave lenses."
+  ],
+  "misconceptions": [
+    "The lens formula is the same as the mirror formula.",
+    "Power is measured in watts.",
+    "A concave lens can form a real image of a real object."
+  ],
+  "prerequisites": [
+    "physics/reflection-refraction/refraction",
+    "physics/light/lenses"
+  ],
+  "labs": [
+    "lens-formula",
+    "optics-bench"
+  ],
+  "keyTerms": [
+    "convex lens",
+    "concave lens",
+    "optical centre",
+    "lens formula",
+    "power",
+    "dioptre"
+  ],
+  "estMinutes": 30
+}
