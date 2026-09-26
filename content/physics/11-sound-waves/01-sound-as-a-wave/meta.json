@@ -1,0 +1,59 @@
+{
+  "id": "sound-as-a-wave",
+  "number": "11.1",
+  "title": "Sound as a Longitudinal Wave",
+  "summary": "Compressions and rarefactions: how vibrations travel through a medium, and why sound can't cross a vacuum.",
+  "emoji": "🔊",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Waves, MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 10: Sound Waves",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Sound",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe sound as a longitudinal wave of compressions and rarefactions.",
+    "I can compare longitudinal and transverse waves.",
+    "I can explain why sound needs a medium."
+  ],
+  "misconceptions": [
+    "The air travels from the source to your ear.",
+    "Sound can travel through space.",
+    "All waves move particles up and down."
+  ],
+  "prerequisites": [
+    "physics/sound/how-sound-travels"
+  ],
+  "labs": [
+    "longitudinal-wave"
+  ],
+  "keyTerms": [
+    "wave",
+    "longitudinal wave",
+    "transverse wave",
+    "compression",
+    "rarefaction",
+    "medium"
+  ],
+  "estMinutes": 25
+}

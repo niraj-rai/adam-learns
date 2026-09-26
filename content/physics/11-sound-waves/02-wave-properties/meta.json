@@ -1,0 +1,62 @@
+{
+  "id": "wave-properties",
+  "number": "11.2",
+  "title": "Frequency, Wavelength and Speed",
+  "summary": "Amplitude, frequency, time period and wavelength; pitch and loudness; and the wave equation v = fλ.",
+  "emoji": "🎼",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Wave properties, MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 10: Sound Waves",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Sound",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can define amplitude, frequency, time period and wavelength.",
+    "I can use v = fλ and T = 1/f.",
+    "I can link pitch to frequency and loudness to amplitude."
+  ],
+  "misconceptions": [
+    "A louder sound travels faster.",
+    "A higher-pitched sound has a bigger amplitude.",
+    "Sound travels at the same speed in every material."
+  ],
+  "prerequisites": [
+    "physics/sound-waves/sound-as-a-wave",
+    "physics/sound/pitch-and-loudness"
+  ],
+  "labs": [
+    "wave-equation"
+  ],
+  "keyTerms": [
+    "amplitude",
+    "frequency",
+    "hertz",
+    "time period",
+    "wavelength",
+    "wave speed",
+    "pitch",
+    "loudness"
+  ],
+  "estMinutes": 30
+}

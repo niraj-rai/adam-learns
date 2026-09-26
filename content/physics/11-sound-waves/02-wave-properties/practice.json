@@ -1,0 +1,115 @@
+{
+  "topicId": "wave-properties",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A sound has a frequency of 680 Hz and travels at 340 m/s. What is its wavelength?",
+      "answer": 0.5,
+      "tolerance": 0,
+      "explain": "λ = v ÷ f = 340 ÷ 680 = 0.5 m.",
+      "unit": "m",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A wave has a frequency of 200 Hz and a wavelength of 1.7 m. What is its speed?",
+      "answer": 340,
+      "tolerance": 0,
+      "explain": "v = fλ = 200 × 1.7 = 340 m/s.",
+      "unit": "m/s",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "What is the time period of a 500 Hz sound, in seconds?",
+      "answer": 0.002,
+      "tolerance": 0,
+      "explain": "T = 1 ÷ f = 1 ÷ 500 = 0.002 s.",
+      "unit": "s",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which property of a sound wave decides its pitch?",
+      "options": [
+        "Frequency",
+        "The medium",
+        "Speed",
+        "Amplitude"
+      ],
+      "answer": 0,
+      "explain": "Higher frequency = higher pitch.",
+      "feedback": {
+        "3": "Amplitude decides loudness."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "You turn up the volume of a song. Which property of the sound waves increases?",
+      "options": [
+        "Frequency",
+        "Speed",
+        "Amplitude",
+        "Wavelength"
+      ],
+      "answer": 2,
+      "explain": "Bigger vibrations = louder sound."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In which medium does sound travel fastest?",
+      "options": [
+        "Water",
+        "Steel",
+        "A vacuum",
+        "Air"
+      ],
+      "answer": 1,
+      "explain": "Solids pass vibrations fastest; sound can’t travel in a vacuum at all."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Sound travels in water at 1500 m/s. What is the wavelength of a 3000 Hz sound in water?",
+      "answer": 0.5,
+      "tolerance": 0,
+      "explain": "λ = 1500 ÷ 3000 = 0.5 m.",
+      "unit": "m"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A student doubles the frequency of a sound in air. What happens to its speed?",
+      "options": [
+        "It doubles",
+        "It becomes zero",
+        "It halves",
+        "It stays the same"
+      ],
+      "answer": 3,
+      "explain": "The speed is set by the medium. The wavelength halves instead."
+    }
+  ]
+}

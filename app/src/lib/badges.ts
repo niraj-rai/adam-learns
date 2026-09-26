@@ -71,6 +71,8 @@ export type BadgeId =
   | 'force-master'
   | 'unit-work-and-energy'
   | 'energy-master'
+  | 'unit-sound-waves'
+  | 'sound-master'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -146,5 +148,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'force-master': { title: 'Force Master', emoji: '🏋️', description: 'Solved ten Grade 9 force and momentum problems (Boss Challenge)' },
   'unit-work-and-energy': { title: 'Energy Engineer', emoji: '⚙️', description: 'Mastered every core topic in Grade 9 Physics Unit 10: Work, Energy and Simple Machines' },
   'energy-master': { title: 'Energy Master', emoji: '⚡', description: 'Solved ten Grade 9 work, energy and power problems (Boss Challenge)' },
+  'unit-sound-waves': { title: 'Wave Rider', emoji: '🌊', description: 'Mastered every core topic in Grade 9 Physics Unit 11: Sound Waves' },
+  'sound-master': { title: 'Sound Master', emoji: '🎧', description: 'Solved ten Grade 9 sound problems (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

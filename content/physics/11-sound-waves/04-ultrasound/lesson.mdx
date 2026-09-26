@@ -1,0 +1,56 @@
+<Stage kind="wonder" title="Seeing with sound" />
+
+<Hook emoji="🦇">
+A bat flying in total darkness can catch a mosquito. A doctor can watch a baby's heart beating before it is born. A ship can map a sea floor 4 km below. All three use sounds that are too high-pitched for us to hear: **ultrasound**.
+</Hook>
+
+<PredictFirst
+  question="A dog whistle makes a 30 000 Hz sound. Why can't people hear it?"
+  options={["Its frequency is above the human hearing range", "It is too quiet", "It travels too slowly", "It is infrasound"]}
+  answer={0}
+>
+Humans hear roughly **20 Hz to 20 000 Hz**. Dogs hear up to about 45 000 Hz, so the whistle is ultrasound to us but audible to the dog.
+</PredictFirst>
+
+<Stage kind="explain" title="Beyond our hearing" />
+
+<Compare
+  columns={[
+    { title: "Infrasound", emoji: "🐘", points: ["Below 20 Hz", "Elephants, whales", "Given off by earthquakes and volcanoes"] },
+    { title: "Audible", emoji: "🧒", points: ["About 20 Hz – 20 kHz for young people", "The upper limit falls with age"] },
+    { title: "Ultrasound", emoji: "🦇", points: ["Above 20 kHz", "Bats, dolphins", "Medical scans, SONAR, crack detection, cleaning"] }
+  ]}
+/>
+
+<ConceptCard title="SONAR" emoji="🚢">
+<KeyTerm def="SOund Navigation And Ranging: sending out ultrasound pulses and timing their echoes to find the distance, direction and speed of underwater objects.">SONAR</KeyTerm> sends ultrasound pulses down from a ship and times the echo from the sea bed or a shoal of fish:
+
+depth = speed of sound in water × time ÷ 2
+
+Ultrasound is used because its short wavelength gives sharp echoes and travels in a narrow beam without spreading much.
+</ConceptCard>
+
+<Stage kind="try" title="Who Can Hear It?" />
+
+<Lab id="hearing-range" />
+
+<RealLife>
+Ultrasound scans (sonography) send 1–15 MHz pulses into the body. Echoes from the boundaries between tissues build up a picture of organs or an unborn baby. Unlike X-rays, ultrasound doesn't damage cells, so it's safe for repeated scans. Engineers use it to find hidden cracks inside metal parts of bridges, trains and aircraft.
+</RealLife>
+
+<DidYouKnow>
+Bats use <KeyTerm def="Finding objects by sending out sounds and listening for their echoes, as bats and dolphins do.">echolocation</KeyTerm>: they send out up to 200 ultrasonic clicks a second as they close in on an insect, timing each echo to track it precisely.
+</DidYouKnow>
+
+<Stage kind="apply" title="Reflect on impacts" />
+
+<Inquiry criterion="D" title="Ultrasound and society">
+In India, ultrasound scans are strictly regulated by law (the PCPNDT Act) to prevent their misuse for sex selection. Research the benefits of ultrasound in healthcare and explain why society needs rules about how a technology is used.
+</Inquiry>
+
+<CbseCorner source="Exploration (Class 9, 2026) Ch 10 · Earlier NCERT Class 9: Sound">
+- Range of hearing: 20 Hz – 20 kHz; infrasound and ultrasound.
+- Applications of ultrasound; SONAR; numerical problems on depth.
+</CbseCorner>
+
+<Reflect id="phys9-sound-ultra" prompt="Which use of ultrasound do you think has helped people the most? Explain your choice." />

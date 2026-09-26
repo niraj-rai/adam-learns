@@ -1,0 +1,61 @@
+{
+  "id": "human-ear",
+  "number": "11.5",
+  "title": "The Human Ear and Hearing Health",
+  "summary": "How the outer, middle and inner ear turn pressure waves into nerve signals, and how to protect your hearing.",
+  "emoji": "👂",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Hearing, MYP 4 Physics/Biology"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 10: Sound Waves",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Sound",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe the parts of the ear and what each does.",
+    "I can explain how the ear converts sound into electrical signals.",
+    "I can explain how loud sounds damage hearing and how to prevent it."
+  ],
+  "misconceptions": [
+    "We hear with our eardrums alone.",
+    "Hearing damage always heals.",
+    "Only very painful sounds damage hearing."
+  ],
+  "prerequisites": [
+    "physics/sound-waves/sound-as-a-wave",
+    "physics/sound/hearing-and-noise"
+  ],
+  "labs": [
+    "ear-journey"
+  ],
+  "keyTerms": [
+    "pinna",
+    "ear canal",
+    "eardrum",
+    "ossicles",
+    "cochlea",
+    "auditory nerve",
+    "decibel"
+  ],
+  "estMinutes": 25
+}

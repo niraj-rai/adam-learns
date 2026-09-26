@@ -1,0 +1,160 @@
+{
+  "topicId": "sound-as-a-wave",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What type of wave is sound in air?",
+      "options": [
+        "Transverse",
+        "Electromagnetic",
+        "A stream of air moving from the source",
+        "Longitudinal"
+      ],
+      "answer": 3,
+      "explain": "Air particles vibrate back and forth along the direction of travel.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In a sound wave, a region where the air particles are close together is called a…",
+      "options": [
+        "compression",
+        "rarefaction",
+        "crest",
+        "trough"
+      ],
+      "answer": 0,
+      "explain": "Compression = high pressure; rarefaction = low pressure.",
+      "feedback": {
+        "2": "Crests belong to transverse waves."
+      },
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why can’t sound travel through a vacuum?",
+      "options": [
+        "Sound is absorbed by light",
+        "Vacuums are too cold",
+        "There are no particles to pass on the vibrations",
+        "Sound travels too fast in a vacuum"
+      ],
+      "answer": 2,
+      "explain": "Sound is a mechanical wave: it needs a medium."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What does a sound wave carry from the source to the listener?",
+      "options": [
+        "Mass",
+        "Energy",
+        "Air particles",
+        "Heat only"
+      ],
+      "answer": 1,
+      "explain": "The particles only vibrate about fixed positions; energy travels along."
+    },
+    {
+      "id": "q5",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sort the waves.",
+      "bins": [
+        "Longitudinal",
+        "Transverse"
+      ],
+      "items": [
+        {
+          "label": "Sound in air",
+          "bin": 0
+        },
+        {
+          "label": "Ripples on a pond",
+          "bin": 1
+        },
+        {
+          "label": "A slinky pushed along its length",
+          "bin": 0
+        },
+        {
+          "label": "Light",
+          "bin": 1
+        },
+        {
+          "label": "A rope shaken up and down",
+          "bin": 1
+        },
+        {
+          "label": "Ultrasound in the body",
+          "bin": 0
+        }
+      ],
+      "explain": "Longitudinal: vibrations parallel to travel. Transverse: vibrations at right angles."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A bell ringing inside a jar gets quieter as the air is pumped out. What does this experiment show?",
+      "options": [
+        "Glass blocks all sound",
+        "The bell stops vibrating",
+        "Sound travels faster in a vacuum",
+        "Sound needs a medium to travel"
+      ],
+      "answer": 3,
+      "explain": "The bell still vibrates, but with fewer particles there is less to carry the sound."
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "In a longitudinal wave the particles vibrate ___ to the direction of travel, making compressions and ___.",
+      "blanks": [
+        [
+          "parallel"
+        ],
+        [
+          "rarefactions"
+        ]
+      ],
+      "wordBank": [
+        "parallel",
+        "rarefactions",
+        "perpendicular",
+        "crests"
+      ],
+      "explain": "Parallel vibrations produce compressions and rarefactions."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Astronauts on a spacewalk can’t hear each other directly, even when close together, but they can if they touch helmets. Explain why.",
+      "modelAnswer": "Space is a vacuum, so there are no particles to carry the vibrations of sound between the astronauts. When their helmets touch, the vibrations can travel through the solid helmets (a medium), so the sound passes from one to the other.",
+      "rubric": [
+        "Space is a vacuum: no medium",
+        "Sound needs particles to carry vibrations",
+        "Touching helmets gives a solid medium"
+      ],
+      "explain": "Criterion A: applying the idea of a medium."
+    }
+  ]
+}

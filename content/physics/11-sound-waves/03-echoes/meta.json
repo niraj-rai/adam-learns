@@ -1,0 +1,58 @@
+{
+  "id": "echoes",
+  "number": "11.3",
+  "title": "Echoes and Reverberation",
+  "summary": "Reflection of sound, the 17.2 m rule for echoes, measuring distance, and designing halls that sound good.",
+  "emoji": "⛰️",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Reflection of waves, MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 10: Sound Waves",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Sound",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain what an echo is and when it can be heard.",
+    "I can calculate distances using echo times.",
+    "I can explain reverberation and how it is reduced."
+  ],
+  "misconceptions": [
+    "Echoes only happen in mountains.",
+    "The echo time gives the distance to the wall directly (forgetting to halve).",
+    "Soft materials reflect sound well."
+  ],
+  "prerequisites": [
+    "physics/sound-waves/wave-properties"
+  ],
+  "labs": [
+    "echo-canyon"
+  ],
+  "keyTerms": [
+    "echo",
+    "reflection of sound",
+    "reverberation",
+    "persistence of hearing",
+    "acoustics"
+  ],
+  "estMinutes": 25
+}

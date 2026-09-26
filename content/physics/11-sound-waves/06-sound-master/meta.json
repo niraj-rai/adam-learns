@@ -1,0 +1,62 @@
+{
+  "id": "sound-master",
+  "number": "11.6",
+  "title": "Boss Challenge: Sound Master",
+  "summary": "Ten problems on longitudinal waves, v = fλ, echoes, ultrasound and the ear. Three lives!",
+  "emoji": "🎧",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 10: Sound Waves",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Sound",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can solve problems with v = fλ and T = 1/f.",
+    "I can use echo times to find distances.",
+    "I can explain uses of ultrasound and how the ear works."
+  ],
+  "misconceptions": [
+    "Louder sounds travel faster.",
+    "Echo time gives the one-way distance.",
+    "Sound can travel in a vacuum."
+  ],
+  "prerequisites": [
+    "physics/sound-waves/sound-as-a-wave",
+    "physics/sound-waves/wave-properties",
+    "physics/sound-waves/echoes",
+    "physics/sound-waves/ultrasound",
+    "physics/sound-waves/human-ear"
+  ],
+  "labs": [
+    "sound-master"
+  ],
+  "keyTerms": [
+    "longitudinal wave",
+    "frequency",
+    "wavelength",
+    "echo",
+    "ultrasound"
+  ],
+  "estMinutes": 25
+}

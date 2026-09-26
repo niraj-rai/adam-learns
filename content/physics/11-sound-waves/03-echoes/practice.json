@@ -1,0 +1,117 @@
+{
+  "topicId": "echoes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "You clap and hear the echo from a building 0.5 s later. Sound travels at 344 m/s. How far away is the building?",
+      "answer": 86,
+      "tolerance": 0,
+      "explain": "d = v × t ÷ 2 = 344 × 0.5 ÷ 2 = 86 m.",
+      "unit": "m",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the minimum distance from a wall needed to hear a distinct echo in air (v = 344 m/s)?",
+      "options": [
+        "344 m",
+        "17.2 m",
+        "8.6 m",
+        "34.4 m"
+      ],
+      "answer": 1,
+      "explain": "344 × 0.1 = 34.4 m there and back, so 17.2 m each way.",
+      "feedback": {
+        "3": "That’s the total there-and-back distance; halve it."
+      },
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A girl stands 170 m from a cliff and claps. How long until she hears the echo? (v = 340 m/s)",
+      "answer": 1,
+      "tolerance": 0,
+      "explain": "t = 2d ÷ v = 340 ÷ 340 = 1 s.",
+      "unit": "s"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which surface reflects sound best?",
+      "options": [
+        "A carpet",
+        "A foam panel",
+        "A thick curtain",
+        "A smooth concrete wall"
+      ],
+      "answer": 3,
+      "explain": "Hard, smooth surfaces reflect; soft, porous ones absorb."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is reverberation?",
+      "options": [
+        "The lingering of sound caused by many overlapping reflections",
+        "A change in pitch of a moving source",
+        "A single, clear echo",
+        "Sound travelling through a vacuum"
+      ],
+      "answer": 0,
+      "explain": "Repeated reflections in an enclosed space make sound persist."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why are the ceilings of concert halls often curved?",
+      "options": [
+        "To absorb all the sound",
+        "To make the sound travel faster",
+        "To reflect sound evenly towards the audience",
+        "To stop echoes by trapping sound"
+      ],
+      "answer": 2,
+      "explain": "Curved surfaces direct reflected sound to all parts of the hall."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A bat squeaks and hears the echo from a moth 0.02 s later. How far away is the moth? (v = 340 m/s)",
+      "answer": 3.4,
+      "tolerance": 0,
+      "explain": "d = 340 × 0.02 ÷ 2 = 3.4 m.",
+      "unit": "m"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A new school auditorium has so much reverberation that speeches are hard to hear. Explain the cause and suggest two solutions.",
+      "modelAnswer": "Sound reflects many times off the hard walls, floor and ceiling, and the reflections overlap, so each syllable lingers and blurs into the next. Adding soft, sound-absorbing materials (curtains, carpets, upholstered seats, acoustic panels on walls or ceiling) reduces reflections. Placing absorbing panels at the back wall and using fewer bare hard surfaces also helps.",
+      "rubric": [
+        "Cause: repeated overlapping reflections",
+        "Solution 1 with absorbing material",
+        "Solution 2 with absorbing material or design"
+      ],
+      "explain": "Criterion D: acoustics in building design."
+    }
+  ]
+}

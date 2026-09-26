@@ -1,0 +1,59 @@
+{
+  "id": "ultrasound",
+  "number": "11.4",
+  "title": "Hearing Range, Ultrasound and SONAR",
+  "summary": "Infrasound, audible sound and ultrasound; how bats and ships use echoes; medical scans and other uses of ultrasound.",
+  "emoji": "🦇",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Applications of waves, MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 10: Sound Waves",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Sound",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can state the range of human hearing.",
+    "I can describe uses of ultrasound.",
+    "I can calculate depths and distances using SONAR."
+  ],
+  "misconceptions": [
+    "Ultrasound is just very loud sound.",
+    "Ultrasound scans use X-rays.",
+    "Animals hear the same range as humans."
+  ],
+  "prerequisites": [
+    "physics/sound-waves/echoes",
+    "physics/sound/sonar-mapper"
+  ],
+  "labs": [
+    "hearing-range"
+  ],
+  "keyTerms": [
+    "audible range",
+    "infrasound",
+    "ultrasound",
+    "SONAR",
+    "echolocation"
+  ],
+  "estMinutes": 30
+}

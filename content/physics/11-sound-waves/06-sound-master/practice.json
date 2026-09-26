@@ -1,0 +1,108 @@
+{
+  "topicId": "sound-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A sound wave in air has a wavelength of 0.85 m and speed 340 m/s. What is its frequency?",
+      "answer": 400,
+      "tolerance": 0,
+      "explain": "f = v ÷ λ = 340 ÷ 0.85 = 400 Hz.",
+      "unit": "Hz"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Two notes have frequencies of 256 Hz and 512 Hz. How does the second compare with the first?",
+      "options": [
+        "Faster and the same pitch",
+        "Louder and twice the wavelength",
+        "Higher pitch and half the wavelength",
+        "Lower pitch and the same wavelength"
+      ],
+      "answer": 2,
+      "explain": "Double the frequency: higher pitch; same speed, so half the wavelength."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A person hears the echo of a shout 3 s after shouting towards a cliff. How far away is the cliff? (v = 340 m/s)",
+      "answer": 510,
+      "tolerance": 0,
+      "explain": "d = 340 × 3 ÷ 2 = 510 m.",
+      "unit": "m"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is a use of ultrasound?",
+      "options": [
+        "Heating food in a microwave oven",
+        "Detecting cracks inside metal parts",
+        "Taking chest X-ray images",
+        "Sending signals to satellites"
+      ],
+      "answer": 1,
+      "explain": "Echoes from a crack reveal flaws that can’t be seen."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the time period of a sound wave with a frequency of 100 Hz?",
+      "answer": 0.01,
+      "tolerance": 0,
+      "explain": "T = 1 ÷ 100 = 0.01 s.",
+      "unit": "s"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why does thunder reach you after the lightning flash?",
+      "options": [
+        "Thunder is infrasound",
+        "Sound slows down in rain",
+        "Thunder is made later than the lightning",
+        "Light travels far faster than sound"
+      ],
+      "answer": 3,
+      "explain": "Light arrives almost instantly; sound takes about 3 s per kilometre."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "You see lightning and hear the thunder 6 s later. About how far away is the storm? (v = 340 m/s)",
+      "answer": 2040,
+      "tolerance": 0,
+      "explain": "d = v × t = 340 × 6 = 2040 m (no halving: the sound travels one way).",
+      "unit": "m"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A student says, \"Sound is air travelling from the speaker to your ear.\" Correct this statement using the idea of a longitudinal wave.",
+      "modelAnswer": "Sound is not air travelling; it is energy travelling as a longitudinal wave. The speaker cone vibrates and pushes the neighbouring air particles, creating compressions and rarefactions. Each particle only vibrates back and forth about its own position, passing the vibration to the next particles, so the pattern (and energy) travels to your ear while the air stays in place on average.",
+      "rubric": [
+        "Energy, not air, travels",
+        "Particles vibrate about fixed positions",
+        "Compressions and rarefactions pass along"
+      ],
+      "explain": "Criterion A: correcting a misconception."
+    }
+  ]
+}

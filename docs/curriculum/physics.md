@@ -146,11 +146,20 @@ Exploration Ch 6 covers balanced forces, inertia, the three laws, momentum and f
 | 10.5 | Simple machines | MYP 4 | Exploration Ch 7 ✅ | ★★★ | **Simple Machines**: lever, pulley, ramp, efficiency |
 | 10.6 | Boss: Energy Master | MYP 4 | Mixed | ★★★ | 10 problems (3 lives) |
 
-### Grade 9 (planned)
+### Grade 9 · Unit 11: Sound Waves ✅ built
 
-| Unit | Topics | IB | CBSE (Exploration) | ★ |
-|---|---|---|---|---|
-| 11. Sound Waves | Longitudinal waves, frequency, wavelength, speed, echo, reverberation, ultrasound, sonar, the ear | MYP 4 | Ch 10 | ★★★ |
+*IB Key Concept:* **Communication** · *Related:* Form, Energy, Patterns · *Global Context:* Personal and cultural expression
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 11.1 | Sound as a longitudinal wave | MYP 4 | Exploration Ch 10 ✅, earlier NCERT 9 Sound ✅ | ★★ | **Longitudinal Waves**: compressions, rarefactions, vs transverse |
+| 11.2 | Frequency, wavelength and speed (v = fλ) | MYP 4 | Exploration Ch 10 ✅ | ★★★ | **Wave Equation**: frequency, medium, λ; play the note |
+| 11.3 | Echoes and reverberation | MYP 4 | Exploration Ch 10 ✅ | ★★ | **Echo Canyon**: clap, time the echo, 17.2 m rule |
+| 11.4 | Hearing range, ultrasound and SONAR | MYP 4 | Exploration Ch 10 ✅ | ★★★ | **Who Can Hear It?**: animal ranges; SONAR depth |
+| 11.5 | The human ear and hearing health | MYP 4 | Exploration Ch 10 ✅ | ★★ | **Journey Through the Ear** |
+| 11.6 | Boss: Sound Master | MYP 4 | Mixed | ★★★ | 10 problems (3 lives) |
+
+Grade 9 Physics (Exploration Ch 4, 6, 7, 10) is complete.
 
 ### Grade 10 (planned, to be checked against the current NCERT Class 10 book)
 

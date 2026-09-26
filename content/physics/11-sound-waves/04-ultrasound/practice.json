@@ -1,0 +1,145 @@
+{
+  "topicId": "ultrasound",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the approximate range of human hearing?",
+      "options": [
+        "20 Hz to 20 000 Hz",
+        "2 Hz to 2000 Hz",
+        "200 Hz to 200 000 Hz",
+        "0 Hz to 1000 Hz"
+      ],
+      "answer": 0,
+      "explain": "Frequencies below 20 Hz are infrasound; above 20 kHz, ultrasound.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Sound with a frequency above 20 000 Hz is called…",
+      "options": [
+        "infrasound",
+        "audible sound",
+        "ultrasound",
+        "supersonic sound"
+      ],
+      "answer": 2,
+      "explain": "Ultra = beyond (the human range).",
+      "feedback": {
+        "3": "Supersonic describes moving faster than sound, not frequency."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A SONAR pulse returns from the sea bed after 4 s. Sound travels at 1500 m/s in sea water. How deep is the sea?",
+      "answer": 3000,
+      "tolerance": 0,
+      "explain": "Depth = 1500 × 4 ÷ 2 = 3000 m.",
+      "unit": "m",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is ultrasound, not X-rays, used to check on unborn babies?",
+      "options": [
+        "Ultrasound travels faster",
+        "Ultrasound does not damage living cells",
+        "X-rays cannot pass through skin",
+        "Ultrasound is louder"
+      ],
+      "answer": 1,
+      "explain": "X-rays are ionising and can harm cells; ultrasound is safe at scanning intensities."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which animal communicates using infrasound?",
+      "options": [
+        "Dolphin (for echolocation)",
+        "Mosquito",
+        "Bat",
+        "Elephant"
+      ],
+      "answer": 3,
+      "explain": "Elephants make very low rumbles that travel kilometres."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A submarine’s SONAR detects an echo from another vessel 2 s after sending a pulse. How far away is it? (v = 1500 m/s)",
+      "answer": 1500,
+      "tolerance": 0,
+      "explain": "d = 1500 × 2 ÷ 2 = 1500 m.",
+      "unit": "m"
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sort the frequencies.",
+      "bins": [
+        "Infrasound",
+        "Audible to humans",
+        "Ultrasound"
+      ],
+      "items": [
+        {
+          "label": "5 Hz",
+          "bin": 0
+        },
+        {
+          "label": "440 Hz",
+          "bin": 1
+        },
+        {
+          "label": "15 000 Hz",
+          "bin": 1
+        },
+        {
+          "label": "40 kHz",
+          "bin": 2
+        },
+        {
+          "label": "2 MHz",
+          "bin": 2
+        },
+        {
+          "label": "12 Hz",
+          "bin": 0
+        }
+      ],
+      "explain": "Below 20 Hz: infrasound. 20 Hz – 20 kHz: audible. Above 20 kHz: ultrasound."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain how a ship uses SONAR to find the depth of the sea, including the calculation.",
+      "modelAnswer": "A transmitter on the ship sends a short pulse of ultrasound down into the water. It reflects off the sea bed and the echo is picked up by a detector on the ship, which measures the time t between sending and receiving. The pulse travels down and back, so depth = speed of sound in water × t ÷ 2. For example, with v = 1500 m/s and t = 2 s, the depth is 1500 m.",
+      "rubric": [
+        "Ultrasound pulse sent down and reflected from the sea bed",
+        "Time for the echo measured",
+        "Depth = v × t ÷ 2 (halved for the return trip)"
+      ],
+      "explain": "Criterion C: explaining a method with a calculation."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sound-waves",
+  "number": 11,
+  "stage": "G9",
+  "title": "Sound Waves",
+  "summary": "Grade 9: sound as a longitudinal wave, frequency, wavelength and v = fλ, echoes and reverberation, ultrasound and SONAR, and how the human ear works.",
+  "ib": {
+    "keyConcept": "Communication",
+    "relatedConcepts": [
+      "Form",
+      "Energy",
+      "Patterns"
+    ],
+    "globalContext": "Personal and cultural expression",
+    "statementOfInquiry": "Sound is energy carried as a pattern of vibrations; understanding its form lets us make music, design concert halls, see inside the body and protect our hearing."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is a longitudinal wave?",
+      "How are speed, frequency and wavelength related?",
+      "What is the range of human hearing?"
+    ],
+    "conceptual": [
+      "Why does sound travel faster in solids than in air?",
+      "How can echoes be used to measure distance?"
+    ],
+    "debatable": [
+      "Should firecrackers be banned during festivals because of noise pollution?",
+      "Should earphones have a legal volume limit?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 (Exploration, 2026) Ch 10: Sound Waves",
+    "Earlier NCERT Class 9: Sound"
+  ]
+}
