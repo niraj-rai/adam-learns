@@ -1,0 +1,58 @@
+{
+  "id": "power",
+  "number": "10.4",
+  "title": "Power and Electricity Units",
+  "summary": "P = W ÷ t, the watt, and the kilowatt-hour: the 'unit' on your electricity bill.",
+  "emoji": "💡",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Power, MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 7: Work, Energy and Simple Machines",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Work and Energy",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can calculate power using P = W ÷ t.",
+    "I can convert between J, W, kW and kWh.",
+    "I can calculate the cost of using electrical appliances."
+  ],
+  "misconceptions": [
+    "Power and energy mean the same thing.",
+    "A kilowatt-hour is a unit of power.",
+    "A more powerful machine does more work."
+  ],
+  "prerequisites": [
+    "physics/work-and-energy/work"
+  ],
+  "labs": [
+    "power-stairs"
+  ],
+  "keyTerms": [
+    "power",
+    "watt",
+    "kilowatt",
+    "kilowatt-hour",
+    "unit (electricity)"
+  ],
+  "estMinutes": 25
+}

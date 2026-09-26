@@ -1,0 +1,115 @@
+{
+  "topicId": "conservation-of-energy",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which statement is the law of conservation of energy?",
+      "options": [
+        "Energy is used up when work is done",
+        "Machines create energy from nothing",
+        "Energy can only be stored as heat",
+        "Energy cannot be created or destroyed, only transformed"
+      ],
+      "answer": 3,
+      "explain": "The total energy of an isolated system is constant.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A 2 kg stone falls from 20 m. Ignoring air resistance, what is its kinetic energy just before it lands? (g = 9.8 N/kg)",
+      "answer": 392,
+      "tolerance": 0,
+      "explain": "KE gained = PE lost = mgh = 2 × 9.8 × 20 = 392 J.",
+      "unit": "J",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A ball is dropped from 5 m. How fast is it moving just before it hits the ground? (g = 10 N/kg, no air resistance)",
+      "answer": 10,
+      "tolerance": 0,
+      "explain": "v = √(2gh) = √(2 × 10 × 5) = √100 = 10 m/s.",
+      "unit": "m/s"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A skater with no friction starts at 3 m on a half-pipe. How high does she reach on the other side?",
+      "options": [
+        "3 m",
+        "It depends on her mass",
+        "Less than 3 m",
+        "More than 3 m"
+      ],
+      "answer": 0,
+      "explain": "With no friction, all the kinetic energy turns back into potential energy, so she reaches the same height."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A bouncing ball rises lower after each bounce. Where does the missing energy go?",
+      "options": [
+        "It goes into the ball’s mass",
+        "It becomes more potential energy",
+        "It is transferred to heat and sound",
+        "It is destroyed"
+      ],
+      "answer": 2,
+      "explain": "Energy is dissipated to the surroundings; it is not destroyed."
+    },
+    {
+      "id": "q6",
+      "type": "order-steps",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Put the energy changes in a hydroelectric power station in order.",
+      "steps": [
+        "Water stored high in a dam (gravitational potential energy)",
+        "Water rushes down pipes (kinetic energy)",
+        "Water turns the turbine (kinetic energy of the turbine)",
+        "Generator produces electrical energy",
+        "Electricity lights homes (light and heat)"
+      ],
+      "explain": "Energy is transformed step by step; some is dissipated as heat and sound at each stage."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Two balls of 1 kg and 4 kg are dropped from the same height with no air resistance. Which lands faster?",
+      "options": [
+        "The 4 kg ball, twice as fast",
+        "They land at the same speed",
+        "The 1 kg ball",
+        "The 4 kg ball"
+      ],
+      "answer": 1,
+      "explain": "mgh = ½mv²: the mass cancels, so v = √(2gh) for both."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A 0.1 kg ball is dropped from 2 m and bounces back to 1.5 m. How much energy was dissipated? (g = 10 N/kg)",
+      "answer": 0.5,
+      "tolerance": 0,
+      "explain": "PE at 2 m = 0.1 × 10 × 2 = 2 J; at 1.5 m = 1.5 J; dissipated = 0.5 J.",
+      "unit": "J"
+    }
+  ]
+}

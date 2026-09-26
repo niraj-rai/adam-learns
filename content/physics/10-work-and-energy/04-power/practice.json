@@ -1,0 +1,114 @@
+{
+  "topicId": "power",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A motor does 6000 J of work in 20 s. What is its power?",
+      "answer": 300,
+      "tolerance": 0,
+      "explain": "P = W ÷ t = 6000 ÷ 20 = 300 W.",
+      "unit": "W",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A 50 kg student climbs stairs 6 m high in 12 s. What is her power? (g = 10 N/kg)",
+      "answer": 250,
+      "tolerance": 0,
+      "explain": "Work = mgh = 50 × 10 × 6 = 3000 J; P = 3000 ÷ 12 = 250 W.",
+      "unit": "W",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is 1 kWh in joules?",
+      "options": [
+        "3 600 000 J",
+        "1000 J",
+        "60 000 J",
+        "3600 J"
+      ],
+      "answer": 0,
+      "explain": "1 kW × 3600 s = 1000 × 3600 = 3.6 × 10⁶ J.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A 1500 W air conditioner runs for 8 hours a day. How many units (kWh) does it use each day?",
+      "answer": 12,
+      "tolerance": 0,
+      "explain": "1.5 kW × 8 h = 12 kWh.",
+      "unit": "kWh"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which quantity does an electricity board charge you for?",
+      "options": [
+        "Time the meter is switched on",
+        "Current, in amperes",
+        "Energy used, in kWh",
+        "Power, in watts"
+      ],
+      "answer": 2,
+      "explain": "The ‘unit’ on the bill is the kilowatt-hour, a unit of energy.",
+      "feedback": {
+        "3": "The kilowatt-hour is energy (power × time), not power."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Two cranes lift identical loads to the same height. Crane A takes 10 s, crane B takes 20 s. Which is true?",
+      "options": [
+        "They have the same power",
+        "They do the same work; A has twice the power",
+        "B has more power",
+        "A does twice the work"
+      ],
+      "answer": 1,
+      "explain": "Same load and height: same work. Half the time: double the power."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Electricity costs ₹7 per unit. How much does it cost to run a 100 W TV for 5 hours a day for 30 days?",
+      "answer": 105,
+      "tolerance": 0,
+      "explain": "0.1 kW × 5 h × 30 = 15 kWh; 15 × 7 = ₹105.",
+      "unit": "₹"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Explain why replacing a 60 W filament bulb with a 9 W LED of the same brightness saves money and helps the environment.",
+      "modelAnswer": "The LED transfers far less electrical energy each second (9 J/s instead of 60 J/s) while giving the same useful light, because much less is wasted as heat. Over many hours this uses fewer kWh, so the bill is lower. Less electricity has to be generated, so less coal is burnt in power stations, reducing carbon dioxide emissions.",
+      "rubric": [
+        "LED has lower power for the same light",
+        "Fewer kWh used, so a smaller bill",
+        "Less fuel burnt, so fewer emissions"
+      ],
+      "explain": "Criterion D: sustainability."
+    }
+  ]
+}

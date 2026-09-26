@@ -1,0 +1,117 @@
+{
+  "topicId": "work",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A force of 25 N pushes a box 6 m in the direction of the force. How much work is done?",
+      "answer": 150,
+      "tolerance": 0,
+      "explain": "W = F × s = 25 × 6 = 150 J.",
+      "unit": "J",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A student lifts a 3 kg bag (weight 29.4 N) up 2 m onto a shelf. How much work is done on the bag?",
+      "answer": 58.8,
+      "tolerance": 0.1,
+      "explain": "W = 29.4 × 2 = 58.8 J.",
+      "unit": "J"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In which case is NO work done on the object?",
+      "options": [
+        "A crane lifts a load",
+        "A guard holds a heavy bag without moving",
+        "A horse pulls a cart along a road",
+        "A girl pushes a cycle forward"
+      ],
+      "answer": 1,
+      "explain": "No displacement means no work, however hard it feels.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the SI unit of work?",
+      "options": [
+        "newton (N)",
+        "watt (W)",
+        "kilogram (kg)",
+        "joule (J)"
+      ],
+      "answer": 3,
+      "explain": "Work = force × distance: N × m = J.",
+      "feedback": {
+        "1": "The watt is the unit of power (joules per second)."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A porter carries a suitcase along a flat platform. How much work does his upward holding force do on the suitcase?",
+      "options": [
+        "Zero, because the force is at right angles to the motion",
+        "Positive, because he is moving",
+        "Equal to the weight × distance walked",
+        "Negative, because the suitcase is heavy"
+      ],
+      "answer": 0,
+      "explain": "His force is upward; the motion is horizontal. A force at right angles to the motion does no work."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Friction acts on a box as it slides to a stop. What kind of work does friction do?",
+      "options": [
+        "It depends on the colour of the floor",
+        "No work: friction never does work",
+        "Negative work: it takes energy away from the box",
+        "Positive work: it gives the box energy"
+      ],
+      "answer": 2,
+      "explain": "Friction acts against the motion, so it removes kinetic energy (turning it into heat)."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A force does 480 J of work pushing a trolley 12 m. What is the size of the force?",
+      "answer": 40,
+      "tolerance": 0,
+      "explain": "F = W ÷ s = 480 ÷ 12 = 40 N.",
+      "unit": "N"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why a person pushing hard against a wall that doesn’t move feels tired but does no work on the wall.",
+      "modelAnswer": "Work is done only when a force moves an object in the direction of the force. The wall does not move, so the displacement is zero and W = F × 0 = 0. The person feels tired because their muscles still use chemical energy (transferred as heat inside the body) to stay tense, but none of it is transferred to the wall.",
+      "rubric": [
+        "Work needs displacement",
+        "The wall does not move, so W = 0",
+        "Muscles still use energy, released as heat"
+      ],
+      "explain": "Criterion A: using the physics definition of work."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "topicId": "simple-machines",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A lever lifts a 900 N load with an effort of 300 N. What is its mechanical advantage?",
+      "answer": 3,
+      "tolerance": 0,
+      "explain": "MA = load ÷ effort = 900 ÷ 300 = 3.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "On a see-saw, a 400 N child sits 1.5 m from the pivot. How far from the pivot must a 600 N child sit to balance?",
+      "answer": 1,
+      "tolerance": 0,
+      "explain": "400 × 1.5 = 600 × d, so d = 600 ÷ 600 = 1 m.",
+      "unit": "m"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What does a single fixed pulley do?",
+      "options": [
+        "Reduces the work done",
+        "Changes the direction of the effort, with MA of 1",
+        "Doubles the load",
+        "Halves the effort needed"
+      ],
+      "answer": 1,
+      "explain": "You pull down to lift up, which is convenient, but the effort equals the load (ideally).",
+      "feedback": {
+        "3": "That needs a movable pulley or two supporting ropes."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which statement about machines is TRUE?",
+      "options": [
+        "They can be more than 100% efficient",
+        "They create energy",
+        "They reduce the work done",
+        "They can reduce the force needed, but not the work done"
+      ],
+      "answer": 3,
+      "explain": "Smaller force, bigger distance: force × distance cannot be reduced.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A 500 N box is pushed up a frictionless ramp 5 m long to a height of 1 m. What effort is needed?",
+      "answer": 100,
+      "tolerance": 0,
+      "explain": "Work in = work out: effort × 5 = 500 × 1, so effort = 100 N.",
+      "unit": "N"
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A pulley system needs 2000 J of work to lift a load, and the useful work done on the load is 1600 J. What is its efficiency in %?",
+      "answer": 80,
+      "tolerance": 0,
+      "explain": "1600 ÷ 2000 × 100 = 80%.",
+      "unit": "%"
+    },
+    {
+      "id": "q7",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each tool to the simple machine it uses.",
+      "pairs": [
+        {
+          "left": "Bottle opener",
+          "right": "Lever"
+        },
+        {
+          "left": "Wheelchair ramp",
+          "right": "Inclined plane"
+        },
+        {
+          "left": "Flagpole rope",
+          "right": "Pulley"
+        },
+        {
+          "left": "Nail cutter",
+          "right": "Lever (two joined)"
+        }
+      ],
+      "explain": "Many everyday tools are combinations of simple machines."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A construction worker must raise cement bags to the first floor. Compare using a ramp with using a pulley, and recommend one, using the ideas of effort, distance and efficiency.",
+      "modelAnswer": "Both reduce the effort. A long ramp gives a large mechanical advantage (small push) but the bags must be pushed a long distance, and friction on the ramp wastes energy. A pulley system with several supporting ropes also reduces the effort, needs less space, and lifts vertically, but the rope must be pulled further than the load rises and pulley friction wastes some energy. On a small site a pulley is often better because it needs little space; the choice depends on space, safety and cost.",
+      "rubric": [
+        "Both reduce effort but increase distance moved",
+        "Efficiency is less than 100% because of friction",
+        "A justified recommendation"
+      ],
+      "explain": "Criterion D: applying physics to a real decision."
+    }
+  ]
+}

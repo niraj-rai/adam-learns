@@ -1,0 +1,62 @@
+{
+  "id": "energy-master",
+  "number": "10.6",
+  "title": "Boss Challenge: Energy Master",
+  "summary": "Ten problems on work, kinetic and potential energy, conservation, power, electricity units and machines. Three lives!",
+  "emoji": "⚡",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 7: Work, Energy and Simple Machines",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Work and Energy",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can solve problems on work, energy and power.",
+    "I can apply conservation of energy.",
+    "I can analyse simple machines."
+  ],
+  "misconceptions": [
+    "Energy gets used up.",
+    "Machines save work.",
+    "Power and energy are the same."
+  ],
+  "prerequisites": [
+    "physics/work-and-energy/work",
+    "physics/work-and-energy/kinetic-and-potential-energy",
+    "physics/work-and-energy/conservation-of-energy",
+    "physics/work-and-energy/power",
+    "physics/work-and-energy/simple-machines"
+  ],
+  "labs": [
+    "energy-master"
+  ],
+  "keyTerms": [
+    "work",
+    "kinetic energy",
+    "potential energy",
+    "power",
+    "mechanical advantage"
+  ],
+  "estMinutes": 25
+}

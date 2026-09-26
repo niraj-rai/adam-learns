@@ -1,0 +1,58 @@
+<Stage kind="wonder" title="Moving the world" />
+
+<Hook emoji="🌍">
+"Give me a place to stand, and a lever long enough, and I will move the Earth." Archimedes said this over 2200 years ago. Levers, pulleys and ramps are **simple machines**: they let a small force move a big load. They're everywhere: scissors, bottle openers, wells, flagpoles and wheelchair ramps.
+</Hook>
+
+<PredictFirst
+  question="A ramp lets you push a heavy trolley up to a stage with less force than lifting it. What's the catch?"
+  options={["There is no catch", "You must push it a longer distance", "It uses more energy", "The trolley gets heavier"]}
+  answer={1}
+>
+The ramp reduces the **force** but you push over a longer **distance**. Force × distance (the work) stays about the same.
+</PredictFirst>
+
+<Stage kind="explain" title="How machines help" />
+
+<ConceptCard title="Load, effort and mechanical advantage" emoji="⚖️">
+- **Load**: the force the machine overcomes (e.g. the weight lifted).
+- **Effort**: the force you apply.
+- <KeyTerm def="How many times a machine multiplies the effort: load ÷ effort. MA greater than 1 means the machine multiplies force.">Mechanical advantage</KeyTerm> MA = load ÷ effort.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Lever", emoji: "⚖️", points: ["A bar turning on a pivot (fulcrum)", "load × load arm = effort × effort arm", "Longer effort arm → smaller effort", "e.g. crowbar, see-saw, scissors"] },
+    { title: "Pulley", emoji: "🏗️", points: ["One fixed pulley: MA = 1, but changes direction", "More supporting ropes → smaller effort", "e.g. well, crane, flagpole"] },
+    { title: "Inclined plane", emoji: "📐", points: ["A ramp: effort × length = load × height (ideal)", "Longer ramp → smaller effort", "e.g. wheelchair ramp, hill roads"] }
+  ]}
+/>
+
+<Stage kind="try" title="Simple Machines" />
+
+<Lab id="simple-machines" />
+
+<ConceptCard title="No free lunch: efficiency" emoji="🔧">
+A machine can reduce the force, but **never the work**. In a perfect machine work in = work out. Real machines waste some energy to friction, so
+
+<KeyTerm def="The fraction of the input energy (work) that becomes useful output: useful work out ÷ work in × 100%. Always less than 100% in real machines.">efficiency</KeyTerm> = useful work out ÷ work in × 100%, which is always less than 100%.
+</ConceptCard>
+
+<Formula tex="\text{efficiency} = \frac{\text{useful work out}}{\text{work in}} \times 100\%" />
+
+<DidYouKnow>
+Hill roads zigzag up mountains in hairpin bends. Each bend is part of a very long, gentle inclined plane, so vehicles need a much smaller force to climb, at the cost of a much longer drive.
+</DidYouKnow>
+
+<Stage kind="apply" title="Reflect on impacts" />
+
+<Inquiry criterion="D" title="Accessible school">
+Measure a step or entrance at your school. Using the guideline that a wheelchair ramp should rise no more than 1 m for every 12 m of length, design a ramp for it. Calculate its mechanical advantage and explain why accessibility matters for everyone.
+</Inquiry>
+
+<CbseCorner source="Exploration (Class 9, 2026) Ch 7">
+- Simple machines: lever, pulley, inclined plane; load and effort.
+- Mechanical advantage = load ÷ effort; machines change the size or direction of a force but not the total work done.
+</CbseCorner>
+
+<Reflect id="phys9-energy-machines" prompt="Find three simple machines in your kitchen or school bag. For each, name the load, the effort and whether it multiplies force or distance." />

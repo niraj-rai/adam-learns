@@ -1,0 +1,58 @@
+{
+  "id": "kinetic-and-potential-energy",
+  "number": "10.2",
+  "title": "Kinetic and Potential Energy",
+  "summary": "KE = ½mv² and PE = mgh: calculating the energy of moving and raised objects.",
+  "emoji": "🍉",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Energy stores, MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 7: Work, Energy and Simple Machines",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Work and Energy",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can calculate kinetic energy using KE = ½mv².",
+    "I can calculate gravitational potential energy using PE = mgh.",
+    "I can explain why speed matters more than mass for kinetic energy."
+  ],
+  "misconceptions": [
+    "Doubling the speed doubles the kinetic energy.",
+    "Potential energy only exists when something is falling.",
+    "Heavier objects fall faster, so they land with a greater speed."
+  ],
+  "prerequisites": [
+    "physics/work-and-energy/work"
+  ],
+  "labs": [
+    "ke-pe-explorer"
+  ],
+  "keyTerms": [
+    "kinetic energy",
+    "gravitational potential energy",
+    "elastic potential energy",
+    "KE = ½mv²",
+    "PE = mgh"
+  ],
+  "estMinutes": 30
+}

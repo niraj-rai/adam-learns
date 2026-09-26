@@ -1,0 +1,135 @@
+{
+  "topicId": "kinetic-and-potential-energy",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the kinetic energy of a 2 kg ball moving at 5 m/s?",
+      "answer": 25,
+      "tolerance": 0,
+      "explain": "KE = ½ × 2 × 5² = 25 J.",
+      "unit": "J",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the gravitational potential energy gained when a 5 kg bag is lifted 3 m? (g = 9.8 N/kg)",
+      "answer": 147,
+      "tolerance": 0,
+      "explain": "PE = mgh = 5 × 9.8 × 3 = 147 J.",
+      "unit": "J",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A car’s speed is tripled. Its kinetic energy becomes…",
+      "options": [
+        "6 times bigger",
+        "9 times bigger",
+        "3 times bigger",
+        "the same"
+      ],
+      "answer": 1,
+      "explain": "KE ∝ v², and 3² = 9."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which has kinetic energy?",
+      "options": [
+        "A parked car",
+        "A book on a high shelf",
+        "A stretched rubber band held still",
+        "A bowled cricket ball"
+      ],
+      "answer": 3,
+      "explain": "Kinetic energy is energy of motion. The book and rubber band have potential energy."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A 60 kg athlete has 1920 J of kinetic energy. How fast is she running?",
+      "answer": 8,
+      "tolerance": 0,
+      "explain": "v² = 2 × KE ÷ m = 3840 ÷ 60 = 64, so v = 8 m/s.",
+      "unit": "m/s",
+      "hint": "Rearrange KE = ½mv² to find v²."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A 0.5 kg coconut on a tree has 49 J of potential energy. How high is it? (g = 9.8 N/kg)",
+      "answer": 10,
+      "tolerance": 0,
+      "explain": "h = PE ÷ (mg) = 49 ÷ 4.9 = 10 m.",
+      "unit": "m"
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Sort each example by its main energy store.",
+      "bins": [
+        "Kinetic",
+        "Gravitational potential",
+        "Elastic potential"
+      ],
+      "items": [
+        {
+          "label": "A moving metro train",
+          "bin": 0
+        },
+        {
+          "label": "Water in a hilltop tank",
+          "bin": 1
+        },
+        {
+          "label": "A drawn bow",
+          "bin": 2
+        },
+        {
+          "label": "A flying kite string pulled tight",
+          "bin": 2
+        },
+        {
+          "label": "A rolling football",
+          "bin": 0
+        },
+        {
+          "label": "A child at the top of a slide",
+          "bin": 1
+        }
+      ],
+      "explain": "Moving → kinetic; raised → gravitational potential; stretched or squashed → elastic potential."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Explain why a small increase in a vehicle’s speed makes crashes much more dangerous.",
+      "modelAnswer": "Kinetic energy depends on the square of speed (KE = ½mv²). A small increase in speed causes a much bigger increase in kinetic energy; for example doubling the speed gives four times the energy. In a crash all this energy must be transferred (to bending metal, heat and injuries), and a longer braking distance is needed to remove it, so the damage is much greater.",
+      "rubric": [
+        "KE = ½mv² depends on v²",
+        "Small speed increase gives large KE increase",
+        "More energy to remove: longer stopping distance and more damage"
+      ],
+      "explain": "Criterion D: road safety."
+    }
+  ]
+}

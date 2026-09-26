@@ -133,11 +133,23 @@ Exploration Ch 6 covers balanced forces, inertia, the three laws, momentum and f
 | 9.5 | Gravity, mass and weight | MYP 4 | Exploration Ch 6 (W = mg) ✅, earlier NCERT 9 Gravitation ✅ | ★★★ | **Weight on Other Worlds**: Moon to Jupiter; g with height |
 | 9.6 | Boss: Force Master | MYP 4 | Mixed | ★★★ | 10 problems (3 lives) |
 
+### Grade 9 · Unit 10: Work, Energy and Simple Machines ✅ built
+
+*IB Key Concept:* **Systems** · *Related:* Energy, Transformation, Consequences · *Global Context:* Globalization and sustainability
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 10.1 | Work done by a force | MYP 4 | Exploration Ch 7 ✅, earlier NCERT 9 Work and Energy ✅ | ★★ | **Work Meter**: lift, push, hold, carry, friction |
+| 10.2 | Kinetic and potential energy | MYP 4 | Exploration Ch 7 ✅ | ★★★ | **Energy Explorer**: ½mv² vs speed; drop a ball |
+| 10.3 | Conservation of energy | MYP 4 | Exploration Ch 7 ✅ | ★★★ | **Energy Skate Park**: PE, KE and heat bars, friction |
+| 10.4 | Power and electricity units | MYP 4 | Exploration Ch 7 ✅ | ★★ | **Power Up**: stair race; kWh bill planner |
+| 10.5 | Simple machines | MYP 4 | Exploration Ch 7 ✅ | ★★★ | **Simple Machines**: lever, pulley, ramp, efficiency |
+| 10.6 | Boss: Energy Master | MYP 4 | Mixed | ★★★ | 10 problems (3 lives) |
+
 ### Grade 9 (planned)
 
 | Unit | Topics | IB | CBSE (Exploration) | ★ |
 |---|---|---|---|---|
-| 10. Work, Energy and Simple Machines | Work, KE, PE, conservation, power, levers, pulleys, inclined planes, mechanical advantage | MYP 4 | Ch 7 | ★★★★ |
 | 11. Sound Waves | Longitudinal waves, frequency, wavelength, speed, echo, reverberation, ultrasound, sonar, the ear | MYP 4 | Ch 10 | ★★★ |
 
 ### Grade 10 (planned, to be checked against the current NCERT Class 10 book)

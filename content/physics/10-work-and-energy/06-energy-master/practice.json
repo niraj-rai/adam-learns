@@ -1,0 +1,107 @@
+{
+  "topicId": "energy-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A crane lifts a 200 kg load 15 m in 30 s. What is its useful power? (g = 10 N/kg)",
+      "answer": 1000,
+      "tolerance": 0,
+      "explain": "Work = mgh = 200 × 10 × 15 = 30 000 J; P = 30 000 ÷ 30 = 1000 W.",
+      "unit": "W"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "At the highest point of its swing, a pendulum bob has…",
+      "options": [
+        "zero energy",
+        "maximum potential energy and zero kinetic energy",
+        "maximum kinetic and potential energy",
+        "maximum kinetic energy"
+      ],
+      "answer": 1,
+      "explain": "It momentarily stops at the top, so all its mechanical energy is potential."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A 1000 kg car moves at 20 m/s. What is its kinetic energy?",
+      "answer": 200000,
+      "tolerance": 0,
+      "explain": "KE = ½ × 1000 × 400 = 200 000 J.",
+      "unit": "J"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is NOT a unit of energy?",
+      "options": [
+        "joule",
+        "kilowatt-hour",
+        "newton metre",
+        "watt"
+      ],
+      "answer": 3,
+      "explain": "The watt is a unit of power (J/s)."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A ramp is 6 m long and 1.5 m high. What is its ideal mechanical advantage?",
+      "answer": 4,
+      "tolerance": 0,
+      "explain": "Ideal MA = length ÷ height = 6 ÷ 1.5 = 4."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A ball is thrown upwards. Which energy change happens as it rises?",
+      "options": [
+        "Kinetic energy → potential energy",
+        "Heat → kinetic energy",
+        "Potential energy → kinetic energy",
+        "No change"
+      ],
+      "answer": 0,
+      "explain": "It slows down as it gains height."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A machine takes in 800 J and gives out 600 J of useful work. What is its efficiency (%)?",
+      "answer": 75,
+      "tolerance": 0,
+      "explain": "600 ÷ 800 × 100 = 75%.",
+      "unit": "%"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Explain why a cyclist freewheeling down a hill can reach the bottom going fast, but can never freewheel up a higher hill on the other side.",
+      "modelAnswer": "At the top the cyclist has gravitational potential energy, which becomes kinetic energy on the way down. Going up the other side, kinetic energy turns back into potential energy. Energy is conserved, and some is always dissipated by friction and air resistance, so there is never enough energy to rise higher than the starting point.",
+      "rubric": [
+        "PE → KE going down",
+        "KE → PE going up",
+        "Energy conserved and some dissipated, so cannot exceed starting height"
+      ],
+      "explain": "Criterion D: applying conservation of energy."
+    }
+  ]
+}

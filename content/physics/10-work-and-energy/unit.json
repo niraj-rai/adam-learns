@@ -1,0 +1,36 @@
+{
+  "id": "work-and-energy",
+  "number": 10,
+  "stage": "G9",
+  "title": "Work, Energy and Simple Machines",
+  "summary": "Grade 9: work done by a force, kinetic and potential energy, conservation of energy, power and electricity units, and how levers, pulleys and ramps help us.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": [
+      "Energy",
+      "Transformation",
+      "Consequences"
+    ],
+    "globalContext": "Globalization and sustainability",
+    "statementOfInquiry": "Energy is never created or destroyed, only transferred and transformed; understanding this helps us design machines and use energy more sustainably."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "When is work done by a force?",
+      "How are kinetic and potential energy calculated?",
+      "What is a kilowatt-hour?"
+    ],
+    "conceptual": [
+      "Why can a machine reduce the force needed but not the work done?",
+      "Where does the 'lost' energy go when a ball stops bouncing?"
+    ],
+    "debatable": [
+      "Should homes be charged more per unit when they use a lot of electricity?",
+      "Is it better to design machines for speed or for efficiency?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 (Exploration, 2026) Ch 7: Work, Energy and Simple Machines",
+    "Earlier NCERT Class 9: Work and Energy"
+  ]
+}

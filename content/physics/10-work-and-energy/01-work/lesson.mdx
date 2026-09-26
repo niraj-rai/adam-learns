@@ -1,0 +1,52 @@
+<Stage kind="wonder" title="Is studying hard 'work'?" />
+
+<Hook emoji="🎒">
+After two hours of homework you feel you've done a lot of work. A porter carrying heavy luggage along a railway platform certainly has. But in physics, **work** has a precise meaning, and surprisingly, the porter walking along a flat platform does no work on the luggage at all!
+</Hook>
+
+<PredictFirst
+  question="You hold a heavy bag perfectly still for five minutes. How much work do you do on the bag?"
+  options={["A lot: my arms are tired", "Zero: the bag doesn't move", "It depends on how heavy the bag is", "Exactly the bag's weight"]}
+  answer={1}
+>
+Work needs **movement in the direction of the force**. The bag doesn't move, so no work is done on it. (Your muscles still use energy, which is why you get tired.)
+</PredictFirst>
+
+<Stage kind="explain" title="Work = force × displacement" />
+
+<Formula tex="W = F \times s" caption="W = work (J), F = force (N), s = displacement in the direction of the force (m)" />
+
+<ConceptCard title="When is work done?" emoji="✅">
+Work is done when a **force** makes an object **move** in the direction of the force.
+- 1 <KeyTerm def="The SI unit of work and energy. 1 J is the work done when a force of 1 N moves an object 1 m in the direction of the force.">joule (J)</KeyTerm> = 1 N × 1 m.
+- Doing work **transfers energy**: lifting a bag gives it potential energy; pushing a trolley gives it kinetic energy. Work done = energy transferred.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Positive work", emoji: "➡️", points: ["Force along the motion", "Energy given to the object", "e.g. pushing a cart, lifting a bag"] },
+    { title: "Zero work", emoji: "⛔", points: ["No movement, or force at right angles to the motion", "e.g. holding a bag still; carrying it along a flat corridor"] },
+    { title: "Negative work", emoji: "⬅️", points: ["Force against the motion", "Energy taken away", "e.g. friction on a sliding box; brakes"] }
+  ]}
+/>
+
+<Stage kind="try" title="Work Meter" />
+
+<Lab id="work-meter" />
+
+<MythFact myth="A satellite orbiting Earth needs gravity to do work on it all the time.">
+In a circular orbit, gravity pulls towards Earth's centre, at right angles to the satellite's motion. So gravity does **no work**, and the satellite's speed stays the same.
+</MythFact>
+
+<Stage kind="apply" title="Reflect on impacts" />
+
+<Inquiry criterion="D" title="Head-load workers">
+Many workers in Indian markets and railway stations carry heavy loads on their heads. Calculate the work done lifting a 40 kg load onto the head (about 1.6 m), and discuss how tools like trolleys and ramps could reduce the strain on workers' bodies.
+</Inquiry>
+
+<CbseCorner source="Exploration (Class 9, 2026) Ch 7 · Earlier NCERT Class 9: Work and Energy">
+- Work done by a constant force, W = F × s; SI unit joule.
+- Positive, negative and zero work; work done against gravity.
+</CbseCorner>
+
+<Reflect id="phys9-energy-work" prompt="List three things you did today. Which of them involved work in the physics sense, and which didn't? Explain one of each." />

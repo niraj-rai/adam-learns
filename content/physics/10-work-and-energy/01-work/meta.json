@@ -1,0 +1,59 @@
+{
+  "id": "work",
+  "number": "10.1",
+  "title": "Work Done by a Force",
+  "summary": "W = F × s: when a force does work, when it does none, and negative work by friction.",
+  "emoji": "🎒",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Work and energy, MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 7: Work, Energy and Simple Machines",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Work and Energy",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can calculate work done using W = F × s.",
+    "I can explain why some forces do no work.",
+    "I can relate work done to energy transferred."
+  ],
+  "misconceptions": [
+    "Any effort, like holding something heavy, is work in physics.",
+    "Work and energy are unrelated.",
+    "Work is measured in watts."
+  ],
+  "prerequisites": [
+    "physics/forces-and-laws/second-law",
+    "physics/energy/forms-of-energy"
+  ],
+  "labs": [
+    "work-meter"
+  ],
+  "keyTerms": [
+    "work",
+    "joule",
+    "displacement",
+    "energy transfer",
+    "negative work"
+  ],
+  "estMinutes": 25
+}

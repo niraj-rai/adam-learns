@@ -1,0 +1,57 @@
+{
+  "id": "conservation-of-energy",
+  "number": "10.3",
+  "title": "Conservation of Energy",
+  "summary": "Energy transforms but the total never changes: falling objects, pendulums, skate parks and where 'lost' energy goes.",
+  "emoji": "🛹",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Energy conservation, MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 7: Work, Energy and Simple Machines",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Work and Energy",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can state the law of conservation of energy.",
+    "I can use PE lost = KE gained to find speeds.",
+    "I can explain energy 'losses' as transfers to heat and sound."
+  ],
+  "misconceptions": [
+    "Energy gets used up and disappears.",
+    "A pendulum stops because it runs out of energy.",
+    "Heavier objects land at higher speeds."
+  ],
+  "prerequisites": [
+    "physics/work-and-energy/kinetic-and-potential-energy"
+  ],
+  "labs": [
+    "energy-skate-park"
+  ],
+  "keyTerms": [
+    "conservation of energy",
+    "energy transformation",
+    "mechanical energy",
+    "dissipation"
+  ],
+  "estMinutes": 30
+}

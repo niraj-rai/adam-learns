@@ -1,0 +1,56 @@
+{
+  "id": "simple-machines",
+  "number": "10.5",
+  "title": "Simple Machines",
+  "summary": "Levers, pulleys and inclined planes: mechanical advantage, velocity ratio and efficiency.",
+  "emoji": "⚙️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Simple machines, MYP 4 Physics / Design"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 7: Work, Energy and Simple Machines",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain how levers, pulleys and ramps make work easier.",
+    "I can calculate mechanical advantage and efficiency.",
+    "I can explain why no machine reduces the work done."
+  ],
+  "misconceptions": [
+    "Machines reduce the amount of work you have to do.",
+    "A machine can be more than 100% efficient.",
+    "A single fixed pulley reduces the effort needed."
+  ],
+  "prerequisites": [
+    "physics/work-and-energy/work"
+  ],
+  "labs": [
+    "simple-machines"
+  ],
+  "keyTerms": [
+    "lever",
+    "fulcrum",
+    "load",
+    "effort",
+    "pulley",
+    "inclined plane",
+    "mechanical advantage",
+    "efficiency"
+  ],
+  "estMinutes": 35
+}
