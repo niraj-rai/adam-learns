@@ -1,0 +1,121 @@
+{
+  "topicId": "life-processes-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which organ makes bile?",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Gall bladder",
+        "Stomach"
+      ],
+      "answer": 0,
+      "explain": "It is stored in the gall bladder.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which vessel carries oxygenated blood from the lungs to the heart?",
+      "options": [
+        "Aorta",
+        "Pulmonary artery",
+        "Pulmonary vein",
+        "Vena cava"
+      ],
+      "answer": 2,
+      "explain": "A vein with oxygenated blood."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the energy currency of the cell?",
+      "options": [
+        "DNA",
+        "ATP",
+        "Haemoglobin",
+        "Glucose"
+      ],
+      "answer": 1,
+      "explain": "Adenosine triphosphate."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Plants close their stomata at night. Which process slows most?",
+      "options": [
+        "Respiration",
+        "Translocation stops completely",
+        "Excretion of oxygen through roots",
+        "Transpiration"
+      ],
+      "answer": 3,
+      "explain": "Less water vapour escapes."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which substance is NOT normally found in the urine of a healthy person?",
+      "options": [
+        "Glucose",
+        "Salts",
+        "Urea",
+        "Water"
+      ],
+      "answer": 0,
+      "explain": "Glucose is all reabsorbed."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Kidneys filter 180 L of fluid a day and a person passes 1.5 L of urine. What percentage of the filtered fluid is reabsorbed? (1 decimal place)",
+      "answer": 99.2,
+      "tolerance": 0.1,
+      "explain": "(178.5 ÷ 180) × 100 ≈ 99.2%.",
+      "unit": "%"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why is haemoglobin important?",
+      "options": [
+        "It clots the blood",
+        "It fights disease",
+        "It carries oxygen in red blood cells",
+        "It digests fat"
+      ],
+      "answer": 2,
+      "explain": "It binds oxygen in the lungs."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain how the lungs and kidneys both help keep the blood’s composition steady.",
+      "modelAnswer": "The lungs remove carbon dioxide, a waste product of respiration, and take in oxygen, keeping their levels in the blood steady. The kidneys remove urea (from excess protein) and control the amount of water and salts in the blood by filtering and then reabsorbing what the body needs. Together they excrete wastes and maintain balance (homeostasis).",
+      "rubric": [
+        "Lungs: CO₂ out, O₂ in",
+        "Kidneys: urea, water and salt balance",
+        "Link to homeostasis"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

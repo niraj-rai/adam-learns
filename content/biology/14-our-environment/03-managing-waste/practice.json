@@ -1,0 +1,126 @@
+{
+  "topicId": "managing-waste",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is non-biodegradable?",
+      "options": [
+        "Cow dung",
+        "Polythene bag",
+        "Vegetable peels",
+        "Paper"
+      ],
+      "answer": 1,
+      "explain": "Microbes cannot break it down.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which of the 3 Rs is usually the most effective?",
+      "options": [
+        "Rethink",
+        "Recycle",
+        "Reuse",
+        "Reduce"
+      ],
+      "answer": 3,
+      "explain": "Waste avoided never needs handling."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What does a compost pit turn kitchen waste into?",
+      "options": [
+        "Manure for soil",
+        "Plastic",
+        "Fuel oil",
+        "Glass"
+      ],
+      "answer": 0,
+      "explain": "Decomposers break it down."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why is burning plastic waste harmful?",
+      "options": [
+        "It makes the plastic biodegradable",
+        "It produces clean oxygen",
+        "It releases toxic gases and smoke",
+        "It uses up nitrogen"
+      ],
+      "answer": 2,
+      "explain": "Dioxins and soot."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which enzymes-related reason explains why plastics don’t biodegrade?",
+      "options": [
+        "Plastics dissolve too quickly",
+        "Microbes lack enzymes to break down the plastic",
+        "Plastics are too small",
+        "Plastics are alive"
+      ],
+      "answer": 1,
+      "explain": "Enzymes are specific.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Refilling a water bottle instead of buying a new one is…",
+      "options": [
+        "composting",
+        "reducing to zero",
+        "recycling",
+        "reusing"
+      ],
+      "answer": 3,
+      "explain": "Using the same item again."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why can even biodegradable waste cause problems when dumped in large amounts?",
+      "options": [
+        "Rotting in piles produces bad smells, methane and breeds disease carriers",
+        "It absorbs ozone",
+        "It turns into plastic",
+        "It cannot rot at all"
+      ],
+      "answer": 0,
+      "explain": "Needs proper composting."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A school canteen uses disposable plastic plates and cups. Suggest and justify a better plan.",
+      "modelAnswer": "Replace plastic plates and cups with reusable steel plates and glasses, or biodegradable leaf plates and kulhads. This reduces non-biodegradable waste that would last hundreds of years in landfill or be burned. Food scraps can be collected separately and composted into manure for the school garden. Any unavoidable plastic should be separated for recycling.",
+      "rubric": [
+        "Reusable or biodegradable alternative",
+        "Justified with biodegradability",
+        "Composting or recycling rest"
+      ],
+      "explain": "Criterion D."
+    }
+  ]
+}

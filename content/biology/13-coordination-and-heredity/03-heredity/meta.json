@@ -1,0 +1,57 @@
+{
+  "id": "heredity",
+  "number": "13.3",
+  "title": "Heredity and Mendel’s Laws",
+  "summary": "Genes and alleles, dominant and recessive traits, Punnett squares and Mendel’s pea experiments.",
+  "emoji": "🌸",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Inheritance, MYP 5 Biology"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Heredity",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain dominant and recessive alleles.",
+    "I can use a Punnett square to predict offspring ratios.",
+    "I can explain Mendel’s monohybrid and dihybrid results."
+  ],
+  "misconceptions": [
+    "Children are a blend of their parents.",
+    "A recessive trait disappears for ever.",
+    "Dominant traits are always the most common."
+  ],
+  "prerequisites": [
+    "biology/life-continues/human-reproduction"
+  ],
+  "labs": [
+    "punnett-square"
+  ],
+  "keyTerms": [
+    "gene",
+    "allele",
+    "dominant",
+    "recessive",
+    "genotype",
+    "phenotype",
+    "homozygous",
+    "heterozygous",
+    "Punnett square"
+  ],
+  "estMinutes": 30
+}

@@ -1,0 +1,127 @@
+{
+  "topicId": "respiration",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where in the cell does aerobic respiration mainly take place?",
+      "options": [
+        "Chloroplast",
+        "Nucleus",
+        "Cell wall",
+        "Mitochondria"
+      ],
+      "answer": 3,
+      "explain": "The powerhouse of the cell.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What are the products of anaerobic respiration in yeast?",
+      "options": [
+        "Ethanol and carbon dioxide",
+        "Lactic acid only",
+        "Oxygen and glucose",
+        "Water and carbon dioxide"
+      ],
+      "answer": 0,
+      "explain": "Fermentation.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why do we breathe faster during exercise?",
+      "options": [
+        "To cool the lungs",
+        "Because the heart stops",
+        "To supply more oxygen and remove more carbon dioxide",
+        "To make more glucose"
+      ],
+      "answer": 2,
+      "explain": "Muscles respire faster."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why are aquatic animals’ breathing rates usually faster than land animals’?",
+      "options": [
+        "Fish have no blood",
+        "Water contains much less dissolved oxygen than air",
+        "Water has more oxygen",
+        "Water is warmer"
+      ],
+      "answer": 1,
+      "explain": "They must move more water over their gills.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which feature does NOT help alveoli exchange gases?",
+      "options": [
+        "Large surface area",
+        "Thin walls",
+        "Good blood supply",
+        "Thick, dry walls"
+      ],
+      "answer": 3,
+      "explain": "Walls are thin and moist."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A student puts germinating seeds in a flask with limewater. The limewater turns milky. What does this show?",
+      "options": [
+        "The seeds give out carbon dioxide as they respire",
+        "The limewater is contaminated",
+        "The seeds photosynthesise",
+        "The seeds give out oxygen"
+      ],
+      "answer": 0,
+      "explain": "CO₂ turns limewater milky."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why do your muscles ache after a sprint?",
+      "options": [
+        "Ethanol in the muscles",
+        "The muscles ran out of water",
+        "Lactic acid built up from anaerobic respiration",
+        "Too much oxygen"
+      ],
+      "answer": 2,
+      "explain": "It is removed when oxygen returns."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Compare aerobic and anaerobic respiration in human muscle.",
+      "modelAnswer": "Aerobic respiration needs oxygen and breaks glucose down completely into carbon dioxide and water, releasing a lot of energy (as ATP), mostly in the mitochondria. Anaerobic respiration happens when oxygen is short; glucose is broken down only partly to lactic acid, releasing much less energy, and the lactic acid causes fatigue and cramps.",
+      "rubric": [
+        "Oxygen needed vs not",
+        "Products: CO₂ + water vs lactic acid",
+        "Energy: much more vs little"
+      ],
+      "explain": "Criterion A: comparing processes."
+    }
+  ]
+}

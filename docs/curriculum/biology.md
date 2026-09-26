@@ -141,5 +141,12 @@ CBSE Class 9 now uses the integrated NCERT book **Exploration** (2026): biology 
 
 Exploration Ch 13 (Earth as a System) is Earth science and isn't covered yet.
 
-### Grade 10 (planned, to be checked against the current NCERT Class 10 book)
-Life processes (nutrition, respiration, transport, excretion), control and coordination, heredity, our environment.
+### Grade 10 ✅ built (NCERT Class 10 unchanged for 2026–27; IB MYP 5)
+
+| Unit | Topics | Labs |
+|---|---|---|
+| 12. Life Processes | Nutrition, digestion and enzymes · Respiration · Transport in humans and plants · Excretion · Boss | Enzyme Lab, Respiration, Double Circulation, Kidney Filter, Life Processes Master |
+| 13. Control, Coordination and Heredity | Nervous system and reflexes · Hormones in plants and animals · Heredity and Mendel's laws · Sex determination and variation · Boss | Reaction Time and Reflexes, Plant and Animal Hormones, Mendel's Peas, Coordination and Heredity Master |
+| 14. Our Environment | Trophic levels and the 10% law · Biomagnification and the ozone layer · Managing waste · Boss | Energy Pyramid, Up the Food Chain, Waste Sorter, Environment Master |
+
+CBSE Class 10 chapters: Life Processes; Control and Coordination; Heredity; Our Environment. ("How do Organisms Reproduce?" is covered by Grade 9 Unit 11.)

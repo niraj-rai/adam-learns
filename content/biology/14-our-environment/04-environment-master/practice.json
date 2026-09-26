@@ -1,0 +1,121 @@
+{
+  "topicId": "environment-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which organisms return nutrients to the soil?",
+      "options": [
+        "Carnivores",
+        "Producers",
+        "Decomposers",
+        "Herbivores"
+      ],
+      "answer": 2,
+      "explain": "Bacteria and fungi."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A herbivore level holds 5,000 kJ. How much energy (kJ) did the producers have, using the 10% law?",
+      "answer": 50000,
+      "tolerance": 0,
+      "explain": "5,000 is 10% of 50,000.",
+      "unit": "kJ"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which gas is ozone?",
+      "options": [
+        "N₂",
+        "O₃",
+        "O₂",
+        "CO₂"
+      ],
+      "answer": 1,
+      "explain": "Three oxygen atoms.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why would removing all snakes from a field cause rats to increase?",
+      "options": [
+        "Snakes produce rat food",
+        "Rats eat snakes",
+        "Snakes compete with grain",
+        "Rats lose a predator"
+      ],
+      "answer": 3,
+      "explain": "Predator control removed."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is the best way to deal with kitchen scraps?",
+      "options": [
+        "Composting",
+        "Throwing in a river",
+        "Burning",
+        "Mixing with plastic waste"
+      ],
+      "answer": 0,
+      "explain": "Returns nutrients to soil."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which pair is linked correctly?",
+      "options": [
+        "Compost: biomagnification",
+        "Plastic: fast decomposition",
+        "CFCs: ozone depletion",
+        "DDT: ozone formation"
+      ],
+      "answer": 2,
+      "explain": "CFCs break down ozone."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why might the top predator in a lake die even though pesticide in the water is very low?",
+      "options": [
+        "Predators are always weak",
+        "The pesticide is concentrated many times through the food chain",
+        "The pesticide changes into a new poison",
+        "Top predators drink more water"
+      ],
+      "answer": 1,
+      "explain": "Biological magnification."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain the difference between how energy and nutrients move through an ecosystem.",
+      "modelAnswer": "Energy flows one way: from the Sun to producers to consumers, with about 90% lost as heat at each step, so it must be constantly supplied by the Sun and cannot be recycled. Nutrients (such as carbon and nitrogen) are recycled: decomposers break down dead organisms and wastes, returning nutrients to the soil and air, where producers use them again.",
+      "rubric": [
+        "Energy one-way with heat loss",
+        "Nutrients recycled",
+        "Role of decomposers"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

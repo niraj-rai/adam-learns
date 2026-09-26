@@ -1,0 +1,127 @@
+{
+  "topicId": "hormones-and-plants",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which plant hormone inhibits growth and causes leaves to wilt?",
+      "options": [
+        "Gibberellin",
+        "Auxin",
+        "Abscisic acid",
+        "Cytokinin"
+      ],
+      "answer": 2,
+      "explain": "A stress hormone.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which gland makes thyroxine?",
+      "options": [
+        "Pituitary",
+        "Thyroid",
+        "Adrenal",
+        "Pancreas"
+      ],
+      "answer": 1,
+      "explain": "It needs iodine.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why does a shoot bend towards light?",
+      "options": [
+        "Auxin is destroyed on the shaded side",
+        "Light kills cells on the lit side",
+        "The plant moves its roots",
+        "Auxin collects on the shaded side, making those cells grow longer"
+      ],
+      "answer": 3,
+      "explain": "Uneven growth bends it.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "The growth of a pollen tube towards the ovule is an example of…",
+      "options": [
+        "chemotropism",
+        "geotropism",
+        "hydrotropism",
+        "phototropism"
+      ],
+      "answer": 0,
+      "explain": "It responds to chemicals."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which hormone prepares the body for “fight or flight”?",
+      "options": [
+        "Thyroxine",
+        "Insulin",
+        "Adrenaline",
+        "Growth hormone"
+      ],
+      "answer": 2,
+      "explain": "Heart rate and breathing rise."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A child grows unusually little. Which hormone may be lacking?",
+      "options": [
+        "Testosterone",
+        "Growth hormone from the pituitary",
+        "Insulin",
+        "Adrenaline"
+      ],
+      "answer": 1,
+      "explain": "Dwarfism."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How is hormonal control different from nervous control?",
+      "options": [
+        "It only works in plants",
+        "It is faster",
+        "It uses electrical impulses",
+        "It is slower and longer-lasting, carried in the blood"
+      ],
+      "answer": 3,
+      "explain": "Nerves are fast and brief."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain how blood sugar level is kept steady by feedback.",
+      "modelAnswer": "After a meal, blood glucose rises. The pancreas detects this and releases insulin, which helps cells take in glucose and the liver store it, so blood sugar falls. As the level returns to normal, the pancreas releases less insulin. This is a feedback mechanism: the effect of the hormone controls how much is released.",
+      "rubric": [
+        "Rise detected by pancreas",
+        "Insulin lowers sugar",
+        "Less released as level falls: feedback"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "topicId": "excretion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the main nitrogenous waste in human urine?",
+      "options": [
+        "Urea",
+        "Carbon dioxide",
+        "Starch",
+        "Glucose"
+      ],
+      "answer": 0,
+      "explain": "Made in the liver from excess amino acids.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where is blood first filtered in a nephron?",
+      "options": [
+        "Urethra",
+        "Ureter",
+        "Glomerulus",
+        "Bladder"
+      ],
+      "answer": 2,
+      "explain": "Into Bowman’s capsule.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which tube carries urine from the kidney to the bladder?",
+      "options": [
+        "Aorta",
+        "Ureter",
+        "Renal vein",
+        "Urethra"
+      ],
+      "answer": 1,
+      "explain": "Ureter, then urethra."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Glucose is found in a patient’s urine. What might this suggest?",
+      "options": [
+        "The kidneys are healthy",
+        "The patient ate protein",
+        "The patient drank too much water",
+        "The patient may have diabetes, so too much glucose to reabsorb"
+      ],
+      "answer": 3,
+      "explain": "Normally all glucose is reabsorbed."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "On a hot day you pass less, darker urine. Why?",
+      "options": [
+        "More water is reabsorbed because water is lost in sweat",
+        "Less urea is made",
+        "The bladder shrinks",
+        "The kidneys stop working"
+      ],
+      "answer": 0,
+      "explain": "Kidneys balance water."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How do many trees get rid of some wastes?",
+      "options": [
+        "Through urine",
+        "Through their roots as urea",
+        "By storing them in leaves that fall, or in bark",
+        "By breathing them out as nitrogen"
+      ],
+      "answer": 2,
+      "explain": "Plants have no kidneys.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Why does dialysis fluid contain glucose?",
+      "options": [
+        "To remove urea faster",
+        "So glucose does not diffuse out of the blood",
+        "To feed the machine",
+        "To kill bacteria"
+      ],
+      "answer": 1,
+      "explain": "No concentration gradient for glucose."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain how a nephron produces urine.",
+      "modelAnswer": "Blood enters the glomerulus at high pressure, and small molecules (water, glucose, salts, urea) are filtered into Bowman’s capsule. As the filtrate passes along the tubule, useful substances like glucose, amino acids, salts and most of the water are selectively reabsorbed into the surrounding blood capillaries. The remaining fluid, water with urea and excess salts, is urine, which goes to the collecting duct.",
+      "rubric": [
+        "Filtration in glomerulus",
+        "Selective reabsorption",
+        "What urine contains"
+      ],
+      "explain": "Criterion A."
+    }
+  ]
+}

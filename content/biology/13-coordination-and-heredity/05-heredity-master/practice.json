@@ -1,0 +1,120 @@
+{
+  "topicId": "heredity-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which part of the brain controls voluntary actions like writing?",
+      "options": [
+        "Medulla",
+        "Cerebrum",
+        "Spinal cord",
+        "Cerebellum"
+      ],
+      "answer": 1,
+      "explain": "Forebrain."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which hormone makes stems grow tall?",
+      "options": [
+        "Insulin",
+        "Abscisic acid",
+        "Thyroxine",
+        "Gibberellin"
+      ],
+      "answer": 3,
+      "explain": "Stem elongation."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Iodine deficiency causes which condition?",
+      "options": [
+        "Goitre",
+        "Anaemia",
+        "Dwarfism",
+        "Diabetes"
+      ],
+      "answer": 0,
+      "explain": "The thyroid swells.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Round (R) is dominant to wrinkled (r). What fraction of Rr × Rr offspring are wrinkled?",
+      "options": [
+        "1/2",
+        "0",
+        "1/4",
+        "3/4"
+      ],
+      "answer": 2,
+      "explain": "Only rr."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A plant is TtRr. How many kinds of gametes can it make?",
+      "options": [
+        "1",
+        "4",
+        "8",
+        "2"
+      ],
+      "answer": 1,
+      "explain": "TR, Tr, tR, tr."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A roots grows towards moist soil. What is this called?",
+      "options": [
+        "Phototropism",
+        "Thigmotropism",
+        "Chemotropism",
+        "Hydrotropism"
+      ],
+      "answer": 3,
+      "explain": "Response to water."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A family has 4 children. Assuming 50% each time, what is the probability (as a fraction written as a decimal) that all four are girls?",
+      "answer": 0.0625,
+      "tolerance": 0.001,
+      "explain": "(1/2)⁴ = 1/16 = 0.0625."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Compare how a plant and an animal respond to a stimulus, using one example of each.",
+      "modelAnswer": "A plant responds slowly, usually by growth controlled by hormones: for example a shoot bends towards light because auxin collects on the shaded side and makes those cells grow longer (phototropism). An animal can respond quickly using nerves: for example a hand is pulled from a hot object by a reflex arc through the spinal cord in a fraction of a second. Animals also use hormones for slower, longer-lasting responses.",
+      "rubric": [
+        "Plant: growth/hormone example",
+        "Animal: nerve example",
+        "Speed comparison"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

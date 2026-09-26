@@ -1,0 +1,60 @@
+{
+  "id": "hormones-and-plants",
+  "number": "13.2",
+  "title": "Hormones in Plants and Animals",
+  "summary": "Tropisms and plant hormones, and the human endocrine glands and feedback.",
+  "emoji": "🌱",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Hormones, MYP 5 Biology"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Control and Coordination",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain phototropism and geotropism using auxin.",
+    "I can name endocrine glands and their hormones.",
+    "I can describe feedback control of a hormone."
+  ],
+  "misconceptions": [
+    "Plants can’t respond to their surroundings.",
+    "Hormones act as fast as nerves.",
+    "The Mimosa leaf folds by growing."
+  ],
+  "prerequisites": [
+    "biology/reproduction/adolescence",
+    "biology/coordination-and-heredity/nervous-system"
+  ],
+  "labs": [
+    "tropism-lab"
+  ],
+  "keyTerms": [
+    "tropism",
+    "phototropism",
+    "geotropism",
+    "auxin",
+    "gibberellin",
+    "cytokinin",
+    "abscisic acid",
+    "endocrine gland",
+    "insulin",
+    "thyroxine",
+    "adrenaline"
+  ],
+  "estMinutes": 30
+}

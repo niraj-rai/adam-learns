@@ -1,0 +1,54 @@
+{
+  "id": "sex-determination",
+  "number": "13.4",
+  "title": "Sex Determination and Variation",
+  "summary": "X and Y chromosomes, why boys and girls are born in equal numbers, and where variation comes from.",
+  "emoji": "👶",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Inheritance, MYP 5 Biology"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Heredity",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain how sex is determined in humans.",
+    "I can explain why the chance of a boy or girl is 50%.",
+    "I can explain how sexual reproduction creates variation."
+  ],
+  "misconceptions": [
+    "The mother decides the sex of the baby.",
+    "Having three girls makes a boy more likely next time.",
+    "Sex is decided by the same method in all animals."
+  ],
+  "prerequisites": [
+    "biology/coordination-and-heredity/heredity"
+  ],
+  "labs": [
+    "punnett-square"
+  ],
+  "keyTerms": [
+    "chromosome",
+    "sex chromosomes",
+    "X chromosome",
+    "Y chromosome",
+    "variation",
+    "fertilisation"
+  ],
+  "estMinutes": 30
+}

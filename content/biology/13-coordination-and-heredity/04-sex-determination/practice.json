@@ -1,0 +1,122 @@
+{
+  "topicId": "sex-determination",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What are the sex chromosomes of a human male?",
+      "options": [
+        "YY",
+        "XX",
+        "XO",
+        "XY"
+      ],
+      "answer": 3,
+      "explain": "One X, one Y.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which sex chromosome does every human egg carry?",
+      "options": [
+        "X",
+        "Y",
+        "Either X or Y",
+        "Neither"
+      ],
+      "answer": 0,
+      "explain": "The mother is XX.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "The sex of a baby is decided by…",
+      "options": [
+        "whether the sperm carries X or Y",
+        "the month of conception",
+        "the egg carrying X or Y",
+        "the mother’s diet"
+      ],
+      "answer": 0,
+      "explain": "Eggs always carry X.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "How many pairs of chromosomes do humans have?",
+      "answer": 23,
+      "tolerance": 0,
+      "explain": "22 pairs of autosomes + 1 pair of sex chromosomes."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In which animal does incubation temperature decide the sex?",
+      "options": [
+        "Pea plants",
+        "Humans",
+        "Some turtles",
+        "Dogs"
+      ],
+      "answer": 2,
+      "explain": "Temperature-dependent sex determination."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why is variation useful to a species?",
+      "options": [
+        "It removes all genes",
+        "Some individuals may survive if conditions change",
+        "It makes all offspring identical",
+        "It stops reproduction"
+      ],
+      "answer": 1,
+      "explain": "Basis of natural selection."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which process produces the most variation?",
+      "options": [
+        "Binary fission",
+        "Budding",
+        "Vegetative propagation",
+        "Sexual reproduction"
+      ],
+      "answer": 3,
+      "explain": "Two parents mix alleles."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Use a Punnett square to show that a couple has a 50% chance of having a girl each time.",
+      "modelAnswer": "The mother (XX) can only give X eggs. The father (XY) makes sperm that carry X or Y in equal numbers. The Punnett square gives XX, XX, XY, XY: 2 in 4, so 50% girls (XX) and 50% boys (XY). Each fertilisation is independent, so the chance is 50% every time, whatever earlier children were.",
+      "rubric": [
+        "Mother XX gives X",
+        "Father X or Y",
+        "Square 2:2 = 50%"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

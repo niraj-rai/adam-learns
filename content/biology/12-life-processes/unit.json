@@ -1,0 +1,34 @@
+{
+  "id": "life-processes",
+  "number": 12,
+  "stage": "G10",
+  "title": "Life Processes",
+  "summary": "Grade 10: how organisms get and digest food, release energy, transport materials and remove wastes.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": [
+      "Function",
+      "Balance",
+      "Energy"
+    ],
+    "globalContext": "Identities and relationships",
+    "statementOfInquiry": "Organ systems work together to take in, transform and move materials, keeping the body in balance."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What do enzymes do?",
+      "How is aerobic respiration different from anaerobic?",
+      "What does a nephron do?"
+    ],
+    "conceptual": [
+      "Why do larger organisms need transport systems?",
+      "How is structure related to function in the villi, alveoli and nephrons?"
+    ],
+    "debatable": [
+      "Should organ donation be opt-out by default?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 10: Life Processes"
+  ]
+}

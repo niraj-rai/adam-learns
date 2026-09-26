@@ -48,7 +48,7 @@ describe('learner', () => {
 
   it('falls back to the nearest grade with content', () => {
     expect(gradeTopics('physics', 9).length).toBeGreaterThan(0)
-    expect(effectiveGrade(10, 'biology')).toBeLessThan(10)
+    expect(effectiveGrade(10, 'mathematics')).toBeLessThan(10)
   })
 })
 

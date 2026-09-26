@@ -1,0 +1,51 @@
+{
+  "id": "environment-master",
+  "number": "14.4",
+  "title": "Boss Challenge: Environment Master",
+  "summary": "Ten problems on food chains, energy flow, biomagnification, ozone and waste. Three lives!",
+  "emoji": "🌍",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Our Environment",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply ideas about ecosystems and the environment."
+  ],
+  "misconceptions": [
+    "Energy is recycled.",
+    "Pesticides dilute up the chain."
+  ],
+  "prerequisites": [
+    "biology/our-environment/energy-in-ecosystems",
+    "biology/our-environment/biomagnification-and-ozone",
+    "biology/our-environment/managing-waste"
+  ],
+  "labs": [
+    "environment-master"
+  ],
+  "keyTerms": [
+    "trophic level",
+    "10% law",
+    "biological magnification",
+    "ozone"
+  ],
+  "estMinutes": 20
+}

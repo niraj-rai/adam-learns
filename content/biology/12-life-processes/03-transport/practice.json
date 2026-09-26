@@ -1,0 +1,127 @@
+{
+  "topicId": "transport",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which chamber of the heart has the thickest wall?",
+      "options": [
+        "Left ventricle",
+        "Left atrium",
+        "Right atrium",
+        "Right ventricle"
+      ],
+      "answer": 0,
+      "explain": "It pumps blood to the whole body.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which blood vessel carries deoxygenated blood?",
+      "options": [
+        "Renal artery",
+        "Aorta",
+        "Pulmonary artery",
+        "Pulmonary vein"
+      ],
+      "answer": 2,
+      "explain": "It carries blood to the lungs.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What do platelets do?",
+      "options": [
+        "Carry food",
+        "Help the blood clot at a wound",
+        "Fight infection with antibodies",
+        "Carry oxygen"
+      ],
+      "answer": 1,
+      "explain": "They plug leaks.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many chambers does a fish heart have?",
+      "options": [
+        "One",
+        "Three",
+        "Four",
+        "Two"
+      ],
+      "answer": 3,
+      "explain": "Blood passes through it once (single circulation)."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is lymph?",
+      "options": [
+        "Fluid that leaks from capillaries into tissues and drains back via lymph vessels",
+        "Blood without red cells, inside arteries",
+        "Water in xylem",
+        "A type of hormone"
+      ],
+      "answer": 0,
+      "explain": "It carries fats and helps immunity."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "On a hot, windy day, a plant’s rate of water uptake rises. Why?",
+      "options": [
+        "Phloem works harder",
+        "Stomata close",
+        "Transpiration is faster, pulling more water up",
+        "Roots stop respiring"
+      ],
+      "answer": 2,
+      "explain": "More evaporation means more pull."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which tissue moves sugar from leaves to a growing fruit?",
+      "options": [
+        "Xylem",
+        "Phloem",
+        "Epidermis",
+        "Cambium"
+      ],
+      "answer": 1,
+      "explain": "Translocation."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why mammals and birds need double circulation but fish do not.",
+      "modelAnswer": "Mammals and birds are warm-blooded: they keep a constant body temperature, which needs a lot of energy and so a lot of oxygen. Double circulation keeps oxygenated and deoxygenated blood completely separate and sends blood to the body at high pressure, giving an efficient oxygen supply. Fish are cold-blooded and need less energy, so single circulation through a two-chambered heart is enough.",
+      "rubric": [
+        "Warm-blooded, high energy need",
+        "Separation of oxygenated/deoxygenated blood, high pressure",
+        "Fish need less"
+      ],
+      "explain": "Criterion C: explaining adaptations."
+    }
+  ]
+}

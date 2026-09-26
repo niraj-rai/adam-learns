@@ -1,0 +1,57 @@
+{
+  "id": "excretion",
+  "number": "12.4",
+  "title": "Excretion: Removing Wastes",
+  "summary": "The kidneys and nephrons, urine formation, dialysis, and how plants get rid of wastes.",
+  "emoji": "🫘",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Excretion and homeostasis, MYP 5 Biology"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Life Processes",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe the human excretory system.",
+    "I can explain how a nephron forms urine.",
+    "I can describe how plants remove wastes."
+  ],
+  "misconceptions": [
+    "Excretion is the same as egestion (passing faeces).",
+    "Kidneys only remove water.",
+    "Plants have no wastes."
+  ],
+  "prerequisites": [
+    "biology/body/excretion",
+    "biology/life-processes/transport"
+  ],
+  "labs": [
+    "kidney-filter"
+  ],
+  "keyTerms": [
+    "excretion",
+    "kidney",
+    "nephron",
+    "glomerulus",
+    "Bowman's capsule",
+    "urea",
+    "reabsorption",
+    "dialysis"
+  ],
+  "estMinutes": 30
+}

@@ -1,0 +1,60 @@
+{
+  "id": "transport",
+  "number": "12.3",
+  "title": "Transport in Humans and Plants",
+  "summary": "The heart and double circulation, blood vessels, blood and lymph; xylem, phloem and transpiration.",
+  "emoji": "❤️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Transport systems, MYP 5 Biology"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Life Processes",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can trace the path of blood through the heart.",
+    "I can explain double circulation.",
+    "I can explain how water and food move in plants."
+  ],
+  "misconceptions": [
+    "Arteries always carry oxygenated blood.",
+    "The heart pumps the same blood to the lungs and body at once.",
+    "Plants pump water with a heart-like organ."
+  ],
+  "prerequisites": [
+    "biology/body/heart-and-circulation",
+    "biology/cells-and-tissues/plant-tissues"
+  ],
+  "labs": [
+    "double-circulation"
+  ],
+  "keyTerms": [
+    "atrium",
+    "ventricle",
+    "valve",
+    "double circulation",
+    "artery",
+    "vein",
+    "capillary",
+    "lymph",
+    "xylem",
+    "phloem",
+    "transpiration"
+  ],
+  "estMinutes": 30
+}

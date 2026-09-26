@@ -1,0 +1,34 @@
+{
+  "id": "our-environment",
+  "number": 14,
+  "stage": "G10",
+  "title": "Our Environment",
+  "summary": "Grade 10: trophic levels and the 10% law, biological magnification, the ozone layer, and managing the waste we produce.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": [
+      "Energy",
+      "Consequences",
+      "Sustainability"
+    ],
+    "globalContext": "Globalization and sustainability",
+    "statementOfInquiry": "Energy flows through ecosystems while harmful substances can build up, so human choices about chemicals and waste affect every level."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is the 10% law?",
+      "What is biological magnification?",
+      "What damages the ozone layer?"
+    ],
+    "conceptual": [
+      "Why is the top of a food chain most at risk from pesticides?",
+      "How do our choices change waste?"
+    ],
+    "debatable": [
+      "Should single-use plastics be completely banned?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 10: Our Environment"
+  ]
+}

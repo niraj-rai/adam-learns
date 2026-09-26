@@ -1,0 +1,56 @@
+{
+  "id": "respiration",
+  "number": "12.2",
+  "title": "Respiration: Releasing Energy",
+  "summary": "Aerobic and anaerobic respiration, ATP, and breathing and gas exchange in humans and plants.",
+  "emoji": "🌬️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Respiration, MYP 5 Biology"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Life Processes",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can write equations for aerobic and anaerobic respiration.",
+    "I can compare respiration in yeast and muscle.",
+    "I can explain how the alveoli are adapted for gas exchange."
+  ],
+  "misconceptions": [
+    "Respiration is the same as breathing.",
+    "Plants photosynthesise instead of respiring.",
+    "Anaerobic respiration produces no energy."
+  ],
+  "prerequisites": [
+    "biology/body/breathing-and-respiration",
+    "biology/life-processes/nutrition-and-enzymes"
+  ],
+  "labs": [
+    "respiration-lab"
+  ],
+  "keyTerms": [
+    "aerobic",
+    "anaerobic",
+    "ATP",
+    "mitochondria",
+    "lactic acid",
+    "fermentation",
+    "alveoli"
+  ],
+  "estMinutes": 30
+}

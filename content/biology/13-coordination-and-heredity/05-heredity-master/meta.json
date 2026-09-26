@@ -1,0 +1,52 @@
+{
+  "id": "heredity-master",
+  "number": "13.5",
+  "title": "Boss Challenge: Coordination and Heredity Master",
+  "summary": "Ten problems on nerves, hormones, plant responses and inheritance. Three lives!",
+  "emoji": "🧬",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Heredity",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply ideas about coordination and inheritance."
+  ],
+  "misconceptions": [
+    "The brain controls every reflex.",
+    "The mother decides the baby’s sex."
+  ],
+  "prerequisites": [
+    "biology/coordination-and-heredity/nervous-system",
+    "biology/coordination-and-heredity/hormones-and-plants",
+    "biology/coordination-and-heredity/heredity",
+    "biology/coordination-and-heredity/sex-determination"
+  ],
+  "labs": [
+    "heredity-master"
+  ],
+  "keyTerms": [
+    "reflex arc",
+    "auxin",
+    "insulin",
+    "allele"
+  ],
+  "estMinutes": 20
+}

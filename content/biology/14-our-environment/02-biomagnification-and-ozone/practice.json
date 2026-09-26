@@ -1,0 +1,123 @@
+{
+  "topicId": "biomagnification-and-ozone",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is biological magnification?",
+      "options": [
+        "More energy at higher levels",
+        "Increasing concentration of a harmful chemical at each trophic level",
+        "Organisms growing bigger up the chain",
+        "Using a microscope to see microbes"
+      ],
+      "answer": 1,
+      "explain": "The chemical is concentrated.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which property makes a chemical likely to biomagnify?",
+      "options": [
+        "It is a gas",
+        "It dissolves easily in water and is excreted",
+        "It breaks down in sunlight",
+        "It is non-biodegradable and stored in fat"
+      ],
+      "answer": 3,
+      "explain": "It is not removed from the body."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Water has 0.01 ppm of a pesticide. If it is concentrated 10 times at each of 4 steps, what is the level (ppm) in the top predator?",
+      "answer": 100,
+      "tolerance": 0,
+      "explain": "0.01 × 10⁴ = 100 ppm.",
+      "unit": "ppm"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which radiation does the ozone layer absorb?",
+      "options": [
+        "Ultraviolet",
+        "Visible light",
+        "Radio waves",
+        "Infrared"
+      ],
+      "answer": 0,
+      "explain": "UV damages DNA.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which agreement phased out CFCs?",
+      "options": [
+        "The Kyoto Protocol",
+        "The Geneva Convention",
+        "The Montreal Protocol",
+        "The Paris Agreement"
+      ],
+      "answer": 2,
+      "explain": "1987."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How is ozone formed in the upper atmosphere?",
+      "options": [
+        "CFCs react to make it",
+        "UV splits O₂ into atoms, which combine with O₂ to form O₃",
+        "Plants release it directly",
+        "Lightning makes it from nitrogen"
+      ],
+      "answer": 1,
+      "explain": "O₂ + O → O₃.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why did DDT affect birds of prey more than the insects it was sprayed on?",
+      "options": [
+        "Birds eat DDT directly from sprayers",
+        "Insects are immune to DDT",
+        "DDT is only toxic to birds",
+        "The birds were at the top of the food chain, where DDT was most concentrated"
+      ],
+      "answer": 3,
+      "explain": "Biomagnification."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why people who eat a lot of large fish may have higher levels of mercury than people who eat mainly vegetables.",
+      "modelAnswer": "Mercury is not broken down or easily excreted, so it builds up in organisms. Large fish are high in the food chain: they eat many smaller fish, which ate plankton containing mercury, so the concentration increases at each level (biological magnification). People eating large fish are at an even higher level and take in more mercury than those eating plants, which are low in the chain.",
+      "rubric": [
+        "Not broken down/excreted",
+        "Increases up the chain",
+        "Big fish high trophic level vs plants"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

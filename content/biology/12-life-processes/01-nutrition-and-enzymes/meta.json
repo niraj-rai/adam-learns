@@ -1,0 +1,59 @@
+{
+  "id": "nutrition-and-enzymes",
+  "number": "12.1",
+  "title": "Nutrition, Digestion and Enzymes",
+  "summary": "Autotrophic and heterotrophic nutrition, the human digestive system and how enzymes work.",
+  "emoji": "🧪",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Digestion and enzymes, MYP 5 Biology"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Life Processes",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can compare autotrophic and heterotrophic nutrition.",
+    "I can describe what happens in each part of the gut.",
+    "I can explain how temperature and pH affect enzymes."
+  ],
+  "misconceptions": [
+    "Enzymes are alive and get killed by heat.",
+    "Digestion happens only in the stomach.",
+    "Bile is an enzyme."
+  ],
+  "prerequisites": [
+    "biology/nutrition/digestion",
+    "biology/nutrition/photosynthesis"
+  ],
+  "labs": [
+    "enzyme-lab"
+  ],
+  "keyTerms": [
+    "autotroph",
+    "heterotroph",
+    "enzyme",
+    "active site",
+    "denature",
+    "amylase",
+    "pepsin",
+    "lipase",
+    "bile",
+    "villi"
+  ],
+  "estMinutes": 30
+}

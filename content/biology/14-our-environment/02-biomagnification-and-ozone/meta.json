@@ -1,0 +1,56 @@
+{
+  "id": "biomagnification-and-ozone",
+  "number": "14.2",
+  "title": "Biomagnification and the Ozone Layer",
+  "summary": "How non-biodegradable chemicals build up in food chains, and how the ozone layer was damaged and is recovering.",
+  "emoji": "🦅",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Environmental chemistry, MYP 5 Biology"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Our Environment",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain biological magnification.",
+    "I can explain why the ozone layer matters.",
+    "I can describe how CFCs damaged it and how the world responded."
+  ],
+  "misconceptions": [
+    "Pesticides are diluted as they pass up a food chain.",
+    "The ozone hole causes global warming.",
+    "Ozone is good wherever it is."
+  ],
+  "prerequisites": [
+    "biology/our-environment/energy-in-ecosystems"
+  ],
+  "labs": [
+    "biomagnification"
+  ],
+  "keyTerms": [
+    "biological magnification",
+    "pesticide",
+    "DDT",
+    "non-biodegradable",
+    "ozone",
+    "UV radiation",
+    "CFCs",
+    "Montreal Protocol"
+  ],
+  "estMinutes": 30
+}

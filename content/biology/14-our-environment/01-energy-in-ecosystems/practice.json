@@ -1,0 +1,124 @@
+{
+  "topicId": "energy-in-ecosystems",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which organisms are always at the first trophic level?",
+      "options": [
+        "Decomposers",
+        "Top carnivores",
+        "Producers",
+        "Herbivores"
+      ],
+      "answer": 2,
+      "explain": "They make food from sunlight.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Producers hold 20,000 kJ. Using the 10% law, how much energy (kJ) reaches the tertiary consumer?",
+      "answer": 20,
+      "tolerance": 0,
+      "explain": "20,000 → 2,000 → 200 → 20.",
+      "unit": "kJ",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why is energy flow in an ecosystem called one-way?",
+      "options": [
+        "Decomposers send energy back to the Sun",
+        "Energy lost as heat cannot be used again by producers",
+        "Energy goes only from animals to plants",
+        "Plants absorb heat from animals"
+      ],
+      "answer": 1,
+      "explain": "It flows from Sun to producers to consumers and escapes as heat.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "What would happen if all decomposers disappeared?",
+      "options": [
+        "Plants would grow faster",
+        "Nothing would change",
+        "Herbivores would starve at once",
+        "Dead matter would pile up and nutrients would not return to the soil"
+      ],
+      "answer": 3,
+      "explain": "Recycling would stop."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In grass → rabbit → fox, what is the fox?",
+      "options": [
+        "Secondary consumer",
+        "Primary consumer",
+        "Producer",
+        "Decomposer"
+      ],
+      "answer": 0,
+      "explain": "Third trophic level."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "About what fraction of sunlight falling on a leaf is stored as food?",
+      "options": [
+        "About 1%",
+        "About 10%",
+        "About 50%",
+        "All of it"
+      ],
+      "answer": 0,
+      "explain": "Most is reflected or lost."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is an artificial ecosystem?",
+      "options": [
+        "A forest",
+        "A pond",
+        "A crop field",
+        "An ocean"
+      ],
+      "answer": 2,
+      "explain": "People manage it.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why there are usually fewer tigers than deer in a forest.",
+      "modelAnswer": "Tigers are at a higher trophic level than deer. At each step of the food chain only about 10% of the energy is passed on; the rest is used for life processes and lost as heat. So the energy available to tigers is much less than that available to deer, and it can support only a small number of tigers.",
+      "rubric": [
+        "Trophic levels",
+        "10% transfer, heat loss",
+        "Less energy supports fewer animals"
+      ],
+      "explain": "Criterion A."
+    }
+  ]
+}

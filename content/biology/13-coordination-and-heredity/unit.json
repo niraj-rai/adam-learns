@@ -1,0 +1,35 @@
+{
+  "id": "coordination-and-heredity",
+  "number": 13,
+  "stage": "G10",
+  "title": "Control, Coordination and Heredity",
+  "summary": "Grade 10: the nervous system and reflexes, hormones in plants and animals, Mendel’s laws and how sex is determined.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Interaction",
+      "Patterns",
+      "Balance"
+    ],
+    "globalContext": "Identities and relationships",
+    "statementOfInquiry": "Nerves and hormones coordinate the body, while genes passed from parents create patterns of inheritance."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is a reflex arc?",
+      "What does auxin do?",
+      "What ratio did Mendel find?"
+    ],
+    "conceptual": [
+      "How are nervous and hormonal control different?",
+      "How can two tall parents have a short child?"
+    ],
+    "debatable": [
+      "Should parents be allowed to know a baby's sex before birth? (It is illegal in India: why?)"
+    ]
+  },
+  "cbseChapters": [
+    "Class 10: Control and Coordination",
+    "Class 10: Heredity"
+  ]
+}

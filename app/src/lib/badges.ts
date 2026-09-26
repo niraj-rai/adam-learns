@@ -104,6 +104,12 @@ export type BadgeId =
   | 'salts-metals-master'
   | 'unit-carbon-compounds'
   | 'carbon-master'
+  | 'unit-life-processes'
+  | 'life-processes-master'
+  | 'unit-coordination-and-heredity'
+  | 'heredity-master'
+  | 'unit-our-environment'
+  | 'environment-master'
   | 'light-master'
   | 'perfect-score'
 
@@ -214,5 +220,11 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'salts-metals-master': { title: "Salts and Metals Master", emoji: '🧂', description: "Solved ten Grade 10 salts and metals problems (Boss Challenge)" },
   'unit-carbon-compounds': { title: "Carbon Chemist", emoji: '🧬', description: "Mastered every core topic in Grade 10 Chemistry Unit 11: Carbon and Its Compounds" },
   'carbon-master': { title: "Carbon Master", emoji: '🔗', description: "Solved ten Grade 10 carbon chemistry problems (Boss Challenge)" },
+  'unit-life-processes': { title: "Life Processes Expert", emoji: '🫀', description: "Mastered every core topic in Grade 10 Biology Unit 12: Life Processes" },
+  'life-processes-master': { title: "Life Processes Master", emoji: '🫀', description: "Solved ten Grade 10 life processes problems (Boss Challenge)" },
+  'unit-coordination-and-heredity': { title: "Nerve and Gene Expert", emoji: '🧠', description: "Mastered every core topic in Grade 10 Biology Unit 13: Control, Coordination and Heredity" },
+  'heredity-master': { title: "Heredity Master", emoji: '🧬', description: "Solved ten Grade 10 coordination and heredity problems (Boss Challenge)" },
+  'unit-our-environment': { title: "Earth Guardian", emoji: '🌍', description: "Mastered every core topic in Grade 10 Biology Unit 14: Our Environment" },
+  'environment-master': { title: "Environment Master", emoji: '🌍', description: "Solved ten Grade 10 environment problems (Boss Challenge)" },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

@@ -1,0 +1,123 @@
+{
+  "topicId": "nutrition-and-enzymes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which enzyme digests protein in the stomach?",
+      "options": [
+        "Maltase",
+        "Lipase",
+        "Amylase",
+        "Pepsin"
+      ],
+      "answer": 3,
+      "explain": "It works best in acid.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where are most digested foods absorbed?",
+      "options": [
+        "Small intestine, through the villi",
+        "Large intestine",
+        "Stomach",
+        "Mouth"
+      ],
+      "answer": 0,
+      "explain": "Villi give a huge surface area.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the role of hydrochloric acid in the stomach?",
+      "options": [
+        "It digests fat",
+        "It absorbs water",
+        "It kills microbes and provides the acidic pH for pepsin",
+        "It makes bile"
+      ],
+      "answer": 2,
+      "explain": "Mucus stops it harming the lining.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Amylase is boiled, cooled, and added to starch. What happens?",
+      "options": [
+        "The starch is digested faster",
+        "The starch is not digested, because the enzyme is denatured",
+        "The starch is digested normally",
+        "The starch turns into protein"
+      ],
+      "answer": 1,
+      "explain": "Denaturing is permanent."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which organism is an autotroph?",
+      "options": [
+        "A mushroom",
+        "A cow",
+        "Amoeba",
+        "A mango tree"
+      ],
+      "answer": 3,
+      "explain": "It photosynthesises."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why is the small intestine of a herbivore longer than that of a carnivore?",
+      "options": [
+        "Cellulose in plants takes longer to digest",
+        "Herbivores eat less",
+        "Herbivores have no stomach",
+        "Meat is harder to digest"
+      ],
+      "answer": 0,
+      "explain": "A longer gut gives more time.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "In an enzyme experiment, starch took 60 s to disappear at 20 °C and 20 s at 37 °C. How many times faster was the reaction at 37 °C?",
+      "answer": 3,
+      "tolerance": 0,
+      "explain": "60 ÷ 20 = 3."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain how the structure of the small intestine is adapted for absorbing food.",
+      "modelAnswer": "The small intestine is very long and its inner wall has millions of finger-like villi (with microvilli), giving an enormous surface area. The villi have thin walls, one cell thick, so digested food diffuses quickly. Each villus has a rich network of blood capillaries (and a lacteal for fats) that carries food away, keeping a steep concentration gradient.",
+      "rubric": [
+        "Villi / large surface area",
+        "Thin walls",
+        "Good blood supply"
+      ],
+      "explain": "Criterion A: structure and function."
+    }
+  ]
+}

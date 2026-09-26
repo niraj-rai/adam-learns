@@ -1,0 +1,52 @@
+{
+  "id": "life-processes-master",
+  "number": "12.5",
+  "title": "Boss Challenge: Life Processes Master",
+  "summary": "Ten problems on nutrition, enzymes, respiration, transport and excretion. Three lives!",
+  "emoji": "🫀",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Life Processes",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply ideas about life processes."
+  ],
+  "misconceptions": [
+    "Respiration is breathing.",
+    "Arteries always carry oxygenated blood."
+  ],
+  "prerequisites": [
+    "biology/life-processes/nutrition-and-enzymes",
+    "biology/life-processes/respiration",
+    "biology/life-processes/transport",
+    "biology/life-processes/excretion"
+  ],
+  "labs": [
+    "life-processes-master"
+  ],
+  "keyTerms": [
+    "enzyme",
+    "ATP",
+    "double circulation",
+    "nephron"
+  ],
+  "estMinutes": 20
+}
