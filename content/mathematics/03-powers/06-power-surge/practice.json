@@ -1,0 +1,108 @@
+{
+  "topicId": "power-surge",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Simplify.",
+      "text": "2⁵ × 2³ = 2 to the power ___",
+      "blanks": [
+        [
+          "8"
+        ]
+      ],
+      "explain": "Add the exponents: 5 + 3 = 8."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is 5⁰?",
+      "answer": 1,
+      "explain": "Any non-zero number to the power 0 is 1.",
+      "tolerance": 0
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Write as a fraction.",
+      "text": "2⁻³ = ___",
+      "blanks": [
+        [
+          "1/8",
+          "0.125"
+        ]
+      ],
+      "explain": "2⁻³ = 1/2³ = 1/8."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Write 150,000,000 in standard form.",
+      "options": [
+        "1.5 × 10⁸",
+        "1.5 × 10⁷",
+        "15 × 10⁷",
+        "1.5 × 10⁹"
+      ],
+      "answer": 0,
+      "explain": "1.5 × 10⁸."
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Choose one Power Surge problem. Explain your method, name the law or idea you used, and show a check.",
+      "modelAnswer": "For (3²)³, I used the power of a power law and multiplied the exponents: 3²ˣ³ = 3⁶. Check by writing it out: (3 × 3) × (3 × 3) × (3 × 3) has six 3s, and 3⁶ = 729 = 9³.",
+      "rubric": [
+        "Names the law or idea",
+        "Shows working",
+        "Includes a check"
+      ],
+      "explain": "Criterion C: communicate your reasoning."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A sheet of paper 0.1 mm thick is folded in half 10 times. How thick is the stack, in mm?",
+      "answer": 102.4,
+      "unit": "mm",
+      "explain": "0.1 × 2¹⁰ = 0.1 × 1024 = 102.4 mm.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Convert binary 1101 to decimal.",
+      "answer": 13,
+      "explain": "8 + 4 + 0 + 1 = 13.",
+      "tolerance": 0
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Convert the Roman numeral.",
+      "text": "MMXXVI = ___",
+      "blanks": [
+        [
+          "2026"
+        ]
+      ],
+      "explain": "MM = 2000, XX = 20, VI = 6."
+    }
+  ]
+}

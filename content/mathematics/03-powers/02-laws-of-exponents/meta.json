@@ -1,0 +1,57 @@
+{
+  "id": "laws-of-exponents",
+  "number": "3.2",
+  "title": "The Laws of Exponents",
+  "summary": "Multiply, divide and raise powers to powers, and understand why the laws work.",
+  "emoji": "✖️",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Laws of exponents are MYP 3 Algebra/Number"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 2: Power Play",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 10: Exponents and Powers",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can use the laws of exponents to simplify expressions.",
+    "I can explain each law by writing powers out in full.",
+    "I can spot when the laws do not apply (different bases)."
+  ],
+  "misconceptions": [
+    "a³ × a⁴ = a¹²",
+    "2³ × 3² = 6⁵",
+    "(a³)² = a⁵"
+  ],
+  "prerequisites": [
+    "mathematics/powers/exponents"
+  ],
+  "labs": [
+    "exponent-laws"
+  ],
+  "keyTerms": [
+    "law of exponents",
+    "product of powers",
+    "quotient of powers",
+    "power of a power"
+  ],
+  "estMinutes": 25
+}

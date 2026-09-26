@@ -1,0 +1,129 @@
+{
+  "topicId": "laws-of-exponents",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the law.",
+      "text": "a³ × a⁴ = a to the power ___",
+      "blanks": [
+        [
+          "7"
+        ]
+      ],
+      "explain": "Three a's times four a's is seven a's.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the law.",
+      "text": "5⁸ ÷ 5³ = 5 to the power ___",
+      "blanks": [
+        [
+          "5"
+        ]
+      ],
+      "explain": "Divide by subtracting the exponents: 8 − 3 = 5.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the law.",
+      "text": "(2³)⁴ = 2 to the power ___",
+      "blanks": [
+        [
+          "12"
+        ]
+      ],
+      "explain": "Four groups of three 2s: 3 × 4 = 12."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Work out (2⁵ × 2³) ÷ 2⁶.",
+      "answer": 4,
+      "explain": "2⁵⁺³⁻⁶ = 2² = 4.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Simplify 3² × 2³.",
+      "options": [
+        "72",
+        "6⁵",
+        "5⁵",
+        "6⁶"
+      ],
+      "answer": 0,
+      "explain": "The bases are different, so the laws don't apply: 9 × 8 = 72."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Look: (2 × 5)² = 2² × 5² = 100. Which follows the same pattern?",
+      "options": [
+        "6³ = 2³ × 3³",
+        "6³ = 2³ + 3³",
+        "6³ = 2 × 3³",
+        "6³ = 3 × 6²"
+      ],
+      "answer": 0,
+      "explain": "(ab)ⁿ = aⁿbⁿ: 6³ = (2 × 3)³ = 2³ × 3³ = 216."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain, using an example written out in full, why aᵐ × aⁿ = aᵐ⁺ⁿ.",
+      "modelAnswer": "For example, 2³ × 2⁴ = (2 × 2 × 2) × (2 × 2 × 2 × 2). That is 3 + 4 = 7 twos multiplied together, which is 2⁷. In general, m copies of a times n copies of a gives m + n copies of a.",
+      "rubric": [
+        "Writes the powers in full",
+        "Counts the factors",
+        "Generalises to m and n"
+      ],
+      "explain": "Criterion C: justify a rule clearly."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Work out (3⁴ × 3²) ÷ 3⁵.",
+      "answer": 3,
+      "explain": "3⁴⁺²⁻⁵ = 3¹ = 3.",
+      "tolerance": 0
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which of these is equal to 4⁵?",
+      "options": [
+        "2¹⁰",
+        "2⁷",
+        "16⁵",
+        "8²"
+      ],
+      "answer": 0,
+      "explain": "4 = 2², so 4⁵ = (2²)⁵ = 2¹⁰ = 1024."
+    }
+  ]
+}

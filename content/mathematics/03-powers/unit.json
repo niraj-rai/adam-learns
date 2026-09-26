@@ -1,0 +1,37 @@
+{
+  "id": "powers",
+  "number": 3,
+  "title": "Powers and Exponents",
+  "summary": "Doubling paper to the Moon, the laws of exponents, what zero and negative powers mean, standard form from atoms to galaxies, and the story of how the world learned to write numbers.",
+  "ib": {
+    "keyConcept": "Form",
+    "relatedConcepts": [
+      "Representation",
+      "Simplification",
+      "Quantity"
+    ],
+    "globalContext": "Orientation in space and time",
+    "statementOfInquiry": "Exponents give us a compact form to represent and simplify very large and very small quantities, from atoms to the edge of the universe."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What does an exponent mean?",
+      "What are the laws of exponents?",
+      "How do we write numbers in standard form?"
+    ],
+    "conceptual": [
+      "Why is any number to the power zero equal to 1?",
+      "Why did place value with zero change the history of mathematics?"
+    ],
+    "debatable": [
+      "Is exponential growth always something to fear?",
+      "Should everyone learn binary, the language of computers?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 8 (Ganita Prakash) Ch 2: Power Play",
+    "Class 8 (Ganita Prakash) Ch 3: A Story of Numbers",
+    "Earlier NCERT Class 7 Ch 11: Exponents and Powers",
+    "Earlier NCERT Class 8 Ch 10: Exponents and Powers"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "standard-form",
+  "number": "3.4",
+  "title": "Standard Form: Huge and Tiny Numbers",
+  "summary": "Writing numbers as a × 10ⁿ, from atoms to galaxies, and calculating with them.",
+  "emoji": "🔭",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Scientific notation is MYP 3 Number (used across MYP Sciences)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 2: Power Play",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 10: Exponents and Powers",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "D"
+  ],
+  "objectives": [
+    "I can write very large and very small numbers in standard form.",
+    "I can convert standard form back to ordinary numbers.",
+    "I can compare and calculate with numbers in standard form."
+  ],
+  "misconceptions": [
+    "45 × 10³ is in standard form.",
+    "A bigger exponent always means a bigger number, even with negative exponents.",
+    "0.00045 = 4.5 × 10⁴."
+  ],
+  "prerequisites": [
+    "mathematics/powers/zero-and-negative-exponents"
+  ],
+  "labs": [
+    "scale-of-universe"
+  ],
+  "keyTerms": [
+    "standard form",
+    "scientific notation",
+    "order of magnitude",
+    "light year"
+  ],
+  "estMinutes": 25
+}

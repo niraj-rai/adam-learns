@@ -1,0 +1,48 @@
+<Stage kind="wonder" title="Shortcuts that make sense" />
+
+<Hook emoji="✖️">
+2³ × 2⁴: you could work out 8 × 16 = 128. Or you could notice that it's three 2s times four 2s: seven 2s, 2⁷ = 128. The **laws of exponents** are shortcuts, but they aren't magic. Every one of them comes from counting factors.
+</Hook>
+
+<PredictFirst
+  question="What is a³ × a⁴?"
+  options={["a⁷", "a¹²", "2a⁷", "a³⁴"]}
+  answer={0}
+>
+(a × a × a) × (a × a × a × a) has **seven** a's, so a³ × a⁴ = a⁷. Add the exponents; don't multiply them.
+</PredictFirst>
+
+<Stage kind="explain" title="Three laws" />
+
+<Formula tex="a^m \times a^n = a^{m+n} \qquad a^m \div a^n = a^{m-n} \qquad (a^m)^n = a^{mn}" caption="The laws of exponents (same base a)" />
+
+<StepReveal
+  steps={[
+    "Multiply: 5² × 5³ = (5 × 5) × (5 × 5 × 5) = 5⁵. Count the factors: add the exponents.",
+    "Divide: 5⁶ ÷ 5² = (5 × 5 × 5 × 5 × 5 × 5) / (5 × 5). Two pairs cancel, leaving 5⁴. Subtract the exponents.",
+    "Power of a power: (5²)³ = 5² × 5² × 5² = 5⁶. Three groups of two: multiply the exponents.",
+    "Same exponent, different bases: 2³ × 5³ = (2 × 5)³ = 10³ = 1000.",
+    "Warning: 2³ × 3² has different bases AND different exponents. No shortcut: it's 8 × 9 = 72."
+  ]}
+/>
+
+<Stage kind="try" title="Exponent Laws" />
+
+<Lab id="exponent-laws" />
+
+<MythFact myth="2³ × 3² = 6⁵ because you multiply the bases and add the exponents.">
+The laws only work when the **bases are the same** (or, for (ab)ⁿ = aⁿbⁿ, when the exponents are the same). 2³ × 3² = 8 × 9 = 72, but 6⁵ = 7776.
+</MythFact>
+
+<Stage kind="apply" title="Communicate" />
+
+<Inquiry criterion="C" title="Explain it to a younger student">
+Make a short poster or video that explains all three laws of exponents. For each, show an example written out in full, the general rule, and one common mistake to avoid.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Ch 2 · Earlier NCERT 8 Ch 10">
+- Laws of exponents with integer exponents: aᵐ × aⁿ, aᵐ ÷ aⁿ, (aᵐ)ⁿ, aᵐ × bᵐ = (ab)ᵐ, aᵐ ÷ bᵐ = (a/b)ᵐ.
+- Exam tip: always write the law you are using at each step.
+</CbseCorner>
+
+<Reflect id="math-pow-laws" prompt="Which law of exponents do you find easiest to remember, and how will you remember the others?" />

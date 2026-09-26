@@ -1,0 +1,59 @@
+{
+  "id": "exponents",
+  "number": "3.1",
+  "title": "Exponents and Exponential Growth",
+  "summary": "Powers as repeated multiplication, and how doubling grows astonishingly fast: fold paper to the Moon!",
+  "emoji": "📄",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Exponent notation is MYP 2 Number"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 2: Power Play",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 11: Exponents and Powers",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can write and evaluate powers.",
+    "I can explain how repeated doubling grows.",
+    "I can compare powers and spot patterns in their last digits."
+  ],
+  "misconceptions": [
+    "5³ means 5 × 3.",
+    "Doubling something 40 times makes it about 80 times bigger.",
+    "A negative base to any power is negative."
+  ],
+  "prerequisites": [
+    "mathematics/squares-and-roots/cubes-and-cube-roots"
+  ],
+  "labs": [
+    "paper-fold"
+  ],
+  "keyTerms": [
+    "power",
+    "base",
+    "exponent",
+    "index",
+    "exponential growth",
+    "doubling"
+  ],
+  "estMinutes": 25
+}

@@ -1,0 +1,57 @@
+{
+  "id": "zero-and-negative-exponents",
+  "number": "3.3",
+  "title": "Zero and Negative Exponents",
+  "summary": "Why a⁰ = 1 and a⁻ⁿ = 1/aⁿ: patterns that continue past zero.",
+  "emoji": "🪜",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Negative indices are MYP 3 Number"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 2: Power Play",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 10: Exponents and Powers",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can evaluate powers with zero and negative exponents.",
+    "I can explain a⁰ = 1 and a⁻ⁿ = 1/aⁿ using patterns or division.",
+    "I can use the laws of exponents with negative exponents."
+  ],
+  "misconceptions": [
+    "5⁰ = 0.",
+    "2⁻³ = −8.",
+    "Negative exponents make negative numbers."
+  ],
+  "prerequisites": [
+    "mathematics/powers/laws-of-exponents",
+    "mathematics/number-systems/fractions"
+  ],
+  "labs": [
+    "power-ladder"
+  ],
+  "keyTerms": [
+    "zero exponent",
+    "negative exponent",
+    "reciprocal"
+  ],
+  "estMinutes": 25
+}

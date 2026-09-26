@@ -1,0 +1,118 @@
+{
+  "topicId": "standard-form",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Write 5,600,000 in standard form.",
+      "options": [
+        "5.6 × 10⁶",
+        "56 × 10⁵",
+        "5.6 × 10⁵",
+        "0.56 × 10⁷"
+      ],
+      "answer": 0,
+      "explain": "Move the point 6 places left: 5.6 × 10⁶.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Write 0.000073 in standard form.",
+      "options": [
+        "7.3 × 10⁻⁵",
+        "7.3 × 10⁻⁶",
+        "73 × 10⁻⁶",
+        "7.3 × 10⁵"
+      ],
+      "answer": 0,
+      "explain": "Move the point 5 places right: 7.3 × 10⁻⁵.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Write 3.2 × 10⁴ as an ordinary number.",
+      "answer": 32000,
+      "explain": "3.2 × 10,000 = 32,000.",
+      "tolerance": 0
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Light travels at about 3 × 10⁸ m/s. The Sun is about 1.5 × 10¹¹ m away. How many seconds does sunlight take to reach Earth?",
+      "answer": 500,
+      "unit": "s",
+      "explain": "(1.5 × 10¹¹) ÷ (3 × 10⁸) = 0.5 × 10³ = 500 seconds (about 8 minutes 20 seconds).",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which of these are written correctly in standard form? Choose all that apply.",
+      "options": [
+        "4.5 × 10³",
+        "45 × 10²",
+        "1 × 10⁻⁶",
+        "0.9 × 10⁴",
+        "9.99 × 10²⁰"
+      ],
+      "answer": [
+        0,
+        2,
+        4
+      ],
+      "explain": "The number in front must be at least 1 and less than 10."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Which is larger: 2.1 × 10⁻³ or 9.8 × 10⁻⁴?",
+      "options": [
+        "2.1 × 10⁻³",
+        "9.8 × 10⁻⁴",
+        "They are equal",
+        "You can't compare them"
+      ],
+      "answer": 0,
+      "explain": "2.1 × 10⁻³ = 0.0021 and 9.8 × 10⁻⁴ = 0.00098. With negative exponents, −3 is the bigger power."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Work out (3 × 10⁴) × (2 × 10³). Give your answer as an ordinary number.",
+      "answer": 60000000,
+      "explain": "3 × 2 = 6 and 10⁴ × 10³ = 10⁷, so 6 × 10⁷ = 60,000,000.",
+      "tolerance": 0
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "A red blood cell is about 7.5 × 10⁻⁶ m wide. About how many could fit side by side across 1 cm (10⁻² m)?",
+      "options": [
+        "About 1,300",
+        "About 13",
+        "About 130,000",
+        "About 75"
+      ],
+      "answer": 0,
+      "explain": "10⁻² ÷ (7.5 × 10⁻⁶) ≈ 1,333."
+    }
+  ]
+}

@@ -51,6 +51,8 @@ export type BadgeId =
   | 'number-ninja'
   | 'unit-squares-and-roots'
   | 'root-raider'
+  | 'unit-powers'
+  | 'power-surge'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -106,5 +108,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'number-ninja': { title: 'Number Ninja', emoji: '🥷', description: 'Solved ten tricky number problems (Boss Challenge)' },
   'unit-squares-and-roots': { title: 'Square Shaper', emoji: '🟪', description: 'Mastered every core topic in Maths Unit 2: Squares, Cubes and Roots' },
   'root-raider': { title: 'Root Raider', emoji: '🏴‍☠️', description: 'Solved ten problems on squares, cubes and roots (Boss Challenge)' },
+  'unit-powers': { title: 'Power Player', emoji: '🚀', description: 'Mastered every core topic in Maths Unit 3: Powers and Exponents' },
+  'power-surge': { title: 'Power Surge', emoji: '⚡', description: 'Solved ten problems on exponents and standard form (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

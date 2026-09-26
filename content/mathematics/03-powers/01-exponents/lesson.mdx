@@ -1,0 +1,47 @@
+<Stage kind="wonder" title="Fold to the Moon" />
+
+<Hook emoji="📄">
+Take a sheet of paper 0.1 mm thick. Fold it in half: 0.2 mm. Again: 0.4 mm. If you could keep folding, how many folds would it take to reach the Moon, 384,400 km away? A thousand? A million? The answer is just **42**. Doubling is far more powerful than it looks.
+</Hook>
+
+<PredictFirst
+  question="Roughly how thick would the paper be after 20 folds?"
+  options={["About 4 mm", "About 2 cm", "About 100 m", "About 10 km"]}
+  answer={2}
+>
+2²⁰ = 1,048,576 layers × 0.1 mm ≈ **105 m**, about as tall as a 30-storey building! Doubling 20 times multiplies by about a million.
+</PredictFirst>
+
+<Stage kind="explain" title="Powers" />
+
+<ConceptCard title="Base and exponent">
+A <KeyTerm def="A number written as base^exponent, meaning the base multiplied by itself">power</KeyTerm> like 2⁵ is a short way to write repeated multiplication: 2⁵ = 2 × 2 × 2 × 2 × 2 = 32. The 2 is the <KeyTerm def="The number being multiplied">base</KeyTerm>; the 5 is the <KeyTerm def="How many times the base is used as a factor (also called the index or power)">exponent</KeyTerm>.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Adding 2 each step", emoji: "➕", points: ["2, 4, 6, 8, 10 …", "After 40 steps: 80", "Linear growth"] },
+    { title: "Doubling each step", emoji: "✖️", points: ["2, 4, 8, 16, 32 …", "After 40 steps: about 1.1 trillion", "Exponential growth"] }
+  ]}
+/>
+
+<Stage kind="try" title="Paper Fold to the Moon" />
+
+<Lab id="paper-fold" />
+
+<DidYouKnow>
+A famous legend from India tells of the inventor of chess, who asked the king for one grain of rice on the first square of the board, two on the second, four on the third, doubling each time. The last square alone would need 2⁶³ grains, about 9 × 10¹⁸: more rice than has ever been grown on Earth.
+</DidYouKnow>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="Exponential growth around us">
+Research one real example of doubling or exponential growth: bacteria, a viral video, compound interest, or computer chip power (Moore's law). Write a power expression to model it, calculate a prediction, and discuss whether the growth can go on forever.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Ch 2 · Earlier NCERT 7 Ch 11">
+- Exponential notation; base and exponent; expressing numbers as powers of primes.
+- Powers of negative numbers: (−1)ⁿ is 1 if n is even and −1 if n is odd.
+</CbseCorner>
+
+<Reflect id="math-pow-exp" prompt="Why do you think people underestimate how fast doubling grows?" />

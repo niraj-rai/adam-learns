@@ -1,0 +1,55 @@
+{
+  "id": "power-surge",
+  "number": "3.6",
+  "title": "Boss Challenge: Power Surge",
+  "summary": "Ten problems on exponents, standard form and number systems. Three lives!",
+  "emoji": "⚡",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 2: Power Play",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 3: A Story of Numbers",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can choose and apply the right exponent law or conversion.",
+    "I can explain and check my reasoning."
+  ],
+  "misconceptions": [
+    "If the numbers look similar, the laws must apply."
+  ],
+  "prerequisites": [
+    "mathematics/powers/standard-form",
+    "mathematics/powers/story-of-numbers"
+  ],
+  "labs": [
+    "power-surge"
+  ],
+  "keyTerms": [
+    "exponent",
+    "standard form",
+    "binary",
+    "Roman numerals"
+  ],
+  "estMinutes": 20
+}

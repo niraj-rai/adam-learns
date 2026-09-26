@@ -34,11 +34,23 @@ CBSE mapping uses the new *Ganita Prakash* books (GP 6; GP 7 Parts 1–2; GP 8 P
 | 2.5 | Number play: divisibility and patterns | MYP 3 | GP 8 Ch 5 ✅, GP 7 Ch 6 ✅ | ★★ | **Number Play**: 9 divisibility tests with reasons; consecutive sums |
 | 2.6 | Boss: Root Raider | MYP 3 | Mixed | ★★★ | 10 mixed problems (3 lives) |
 
-### Units 3–9 (planned)
+### Unit 3: Powers and Exponents ✅ built
+
+*IB Key Concept:* **Form** · *Related:* Representation, Simplification, Quantity · *Global Context:* Orientation in space and time
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 3.1 | Exponents and exponential growth | MYP 2 | GP 8 Ch 2 ✅, earlier NCERT 7 Ch 11 ✅ | ★ | **Paper Fold to the Moon**: 0.1 mm × 2ⁿ vs landmarks |
+| 3.2 | Laws of exponents | MYP 3 | GP 8 Ch 2 ✅, earlier NCERT 8 Ch 10 ✅ | ★★ | **Exponent Laws**: factor chips for ×, ÷, power of a power |
+| 3.3 | Zero and negative exponents | MYP 3 | GP 8 Ch 2 ✅, earlier NCERT 8 Ch 10 ✅ | ★★ | **Power Ladder**: divide down past 0 |
+| 3.4 | Standard form | MYP 3 | GP 8 Ch 2 ✅, earlier NCERT 8 Ch 10 ✅ | ★★ | **Scale of the Universe**: atoms to galaxies; write-it challenge |
+| 3.5 | A story of numbers | MYP 2 | GP 8 Ch 3 ✅ | ★ | **Number Systems Explorer**: bases 2/5/10/20/60, Roman numerals |
+| 3.6 | Boss: Power Surge | MYP 3 | Mixed | ★★★ | 10 mixed problems (3 lives) |
+
+### Units 4–9 (planned)
 
 | Unit | Topics | IB | CBSE | ★ | Signature labs |
 |---|---|---|---|---|---|
-| 3. Powers & Exponents | Exponent laws, negative exponents, scientific notation, history of number systems | MYP 2–3 | GP 8 Ch 2–3; earlier NCERT 8 Ch 10 | ★★ | **Power Tower**, Scale of the Universe |
 | 4. Algebra: Expressions & Identities | Letter-numbers, expressions, distributive property, identities, factorisation, algebra play | MYP 2–3 | GP 7 Ch 4; GP 8 Ch 6, P2 Ch 6; earlier NCERT 8 Ch 8, 12 | ★★★ | **Algebra Tiles** |
 | 5. Linear Equations & Graphs | Solving linear equations, coordinates, linear graphs, real-world graphs | MYP 2–3 | GP 7 P2 Ch 7; earlier NCERT 8 Ch 2, 13 | ★★★ | **Balance Scale** solver, **Plot It** |
 | 6. Ratio, Proportion & Percentages | Ratio, rule of three, direct/inverse proportion, percentages, profit/loss, tax, compound interest | MYP 2–3 | GP 8 Ch 7, P2 Ch 1, P2 Ch 3; earlier NCERT 8 Ch 7, 11 | ★★★ | **Recipe Scaler**, Interest Growth |

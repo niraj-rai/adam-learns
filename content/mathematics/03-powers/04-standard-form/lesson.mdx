@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="Too many zeros" />
+
+<Hook emoji="🔭">
+The Sun is 149,600,000,000 m away. A virus is 0.0000001 m long. The observable universe is about 880,000,000,000,000,000,000,000,000 m across. Counting all those zeros is slow and easy to get wrong. Scientists write these numbers in **standard form**: 1.496 × 10¹¹ m, 1 × 10⁻⁷ m, 8.8 × 10²⁶ m.
+</Hook>
+
+<PredictFirst
+  question="Which is 3,500,000 in standard form?"
+  options={["35 × 10⁵", "3.5 × 10⁶", "3.5 × 10⁵", "0.35 × 10⁷"]}
+  answer={1}
+>
+3,500,000 = 3.5 × 1,000,000 = **3.5 × 10⁶**. The number in front must be at least 1 and less than 10. The others have the right value but aren't in standard form (except 3.5 × 10⁵, which is wrong!).
+</PredictFirst>
+
+<Stage kind="explain" title="a × 10ⁿ" />
+
+<StepReveal
+  steps={[
+    "Standard form is a × 10ⁿ, where 1 ≤ a < 10 and n is an integer.",
+    "Big number: 384,400,000. Move the decimal point left until you get a number between 1 and 10: 3.844. You moved it 8 places, so n = 8: 3.844 × 10⁸.",
+    "Small number: 0.00045. Move the point right: 4.5. You moved it 4 places, so n = −4: 4.5 × 10⁻⁴.",
+    "Multiply: (3 × 10⁴) × (2 × 10³) = (3 × 2) × 10⁴⁺³ = 6 × 10⁷.",
+    "Compare: look at the powers first. 2 × 10⁻³ > 9 × 10⁻⁴, because −3 > −4."
+  ]}
+/>
+
+<Stage kind="try" title="Scale of the Universe" />
+
+<Lab id="scale-of-universe" />
+
+<RealLife>
+The Moon is about 3.84 × 10⁵ km away. ISRO's Chandrayaan-3 landed near its south pole on 23 August 2023, making India the first country to land there. Mission scientists use standard form constantly for distances, masses and tiny timing errors.
+</RealLife>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="How long for light?">
+Light travels 3 × 10⁸ m every second. Using standard form, calculate how long light takes to reach us from the Moon (3.844 × 10⁸ m), the Sun (1.496 × 10¹¹ m), and the nearest star, Proxima Centauri (about 4 × 10¹⁶ m). What does this tell you about looking at the night sky?
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Ch 2 · Earlier NCERT 8 Ch 10">
+- Expressing large and small numbers in standard form; comparing them.
+- Converting between standard form and usual form.
+</CbseCorner>
+
+<Reflect id="math-pow-standard" prompt="Which size in the universe surprised you the most? Write it in standard form." />

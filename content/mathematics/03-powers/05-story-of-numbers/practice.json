@@ -1,0 +1,126 @@
+{
+  "topicId": "story-of-numbers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Convert the binary number 10110 to decimal.",
+      "answer": 22,
+      "explain": "16 + 0 + 4 + 2 + 0 = 22.",
+      "tolerance": 0
+    },
+    {
+      "id": "q2",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Write 13 in binary.",
+      "text": "13 in binary is ___",
+      "blanks": [
+        [
+          "1101"
+        ]
+      ],
+      "explain": "13 = 8 + 4 + 1 = 1×8 + 1×4 + 0×2 + 1×1."
+    },
+    {
+      "id": "q3",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each Roman numeral to its value.",
+      "pairs": [
+        {
+          "left": "XLIV",
+          "right": "44"
+        },
+        {
+          "left": "XC",
+          "right": "90"
+        },
+        {
+          "left": "MCM",
+          "right": "1900"
+        },
+        {
+          "left": "CD",
+          "right": "400"
+        }
+      ],
+      "explain": "Smaller before larger means subtract: XL = 40, XC = 90, CM = 900, CD = 400.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which number system uses place value with a symbol for zero, as we do today?",
+      "options": [
+        "The Indian (Hindu–Arabic) decimal system",
+        "Roman numerals",
+        "Egyptian hieroglyphic numerals",
+        "Tally marks"
+      ],
+      "answer": 0,
+      "explain": "The decimal place-value system with zero developed in India and spread through Arabic mathematicians to Europe."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "In Babylonian base 60, a number has the digit 2 in the 60s place and 5 in the ones place. What is it in our numbers?",
+      "answer": 125,
+      "explain": "2 × 60 + 5 = 125.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "How many binary digits (bits) are needed to write 100?",
+      "options": [
+        "7",
+        "6",
+        "3",
+        "100"
+      ],
+      "answer": 0,
+      "explain": "2⁶ = 64 ≤ 100 < 128 = 2⁷, so 7 digits: 1100100."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "Why are there 60 minutes in an hour and 60 seconds in a minute?",
+      "options": [
+        "It comes from the Babylonian base-60 system",
+        "60 is a prime number",
+        "Computers need it",
+        "It was chosen in 1900"
+      ],
+      "answer": 0,
+      "explain": "The ancient Babylonians counted in base 60, and we still measure time and angles that way."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "In any base b, what number does “10” represent?",
+      "options": [
+        "b itself",
+        "ten, always",
+        "one",
+        "b × b"
+      ],
+      "answer": 0,
+      "explain": "“10” means 1 group of b and 0 ones: in base 2 it's 2, in base 60 it's 60."
+    }
+  ]
+}

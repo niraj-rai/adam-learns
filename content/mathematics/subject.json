@@ -5,13 +5,8 @@
   "color": "math",
   "icon": "📐",
   "order": 4,
-  "comingNext": "Unit 3: Powers and Exponents",
+  "comingNext": "Unit 4: Algebra: Expressions and Identities",
   "planned": [
-    {
-      "unit": "3. Powers & Exponents",
-      "ib": "MYP 2–3",
-      "cbse": "GP 8 Ch 2–3; earlier NCERT 8 Ch 10"
-    },
     {
       "unit": "4. Algebra: Expressions & Identities",
       "ib": "MYP 2–3",

@@ -1,0 +1,49 @@
+<Stage kind="wonder" title="Writing numbers" />
+
+<Hook emoji="🏛️">
+Try multiplying MCMXLVII by XLII in Roman numerals. It's a nightmare! Now try 1947 × 42. Easy, with the method you learned in primary school. The difference is **place value with zero**, an idea perfected in India about 1,500 years ago that changed the world.
+</Hook>
+
+<PredictFirst
+  question="What does the digit 3 stand for in 2,350?"
+  options={["3", "30", "300", "3,000"]}
+  answer={2}
+>
+In place value, a digit's value depends on its **position**: the 3 is in the hundreds place, so it means 300. In Roman numerals, C always means 100 wherever it is. There is no place value.
+</PredictFirst>
+
+<Stage kind="explain" title="Many ways to count" />
+
+<Compare
+  columns={[
+    { title: "Tally and Egyptian", emoji: "📜", points: ["A symbol for each 1, 10, 100…", "Repeat symbols to add", "No place value, no zero"] },
+    { title: "Roman", emoji: "🏛️", points: ["I, V, X, L, C, D, M", "Add, or subtract (IV = 4)", "No place value, no zero"] },
+    { title: "Babylonian and Maya", emoji: "🪨", points: ["Place value in base 60 and base 20", "We still use base 60 for time", "The Maya had their own zero"] },
+    { title: "Indian decimal", emoji: "🇮🇳", points: ["Ten digits, 0–9", "Place value in base 10", "Zero as a real number"] }
+  ]}
+/>
+
+<ConceptCard title="Every column is a power">
+In base 10, the columns are 10⁰, 10¹, 10², 10³, …: 2026 = 2 × 10³ + 0 × 10² + 2 × 10¹ + 6 × 10⁰. In <KeyTerm def="Base 2: the only digits are 0 and 1, and each column is a power of 2">binary</KeyTerm>, the columns are 1, 2, 4, 8, 16, …, and computers store everything this way.
+</ConceptCard>
+
+<Stage kind="try" title="Number Systems Explorer" />
+
+<Lab id="number-bases" />
+
+<DidYouKnow>
+The Indian place-value numerals spread to the Arab world and then to Europe. In 1202 the Italian mathematician Fibonacci's book *Liber Abaci* taught Europeans to use them, and slowly Roman numerals were replaced.
+</DidYouKnow>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Counting on fingers in binary">
+Each finger can be up (1) or down (0). Using binary, how high can you count on one hand? On two hands? Find the pattern and write a rule for n fingers. Test it, then find out how many different values one byte (8 bits) can store.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Ch 3">
+- Number systems of different civilisations; the development of place value and zero.
+- Representing numbers in different bases.
+</CbseCorner>
+
+<Reflect id="math-pow-story" prompt="If you could invent a new number system, what base would you choose, and why?" />

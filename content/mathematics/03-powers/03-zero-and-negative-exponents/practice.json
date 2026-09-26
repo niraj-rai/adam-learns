@@ -1,0 +1,126 @@
+{
+  "topicId": "zero-and-negative-exponents",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is 7⁰?",
+      "answer": 1,
+      "explain": "Any non-zero number to the power 0 is 1.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is 3⁻²?",
+      "options": [
+        "1/9",
+        "−9",
+        "−6",
+        "1/6"
+      ],
+      "answer": 0,
+      "explain": "3⁻² = 1/3² = 1/9.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Write as a fraction or a decimal.",
+      "text": "10⁻³ = ___",
+      "blanks": [
+        [
+          "1/1000",
+          "0.001"
+        ]
+      ],
+      "explain": "10⁻³ = 1/10³ = 1/1000 = 0.001."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Work out 2⁻¹ + 2⁻¹.",
+      "answer": 1,
+      "explain": "1/2 + 1/2 = 1.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Continue the pattern: 1000, 100, 10, 1, 0.1, …",
+      "options": [
+        "0.01 = 10⁻²",
+        "0 = 10⁰",
+        "−10 = 10⁻¹",
+        "0.1 = 10⁻²"
+      ],
+      "answer": 0,
+      "explain": "Each step divides by 10, and each exponent goes down by 1."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Work out (2/3)⁻². Give your answer as a decimal.",
+      "answer": 2.25,
+      "explain": "(2/3)⁻² = (3/2)² = 9/4 = 2.25.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain why 5⁰ = 1.",
+      "modelAnswer": "Using division: 5³ ÷ 5³ = 1, because any number divided by itself is 1. Using the law of exponents, 5³ ÷ 5³ = 5³⁻³ = 5⁰. Both must be equal, so 5⁰ = 1. (Or the pattern 125, 25, 5, … divides by 5 each step, so the next value is 1.)",
+      "rubric": [
+        "Uses division or a pattern",
+        "Links to the law of exponents",
+        "Clear conclusion"
+      ],
+      "explain": "Criterion C: a convincing explanation."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Simplify 5⁻² × 5⁵.",
+      "options": [
+        "125",
+        "5⁻¹⁰",
+        "1/125",
+        "25"
+      ],
+      "answer": 0,
+      "explain": "5⁻²⁺⁵ = 5³ = 125."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Which is the smallest?",
+      "options": [
+        "10⁻¹",
+        "2⁻³",
+        "3⁻²",
+        "5⁻¹"
+      ],
+      "answer": 0,
+      "explain": "2⁻³ = 0.125, 3⁻² ≈ 0.111, 10⁻¹ = 0.1, 5⁻¹ = 0.2."
+    }
+  ]
+}

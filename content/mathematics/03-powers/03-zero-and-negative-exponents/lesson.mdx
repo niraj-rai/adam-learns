@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="Below zero" />
+
+<Hook emoji="🪜">
+2³ = 8, 2² = 4, 2¹ = 2. Each step down, the exponent drops by 1 and the value halves. What happens if we keep going? What is 2⁰? What could 2⁻¹ possibly mean? Mathematicians didn't just invent answers; they let the **pattern** decide.
+</Hook>
+
+<PredictFirst
+  question="Following the pattern 8, 4, 2, …, what is 2⁰?"
+  options={["0", "1", "2", "It has no value"]}
+  answer={1}
+>
+Halve 2 and you get **1**. So 2⁰ = 1. And the law of exponents agrees: 2³ ÷ 2³ = 2⁰, and anything divided by itself is 1.
+</PredictFirst>
+
+<Stage kind="explain" title="Zero and negative powers" />
+
+<Formula tex="a^0 = 1 \qquad a^{-n} = \frac{1}{a^n} \quad (a \neq 0)" caption="Keep dividing by the base" />
+
+<Compare
+  columns={[
+    { title: "Positive exponent", emoji: "⬆️", points: ["10³ = 1000", "Multiply by 10 three times", "Big numbers"] },
+    { title: "Zero exponent", emoji: "0️⃣", points: ["10⁰ = 1", "Multiply by 10 zero times", "Always 1"] },
+    { title: "Negative exponent", emoji: "⬇️", points: ["10⁻³ = 1/1000 = 0.001", "Divide by 10 three times", "Small numbers, still positive"] }
+  ]}
+/>
+
+<Stage kind="try" title="Power Ladder" />
+
+<Lab id="power-ladder" />
+
+<MythFact myth="2⁻³ = −8.">
+The minus sign in the exponent means **“one over”**, not “negative”. 2⁻³ = 1/2³ = 1/8. It's a small positive number.
+</MythFact>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Fractions with negative exponents">
+Work out (1/2)², (1/2)¹, (1/2)⁰, (1/2)⁻¹, (1/2)⁻². Describe the pattern. Then predict (2/3)⁻² and (3/4)⁻³, and write a general rule for (a/b)⁻ⁿ. Test your rule with one more example.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Ch 2 · Earlier NCERT 8 Ch 10">
+- a⁰ = 1; negative exponents and reciprocals: a⁻ᵐ = 1/aᵐ.
+- The laws of exponents apply to negative exponents too.
+</CbseCorner>
+
+<Reflect id="math-pow-negative" prompt="Explain to a friend why 2⁻³ is a small positive number, not a negative one." />

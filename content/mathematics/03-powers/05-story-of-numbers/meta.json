@@ -1,0 +1,54 @@
+{
+  "id": "story-of-numbers",
+  "number": "3.5",
+  "title": "A Story of Numbers",
+  "summary": "From tally marks to Roman numerals to the Indian place-value system with zero, plus binary, the language of computers.",
+  "emoji": "🏛️",
+  "complexity": 1,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "History of number systems links to MYP Individuals & Societies"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 3: A Story of Numbers",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can describe how different civilisations wrote numbers.",
+    "I can convert numbers between bases, including binary.",
+    "I can explain why place value with zero was a breakthrough."
+  ],
+  "misconceptions": [
+    "Our number system has always existed.",
+    "Roman numerals had a zero.",
+    "Binary is a different kind of maths."
+  ],
+  "prerequisites": [
+    "mathematics/powers/exponents"
+  ],
+  "labs": [
+    "number-bases"
+  ],
+  "keyTerms": [
+    "place value",
+    "base",
+    "binary",
+    "Roman numerals",
+    "Hindu–Arabic numerals",
+    "zero"
+  ],
+  "estMinutes": 25
+}
