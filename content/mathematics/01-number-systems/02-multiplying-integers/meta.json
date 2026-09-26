@@ -1,0 +1,59 @@
+{
+  "id": "multiplying-integers",
+  "number": "1.2",
+  "title": "Multiplying and Dividing Integers",
+  "summary": "Sign rules from patterns: why negative × negative is positive, and how to divide integers.",
+  "emoji": "🪜",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Sign rules are MYP 2 Number; the pattern argument builds Criterion B"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Part 2 Ch 2: Operations with Integers",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 1: Integers",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can multiply and divide integers using the sign rules.",
+    "I can explain the sign rules using patterns.",
+    "I can use integer multiplication in real-life problems."
+  ],
+  "misconceptions": [
+    "Negative × negative is negative.",
+    "The sign rules are just rules to memorise, with no reason.",
+    "Division of integers follows different sign rules from multiplication."
+  ],
+  "prerequisites": [
+    "mathematics/number-systems/integers"
+  ],
+  "labs": [
+    "sign-patterns"
+  ],
+  "keyTerms": [
+    "product",
+    "quotient",
+    "sign rule",
+    "pattern",
+    "divisor"
+  ],
+  "estMinutes": 25
+}

@@ -1,0 +1,37 @@
+{
+  "id": "number-systems",
+  "number": 1,
+  "title": "Integers, Fractions and Rational Numbers",
+  "summary": "From temperatures below zero to sharing a pizza: integers, fractions and decimals, why negative × negative is positive, and the rational numbers that fill the number line.",
+  "ib": {
+    "keyConcept": "Form",
+    "relatedConcepts": [
+      "Quantity",
+      "Representation",
+      "Equivalence"
+    ],
+    "globalContext": "Orientation in space and time",
+    "statementOfInquiry": "The same quantity can be represented in many equivalent forms, and choosing the right form helps us compare, calculate and describe the world."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "How do we add, subtract, multiply and divide integers?",
+      "How do we compare and add fractions?",
+      "Which fractions have decimals that stop?"
+    ],
+    "conceptual": [
+      "Why is negative × negative positive?",
+      "Why does dividing by a fraction less than 1 give a bigger answer?"
+    ],
+    "debatable": [
+      "Was the invention of zero and negative numbers the most important idea in mathematics?",
+      "Are fractions or decimals more useful in everyday life?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 6 (Ganita Prakash) Ch 7: Fractions; Ch 10: The Other Side of Zero",
+    "Class 7 (Ganita Prakash) Ch 3: A Peek Beyond the Point; Ch 8: Working with Fractions",
+    "Class 7 (Ganita Prakash) Part 2 Ch 2: Operations with Integers; Ch 4: Another Peek Beyond the Point",
+    "Earlier NCERT Class 8 Ch 1: Rational Numbers"
+  ]
+}

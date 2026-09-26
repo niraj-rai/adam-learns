@@ -8,6 +8,7 @@ import { getLab } from '@/labs/registry'
 import { sfx } from '@/lib/sound'
 import { cn } from '@/lib/utils'
 import { useProgress } from '@/stores/progress'
+import { criterionName, useRouteSubject, type Criterion } from '@/lib/criteria'
 
 /** Styles for markdown inside not-prose lesson blocks (lists, bold, paragraphs). */
 const RICH = '[&_ul]:list-disc [&_ul]:space-y-1 [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:space-y-1 [&_ol]:pl-5 [&_strong]:font-semibold [&_p+p]:mt-2'
@@ -270,19 +271,13 @@ export function TryAtHome({ title, materials, safety, children }: { title: strin
 
 // ---------- Board-specific corners ----------
 
-const CRITERIA = {
-  A: 'Knowing & understanding',
-  B: 'Inquiring & designing',
-  C: 'Processing & evaluating',
-  D: 'Reflecting on the impacts of science',
-} as const
-
 /** IB-style inquiry task, labelled with the MYP criterion it builds. */
-export function Inquiry({ criterion, title, children }: { criterion: keyof typeof CRITERIA; title: string; children: ReactNode }) {
+export function Inquiry({ criterion, title, children }: { criterion: Criterion; title: string; children: ReactNode }) {
+  const subject = useRouteSubject()
   return (
     <div className="not-prose my-5 rounded-2xl border-2 border-ib/40 bg-ib-soft p-5">
       <p className="text-xs font-bold uppercase tracking-wide text-ib">
-        🎓 IB MYP · Criterion {criterion}: {CRITERIA[criterion]}
+        🎓 IB MYP · Criterion {criterion}: {criterionName(criterion, subject, true)}
       </p>
       <p className="mt-1 font-heading text-lg font-semibold">{title}</p>
       <div className={cn('mt-2 space-y-2 text-[15px] leading-relaxed', RICH)}>{children}</div>

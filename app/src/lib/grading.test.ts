@@ -37,6 +37,13 @@ describe('grading', () => {
     expect(grade(q, { type: 'numeric', value: '2.6' }).correct).toBe(false)
     expect(parseNumber('1,000')).toBe(1000)
     expect(parseNumber('')).toBeNull()
+    expect(parseNumber('−13')).toBe(-13)
+  })
+
+  it('fill-blank accepts fractions and a typographic minus', () => {
+    const q: Question = { ...base, type: 'fill-blank', text: '___ and ___', blanks: [['5/8'], ['-2']] }
+    expect(grade(q, { type: 'fill-blank', values: ['5/8', '−2'] }).correct).toBe(true)
+    expect(grade(q, { type: 'fill-blank', values: ['58', '2'] }).correct).toBe(false)
   })
 
   it('order-steps', () => {

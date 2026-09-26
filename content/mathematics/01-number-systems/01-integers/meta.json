@@ -1,0 +1,61 @@
+{
+  "id": "integers",
+  "number": "1.1",
+  "title": "Integers: The Other Side of Zero",
+  "summary": "Negative numbers on the number line: comparing, adding and subtracting integers, with temperatures, lifts and bank balances.",
+  "emoji": "🦘",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 1,
+      "note": "Integers are part of the MYP 1 Number strand"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Ganita Prakash Ch 10: The Other Side of Zero",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Part 2 Ch 2: Operations with Integers",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 1: Integers",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can place and compare integers on a number line.",
+    "I can add and subtract integers, including subtracting a negative.",
+    "I can use integers to solve real-life problems."
+  ],
+  "misconceptions": [
+    "−7 is bigger than −2 because 7 is bigger than 2.",
+    "Subtracting always makes a number smaller.",
+    "Two negatives always make a positive, even when adding."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "number-line-explorer"
+  ],
+  "keyTerms": [
+    "integer",
+    "negative number",
+    "number line",
+    "opposite",
+    "absolute value"
+  ],
+  "estMinutes": 25
+}

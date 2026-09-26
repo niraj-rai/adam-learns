@@ -1,0 +1,141 @@
+{
+  "topicId": "integers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Work out (−7) + 12.",
+      "answer": 5,
+      "tolerance": 0,
+      "explain": "Start at −7 and hop 12 to the right: you pass zero after 7 hops and land on 5.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Work out −5 − 9.",
+      "answer": -14,
+      "tolerance": 0,
+      "explain": "Start at −5 and hop 9 further left: −14.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Work out 4 − (−6).",
+      "answer": 10,
+      "tolerance": 0,
+      "explain": "Subtracting −6 is the same as adding 6: 4 + 6 = 10."
+    },
+    {
+      "id": "q4",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Is each number greater than −3 or less than −3?",
+      "bins": [
+        "Greater than −3",
+        "Less than −3"
+      ],
+      "items": [
+        {
+          "label": "−1",
+          "bin": 0
+        },
+        {
+          "label": "−5",
+          "bin": 1
+        },
+        {
+          "label": "0",
+          "bin": 0
+        },
+        {
+          "label": "−10",
+          "bin": 1
+        },
+        {
+          "label": "2",
+          "bin": 0
+        },
+        {
+          "label": "−4",
+          "bin": 1
+        }
+      ],
+      "explain": "Numbers to the right on the number line are greater. −1 is closer to zero than −3, so it is greater."
+    },
+    {
+      "id": "q5",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Put these integers in order, from smallest to greatest.",
+      "steps": [
+        "−8",
+        "−3",
+        "0",
+        "2",
+        "7"
+      ],
+      "explain": "Read the number line from left to right."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A submarine is at −120 m (120 m below sea level). It rises 45 m, then dives 30 m. What is its new position?",
+      "answer": -105,
+      "tolerance": 0,
+      "explain": "−120 + 45 = −75, and −75 − 30 = −105 m.",
+      "unit": "m"
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "The summit of Mount Everest is at 8,849 m. The shore of the Dead Sea is at about −430 m. What is the difference in height?",
+      "answer": 9279,
+      "tolerance": 0,
+      "explain": "8849 − (−430) = 8849 + 430 = 9,279 m.",
+      "unit": "m"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain, using a number line or a real-life example, why 5 − (−3) = 8.",
+      "modelAnswer": "Subtracting means finding the difference, or taking something away. Taking away a debt of 3 is like gaining 3, so 5 − (−3) = 5 + 3 = 8. On a number line, the distance from −3 to 5 is 8 steps, so 5 − (−3) = 8.",
+      "rubric": [
+        "Clear example or number-line reasoning",
+        "Links subtracting a negative with adding",
+        "Correct final answer 8"
+      ],
+      "explain": "Criterion C: communicate your reasoning clearly."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which statement is true?",
+      "options": [
+        "−7 > −2",
+        "−7 < −2",
+        "−7 = −2",
+        "Negative numbers can't be compared"
+      ],
+      "answer": 1,
+      "explain": "−7 is further left on the number line than −2, so −7 is smaller. (Think: −7 °C is colder than −2 °C.)"
+    }
+  ]
+}

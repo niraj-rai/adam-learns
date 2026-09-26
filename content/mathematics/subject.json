@@ -1,0 +1,51 @@
+{
+  "id": "mathematics",
+  "title": "Mathematics",
+  "tagline": "Numbers, patterns, shapes and data, and how to reason with them",
+  "color": "math",
+  "icon": "📐",
+  "order": 4,
+  "comingNext": "Unit 2: Squares, Cubes and Roots",
+  "planned": [
+    {
+      "unit": "2. Squares, Cubes & Roots",
+      "ib": "MYP 2–3",
+      "cbse": "GP 8 Ch 1, 5; earlier NCERT 8 Ch 5–6"
+    },
+    {
+      "unit": "3. Powers & Exponents",
+      "ib": "MYP 2–3",
+      "cbse": "GP 8 Ch 2–3; earlier NCERT 8 Ch 10"
+    },
+    {
+      "unit": "4. Algebra: Expressions & Identities",
+      "ib": "MYP 2–3",
+      "cbse": "GP 7 Ch 4; GP 8 Ch 6, Part 2 Ch 6"
+    },
+    {
+      "unit": "5. Linear Equations & Graphs",
+      "ib": "MYP 2–3",
+      "cbse": "GP 7 Part 2 Ch 7; earlier NCERT 8 Ch 2, 13"
+    },
+    {
+      "unit": "6. Ratio, Proportion & Percentages",
+      "ib": "MYP 2–3",
+      "cbse": "GP 8 Ch 7, Part 2 Ch 1, 3"
+    },
+    {
+      "unit": "7. Geometry: Angles, Shapes & Pythagoras",
+      "ib": "MYP 1–3",
+      "cbse": "GP 7 Ch 5, 7; GP 8 Ch 4, Part 2 Ch 2"
+    },
+    {
+      "unit": "8. Mensuration: Area, Surface Area & Volume",
+      "ib": "MYP 2–3",
+      "cbse": "GP 8 Part 2 Ch 4, 7; earlier NCERT 8 Ch 9"
+    },
+    {
+      "unit": "9. Data Handling & Probability",
+      "ib": "MYP 1–3",
+      "cbse": "GP 7 Part 2 Ch 5; GP 8 Part 2 Ch 5"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "topicId": "number-ninja",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why is −1/4 greater than −1/2?",
+      "options": [
+        "It is closer to zero on the number line",
+        "4 is bigger than 2",
+        "Negative fractions can't be compared",
+        "It isn't: −1/2 is greater"
+      ],
+      "answer": 0,
+      "explain": "−1/4 = −0.25 lies to the right of −0.5 on the number line."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "At night the temperature was −4 °C. By afternoon it was 9 °C. By how many degrees did it rise?",
+      "answer": 13,
+      "tolerance": 0,
+      "explain": "9 − (−4) = 13 °C.",
+      "unit": "°C"
+    },
+    {
+      "id": "q3",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Pick one Number Ninja problem you got wrong (or found hardest). Explain the mistake that the wrong answer came from, and show the correct method.",
+      "modelAnswer": "For the payasam problem, the wrong answer 2 1/4 came from multiplying 3 × 3/4 instead of dividing. The question asks how many 3/4-cup batches fit into 3 cups, so it is 3 ÷ 3/4 = 3 × 4/3 = 4 batches. Check: 4 × 3/4 = 3.",
+      "rubric": [
+        "Identifies the error clearly",
+        "Shows the correct method step by step",
+        "Includes a check"
+      ],
+      "explain": "Criterion C: communicate your reasoning."
+    },
+    {
+      "id": "q4",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Divide.",
+      "text": "(−3/4) ÷ (3/8) = ___",
+      "blanks": [
+        [
+          "-2"
+        ]
+      ],
+      "explain": "−3/4 × 8/3 = −2."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "An account is at ₹ −120. ₹500 is paid in, then ₹430 is spent. What is the balance?",
+      "answer": -50,
+      "tolerance": 0,
+      "explain": "−120 + 500 = 380, and 380 − 430 = −50.",
+      "unit": "₹"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Work out −1 + 2 − 3 + 4 − … − 49 + 50.",
+      "options": [
+        "25",
+        "0",
+        "−25",
+        "50"
+      ],
+      "answer": 0,
+      "explain": "25 pairs, each (−odd + even) = 1."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Each batch of laddoos needs 2/3 cup of sugar. How many batches can you make with 4 cups?",
+      "answer": 6,
+      "tolerance": 0,
+      "explain": "4 ÷ 2/3 = 4 × 3/2 = 6.",
+      "unit": "batches"
+    },
+    {
+      "id": "q8",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which fractions have recurring decimals? Choose all that apply.",
+      "options": [
+        "1/12",
+        "3/8",
+        "5/6",
+        "9/25"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explain": "12 and 6 have a factor of 3. 8 and 25 have only 2s and 5s."
+    }
+  ]
+}

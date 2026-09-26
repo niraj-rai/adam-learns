@@ -1,0 +1,58 @@
+{
+  "id": "multiplying-dividing-fractions",
+  "number": "1.4",
+  "title": "Multiplying and Dividing Fractions",
+  "summary": "Fraction of a fraction as an area, and division as “how many fit?”. Why dividing by 1/2 doubles.",
+  "emoji": "🟩",
+  "complexity": 2,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Fraction operations are MYP 2 Number"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Ch 8: Working with Fractions",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 2: Fractions and Decimals",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can multiply fractions and explain it with an area model.",
+    "I can divide fractions using reciprocals.",
+    "I can solve real-life problems with fraction multiplication and division."
+  ],
+  "misconceptions": [
+    "Multiplying always makes a number bigger.",
+    "Dividing always makes a number smaller.",
+    "To divide fractions, flip the first fraction."
+  ],
+  "prerequisites": [
+    "mathematics/number-systems/fractions"
+  ],
+  "labs": [
+    "fraction-area-model"
+  ],
+  "keyTerms": [
+    "product",
+    "reciprocal",
+    "area model",
+    "of",
+    "quotient"
+  ],
+  "estMinutes": 25
+}

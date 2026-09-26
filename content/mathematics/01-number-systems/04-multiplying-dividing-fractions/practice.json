@@ -1,0 +1,128 @@
+{
+  "topicId": "multiplying-dividing-fractions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Multiply. Give your answer in lowest terms.",
+      "text": "2/3 × 3/5 = ___",
+      "blanks": [
+        [
+          "2/5",
+          "6/15"
+        ]
+      ],
+      "explain": "Multiply tops and bottoms: 6/15 = 2/5.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Divide.",
+      "text": "3/4 ÷ 1/8 = ___",
+      "blanks": [
+        [
+          "6"
+        ]
+      ],
+      "explain": "3/4 × 8/1 = 24/4 = 6. Six eighths fit into three quarters.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is 3/4 of 8?",
+      "options": [
+        "6",
+        "2",
+        "32/3",
+        "8 3/4"
+      ],
+      "answer": 0,
+      "explain": "8 ÷ 4 = 2, and 2 × 3 = 6."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "If you multiply 12 by 2/3, the answer is…",
+      "options": [
+        "smaller than 12, because you take 2/3 of it",
+        "bigger than 12",
+        "always 12",
+        "negative"
+      ],
+      "answer": 0,
+      "explain": "12 × 2/3 = 8. Multiplying by a fraction less than 1 gives a smaller answer."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A ribbon 4 1/2 m long is cut into pieces 3/4 m long. How many pieces are there?",
+      "answer": 6,
+      "tolerance": 0,
+      "explain": "4 1/2 ÷ 3/4 = 9/2 × 4/3 = 36/6 = 6.",
+      "unit": "pieces"
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "2/5 of the 35 students in Adam's class play cricket. How many play cricket?",
+      "answer": 14,
+      "tolerance": 0,
+      "explain": "35 ÷ 5 = 7, and 7 × 2 = 14.",
+      "unit": "students"
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The reciprocal of 5/7 is ___.",
+      "blanks": [
+        [
+          "7/5",
+          "1 2/5"
+        ]
+      ],
+      "explain": "Flip the fraction: 7/5. A number times its reciprocal is 1."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain why 6 ÷ 1/2 = 12 and not 3.",
+      "modelAnswer": "Dividing by 1/2 asks “how many halves fit into 6?”. Each whole has 2 halves, so 6 wholes have 12 halves. Halving 6 would be 6 × 1/2 = 3, which is multiplying, not dividing.",
+      "rubric": [
+        "Interprets division as how many fit",
+        "Counts 2 halves per whole",
+        "Distinguishes it from 6 × 1/2"
+      ],
+      "explain": "Criterion C: explain clearly, perhaps with a diagram."
+    },
+    {
+      "id": "q9",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "3/4 kg of rice is shared equally among 6 friends. How many kilograms does each get? (Answer as a decimal.)",
+      "answer": 0.125,
+      "tolerance": 0,
+      "explain": "3/4 ÷ 6 = 3/24 = 1/8 = 0.125 kg.",
+      "unit": "kg"
+    }
+  ]
+}

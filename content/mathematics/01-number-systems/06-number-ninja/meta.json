@@ -1,0 +1,62 @@
+{
+  "id": "number-ninja",
+  "number": "1.6",
+  "title": "Boss Challenge: Number Ninja",
+  "summary": "Ten tricky problems that mix integers, fractions, decimals and rational numbers. Three lives!",
+  "emoji": "🥷",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Part 2 Ch 2: Operations with Integers",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Ch 8: Working with Fractions",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 1: Rational Numbers",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can choose the right number skill for each problem.",
+    "I can check my answers and explain my mistakes."
+  ],
+  "misconceptions": [
+    "Speed matters more than checking."
+  ],
+  "prerequisites": [
+    "mathematics/number-systems/multiplying-dividing-fractions",
+    "mathematics/number-systems/decimals-and-rationals"
+  ],
+  "labs": [
+    "number-ninja"
+  ],
+  "keyTerms": [
+    "integer",
+    "fraction",
+    "reciprocal",
+    "rational number",
+    "recurring decimal"
+  ],
+  "estMinutes": 20
+}

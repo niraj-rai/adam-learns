@@ -1,0 +1,62 @@
+{
+  "id": "fractions",
+  "number": "1.3",
+  "title": "Fractions: Equivalence, Comparing and Adding",
+  "summary": "Equivalent fractions, comparing fractions, and adding and subtracting them with common denominators.",
+  "emoji": "🧱",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 1,
+      "note": "Fractions are MYP 1 Number"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Ganita Prakash Ch 7: Fractions",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Ch 8: Working with Fractions",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 2: Fractions and Decimals",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can find equivalent fractions.",
+    "I can compare and order fractions.",
+    "I can add and subtract fractions using a common denominator."
+  ],
+  "misconceptions": [
+    "A bigger denominator means a bigger fraction.",
+    "To add fractions, add the tops and add the bottoms.",
+    "1/3 + 1/4 = 2/7."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "fraction-wall"
+  ],
+  "keyTerms": [
+    "numerator",
+    "denominator",
+    "equivalent fraction",
+    "common denominator",
+    "LCM",
+    "mixed number"
+  ],
+  "estMinutes": 25
+}

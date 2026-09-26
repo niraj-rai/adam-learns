@@ -1,0 +1,138 @@
+{
+  "topicId": "multiplying-integers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Work out (−8) × 6.",
+      "answer": -48,
+      "tolerance": 0,
+      "explain": "Different signs → negative. 8 × 6 = 48, so −48.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Work out (−9) × (−4).",
+      "answer": 36,
+      "tolerance": 0,
+      "explain": "Same signs → positive. 9 × 4 = 36.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Work out (−63) ÷ 7.",
+      "answer": -9,
+      "tolerance": 0,
+      "explain": "Different signs → negative. 63 ÷ 7 = 9, so −9."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Work out (−2) × (−3) × (−5).",
+      "answer": -30,
+      "tolerance": 0,
+      "explain": "(−2) × (−3) = 6, then 6 × (−5) = −30. An odd number of negative factors gives a negative answer."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Continue the pattern: −4 × 2 = −8, −4 × 1 = −4, −4 × 0 = 0, −4 × (−1) = ?",
+      "options": [
+        "4",
+        "−4",
+        "0",
+        "−8"
+      ],
+      "answer": 0,
+      "explain": "Each answer goes up by 4, so the next one is 0 + 4 = 4."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Seven negative numbers are multiplied together. What is the sign of the answer?",
+      "options": [
+        "Negative",
+        "Positive",
+        "Zero",
+        "It depends on the numbers"
+      ],
+      "answer": 0,
+      "explain": "Each pair of negatives makes a positive. Seven is odd, so one negative is left over: the answer is negative."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "The temperature falls by 3 °C every hour for 5 hours. What is the total change in temperature?",
+      "answer": -15,
+      "tolerance": 0,
+      "explain": "5 × (−3) = −15 °C.",
+      "unit": "°C"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Use a pattern to explain why (−1) × (−1) = 1.",
+      "modelAnswer": "Look at the pattern: (−1) × 2 = −2, (−1) × 1 = −1, (−1) × 0 = 0. Each time the second number goes down by 1, the answer goes up by 1. To continue the pattern, (−1) × (−1) must be 0 + 1 = 1.",
+      "rubric": [
+        "Writes a pattern of products",
+        "Describes how the answers change",
+        "Concludes the product is 1"
+      ],
+      "explain": "Criterion C: communicate a mathematical argument."
+    },
+    {
+      "id": "q9",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each calculation to its answer.",
+      "pairs": [
+        {
+          "left": "(−3) × 4",
+          "right": "−12"
+        },
+        {
+          "left": "(−3) × (−4)",
+          "right": "12"
+        },
+        {
+          "left": "12 ÷ (−3)",
+          "right": "−4"
+        },
+        {
+          "left": "(−12) ÷ (−4)",
+          "right": "3"
+        }
+      ],
+      "explain": "Same signs give a positive answer; different signs give a negative one."
+    },
+    {
+      "id": "q10",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "In a quiz, a correct answer scores +4 and a wrong answer scores −2. Adam gets 7 right and 5 wrong. What is his score?",
+      "answer": 18,
+      "tolerance": 0,
+      "explain": "7 × 4 + 5 × (−2) = 28 − 10 = 18."
+    }
+  ]
+}

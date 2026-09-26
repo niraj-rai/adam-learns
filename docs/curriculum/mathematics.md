@@ -1,18 +1,38 @@
 # Mathematics Curriculum Map
 
-> Phase 3, built alongside Physics. IB MYP Mathematics has Standard and Extended tracks in MYP 4–5. CBSE uses *Ganita Prakash* (the new NCERT maths series) for Classes 6–8. The detailed topic breakdown will be added when this subject starts.
+> Phase 4, after Physics, Chemistry and Biology. IB MYP Mathematics has Standard and Extended tracks in MYP 4–5. CBSE uses *Ganita Prakash* (the new NCERT maths series) for Classes 6–8.
 
 ## L0–L2: Up to Grade 8
 
-| Strand | Topics | IB | CBSE | ★ | Signature interactives |
+IB MYP Mathematics criteria: **A** Knowing & understanding · **B** Investigating patterns · **C** Communicating · **D** Applying mathematics in real-life contexts. The app shows these labels on Maths lessons and questions (Sciences keep their own).
+
+CBSE mapping uses the new *Ganita Prakash* books (GP 6; GP 7 Parts 1–2; GP 8 Parts 1–2, where Part 2 restarts at Ch 1), plus the earlier NCERT Class 7–8 chapters where a topic moved or was dropped.
+
+### Unit 1: Integers, Fractions and Rational Numbers ✅ built
+
+*IB Key Concept:* **Form** · *Related:* Quantity, Representation, Equivalence · *Global Context:* Orientation in space and time
+
+| # | Topic | IB | CBSE | ★ | Lab |
 |---|---|---|---|---|---|
-| Number | Integers, fractions/decimals, exponents & powers, squares/cubes and their roots, rational numbers | MYP 1–3 | 6–8 | ★★ | **Number Line Explorer**, Fraction Wall |
-| Ratio & Proportion | Ratio, rate, percentage, profit/loss, simple & compound interest, direct/inverse proportion | MYP 2–3 | 7–8 | ★★★ | **Recipe Scaler**, Interest Growth chart |
-| Algebra | Variables, expressions, identities, linear equations in one variable, factorisation | MYP 2–3 | 7–8 | ★★★ | **Balance Scale** equation solver, Algebra Tiles |
-| Geometry | Lines & angles, triangles, congruence, quadrilaterals, constructions, symmetry | MYP 1–3 | 6–8 | ★★★ | **Geometry Sandbox** (drag vertices, angle sums update live) |
-| Mensuration | Perimeter, area, surface area & volume (cube, cuboid, cylinder) | MYP 2–3 | 7–8 | ★★★ | **Net Folder** (3D unfold) |
-| Statistics & Probability | Data handling, mean/median/mode, graphs, basic probability | MYP 1–3 | 6–8 | ★★ | **Dice & Spinner** lab, Chart Maker |
-| Graphs | Coordinate plane, linear graphs, reading real-world graphs | MYP 3 | 8 | ★★★ | **Plot It** (feeds physics motion graphs) |
+| 1.1 | Integers: the other side of zero | MYP 1 | GP 6 Ch 10 ✅, GP 7 P2 Ch 2 ✅, earlier NCERT 7 Ch 1 ✅ | ★ | **Number Line Explorer**: hop across zero; 6 integer stories |
+| 1.2 | Multiplying and dividing integers | MYP 2 | GP 7 P2 Ch 2 ✅, earlier NCERT 7 Ch 1 ✅ | ★★ | **Sign Patterns**: pattern ladder, sign grid, quick check |
+| 1.3 | Fractions: equivalence, comparing, adding | MYP 1 | GP 6 Ch 7 ✅, GP 7 Ch 8 ✅, earlier NCERT 7 Ch 2 ✅ | ★ | **Fraction Wall**: compare, equivalents, add/subtract with LCD |
+| 1.4 | Multiplying and dividing fractions | MYP 2 | GP 7 Ch 8 ✅, earlier NCERT 7 Ch 2 ✅ | ★★ | **Fraction Area Model**: overlap for ×, “how many fit?” for ÷ |
+| 1.5 | Decimals and rational numbers | MYP 3 | GP 7 Ch 3 ✅, GP 7 P2 Ch 4 ✅, earlier NCERT 8 Ch 1 ✅ | ★★ | **Rational Zoom**: terminating vs recurring; density |
+| 1.6 | Boss: Number Ninja | MYP 3 | Mixed | ★★★ | 10 mixed problems (3 lives) |
+
+### Units 2–9 (planned)
+
+| Unit | Topics | IB | CBSE | ★ | Signature labs |
+|---|---|---|---|---|---|
+| 2. Squares, Cubes & Roots | Square and cube numbers, roots, estimation, number play and divisibility | MYP 2–3 | GP 8 Ch 1, Ch 5; earlier NCERT 8 Ch 5–6 | ★★ | **Square Builder**, Divisibility Detective |
+| 3. Powers & Exponents | Exponent laws, negative exponents, scientific notation, history of number systems | MYP 2–3 | GP 8 Ch 2–3; earlier NCERT 8 Ch 10 | ★★ | **Power Tower**, Scale of the Universe |
+| 4. Algebra: Expressions & Identities | Letter-numbers, expressions, distributive property, identities, factorisation, algebra play | MYP 2–3 | GP 7 Ch 4; GP 8 Ch 6, P2 Ch 6; earlier NCERT 8 Ch 8, 12 | ★★★ | **Algebra Tiles** |
+| 5. Linear Equations & Graphs | Solving linear equations, coordinates, linear graphs, real-world graphs | MYP 2–3 | GP 7 P2 Ch 7; earlier NCERT 8 Ch 2, 13 | ★★★ | **Balance Scale** solver, **Plot It** |
+| 6. Ratio, Proportion & Percentages | Ratio, rule of three, direct/inverse proportion, percentages, profit/loss, tax, compound interest | MYP 2–3 | GP 8 Ch 7, P2 Ch 1, P2 Ch 3; earlier NCERT 8 Ch 7, 11 | ★★★ | **Recipe Scaler**, Interest Growth |
+| 7. Geometry: Angles, Shapes & Pythagoras | Parallel lines and transversals, triangles, congruence, quadrilaterals, constructions, Baudhayana–Pythagoras theorem | MYP 1–3 | GP 7 Ch 5, 7, P2 Ch 1, 6; GP 8 Ch 4, P2 Ch 2 | ★★★ | **Geometry Sandbox**, Pythagoras Proof |
+| 8. Mensuration | Area of polygons, surface area and volume, nets, solids and projections | MYP 2–3 | GP 8 P2 Ch 4, 7; earlier NCERT 8 Ch 9 | ★★★ | **Net Folder** |
+| 9. Data Handling & Probability | Dot plots, mean/median, frequency, pie charts, basic probability | MYP 1–3 | GP 7 P2 Ch 5; GP 8 P2 Ch 3, 5; earlier NCERT 8 Ch 4 | ★★ | **Dice & Spinner**, Chart Maker |
 
 ## L3: Grades 9–10
 

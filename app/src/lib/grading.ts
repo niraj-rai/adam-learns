@@ -20,12 +20,13 @@ const norm = (s: string) =>
   s
     .toLowerCase()
     .normalize('NFKD')
-    .replace(/[^\p{L}\p{N}.\-° ]/gu, '')
+    .replace(/[−–]/g, '-')
+    .replace(/[^\p{L}\p{N}.\-°/ ]/gu, '')
     .replace(/\s+/g, ' ')
     .trim()
 
 export function parseNumber(raw: string): number | null {
-  const cleaned = raw.replace(/,/g, '').replace(/[^\d.\-eE]/g, '')
+  const cleaned = raw.replace(/,/g, '').replace(/[−–]/g, '-').replace(/[^\d.\-eE]/g, '')
   if (!cleaned) return null
   const n = Number(cleaned)
   return Number.isFinite(n) ? n : null

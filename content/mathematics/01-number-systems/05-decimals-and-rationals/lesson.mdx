@@ -1,0 +1,52 @@
+<Stage kind="wonder" title="Decimals that never end" />
+
+<Hook emoji="🔭">
+Type 1 ÷ 8 into a calculator: 0.125. Neat. Now try 1 ÷ 7: 0.142857142857… The digits go on forever, repeating the same block. Why do some fractions stop and others repeat? And can you predict which, without dividing?
+</Hook>
+
+<PredictFirst
+  question="Which of these gives a decimal that stops?"
+  options={["1/3", "1/6", "1/20", "1/7"]}
+  answer={2}
+>
+1/20 = 0.05. The denominator 20 = 2 × 2 × 5 uses only 2s and 5s, the prime factors of 10. The others have a factor of 3 or 7, so their decimals repeat.
+</PredictFirst>
+
+<Stage kind="explain" title="Rational numbers" />
+
+<ConceptCard title="What is a rational number?">
+A <KeyTerm def="A number that can be written as p/q, where p and q are integers and q is not 0">rational number</KeyTerm> can be written as a fraction p/q of two integers (q ≠ 0). That includes integers (5 = 5/1), negative fractions (−3/4), and decimals that stop or repeat (0.25 = 1/4, 0.333… = 1/3).
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Terminating", emoji: "🛑", points: ["The decimal stops", "Denominator (lowest terms) has only 2s and 5s", "3/8 = 0.375, 7/20 = 0.35"] },
+    { title: "Recurring", emoji: "🔁", points: ["A block of digits repeats forever", "Denominator has another prime factor", "1/3 = 0.333…, 1/7 = 0.142857…"] }
+  ]}
+/>
+
+<ConceptCard title="Always another one in between">
+Between any two rational numbers there is always another: their **average**. Between 1/3 and 1/2 is 5/12; between 1/3 and 5/12 is 3/8; and so on forever. We say the rational numbers are <KeyTerm def="Between any two, you can always find another">dense</KeyTerm>.
+</ConceptCard>
+
+<Stage kind="try" title="Rational Zoom" />
+
+<Lab id="rational-zoom" />
+
+<DidYouKnow>
+0.999… (nines forever) is **exactly** equal to 1. One proof: 1/3 = 0.333…, so 3 × 1/3 = 0.999…, and 3 × 1/3 = 1.
+</DidYouKnow>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="The sevenths mystery">
+Use the lab (or long division) to find the decimals for 1/7, 2/7, 3/7, 4/7, 5/7 and 6/7. What do you notice about the digits? Describe the pattern, then predict and test the decimals for the thirteenths.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 7 Ch 3, Part 2 Ch 4 · Earlier NCERT 8 Ch 1">
+- Rational numbers: definition, representation on the number line, and properties.
+- Finding rational numbers between two given rational numbers.
+- Decimal expansions: terminating and non-terminating recurring (developed further in Class 9–10).
+</CbseCorner>
+
+<Reflect id="math-num-rationals" prompt="Is there a “next” rational number after 1/2? Explain why or why not." />

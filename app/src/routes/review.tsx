@@ -59,6 +59,7 @@ function ReviewPage() {
           <QuestionView
             key={item.key}
             q={question}
+            subject={topic.subjectId}
             onDone={(r) => {
               recordReview(item.key, r.correct)
               if (r.correct) setCorrect((c) => c + 1)

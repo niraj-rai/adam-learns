@@ -6,11 +6,11 @@ import { Button } from '@/components/ui/button'
 import type { Question } from '@/content/schema'
 import { emptyResponse, grade, isComplete, shuffle, shuffleNotIdentity, type Grade, type Response } from '@/lib/grading'
 import { sfx } from '@/lib/sound'
+import { criterionName, useRouteSubject } from '@/lib/criteria'
 import { cn } from '@/lib/utils'
 
 export type QuestionResult = { correct: boolean; firstTry: boolean }
 
-const CRITERION_NAMES = { A: 'Knowing', B: 'Inquiring', C: 'Processing', D: 'Reflecting' } as const
 const TYPE_HELP: Record<Question['type'], string> = {
   mcq: 'Choose one answer',
   'multi-select': 'Choose all that apply',
@@ -26,7 +26,8 @@ const TYPE_HELP: Record<Question['type'], string> = {
  * One practice question with two attempts: a wrong first try shows the hint,
  * a wrong second try shows the worked explanation.
  */
-export function QuestionView({ q, onDone }: { q: Question; onDone: (r: QuestionResult) => void }) {
+export function QuestionView({ q, onDone, subject }: { q: Question; onDone: (r: QuestionResult) => void; subject?: string }) {
+  const routeSubject = useRouteSubject()
   const steps = useMemo(() => (q.type === 'order-steps' ? shuffleNotIdentity(q.steps) : undefined), [q])
   const [response, setResponse] = useState<Response>(() => emptyResponse(q, steps))
   const [attempts, setAttempts] = useState(0)
@@ -62,7 +63,7 @@ export function QuestionView({ q, onDone }: { q: Question; onDone: (r: QuestionR
     <div className="space-y-4">
       <div className="flex flex-wrap items-center gap-2 text-xs">
         <Badge variant="outline" className="border-ib/40 text-ib">
-          IB Criterion {q.ibCriterion} · {CRITERION_NAMES[q.ibCriterion]}
+          IB Criterion {q.ibCriterion} · {criterionName(q.ibCriterion, subject ?? routeSubject)}
         </Badge>
         {q.cbseStyle && (
           <Badge variant="outline" className="border-cbse/40 text-cbse">
@@ -418,6 +419,16 @@ function Numeric({ q, r, onChange, locked }: { q: Q<'numeric'>; r: R<'numeric'>;
         aria-label="Your answer"
         placeholder="0"
       />
+      {/* phone decimal keypads have no minus key */}
+      <button
+        type="button"
+        disabled={locked}
+        onClick={() => onChange({ type: 'numeric', value: r.value.startsWith('-') ? r.value.slice(1) : `-${r.value}` })}
+        className="h-11 rounded-xl border-2 px-3 text-lg hover:bg-muted"
+        aria-label="Switch between positive and negative"
+      >
+        ±
+      </button>
       {q.unit && <span className="text-lg text-muted-foreground">{q.unit}</span>}
     </div>
   )

@@ -1,0 +1,164 @@
+{
+  "topicId": "fractions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the equivalent fraction.",
+      "text": "3/4 = ___/12",
+      "blanks": [
+        [
+          "9"
+        ]
+      ],
+      "explain": "Multiply the top and the bottom by 3: 3/4 = 9/12.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which fraction is the largest?",
+      "options": [
+        "2/3",
+        "3/5",
+        "5/8",
+        "7/12"
+      ],
+      "answer": 0,
+      "explain": "As decimals: 2/3 ≈ 0.67, 3/5 = 0.6, 5/8 = 0.625, 7/12 ≈ 0.58. Or rewrite them all over 120."
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Add the fractions. Give your answer in lowest terms.",
+      "text": "1/3 + 1/4 = ___",
+      "blanks": [
+        [
+          "7/12"
+        ]
+      ],
+      "explain": "1/3 = 4/12 and 1/4 = 3/12, so the sum is 7/12.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Subtract. Give your answer in lowest terms.",
+      "text": "5/6 − 1/2 = ___",
+      "blanks": [
+        [
+          "1/3",
+          "2/6"
+        ]
+      ],
+      "explain": "1/2 = 3/6, so 5/6 − 3/6 = 2/6 = 1/3."
+    },
+    {
+      "id": "q5",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which fractions are equivalent to 2/3? Choose all that apply.",
+      "options": [
+        "4/6",
+        "6/9",
+        "8/12",
+        "3/4",
+        "10/15"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explain": "Multiply 2/3 top and bottom by the same number. 3/4 is not equivalent."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Look at the pattern: 1/2, then 1/2 + 1/4, then 1/2 + 1/4 + 1/8, and so on. What happens to the total?",
+      "options": [
+        "It gets closer and closer to 1",
+        "It goes past 2",
+        "It gets smaller",
+        "It stays at 3/4"
+      ],
+      "answer": 0,
+      "explain": "The totals are 1/2, 3/4, 7/8, 15/16… Each time, the gap to 1 halves, so the total gets closer and closer to 1 without passing it."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A cake recipe needs 2 1/2 cups of flour and 3/4 cup of sugar. How many cups is that altogether? (Answer as a decimal.)",
+      "answer": 3.25,
+      "tolerance": 0,
+      "explain": "2 1/2 + 3/4 = 2 2/4 + 3/4 = 3 1/4 = 3.25 cups.",
+      "unit": "cups"
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Adam spends 1/3 of his day sleeping and 1/4 of it at school. What fraction of the day is left?",
+      "text": "___",
+      "blanks": [
+        [
+          "5/12"
+        ]
+      ],
+      "explain": "1/3 + 1/4 = 4/12 + 3/12 = 7/12, and 1 − 7/12 = 5/12."
+    },
+    {
+      "id": "q9",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Is each fraction less than 1/2 or more than 1/2?",
+      "bins": [
+        "Less than 1/2",
+        "More than 1/2"
+      ],
+      "items": [
+        {
+          "label": "3/8",
+          "bin": 0
+        },
+        {
+          "label": "5/9",
+          "bin": 1
+        },
+        {
+          "label": "4/10",
+          "bin": 0
+        },
+        {
+          "label": "7/12",
+          "bin": 1
+        },
+        {
+          "label": "6/13",
+          "bin": 0
+        },
+        {
+          "label": "8/15",
+          "bin": 1
+        }
+      ],
+      "explain": "Compare the top with half of the bottom: 3 < 4 (half of 8), but 5 > 4.5 (half of 9)."
+    }
+  ]
+}
