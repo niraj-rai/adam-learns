@@ -1,0 +1,35 @@
+<Stage kind="wonder" title="The architect's challenge" />
+
+<Hook emoji="🏗️">
+You're the architect! Ten challenges: garden beds, slanted plots, trapezium fields, wheels, pizzas, cube nets, Euler's formula, gift boxes, shoe boxes and water tanks. Three lives. Measure twice, cut once!
+</Hook>
+
+<Stage kind="explain" title="Your toolkit" />
+
+<Compare
+  columns={[
+    { title: "2D area", emoji: "✂️", points: ["▱ b × h", "🔺 ½ × b × h", "⏢ ½(a + b)h", "⭕ πr², C = 2πr"] },
+    { title: "3D surface", emoji: "📦", points: ["Cuboid 2(lb + bh + hl)", "Cube 6a²", "Cylinder 2πr(r + h)"] },
+    { title: "3D volume", emoji: "💧", points: ["Cuboid l × b × h", "Cylinder πr²h", "1 L = 1000 cm³"] }
+  ]}
+/>
+
+<ConceptCard title="Architect tips">
+Check the **units**: length in cm, area in cm², volume in cm³. Convert all lengths to the same unit before calculating. And ask: is it perimeter, area, surface area or volume that's needed?
+</ConceptCard>
+
+<Stage kind="try" title="Space Architect" />
+
+<Lab id="space-architect" />
+
+<Stage kind="apply" title="Reflect" />
+
+<Inquiry criterion="C" title="Formula map">
+Create a visual map linking all the formulas in this unit to the rectangle (area) and the cuboid (volume). Show how each one is derived from them.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Part 2 Ch 4 & 7 · Earlier NCERT 7 Ch 9 & 8 Ch 9">
+- Mixed practice: area, circles, surface area and volume, with unit conversions.
+</CbseCorner>
+
+<Reflect id="math-mens-architect" prompt="If you designed a building, which of these measurements would matter most, and why?" last />

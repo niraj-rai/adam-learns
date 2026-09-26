@@ -1,0 +1,47 @@
+<Stage kind="wonder" title="Counting pegs" />
+
+<Hook emoji="📌">
+Stretch a rubber band around pegs on a board to make any polygon: a star, an arrow, a strange zig-zag. Can you find its area just by **counting the pegs**? In 1899, the Austrian mathematician Georg Pick showed that you can, with an astonishingly simple formula.
+</Hook>
+
+<PredictFirst
+  question="How would you find the area of an L-shaped room?"
+  options={["It can't be done without a special formula", "Split it into rectangles and add them", "Multiply the two longest sides", "Measure the perimeter"]}
+  answer={1}
+>
+Split it into two rectangles and **add** their areas, or take a big rectangle and **subtract** the missing corner. Both give the same answer.
+</PredictFirst>
+
+<Stage kind="explain" title="Composite shapes" />
+
+<StepReveal
+  steps={[
+    "Look for rectangles, triangles and trapeziums hiding inside the shape.",
+    "Split the shape (add the parts) OR surround it with a rectangle and subtract the extra bits.",
+    "For a polygon on a grid, count B = pegs on the band and I = pegs inside.",
+    "Pick's theorem: Area = I + B/2 − 1.",
+    "Always check with a second method."
+  ]}
+/>
+
+<Formula tex="A = I + \frac{B}{2} - 1" caption="Pick's theorem (for polygons with corners on grid points)" />
+
+<Stage kind="try" title="Geoboard" />
+
+<Lab id="geoboard" />
+
+<DidYouKnow>
+Pick's theorem only works on a grid of **squares** (or parallelograms). On a grid of triangles or in 3D, mathematicians had to find other formulas, and in 3D a simple version doesn't exist at all.
+</DidYouKnow>
+
+<Stage kind="apply" title="Communicate" />
+
+<Inquiry criterion="C" title="Two methods, one answer">
+Design three polygons on dot paper or in the lab. For each, find the area by splitting into simple shapes AND by Pick's theorem. Present your working clearly, and explain which method you found easier for each shape.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Part 2 Ch 7 · Earlier NCERT 8 Ch 9">
+- Area of polygons by splitting into triangles and trapeziums; area of a rhombus from its diagonals.
+</CbseCorner>
+
+<Reflect id="math-mens-polygons" prompt="Why do you think counting pegs gives the area? What surprised you about Pick's theorem?" />

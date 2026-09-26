@@ -1,0 +1,45 @@
+<Stage kind="wonder" title="How much wrapping paper?" />
+
+<Hook emoji="📦">
+You want to wrap a gift box perfectly, with no overlaps and no gaps. How much paper do you need? Or paint a room: how many litres of paint for the walls? Both questions ask for **surface area**: the total area of all the faces of a solid.
+</Hook>
+
+<PredictFirst
+  question="A cube has side 3 cm. What is its surface area?"
+  options={["27 cm²", "54 cm²", "9 cm²", "36 cm²"]}
+  answer={1}
+>
+A cube has 6 faces, each 3 × 3 = 9 cm², so its surface area is 6 × 9 = **54 cm²**. (27 cm³ is its volume.)
+</PredictFirst>
+
+<Stage kind="explain" title="Unfold and add" />
+
+<Formula tex="\text{Cuboid: } 2(lb + bh + hl) \qquad \text{Cube: } 6a^2 \qquad \text{Cylinder: } 2\pi r h + 2\pi r^2" caption="Surface areas" />
+
+<Compare
+  columns={[
+    { title: "Cuboid", emoji: "📦", points: ["6 faces in 3 matching pairs", "Top/bottom: l × b", "Front/back: l × h", "Sides: b × h"] },
+    { title: "Cylinder", emoji: "🥫", points: ["Curved surface unrolls into a rectangle", "Rectangle: 2πr × h", "Plus two circles: 2 × πr²"] }
+  ]}
+/>
+
+<Stage kind="try" title="Surface Area Unfolded" />
+
+<Lab id="surface-area" />
+
+<MythFact myth="If you double the size of a box, you need double the wrapping paper.">
+Doubling every length multiplies the surface area by **4** (2 × 2), because area is two-dimensional. Try it in the lab.
+</MythFact>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="Paint the room">
+Measure a room at home (length, width, height, doors and windows). Calculate the wall area to be painted. If 1 litre of paint covers about 10 m² per coat, how many litres are needed for two coats? Present your plan clearly.
+</Inquiry>
+
+<CbseCorner source="Earlier NCERT 8 Ch 9">
+- Surface area of a cube, cuboid and cylinder (curved and total).
+- Problems on painting, wrapping and covering.
+</CbseCorner>
+
+<Reflect id="math-mens-surface" prompt="Why might a company want a box with the smallest possible surface area for a given volume?" />

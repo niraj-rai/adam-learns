@@ -1,0 +1,56 @@
+{
+  "id": "space-architect",
+  "number": "8.7",
+  "title": "Boss Challenge: Space Architect",
+  "summary": "Ten problems on area, circles, nets, surface area and volume. Three lives!",
+  "emoji": "🏗️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 7: Area",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 9: Mensuration",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can choose and apply the right measurement formula.",
+    "I can explain and check my answers, including units."
+  ],
+  "misconceptions": [
+    "Units don't matter as long as the number is right."
+  ],
+  "prerequisites": [
+    "mathematics/mensuration/volume",
+    "mathematics/mensuration/circles"
+  ],
+  "labs": [
+    "space-architect"
+  ],
+  "keyTerms": [
+    "area",
+    "circumference",
+    "surface area",
+    "volume",
+    "capacity"
+  ],
+  "estMinutes": 20
+}

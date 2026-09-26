@@ -1,0 +1,48 @@
+<Stage kind="wonder" title="The circle's secret number" />
+
+<Hook emoji="⭕">
+Wrap a string around a bangle, a plate or a bicycle wheel, then compare it with the distance across. Every single time, the string is just over **3 times** as long. That ratio, 3.14159265…, is called **π** (pi), and its digits go on forever without repeating.
+</Hook>
+
+<PredictFirst
+  question="A wheel is 70 cm across. Roughly how far does it roll in one turn?"
+  options={["70 cm", "140 cm", "About 220 cm", "About 490 cm"]}
+  answer={2}
+>
+One turn rolls out the circumference: π × 70 ≈ 3.14 × 70 ≈ **220 cm**. That's why bigger wheels go further per turn.
+</PredictFirst>
+
+<Stage kind="explain" title="Circumference and area" />
+
+<Formula tex="C = \pi d = 2\pi r \qquad A = \pi r^2" caption="π ≈ 3.14 or 22/7" />
+
+<StepReveal
+  steps={[
+    "Cut a circle into many equal slices, like a pizza.",
+    "Lay them side by side, alternately pointing up and down.",
+    "The curved edges make up the whole circumference, split evenly between top and bottom: each side is about πr long.",
+    "The height of the shape is the radius, r.",
+    "So the area is about πr × r = πr². With more slices, the shape gets closer to a rectangle."
+  ]}
+/>
+
+<Stage kind="try" title="Circle Lab" />
+
+<Lab id="circle-lab" />
+
+<DidYouKnow>
+Around 1400 CE, the Kerala mathematician **Mādhava of Saṅgamagrāma** discovered an infinite series for π, long before European mathematicians found it. Today, computers have calculated π to more than 100 trillion digits.
+</DidYouKnow>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="Measuring π at home">
+Measure the circumference and diameter of at least five round objects (a plate, a bangle, a bottle, a coin, a bucket). Calculate C ÷ d for each. How close do you get to π? Discuss what causes the differences.
+</Inquiry>
+
+<CbseCorner source="Earlier NCERT 7 Ch 9">
+- Circumference of a circle; area of a circle; area of circular paths (rings).
+- Use π = 22/7 or 3.14 as instructed.
+</CbseCorner>
+
+<Reflect id="math-mens-circles" prompt="Why do you think π can never be written exactly as a fraction or a decimal?" />

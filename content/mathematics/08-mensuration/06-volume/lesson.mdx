@@ -1,0 +1,47 @@
+<Stage kind="wonder" title="How much can it hold?" />
+
+<Hook emoji="💧">
+The water tank on the roof, a lunch box, a pressure cooker: they all hold something. **Volume** measures how much space a solid takes up, and **capacity** tells you how much it can hold. Engineers who design dams, water tanks and even space rockets are masters of volume.
+</Hook>
+
+<PredictFirst
+  question="How many 1 cm cubes fit in a box 4 cm × 3 cm × 2 cm?"
+  options={["9", "24", "12", "52"]}
+  answer={1}
+>
+One layer holds 4 × 3 = 12 cubes, and there are 2 layers: **24 cubes**. Volume = l × b × h = 24 cm³.
+</PredictFirst>
+
+<Stage kind="explain" title="Layers of base area" />
+
+<Formula tex="V_{\text{cuboid}} = l \times b \times h \qquad V_{\text{cylinder}} = \pi r^2 h \qquad 1\,\text{L} = 1000\,\text{cm}^3" caption="Volume = base area × height" />
+
+<StepReveal
+  steps={[
+    "Count the cubes in one layer: that's the base area (l × b).",
+    "Count the layers: that's the height (h).",
+    "Volume = base area × height. This works for ANY prism, including cylinders (base πr²).",
+    "Units: cm × cm × cm = cm³. 1000 cm³ = 1 litre; 1 m³ = 1000 litres.",
+    "Doubling every length multiplies the volume by 2 × 2 × 2 = 8."
+  ]}
+/>
+
+<Stage kind="try" title="Volume Builder" />
+
+<Lab id="volume-builder" />
+
+<RealLife>
+India's **Jal Jeevan Mission** aims to give every rural home a tap connection. Planners calculate tank volumes from the number of people and the water each needs per day, exactly the kind of problem in this lesson.
+</RealLife>
+
+<Stage kind="apply" title="Communicate" />
+
+<Inquiry criterion="C" title="Design a lunch box">
+Design a lunch box that holds at least 1 litre. Give two different possible sets of measurements (one cuboid, one cylinder), show your volume calculations clearly, and compare how much plastic (surface area) each would need.
+</Inquiry>
+
+<CbseCorner source="Earlier NCERT 8 Ch 9">
+- Volume of a cube, cuboid and cylinder; volume and capacity (litres, m³).
+</CbseCorner>
+
+<Reflect id="math-mens-volume" prompt="What is the difference between surface area and volume? Give an everyday example of each." />

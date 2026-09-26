@@ -1,0 +1,105 @@
+{
+  "topicId": "polygon-area",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A square on a geoboard has corners (0, 0), (3, 0), (3, 3) and (0, 3). What is its area?",
+      "answer": 9,
+      "tolerance": 0,
+      "unit": "sq units",
+      "explain": "3 × 3 = 9."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A field is made of a 20 m × 10 m rectangle with a triangle (base 10 m, height 6 m) attached to one end. Find its area.",
+      "answer": 230,
+      "tolerance": 0,
+      "unit": "m²",
+      "explain": "200 + 30 = 230.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "A polygon on a geoboard has 8 pegs on its boundary and 3 pegs inside. Use Pick's theorem (A = I + B/2 − 1) to find its area.",
+      "answer": 6,
+      "tolerance": 0,
+      "unit": "sq units",
+      "explain": "3 + 4 − 1 = 6."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which formula gives the area of a trapezium with parallel sides a and b and height h?",
+      "options": [
+        "½abh",
+        "(a + b)h",
+        "abh",
+        "½(a + b)h"
+      ],
+      "answer": 3,
+      "explain": "Two trapeziums make a parallelogram with base a + b."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "An L-shaped room is made of a 5 m × 2 m rectangle and a 2 m × 4 m rectangle. Find its area.",
+      "answer": 18,
+      "tolerance": 0,
+      "unit": "m²",
+      "explain": "10 + 8 = 18."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Describe two different ways to find the area of an L-shaped room, and show that both give the same answer for a room made of an 8 m × 6 m rectangle with a 3 m × 2 m corner cut out.",
+      "modelAnswer": "Method 1 (subtract): 8 × 6 − 3 × 2 = 48 − 6 = 42 m². Method 2 (add): split the L into two rectangles, e.g. 8 × 4 = 32 and 5 × 2 = 10, total 42 m². Both give 42 m².",
+      "rubric": [
+        "Subtraction method",
+        "Addition method",
+        "Both give the same answer"
+      ],
+      "explain": "Criterion C: communicate two methods clearly."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A kite has diagonals 12 cm and 7 cm. Find its area (half the product of the diagonals).",
+      "answer": 42,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "½ × 12 × 7 = 42."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "A polygon on a geoboard has 4 pegs on its boundary and none inside. What does Pick's theorem give for its area?",
+      "options": [
+        "0",
+        "4",
+        "1",
+        "2"
+      ],
+      "answer": 2,
+      "explain": "0 + 4/2 − 1 = 1."
+    }
+  ]
+}

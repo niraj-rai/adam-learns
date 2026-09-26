@@ -5,13 +5,8 @@
   "color": "math",
   "icon": "📐",
   "order": 4,
-  "comingNext": "Unit 8: Mensuration: Area, Surface Area and Volume",
+  "comingNext": "Unit 9: Data Handling and Probability",
   "planned": [
-    {
-      "unit": "8. Mensuration: Area, Surface Area & Volume",
-      "ib": "MYP 2–3",
-      "cbse": "GP 8 Part 2 Ch 4, 7; earlier NCERT 8 Ch 9"
-    },
     {
       "unit": "9. Data Handling & Probability",
       "ib": "MYP 1–3",

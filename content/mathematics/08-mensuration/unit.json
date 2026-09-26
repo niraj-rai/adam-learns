@@ -1,0 +1,37 @@
+{
+  "id": "mensuration",
+  "number": 8,
+  "title": "Mensuration: Area, Surface Area and Volume",
+  "summary": "Area formulas from cutting and rearranging, pegboard polygons and Pick's theorem, π and circles, cube nets and Euler's formula, and the surface area and volume of boxes, tins and water tanks.",
+  "ib": {
+    "keyConcept": "Form",
+    "relatedConcepts": [
+      "Measurement",
+      "Space",
+      "Generalization"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Measuring the space that shapes and solids take up, and generalizing it into formulas, helps us design, build and use resources wisely."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "How do we find the area of triangles, parallelograms, trapeziums and circles?",
+      "What is a net?",
+      "How do we find surface area and volume?"
+    ],
+    "conceptual": [
+      "Why can many area formulas be derived from the rectangle?",
+      "Why is the volume of any prism its base area times its height?"
+    ],
+    "debatable": [
+      "Should packaging be designed for the least surface area or for the best look?",
+      "Is π discovered or invented?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 8 (Ganita Prakash) Part 2 Ch 7: Area; Ch 4: Exploring Some Geometric Themes",
+    "Class 6 (Ganita Prakash) Ch 6: Perimeter and Area",
+    "Earlier NCERT Class 7 Ch 9: Perimeter and Area; Ch 13: Visualising Solid Shapes",
+    "Earlier NCERT Class 8 Ch 9: Mensuration"
+  ]
+}

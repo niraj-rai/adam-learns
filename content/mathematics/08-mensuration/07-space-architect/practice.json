@@ -1,0 +1,96 @@
+{
+  "topicId": "space-architect",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the area of a triangle with base 10 m and height 6 m.",
+      "answer": 30,
+      "tolerance": 0,
+      "unit": "m²",
+      "explain": "½ × 10 × 6."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the area of a trapezium with parallel sides 6 m and 10 m, 4 m apart.",
+      "answer": 32,
+      "tolerance": 0,
+      "unit": "m²",
+      "explain": "½ × 16 × 4."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the circumference of a circle of diameter 14 cm (π = 22/7).",
+      "answer": 44,
+      "tolerance": 0,
+      "unit": "cm",
+      "explain": "22/7 × 14."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the area of a circle of radius 7 cm (π = 22/7).",
+      "answer": 154,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "22/7 × 49."
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Choose one Space Architect problem. Explain which formula you used, why, and how you checked the units.",
+      "modelAnswer": "For the water tank, I used volume = l × b × h because the tank is a cuboid. I first converted 1 m to 100 cm so all lengths were in cm: 100 × 50 × 40 = 2,00,000 cm³. Since 1 L = 1000 cm³, that is 200 L. Checking units: cm × cm × cm = cm³, then converted to litres.",
+      "rubric": [
+        "Names the formula",
+        "Explains why it fits",
+        "Checks and converts units"
+      ],
+      "explain": "Criterion C: justify with units."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A solid has 5 faces and 6 vertices. How many edges?",
+      "answer": 9,
+      "tolerance": 0,
+      "unit": "edges",
+      "explain": "5 + 6 − 2."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "How much paper covers a cube of side 5 cm exactly?",
+      "answer": 150,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "6 × 25."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "How many litres does a 100 cm × 50 cm × 40 cm tank hold?",
+      "answer": 200,
+      "tolerance": 0,
+      "unit": "L",
+      "explain": "2,00,000 cm³ ÷ 1000."
+    }
+  ]
+}

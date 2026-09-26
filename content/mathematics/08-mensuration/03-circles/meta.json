@@ -1,0 +1,53 @@
+{
+  "id": "circles",
+  "number": "8.3",
+  "title": "Circles and π",
+  "summary": "Circumference, the mysterious number π, and the area of a circle by slicing and rearranging.",
+  "emoji": "⭕",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Circle measurement is MYP 3 Measurement"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 9: Perimeter and Area",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can find the circumference and area of a circle.",
+    "I can explain what π is.",
+    "I can solve problems about wheels, gardens and paths."
+  ],
+  "misconceptions": [
+    "π is exactly 22/7.",
+    "Circumference = πr.",
+    "Area and circumference use the same formula."
+  ],
+  "prerequisites": [
+    "mathematics/mensuration/area-of-shapes"
+  ],
+  "labs": [
+    "circle-lab"
+  ],
+  "keyTerms": [
+    "radius",
+    "diameter",
+    "circumference",
+    "π",
+    "sector"
+  ],
+  "estMinutes": 30
+}

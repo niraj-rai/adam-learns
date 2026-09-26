@@ -1,0 +1,112 @@
+{
+  "topicId": "nets-and-solids",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many faces, edges and vertices does a cuboid have?",
+      "options": [
+        "6 faces, 12 edges, 8 vertices",
+        "8 faces, 12 edges, 6 vertices",
+        "6 faces, 8 edges, 12 vertices",
+        "4 faces, 6 edges, 4 vertices"
+      ],
+      "answer": 0,
+      "explain": "F + V − E = 6 + 8 − 12 = 2 ✓.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "A solid has 8 faces and 6 vertices. How many edges must it have?",
+      "answer": 12,
+      "tolerance": 0,
+      "explain": "E = F + V − 2 = 12 (an octahedron)."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which of these arrangements of 6 squares folds into a cube?",
+      "options": [
+        "A row of 6",
+        "A 2 × 3 rectangle",
+        "A row of 4 with one square above and one below the second square",
+        "A row of 4 with two squares above the first two"
+      ],
+      "answer": 2,
+      "explain": "The cross is a classic cube net."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "How many different nets does a cube have (not counting rotations and reflections)?",
+      "answer": 11,
+      "tolerance": 0,
+      "explain": "There are exactly 11."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the net of a cylinder?",
+      "options": [
+        "A circle and a triangle",
+        "Two rectangles and a circle",
+        "A rectangle and two circles",
+        "Three rectangles"
+      ],
+      "answer": 2,
+      "explain": "Unroll the curved surface into a rectangle.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which solid has 2 triangular faces and 3 rectangular faces?",
+      "options": [
+        "Square pyramid",
+        "Cuboid",
+        "Triangular prism",
+        "Tetrahedron"
+      ],
+      "answer": 2,
+      "explain": "Like a tent or a Toblerone bar."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "B",
+      "prompt": "How many edges does a square-based pyramid have?",
+      "answer": 8,
+      "tolerance": 0,
+      "explain": "4 around the base and 4 up to the top."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Which solid has 6 faces, 6 vertices and 10 edges?",
+      "options": [
+        "Triangular prism",
+        "Pentagonal pyramid",
+        "Hexagonal pyramid",
+        "Cube"
+      ],
+      "answer": 1,
+      "explain": "A pentagon base plus 5 triangles; 6 + 6 − 10 = 2 ✓."
+    }
+  ]
+}

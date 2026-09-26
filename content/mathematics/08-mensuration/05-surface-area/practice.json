@@ -1,0 +1,99 @@
+{
+  "topicId": "surface-area",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the surface area of a cuboid 8 cm × 6 cm × 5 cm.",
+      "answer": 236,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "2(48 + 30 + 40) = 236.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the surface area of a cube with side 7 cm.",
+      "answer": 294,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "6 × 49 = 294.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the curved surface area of a cylinder with radius 7 cm and height 10 cm (use π = 22/7).",
+      "answer": 440,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "2 × 22/7 × 7 × 10 = 440."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the total surface area of that cylinder (use π = 22/7).",
+      "answer": 748,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "2 × 22/7 × 7 × (7 + 10) = 748."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A room is 5 m long, 4 m wide and 3 m high. What is the area of its four walls?",
+      "answer": 54,
+      "tolerance": 0,
+      "unit": "m²",
+      "explain": "2(5 + 4) × 3 = 54 (ignoring doors and windows)."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "An open box (no lid) is 10 cm × 8 cm × 5 cm. How much card is needed to make it?",
+      "answer": 260,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "Base 80 + 2 × (8 × 5) + 2 × (10 × 5) = 80 + 80 + 100 = 260."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "If you double the side of a cube, its surface area is multiplied by…",
+      "options": [
+        "6",
+        "8",
+        "4",
+        "2"
+      ],
+      "answer": 2,
+      "explain": "6(2a)² = 4 × 6a²."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "What area of paper is needed for the label of a tin with radius 3.5 cm and height 10 cm (use π = 22/7)?",
+      "answer": 220,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "2 × 22/7 × 3.5 × 10 = 220."
+    }
+  ]
+}

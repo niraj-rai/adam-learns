@@ -1,0 +1,45 @@
+<Stage kind="wonder" title="One formula to rule them all" />
+
+<Hook emoji="✂️">
+You know that a rectangle's area is length × width. Here's a secret: with a pair of scissors, you can turn a parallelogram, a triangle and even a trapezium into rectangles. That means you never need to memorise their formulas blindly: you can **see** where they come from.
+</Hook>
+
+<PredictFirst
+  question="A parallelogram has base 6 and height 4. Its slanted side is 5. What is its area?"
+  options={["30", "24", "20", "12"]}
+  answer={1}
+>
+Cut a triangle off one end and slide it to the other: you get a 6 × 4 rectangle. Area = **24**. The slanted side (5) doesn't matter; only the **perpendicular height** does.
+</PredictFirst>
+
+<Stage kind="explain" title="From rectangles" />
+
+<Compare
+  columns={[
+    { title: "Parallelogram", emoji: "▱", points: ["Cut and slide → rectangle", "A = b × h"] },
+    { title: "Triangle", emoji: "🔺", points: ["Two copies → parallelogram", "A = ½ × b × h"] },
+    { title: "Trapezium", emoji: "⏢", points: ["Two copies → parallelogram with base a + b", "A = ½ × (a + b) × h"] },
+    { title: "Rhombus/kite", emoji: "🔷", points: ["Half the rectangle round the diagonals", "A = ½ × d₁ × d₂"] }
+  ]}
+/>
+
+<Stage kind="try" title="Cut and Rearrange" />
+
+<Lab id="shear-it" />
+
+<MythFact myth="The height of a triangle is the length of one of its sloping sides.">
+The height is always the **perpendicular** distance from the base to the opposite corner, the straight-down distance at 90°. For an obtuse triangle, it can even fall outside the shape!
+</MythFact>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="Floor plan">
+Draw a floor plan of a room or your balcony, including any slanted or triangular parts. Split it into rectangles, triangles and trapeziums, measure, and find the total area. How many 30 cm × 30 cm tiles would you need?
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Part 2 Ch 7 · Ganita Prakash 6 Ch 6 · Earlier NCERT 7 Ch 9">
+- Area of parallelograms and triangles; area of a trapezium, rhombus and general quadrilateral.
+- Exam tip: always use the perpendicular height and write the units (cm²).
+</CbseCorner>
+
+<Reflect id="math-mens-area" prompt="Which area formula made the most sense once you saw the shapes rearranged?" />

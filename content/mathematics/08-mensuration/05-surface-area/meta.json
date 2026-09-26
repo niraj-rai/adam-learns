@@ -1,0 +1,58 @@
+{
+  "id": "surface-area",
+  "number": "8.5",
+  "title": "Surface Area",
+  "summary": "Unfold cuboids, cubes and cylinders to add up the area of every face.",
+  "emoji": "📦",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Surface area is MYP 3 Measurement"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 9: Mensuration",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 4: Exploring Some Geometric Themes",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "D"
+  ],
+  "objectives": [
+    "I can find the surface area of cuboids and cubes.",
+    "I can find the curved and total surface area of a cylinder.",
+    "I can solve real problems like painting and packaging."
+  ],
+  "misconceptions": [
+    "Surface area and volume are the same thing.",
+    "A cuboid's surface area is l × b × h.",
+    "A tin label is a circle."
+  ],
+  "prerequisites": [
+    "mathematics/mensuration/nets-and-solids",
+    "mathematics/mensuration/circles"
+  ],
+  "labs": [
+    "surface-area"
+  ],
+  "keyTerms": [
+    "surface area",
+    "net",
+    "curved surface area",
+    "total surface area",
+    "lateral surface"
+  ],
+  "estMinutes": 25
+}

@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="Flat to solid" />
+
+<Hook emoji="🧊">
+Unfold a cardboard box carefully and lay it flat: that flat shape is its **net**. A cube's net always has 6 squares, but not every set of 6 joined squares will fold into a cube. How many different cube nets are there? Mathematicians have proved the answer is exactly **11**.
+</Hook>
+
+<PredictFirst
+  question="Will a 2 × 3 rectangle of squares fold into a cube?"
+  options={["Yes", "No, two squares overlap", "Only if you cut it", "Only for large cubes"]}
+  answer={1}
+>
+Try folding it in your head: two of the squares end up on the same face, leaving one face open. A 2 × 3 block is **not** a cube net.
+</PredictFirst>
+
+<Stage kind="explain" title="Faces, edges, vertices" />
+
+<Compare
+  columns={[
+    { title: "Faces (F)", emoji: "⬜", points: ["The flat surfaces", "Cube: 6"] },
+    { title: "Edges (E)", emoji: "📏", points: ["Where two faces meet", "Cube: 12"] },
+    { title: "Vertices (V)", emoji: "📍", points: ["The corners", "Cube: 8"] }
+  ]}
+/>
+
+<Formula tex="F + V - E = 2" caption="Euler's formula, for every polyhedron without holes" />
+
+<Stage kind="try" title="Nets and Solids" />
+
+<Lab id="cube-nets" />
+
+<RealLife>
+Packaging designers start with nets: every carton, cereal box and gift box is cut as one flat piece and folded. Good nets waste as little card as possible.
+</RealLife>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Hunting for nets">
+Using squared paper, find as many different cube nets as you can (use the lab to check). Organise them by the longest row of squares they contain. Describe any patterns, and explain why no cube net can have a row of 5 squares.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Part 2 Ch 4 · Earlier NCERT 7 Ch 13">
+- Faces, edges and vertices of 3D shapes; nets for building solids.
+- Euler's formula F + V − E = 2.
+</CbseCorner>
+
+<Reflect id="math-mens-nets" prompt="Find a box at home and unfold it. Which of the 11 nets (or a variation) did the designers use?" />

@@ -1,0 +1,58 @@
+{
+  "id": "nets-and-solids",
+  "number": "8.4",
+  "title": "Nets, Solids and Euler's Formula",
+  "summary": "Faces, edges and vertices, the 11 nets of a cube, and a formula that works for every polyhedron.",
+  "emoji": "🧊",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Visualising 3D shapes is MYP 2 Geometry"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 4: Exploring Some Geometric Themes",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 13: Visualising Solid Shapes",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B"
+  ],
+  "objectives": [
+    "I can describe solids by their faces, edges and vertices.",
+    "I can tell whether a net folds into a cube.",
+    "I can use Euler's formula F + V − E = 2."
+  ],
+  "misconceptions": [
+    "Any 6 squares joined together make a cube.",
+    "A cylinder has edges like a cuboid.",
+    "Euler's formula only works for cubes."
+  ],
+  "prerequisites": [
+    "mathematics/mensuration/polygon-area"
+  ],
+  "labs": [
+    "cube-nets"
+  ],
+  "keyTerms": [
+    "net",
+    "face",
+    "edge",
+    "vertex",
+    "polyhedron",
+    "Euler's formula"
+  ],
+  "estMinutes": 25
+}

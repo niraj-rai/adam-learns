@@ -1,0 +1,62 @@
+{
+  "id": "area-of-shapes",
+  "number": "8.1",
+  "title": "Area of Triangles, Parallelograms and Trapeziums",
+  "summary": "Cut and rearrange shapes into rectangles to discover (and never forget) their area formulas.",
+  "emoji": "✂️",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Area of 2D shapes is MYP 2 Measurement"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 7: Area",
+        "verified": true
+      },
+      {
+        "class": 6,
+        "chapter": "Ganita Prakash Ch 6: Perimeter and Area",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 9: Perimeter and Area",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can find the area of parallelograms, triangles and trapeziums.",
+    "I can explain the formulas by rearranging shapes.",
+    "I can solve real area problems."
+  ],
+  "misconceptions": [
+    "The slanted side is the height.",
+    "A triangle's area is base × height.",
+    "Shearing a shape changes its area."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "shear-it"
+  ],
+  "keyTerms": [
+    "area",
+    "base",
+    "perpendicular height",
+    "parallelogram",
+    "trapezium",
+    "rhombus"
+  ],
+  "estMinutes": 25
+}

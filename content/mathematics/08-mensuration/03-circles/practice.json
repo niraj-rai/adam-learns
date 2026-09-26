@@ -1,0 +1,102 @@
+{
+  "topicId": "circles",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the circumference of a circle of radius 21 cm (use π = 22/7).",
+      "answer": 132,
+      "tolerance": 0,
+      "unit": "cm",
+      "explain": "2 × 22/7 × 21 = 132.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the area of a circle of radius 14 cm (use π = 22/7).",
+      "answer": 616,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "22/7 × 14 × 14 = 616.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A bicycle wheel has diameter 70 cm. How far does it travel in one full turn (use π = 22/7)?",
+      "answer": 220,
+      "tolerance": 0,
+      "unit": "cm",
+      "explain": "22/7 × 70 = 220."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "How many full turns does that wheel make in 1.1 km?",
+      "answer": 500,
+      "tolerance": 0,
+      "unit": "turns",
+      "explain": "1.1 km = 1,10,000 cm; ÷ 220 = 500."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "π is the ratio of a circle's…",
+      "options": [
+        "radius to its circumference",
+        "circumference to its diameter",
+        "diameter to its radius",
+        "area to its radius"
+      ],
+      "answer": 1,
+      "explain": "For every circle, C ÷ d ≈ 3.14159."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A circle has circumference 88 cm. What is its radius (use π = 22/7)?",
+      "answer": 14,
+      "tolerance": 0,
+      "unit": "cm",
+      "explain": "2 × 22/7 × r = 88, so r = 14."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain why the area of a circle is πr², using the idea of cutting it into slices.",
+      "modelAnswer": "Cut the circle into many equal sector slices and arrange them alternately point-up and point-down. They form a shape close to a parallelogram (almost a rectangle). Its height is the radius r, and its length is half the circumference, πr. So the area is πr × r = πr². The more slices, the closer it gets to a rectangle.",
+      "rubric": [
+        "Slices rearranged",
+        "Height r and length πr",
+        "Area πr²"
+      ],
+      "explain": "Criterion C: explain a derivation."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "A circular garden of radius 7 m has a 1 m wide path around it. Find the area of the path (use π = 22/7), to 2 decimal places.",
+      "answer": 47.14,
+      "tolerance": 0.02,
+      "unit": "m²",
+      "explain": "π(8² − 7²) = 22/7 × 15 ≈ 47.14 m²."
+    }
+  ]
+}

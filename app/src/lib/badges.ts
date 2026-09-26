@@ -61,6 +61,8 @@ export type BadgeId =
   | 'market-master'
   | 'unit-geometry'
   | 'geometry-guardian'
+  | 'unit-mensuration'
+  | 'space-architect'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -126,5 +128,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'market-master': { title: 'Market Master', emoji: '🏪', description: 'Solved ten real-life ratio and percentage problems (Boss Challenge)' },
   'unit-geometry': { title: 'Shape Sage', emoji: '📐', description: 'Mastered every core topic in Maths Unit 7: Geometry: Angles, Shapes and Pythagoras' },
   'geometry-guardian': { title: 'Geometry Guardian', emoji: '🛡️', description: 'Solved ten geometry problems (Boss Challenge)' },
+  'unit-mensuration': { title: 'Master Measurer', emoji: '📏', description: 'Mastered every core topic in Maths Unit 8: Mensuration' },
+  'space-architect': { title: 'Space Architect', emoji: '🏗️', description: 'Solved ten area, surface area and volume problems (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

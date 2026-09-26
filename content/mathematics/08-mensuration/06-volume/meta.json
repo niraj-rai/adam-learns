@@ -1,0 +1,53 @@
+{
+  "id": "volume",
+  "number": "8.6",
+  "title": "Volume and Capacity",
+  "summary": "Unit cubes, layers and litres: the volume of cuboids, cubes and cylinders.",
+  "emoji": "💧",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Volume and capacity are MYP 3 Measurement"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 9: Mensuration",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can find the volume of cuboids, cubes and cylinders.",
+    "I can convert between cm³, m³ and litres.",
+    "I can solve real capacity problems."
+  ],
+  "misconceptions": [
+    "Volume is measured in cm².",
+    "1 litre = 100 cm³.",
+    "Doubling the sides of a box doubles its volume."
+  ],
+  "prerequisites": [
+    "mathematics/mensuration/surface-area"
+  ],
+  "labs": [
+    "volume-builder"
+  ],
+  "keyTerms": [
+    "volume",
+    "capacity",
+    "cubic centimetre",
+    "litre",
+    "base area"
+  ],
+  "estMinutes": 25
+}

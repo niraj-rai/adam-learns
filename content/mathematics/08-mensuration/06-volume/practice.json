@@ -1,0 +1,102 @@
+{
+  "topicId": "volume",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the volume of a cuboid 12 cm × 5 cm × 4 cm.",
+      "answer": 240,
+      "tolerance": 0,
+      "unit": "cm³",
+      "explain": "12 × 5 × 4 = 240.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the volume of a cube with side 6 cm.",
+      "answer": 216,
+      "tolerance": 0,
+      "unit": "cm³",
+      "explain": "6³ = 216."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the volume of a cylinder with radius 7 cm and height 10 cm (use π = 22/7).",
+      "answer": 1540,
+      "tolerance": 0,
+      "unit": "cm³",
+      "explain": "22/7 × 49 × 10 = 1540.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A water tank is 2 m × 1.5 m × 1 m. How many litres does it hold?",
+      "answer": 3000,
+      "tolerance": 0,
+      "unit": "L",
+      "explain": "3 m³ = 3000 L."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "How many 2 cm cubes fit into a box 10 cm × 8 cm × 6 cm?",
+      "answer": 60,
+      "tolerance": 0,
+      "unit": "cubes",
+      "explain": "5 × 4 × 3 = 60."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many cm³ are in 1 litre?",
+      "options": [
+        "1000",
+        "10,000",
+        "10",
+        "100"
+      ],
+      "answer": 0,
+      "explain": "A 10 cm cube holds exactly 1 litre."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why the volume of a cylinder is its base area multiplied by its height.",
+      "modelAnswer": "A cylinder can be thought of as a stack of thin circular layers, like coins. Each layer has area πr², and there are enough layers to fill the height h. So the volume is the area of one layer times the height: πr² × h. This is the same idea as a cuboid, which is layers of l × b stacked h high.",
+      "rubric": [
+        "Layers idea",
+        "Base area πr²",
+        "Multiply by the height"
+      ],
+      "explain": "Criterion C: explain a formula."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "A 5000 L tank supplies a family of 4, each using 135 L per day. For how many full days will it last?",
+      "answer": 9,
+      "tolerance": 0,
+      "unit": "days",
+      "explain": "4 × 135 = 540 L per day; 5000 ÷ 540 ≈ 9.26, so 9 full days."
+    }
+  ]
+}

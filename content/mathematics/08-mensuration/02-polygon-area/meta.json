@@ -1,0 +1,58 @@
+{
+  "id": "polygon-area",
+  "number": "8.2",
+  "title": "Area of Polygons and Pick's Theorem",
+  "summary": "Splitting complex shapes into simpler ones, and counting pegs on a geoboard.",
+  "emoji": "📌",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Composite area is MYP 3 Measurement"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 7: Area",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 9: Mensuration",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can find the area of composite shapes by adding or subtracting parts.",
+    "I can find the area of a kite or rhombus from its diagonals.",
+    "I can use Pick's theorem on a grid."
+  ],
+  "misconceptions": [
+    "You must use one formula for the whole shape.",
+    "Area and perimeter always change together.",
+    "Pick's theorem works for any shape, even with curved sides."
+  ],
+  "prerequisites": [
+    "mathematics/mensuration/area-of-shapes"
+  ],
+  "labs": [
+    "geoboard"
+  ],
+  "keyTerms": [
+    "composite shape",
+    "polygon",
+    "diagonal",
+    "Pick's theorem",
+    "lattice point"
+  ],
+  "estMinutes": 25
+}

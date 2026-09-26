@@ -1,0 +1,103 @@
+{
+  "topicId": "area-of-shapes",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A parallelogram has base 12 cm and perpendicular height 7 cm. Find its area.",
+      "answer": 84,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "12 × 7 = 84.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A triangle has base 9 cm and height 8 cm. Find its area.",
+      "answer": 36,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "½ × 9 × 8 = 36.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A trapezium has parallel sides 8 cm and 12 cm, and height 5 cm. Find its area.",
+      "answer": 50,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "½ × (8 + 12) × 5 = 50."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "A parallelogram is pushed so it leans more, keeping the same base and perpendicular height. What happens to its area?",
+      "options": [
+        "It decreases",
+        "It increases",
+        "It stays the same",
+        "It becomes zero"
+      ],
+      "answer": 2,
+      "explain": "Area depends only on base and perpendicular height."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A wall is 5 m wide and 3 m high, with a door 2 m high and 1 m wide. What area needs painting?",
+      "answer": 13,
+      "tolerance": 0,
+      "unit": "m²",
+      "explain": "15 − 2 = 13."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A triangle has area 24 cm² and base 8 cm. What is its height?",
+      "answer": 6,
+      "tolerance": 0,
+      "unit": "cm",
+      "explain": "½ × 8 × h = 24, so h = 6."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "If you double both the base and the height of a triangle, its area is multiplied by…",
+      "options": [
+        "It stays the same",
+        "4",
+        "8",
+        "2"
+      ],
+      "answer": 1,
+      "explain": "½ × 2b × 2h = 4 × (½bh)."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A rhombus-shaped tile has diagonals 10 cm and 8 cm. Its area is half the product of the diagonals. Find it.",
+      "answer": 40,
+      "tolerance": 0,
+      "unit": "cm²",
+      "explain": "½ × 10 × 8 = 40."
+    }
+  ]
+}
