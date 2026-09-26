@@ -5,6 +5,7 @@ import { appSegments } from '@/lib/path'
 import { Toaster } from '@/components/gamification/Toaster'
 import { TopBar } from '@/components/layout/TopBar'
 import { ReminderScheduler } from '@/components/plan/ReminderScheduler'
+import { TimeTracker } from '@/components/progress/TimeTracker'
 import { Button } from '@/components/ui/button'
 import { isOnboarded, useProfile } from '@/stores/profile'
 
@@ -59,6 +60,7 @@ function RootLayout() {
       </footer>
       <Toaster />
       <ReminderScheduler />
+      <TimeTracker />
     </div>
   )
 }

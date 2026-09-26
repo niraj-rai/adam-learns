@@ -37,6 +37,7 @@ function Switch({ on, onChange, label, icon }: { on: boolean; onChange: (on: boo
 export function ReminderControls({ value, onChange, className }: { value: ReminderSettings; onChange: (r: ReminderSettings) => void; className?: string }) {
   const appSound = useSettings((s) => s.sound)
   const { perm, request } = useNotificationPermission()
+  const [tested, setTested] = useState(false)
   const leadId = useId()
   const set = (patch: Partial<ReminderSettings>) => onChange({ ...value, ...patch })
 
@@ -59,8 +60,9 @@ export function ReminderControls({ value, onChange, className }: { value: Remind
             <div className="min-w-0 flex-1">
               <Switch on={value.sound} onChange={(sound) => set({ sound })} label="Sounds" icon={value.sound ? <Volume2 className="size-4 shrink-0" /> : <VolumeX className="size-4 shrink-0" />} />
             </div>
-            <Button type="button" variant="outline" className="h-auto rounded-xl" disabled={!value.sound || !appSound} onClick={() => sfx.chime()} aria-label="Play the reminder sound">▶ Test</Button>
+            <Button type="button" variant="outline" className="h-auto rounded-xl" disabled={!value.sound || !appSound} onClick={() => { sfx.chime(); setTested(true) }} aria-label="Play the reminder sound">▶ Test</Button>
           </div>
+          {tested && <p className="text-xs text-muted-foreground" role="status">🔊 Playing the chime. Can't hear it? Turn up your device volume and check this browser tab isn't muted.</p>}
           {value.sound && !appSound && <p className="text-xs text-muted-foreground">Sounds are off in ⚙️ settings, so reminders will be silent until you turn them back on.</p>}
           <div className="text-sm">
             {perm === 'default' && <Button type="button" variant="outline" size="sm" onClick={request}><Bell /> Allow notifications</Button>}

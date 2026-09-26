@@ -13,6 +13,8 @@ import { normaliseSchedule } from '@/lib/schedule'
 import { ReminderControls } from '@/components/plan/Reminders'
 import { normaliseReminders } from '@/lib/reminders'
 import { useProfile } from '@/stores/profile'
+import { TimeSpentCard } from '@/components/progress/TimeSpent'
+import { timeData, useTime } from '@/stores/time'
 
 export const Route = createFileRoute('/progress')({ component: ProgressPage })
 
@@ -24,10 +26,11 @@ function ProgressPage() {
   const [msg, setMsg] = useState<string | null>(null)
 
   const profile = useProfile()
+  const time = useTime()
   const exportData = () => {
     const { xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones } = useProgress.getState()
     const { firstName, lastName, grade, onboardedAt, check, schedule, reminders } = useProfile.getState()
-    const blob = new Blob([JSON.stringify({ xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones, profile: { firstName, lastName, grade, onboardedAt, check, schedule, reminders } }, null, 2)], { type: 'application/json' })
+    const blob = new Blob([JSON.stringify({ xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones, time: timeData(), profile: { firstName, lastName, grade, onboardedAt, check, schedule, reminders } }, null, 2)], { type: 'application/json' })
     const a = document.createElement('a')
     a.href = URL.createObjectURL(blob)
     a.download = `adamlearns-progress-${new Date().toISOString().slice(0, 10)}.json`
@@ -108,6 +111,8 @@ function ProgressPage() {
           <p className="mt-2 text-sm text-muted-foreground">{dueReviewItems(review).length} review question(s) due</p>
         </div>
       </section>
+
+      <TimeSpentCard time={time} />
 
       <section id="badges" className="scroll-mt-20">
         <h2 className="font-heading text-2xl font-semibold">Badges <span className="text-base font-normal text-muted-foreground tabular-nums">{badges.length} of {Object.keys(BADGES).length} earned</span></h2>
@@ -210,7 +215,10 @@ function ProgressPage() {
               const text = await f.text()
               const ok = importState(text)
               if (ok) {
-                const p = JSON.parse(text).profile
+                const data = JSON.parse(text)
+                const p = data.profile
+                // exports made before time tracking have no time: keep what this device has
+                if (data.time) useTime.getState().replace(data.time)
                 if (p && typeof p.firstName === 'string') useProfile.setState({ firstName: p.firstName, lastName: p.lastName ?? '', grade: p.grade ?? null, onboardedAt: p.onboardedAt ?? null, check: p.check ?? null, schedule: normaliseSchedule(p.schedule), reminders: p.reminders ? normaliseReminders(p.reminders) : useProfile.getState().reminders })
               }
               setMsg(ok ? '✅ Progress imported.' : '❌ That file does not look like a progress export.')
@@ -220,8 +228,9 @@ function ProgressPage() {
           <Button
             variant="destructive"
             onClick={() => {
-              if (window.confirm('Reset ALL progress (XP, badges, scores)? This cannot be undone. Export first if unsure.')) {
+              if (window.confirm('Reset ALL progress (XP, badges, scores, time spent)? This cannot be undone. Export first if unsure.')) {
                 reset()
+                useTime.getState().reset()
                 setMsg('Progress reset.')
               }
             }}

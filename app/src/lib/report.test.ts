@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import type { ReviewItem, TopicProgress } from '@/stores/progress'
-import { needsAttention, recentActivity, subjectSummary } from './report'
+import { needsAttention, recentActivity, subjectSummary, timeSummary } from './report'
+import { EMPTY_TIME, credit } from './timeTracking'
 
 const tp = (bestScore: number, lastSeen: string, extra: Partial<TopicProgress> = {}): TopicProgress => ({ lessonDone: true, bestScore, attempts: 1, lastSeen, ...extra })
 
@@ -31,5 +32,25 @@ describe('report', () => {
 
   it('shows recent activity newest first', () => {
     expect(recentActivity(progress, 3).map((x) => x.key)).toEqual(['x', 'b', 'a'])
+  })
+
+  it('summarises time spent', () => {
+    let time = credit(EMPTY_TIME, { subject: 'chemistry', topicKey: 'a' }, 600, '2026-09-26')
+    time = credit(time, { subject: 'physics', topicKey: 'b' }, 300, '2026-09-22')
+    time = credit(time, { subject: 'chemistry', labId: 'lab' }, 120, '2026-09-14') // the week before
+    time = credit(time, { other: 'home' }, 30, '2026-09-26')
+    const s = timeSummary(time, '2026-09-26', ['chemistry', 'physics', 'biology'], 1)
+    expect(s).toEqual({
+      today: 630,
+      week: 930,
+      allTime: 1050,
+      subjects: [
+        { id: 'chemistry', week: 600, allTime: 720 },
+        { id: 'physics', week: 300, allTime: 300 },
+        { id: 'biology', week: 0, allTime: 0 },
+      ],
+      topTopics: [{ key: 'a', seconds: 600 }],
+    })
+    expect(timeSummary(EMPTY_TIME, '2026-09-26', []).allTime).toBe(0)
   })
 })

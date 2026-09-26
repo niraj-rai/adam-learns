@@ -8,12 +8,15 @@ import { Readout } from '@/labs/_kit/LabFrame'
 import { BADGES } from '@/lib/badges'
 import { levelFor } from '@/lib/levels'
 import { effectiveGrade, gradeTopics, pendingWarmups, strength } from '@/lib/learner'
-import { needsAttention, recentActivity, subjectSummary } from '@/lib/report'
+import { needsAttention, recentActivity, subjectSummary, timeSummary } from '@/lib/report'
+import { formatDuration } from '@/lib/timeTracking'
+import { DailyBars } from '@/components/progress/TimeSpent'
 import { DAY_SHORT, TIMES, WEEK, activeInLast, formatMinutes, planSubjects, shiftIso, todayIso, weekAdherence, weeklyMinutes } from '@/lib/schedule'
 import { STATUS_STYLE, topicStatus } from '@/lib/status'
 import { cn } from '@/lib/utils'
 import { useProfile } from '@/stores/profile'
 import { currentStreak, dueReviewItems, useProgress } from '@/stores/progress'
+import { useTime } from '@/stores/time'
 
 export const Route = createFileRoute('/report')({ component: ReportPage })
 
@@ -72,6 +75,8 @@ function ReportPage() {
     const g = grade ? effectiveGrade(grade, s.id) : null
     return { s, g, sum: subjectSummary(list, topics) }
   })
+  const timeAll = useTime()
+  const time = timeSummary(timeAll, today, subjects.map((s) => s.id))
   const gradeMastered = perSubject.reduce((n, x) => n + x.sum.mastered, 0)
   const gradeTotal = perSubject.reduce((n, x) => n + x.sum.total, 0)
 
@@ -87,7 +92,7 @@ function ReportPage() {
         <h1 className="mt-1 font-heading text-3xl font-bold sm:text-4xl"><span className="font-hand text-brand">{name}</span></h1>
         <p className="mt-1 text-sm text-muted-foreground">{grade ? `Grade ${grade}` : 'Grade not set'} · Report made on {niceDate(today)}</p>
         <p className="mt-3 text-base">
-          {firstName || 'This learner'} studied on <b>{last7} of the last 7 days</b> and has mastered <b>{gradeMastered} of {gradeTotal}</b> {grade ? `Grade ${grade} ` : ''}topics so far{masteredAll > gradeMastered ? ` (${masteredAll} in all grades)` : ''}.
+          {firstName || 'This learner'} studied on <b>{last7} of the last 7 days</b>{time.week > 0 ? <> (<b>{formatDuration(time.week)}</b> of active learning this week)</> : ''} and has mastered <b>{gradeMastered} of {gradeTotal}</b> {grade ? `Grade ${grade} ` : ''}topics so far{masteredAll > gradeMastered ? ` (${masteredAll} in all grades)` : ''}.
           {attention.length ? ` ${attention.length} ${attention.length === 1 ? 'topic is' : 'topics are'} worth another look.` : ' Nothing needs extra attention right now. 🎉'}
         </p>
       </header>
@@ -127,6 +132,38 @@ function ReportPage() {
           <span><span className="mr-1 inline-block size-2.5 rounded-full bg-warn align-middle" />Started</span>
           <span><span className="mr-1 inline-block size-2.5 rounded-full bg-muted align-middle" />Not started</span>
         </p>
+      </Card>
+
+      <Card title="⏱️ Time spent" hint="Active learning time on this device. It pauses when the page is hidden or after 2 minutes with no activity. This week runs Monday to Sunday.">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(6.5rem,1fr))] gap-2">
+          <Readout label="Today" value={formatDuration(time.today)} />
+          <Readout label="This week" value={formatDuration(time.week)} />
+          <Readout label="All time" value={formatDuration(time.allTime)} />
+        </div>
+        <div className="mt-4 grid gap-5 sm:grid-cols-2 print:grid-cols-2">
+          <div className="min-w-0">
+            <p className="text-xs font-semibold text-muted-foreground uppercase">Last 14 days</p>
+            <DailyBars time={timeAll} today={today} className="mt-2" />
+          </div>
+          <table className="w-full text-sm">
+            <caption className="sr-only">Time spent per subject</caption>
+            <thead className="text-xs text-muted-foreground uppercase">
+              <tr><th scope="col" className="pb-1 text-left font-semibold">Subject</th><th scope="col" className="pb-1 text-right font-semibold">This week</th><th scope="col" className="pb-1 text-right font-semibold">All time</th></tr>
+            </thead>
+            <tbody>
+              {time.subjects.map(({ id, week, allTime }) => {
+                const s = subjects.find((x) => x.id === id)!
+                return (
+                  <tr key={id} className="border-t">
+                    <th scope="row" className="py-1 pr-2 text-left font-normal">{s.icon} {s.title}</th>
+                    <td className="py-1 text-right tabular-nums">{week ? formatDuration(week) : '–'}</td>
+                    <td className="py-1 text-right tabular-nums">{allTime ? formatDuration(allTime) : '–'}</td>
+                  </tr>
+                )
+              })}
+            </tbody>
+          </table>
+        </div>
       </Card>
 
       <div className="grid gap-5 md:grid-cols-2 print:grid-cols-2">

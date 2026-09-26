@@ -2,6 +2,7 @@ import { RouterProvider, createRouter } from '@tanstack/react-router'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { TooltipProvider } from '@/components/ui/tooltip'
+import { registerServiceWorker } from '@/lib/pwa'
 import { routeTree } from './routeTree.gen'
 import './index.css'
 
@@ -25,3 +26,6 @@ createRoot(document.getElementById('root')!).render(
     </TooltipProvider>
   </StrictMode>,
 )
+
+// offline support + installable app (production builds only)
+registerServiceWorker()

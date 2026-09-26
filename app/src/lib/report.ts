@@ -1,5 +1,6 @@
 import type { ReviewItem, TopicProgress } from '@/stores/progress'
 import { MASTERY_THRESHOLD } from './levels'
+import { secondsOn, subjectWeekSeconds, topEntries, weekSeconds, type TimeData } from './timeTracking'
 
 export type SubjectSummary = { total: number; mastered: number; started: number; notStarted: number; avgBest: number | null }
 
@@ -46,4 +47,26 @@ export function recentActivity(progress: Record<string, TopicProgress>, limit = 
     .sort((a, b) => b[1].lastSeen.localeCompare(a[1].lastSeen))
     .slice(0, limit)
     .map(([key, p]) => ({ key, p }))
+}
+
+export type TimeSummary = {
+  today: number
+  week: number
+  allTime: number
+  /** per subject id, in the order given: seconds this week and all time */
+  subjects: { id: string; week: number; allTime: number }[]
+  /** the topics with the most time, most first */
+  topTopics: { key: string; seconds: number }[]
+}
+
+/** Time spent learning (in seconds) for the report: today, this week (Monday to Sunday), all time, per subject. */
+export function timeSummary(time: TimeData, today: string, subjectIds: string[], topLimit = 5): TimeSummary {
+  const week = subjectWeekSeconds(time, today)
+  return {
+    today: secondsOn(time, today),
+    week: weekSeconds(time, today),
+    allTime: time.total,
+    subjects: subjectIds.map((id) => ({ id, week: week[id] ?? 0, allTime: time.subjects[id] ?? 0 })),
+    topTopics: topEntries(time.topics, topLimit),
+  }
 }

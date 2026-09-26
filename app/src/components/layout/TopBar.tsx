@@ -10,6 +10,7 @@ import { currentStreak, dueReviewItems, useProgress } from '@/stores/progress'
 import { isOnboarded, useProfile } from '@/stores/profile'
 import { applyTheme, useSettings, type Theme } from '@/stores/settings'
 import { appSegments } from '@/lib/path'
+import { InstallAppButton } from './InstallApp'
 import { Logo } from './Logo'
 
 const LINK = 'rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground data-[status=active]:bg-chem-soft data-[status=active]:text-foreground'
@@ -81,6 +82,7 @@ function SettingsPanel({ onNavigate }: { onNavigate?: () => void }) {
           <span className="text-xs font-semibold">{hasPlan ? 'Edit' : 'Set up'}</span>
         </Link>
       )}
+      <InstallAppButton />
     </div>
   )
 }

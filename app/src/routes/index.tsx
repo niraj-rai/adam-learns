@@ -2,6 +2,7 @@ import { Link, createFileRoute } from '@tanstack/react-router'
 import { ArrowRight } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { BoardTags, ComplexityStars } from '@/components/board/BoardTags'
+import { InstallAppCard } from '@/components/layout/InstallApp'
 import { TodayPlan } from '@/components/plan/StudyPlan'
 import { Button } from '@/components/ui/button'
 import { getAllTopics, getSubjects } from '@/content/loader'
@@ -11,6 +12,9 @@ import { levelFor } from '@/lib/levels'
 import { gradeTopics, nextForLearner, pendingWarmups, stageForGrade, topicGrade } from '@/lib/learner'
 import { useProfile } from '@/stores/profile'
 import { currentStreak, dueReviewItems, useProgress } from '@/stores/progress'
+import { useTime } from '@/stores/time'
+import { localDate } from '@/lib/dates'
+import { formatDuration } from '@/lib/timeTracking'
 
 export const Route = createFileRoute('/')({ component: Home })
 
@@ -28,6 +32,7 @@ function Home() {
   const level = levelFor(xp)
   const mastered = getAllTopics().filter((t) => topics[t.key]?.masteredAt).length
   const due = dueReviewItems(review).length
+  const todaySecs = useTime((s) => s.days[localDate()] ?? 0)
   const hour = new Date().getHours()
   const greeting = hour < 12 ? 'Good morning' : hour < 17 ? 'Good afternoon' : 'Good evening'
 
@@ -60,7 +65,7 @@ function Home() {
 
         <div className="grid grid-cols-2 gap-3">
           <Stat emoji={level.current.emoji} label="Level" value={level.current.name} sub={level.next ? `${level.next.xp - xp} XP to ${level.next.name}` : 'Top level!'} />
-          <Stat emoji="🔥" label="Streak" value={`${currentStreak(activeDays)} days`} sub="Learn a little every day" />
+          <Stat emoji="🔥" label="Streak" value={`${currentStreak(activeDays)} days`} sub={todaySecs ? `⏱️ ${formatDuration(todaySecs)} today` : 'Learn a little every day'} />
           <Stat emoji="🎯" label="Mastered" value={`${mastered} topics`} sub="80%+ on practice" />
           <Link to="/review" className="block">
             <Stat emoji="🔁" label="Review" value={`${due} due`} sub={due ? 'Tap to review now' : 'All caught up'} highlight={due > 0} />
@@ -139,6 +144,8 @@ function Home() {
           <BoardTags topic={next} className="mt-2" />
         </section>
       )}
+
+      <InstallAppCard />
     </div>
   )
 }
