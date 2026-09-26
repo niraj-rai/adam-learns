@@ -1,0 +1,58 @@
+{
+  "id": "word-problems",
+  "number": "5.3",
+  "title": "From Stories to Equations",
+  "summary": "Ages, consecutive numbers, perimeters, coins and fares: write the equation, solve it, check it makes sense.",
+  "emoji": "📖",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Modelling real problems with equations builds MYP Criterion D"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 2: Linear Equations in One Variable",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Part 2 Ch 7: Finding the Unknown",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can define a variable and write an equation from a story.",
+    "I can solve the equation and interpret the answer.",
+    "I can check that the answer makes sense in the context."
+  ],
+  "misconceptions": [
+    "The first number in a story always goes first in the equation.",
+    "If the maths works, the answer must be sensible.",
+    "You don't need to say what the letter stands for."
+  ],
+  "prerequisites": [
+    "mathematics/equations/solving-linear-equations"
+  ],
+  "labs": [
+    "word-problems"
+  ],
+  "keyTerms": [
+    "variable",
+    "model",
+    "consecutive",
+    "perimeter",
+    "interpret"
+  ],
+  "estMinutes": 30
+}

@@ -1,0 +1,57 @@
+{
+  "id": "equations-and-balance",
+  "number": "5.1",
+  "title": "Equations as Balances",
+  "summary": "An equation says two things are equal, like a balanced scale. Keep it balanced to find the unknown.",
+  "emoji": "⚖️",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Solving one-step and two-step equations is MYP 2 Algebra"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Part 2 Ch 7: Finding the Unknown",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 4: Simple Equations",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can explain what an equation is using the idea of balance.",
+    "I can solve one- and two-step equations.",
+    "I can check a solution by substituting."
+  ],
+  "misconceptions": [
+    "You can move a number across the = sign and just change its sign, with no reason.",
+    "An equation and an expression are the same thing.",
+    "Doing something to only one side is fine."
+  ],
+  "prerequisites": [
+    "mathematics/algebra/simplifying-expressions"
+  ],
+  "labs": [
+    "balance-scale"
+  ],
+  "keyTerms": [
+    "equation",
+    "unknown",
+    "solution",
+    "inverse operation",
+    "balance"
+  ],
+  "estMinutes": 25
+}

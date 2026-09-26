@@ -1,0 +1,106 @@
+{
+  "topicId": "equations-and-balance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Solve x + 7 = 15.",
+      "answer": 8,
+      "explain": "Subtract 7 from both sides.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Solve 4x = 36.",
+      "answer": 9,
+      "explain": "Divide both sides by 4.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Solve 3x + 2 = 11.",
+      "answer": 3,
+      "explain": "Subtract 2: 3x = 9. Divide by 3: x = 3.",
+      "tolerance": 0
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Solve 2x + 5 = x + 9.",
+      "answer": 4,
+      "explain": "Subtract x from both sides: x + 5 = 9, so x = 4.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which of these is an equation?",
+      "options": [
+        "2x + 3",
+        "x > 4",
+        "3(x + 1)",
+        "2x + 3 = 9"
+      ],
+      "answer": 3,
+      "explain": "An equation has an equals sign linking two equal things."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "To solve 5x = 20 + x, what is a good first step?",
+      "options": [
+        "Subtract 5 from both sides",
+        "Divide the left side by 5",
+        "Subtract x from both sides",
+        "Add x to the left side only"
+      ],
+      "answer": 2,
+      "explain": "Collect the x's on one side, doing the same to both sides."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain, using the idea of a balance, why you must do the same thing to both sides of an equation.",
+      "modelAnswer": "An equation is like a balanced scale: both sides have the same value. If you add or remove something from only one side, that side becomes heavier or lighter, and the scale tips: the two sides are no longer equal. Doing the same to both sides keeps it balanced, so the equation stays true.",
+      "rubric": [
+        "Uses the balance idea",
+        "Explains what happens if only one side changes",
+        "Links to keeping the equation true"
+      ],
+      "explain": "Criterion C: explain clearly."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Is x = 4 a solution of 3x − 5 = 7?",
+      "options": [
+        "You can't tell without solving",
+        "No, because 3 × 4 − 5 = 17",
+        "Yes, because 3 × 4 − 5 = 7",
+        "No, because x must be 5"
+      ],
+      "answer": 2,
+      "explain": "Substitute: 12 − 5 = 7 ✓."
+    }
+  ]
+}

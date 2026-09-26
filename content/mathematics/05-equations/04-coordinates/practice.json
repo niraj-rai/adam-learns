@@ -1,0 +1,121 @@
+{
+  "topicId": "coordinates",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In which quadrant is (−2, 3)?",
+      "options": [
+        "IV",
+        "I",
+        "III",
+        "II"
+      ],
+      "answer": 3,
+      "explain": "x negative (left), y positive (up): quadrant II.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where is the point (0, −4)?",
+      "options": [
+        "On the x-axis",
+        "In quadrant IV",
+        "At the origin",
+        "On the y-axis"
+      ],
+      "answer": 3,
+      "explain": "x = 0 means it's on the y-axis, 4 below the origin."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which point is 3 left of the origin and 5 down?",
+      "options": [
+        "(−5, −3)",
+        "(3, −5)",
+        "(−3, −5)",
+        "(−3, 5)"
+      ],
+      "answer": 2,
+      "explain": "x first (−3), then y (−5).",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "A, B and C are three corners of a rectangle: A(−3, 2), B(4, 2), C(4, −1). Where is D?",
+      "options": [
+        "(−1, −3)",
+        "(4, −3)",
+        "(−3, −1)",
+        "(−3, 2)"
+      ],
+      "answer": 2,
+      "explain": "D is below A and level with C."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "The points (1, 1), (4, 1), (4, 4) and (1, 4) make a square. What is its area in square units?",
+      "answer": 9,
+      "explain": "Each side is 3 units long: 3 × 3 = 9.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "The points (1, 3), (2, 6), (3, 9) and (4, 12) follow a rule. Which point also follows it?",
+      "options": [
+        "(5, 13)",
+        "(6, 15)",
+        "(5, 15)",
+        "(15, 5)"
+      ],
+      "answer": 2,
+      "explain": "The y-coordinate is 3 times the x-coordinate."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the distance between (2, 5) and (2, −3)?",
+      "answer": 8,
+      "explain": "Same x, so count vertically from −3 up to 5: 8 units.",
+      "tolerance": 0
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "The point (0, 0) is called the ___.",
+      "blanks": [
+        [
+          "origin"
+        ]
+      ],
+      "wordBank": [
+        "origin",
+        "axis",
+        "quadrant"
+      ],
+      "explain": "The origin is where the axes cross."
+    }
+  ]
+}

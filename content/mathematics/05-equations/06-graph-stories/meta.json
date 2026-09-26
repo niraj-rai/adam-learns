@@ -1,0 +1,54 @@
+{
+  "id": "graph-stories",
+  "number": "5.6",
+  "title": "Reading Real-Life Graphs",
+  "summary": "Distance–time, filling and cooling graphs: what rises, flat parts, jumps and curves mean.",
+  "emoji": "📊",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Interpreting graphs is MYP 3 (links to MYP Sciences)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 13: Introduction to Graphs",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe what a real-life graph shows.",
+    "I can explain flat parts, steep parts and curves.",
+    "I can sketch a graph for a story."
+  ],
+  "misconceptions": [
+    "A graph is a picture of the journey's path.",
+    "A flat line means nothing is happening to time.",
+    "A steeper line means slower."
+  ],
+  "prerequisites": [
+    "mathematics/equations/linear-graphs",
+    "physics/motion/distance-time-graphs"
+  ],
+  "labs": [
+    "graph-stories"
+  ],
+  "keyTerms": [
+    "distance–time graph",
+    "rate of change",
+    "steep",
+    "horizontal",
+    "interpret"
+  ],
+  "estMinutes": 25
+}

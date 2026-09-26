@@ -61,11 +61,24 @@ CBSE mapping uses the new *Ganita Prakash* books (GP 6; GP 7 Parts 1–2; GP 8 P
 | 4.6 | Algebra play: tricks and puzzles | MYP 3 | GP 8 P2 Ch 6 ✅ | ★★ | **Algebra Magic Tricks**: bags and coins |
 | 4.7 | Boss: Algebra Quest | MYP 3 | Mixed | ★★★ | 10 mixed problems (3 lives) |
 
-### Units 5–9 (planned)
+### Unit 5: Linear Equations and Graphs ✅ built
+
+*IB Key Concept:* **Relationships** · *Related:* Equivalence, Model, Representation · *Global Context:* Globalization and sustainability
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 5.1 | Equations as balances | MYP 2 | GP 7 P2 Ch 7 ✅, earlier NCERT 7 Ch 4 ✅ | ★ | **Balance Scale**: bags and weights, same to both sides |
+| 5.2 | Solving linear equations | MYP 3 | Earlier NCERT 8 Ch 2 ✅ | ★★ | **Step Solver**: brackets, negatives, fractions |
+| 5.3 | From stories to equations | MYP 3 | Earlier NCERT 8 Ch 2 ✅ | ★★ | **Story to Equation**: ages, coins, fares |
+| 5.4 | Coordinates | MYP 2 | Earlier NCERT 8 Ch 13 ✅ | ★ | **Plot It**: four quadrants; complete the shape |
+| 5.5 | Straight-line graphs y = mx + c | MYP 3 | Earlier NCERT 8 Ch 13 ✅ | ★★ | **Line Grapher**: fares, °C→°F, draining tank |
+| 5.6 | Reading real-life graphs | MYP 3 | Earlier NCERT 8 Ch 13 ✅ | ★★ | **Graph Stories**: match 5 graphs to stories |
+| 5.7 | Boss: Equation Escape | MYP 3 | Mixed | ★★★ | 10 locks (3 lives) |
+
+### Units 6–9 (planned)
 
 | Unit | Topics | IB | CBSE | ★ | Signature labs |
 |---|---|---|---|---|---|
-| 5. Linear Equations & Graphs | Solving linear equations, coordinates, linear graphs, real-world graphs | MYP 2–3 | GP 7 P2 Ch 7; earlier NCERT 8 Ch 2, 13 | ★★★ | **Balance Scale** solver, **Plot It** |
 | 6. Ratio, Proportion & Percentages | Ratio, rule of three, direct/inverse proportion, percentages, profit/loss, tax, compound interest | MYP 2–3 | GP 8 Ch 7, P2 Ch 1, P2 Ch 3; earlier NCERT 8 Ch 7, 11 | ★★★ | **Recipe Scaler**, Interest Growth |
 | 7. Geometry: Angles, Shapes & Pythagoras | Parallel lines and transversals, triangles, congruence, quadrilaterals, constructions, Baudhayana–Pythagoras theorem | MYP 1–3 | GP 7 Ch 5, 7, P2 Ch 1, 6; GP 8 Ch 4, P2 Ch 2 | ★★★ | **Geometry Sandbox**, Pythagoras Proof |
 | 8. Mensuration | Area of polygons, surface area and volume, nets, solids and projections | MYP 2–3 | GP 8 P2 Ch 4, 7; earlier NCERT 8 Ch 9 | ★★★ | **Net Folder** |

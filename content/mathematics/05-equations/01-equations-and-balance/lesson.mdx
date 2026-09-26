@@ -1,0 +1,50 @@
+<Stage kind="wonder" title="The mystery bags" />
+
+<Hook emoji="⚖️">
+On one pan of a balance: 3 identical sealed bags and 2 one-kilogram weights. On the other: 11 one-kilogram weights. The scale is perfectly level. How heavy is one bag? You can work it out without opening anything, just by keeping the balance level.
+</Hook>
+
+<PredictFirst
+  question="3 bags + 2 kg balance 11 kg. How heavy is one bag?"
+  options={["2 kg", "3 kg", "4 kg", "11/3 kg"]}
+  answer={1}
+>
+Take 2 kg off **both** pans: 3 bags balance 9 kg. Split both pans into 3 equal groups: 1 bag balances 3 kg. In algebra: 3x + 2 = 11, so 3x = 9 and **x = 3**.
+</PredictFirst>
+
+<Stage kind="explain" title="Keep it balanced" />
+
+<ConceptCard title="What is an equation?">
+An <KeyTerm def="A statement that two expressions are equal, like 3x + 2 = 11">equation</KeyTerm> says two things have the same value. Solving it means finding the value of the unknown that makes it true, the <KeyTerm def="The value of the unknown that makes an equation true">solution</KeyTerm>. The golden rule: **whatever you do to one side, do to the other.**
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "Start: 2x + 5 = x + 9.",
+    "Remove one x from both sides: x + 5 = 9.",
+    "Remove 5 from both sides: x = 4.",
+    "Check: 2(4) + 5 = 13 and 4 + 9 = 13 ✓.",
+    "Each step uses an inverse operation: − undoes +, ÷ undoes ×."
+  ]}
+/>
+
+<Stage kind="try" title="Balance Scale" />
+
+<Lab id="balance-scale" />
+
+<MythFact myth="You just ‘move a number to the other side and change its sign’.">
+That shortcut works, but only because you are really **subtracting (or adding) the same amount on both sides**. Understanding why stops you making sign mistakes.
+</MythFact>
+
+<Stage kind="apply" title="Communicate" />
+
+<Inquiry criterion="C" title="Balance diagrams">
+Draw balance-scale pictures for 4x + 1 = 2x + 7. Show each step of the solution as a new picture with a caption, and finish with a check. Could your pictures work for 2x + 7 = 3? Explain the problem.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 7 Part 2 Ch 7 · Earlier NCERT 7 Ch 4">
+- Setting up and solving simple equations; transposing terms.
+- Checking the solution by substitution.
+</CbseCorner>
+
+<Reflect id="math-eq-balance" prompt="How does the balance picture help you understand solving equations?" />

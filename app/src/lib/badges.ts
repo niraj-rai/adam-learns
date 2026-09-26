@@ -55,6 +55,8 @@ export type BadgeId =
   | 'power-surge'
   | 'unit-algebra'
   | 'algebra-quest'
+  | 'unit-equations'
+  | 'equation-escape'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -114,5 +116,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'power-surge': { title: 'Power Surge', emoji: '⚡', description: 'Solved ten problems on exponents and standard form (Boss Challenge)' },
   'unit-algebra': { title: 'Algebra Architect', emoji: '🏗️', description: 'Mastered every core topic in Maths Unit 4: Algebra: Expressions and Identities' },
   'algebra-quest': { title: 'Algebra Champion', emoji: '🏆', description: 'Solved ten problems on expressions, identities and factorising (Boss Challenge)' },
+  'unit-equations': { title: 'Equation Master', emoji: '⚖️', description: 'Mastered every core topic in Maths Unit 5: Linear Equations and Graphs' },
+  'equation-escape': { title: 'Escape Artist', emoji: '🗝️', description: 'Opened ten locks with equations and graphs (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

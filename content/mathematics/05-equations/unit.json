@@ -1,0 +1,37 @@
+{
+  "id": "equations",
+  "number": 5,
+  "title": "Linear Equations and Graphs",
+  "summary": "Equations as balances, solving step by step, turning stories into equations, plotting coordinates, straight-line graphs y = mx + c, and reading the stories that graphs tell.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Equivalence",
+      "Model",
+      "Representation"
+    ],
+    "globalContext": "Globalization and sustainability",
+    "statementOfInquiry": "Equations and graphs model relationships between quantities, helping us find unknowns and make predictions about real situations."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "How do we solve a linear equation?",
+      "How do we plot points on a coordinate grid?",
+      "What do m and c mean in y = mx + c?"
+    ],
+    "conceptual": [
+      "Why must we do the same thing to both sides of an equation?",
+      "How can a graph show a relationship that a table cannot?"
+    ],
+    "debatable": [
+      "Can every real-life problem be written as an equation?",
+      "Can graphs be misleading?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 7 (Ganita Prakash) Part 2 Ch 7: Finding the Unknown",
+    "Earlier NCERT Class 7 Ch 4: Simple Equations",
+    "Earlier NCERT Class 8 Ch 2: Linear Equations in One Variable",
+    "Earlier NCERT Class 8 Ch 13: Introduction to Graphs"
+  ]
+}

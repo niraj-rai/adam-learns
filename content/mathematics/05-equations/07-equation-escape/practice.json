@@ -1,0 +1,100 @@
+{
+  "topicId": "equation-escape",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Solve 3x + 5 = 20.",
+      "answer": 5,
+      "explain": "3x = 15, x = 5.",
+      "tolerance": 0
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Solve 2(x − 4) = 10.",
+      "answer": 9,
+      "explain": "x − 4 = 5, x = 9.",
+      "tolerance": 0
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Solve x/4 + 3 = 7.",
+      "answer": 16,
+      "explain": "x/4 = 4, x = 16.",
+      "tolerance": 0
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In which quadrant is (−2, 3)?",
+      "options": [
+        "II",
+        "IV",
+        "I",
+        "III"
+      ],
+      "answer": 0,
+      "explain": "Left and up."
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Choose one Equation Escape lock. Explain your method and show a check.",
+      "modelAnswer": "For 5x − 3 = 2x + 12, I subtracted 2x from both sides to get 3x − 3 = 12, added 3 to get 3x = 15, then divided by 3: x = 5. Check: 5(5) − 3 = 22 and 2(5) + 12 = 22 ✓.",
+      "rubric": [
+        "Explains the steps",
+        "Shows working",
+        "Includes a check"
+      ],
+      "explain": "Criterion C: communicate your method."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Two consecutive numbers add up to 45. What is the smaller one?",
+      "answer": 22,
+      "explain": "2n + 1 = 45, n = 22.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "For the auto fare y = 15x + 30, what does the 30 mean?",
+      "options": [
+        "The trip is 30 km",
+        "The maximum fare",
+        "A fixed charge of ₹30 before travelling",
+        "₹30 per km"
+      ],
+      "answer": 2,
+      "explain": "When x = 0, y = 30."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A ride in that auto costs ₹120. How many km was it?",
+      "answer": 6,
+      "unit": "km",
+      "explain": "15x + 30 = 120, 15x = 90, x = 6.",
+      "tolerance": 0
+    }
+  ]
+}

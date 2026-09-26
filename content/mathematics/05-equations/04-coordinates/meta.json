@@ -1,0 +1,53 @@
+{
+  "id": "coordinates",
+  "number": "5.4",
+  "title": "Coordinates and the Cartesian Plane",
+  "summary": "Plotting points in all four quadrants, and using coordinates to describe shapes.",
+  "emoji": "📍",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "The coordinate plane is MYP 2 Geometry and Algebra"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 13: Introduction to Graphs",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B"
+  ],
+  "objectives": [
+    "I can read and plot points in all four quadrants.",
+    "I can name quadrants and points on the axes.",
+    "I can use coordinates to find missing corners of shapes."
+  ],
+  "misconceptions": [
+    "(3, 5) and (5, 3) are the same point.",
+    "The y-coordinate comes first.",
+    "Points on an axis belong to a quadrant."
+  ],
+  "prerequisites": [
+    "mathematics/number-systems/integers"
+  ],
+  "labs": [
+    "plot-it"
+  ],
+  "keyTerms": [
+    "coordinates",
+    "x-axis",
+    "y-axis",
+    "origin",
+    "quadrant",
+    "ordered pair"
+  ],
+  "estMinutes": 20
+}

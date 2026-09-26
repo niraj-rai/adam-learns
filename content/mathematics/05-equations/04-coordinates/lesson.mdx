@@ -1,0 +1,49 @@
+<Stage kind="wonder" title="Pinpoint it" />
+
+<Hook emoji="📍">
+How do you tell a friend exactly where to find something on a map, a chessboard, or a video game screen? You need **two numbers**: how far across and how far up. The mathematician and philosopher René Descartes made this idea famous, and every GPS, spreadsheet and computer game uses it today.
+</Hook>
+
+<PredictFirst
+  question="Are (2, 5) and (5, 2) the same point?"
+  options={["Yes, they use the same numbers", "No, order matters: x first, then y", "Only in quadrant I", "It depends on the scale"]}
+  answer={1}
+>
+(2, 5) is 2 across and 5 up; (5, 2) is 5 across and 2 up. Different points! That's why they're called **ordered pairs**.
+</PredictFirst>
+
+<Stage kind="explain" title="The Cartesian plane" />
+
+<ConceptCard title="Axes, origin and quadrants">
+The horizontal <KeyTerm def="The horizontal number line on a graph">x-axis</KeyTerm> and vertical y-axis cross at the <KeyTerm def="The point (0, 0) where the axes cross">origin</KeyTerm>. A point (x, y) is found by going x across, then y up or down. The axes split the plane into four **quadrants**, numbered I to IV anticlockwise from the top right.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Quadrant I", emoji: "↗️", points: ["x +, y +", "(3, 2)"] },
+    { title: "Quadrant II", emoji: "↖️", points: ["x −, y +", "(−3, 2)"] },
+    { title: "Quadrant III", emoji: "↙️", points: ["x −, y −", "(−3, −2)"] },
+    { title: "Quadrant IV", emoji: "↘️", points: ["x +, y −", "(3, −2)"] }
+  ]}
+/>
+
+<Stage kind="try" title="Plot It" />
+
+<Lab id="plot-it" />
+
+<DidYouKnow>
+A popular story says Descartes got the idea for coordinates while lying in bed watching a fly crawl on the ceiling, and realised he could describe its position with two distances from the walls.
+</DidYouKnow>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Reflections">
+Plot a triangle with corners (1, 2), (4, 2) and (2, 5). Reflect it in the y-axis, then in the x-axis, and record the new coordinates each time. Describe the pattern, and predict the image of (a, b) under each reflection.
+</Inquiry>
+
+<CbseCorner source="Earlier NCERT 8 Ch 13">
+- The Cartesian system; plotting points; coordinates of points on the axes.
+- Also used in CBSE Class 9 Coordinate Geometry.
+</CbseCorner>
+
+<Reflect id="math-eq-coords" prompt="Where have you seen coordinate systems used outside maths class?" />

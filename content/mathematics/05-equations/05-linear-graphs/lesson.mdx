@@ -1,0 +1,45 @@
+<Stage kind="wonder" title="Lines that predict" />
+
+<Hook emoji="📈">
+An auto-rickshaw charges ₹30 to start plus ₹15 per km. Plot the fare for 0, 1, 2, 3… km and the points line up perfectly. With that straight line, you can predict the fare for any distance, or find how far ₹120 will take you. That's the power of a **linear graph**.
+</Hook>
+
+<PredictFirst
+  question="In y = 15x + 30, what happens to y each time x goes up by 1?"
+  options={["It goes up by 30", "It goes up by 15", "It doubles", "It stays the same"]}
+  answer={1}
+>
+Each extra km adds ₹15. The number multiplying x, called the **gradient**, is the rate of change.
+</PredictFirst>
+
+<Stage kind="explain" title="y = mx + c" />
+
+<Formula tex="y = mx + c" caption="m is the gradient (steepness); c is the y-intercept (where the line crosses the y-axis)" />
+
+<Compare
+  columns={[
+    { title: "Gradient m", emoji: "📐", points: ["How much y changes for each 1 of x", "Positive: uphill; negative: downhill", "Bigger |m|: steeper"] },
+    { title: "Intercept c", emoji: "🎯", points: ["The value of y when x = 0", "Where the line crosses the y-axis", "Often a starting amount or fixed charge"] }
+  ]}
+/>
+
+<Stage kind="try" title="Line Grapher" />
+
+<Lab id="line-grapher" />
+
+<RealLife>
+The Celsius-to-Fahrenheit rule F = 1.8C + 32 is a straight line: 0 °C = 32 °F, and 100 °C = 212 °F. Weather apps, ovens and doctors' thermometers switch between them using this equation.
+</RealLife>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="Which phone plan?">
+Plan A costs ₹199 a month plus ₹2 per GB; Plan B costs ₹99 plus ₹6 per GB. Write an equation for each, draw both lines on the same axes, and use the graph to decide which plan is cheaper for different amounts of data. Where do the lines cross, and what does that mean?
+</Inquiry>
+
+<CbseCorner source="Earlier NCERT 8 Ch 13">
+- Linear graphs; drawing graphs from tables of values.
+- Applications: simple interest, perimeter, distance–time.
+</CbseCorner>
+
+<Reflect id="math-eq-lines" prompt="Think of something in your life that changes at a steady rate. What would its m and c be?" />

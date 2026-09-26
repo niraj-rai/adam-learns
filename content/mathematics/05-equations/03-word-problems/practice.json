@@ -1,0 +1,104 @@
+{
+  "topicId": "word-problems",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Adam is 3 times as old as his sister, and their ages add to 24. If s is his sister's age, which equation fits?",
+      "options": [
+        "s + 3s = 24",
+        "3s = 24",
+        "s + 3 = 24",
+        "3(s + 24) = s"
+      ],
+      "answer": 0,
+      "explain": "Adam is 3s, and the ages add: s + 3s = 24.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Three consecutive numbers add up to 81. What is the smallest?",
+      "answer": 26,
+      "explain": "n + (n + 1) + (n + 2) = 81, so 3n + 3 = 81 and n = 26.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A rectangle's length is 5 cm more than its width, and its perimeter is 38 cm. Find the width.",
+      "answer": 7,
+      "unit": "cm",
+      "explain": "2(w + w + 5) = 38, 4w + 10 = 38, w = 7 cm.",
+      "tolerance": 0
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Riya has 20 coins, all ₹10 or ₹5, worth ₹140 in total. How many ₹10 coins does she have?",
+      "answer": 8,
+      "unit": "coins",
+      "explain": "10t + 5(20 − t) = 140, 5t + 100 = 140, t = 8.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "After spending 2/5 of her money, Meera has ₹180 left. How much did she start with?",
+      "answer": 300,
+      "unit": "₹",
+      "explain": "(3/5)m = 180, so m = 300.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A number is doubled and then 7 is added. The result is 43. What was the number?",
+      "answer": 18,
+      "explain": "2n + 7 = 43, 2n = 36, n = 18.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "In a problem, ‘5 less than a number’ should be written as…",
+      "options": [
+        "n − 5",
+        "5 − n",
+        "n/5",
+        "5n"
+      ],
+      "answer": 0,
+      "explain": "Start with the number, then take 5 away."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A student solves a problem about the number of people on a bus and gets 12.5. Explain what this tells you.",
+      "modelAnswer": "The number of people must be a whole number, so 12.5 can't be right in this context. Either there is a mistake in the equation or the working, or the story's numbers are impossible. The student should check the equation matches the story and re-check each step.",
+      "rubric": [
+        "Recognises the answer must be a whole number",
+        "Suggests checking the equation and the working",
+        "Links the maths back to the context"
+      ],
+      "explain": "Criterion C: interpret the answer in context."
+    }
+  ]
+}

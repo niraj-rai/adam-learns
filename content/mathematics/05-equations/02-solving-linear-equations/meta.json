@@ -1,0 +1,58 @@
+{
+  "id": "solving-linear-equations",
+  "number": "5.2",
+  "title": "Solving Linear Equations",
+  "summary": "Variables on both sides, brackets, negatives and fractions, step by balanced step.",
+  "emoji": "🪜",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Linear equations in one variable are MYP 3 Algebra"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 2: Linear Equations in One Variable",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Part 2 Ch 7: Finding the Unknown",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can solve equations with variables on both sides.",
+    "I can solve equations with brackets and fractions.",
+    "I can explain and check each step."
+  ],
+  "misconceptions": [
+    "When moving a term across =, you don't change its sign.",
+    "In 3(x − 2) only the x is multiplied by 3.",
+    "Fractions make an equation unsolvable without a calculator."
+  ],
+  "prerequisites": [
+    "mathematics/equations/equations-and-balance",
+    "mathematics/algebra/distributive-property"
+  ],
+  "labs": [
+    "step-solver"
+  ],
+  "keyTerms": [
+    "linear equation",
+    "variable on both sides",
+    "expand",
+    "clear fractions"
+  ],
+  "estMinutes": 30
+}

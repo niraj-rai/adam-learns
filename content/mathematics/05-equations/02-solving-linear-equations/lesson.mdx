@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="Harder locks" />
+
+<Hook emoji="🪜">
+2x + 3 = 11 is easy. But what about 7 − 2x = x + 1, or x/2 + x/3 = 10? They look scary, but the same balance idea cracks every one of them. You just need a plan and one step at a time.
+</Hook>
+
+<PredictFirst
+  question="In 5x − 3 = 2x + 12, what's a sensible first step?"
+  options={["Divide everything by 5", "Subtract 2x from both sides", "Add 12 to both sides", "Multiply both sides by 3"]}
+  answer={1}
+>
+Get the x terms together first: subtract 2x from both sides to get 3x − 3 = 12. Then add 3 (3x = 15) and divide by 3: **x = 5**.
+</PredictFirst>
+
+<Stage kind="explain" title="The plan" />
+
+<StepReveal
+  steps={[
+    "1. Expand any brackets: 3(x − 2) = 12 becomes 3x − 6 = 12.",
+    "2. Clear fractions by multiplying both sides by the LCM of the denominators: x/2 + x/3 = 10 becomes 3x + 2x = 60.",
+    "3. Collect the x terms on one side (add or subtract x terms on both sides).",
+    "4. Collect the numbers on the other side.",
+    "5. Divide both sides by the coefficient of x. Then CHECK by substituting."
+  ]}
+/>
+
+<Stage kind="try" title="Step Solver" />
+
+<Lab id="step-solver" />
+
+<DidYouKnow>
+The word **algebra** comes from the Arabic *al-jabr*, meaning “restoring”, from the title of a book by al-Khwarizmi (about 820 CE). *Al-jabr* meant moving a subtracted term to the other side so it becomes added: exactly what we do when solving equations.
+</DidYouKnow>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="When is there no solution?">
+Try to solve 2x + 3 = 2x + 5 and 3(x + 2) = 3x + 6. What happens? Investigate other equations like these, and describe when an equation has one solution, no solution, or infinitely many solutions.
+</Inquiry>
+
+<CbseCorner source="Earlier NCERT 8 Ch 2">
+- Linear equations in one variable with variables on both sides.
+- Reducing equations to simpler form (brackets, fractions).
+</CbseCorner>
+
+<Reflect id="math-eq-solve" prompt="Which step of solving equations do you find hardest? What will help you?" />

@@ -1,0 +1,121 @@
+{
+  "topicId": "graph-stories",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "On a distance–time graph, what does a horizontal (flat) section mean?",
+      "options": [
+        "The object is going downhill",
+        "The object is going backwards",
+        "The object is not moving",
+        "The object is moving fast"
+      ],
+      "answer": 2,
+      "explain": "Distance stays the same as time passes.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "On a distance–time graph, a steeper line means…",
+      "options": [
+        "the object has stopped",
+        "higher speed",
+        "the object is turning",
+        "lower speed"
+      ],
+      "answer": 1,
+      "explain": "More distance in the same time."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A water tank graph rises, stays flat, then falls to zero. What happened?",
+      "options": [
+        "The tank drained, then filled",
+        "The tank filled, stayed full for a while, then drained",
+        "The tank overflowed",
+        "The tank was always filling"
+      ],
+      "answer": 1,
+      "explain": "Rise = filling, flat = no change, fall = draining."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A graph of tea temperature drops steeply at first, then levels off. Why?",
+      "options": [
+        "The thermometer broke",
+        "Tea cools quickly when very hot, then more slowly near room temperature",
+        "The tea is being reheated",
+        "Tea cools at a steady rate"
+      ],
+      "answer": 1,
+      "explain": "The bigger the difference from room temperature, the faster it cools."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "In the bath graph, the water depth suddenly jumps up without the tap running. What is the best explanation?",
+      "options": [
+        "The plug was pulled out",
+        "Someone got into the bath",
+        "The water evaporated",
+        "The tap was turned off"
+      ],
+      "answer": 1,
+      "explain": "A body displaces water, so the level jumps."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Describe a journey that would give this distance–time graph: a straight line rising for 10 minutes, flat for 5 minutes, then a straight line back down to 0 over 20 minutes.",
+      "modelAnswer": "I walk away from home at a steady speed for 10 minutes, stop somewhere (e.g. a shop) for 5 minutes, then walk back home at a slower steady speed, taking 20 minutes, because the return line is less steep.",
+      "rubric": [
+        "Steady speed away",
+        "A stop",
+        "Return home more slowly (less steep)"
+      ],
+      "explain": "Criterion C: interpret a graph in words."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A ball is thrown up. Its height–time graph curves up, flattens at the top, then curves down. What happens at the flat top?",
+      "options": [
+        "The ball is rolling",
+        "The ball is moving fastest",
+        "The ball is momentarily still before falling",
+        "The ball has hit the ground"
+      ],
+      "answer": 2,
+      "explain": "At the top, its vertical speed is zero for an instant."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Adam walks 1000 m to school. On his graph he covers the first 400 m in 5 minutes. What is his speed in metres per minute for that part?",
+      "answer": 80,
+      "unit": "m/min",
+      "explain": "400 ÷ 5 = 80 m/min.",
+      "tolerance": 0
+    }
+  ]
+}

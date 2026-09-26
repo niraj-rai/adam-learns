@@ -1,0 +1,54 @@
+{
+  "id": "linear-graphs",
+  "number": "5.5",
+  "title": "Straight-Line Graphs: y = mx + c",
+  "summary": "Tables, graphs and equations for linear relationships: gradient and intercept in real situations.",
+  "emoji": "📈",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Linear functions are MYP 3 (extended in MYP 4–5)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 13: Introduction to Graphs",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can make a table of values and plot a straight-line graph.",
+    "I can explain what m and c mean in a real situation.",
+    "I can use a graph to make predictions."
+  ],
+  "misconceptions": [
+    "All graphs start at the origin.",
+    "A bigger c makes a line steeper.",
+    "A negative gradient means the y-values are negative."
+  ],
+  "prerequisites": [
+    "mathematics/equations/coordinates",
+    "mathematics/equations/equations-and-balance"
+  ],
+  "labs": [
+    "line-grapher"
+  ],
+  "keyTerms": [
+    "linear",
+    "gradient",
+    "intercept",
+    "table of values",
+    "y = mx + c"
+  ],
+  "estMinutes": 30
+}
