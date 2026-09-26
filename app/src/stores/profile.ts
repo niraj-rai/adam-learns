@@ -32,7 +32,8 @@ export const useProfile = create<ProfileState>()(
     (set, get) => ({
       ...initial,
       setName: (firstName, lastName) => set({ firstName: firstName.trim(), lastName: lastName.trim() }),
-      setGrade: (grade) => set({ grade }),
+      // a new grade makes the old warm-ups out of date, so the check is cleared
+      setGrade: (grade) => set(get().grade === grade ? { grade } : { grade, check: null }),
       // skipping keeps any earlier check result
       finish: (check) => set({ onboardedAt: get().onboardedAt ?? new Date().toISOString(), check: check ?? get().check }),
       clear: () => set({ ...initial }),

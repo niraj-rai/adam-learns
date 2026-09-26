@@ -12,7 +12,7 @@ import { GRADES, isOnboarded, useProfile, type Grade, type SkillsCheck } from '@
 type Step = 'name' | 'grade' | 'intro' | 'check' | 'results'
 
 export const Route = createFileRoute('/welcome')({
-  validateSearch: (s: Record<string, unknown>): { step?: 'check' } => (s.step === 'check' ? { step: 'check' } : {}),
+  validateSearch: (s: Record<string, unknown>): { step?: 'check' | 'grade' } => (s.step === 'check' || s.step === 'grade' ? { step: s.step } : {}),
   component: Welcome,
 })
 
@@ -30,7 +30,9 @@ function Welcome() {
   const navigate = useNavigate()
   const { step: startAt } = Route.useSearch()
   const ready = isOnboarded(profile)
-  const [step, setStep] = useState<Step>(startAt === 'check' && ready ? 'intro' : 'name')
+  const [step, setStep] = useState<Step>(!ready ? 'name' : startAt === 'check' ? 'intro' : startAt === 'grade' ? 'grade' : 'name')
+  const [startGrade] = useState(profile.grade)
+  const hadCheck = useState(() => Boolean(profile.check))[0]
   const [first, setFirst] = useState(profile.firstName)
   const [last, setLast] = useState(profile.lastName)
   const [grade, setGrade] = useState<Grade | null>(profile.grade)
@@ -85,8 +87,11 @@ function Welcome() {
 
       {step === 'grade' && (
         <div className="rounded-3xl border-2 bg-card p-6 shadow-sm sm:p-8">
-          <h1 className="font-heading text-3xl font-bold">Hi <span className="font-hand text-4xl text-brand">{first.trim()}</span>! Which grade are you in?</h1>
-          <p className="mt-2 text-muted-foreground">We'll show your grade's topics first, with warm-ups from earlier grades when you need them.</p>
+          <h1 className="font-heading text-3xl font-bold">Hi <HandName name={first.trim()} className="text-4xl" />! {ready ? 'Which grade are you in now?' : 'Which grade are you in?'}</h1>
+          <p className="mt-2 text-muted-foreground">
+            {ready && startGrade ? <>You're set to <b>Grade {startGrade}</b>. Moved up a class, or picked the wrong one? Choose your grade below. </> : null}
+            We'll show your grade's topics first, with warm-ups from earlier grades when you need them.
+          </p>
           <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3" role="radiogroup" aria-label="Your grade">
             {GRADES.map((g) => (
               <button
@@ -119,6 +124,9 @@ function Welcome() {
         <div className="rounded-3xl border-2 bg-card p-6 shadow-sm sm:p-8">
           <p className="text-5xl">🧭</p>
           <h1 className="mt-3 font-heading text-3xl font-bold">Quick skills check</h1>
+          {ready && startGrade && startGrade !== grade && (
+            <p className="mt-2 rounded-xl bg-brand-soft px-3 py-2 text-sm">🎓 You've moved from Grade {startGrade} to <b>Grade {grade}</b>.{hadCheck ? ' Your old warm-ups were for Grade ' + startGrade + ', so take the check again to get new ones.' : ''}</p>
+          )}
           <p className="mt-2 text-muted-foreground">
             About 12 questions across all four subjects, from the grades before yours. It shows your strengths and picks a few <b>warm-up topics</b> to practise before your Grade {grade} topics, since they build on these basics.
           </p>
@@ -227,7 +235,7 @@ function Results({ name, grade, result, onDone }: { name: string; grade: Grade; 
   return (
     <div className="rounded-3xl border-2 bg-card p-6 shadow-sm sm:p-8">
       <p className="text-5xl">🎉</p>
-      <h1 className="mt-3 font-heading text-3xl font-bold">Well done, <span className="font-hand text-4xl text-brand">{name}</span>!</h1>
+      <h1 className="mt-3 font-heading text-3xl font-bold">Well done, <HandName name={name} className="text-4xl" />!</h1>
       <p className="mt-2 text-muted-foreground">{answered ? 'Here is your starting point.' : 'You skipped the questions, so there are no warm-ups yet. You can take the check any time from the Progress page.'}</p>
       {answered > 0 && (
         <div className="mt-5 grid gap-2 sm:grid-cols-2">
@@ -258,4 +266,9 @@ function Results({ name, grade, result, onDone }: { name: string; grade: Grade; 
       </div>
     </div>
   )
+}
+
+/** The learner's name in handwriting; punctuation after it stays in the normal font, with a little space. */
+function HandName({ name, className }: { name: string; className?: string }) {
+  return <span className={cn('mr-2 font-hand font-bold text-brand', className)}>{name}</span>
 }

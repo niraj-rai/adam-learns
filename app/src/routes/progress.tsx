@@ -50,7 +50,8 @@ function ProgressPage() {
             <p className="text-sm text-muted-foreground">{profile.grade ? `Grade ${profile.grade}` : 'Grade not set'}{profile.check ? ` · Skills check on ${profile.check.takenAt.slice(0, 10)}` : ' · Skills check not taken'}</p>
           </div>
           <div className="flex flex-wrap gap-2">
-            <Button asChild variant="outline"><Link to="/welcome">Edit name &amp; grade</Link></Button>
+            <Button asChild variant="outline"><Link to="/welcome">Edit name</Link></Button>
+            <Button asChild variant="outline"><Link to="/welcome" search={{ step: 'grade' }}>🎓 Change grade</Link></Button>
             <Button asChild className="bg-brand text-white hover:bg-brand/90"><Link to="/welcome" search={{ step: 'check' }}>{profile.check ? 'Retake skills check' : 'Take skills check'}</Link></Button>
           </div>
         </div>

@@ -35,7 +35,7 @@ function Home() {
         <div className="rounded-3xl bg-brand p-7 text-white shadow-lg" style={{ backgroundImage: 'linear-gradient(135deg, var(--brand), color-mix(in oklch, var(--brand), black 25%))' }}>
           <p className="text-sm font-semibold tracking-wide text-white/80">
             <span className="uppercase">{greeting}, </span>
-            {firstName ? <span className="font-hand text-3xl leading-none font-bold tracking-normal text-white normal-case">{firstName}!</span> : <span className="uppercase">scientist!</span>}
+            {firstName ? <><span className="mr-1.5 font-hand text-3xl leading-none font-bold tracking-normal text-white normal-case">{firstName}</span>!</> : <span className="uppercase">scientist!</span>}
           </p>
           <h1 className="mt-2 font-heading text-3xl leading-tight font-bold sm:text-4xl">What will you discover today?</h1>
           {next ? (
@@ -151,7 +151,10 @@ function GradePlan() {
     <section>
       <div className="flex flex-wrap items-end justify-between gap-2">
         <h2 className="font-heading text-2xl font-semibold">Your Grade {grade} path</h2>
-        <Link to="/welcome" search={{ step: 'check' }} className="text-sm font-semibold text-brand hover:underline">{check ? 'Retake skills check' : 'Take the skills check'} →</Link>
+        <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm font-semibold">
+          <Link to="/welcome" search={{ step: 'grade' }} className="text-muted-foreground hover:text-brand hover:underline">🎓 Change grade</Link>
+          <Link to="/welcome" search={{ step: 'check' }} className="text-brand hover:underline">{check ? 'Retake skills check' : 'Take the skills check'} →</Link>
+        </div>
       </div>
       {warm.length > 0 ? (
         <div className="mt-4 rounded-2xl border-2 border-brand/40 bg-brand-soft/60 p-4">
