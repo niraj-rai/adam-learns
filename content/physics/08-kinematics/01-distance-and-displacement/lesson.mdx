@@ -1,0 +1,45 @@
+<Stage kind="wonder" title="How far did you really go?" />
+
+<Hook emoji="🧭">
+You walk 3 blocks east and 4 blocks north to school: 700 m of walking. But a crow flying straight from your home to school covers only 500 m. And at the end of the day, when you're back home, how far from home are you? **Zero!** Physics needs two different ideas for “how far”.
+</Hook>
+
+<PredictFirst
+  question="After a full lap of a 400 m running track, what is the athlete's displacement?"
+  options={["400 m", "0 m", "200 m", "It depends on her speed"]}
+  answer={1}
+>
+She ends exactly where she started, so her **displacement** is **0 m**, even though the **distance** she ran is 400 m.
+</PredictFirst>
+
+<Stage kind="explain" title="Scalars and vectors" />
+
+<Compare
+  columns={[
+    { title: "Scalars (size only)", emoji: "🔢", points: ["Distance: total path length", "Speed = distance ÷ time", "Time, mass, temperature"] },
+    { title: "Vectors (size + direction)", emoji: "➡️", points: ["Displacement: straight line, start → finish", "Velocity = displacement ÷ time", "Force, acceleration"] }
+  ]}
+/>
+
+<Formula tex="\text{average speed} = \frac{\text{total distance}}{\text{total time}} \qquad \text{average velocity} = \frac{\text{displacement}}{\text{total time}}" caption="Speed vs velocity" />
+
+<Stage kind="try" title="Distance vs Displacement" />
+
+<Lab id="displacement-walker" />
+
+<RealLife>
+Google Maps shows two numbers: the **road distance** and, for flights, the **straight-line distance**. Pilots, ships' navigators and drone operators work with displacement and velocity, because direction matters as much as size.
+</RealLife>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Walking speed survey">
+Design an investigation to find your average walking speed and velocity from your classroom to the school gate. Identify your variables, decide how to measure distance, displacement and time accurately, and plan repeat trials. Carry it out if you can.
+</Inquiry>
+
+<CbseCorner source="Exploration (Class 9, 2026) Ch 4 · Earlier NCERT Class 9: Motion">
+- Distance and displacement; speed and velocity; uniform and non-uniform motion.
+- Exam tip: always give the direction with displacement and velocity.
+</CbseCorner>
+
+<Reflect id="phys9-kin-disp" prompt="Give an everyday example where you'd care about velocity rather than just speed." />

@@ -1,0 +1,102 @@
+{
+  "topicId": "equations-of-motion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "An object starts from rest and accelerates at 2 m/s² for 5 s. What is its final velocity?",
+      "answer": 10,
+      "tolerance": 0,
+      "unit": "m/s",
+      "explain": "v = u + at = 0 + 10.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A scooter at 10 m/s accelerates at 2 m/s² for 5 s. How far does it travel?",
+      "answer": 75,
+      "tolerance": 0,
+      "unit": "m",
+      "explain": "s = ut + ½at² = 50 + 25 = 75 m.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A car at 20 m/s decelerates at 5 m/s² to rest. How far does it travel while braking?",
+      "answer": 40,
+      "tolerance": 0,
+      "unit": "m",
+      "explain": "v² = u² + 2as: 0 = 400 − 10s, so s = 40 m."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A stone is dropped from a 45 m cliff (take g = 10 m/s², ignore air). How long does it take to reach the ground?",
+      "answer": 3,
+      "tolerance": 0,
+      "unit": "s",
+      "explain": "45 = ½ × 10 × t², so t² = 9 and t = 3 s."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A car moving at 25 m/s brakes at 5 m/s². What is its braking distance?",
+      "answer": 62.5,
+      "tolerance": 0,
+      "unit": "m",
+      "explain": "s = u² ÷ 2a = 625 ÷ 10 = 62.5 m."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "If a car's speed is doubled, what happens to its braking distance (same braking force)?",
+      "options": [
+        "It stays the same",
+        "It halves",
+        "It becomes four times as long",
+        "It doubles"
+      ],
+      "answer": 2,
+      "explain": "s = u² ÷ 2a, so s depends on the square of the speed."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A ball is thrown straight up at 20 m/s (g = 10 m/s²). How high does it rise?",
+      "answer": 20,
+      "tolerance": 0,
+      "unit": "m",
+      "explain": "At the top v = 0: 0 = 400 − 20s, so s = 20 m."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Using the equations of motion, explain why using a phone while driving is so dangerous, even for a second or two.",
+      "modelAnswer": "During reaction time, the car keeps moving at full speed before the driver even starts braking. At 20 m/s, 2 extra seconds of distraction adds 40 m of travel (s = vt). Then the braking distance (s = u²/2a) is added on top. Together this total stopping distance can be longer than the distance to a hazard, so the driver can't stop in time.",
+      "rubric": [
+        "Reaction-time distance at constant speed",
+        "Braking distance from the equations",
+        "Conclusion about danger"
+      ],
+      "explain": "Criterion D: impact of science on everyday decisions."
+    }
+  ]
+}

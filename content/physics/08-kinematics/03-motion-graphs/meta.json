@@ -1,0 +1,59 @@
+{
+  "id": "motion-graphs",
+  "number": "8.3",
+  "title": "Motion Graphs",
+  "summary": "Reading displacement–time and velocity–time graphs: slopes, areas and shapes.",
+  "emoji": "📈",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Graphical analysis is MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 4: Describing Motion Around Us",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Motion",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can find velocity from the slope of a displacement–time graph.",
+    "I can find acceleration and displacement from a velocity–time graph.",
+    "I can describe motion from graph shapes."
+  ],
+  "misconceptions": [
+    "A flat v–t line means the object has stopped.",
+    "The area under a v–t graph is the acceleration.",
+    "Graphs show the shape of the path."
+  ],
+  "prerequisites": [
+    "physics/kinematics/acceleration",
+    "physics/motion/distance-time-graphs"
+  ],
+  "labs": [
+    "motion-grapher"
+  ],
+  "keyTerms": [
+    "slope",
+    "gradient",
+    "area under a graph",
+    "velocity–time graph",
+    "displacement–time graph"
+  ],
+  "estMinutes": 30
+}

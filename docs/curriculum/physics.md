@@ -103,16 +103,36 @@ Sound is not in the new Curiosity series (Classes 6–8), so it maps to the earl
 
 ## L3: Grades 9–10
 
-| Unit | Topics | IB | CBSE | ★ |
+CBSE Class 9 now uses the new integrated NCERT science book **Exploration** (April 2026, 13 chapters). Its physics chapters are Ch 4 Describing Motion Around Us, Ch 6 How Forces Affect Motion (gravitation is folded in here), Ch 7 Work, Energy and Simple Machines, and Ch 10 Sound Waves. The earlier NCERT Class 9 chapters are also mapped. Grade 9–10 units have `stage` G9/G10 and appear under their own Grade tab on the Physics page.
+
+### Grade 9 · Unit 8: Describing Motion ✅ built
+
+*IB Key Concept:* **Relationships** · *Related:* Movement, Models, Patterns · *Global Context:* Scientific and technical innovation
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 8.1 | Distance, displacement, speed and velocity | MYP 4 | Exploration Ch 4 ✅, earlier NCERT 9 Motion ✅ | ★★ | **Distance vs Displacement**: walk the streets to school |
+| 8.2 | Acceleration | MYP 4 | Exploration Ch 4 ✅ | ★★ | **Acceleration Track**: ticker-tape dots, braking |
+| 8.3 | Motion graphs | MYP 4 | Exploration Ch 4 ✅ | ★★★ | **Motion Grapher**: v–t slope and area, s–t curve |
+| 8.4 | Equations of motion | MYP 4 | Exploration Ch 4 ✅ | ★★★ | **Equations of Motion**: metro, coconut, cricket ball |
+| 8.5 | Uniform circular motion | MYP 4 | Exploration Ch 4 ✅ | ★★ | **Circular Motion**: tangential velocity; let go! |
+| 8.6 | Boss: Motion Master | MYP 4 | Mixed | ★★★ | 10 problems (3 lives) |
+
+### Grade 9 (planned)
+
+| Unit | Topics | IB | CBSE (Exploration) | ★ |
 |---|---|---|---|---|
-| Motion | Equations of motion, velocity–time graphs, acceleration | MYP 4 | 9 | ★★★★ |
-| Newton's Laws & Momentum | Three laws, momentum, conservation | MYP 4 | 9 | ★★★★ |
-| Gravitation | Universal law, g, weight, buoyancy, Archimedes | MYP 4 | 9 | ★★★★ |
-| Work, Energy & Power | W = Fs, KE, PE, power, efficiency | MYP 4–5 | 9 | ★★★★ |
-| Waves & Sound | Wave properties, echo, ultrasound | MYP 4 | 9 | ★★★ |
-| Light | Reflection/refraction laws, mirror and lens formulas, human eye, dispersion | MYP 5 | 10 | ★★★★ |
-| Electricity | Ohm's law, resistance, series/parallel, power, heating | MYP 5 | 10 | ★★★★ |
-| Magnetic Effects | Fields, motor rule, electromagnetic induction | MYP 5 | 10 | ★★★★ |
+| 9. Forces and Newton's Laws | Balanced/unbalanced forces, three laws, momentum and its conservation, gravitation, g, weight | MYP 4 | Ch 6 | ★★★★ |
+| 10. Work, Energy and Simple Machines | Work, KE, PE, conservation, power, levers, pulleys, inclined planes, mechanical advantage | MYP 4 | Ch 7 | ★★★★ |
+| 11. Sound Waves | Longitudinal waves, frequency, wavelength, speed, echo, reverberation, ultrasound, sonar, the ear | MYP 4 | Ch 10 | ★★★ |
+
+### Grade 10 (planned, to be checked against the current NCERT Class 10 book)
+
+| Unit | Topics | IB | ★ |
+|---|---|---|---|
+| Light | Reflection/refraction laws, mirror and lens formulas, human eye, dispersion | MYP 5 | ★★★★ |
+| Electricity | Ohm's law, resistance, series/parallel, power, heating | MYP 5 | ★★★★ |
+| Magnetic Effects | Fields, motor rule, electromagnetic induction | MYP 5 | ★★★★ |
 
 ## L4: Grades 11–12
 IB DP Physics themes A–E (Space, time and motion; The particulate nature of matter; Wave behaviour; Fields; Nuclear and quantum physics), mapped to CBSE 11–12 chapters when this level starts.

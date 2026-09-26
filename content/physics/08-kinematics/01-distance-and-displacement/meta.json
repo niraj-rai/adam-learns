@@ -1,0 +1,61 @@
+{
+  "id": "distance-and-displacement",
+  "number": "8.1",
+  "title": "Distance, Displacement, Speed and Velocity",
+  "summary": "Scalars and vectors: how far you went versus where you ended up, and speed versus velocity.",
+  "emoji": "🧭",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Scalars and vectors are MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 4: Describing Motion Around Us",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Motion",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can distinguish scalars from vectors.",
+    "I can calculate distance, displacement, average speed and average velocity.",
+    "I can explain why displacement can be zero when distance is not."
+  ],
+  "misconceptions": [
+    "Distance and displacement are always equal.",
+    "Velocity is just another word for speed.",
+    "Displacement can't be zero if you moved."
+  ],
+  "prerequisites": [
+    "physics/motion/speed",
+    "mathematics/geometry/pythagoras"
+  ],
+  "labs": [
+    "displacement-walker"
+  ],
+  "keyTerms": [
+    "scalar",
+    "vector",
+    "distance",
+    "displacement",
+    "speed",
+    "velocity",
+    "average speed"
+  ],
+  "estMinutes": 30
+}

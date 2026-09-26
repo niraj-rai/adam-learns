@@ -1,0 +1,114 @@
+{
+  "topicId": "circular-motion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why is uniform circular motion described as accelerated motion?",
+      "options": [
+        "The direction of motion keeps changing",
+        "The object keeps stopping",
+        "The speed keeps increasing",
+        "It isn't accelerated"
+      ],
+      "answer": 0,
+      "explain": "A change in direction is a change in velocity.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A merry-go-round seat moves in a circle of radius 7 m and completes one lap in 22 s. What is its speed (use π = 22/7)?",
+      "answer": 2,
+      "tolerance": 0,
+      "unit": "m/s",
+      "explain": "v = 2πr ÷ T = 44 ÷ 22 = 2 m/s.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In uniform circular motion, what is the direction of the velocity at any point?",
+      "options": [
+        "Along the tangent to the circle",
+        "Away from the centre",
+        "Straight up",
+        "Towards the centre"
+      ],
+      "answer": 0,
+      "explain": "Velocity is always along the direction of motion."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "A stone whirled on a string is released. Which way does it fly?",
+      "options": [
+        "Along the tangent at the point of release",
+        "Straight away from the centre",
+        "Towards the centre",
+        "It keeps circling"
+      ],
+      "answer": 0,
+      "explain": "No force now changes its direction."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Earth orbits the Sun at about 1.5 × 10⁸ km in 365 days. Roughly what is its orbital speed in km/s? (Use π ≈ 3.14.)",
+      "answer": 30,
+      "tolerance": 1,
+      "unit": "km/s",
+      "explain": "2π × 1.5 × 10⁸ km ÷ (365 × 86,400 s) ≈ 30 km/s."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "What provides the inward force that lets a car turn around a bend on a flat road?",
+      "options": [
+        "Friction between the tyres and the road",
+        "The car's engine pushing outwards",
+        "Gravity pulling sideways",
+        "Air pushing the car inwards"
+      ],
+      "answer": 0,
+      "explain": "That is why turning on wet or oily roads is dangerous."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "If the radius of the circle is doubled but the time per lap stays the same, by what factor does the speed increase?",
+      "answer": 2,
+      "tolerance": 0,
+      "explain": "v = 2πr ÷ T: doubling r doubles v."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A satellite moves in a circular orbit at constant speed. Which statement is true?",
+      "options": [
+        "Its speed is constant but its velocity keeps changing",
+        "It is not accelerating",
+        "Both speed and velocity are constant",
+        "Its speed keeps changing"
+      ],
+      "answer": 0,
+      "explain": "Its direction changes continuously."
+    }
+  ]
+}

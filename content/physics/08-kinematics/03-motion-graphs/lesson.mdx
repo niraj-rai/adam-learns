@@ -1,0 +1,53 @@
+<Stage kind="wonder" title="Graphs that tell a journey" />
+
+<Hook emoji="📈">
+In Grade 7 you read distance–time graphs. Now you'll add a second, more powerful graph: **velocity–time**. From a single v–t graph you can read the velocity at any moment, work out the acceleration from its **slope**, and find how far you went from the **area** underneath it. Engineers design metro timetables exactly this way.
+</Hook>
+
+<PredictFirst
+  question="A velocity–time graph is a flat horizontal line at 10 m/s. What does it mean?"
+  options={["The object is at rest", "The object moves at a constant 10 m/s", "The object is accelerating at 10 m/s²", "The object is going uphill"]}
+  answer={1}
+>
+Flat on a **v–t** graph means the velocity isn't changing: constant velocity, zero acceleration. (Flat on a **displacement–time** graph would mean at rest. Always read the axes!)
+</PredictFirst>
+
+<Stage kind="explain" title="Slopes and areas" />
+
+<Compare
+  columns={[
+    { title: "Displacement–time", emoji: "📏", points: ["Slope = velocity", "Straight line: constant velocity", "Curve: changing velocity"] },
+    { title: "Velocity–time", emoji: "🚀", points: ["Slope = acceleration", "Area underneath = displacement", "Flat: constant velocity"] }
+  ]}
+/>
+
+<StepReveal
+  steps={[
+    "Read the axes and units first.",
+    "Slope of v–t: rise ÷ run = change in velocity ÷ time = acceleration.",
+    "Area under v–t: split into rectangles and triangles and add them up.",
+    "Area below the time axis means moving backwards (negative displacement).",
+    "Check: does the shape of the s–t graph match the story of the v–t graph?"
+  ]}
+/>
+
+<Stage kind="try" title="Motion Grapher" />
+
+<Lab id="motion-grapher" />
+
+<DidYouKnow>
+The idea that the area under a velocity–time graph gives distance was worked out by medieval scholars at Merton College, Oxford, in the 1300s, over 200 years before Galileo tested it with rolling balls.
+</DidYouKnow>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Trolley on a ramp">
+Plan an experiment to test whether a trolley rolling down a ramp has uniform acceleration. Decide what to measure (e.g. time to pass marks at equal distances, or a phone video), how to plot a v–t graph, and what shape would confirm your hypothesis.
+</Inquiry>
+
+<CbseCorner source="Exploration (Class 9, 2026) Ch 4 · Earlier NCERT Class 9: Motion">
+- Graphical representation of motion: distance–time and velocity–time graphs.
+- Finding displacement from the area under a v–t graph.
+</CbseCorner>
+
+<Reflect id="phys9-kin-graphs" prompt="Which graph do you find easier to read, and why?" />

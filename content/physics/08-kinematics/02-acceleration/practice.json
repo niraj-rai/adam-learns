@@ -1,0 +1,110 @@
+{
+  "topicId": "acceleration",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A car goes from rest to 20 m/s in 8 s. What is its acceleration?",
+      "answer": 2.5,
+      "tolerance": 0,
+      "unit": "m/s²",
+      "explain": "(20 − 0) ÷ 8 = 2.5 m/s².",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A scooter slows from 15 m/s to 5 m/s in 4 s. What is its acceleration?",
+      "answer": -2.5,
+      "tolerance": 0,
+      "unit": "m/s²",
+      "explain": "(5 − 15) ÷ 4 = −2.5 m/s² (a deceleration).",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the SI unit of acceleration?",
+      "options": [
+        "s/m",
+        "m/s",
+        "m",
+        "m/s²"
+      ],
+      "answer": 3,
+      "explain": "Change in velocity (m/s) per second."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "On a ticker tape, the dots get closer and closer together. What is the object doing?",
+      "options": [
+        "Standing still",
+        "Speeding up",
+        "Slowing down",
+        "Moving at a constant speed"
+      ],
+      "answer": 2,
+      "explain": "Smaller gaps in equal times mean less distance each second."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A trolley's velocity is 2, 3.5, 5 and 6.5 m/s at t = 0, 1, 2 and 3 s. What is its acceleration?",
+      "answer": 1.5,
+      "tolerance": 0,
+      "unit": "m/s²",
+      "explain": "It gains 1.5 m/s every second."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "An object moving forwards has a negative acceleration. What is happening?",
+      "options": [
+        "It is at rest",
+        "It is slowing down",
+        "It is moving backwards",
+        "It is speeding up"
+      ],
+      "answer": 1,
+      "explain": "The acceleration points opposite to the motion."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Explain, using ideas about acceleration, why speed limits near schools are usually low.",
+      "modelAnswer": "A vehicle can only decelerate at a limited rate (its brakes and tyres limit the acceleration). At a higher speed it takes longer, and much further, to reduce the velocity to zero, so it can't stop in time if a child steps out. Keeping speeds low means the car can stop in a shorter distance, reducing the chance and severity of accidents.",
+      "rubric": [
+        "Deceleration is limited",
+        "Higher speed needs more time and distance to stop",
+        "Links to safety of students"
+      ],
+      "explain": "Criterion D: impact of science on society."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "An object starts at 4 m/s and accelerates at 3 m/s² for 5 s. What is its final velocity?",
+      "answer": 19,
+      "tolerance": 0,
+      "unit": "m/s",
+      "explain": "v = u + at = 4 + 15 = 19 m/s."
+    }
+  ]
+}

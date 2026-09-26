@@ -1,0 +1,59 @@
+{
+  "id": "circular-motion",
+  "number": "8.5",
+  "title": "Uniform Circular Motion",
+  "summary": "Moving in a circle at constant speed: why the velocity changes, and what happens when the pull stops.",
+  "emoji": "🎡",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Circular motion is introduced in MYP 4, developed in MYP 5 and DP"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 4: Describing Motion Around Us",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Motion",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can explain why uniform circular motion is accelerated.",
+    "I can calculate the speed of an object moving in a circle.",
+    "I can predict the path of an object when released from circular motion."
+  ],
+  "misconceptions": [
+    "Constant speed means no acceleration.",
+    "A released object flies straight outwards.",
+    "Objects in circles feel an outward force pushing them."
+  ],
+  "prerequisites": [
+    "physics/kinematics/acceleration",
+    "mathematics/mensuration/circles"
+  ],
+  "labs": [
+    "circular-motion"
+  ],
+  "keyTerms": [
+    "uniform circular motion",
+    "tangent",
+    "centripetal",
+    "period",
+    "orbit"
+  ],
+  "estMinutes": 25
+}

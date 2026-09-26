@@ -1,0 +1,59 @@
+{
+  "id": "equations-of-motion",
+  "number": "8.4",
+  "title": "The Equations of Motion",
+  "summary": "v = u + at, s = ut + ½at² and v² = u² + 2as: solving real problems about braking, falling and throwing.",
+  "emoji": "🧮",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Equations of uniformly accelerated motion are MYP 4–5 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 4: Describing Motion Around Us",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Motion",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can choose and use the three equations of motion.",
+    "I can solve problems about falling objects using g.",
+    "I can explain stopping distances using the equations."
+  ],
+  "misconceptions": [
+    "The equations work even when acceleration changes.",
+    "Doubling speed doubles braking distance.",
+    "Heavier objects fall faster (ignoring air resistance)."
+  ],
+  "prerequisites": [
+    "physics/kinematics/motion-graphs",
+    "mathematics/equations/solving-linear-equations"
+  ],
+  "labs": [
+    "suvat-solver"
+  ],
+  "keyTerms": [
+    "equations of motion",
+    "uniform acceleration",
+    "free fall",
+    "g",
+    "stopping distance"
+  ],
+  "estMinutes": 35
+}

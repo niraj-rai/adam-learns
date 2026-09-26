@@ -1,0 +1,48 @@
+<Stage kind="wonder" title="Predict the stop" />
+
+<Hook emoji="🧮">
+A metro train approaching a station at 20 m/s needs to stop exactly at the platform. When should the driver start braking? A coconut falls from a tall tree: how fast will it hit the ground? Three short equations answer every question like these, as long as the acceleration is steady.
+</Hook>
+
+<PredictFirst
+  question="If a car doubles its speed, how does its braking distance change (same brakes)?"
+  options={["It doubles", "It becomes four times as long", "It stays the same", "It halves"]}
+  answer={1}
+>
+Braking distance depends on the **square** of the speed (s = u² ÷ 2a), so double the speed means **four times** the distance. That's why speeding is so dangerous.
+</PredictFirst>
+
+<Stage kind="explain" title="Three equations" />
+
+<Formula tex="v = u + at \qquad s = ut + \tfrac{1}{2}at^2 \qquad v^2 = u^2 + 2as" caption="For uniform acceleration: u, v, a, t, s" />
+
+<StepReveal
+  steps={[
+    "List what you know (three of u, v, a, t, s) and what you want.",
+    "Pick the equation that contains your knowns and the unknown, and no other unknowns.",
+    "Watch the signs: choose a positive direction; slowing down gives a negative a.",
+    "For free fall, a = g ≈ 9.8 m/s² (often 10 m/s² for quick sums), ignoring air resistance.",
+    "Check units and sense: stopping distances of tens of metres for cars are realistic."
+  ]}
+/>
+
+<Stage kind="try" title="Equations of Motion" />
+
+<Lab id="suvat-solver" />
+
+<MythFact myth="Heavy objects fall faster than light ones.">
+Without air resistance, **all objects fall with the same acceleration g**. In 1971, astronaut David Scott dropped a hammer and a feather on the Moon, and they hit the ground together.
+</MythFact>
+
+<Stage kind="apply" title="Reflect on impacts" />
+
+<Inquiry criterion="D" title="Distracted driving">
+Use the equations of motion to calculate the total stopping distance of a car at 30, 50 and 70 km/h, with a reaction time of 1 s (alert) and 3 s (using a phone). Present your results in a table and graph, and write a short road-safety message based on your data.
+</Inquiry>
+
+<CbseCorner source="Exploration (Class 9, 2026) Ch 4 · Earlier NCERT Class 9: Motion">
+- Equations of motion by graphical method: v = u + at, s = ut + ½at², 2as = v² − u².
+- Numerical problems on uniformly accelerated motion.
+</CbseCorner>
+
+<Reflect id="phys9-kin-suvat" prompt="How would you decide which equation of motion to use in a problem?" />

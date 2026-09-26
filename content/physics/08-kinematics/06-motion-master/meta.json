@@ -1,0 +1,55 @@
+{
+  "id": "motion-master",
+  "number": "8.6",
+  "title": "Boss Challenge: Motion Master",
+  "summary": "Ten problems on displacement, velocity, acceleration, graphs and circles. Three lives!",
+  "emoji": "🏎️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 4: Describing Motion Around Us",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Motion",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply kinematics to solve varied problems.",
+    "I can explain and check my reasoning."
+  ],
+  "misconceptions": [
+    "Speed and velocity mean the same thing."
+  ],
+  "prerequisites": [
+    "physics/kinematics/equations-of-motion",
+    "physics/kinematics/circular-motion"
+  ],
+  "labs": [
+    "motion-master"
+  ],
+  "keyTerms": [
+    "displacement",
+    "velocity",
+    "acceleration",
+    "equations of motion"
+  ],
+  "estMinutes": 20
+}

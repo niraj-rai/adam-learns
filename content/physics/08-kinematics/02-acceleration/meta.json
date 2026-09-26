@@ -1,0 +1,58 @@
+{
+  "id": "acceleration",
+  "number": "8.2",
+  "title": "Acceleration",
+  "summary": "The rate of change of velocity: speeding up, slowing down, and the ticker-tape pattern.",
+  "emoji": "🚗",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Acceleration is MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 4: Describing Motion Around Us",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Motion",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can define and calculate acceleration.",
+    "I can interpret ticker-tape and velocity data.",
+    "I can relate acceleration to road safety."
+  ],
+  "misconceptions": [
+    "Acceleration only means speeding up.",
+    "A fast object must be accelerating.",
+    "Zero velocity means zero acceleration."
+  ],
+  "prerequisites": [
+    "physics/kinematics/distance-and-displacement"
+  ],
+  "labs": [
+    "acceleration-track"
+  ],
+  "keyTerms": [
+    "acceleration",
+    "deceleration",
+    "uniform acceleration",
+    "m/s²",
+    "ticker tape"
+  ],
+  "estMinutes": 25
+}

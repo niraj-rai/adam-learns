@@ -1,6 +1,8 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router'
+import { useState } from 'react'
 import { BoardTags, ComplexityStars } from '@/components/board/BoardTags'
 import { getSubject } from '@/content/loader'
+import { STAGE_LABEL } from '@/content/schema'
 import { STATUS_STYLE, topicStatus } from '@/lib/status'
 import { cn } from '@/lib/utils'
 import { useProgress } from '@/stores/progress'
@@ -17,6 +19,19 @@ export const Route = createFileRoute('/$subject/')({
 function SubjectPage() {
   const subject = Route.useLoaderData()
   const topics = useProgress((s) => s.topics)
+  const stages = (['G5', 'G6-8', 'G9', 'G10'] as const).filter((st) => subject.units.some((u) => u.stage === st))
+  const [stage, setStageState] = useState(() => {
+    try {
+      const saved = localStorage.getItem(`adamlearns-stage-${subject.id}`)
+      if (saved && stages.includes(saved as (typeof stages)[number])) return saved as (typeof stages)[number]
+    } catch { /* storage unavailable */ }
+    return stages.includes('G6-8') ? 'G6-8' : stages[0]
+  })
+  const setStage = (st: (typeof stages)[number]) => {
+    setStageState(st)
+    try { localStorage.setItem(`adamlearns-stage-${subject.id}`, st) } catch { /* ignore */ }
+  }
+  const units = subject.units.filter((u) => u.stage === stage)
 
   return (
     <div className="space-y-8">
@@ -24,10 +39,23 @@ function SubjectPage() {
         <p className="text-5xl">{subject.icon}</p>
         <h1 className="mt-2 font-heading text-4xl font-bold">{subject.title}</h1>
         <p className="mt-1 text-lg text-muted-foreground">{subject.tagline}</p>
+        {stages.length > 1 && (
+          <div className="mt-4 inline-flex flex-wrap rounded-xl border p-1" role="tablist" aria-label="Choose a grade">
+            {stages.map((st) => {
+              const all = subject.units.filter((u) => u.stage === st).flatMap((u) => u.topics)
+              const done = all.filter((tp) => topics[tp.key]?.masteredAt).length
+              return (
+                <button key={st} type="button" role="tab" aria-selected={stage === st} onClick={() => setStage(st)} className={cn('rounded-lg px-3 py-1.5 text-sm font-semibold', stage === st ? 'bg-chem text-white' : 'text-muted-foreground hover:bg-muted')}>
+                  {STAGE_LABEL[st]} <span className="font-normal opacity-80">· {done}/{all.length}</span>
+                </button>
+              )
+            })}
+          </div>
+        )}
       </header>
 
       <ol className="relative space-y-6 border-l-4 border-dashed border-chem/30 pl-6">
-        {subject.units.map((unit) => {
+        {units.map((unit) => {
           const done = unit.topics.filter((t) => topics[t.key]?.masteredAt).length
           return (
             <li key={unit.id} className="relative">
@@ -84,7 +112,7 @@ function SubjectPage() {
             </li>
           )
         })}
-        {subject.comingNext && (
+        {subject.comingNext && stage === stages[stages.length - 1] && (
           <li className="relative">
             <span className="absolute top-3 -left-[42px] grid size-8 place-items-center rounded-full bg-muted font-heading font-bold text-muted-foreground">+</span>
             <div className="rounded-3xl border-2 border-dashed p-5 text-muted-foreground">

@@ -1,0 +1,36 @@
+{
+  "id": "kinematics",
+  "number": 8,
+  "stage": "G9",
+  "title": "Describing Motion",
+  "summary": "Grade 9: distance and displacement, speed and velocity, acceleration, motion graphs, the equations of motion, and uniform circular motion.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Movement",
+      "Models",
+      "Patterns"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Mathematical models of motion let us describe, predict and design the movement of everything from metro trains to satellites."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is the difference between distance and displacement?",
+      "How is acceleration calculated?",
+      "What do the slope and area of a velocity–time graph tell us?"
+    ],
+    "conceptual": [
+      "Why can an object moving at constant speed still be accelerating?",
+      "How do graphs and equations describe the same motion?"
+    ],
+    "debatable": [
+      "Should speed limits near schools be lower than they are?",
+      "Is it more useful to know your speed or your velocity?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 (Exploration, 2026) Ch 4: Describing Motion Around Us",
+    "Earlier NCERT Class 9: Motion"
+  ]
+}

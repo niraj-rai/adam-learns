@@ -1,0 +1,45 @@
+<Stage kind="wonder" title="0 to 100" />
+
+<Hook emoji="🚗">
+Car adverts boast “0 to 100 km/h in 8 seconds!” A metro train glides smoothly to a stop at every station. A cricket ball changes from 140 km/h to 0 in a fielder's hands in a split second. All of these are about **acceleration**: how quickly velocity changes.
+</Hook>
+
+<PredictFirst
+  question="A car's velocity goes 0, 3, 6, 9, 12 m/s at 1-second intervals. What is its acceleration?"
+  options={["12 m/s²", "3 m/s²", "0 m/s²", "6 m/s²"]}
+  answer={1}
+>
+It gains **3 m/s every second**, so the acceleration is 3 m/s² (metres per second, per second).
+</PredictFirst>
+
+<Stage kind="explain" title="Rate of change of velocity" />
+
+<Formula tex="a = \frac{v - u}{t}" caption="u = initial velocity, v = final velocity, t = time taken" />
+
+<Compare
+  columns={[
+    { title: "Positive acceleration", emoji: "⏩", points: ["Speeding up (in the direction of motion)", "Ticker dots spread out"] },
+    { title: "Zero acceleration", emoji: "➡️", points: ["Constant velocity", "Equal gaps"] },
+    { title: "Negative (deceleration)", emoji: "⏪", points: ["Slowing down", "Dots get closer"] }
+  ]}
+/>
+
+<Stage kind="try" title="Acceleration Track" />
+
+<Lab id="acceleration-track" />
+
+<MythFact myth="A very fast object must be accelerating a lot.">
+A plane cruising at 900 km/h in a straight line has **zero** acceleration. Acceleration is about *changing* velocity, not about being fast.
+</MythFact>
+
+<Stage kind="apply" title="Reflect on impacts" />
+
+<Inquiry criterion="D" title="Safe roads">
+Research the speed limits near your school and the typical braking deceleration of a car (about 7 m/s² on dry roads). Explain how acceleration affects stopping, and write a short proposal to your school about road safety at the gate.
+</Inquiry>
+
+<CbseCorner source="Exploration (Class 9, 2026) Ch 4 · Earlier NCERT Class 9: Motion">
+- Acceleration as rate of change of velocity; uniform and non-uniform acceleration; SI unit m/s².
+</CbseCorner>
+
+<Reflect id="phys9-kin-accel" prompt="Is it possible to have a velocity of zero but still be accelerating? Think about a ball at the top of its throw." />

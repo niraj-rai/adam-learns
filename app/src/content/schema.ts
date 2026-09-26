@@ -44,9 +44,14 @@ export const SubjectMeta = z.object({
   planned: z.array(z.object({ unit: z.string(), ib: z.string(), cbse: z.string() })).default([]),
 })
 
+/** Which school stage a unit belongs to; subject pages group units by stage. */
+export const Stage = z.enum(['G5', 'G6-8', 'G9', 'G10'])
+export const STAGE_LABEL: Record<z.infer<typeof Stage>, string> = { G5: 'Grade 5', 'G6-8': 'Grades 6–8', G9: 'Grade 9', G10: 'Grade 10' }
+
 export const UnitMeta = z.object({
   id: z.string(),
   number: z.number().int(),
+  stage: Stage.default('G6-8'),
   title: z.string(),
   summary: z.string(),
   ib: IbConcepts,

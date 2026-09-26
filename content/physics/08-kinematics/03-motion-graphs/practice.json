@@ -1,0 +1,114 @@
+{
+  "topicId": "motion-graphs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The slope (gradient) of a velocity–time graph gives the…",
+      "options": [
+        "time",
+        "speed",
+        "acceleration",
+        "displacement"
+      ],
+      "answer": 2,
+      "explain": "Change in velocity ÷ time = acceleration.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The area under a velocity–time graph gives the…",
+      "options": [
+        "displacement",
+        "velocity",
+        "time",
+        "acceleration"
+      ],
+      "answer": 0,
+      "explain": "Velocity × time = displacement.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A v–t graph rises in a straight line from 0 to 20 m/s over 10 s. How far did the object travel?",
+      "answer": 100,
+      "tolerance": 0,
+      "unit": "m",
+      "explain": "Triangle area: ½ × 10 × 20 = 100 m."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A car moves at 10 m/s for 5 s, then slows steadily to rest over 4 s. What is the total distance?",
+      "answer": 70,
+      "tolerance": 0,
+      "unit": "m",
+      "explain": "Rectangle 50 m + triangle ½ × 4 × 10 = 20 m."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A displacement–time graph curves upwards, getting steeper. What is the object doing?",
+      "options": [
+        "Moving at constant velocity",
+        "Slowing down",
+        "At rest",
+        "Accelerating"
+      ],
+      "answer": 3,
+      "explain": "Its velocity (the slope) is increasing."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "An object accelerates uniformly from rest. What shape is its displacement–time graph?",
+      "options": [
+        "A horizontal line",
+        "A curve that gets steeper (a parabola)",
+        "A straight line down",
+        "A straight sloping line"
+      ],
+      "answer": 1,
+      "explain": "s = ½at² grows with the square of time."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A v–t graph goes in a straight line from 5 m/s to 25 m/s over 4 s. What is the acceleration?",
+      "answer": 5,
+      "tolerance": 0,
+      "unit": "m/s²",
+      "explain": "(25 − 5) ÷ 4 = 5 m/s²."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A v–t graph has three parts: a straight line rising from 0 to 12 m/s over 4 s, a flat line at 12 m/s for 6 s, and a straight line falling to 0 over 3 s. Describe the motion and find the total displacement.",
+      "modelAnswer": "The object accelerates uniformly at 3 m/s² for 4 s, travels at a constant 12 m/s for 6 s, then decelerates at 4 m/s² to rest in 3 s. Displacement = ½ × 4 × 12 + 12 × 6 + ½ × 3 × 12 = 24 + 72 + 18 = 114 m.",
+      "rubric": [
+        "Describes all three stages",
+        "Calculates the accelerations",
+        "Total displacement 114 m by areas"
+      ],
+      "explain": "Criterion C: process and interpret data."
+    }
+  ]
+}
