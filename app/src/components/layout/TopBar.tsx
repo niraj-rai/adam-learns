@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils'
 import { currentStreak, dueReviewItems, useProgress } from '@/stores/progress'
 import { isOnboarded, useProfile } from '@/stores/profile'
 import { applyTheme, useSettings, type Theme } from '@/stores/settings'
+import { appSegments } from '@/lib/path'
 import { Logo } from './Logo'
 
 const LINK = 'rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground data-[status=active]:bg-chem-soft data-[status=active]:text-foreground'
@@ -97,8 +98,7 @@ export function TopBar() {
   const profile = useProfile()
   const onboarded = isOnboarded(profile)
   const path = useRouterState({ select: (s) => s.location.pathname })
-  const base = (import.meta.env.BASE_URL ?? '/').replace(/\/$/, '')
-  const current = subjects.find((s) => path.slice(base.length).split('/')[1] === s.id)
+  const current = subjects.find((s) => appSegments(path)[0] === s.id)
 
   useEffect(() => {
     applyTheme(theme)

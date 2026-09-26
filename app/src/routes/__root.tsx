@@ -1,6 +1,7 @@
 import { Link, Navigate, Outlet, createRootRoute, useRouterState } from '@tanstack/react-router'
 import { getSubject } from '@/content/loader'
 import { getLab } from '@/labs/registry'
+import { appSegments } from '@/lib/path'
 import { Toaster } from '@/components/gamification/Toaster'
 import { TopBar } from '@/components/layout/TopBar'
 import { ReminderScheduler } from '@/components/plan/ReminderScheduler'
@@ -22,9 +23,7 @@ export const Route = createRootRoute({
 })
 
 function usePathSegments() {
-  const path = useRouterState({ select: (s) => s.location.pathname })
-  const base = (import.meta.env.BASE_URL ?? '/').replace(/\/$/, '')
-  return path.slice(base.length).split('/').filter(Boolean)
+  return appSegments(useRouterState({ select: (s) => s.location.pathname }))
 }
 
 /** Pages a new learner can open before onboarding. */
