@@ -11,7 +11,7 @@
     "ib": { "programme": "MYP", "year": 3, "note": "Good vehicle for Criterion B: designing a fair test" },
     "cbse": [
       { "class": 8, "chapter": "Curiosity Ch 7: Particulate Nature of Matter", "verified": true },
-      { "class": 9, "chapter": "Ch 1: Matter in Our Surroundings, section 1.2 (particles are moving)", "verified": false }
+      { "class": 9, "chapter": "Earlier NCERT: Matter in Our Surroundings (particles are moving; not in Exploration 2026)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "C"],

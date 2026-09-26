@@ -11,7 +11,7 @@
     "ib": { "programme": "MYP", "year": 2, "note": "Good MYP Criterion B/C task: making a natural indicator" },
     "cbse": [
       { "class": 7, "chapter": "Curiosity Ch 2: Exploring Substances: Acidic, Basic and Neutral (litmus, turmeric, china rose)", "verified": true },
-      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts (phenolphthalein, methyl orange, olfactory indicators)", "verified": false }
+      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts (phenolphthalein, methyl orange, olfactory indicators)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "C"],

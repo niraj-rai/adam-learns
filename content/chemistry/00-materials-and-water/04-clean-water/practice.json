@@ -1,0 +1,127 @@
+{
+  "topicId": "clean-water",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is a source of groundwater?",
+      "options": [
+        "A cloud",
+        "A well",
+        "The sea",
+        "A glacier"
+      ],
+      "answer": 1,
+      "explain": "Water soaks underground and is drawn up from wells.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Letting mud settle at the bottom of a pot is called…",
+      "options": [
+        "melting",
+        "boiling",
+        "evaporation",
+        "sedimentation"
+      ],
+      "answer": 3,
+      "explain": "Heavy bits sink."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Water looks clear. Is it always safe to drink?",
+      "options": [
+        "No, it may still contain germs",
+        "Yes, if it is cold",
+        "Only if it is salty",
+        "Yes, clear means clean"
+      ],
+      "answer": 0,
+      "explain": "Germs are too small to see.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is the best way to kill germs in water at home?",
+      "options": [
+        "Keep it in sunlight for one minute",
+        "Stir it",
+        "Boil it for a few minutes",
+        "Add sugar"
+      ],
+      "answer": 2,
+      "explain": "Heat kills germs."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which habit saves water?",
+      "options": [
+        "Washing a car with a running hose",
+        "Turning off the tap while brushing",
+        "Ignoring a leaking tap",
+        "Leaving the tap running"
+      ],
+      "answer": 1,
+      "explain": "Every drop counts.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why should drinking water be kept covered?",
+      "options": [
+        "To make it taste sweet",
+        "To keep it hot",
+        "To stop it from evaporating completely in a day",
+        "To keep out dust, insects and germs"
+      ],
+      "answer": 3,
+      "explain": "Covered water stays clean."
+    },
+    {
+      "id": "q7",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Put the steps for cleaning muddy water in order.",
+      "steps": [
+        "Let the mud settle",
+        "Pour off the clearer water",
+        "Filter it through a clean cloth",
+        "Boil it",
+        "Store it covered"
+      ],
+      "explain": "Remove dirt first, then kill germs."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A village gets muddy water from a pond. Suggest how families can make it safe to drink.",
+      "modelAnswer": "Let the water stand so mud settles, then pour off the clearer water. Filter it through a clean folded cloth. Boil it to kill germs (or use a purifier). Store it in a clean covered pot and use a ladle.",
+      "rubric": [
+        "Remove dirt (settle/filter)",
+        "Kill germs (boil)",
+        "Store safely"
+      ],
+      "explain": "Planning."
+    }
+  ]
+}

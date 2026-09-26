@@ -6,7 +6,7 @@
 
 | Unit | Topics | NCERT Class 5 | Labs |
 |---|---|---|---|
-| 0. Starter: Maths Mela | Big numbers · Fractions · Angles as turns · Length, weight, capacity and time · Symmetry and patterns · Data and maps · Boss | Maths Mela (2025): all 15 chapters | **Place Value Counter**, Fraction Wall, **Angles as Turns**, **Measure and Convert**, Tiling Studio, Chart Maker, Maths Mela Master |
+| 0. Starter: Maths Mela | Big numbers · Fractions · Angles as turns · Length, weight, capacity and time · Symmetry and patterns · Data and maps · Multiplication and division · Time and racing · Multiples and patterns · Boss | Maths Mela (2025): all 15 chapters | **Place Value Counter**, Fraction Wall, **Angles as Turns**, **Measure and Convert**, Tiling Studio, Chart Maker, **Coconut Farm**, **Racing Seconds**, **Animal Jumps**, Maths Mela Master |
 
 Grade 5 units are a single "Unit 0" starter per subject (stage G5), written in simpler language. Bold labs are new for Grade 5.
 

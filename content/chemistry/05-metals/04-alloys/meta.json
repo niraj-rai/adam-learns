@@ -10,7 +10,7 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3 },
     "cbse": [
-      { "class": 10, "chapter": "Ch 3: Metals and Non-metals (corrosion prevention and alloys)", "verified": false }
+      { "class": 10, "chapter": "Ch 3: Metals and Non-metals (corrosion prevention and alloys)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C", "D"],

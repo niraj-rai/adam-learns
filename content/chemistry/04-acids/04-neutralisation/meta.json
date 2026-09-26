@@ -10,8 +10,8 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Titration technique developed further in MYP 4–5" },
     "cbse": [
-      { "class": 7, "chapter": "Curiosity Ch 2: Exploring Substances (neutralisation in everyday life)", "verified": false },
-      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts (reaction of acids with bases)", "verified": false }
+      { "class": 7, "chapter": "Curiosity Ch 2: Exploring Substances: Acidic, Basic and Neutral (neutralisation in daily life)", "verified": true },
+      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts (reaction of acids with bases)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "C", "D"],

@@ -10,8 +10,8 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Extension: strong Criterion D (impacts of science) opportunity" },
     "cbse": [
-      { "class": 8, "chapter": "Previous NCERT edition: Coal and Petroleum; Combustion and Flame (fuel efficiency)", "verified": false },
-      { "class": 10, "chapter": "Ch 4: Carbon and its Compounds (hydrocarbons as fuels)", "verified": false }
+      { "class": 8, "chapter": "Earlier NCERT Class 8 Ch 5: Coal and Petroleum; Ch 6: Combustion and Flame (fuel efficiency)", "verified": true },
+      { "class": 10, "chapter": "Ch 4: Carbon and its Compounds (combustion, hydrocarbons as fuels)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C", "D"],

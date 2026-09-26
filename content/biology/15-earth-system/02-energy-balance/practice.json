@@ -1,0 +1,122 @@
+{
+  "topicId": "energy-balance",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is albedo?",
+      "options": [
+        "The fraction of sunlight a surface reflects",
+        "The temperature of the Sun",
+        "The speed of wind",
+        "The amount of CO₂ in the air"
+      ],
+      "answer": 0,
+      "explain": "High albedo = very reflective.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Greenhouse gases warm Earth mainly by…",
+      "options": [
+        "producing heat by burning",
+        "reflecting sunlight",
+        "absorbing outgoing infrared and re-emitting some back down",
+        "blocking incoming sunlight"
+      ],
+      "answer": 2,
+      "explain": "They let sunlight in but trap heat going out.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why are the poles colder than the equator?",
+      "options": [
+        "They have no atmosphere",
+        "Sunlight arrives at a slant and spreads over a larger area",
+        "The Sun never shines there",
+        "They are much further from the Sun"
+      ],
+      "answer": 1,
+      "explain": "Angle of sunlight."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is a greenhouse gas?",
+      "options": [
+        "Nitrogen",
+        "Argon",
+        "Oxygen",
+        "Methane"
+      ],
+      "answer": 3,
+      "explain": "CH₄ absorbs infrared strongly."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "If Earth’s albedo increased (e.g. more ice and cloud), the surface would…",
+      "options": [
+        "cool down",
+        "warm up",
+        "stop receiving sunlight",
+        "stay the same"
+      ],
+      "answer": 0,
+      "explain": "More sunlight reflected."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Earth receives 1361 W/m² and reflects 30%. How many W/m² are absorbed (before sharing over the sphere)?",
+      "answer": 952.7,
+      "tolerance": 0.5,
+      "explain": "1361 × 0.7.",
+      "unit": "W/m²"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why is the natural greenhouse effect important for life?",
+      "options": [
+        "It makes the Sun brighter",
+        "It blocks all ultraviolet light",
+        "It keeps Earth warm enough for liquid water",
+        "It removes oxygen"
+      ],
+      "answer": 2,
+      "explain": "Without it, oceans would freeze."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain the difference between the natural greenhouse effect and the enhanced greenhouse effect.",
+      "modelAnswer": "The natural greenhouse effect is caused by gases like water vapour and CO₂ that have always been in the atmosphere; they trap some outgoing infrared and keep Earth about 33 °C warmer than it would otherwise be, making life possible. The enhanced greenhouse effect is the extra warming caused by humans adding more greenhouse gases (from burning fossil fuels, deforestation, farming), which traps more heat and causes global warming.",
+      "rubric": [
+        "Natural: keeps Earth habitable",
+        "Enhanced: extra human gases",
+        "Consequence: global warming"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

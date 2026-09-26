@@ -10,8 +10,9 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Symbol equations and balancing follow in MYP 4 (Unit 11)" },
     "cbse": [
-      { "class": 9, "chapter": "Ch 3: Atoms and Molecules (symbols, writing chemical formulas)", "verified": false },
-      { "class": 10, "chapter": "Ch 1: Chemical Reactions and Equations (word equations)", "verified": false }
+      { "class": 9, "chapter": "Exploration (2026) Ch 8: Journey Inside the Atom (symbols of elements)", "verified": true },
+      { "class": 9, "chapter": "Exploration (2026) Ch 9: Atomic Foundations of Matter (writing chemical formulae)", "verified": true },
+      { "class": 10, "chapter": "Ch 1: Chemical Reactions and Equations (word equations, balanced equations)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C"],

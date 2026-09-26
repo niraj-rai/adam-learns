@@ -1,0 +1,55 @@
+{
+  "id": "seasons-in-nature",
+  "number": "0.5",
+  "title": "Rhythms of Nature",
+  "summary": "How plants, animals, farms and festivals change through the year, and how to keep a nature journal.",
+  "emoji": "📅",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Living things, PYP 5 Science"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 9: Rhythms of Nature",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can describe how plants and animals change with the seasons.",
+    "I can name India’s main seasons.",
+    "I can link farming and festivals to seasons."
+  ],
+  "misconceptions": [
+    "Trees look the same all year.",
+    "Birds live in one place forever.",
+    "Seasons are the same all over India."
+  ],
+  "prerequisites": [
+    "biology/life-around-us/habitats-and-rivers",
+    "physics/energy-and-earth/seasons-and-the-year"
+  ],
+  "labs": [
+    "nature-calendar"
+  ],
+  "keyTerms": [
+    "season",
+    "migration",
+    "monsoon",
+    "kharif",
+    "rabi",
+    "flowering",
+    "nature journal"
+  ],
+  "estMinutes": 20
+}

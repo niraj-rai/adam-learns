@@ -1,0 +1,57 @@
+{
+  "id": "multiples-and-patterns",
+  "number": "0.9",
+  "title": "Multiples and Number Patterns",
+  "summary": "Skip counting, multiples, common multiples, and continuing number patterns.",
+  "emoji": "🐸",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Number, PYP 5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Maths Mela (2025) Ch 13: Animal Jumps",
+        "verified": true
+      },
+      {
+        "class": 5,
+        "chapter": "Maths Mela (2025) Ch 7: Shapes and Patterns",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can list multiples of a number.",
+    "I can find common multiples.",
+    "I can continue and describe number patterns."
+  ],
+  "misconceptions": [
+    "Multiples of a number are smaller than it.",
+    "Two numbers have only one common multiple.",
+    "Every pattern goes up by 1."
+  ],
+  "prerequisites": [
+    "mathematics/maths-mela/multiplication-and-division"
+  ],
+  "labs": [
+    "animal-jumps"
+  ],
+  "keyTerms": [
+    "multiple",
+    "common multiple",
+    "skip counting",
+    "pattern",
+    "rule"
+  ],
+  "estMinutes": 20
+}

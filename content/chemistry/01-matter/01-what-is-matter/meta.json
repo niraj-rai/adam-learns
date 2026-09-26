@@ -10,8 +10,8 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 1, "note": "Usually the opening idea of the first MYP science unit" },
     "cbse": [
-      { "class": 6, "chapter": "Materials around us (introduction)", "verified": false },
-      { "class": 9, "chapter": "Ch 1: Matter in Our Surroundings, section 1.1", "verified": false }
+      { "class": 6, "chapter": "Curiosity Ch 6: Materials Around Us", "verified": true },
+      { "class": 9, "chapter": "Earlier NCERT: Matter in Our Surroundings (not in Exploration 2026)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "D"],

@@ -1,6 +1,6 @@
 {
   "id": "mela-master",
-  "number": "0.7",
+  "number": "0.10",
   "title": "Boss Challenge: Maths Mela Master",
   "summary": "Ten Grade 5 puzzles about numbers, fractions, angles, measurement and symmetry. Three lives!",
   "emoji": "🎡",
@@ -37,7 +37,10 @@
     "mathematics/maths-mela/angles-as-turns",
     "mathematics/maths-mela/measurement",
     "mathematics/maths-mela/symmetry-and-patterns",
-    "mathematics/maths-mela/data-and-maps"
+    "mathematics/maths-mela/data-and-maps",
+    "mathematics/maths-mela/multiplication-and-division",
+    "mathematics/maths-mela/time-and-speed",
+    "mathematics/maths-mela/multiples-and-patterns"
   ],
   "labs": [
     "mela-master"

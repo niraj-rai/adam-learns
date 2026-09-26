@@ -10,7 +10,7 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Leads to balancing equations and stoichiometry (MYP 4–5)" },
     "cbse": [
-      { "class": 9, "chapter": "Ch 3: Atoms and Molecules (law of conservation of mass)", "verified": false }
+      { "class": 9, "chapter": "Exploration (2026) Ch 9: Atomic Foundations of Matter (law of conservation of mass)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "C"],

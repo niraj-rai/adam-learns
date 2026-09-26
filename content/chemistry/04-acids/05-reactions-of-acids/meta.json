@@ -10,7 +10,7 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "General equations and gas tests extended in MYP 4" },
     "cbse": [
-      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts (reactions with metals and carbonates; common salts)", "verified": false }
+      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts (reactions with metals and carbonates; common salts)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "C"],

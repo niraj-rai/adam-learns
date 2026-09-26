@@ -1,6 +1,6 @@
 {
   "id": "nature-explorer",
-  "number": "0.5",
+  "number": "0.7",
   "title": "Boss Challenge: Nature Explorer",
   "summary": "Ten Grade 5 puzzles about food, habitats and caring for our Earth. Three lives!",
   "emoji": "🌳",
@@ -16,17 +16,27 @@
     "cbse": [
       {
         "class": 5,
-        "chapter": "Our Wondrous World (2025) Ch 2",
+        "chapter": "Our Wondrous World (2025) Ch 2: Journey of a River",
         "verified": true
       },
       {
         "class": 5,
-        "chapter": "Our Wondrous World (2025) Ch 3",
+        "chapter": "Our Wondrous World (2025) Ch 3: The Mystery of Food",
         "verified": true
       },
       {
         "class": 5,
-        "chapter": "Our Wondrous World (2025) Ch 10",
+        "chapter": "Our Wondrous World (2025) Ch 4: Our School — A Happy Place",
+        "verified": true
+      },
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 9: Rhythms of Nature",
+        "verified": true
+      },
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 10: Earth: Our Shared Home",
         "verified": true
       }
     ]
@@ -45,7 +55,9 @@
     "biology/life-around-us/food-and-nutrients",
     "biology/life-around-us/keeping-food-fresh",
     "biology/life-around-us/habitats-and-rivers",
-    "biology/life-around-us/our-shared-home"
+    "biology/life-around-us/our-shared-home",
+    "biology/life-around-us/seasons-in-nature",
+    "biology/life-around-us/safe-and-happy-school"
   ],
   "labs": [
     "nature-explorer"

@@ -1,0 +1,34 @@
+{
+  "id": "earth-system",
+  "number": 15,
+  "stage": "G9",
+  "title": "Earth as a System",
+  "summary": "Grade 9: Earth’s five spheres, the Sun’s energy and the greenhouse effect, winds and ocean currents, and the cycles of carbon, nitrogen, water and oxygen.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": [
+      "Energy",
+      "Interaction",
+      "Balance"
+    ],
+    "globalContext": "Globalization and sustainability",
+    "statementOfInquiry": "Energy from the Sun and the cycling of matter link air, water, ice, rock and life into one Earth system that human activity can unbalance."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What are Earth’s five spheres?",
+      "What is albedo?",
+      "How does nitrogen get into living things?"
+    ],
+    "conceptual": [
+      "Why does a change in one sphere affect the others?",
+      "How does the greenhouse effect keep Earth habitable?"
+    ],
+    "debatable": [
+      "Should rich countries cut emissions faster than developing countries?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 Exploration (2026): Earth as a System: Energy, Matter and Life"
+  ]
+}

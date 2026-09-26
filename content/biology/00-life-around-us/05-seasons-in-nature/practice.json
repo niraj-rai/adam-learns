@@ -1,0 +1,125 @@
+{
+  "topicId": "seasons-in-nature",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which crop is sown with the monsoon (kharif)?",
+      "options": [
+        "Mustard",
+        "Gram",
+        "Wheat",
+        "Rice"
+      ],
+      "answer": 3,
+      "explain": "Rice needs lots of water.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Wheat is a…",
+      "options": [
+        "rabi (winter) crop",
+        "summer fruit",
+        "flower",
+        "kharif (monsoon) crop"
+      ],
+      "answer": 0,
+      "explain": "Sown in winter, harvested in spring."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why do some birds migrate to India in winter?",
+      "options": [
+        "They are lost",
+        "India has no birds",
+        "Their homes further north become freezing and food is scarce",
+        "They like festivals"
+      ],
+      "answer": 2,
+      "explain": "They return in spring."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Frogs are heard croaking most in…",
+      "options": [
+        "summer",
+        "the monsoon",
+        "never",
+        "winter"
+      ],
+      "answer": 1,
+      "explain": "They breed in rainwater pools."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which festival celebrates the harvest in January?",
+      "options": [
+        "Independence Day",
+        "Diwali",
+        "Christmas",
+        "Makar Sankranti / Pongal"
+      ],
+      "answer": 3,
+      "explain": "Harvest festivals.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why do nature’s changes repeat every year?",
+      "options": [
+        "The Earth goes round the Sun once a year, so the seasons repeat",
+        "People decide them",
+        "They don’t repeat",
+        "The Moon changes them daily"
+      ],
+      "answer": 0,
+      "explain": "Seasons follow Earth’s orbit."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why is it useful to keep a nature journal?",
+      "options": [
+        "To make it rain",
+        "To grow taller",
+        "To notice patterns and changes over time",
+        "To stop the seasons"
+      ],
+      "answer": 2,
+      "explain": "Scientists record observations too."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Describe how one plant or animal near you changes from winter to monsoon.",
+      "modelAnswer": "For example, a mango tree: in winter it has dark leaves; in spring it flowers; in summer mangoes grow and ripen; in the monsoon it grows fresh green leaves. Or: in winter there are migratory birds on the lake, and by the monsoon they have gone and frogs appear.",
+      "rubric": [
+        "Names a plant/animal",
+        "Describes changes across seasons"
+      ],
+      "explain": "Observing."
+    }
+  ]
+}

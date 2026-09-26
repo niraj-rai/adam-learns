@@ -10,7 +10,8 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Unit summative-style task: applying knowledge in real situations (Criteria A and D)" },
     "cbse": [
-      { "class": 8, "chapter": "Previous NCERT edition: Combustion and Flame (how do we control fire?)", "verified": false }
+      { "class": 7, "chapter": "Curiosity Ch 5: Changes Around Us: Physical and Chemical (conditions for combustion, putting out a fire)", "verified": true },
+      { "class": 8, "chapter": "Earlier NCERT Class 8 Ch 6: Combustion and Flame (how do we control fire?)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "D"],

@@ -10,7 +10,7 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 4, "note": "Extension: relative atomic mass calculations follow in MYP 4" },
     "cbse": [
-      { "class": 9, "chapter": "Ch 4: Structure of the Atom (isotopes and isobars, applications)", "verified": false }
+      { "class": 9, "chapter": "Exploration (2026) Ch 8: Journey Inside the Atom (isotopes and isobars)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C", "D"],

@@ -1,0 +1,148 @@
+{
+  "topicId": "earth-spheres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which sphere includes soil and rocks?",
+      "options": [
+        "Atmosphere",
+        "Geosphere",
+        "Biosphere",
+        "Cryosphere"
+      ],
+      "answer": 1,
+      "explain": "Geo = Earth.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Groundwater belongs to the…",
+      "options": [
+        "atmosphere",
+        "cryosphere",
+        "geosphere",
+        "hydrosphere"
+      ],
+      "answer": 3,
+      "explain": "All liquid water.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Trees release water vapour through their leaves. Which two spheres interact?",
+      "options": [
+        "Biosphere and atmosphere",
+        "Hydrosphere and geosphere",
+        "Cryosphere and biosphere",
+        "Geosphere and cryosphere"
+      ],
+      "answer": 0,
+      "explain": "Transpiration."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A volcano’s ash cools the planet for a year. Which spheres are involved?",
+      "options": [
+        "Hydrosphere only",
+        "Biosphere and cryosphere",
+        "Geosphere and atmosphere",
+        "Cryosphere only"
+      ],
+      "answer": 2,
+      "explain": "Ash from rock enters the air."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where does most of the energy that drives the Earth system come from?",
+      "options": [
+        "Lightning",
+        "The Sun",
+        "The Moon",
+        "Earth’s core"
+      ],
+      "answer": 1,
+      "explain": "Sunlight drives weather, the water cycle and photosynthesis."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why do scientists treat Earth as a system?",
+      "options": [
+        "Because the spheres never interact",
+        "Because only the atmosphere matters",
+        "To make it easier to draw",
+        "Because changes in one part affect the others"
+      ],
+      "answer": 3,
+      "explain": "Interactions matter."
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Sort each item into its sphere.",
+      "bins": [
+        "Atmosphere",
+        "Hydrosphere",
+        "Cryosphere",
+        "Geosphere",
+        "Biosphere"
+      ],
+      "items": [
+        {
+          "label": "Clouds of gas and dust",
+          "bin": 0
+        },
+        {
+          "label": "Bay of Bengal",
+          "bin": 1
+        },
+        {
+          "label": "Gangotri glacier",
+          "bin": 2
+        },
+        {
+          "label": "Deccan basalt rock",
+          "bin": 3
+        },
+        {
+          "label": "Mangrove forest",
+          "bin": 4
+        }
+      ],
+      "explain": "Each part of Earth belongs to a sphere."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain how cutting down a large forest could affect three other spheres.",
+      "modelAnswer": "Atmosphere: fewer trees absorb CO₂, and burning adds more, so CO₂ rises. Geosphere: without roots, soil is washed or blown away (erosion). Hydrosphere: less transpiration can mean less rainfall nearby, and more runoff and silt in rivers.",
+      "rubric": [
+        "Atmosphere effect",
+        "Geosphere effect",
+        "Hydrosphere effect"
+      ],
+      "explain": "Criterion D."
+    }
+  ]
+}

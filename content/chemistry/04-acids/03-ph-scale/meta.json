@@ -10,7 +10,7 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Logarithmic nature of pH extended in MYP 5 / DP" },
     "cbse": [
-      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts (pH scale, importance of pH in everyday life)", "verified": false }
+      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts (pH scale, importance of pH in everyday life)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C", "D"],

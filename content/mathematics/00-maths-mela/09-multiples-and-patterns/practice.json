@@ -1,0 +1,106 @@
+{
+  "topicId": "multiples-and-patterns",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which are the first four multiples of 6?",
+      "options": [
+        "6, 12, 18, 24",
+        "6, 16, 26, 36",
+        "6, 11, 16, 21",
+        "1, 2, 3, 6"
+      ],
+      "answer": 0,
+      "explain": "6 × 1, 6 × 2, 6 × 3, 6 × 4.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the smallest common multiple of 4 and 6?",
+      "answer": 12,
+      "tolerance": 0,
+      "explain": "4, 8, 12… and 6, 12…",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What comes next? 7, 14, 21, 28, …",
+      "answer": 35,
+      "tolerance": 0,
+      "explain": "Add 7."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Is 42 a multiple of 7?",
+      "options": [
+        "Only on Tuesdays",
+        "Yes, because 4 + 2 = 6",
+        "Yes, because 7 × 6 = 42",
+        "No"
+      ],
+      "answer": 2,
+      "explain": "42 ÷ 7 = 6 with no remainder."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What comes next? 3, 8, 13, 18, …",
+      "answer": 23,
+      "tolerance": 0,
+      "explain": "Add 5 each time."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Buses leave every 10 minutes and trains every 15 minutes. Both leave at 8:00. After how many minutes do they next leave together?",
+      "answer": 30,
+      "tolerance": 0,
+      "explain": "Smallest common multiple of 10 and 15.",
+      "unit": "min"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which number is a multiple of both 2 and 5?",
+      "options": [
+        "15",
+        "40",
+        "12",
+        "25"
+      ],
+      "answer": 1,
+      "explain": "40 = 2 × 20 = 5 × 8."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why every multiple of 10 is also a multiple of 5.",
+      "modelAnswer": "10 = 2 × 5, so every multiple of 10 (10, 20, 30…) is 5 × 2, 5 × 4, 5 × 6… Each is 5 times a whole number, so it is also a multiple of 5.",
+      "rubric": [
+        "10 = 2 × 5",
+        "So multiples of 10 are 5 × something"
+      ],
+      "explain": "Reasoning."
+    }
+  ]
+}

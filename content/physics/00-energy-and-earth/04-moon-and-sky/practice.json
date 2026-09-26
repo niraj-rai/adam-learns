@@ -1,0 +1,126 @@
+{
+  "topicId": "moon-and-sky",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "About how long does the Moon take to go through all its phases?",
+      "options": [
+        "About a month (29½ days)",
+        "One year",
+        "One day",
+        "One week"
+      ],
+      "answer": 0,
+      "explain": "That’s where the word “month” comes from.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "On a new-moon night, the Moon looks…",
+      "options": [
+        "red",
+        "like a half circle",
+        "dark (we can’t see it)",
+        "completely round and bright"
+      ],
+      "answer": 2,
+      "explain": "The lit half faces away from us."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where does moonlight come from?",
+      "options": [
+        "The Moon’s own fire",
+        "Sunlight reflected by the Moon",
+        "Lamps on the Moon",
+        "Starlight only"
+      ],
+      "answer": 1,
+      "explain": "The Moon is a rocky ball.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A thin curved Moon is called a…",
+      "options": [
+        "comet",
+        "full moon",
+        "star",
+        "crescent"
+      ],
+      "answer": 3,
+      "explain": "Like the shape on a slice of melon."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why can we sometimes see the Moon in the daytime?",
+      "options": [
+        "It is in the sky and still reflects sunlight",
+        "It is a different moon",
+        "Clouds make it",
+        "It only shines at night, so we can’t"
+      ],
+      "answer": 0,
+      "explain": "The Moon doesn’t switch off in the day."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which festival is celebrated on a new-moon night?",
+      "options": [
+        "Sharad Purnima",
+        "Guru Purnima",
+        "Diwali",
+        "Holi"
+      ],
+      "answer": 2,
+      "explain": "Diwali is on Amavasya."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Stars are…",
+      "options": [
+        "small moons",
+        "faraway suns that make their own light",
+        "tiny holes in the sky",
+        "lamps put up by people"
+      ],
+      "answer": 1,
+      "explain": "Our Sun is a star too."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Explain why we see different shapes of the Moon during a month.",
+      "modelAnswer": "The Sun always lights up half of the Moon. As the Moon goes round the Earth, we see different amounts of its lit half. At new moon we see none of it, at full moon we see all of it, and in between we see crescents and half moons.",
+      "rubric": [
+        "Half always lit by Sun",
+        "Moon moves round Earth",
+        "We see different amounts"
+      ],
+      "explain": "Explaining ideas."
+    }
+  ]
+}

@@ -10,7 +10,7 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3 },
     "cbse": [
-      { "class": 8, "chapter": "Previous NCERT edition: Combustion and Flame (check its place in Curiosity)", "verified": false },
+      { "class": 8, "chapter": "Earlier NCERT Class 8 Ch 6: Combustion and Flame (not in Curiosity Class 8)", "verified": true },
       { "class": 7, "chapter": "Curiosity Ch 5: Changes Around Us (burning as a chemical change)", "verified": true }
     ]
   },

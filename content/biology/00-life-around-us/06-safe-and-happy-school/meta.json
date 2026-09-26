@@ -1,0 +1,53 @@
+{
+  "id": "safe-and-happy-school",
+  "number": "0.6",
+  "title": "A Safe and Happy School",
+  "summary": "Keeping clean and healthy, stopping germs from spreading, first aid, and safety rules at school.",
+  "emoji": "🏫",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Health, PYP 5 Science"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 4: Our School — A Happy Place",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can explain how germs spread.",
+    "I can follow hygiene and safety rules.",
+    "I can help make my school clean and kind."
+  ],
+  "misconceptions": [
+    "Water alone is enough to wash off germs.",
+    "Germs only spread when you touch someone.",
+    "Safety rules are only for grown-ups."
+  ],
+  "prerequisites": [
+    "biology/life-around-us/keeping-food-fresh"
+  ],
+  "labs": [
+    "germ-spread"
+  ],
+  "keyTerms": [
+    "hygiene",
+    "germs",
+    "handwashing",
+    "first aid",
+    "safety",
+    "segregation"
+  ],
+  "estMinutes": 20
+}

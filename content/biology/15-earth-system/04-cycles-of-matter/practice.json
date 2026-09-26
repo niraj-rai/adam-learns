@@ -1,0 +1,127 @@
+{
+  "topicId": "cycles-of-matter",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which process removes CO₂ from the atmosphere?",
+      "options": [
+        "Decomposition",
+        "Photosynthesis",
+        "Burning coal",
+        "Respiration"
+      ],
+      "answer": 1,
+      "explain": "Plants and algae take in CO₂.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which organisms can fix nitrogen gas into a form plants can use?",
+      "options": [
+        "All animals",
+        "Fungi on bread",
+        "Earthworms only",
+        "Certain bacteria, such as Rhizobium in legume roots"
+      ],
+      "answer": 3,
+      "explain": "Nitrogen-fixing bacteria.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What do denitrifying bacteria do?",
+      "options": [
+        "Convert nitrates back into nitrogen gas",
+        "Make sugar",
+        "Release oxygen",
+        "Fix nitrogen into ammonia"
+      ],
+      "answer": 0,
+      "explain": "They close the cycle."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "How does burning fossil fuels change the carbon cycle?",
+      "options": [
+        "It turns carbon into nitrogen",
+        "It removes CO₂ from the air",
+        "It releases stored ancient carbon into the air much faster than natural processes remove it",
+        "It has no effect"
+      ],
+      "answer": 2,
+      "explain": "CO₂ builds up."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Too much fertiliser washing into a lake can cause…",
+      "options": [
+        "cleaner water",
+        "algal blooms that use up oxygen and kill fish",
+        "more ice",
+        "less plant growth"
+      ],
+      "answer": 1,
+      "explain": "Eutrophication."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which process links the carbon and oxygen cycles?",
+      "options": [
+        "Erosion",
+        "Evaporation",
+        "Freezing",
+        "Photosynthesis and respiration"
+      ],
+      "answer": 3,
+      "explain": "CO₂ in, O₂ out, and the reverse."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why do farmers sometimes grow peas or beans between cereal crops?",
+      "options": [
+        "Their root nodules add nitrogen to the soil",
+        "They make the soil drier",
+        "They add carbon dioxide",
+        "They repel all insects"
+      ],
+      "answer": 0,
+      "explain": "Natural fertiliser.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Trace one carbon atom from the air, through living things, and back to the air.",
+      "modelAnswer": "A carbon atom in CO₂ in the air is taken in by a leaf during photosynthesis and becomes part of a glucose molecule. A goat eats the leaf, and the carbon becomes part of the goat’s body. When the goat respires, the carbon is released as CO₂ in its breath, returning to the air (or, if the goat dies, decomposers release it as CO₂).",
+      "rubric": [
+        "Photosynthesis in",
+        "Moves through food chain",
+        "Respiration or decay returns it"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

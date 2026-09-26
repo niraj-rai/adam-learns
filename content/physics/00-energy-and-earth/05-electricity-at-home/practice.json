@@ -1,0 +1,124 @@
+{
+  "topicId": "electricity-at-home",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "For a bulb to glow, the circuit must be…",
+      "options": [
+        "complete (closed)",
+        "made of plastic",
+        "wet",
+        "broken"
+      ],
+      "answer": 0,
+      "explain": "Current flows all the way round.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is a conductor?",
+      "options": [
+        "A plastic comb",
+        "A wooden stick",
+        "An iron nail",
+        "A rubber band"
+      ],
+      "answer": 2,
+      "explain": "Metals conduct electricity."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why are electric wires covered in plastic?",
+      "options": [
+        "To make them heavier",
+        "Plastic is an insulator, which keeps us safe",
+        "To make them colourful only",
+        "Plastic makes electricity faster"
+      ],
+      "answer": 1,
+      "explain": "It stops shocks.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which is safe?",
+      "options": [
+        "Putting a pin into a socket",
+        "Flying a kite near power lines",
+        "Touching a switch with wet hands",
+        "Switching off the fan with dry hands"
+      ],
+      "answer": 3,
+      "explain": "Water conducts electricity."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A torch doesn’t light. What could be the reason?",
+      "options": [
+        "The cell is used up or a wire is loose",
+        "The torch is too new",
+        "It is daytime",
+        "Bulbs never need electricity"
+      ],
+      "answer": 0,
+      "explain": "Check for a break in the circuit."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What stores the energy in a torch?",
+      "options": [
+        "The switch",
+        "The bulb",
+        "The cell (battery)",
+        "The plastic case"
+      ],
+      "answer": 2,
+      "explain": "Chemical energy is stored in the cell."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Electricians wear rubber gloves because rubber is…",
+      "options": [
+        "a magnet",
+        "an insulator",
+        "a metal",
+        "a conductor"
+      ],
+      "answer": 1,
+      "explain": "It blocks current."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Write three rules for staying safe with electricity at home.",
+      "modelAnswer": "Never touch switches or plugs with wet hands. Never put fingers or objects into sockets. Don’t use wires with broken covering, and tell an adult if you see sparks.",
+      "rubric": [
+        "Three sensible rules"
+      ],
+      "explain": "Communicating."
+    }
+  ]
+}

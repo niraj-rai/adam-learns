@@ -10,7 +10,7 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 2, "note": "Extension: strong Criterion D (sustainability) opportunity" },
     "cbse": [
-      { "class": 8, "chapter": "Previous NCERT edition: Synthetic Fibres and Plastics", "verified": false }
+      { "class": 8, "chapter": "Earlier NCERT Class 8 Ch 3: Synthetic Fibres and Plastics (not in Curiosity Class 8)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C", "D"],

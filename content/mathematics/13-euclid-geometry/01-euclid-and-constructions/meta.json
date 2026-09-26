@@ -16,8 +16,8 @@
     "cbse": [
       {
         "class": 9,
-        "chapter": "Ganita Manjari (2026): Introduction to Euclid's Geometry",
-        "verified": false
+        "chapter": "Ganita Manjari (2026) Part 2: Propositions and their Converses (statements, converses and proof; Euclid's axioms are only in the earlier book)",
+        "verified": true
       },
       {
         "class": 9,

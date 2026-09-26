@@ -10,7 +10,8 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Excellent context for the nature of science: models change with evidence" },
     "cbse": [
-      { "class": 9, "chapter": "Ch 3: Atoms and Molecules (Dalton's atomic theory); Ch 4: Structure of the Atom (Thomson, Rutherford, Bohr)", "verified": false }
+      { "class": 9, "chapter": "Exploration (2026) Ch 8: Journey Inside the Atom (Thomson, Rutherford, Bohr, discovery of the neutron)", "verified": true },
+      { "class": 9, "chapter": "Exploration (2026) Ch 9: Atomic Foundations of Matter (Dalton's atomic theory)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C", "D"],

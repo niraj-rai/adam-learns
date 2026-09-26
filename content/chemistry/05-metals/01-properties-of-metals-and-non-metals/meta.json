@@ -11,7 +11,7 @@
     "ib": { "programme": "MYP", "year": 2 },
     "cbse": [
       { "class": 7, "chapter": "Curiosity Ch 4: The World of Metals and Non-metals", "verified": true },
-      { "class": 10, "chapter": "Ch 3: Metals and Non-metals (physical properties)", "verified": false }
+      { "class": 10, "chapter": "Ch 3: Metals and Non-metals (physical properties)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "C"],

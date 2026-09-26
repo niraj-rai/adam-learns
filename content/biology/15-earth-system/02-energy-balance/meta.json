@@ -1,0 +1,56 @@
+{
+  "id": "energy-balance",
+  "number": "15.2",
+  "title": "Energy Balance and the Greenhouse Effect",
+  "summary": "Solar radiation, uneven heating, albedo, the natural greenhouse effect and its enhancement.",
+  "emoji": "🌡️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Earth systems, MYP 4 Sciences"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 13: Earth as a System: Energy, Matter and Life",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can explain why Earth has a steady average temperature.",
+    "I can explain albedo and uneven heating.",
+    "I can distinguish the natural and enhanced greenhouse effect."
+  ],
+  "misconceptions": [
+    "The greenhouse effect is entirely bad.",
+    "Greenhouse gases trap incoming sunlight.",
+    "The poles are colder because they are further from the Sun."
+  ],
+  "prerequisites": [
+    "biology/earth-system/earth-spheres",
+    "physics/energy/convection-and-radiation"
+  ],
+  "labs": [
+    "greenhouse-lab"
+  ],
+  "keyTerms": [
+    "solar radiation",
+    "infrared",
+    "albedo",
+    "greenhouse effect",
+    "greenhouse gas",
+    "energy balance",
+    "solar constant"
+  ],
+  "estMinutes": 30
+}

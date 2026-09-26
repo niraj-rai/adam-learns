@@ -1,0 +1,124 @@
+{
+  "topicId": "safe-and-happy-school",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "When should you wash your hands with soap?",
+      "options": [
+        "Only once a week",
+        "Before eating and after using the toilet",
+        "Only when they look dirty",
+        "Never"
+      ],
+      "answer": 1,
+      "explain": "Germs are invisible.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How should you cover a cough or sneeze?",
+      "options": [
+        "Face a friend",
+        "With your hand, then touch the desk",
+        "Don’t cover it",
+        "With your elbow or a tissue"
+      ],
+      "answer": 3,
+      "explain": "It stops droplets spreading."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which bin is for wet waste like fruit peels?",
+      "options": [
+        "The green bin",
+        "No bin: throw it on the ground",
+        "The blue bin",
+        "Any bin"
+      ],
+      "answer": 0,
+      "explain": "Wet waste can be composted.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A friend gets a small cut. What should you do first?",
+      "options": [
+        "Put mud on it",
+        "Ignore it",
+        "Tell a teacher and help wash it with clean water",
+        "Laugh"
+      ],
+      "answer": 2,
+      "explain": "Clean and cover small cuts."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why should we walk, not run, on stairs?",
+      "options": [
+        "It doesn’t matter",
+        "To avoid falling and hurting ourselves or others",
+        "Stairs are for sitting",
+        "Running is too slow"
+      ],
+      "answer": 1,
+      "explain": "Safety first."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why is soap better than water alone for washing hands?",
+      "options": [
+        "Soap smells nice only",
+        "Water makes germs grow",
+        "Soap is a food",
+        "Soap helps lift away germs and grease"
+      ],
+      "answer": 3,
+      "explain": "Soap breaks up the oily layer that holds germs."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where should you cross a road near school?",
+      "options": [
+        "At a zebra crossing, looking both ways",
+        "Between parked cars",
+        "Wherever is quickest",
+        "While looking at your phone"
+      ],
+      "answer": 0,
+      "explain": "Safe crossing."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Suggest three ways your class can stop germs from spreading.",
+      "modelAnswer": "Wash hands with soap before lunch and after the toilet. Cover coughs and sneezes with an elbow or tissue. Keep the classroom clean, open windows for fresh air, and stay home when sick.",
+      "rubric": [
+        "Three sensible ways"
+      ],
+      "explain": "Planning."
+    }
+  ]
+}

@@ -11,7 +11,8 @@
     "ib": { "programme": "MYP", "year": 2, "note": "Classic MYP Criterion B fair-test investigation" },
     "cbse": [
       { "class": 7, "chapter": "Curiosity Ch 5: Changes Around Us: Physical and Chemical (rusting, galvanisation)", "verified": true },
-      { "class": 10, "chapter": "Ch 1 / Ch 3: corrosion and its prevention", "verified": false }
+      { "class": 10, "chapter": "Ch 1: Chemical Reactions and Equations (corrosion and rancidity)", "verified": true },
+      { "class": 10, "chapter": "Ch 3: Metals and Non-metals (corrosion and its prevention)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "D"],

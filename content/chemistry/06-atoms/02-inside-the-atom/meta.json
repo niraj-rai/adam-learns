@@ -10,7 +10,7 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3 },
     "cbse": [
-      { "class": 9, "chapter": "Ch 4: Structure of the Atom (atomic number, mass number)", "verified": false }
+      { "class": 9, "chapter": "Exploration (2026) Ch 8: Journey Inside the Atom (atomic number, mass number)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C"],

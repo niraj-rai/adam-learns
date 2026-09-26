@@ -1,0 +1,103 @@
+{
+  "topicId": "multiplication-and-division",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is 25 × 12?",
+      "answer": 300,
+      "tolerance": 0,
+      "explain": "25 × 12 = 300.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Share 84 bananas equally among 7 monkeys. How many each?",
+      "answer": 12,
+      "tolerance": 0,
+      "explain": "84 ÷ 7.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the remainder when 50 is divided by 6?",
+      "answer": 2,
+      "tolerance": 0,
+      "explain": "6 × 8 = 48; 50 − 48 = 2."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A dairy fills 36 cans with 20 litres each. How many litres in all?",
+      "answer": 720,
+      "tolerance": 0,
+      "explain": "36 × 20.",
+      "unit": "L"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is the same as 7 × 9?",
+      "options": [
+        "9 − 7",
+        "79",
+        "7 + 9",
+        "9 × 7"
+      ],
+      "answer": 3,
+      "explain": "Order doesn’t matter in multiplication."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "45 children go on a trip in cars that seat 4 each. How many cars are needed?",
+      "answer": 12,
+      "tolerance": 0,
+      "explain": "45 ÷ 4 = 11 r 1, so one more car is needed for the last child.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Anything multiplied by 0 gives…",
+      "options": [
+        "0",
+        "10",
+        "the same number",
+        "1"
+      ],
+      "answer": 0,
+      "explain": "0 groups of anything is nothing."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Explain how to find 16 × 15 by splitting the numbers.",
+      "modelAnswer": "Split 15 into 10 and 5. 16 × 10 = 160 and 16 × 5 = 80. Add them: 160 + 80 = 240.",
+      "rubric": [
+        "Splits a number",
+        "Correct partial products",
+        "240"
+      ],
+      "explain": "Explaining."
+    }
+  ]
+}

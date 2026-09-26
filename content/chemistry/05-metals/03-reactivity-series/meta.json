@@ -10,8 +10,8 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Links to extraction of metals and redox (MYP 4–5)" },
     "cbse": [
-      { "class": 10, "chapter": "Ch 3: Metals and Non-metals (reactivity series, displacement reactions)", "verified": false },
-      { "class": 7, "chapter": "Curiosity Ch 4 / Ch 5 (iron nail in copper sulfate)", "verified": false }
+      { "class": 10, "chapter": "Ch 3: Metals and Non-metals (reactivity series, displacement reactions)", "verified": true },
+      { "class": 7, "chapter": "Curiosity Ch 4: The World of Metals and Non-metals (how metals react with oxygen and water)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "C"],

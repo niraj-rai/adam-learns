@@ -11,7 +11,7 @@
     "ib": { "programme": "MYP", "year": 3, "note": "Unit summative-style task: planning (Criterion B) and processing evidence (Criterion C)" },
     "cbse": [
       { "class": 7, "chapter": "Curiosity Ch 2: Exploring Substances: Acidic, Basic and Neutral", "verified": true },
-      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts", "verified": false }
+      { "class": 10, "chapter": "Ch 2: Acids, Bases and Salts", "verified": true }
     ]
   },
   "ibCriteria": ["B", "C"],

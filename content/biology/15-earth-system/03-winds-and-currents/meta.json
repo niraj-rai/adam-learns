@@ -1,0 +1,55 @@
+{
+  "id": "winds-and-currents",
+  "number": "15.3",
+  "title": "Winds, Monsoons and Ocean Currents",
+  "summary": "How uneven heating drives sea breezes, the monsoon, global winds and ocean currents that move heat around Earth.",
+  "emoji": "🌬️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Earth systems, MYP 4 Sciences"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 13: Earth as a System: Energy, Matter and Life",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain how uneven heating causes winds.",
+    "I can explain the Indian monsoon.",
+    "I can describe how ocean currents move heat."
+  ],
+  "misconceptions": [
+    "Wind blows from cold places to hot places only at night.",
+    "The monsoon is just heavy rain.",
+    "Ocean water stays in one place."
+  ],
+  "prerequisites": [
+    "biology/earth-system/energy-balance",
+    "physics/forces/winds-and-cyclones"
+  ],
+  "labs": [
+    "cyclone-lab"
+  ],
+  "keyTerms": [
+    "convection",
+    "sea breeze",
+    "land breeze",
+    "monsoon",
+    "ocean current",
+    "pressure"
+  ],
+  "estMinutes": 30
+}

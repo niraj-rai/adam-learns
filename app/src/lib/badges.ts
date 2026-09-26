@@ -130,6 +130,8 @@ export type BadgeId =
   | 'nature-explorer'
   | 'unit-maths-mela'
   | 'mela-master'
+  | 'unit-earth-system'
+  | 'earth-system-master'
   | 'light-master'
   | 'perfect-score'
 
@@ -266,5 +268,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'nature-explorer': { title: "Nature Explorer", emoji: '🌳', description: "Solved ten Grade 5 nature puzzles (Boss Challenge)" },
   'unit-maths-mela': { title: "Young Mathematician", emoji: '🎡', description: "Mastered every topic in the Grade 5 Maths starter unit: Maths Mela" },
   'mela-master': { title: "Maths Mela Master", emoji: '🎡', description: "Solved ten Grade 5 maths puzzles (Boss Challenge)" },
+  'unit-earth-system': { title: "Earth Systems Scientist", emoji: '🌐', description: "Mastered every core topic in Grade 9 Biology Unit 15: Earth as a System" },
+  'earth-system-master': { title: "Earth System Master", emoji: '🌍', description: "Solved ten Grade 9 Earth-system problems (Boss Challenge)" },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

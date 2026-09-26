@@ -1,0 +1,59 @@
+{
+  "id": "cycles-of-matter",
+  "number": "15.4",
+  "title": "Cycles of Matter",
+  "summary": "The water, carbon, nitrogen and oxygen cycles, and how human activity is changing them.",
+  "emoji": "⚫",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Earth systems, MYP 4 Sciences"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 13: Earth as a System: Energy, Matter and Life",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe the water, carbon, nitrogen and oxygen cycles.",
+    "I can explain the role of living things in the cycles.",
+    "I can explain how humans are changing the carbon and nitrogen cycles."
+  ],
+  "misconceptions": [
+    "Plants get their carbon from the soil.",
+    "Animals can use nitrogen gas from the air.",
+    "Matter is used up by living things."
+  ],
+  "prerequisites": [
+    "biology/earth-system/energy-balance",
+    "biology/microbes/decomposers-and-nitrogen",
+    "biology/nutrition/photosynthesis"
+  ],
+  "labs": [
+    "carbon-cycle",
+    "compost-lab"
+  ],
+  "keyTerms": [
+    "biogeochemical cycle",
+    "carbon cycle",
+    "nitrogen fixation",
+    "nitrification",
+    "denitrification",
+    "photosynthesis",
+    "respiration",
+    "fossil fuels"
+  ],
+  "estMinutes": 30
+}

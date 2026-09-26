@@ -1,6 +1,6 @@
 {
   "id": "spark-starter",
-  "number": "0.4",
+  "number": "0.6",
   "title": "Boss Challenge: Spark Starter",
   "summary": "Ten Grade 5 puzzles about energy, day and night, and the seasons. Three lives!",
   "emoji": "✨",
@@ -16,12 +16,12 @@
     "cbse": [
       {
         "class": 5,
-        "chapter": "Our Wondrous World (2025) Ch 7",
+        "chapter": "Our Wondrous World (2025) Ch 7: Energy — How Things Work",
         "verified": true
       },
       {
         "class": 5,
-        "chapter": "Our Wondrous World (2025) Ch 9",
+        "chapter": "Our Wondrous World (2025) Ch 9: Rhythms of Nature",
         "verified": true
       }
     ]
@@ -39,7 +39,9 @@
   "prerequisites": [
     "physics/energy-and-earth/energy-around-us",
     "physics/energy-and-earth/day-and-night",
-    "physics/energy-and-earth/seasons-and-the-year"
+    "physics/energy-and-earth/seasons-and-the-year",
+    "physics/energy-and-earth/moon-and-sky",
+    "physics/energy-and-earth/electricity-at-home"
   ],
   "labs": [
     "spark-starter"

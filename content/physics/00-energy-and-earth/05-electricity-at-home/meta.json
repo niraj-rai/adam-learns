@@ -1,0 +1,53 @@
+{
+  "id": "electricity-at-home",
+  "number": "0.5",
+  "title": "Electricity at Home",
+  "summary": "Cells, bulbs and switches, simple circuits, conductors, and staying safe with electricity.",
+  "emoji": "💡",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Energy, PYP 5 Science"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 7: Energy — How Things Work",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can make a simple circuit.",
+    "I can say which materials let electricity flow.",
+    "I can follow safety rules with electricity."
+  ],
+  "misconceptions": [
+    "A bulb needs only one wire to light.",
+    "Electricity from a wall socket is as safe as a torch cell.",
+    "Any material lets electricity flow."
+  ],
+  "prerequisites": [
+    "physics/energy-and-earth/energy-around-us"
+  ],
+  "labs": [
+    "circuit-builder"
+  ],
+  "keyTerms": [
+    "cell",
+    "bulb",
+    "switch",
+    "circuit",
+    "conductor",
+    "insulator"
+  ],
+  "estMinutes": 20
+}

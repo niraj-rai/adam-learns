@@ -1,0 +1,114 @@
+{
+  "topicId": "time-and-speed",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many seconds are there in 2 minutes 30 seconds?",
+      "answer": 150,
+      "tolerance": 0,
+      "explain": "120 + 30.",
+      "unit": "s",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many minutes are there in 3 hours?",
+      "answer": 180,
+      "tolerance": 0,
+      "explain": "3 × 60.",
+      "unit": "min"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which time is the fastest for a 50 m race?",
+      "options": [
+        "8.5 s",
+        "10 s",
+        "9.2 s",
+        "8.9 s"
+      ],
+      "answer": 0,
+      "explain": "The smallest time wins."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A film starts at 3:45 pm and ends at 5:20 pm. How long is it?",
+      "options": [
+        "1 hour 25 minutes",
+        "2 hours 35 minutes",
+        "1 hour 35 minutes",
+        "1 hour 75 minutes"
+      ],
+      "answer": 2,
+      "explain": "3:45 → 4:45 is 1 h; 4:45 → 5:20 is 35 min.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A runner takes 12 seconds for each lap. How long for 5 laps (in seconds)?",
+      "answer": 60,
+      "tolerance": 0,
+      "explain": "5 × 12 = 60 s = 1 minute.",
+      "unit": "s"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which is longer: 100 seconds or 1 minute 30 seconds?",
+      "options": [
+        "1 minute 30 seconds",
+        "100 seconds",
+        "They are equal",
+        "Can’t tell"
+      ],
+      "answer": 1,
+      "explain": "1 min 30 s = 90 s."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which tool measures seconds most accurately in a race?",
+      "options": [
+        "A sundial",
+        "A wall clock without a second hand",
+        "A calendar",
+        "A stopwatch"
+      ],
+      "answer": 3,
+      "explain": "Stopwatches measure fractions of a second."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Neha ran 100 m in 18 seconds. Sam ran 200 m in 40 seconds. Who was running faster? Explain.",
+      "modelAnswer": "Neha was faster. Sam took 40 seconds for 200 m, so he took about 20 seconds for each 100 m. Neha took only 18 seconds for 100 m, so she covered the same distance in less time.",
+      "rubric": [
+        "Compares per 100 m",
+        "Neha faster",
+        "Reason: less time for same distance"
+      ],
+      "explain": "Reasoning."
+    }
+  ]
+}

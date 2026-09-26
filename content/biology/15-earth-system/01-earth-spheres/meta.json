@@ -1,0 +1,55 @@
+{
+  "id": "earth-spheres",
+  "number": "15.1",
+  "title": "Earth's Five Spheres",
+  "summary": "The atmosphere, hydrosphere, cryosphere, geosphere and biosphere, and how they interact.",
+  "emoji": "🌐",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Earth systems, MYP 4 Sciences"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 13: Earth as a System: Energy, Matter and Life",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can name and describe Earth’s five spheres.",
+    "I can trace how one event affects several spheres.",
+    "I can explain why Earth is studied as a system."
+  ],
+  "misconceptions": [
+    "The spheres are separate layers that don’t affect each other.",
+    "Ice is part of the hydrosphere only.",
+    "Humans are outside the Earth system."
+  ],
+  "prerequisites": [
+    "biology/ecosystems/what-is-an-ecosystem"
+  ],
+  "labs": [
+    "spheres-explorer"
+  ],
+  "keyTerms": [
+    "atmosphere",
+    "hydrosphere",
+    "cryosphere",
+    "geosphere",
+    "biosphere",
+    "system",
+    "interaction"
+  ],
+  "estMinutes": 30
+}

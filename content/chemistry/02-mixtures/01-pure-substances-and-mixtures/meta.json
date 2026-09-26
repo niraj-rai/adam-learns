@@ -11,7 +11,8 @@
     "ib": { "programme": "MYP", "year": 2, "note": "Foundation for elements, compounds and mixtures in MYP 3" },
     "cbse": [
       { "class": 8, "chapter": "Curiosity Ch 8: Nature of Matter: Elements, Compounds and Mixtures", "verified": true },
-      { "class": 9, "chapter": "Ch 2: Is Matter Around Us Pure?, section 2.1", "verified": false }
+      { "class": 9, "chapter": "Exploration (2026) Ch 5: Exploring Mixtures and their Separation (classifying mixtures)", "verified": true },
+      { "class": 9, "chapter": "Earlier NCERT: Is Matter Around Us Pure? (pure substances)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C", "D"],

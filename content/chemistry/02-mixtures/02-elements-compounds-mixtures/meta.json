@@ -11,7 +11,7 @@
     "ib": { "programme": "MYP", "year": 3, "note": "Links to symbols and formulas, and later the periodic table (Unit 6)" },
     "cbse": [
       { "class": 8, "chapter": "Curiosity Ch 8: Nature of Matter: Elements, Compounds and Mixtures", "verified": true },
-      { "class": 9, "chapter": "Ch 2: Is Matter Around Us Pure?, section 2.5", "verified": false }
+      { "class": 9, "chapter": "Earlier NCERT: Is Matter Around Us Pure? (elements, compounds and mixtures)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "C"],

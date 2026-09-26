@@ -10,8 +10,8 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Periodic trends are developed in MYP 4" },
     "cbse": [
-      { "class": 11, "chapter": "Ch 3: Classification of Elements and Periodicity in Properties (moved from Class 10 in the rationalised syllabus)", "verified": false },
-      { "class": 9, "chapter": "Ch 4: Structure of the Atom (electron arrangement links to groups)", "verified": false }
+      { "class": 11, "chapter": "Chemistry Part I Ch 3: Classification of Elements and Periodicity in Properties (removed from Class 10 in the rationalised syllabus)", "verified": true },
+      { "class": 9, "chapter": "Exploration (2026) Ch 8: Journey Inside the Atom (electron arrangement)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C", "D"],

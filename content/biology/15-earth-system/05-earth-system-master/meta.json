@@ -1,0 +1,52 @@
+{
+  "id": "earth-system-master",
+  "number": "15.5",
+  "title": "Boss Challenge: Earth System Master",
+  "summary": "Ten problems on spheres, energy balance, winds and the cycles of matter. Three lives!",
+  "emoji": "🌍",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 13: Earth as a System: Energy, Matter and Life",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply Earth-system ideas."
+  ],
+  "misconceptions": [
+    "The greenhouse effect is entirely bad.",
+    "Plants get carbon from soil."
+  ],
+  "prerequisites": [
+    "biology/earth-system/earth-spheres",
+    "biology/earth-system/energy-balance",
+    "biology/earth-system/winds-and-currents",
+    "biology/earth-system/cycles-of-matter"
+  ],
+  "labs": [
+    "earth-system-master"
+  ],
+  "keyTerms": [
+    "albedo",
+    "greenhouse effect",
+    "monsoon",
+    "nitrogen fixation"
+  ],
+  "estMinutes": 20
+}

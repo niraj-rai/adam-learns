@@ -16,7 +16,7 @@
 
 | Unit | Topics | NCERT Class 5 | Labs |
 |---|---|---|---|
-| 0. Starter: Water and Materials | Water: ice, liquid and steam · Mixing and dissolving · Fibres and fabrics · Boss | Our Wondrous World Ch 1 (Water — The Essence of Life), Ch 8 (Clothes — How Things are Made) | **Water: Ice, Water, Steam**, Dissolving Lab, **From Fibre to Fabric**, Material Explorer |
+| 0. Starter: Water and Materials | Water: ice, liquid and steam · Mixing and dissolving · Fibres and fabrics · Clean water for all · Changes around us · Boss | Our Wondrous World Ch 1 (Water — The Essence of Life), Ch 8 (Clothes — How Things are Made) | **Water: Ice, Water, Steam**, Dissolving Lab, **From Fibre to Fabric**, Separation Bench, Change Detective, Material Explorer |
 
 Grade 5 units are a single "Unit 0" starter per subject (stage G5), written in simpler language. Bold labs are new for Grade 5.
 

@@ -1,0 +1,53 @@
+{
+  "id": "clean-water",
+  "number": "0.4",
+  "title": "Clean Water for All",
+  "summary": "Where our water comes from, making dirty water clean, and saving water.",
+  "emoji": "🚰",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Materials, PYP 5 Science"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 1: Water — The Essence of Life",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can name sources of water.",
+    "I can describe ways to clean water.",
+    "I can suggest ways to save water."
+  ],
+  "misconceptions": [
+    "Clear water is always safe to drink.",
+    "Water will never run out.",
+    "Filtering removes all germs."
+  ],
+  "prerequisites": [
+    "chemistry/materials-and-water/mixing-and-dissolving"
+  ],
+  "labs": [
+    "separation-bench"
+  ],
+  "keyTerms": [
+    "source",
+    "sedimentation",
+    "decantation",
+    "filtration",
+    "boiling",
+    "safe drinking water"
+  ],
+  "estMinutes": 20
+}

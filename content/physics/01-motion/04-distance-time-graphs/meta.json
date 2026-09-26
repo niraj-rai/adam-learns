@@ -10,8 +10,8 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Velocity–time graphs follow in MYP 4" },
     "cbse": [
-      { "class": 7, "chapter": "Curiosity Ch 8: Measurement of Time and Motion (distance–time graphs)", "verified": false },
-      { "class": 9, "chapter": "Motion: graphical representation of motion", "verified": false }
+      { "class": 7, "chapter": "Curiosity Ch 8: Measurement of Time and Motion (speed from distance–time tables; graphs start in Class 9)", "verified": true },
+      { "class": 9, "chapter": "Exploration (2026) Ch 4: Describing Motion Around Us (position–time and velocity–time graphs)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C"],

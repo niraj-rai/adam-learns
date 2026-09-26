@@ -18,11 +18,14 @@ export const Route = createFileRoute('/$subject/')({
   component: SubjectPage,
 })
 
+// A stable empty list: returning a new [] from the selector would re-render forever.
+const NO_WARMUPS: string[] = []
+
 function SubjectPage() {
   const subject = Route.useLoaderData()
   const topics = useProgress((s) => s.topics)
   const grade = useProfile((s) => s.grade)
-  const warmups = useProfile((s) => s.check?.warmups ?? [])
+  const warmups = useProfile((s) => s.check?.warmups) ?? NO_WARMUPS
   const myGrade = grade ? effectiveGrade(grade, subject.id) : null
   const stages = (['G5', 'G6-8', 'G9', 'G10'] as const).filter((st) => subject.units.some((u) => u.stage === st))
   const [stage, setStageState] = useState(() => {

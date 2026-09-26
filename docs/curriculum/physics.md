@@ -10,7 +10,7 @@
 
 | Unit | Topics | NCERT Class 5 | Labs |
 |---|---|---|---|
-| 0. Starter: Energy, Day and Night | Energy around us · Day and night · Seasons and the year · Boss | Our Wondrous World Ch 7 (Energy — How Things Work), Ch 9 (Rhythms of Nature) | Energy Chain, Day, Night and the Moving Sun, Seasons Lab, Spark Starter |
+| 0. Starter: Energy, Day and Night | Energy around us · Day and night · Seasons and the year · The Moon and the night sky · Electricity at home · Boss | Our Wondrous World Ch 7 (Energy — How Things Work), Ch 9 (Rhythms of Nature) | Energy Chain, Day, Night and the Moving Sun, Seasons Lab, Moon Lab, Circuit Builder, Spark Starter |
 
 Grade 5 units are a single "Unit 0" starter per subject (stage G5), written in simpler language. Bold labs are new for Grade 5.
 

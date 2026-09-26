@@ -10,7 +10,7 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Extension: links chemistry and physics (electrolysis in MYP 5 / DP)" },
     "cbse": [
-      { "class": 8, "chapter": "Previous NCERT edition: Chemical Effects of Electric Current", "verified": false }
+      { "class": 8, "chapter": "Earlier NCERT Class 8 Ch 14: Chemical Effects of Electric Current (not in Curiosity Class 8)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "C"],

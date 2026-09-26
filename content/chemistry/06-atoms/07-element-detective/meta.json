@@ -10,8 +10,8 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Unit summative-style task: applying knowledge of atomic structure and the periodic table (Criteria A and C)" },
     "cbse": [
-      { "class": 9, "chapter": "Ch 4: Structure of the Atom", "verified": false },
-      { "class": 11, "chapter": "Ch 3: Classification of Elements", "verified": false }
+      { "class": 9, "chapter": "Exploration (2026) Ch 8: Journey Inside the Atom", "verified": true },
+      { "class": 11, "chapter": "Chemistry Part I Ch 3: Classification of Elements and Periodicity in Properties", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C"],

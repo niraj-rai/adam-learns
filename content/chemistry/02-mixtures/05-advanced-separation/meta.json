@@ -10,8 +10,8 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Chromatography and Rf values extend into MYP 4–5 analysis" },
     "cbse": [
-      { "class": 9, "chapter": "Ch 2: Is Matter Around Us Pure?, section 2.3 (separating components of a mixture)", "verified": false },
-      { "class": 8, "chapter": "Curiosity Ch 9: Solutes, Solvents and Solutions (crystals from solutions)", "verified": false }
+      { "class": 9, "chapter": "Exploration (2026) Ch 5: Exploring Mixtures and their Separation (crystallisation, distillation, chromatography, sublimation, centrifugation)", "verified": true },
+      { "class": 8, "chapter": "Curiosity Ch 9: The Amazing World of Solutes, Solvents and Solutions (saturated solutions)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "C", "D"],

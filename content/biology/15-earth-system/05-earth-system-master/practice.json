@@ -1,0 +1,120 @@
+{
+  "topicId": "earth-system-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which sphere contains all living things?",
+      "options": [
+        "Geosphere",
+        "Biosphere",
+        "Atmosphere",
+        "Hydrosphere"
+      ],
+      "answer": 1,
+      "explain": "Bio = life."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A dark surface has a…",
+      "options": [
+        "high albedo",
+        "albedo of 1",
+        "no temperature",
+        "low albedo"
+      ],
+      "answer": 3,
+      "explain": "It absorbs most light."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What forms when warm moist air rises and cools?",
+      "options": [
+        "Clouds and rain",
+        "Ice sheets on the ground",
+        "Fossil fuels",
+        "Soil"
+      ],
+      "answer": 0,
+      "explain": "Condensation."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Deforestation affects the carbon cycle by…",
+      "options": [
+        "adding oxygen",
+        "increasing albedo to 1",
+        "reducing CO₂ uptake and releasing stored carbon",
+        "fixing nitrogen"
+      ],
+      "answer": 2,
+      "explain": "Fewer trees, more CO₂."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which gas makes up 78% of air but can’t be used directly by most living things?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Argon"
+      ],
+      "answer": 1,
+      "explain": "It must be fixed first."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "CO₂ rose from 280 ppm to 420 ppm. By what percentage did it rise?",
+      "answer": 50,
+      "tolerance": 0,
+      "explain": "(420 − 280) ÷ 280 × 100.",
+      "unit": "%"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Why does the Tibetan plateau heating up in summer matter for India’s monsoon?",
+      "options": [
+        "It stops all rain",
+        "It has no effect",
+        "It freezes the ocean",
+        "It creates strong low pressure that helps draw moist ocean air north"
+      ],
+      "answer": 3,
+      "explain": "Differential heating on a huge scale."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain one feedback loop in the Earth system and whether it amplifies or reduces change.",
+      "modelAnswer": "Ice–albedo feedback: warming melts snow and ice, exposing darker land or ocean with lower albedo. More sunlight is absorbed, causing more warming and more melting. This is a positive feedback: it amplifies the change.",
+      "rubric": [
+        "Describes the loop",
+        "Links steps causally",
+        "States amplifies/reduces"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

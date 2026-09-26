@@ -10,7 +10,7 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Group trends explained in more depth in MYP 4" },
     "cbse": [
-      { "class": 11, "chapter": "Ch 3: Classification of Elements and Periodicity (periodic trends)", "verified": false }
+      { "class": 11, "chapter": "Chemistry Part I Ch 3: Classification of Elements and Periodicity in Properties (periodic trends)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C"],

@@ -6,7 +6,7 @@
 
 | Unit | Topics | NCERT Class 5 | Labs |
 |---|---|---|---|
-| 0. Starter: Life Around Us | Food and nutrients · Keeping food fresh · Homes of plants and animals · Earth: our shared home · Boss | Our Wondrous World Ch 2 (Journey of a River), Ch 3 (The Mystery of Food), Ch 6 (Some Unique Places), Ch 10 (Earth: Our Shared Home) | Build a Balanced Thali, Food Preserver, Adapt-o-matic, Waste Sorter, Nature Explorer |
+| 0. Starter: Life Around Us | Food and nutrients · Keeping food fresh · Homes of plants and animals · Earth: our shared home · Rhythms of nature · A safe and happy school · Boss | Our Wondrous World Ch 2, 3, 4, 6, 9, 10 | Build a Balanced Thali, Food Preserver, Adapt-o-matic, Waste Sorter, **Nature's Calendar**, Germ Spread Classroom, Nature Explorer |
 
 Grade 5 units are a single "Unit 0" starter per subject (stage G5), written in simpler language. Bold labs are new for Grade 5.
 
@@ -147,7 +147,16 @@ CBSE Class 9 now uses the integrated NCERT book **Exploration** (2026): biology 
 | 11.3 | Human reproduction and reproductive health | MYP 4 | Exploration Ch 11 ✅ | **How a Baby Develops** |
 | 11.4 | Boss: Life Cycle Master | MYP 4 | Mixed | 10 problems |
 
-Exploration Ch 13 (Earth as a System) is Earth science and isn't covered yet.
+### Unit 15: Earth as a System
+| # | Topic | IB | CBSE | Lab |
+|---|---|---|---|---|
+| 15.1 | Earth's five spheres | MYP 4 | Exploration Ch 13 ✅ | **Earth's Five Spheres** |
+| 15.2 | Energy balance and the greenhouse effect | MYP 4 | Exploration Ch 13 ✅ | **Earth's Energy Balance** |
+| 15.3 | Winds, monsoons and ocean currents | MYP 4 | Exploration Ch 13 ✅ | Winds, Storms and Cyclones |
+| 15.4 | Cycles of matter (water, carbon, nitrogen, oxygen) | MYP 4 | Exploration Ch 13 ✅ | **Cycles of Matter**, Decomposers and Nitrogen Fixers |
+| 15.5 | Boss: Earth System Master | MYP 4 | Mixed | 10 problems |
+
+Exploration Ch 13 mixes physics, chemistry, biology and geography; it lives in Biology as Unit 15 (shown in the Grade 9 tab). All 13 Exploration chapters are now covered.
 
 ### Grade 10 ✅ built (NCERT Class 10 unchanged for 2026–27; IB MYP 5)
 

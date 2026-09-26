@@ -10,7 +10,7 @@
   "grades": {
     "ib": { "programme": "MYP", "year": 3, "note": "Foundation for bonding in MYP 4" },
     "cbse": [
-      { "class": 9, "chapter": "Ch 4: Structure of the Atom (distribution of electrons, valency)", "verified": false }
+      { "class": 9, "chapter": "Exploration (2026) Ch 8: Journey Inside the Atom (distribution of electrons, valency)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C"],

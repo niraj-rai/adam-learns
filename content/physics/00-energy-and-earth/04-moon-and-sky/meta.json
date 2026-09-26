@@ -1,0 +1,54 @@
+{
+  "id": "moon-and-sky",
+  "number": "0.4",
+  "title": "The Moon and the Night Sky",
+  "summary": "Why the Moon seems to change shape, the month, and patterns of stars.",
+  "emoji": "🌙",
+  "complexity": 1,
+  "level": "L0",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "PYP",
+      "year": 5,
+      "note": "Earth and space, PYP 5 Science"
+    },
+    "cbse": [
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 9: Rhythms of Nature",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C"
+  ],
+  "objectives": [
+    "I can explain why the Moon shines.",
+    "I can name the phases of the Moon.",
+    "I can explain why the phases repeat about every month."
+  ],
+  "misconceptions": [
+    "The Earth’s shadow causes the Moon’s phases.",
+    "The Moon makes its own light.",
+    "The Moon is only in the sky at night."
+  ],
+  "prerequisites": [
+    "physics/energy-and-earth/day-and-night"
+  ],
+  "labs": [
+    "moon-lab"
+  ],
+  "keyTerms": [
+    "Moon",
+    "phase",
+    "new moon",
+    "full moon",
+    "crescent",
+    "month",
+    "reflect"
+  ],
+  "estMinutes": 20
+}

@@ -11,7 +11,7 @@
     "ib": { "programme": "MYP", "year": 3, "note": "Strong Criterion C opportunity: collecting data and drawing a solubility curve" },
     "cbse": [
       { "class": 8, "chapter": "Curiosity Ch 9: The Amazing World of Solutes, Solvents and Solutions", "verified": true },
-      { "class": 9, "chapter": "Ch 2: Is Matter Around Us Pure?, section 2.2 (solutions, concentration)", "verified": false }
+      { "class": 9, "chapter": "Exploration (2026) Ch 5: Exploring Mixtures and their Separation (solutions, concentration, solubility)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "C"],

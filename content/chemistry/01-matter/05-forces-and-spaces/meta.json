@@ -11,7 +11,7 @@
     "ib": { "programme": "MYP", "year": 3 },
     "cbse": [
       { "class": 8, "chapter": "Curiosity Ch 7: Particulate Nature of Matter (interparticle attraction and spaces)", "verified": true },
-      { "class": 9, "chapter": "Ch 1: Matter in Our Surroundings, section 1.2", "verified": false }
+      { "class": 9, "chapter": "Earlier NCERT: Matter in Our Surroundings (not in Exploration 2026)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C"],

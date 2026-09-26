@@ -1,0 +1,147 @@
+{
+  "topicId": "changes-around-us",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is an irreversible change?",
+      "options": [
+        "Freezing water",
+        "Melting ice",
+        "Folding a paper boat",
+        "Burning paper"
+      ],
+      "answer": 3,
+      "explain": "Ash can’t turn back into paper.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Milk turning into curd is…",
+      "options": [
+        "a change that can’t be undone",
+        "a change that can be undone",
+        "not a change",
+        "melting"
+      ],
+      "answer": 0,
+      "explain": "Microbes make a new substance."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is a reversible change?",
+      "options": [
+        "Wood burning",
+        "Iron rusting",
+        "Water turning into ice",
+        "An egg being boiled"
+      ],
+      "answer": 2,
+      "explain": "Melt the ice and you get water back."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "What new things are made when wood burns?",
+      "options": [
+        "Water only",
+        "Ash, smoke and gases",
+        "More wood",
+        "Nothing"
+      ],
+      "answer": 1,
+      "explain": "Burning makes new substances."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why can’t a cooked chapati be turned back into dough?",
+      "options": [
+        "It is too thin",
+        "It is too hot",
+        "Dough is not food",
+        "Cooking makes new substances"
+      ],
+      "answer": 3,
+      "explain": "Heat changes the food permanently."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Candle wax melts when lit. Is melting wax reversible?",
+      "options": [
+        "Yes: it goes solid again when it cools",
+        "Only in winter",
+        "Only if it is coloured",
+        "No, never"
+      ],
+      "answer": 0,
+      "explain": "But the burning wick is irreversible!"
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Sort the changes.",
+      "bins": [
+        "Can be undone",
+        "Can’t be undone"
+      ],
+      "items": [
+        {
+          "label": "Butter melting",
+          "bin": 0
+        },
+        {
+          "label": "Rice cooking",
+          "bin": 1
+        },
+        {
+          "label": "Water freezing",
+          "bin": 0
+        },
+        {
+          "label": "Paper burning",
+          "bin": 1
+        },
+        {
+          "label": "Bending a wire",
+          "bin": 0
+        },
+        {
+          "label": "Milk becoming curd",
+          "bin": 1
+        }
+      ],
+      "explain": "Irreversible changes make new substances."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Give one reversible and one irreversible change from your home, and explain how you know.",
+      "modelAnswer": "Reversible: ice cubes melting into water; putting the water back in the freezer turns it into ice again. Irreversible: cooking an egg; the cooked egg can’t become raw again because new substances have formed.",
+      "rubric": [
+        "One correct example of each",
+        "Reason for each"
+      ],
+      "explain": "Explaining ideas."
+    }
+  ]
+}

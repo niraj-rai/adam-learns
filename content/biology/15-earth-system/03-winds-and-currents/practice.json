@@ -1,0 +1,126 @@
+{
+  "topicId": "winds-and-currents",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Winds blow from areas of…",
+      "options": [
+        "cold to hot only at night",
+        "low pressure to high pressure",
+        "the poles to the Moon",
+        "high pressure to low pressure"
+      ],
+      "answer": 3,
+      "explain": "Air moves to even out pressure.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "At night, a land breeze blows from land to sea because…",
+      "options": [
+        "land cools faster than the sea",
+        "the Moon pulls the air",
+        "there is no Sun",
+        "the sea cools faster"
+      ],
+      "answer": 0,
+      "explain": "Warmer air now rises over the sea.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "What mainly drives the summer (south-west) monsoon?",
+      "options": [
+        "Melting glaciers",
+        "Earthquakes",
+        "The land heating faster than the ocean",
+        "The Moon’s gravity"
+      ],
+      "answer": 2,
+      "explain": "Low pressure over hot land draws in moist ocean air."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why do the Western Ghats get heavy rain while the Deccan plateau behind them is drier?",
+      "options": [
+        "The Ghats are closer to the Sun",
+        "Moist air rises and rains on the windward side; the leeward side is in a rain shadow",
+        "The plateau has no clouds ever",
+        "The Ghats are made of ice"
+      ],
+      "answer": 1,
+      "explain": "Rain shadow."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What do warm ocean currents do?",
+      "options": [
+        "Carry cold water to the equator",
+        "Make the sea fresh",
+        "Stop all winds",
+        "Carry heat from the tropics towards the poles"
+      ],
+      "answer": 3,
+      "explain": "They redistribute heat."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which transfer of heat causes warm air to rise?",
+      "options": [
+        "Convection",
+        "Reflection",
+        "Evaporation of rock",
+        "Conduction"
+      ],
+      "answer": 0,
+      "explain": "Warm air is less dense."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which season brings rain to Chennai mostly in October–December?",
+      "options": [
+        "Winter snow",
+        "Spring showers only",
+        "The north-east (retreating) monsoon",
+        "The south-west monsoon in June"
+      ],
+      "answer": 2,
+      "explain": "Winds reverse and pick up moisture over the Bay of Bengal."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why uneven heating of Earth leads to winds and ocean currents.",
+      "modelAnswer": "The Sun heats Earth unevenly: the equator more than the poles, and land faster than sea. Warm air rises, creating low pressure, and cooler, denser air flows in from high-pressure areas, which is wind. Winds push surface water, and differences in water temperature and saltiness make water sink or rise, creating ocean currents. Together they carry heat from warm to cold regions.",
+      "rubric": [
+        "Uneven heating",
+        "Pressure differences cause wind",
+        "Currents move heat"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

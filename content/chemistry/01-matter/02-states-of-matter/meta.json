@@ -11,7 +11,7 @@
     "ib": { "programme": "MYP", "year": 2, "note": "Particle model is revisited and deepened in MYP 3" },
     "cbse": [
       { "class": 8, "chapter": "Curiosity Ch 7: Particulate Nature of Matter", "verified": true },
-      { "class": 9, "chapter": "Ch 1: Matter in Our Surroundings, sections 1.2–1.3", "verified": false }
+      { "class": 9, "chapter": "Earlier NCERT: Matter in Our Surroundings (states of matter; not in Exploration 2026)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "C"],

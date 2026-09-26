@@ -11,7 +11,7 @@
     "ib": { "programme": "MYP", "year": 3, "note": "Unit summative-style task: Criterion D (impacts of science) and B" },
     "cbse": [
       { "class": 6, "chapter": "Curiosity Ch 9: Methods of Separation in Everyday Life (loading with alum, filtration)", "verified": true },
-      { "class": 9, "chapter": "Ch 2: Is Matter Around Us Pure? (applications of separation)", "verified": false }
+      { "class": 9, "chapter": "Exploration (2026) Ch 5: Exploring Mixtures and their Separation (coagulation with alum, distillation)", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "D"],

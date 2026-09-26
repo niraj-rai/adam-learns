@@ -1,6 +1,6 @@
 {
   "id": "material-explorer",
-  "number": "0.4",
+  "number": "0.6",
   "title": "Boss Challenge: Material Explorer",
   "summary": "Ten Grade 5 puzzles about water, mixing and fabrics. Three lives!",
   "emoji": "🧪",
@@ -16,12 +16,17 @@
     "cbse": [
       {
         "class": 5,
-        "chapter": "Our Wondrous World (2025) Ch 1",
+        "chapter": "Our Wondrous World (2025) Ch 1: Water — The Essence of Life",
         "verified": true
       },
       {
         "class": 5,
-        "chapter": "Our Wondrous World (2025) Ch 8",
+        "chapter": "Our Wondrous World (2025) Ch 3: The Mystery of Food",
+        "verified": true
+      },
+      {
+        "class": 5,
+        "chapter": "Our Wondrous World (2025) Ch 8: Clothes — How Things are Made",
         "verified": true
       }
     ]
@@ -39,7 +44,9 @@
   "prerequisites": [
     "chemistry/materials-and-water/states-of-water",
     "chemistry/materials-and-water/mixing-and-dissolving",
-    "chemistry/materials-and-water/fibres-and-fabrics"
+    "chemistry/materials-and-water/fibres-and-fabrics",
+    "chemistry/materials-and-water/clean-water",
+    "chemistry/materials-and-water/changes-around-us"
   ],
   "labs": [
     "material-explorer"

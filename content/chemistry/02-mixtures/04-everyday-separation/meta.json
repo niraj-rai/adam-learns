@@ -11,7 +11,7 @@
     "ib": { "programme": "MYP", "year": 1, "note": "Revisited in MYP 3 with a focus on justifying the choice of method" },
     "cbse": [
       { "class": 6, "chapter": "Curiosity Ch 9: Methods of Separation in Everyday Life", "verified": true },
-      { "class": 9, "chapter": "Ch 2: Is Matter Around Us Pure?, separation section", "verified": false }
+      { "class": 9, "chapter": "Exploration (2026) Ch 5: Exploring Mixtures and their Separation", "verified": true }
     ]
   },
   "ibCriteria": ["A", "B", "C"],
