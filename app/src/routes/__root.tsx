@@ -3,6 +3,7 @@ import { getSubject } from '@/content/loader'
 import { getLab } from '@/labs/registry'
 import { Toaster } from '@/components/gamification/Toaster'
 import { TopBar } from '@/components/layout/TopBar'
+import { ReminderScheduler } from '@/components/plan/ReminderScheduler'
 import { Button } from '@/components/ui/button'
 import { isOnboarded, useProfile } from '@/stores/profile'
 
@@ -58,6 +59,7 @@ function RootLayout() {
         <p className="mx-auto mt-2 max-w-2xl">A free, supplementary learning aid, not official course material. IB MYP first, mapped to CBSE/NCERT; not affiliated with IB, CBSE or NCERT. Content may contain mistakes: if in doubt, check your course book or ask your teacher.</p>
       </footer>
       <Toaster />
+      <ReminderScheduler />
     </div>
   )
 }

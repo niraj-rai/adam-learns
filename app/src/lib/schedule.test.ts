@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { activeInLast, dayOfWeek, formatMinutes, isStudyDay, nextStudyDay, normaliseSchedule, planSubjects, weekAdherence, weekDates, type StudySchedule } from './schedule'
 
 // 2026-09-23 is a Wednesday
-const plan: StudySchedule = { days: [1, 3, 5], time: 'afternoon', minutes: 30, subjects: [], updatedAt: '2026-09-01T00:00:00Z' }
+const plan: StudySchedule = { days: [1, 3, 5], time: 'afternoon', start: '16:30', minutes: 30, subjects: [], dayReminders: {}, updatedAt: '2026-09-01T00:00:00Z' }
 
 describe('schedule', () => {
   it('knows the day of the week and study days', () => {
@@ -58,5 +58,15 @@ describe('schedule', () => {
     expect(normaliseSchedule({ days: [] })).toBeNull()
     expect(normaliseSchedule({ days: [9, 2, 2, 'x'], time: 'noon', minutes: 'lots' })).toMatchObject({ days: [2], time: 'afternoon', minutes: 30, subjects: [] })
     expect(normaliseSchedule(plan)).toEqual(plan)
+  })
+
+  it('upgrades plans saved before start times and reminders', () => {
+    const old = { days: [1], time: 'evening', minutes: 20, subjects: [], updatedAt: 'x' }
+    expect(normaliseSchedule(old)).toMatchObject({ time: 'evening', start: '19:00', dayReminders: {} })
+    // an exact start decides the time of day; bad times fall back
+    expect(normaliseSchedule({ ...old, start: '07:45' })).toMatchObject({ time: 'morning', start: '07:45' })
+    expect(normaliseSchedule({ ...old, start: '25:00' })).toMatchObject({ start: '19:00' })
+    // overrides only for planned days, only valid values
+    expect(normaliseSchedule({ ...old, days: [1, 2], dayReminders: { 1: 5, 2: 'off', 3: 10, 4: 7 } })?.dayReminders).toEqual({ 1: 5, 2: 'off' })
   })
 })

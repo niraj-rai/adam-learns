@@ -15,7 +15,7 @@ function PrivacyPage() {
         <p>To remember your learning, AdamLearns saves a few things in your browser's local storage, <b>on this device only</b>:</p>
         <ul>
           <li>your profile: first and last name, grade, and your skills-check results (strengths and warm-up topics);</li>
-          <li>your study plan, if you make one: the days, time of day, minutes per session and subjects you picked;</li>
+          <li>your study plan, if you make one: the days, start time, minutes per session and subjects you picked, and your reminder choices;</li>
           <li>your progress: topics started and mastered, practice scores, XP, badges and streak;</li>
           <li>your review queue and reflection answers;</li>
           <li>your settings: theme, sounds and whether the CBSE mapping is shown.</li>
@@ -26,6 +26,7 @@ function PrivacyPage() {
         <h2>Things to know</h2>
         <ul>
           <li>Progress doesn't move between devices or browsers by itself: each keeps its own. To move it, use <b>Export progress</b> on the Progress page to save a file, then <b>Import progress</b> on the other device. The file stays with you.</li>
+          <li>Study reminders are played by this page in your browser. If you allow notifications, your browser shows them on this device; nothing is sent through a server, which is also why reminders only work while AdamLearns is open in a tab.</li>
           <li>Clearing your browser data (or using private browsing) erases your progress.</li>
           <li>You can reset your progress at any time from the <Link to="/progress" className="text-chem underline">Progress</Link> page, or by clearing this site's data in your browser. You can change your name and grade (or remove them) there too.</li>
         </ul>

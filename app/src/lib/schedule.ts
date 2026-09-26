@@ -1,12 +1,17 @@
 import { localDate } from './dates'
+import { isLead, type DayReminder } from './reminders'
 /** A simple weekly study plan. Days use JS numbering: 0 = Sunday … 6 = Saturday. */
 export type TimeOfDay = 'morning' | 'afternoon' | 'evening'
 export type StudySchedule = {
   days: number[]
   time: TimeOfDay
+  /** start time on the 24-hour clock, "HH:MM" (local time); older plans get their time of day's usual start */
+  start: string
   minutes: number
   /** subject ids to focus on; empty means all subjects */
   subjects: string[]
+  /** per-day reminder overrides by day number; a missing day uses the plan's default reminder */
+  dayReminders: Partial<Record<number, DayReminder>>
   updatedAt: string
 }
 
@@ -15,6 +20,13 @@ export const TIMES: { id: TimeOfDay; label: string; emoji: string }[] = [
   { id: 'afternoon', label: 'After school', emoji: '🎒' },
   { id: 'evening', label: 'Evening', emoji: '🌙' },
 ]
+/** The usual start time for each time of day, used when a plan has no exact time yet. */
+export const TIME_START: Record<TimeOfDay, string> = { morning: '07:00', afternoon: '16:30', evening: '19:00' }
+/** Which time of day a start time falls in. */
+export const timeOfDay = (hhmm: string): TimeOfDay => (hhmm < '12:00' ? 'morning' : hhmm < '18:00' ? 'afternoon' : 'evening')
+const CLOCK = /^([01]\d|2[0-3]):[0-5]\d$/
+export const isClock = (x: unknown): x is string => typeof x === 'string' && CLOCK.test(x)
+
 export const MINUTES = [15, 20, 30, 45, 60] as const
 /** Monday first, the way school weeks are shown. */
 export const WEEK = [1, 2, 3, 4, 5, 6, 0] as const
@@ -94,9 +106,18 @@ export function normaliseSchedule(x: unknown): StudySchedule | null {
   const o = x as Record<string, unknown>
   const days = Array.isArray(o.days) ? [...new Set(o.days.filter((d): d is number => Number.isInteger(d) && d >= 0 && d <= 6))].sort() : []
   if (!days.length) return null
-  const time = TIMES.some((t) => t.id === o.time) ? (o.time as TimeOfDay) : 'afternoon'
+  // an exact start time decides the time of day; older plans only had the time of day
+  const time = isClock(o.start) ? timeOfDay(o.start) : TIMES.some((t) => t.id === o.time) ? (o.time as TimeOfDay) : 'afternoon'
+  const start = isClock(o.start) ? o.start : TIME_START[time]
   const minutes = typeof o.minutes === 'number' && o.minutes >= 5 && o.minutes <= 180 ? Math.round(o.minutes) : 30
   const subjects = Array.isArray(o.subjects) ? o.subjects.filter((s): s is string => typeof s === 'string') : []
+  const dayReminders: StudySchedule['dayReminders'] = {}
+  if (o.dayReminders && typeof o.dayReminders === 'object') {
+    for (const [k, v] of Object.entries(o.dayReminders)) {
+      const d = Number(k)
+      if (days.includes(d) && (v === 'off' || isLead(v))) dayReminders[d] = v
+    }
+  }
   const updatedAt = typeof o.updatedAt === 'string' ? o.updatedAt : new Date().toISOString()
-  return { days, time, minutes, subjects, updatedAt }
+  return { days, time, start, minutes, subjects, dayReminders, updatedAt }
 }

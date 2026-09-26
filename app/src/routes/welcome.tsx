@@ -162,7 +162,8 @@ function Welcome() {
         <StudyPlanStep
           name={first.trim()}
           initial={profile.schedule}
-          onSave={(s) => { profile.setSchedule(s); done(pending) }}
+          reminders={profile.reminders}
+          onSave={(s, r) => { profile.setSchedule(s); profile.setReminders(r); done(pending) }}
           onSkip={() => done(pending)}
           onRemove={profile.schedule ? () => { profile.setSchedule(null); done(pending) } : undefined}
         />

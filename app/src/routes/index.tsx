@@ -23,7 +23,7 @@ const COMING = [
 function Home() {
   const featured = useMemo(() => [...LABS].sort(() => 0.5 - Math.random()).slice(0, 3), [])
   const { xp, topics, activeDays, review, badges } = useProgress()
-  const { firstName, grade, check, schedule } = useProfile()
+  const { firstName, grade, check, schedule, reminders } = useProfile()
   const { topic: next, warmup } = nextForLearner(topics, grade, check)
   const level = levelFor(xp)
   const mastered = getAllTopics().filter((t) => topics[t.key]?.masteredAt).length
@@ -69,7 +69,7 @@ function Home() {
         </div>
       </section>
 
-      <TodayPlan schedule={schedule} activeDays={activeDays} topics={topics} grade={grade} check={check} />
+      <TodayPlan schedule={schedule} reminders={reminders} activeDays={activeDays} topics={topics} grade={grade} check={check} />
 
       {grade && <GradePlan />}
 

@@ -10,6 +10,8 @@ import { cn } from '@/lib/utils'
 import { currentStreak, dueReviewItems, useProgress } from '@/stores/progress'
 import { strength } from '@/lib/learner'
 import { normaliseSchedule } from '@/lib/schedule'
+import { ReminderControls } from '@/components/plan/Reminders'
+import { normaliseReminders } from '@/lib/reminders'
 import { useProfile } from '@/stores/profile'
 
 export const Route = createFileRoute('/progress')({ component: ProgressPage })
@@ -24,8 +26,8 @@ function ProgressPage() {
   const profile = useProfile()
   const exportData = () => {
     const { xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones } = useProgress.getState()
-    const { firstName, lastName, grade, onboardedAt, check, schedule } = useProfile.getState()
-    const blob = new Blob([JSON.stringify({ xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones, profile: { firstName, lastName, grade, onboardedAt, check, schedule } }, null, 2)], { type: 'application/json' })
+    const { firstName, lastName, grade, onboardedAt, check, schedule, reminders } = useProfile.getState()
+    const blob = new Blob([JSON.stringify({ xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones, profile: { firstName, lastName, grade, onboardedAt, check, schedule, reminders } }, null, 2)], { type: 'application/json' })
     const a = document.createElement('a')
     a.href = URL.createObjectURL(blob)
     a.download = `adamlearns-progress-${new Date().toISOString().slice(0, 10)}.json`
@@ -60,6 +62,12 @@ function ProgressPage() {
             <Button asChild className="bg-brand text-white hover:bg-brand/90"><Link to="/welcome" search={{ step: 'check' }}>{profile.check ? 'Retake skills check' : 'Take skills check'}</Link></Button>
           </div>
         </div>
+        <details className="mt-4 rounded-xl border p-3">
+          <summary className="cursor-pointer text-sm font-semibold">🔔 Study reminders: {profile.reminders.on ? `${profile.reminders.lead} min before${profile.reminders.sound ? ', with sound' : ', silent'}` : 'off'}</summary>
+          <ReminderControls value={profile.reminders} onChange={profile.setReminders} className="mt-3 max-w-md" />
+          {!profile.schedule && <p className="mt-2 text-xs text-muted-foreground">Reminders start once you set up a study plan.</p>}
+          {profile.schedule && <p className="mt-2 text-xs text-muted-foreground">To change the start time or the reminder for one day, <Link to="/welcome" search={{ step: 'schedule' }} className="font-semibold text-brand hover:underline">edit your study plan</Link>.</p>}
+        </details>
         {profile.check && Object.keys(profile.check.results).length > 0 && (
           <div className="mt-3 flex flex-wrap gap-2">
             {getSubjects().filter((s) => profile.check!.results[s.id]).map((s) => {
@@ -203,7 +211,7 @@ function ProgressPage() {
               const ok = importState(text)
               if (ok) {
                 const p = JSON.parse(text).profile
-                if (p && typeof p.firstName === 'string') useProfile.setState({ firstName: p.firstName, lastName: p.lastName ?? '', grade: p.grade ?? null, onboardedAt: p.onboardedAt ?? null, check: p.check ?? null, schedule: normaliseSchedule(p.schedule) })
+                if (p && typeof p.firstName === 'string') useProfile.setState({ firstName: p.firstName, lastName: p.lastName ?? '', grade: p.grade ?? null, onboardedAt: p.onboardedAt ?? null, check: p.check ?? null, schedule: normaliseSchedule(p.schedule), reminders: p.reminders ? normaliseReminders(p.reminders) : useProfile.getState().reminders })
               }
               setMsg(ok ? '✅ Progress imported.' : '❌ That file does not look like a progress export.')
               e.target.value = ''

@@ -2,13 +2,15 @@ import { Link } from '@tanstack/react-router'
 import { ArrowRight, Check } from 'lucide-react'
 import { useState, type ReactNode } from 'react'
 import { Button } from '@/components/ui/button'
-import { getSubjects, type Topic } from '@/content/loader'
-import { gradeTopics, pendingWarmups } from '@/lib/learner'
-import { DAY_LONG, DAY_SHORT, MINUTES, TIMES, WEEK, formatMinutes, isStudyDay, nextStudyDay, planSubjects, todayIso, weekAdherence, weeklyMinutes, type StudySchedule, type TimeOfDay } from '@/lib/schedule'
+import { getSubjects } from '@/content/loader'
+import { nextForPlan } from '@/lib/learner'
+import { LEADS, formatClock, leadFor, type DayReminder, type ReminderSettings } from '@/lib/reminders'
+import { DAY_LONG, DAY_SHORT, MINUTES, TIMES, TIME_START, WEEK, dayOfWeek, formatMinutes, isClock, isStudyDay, nextStudyDay, planSubjects, timeOfDay, todayIso, weekAdherence, weeklyMinutes, type StudySchedule } from '@/lib/schedule'
 import { sfx } from '@/lib/sound'
 import { cn } from '@/lib/utils'
 import type { Grade, SkillsCheck } from '@/stores/profile'
 import type { TopicProgress } from '@/stores/progress'
+import { ReminderControls } from './Reminders'
 
 const CHIP = 'rounded-xl border-2 px-3 py-2 text-sm font-semibold transition'
 const chipState = (on: boolean) => (on ? 'border-brand bg-brand-soft' : 'hover:border-brand/50')
@@ -24,11 +26,14 @@ function Group({ legend, hint, children }: { legend: string; hint?: string; chil
 }
 
 /** The optional study-plan step of onboarding (also used to edit the plan later). */
-export function StudyPlanStep({ name, initial, onSave, onSkip, onRemove }: { name: string; initial: StudySchedule | null; onSave: (s: StudySchedule) => void; onSkip: () => void; onRemove?: () => void }) {
+export function StudyPlanStep({ name, initial, reminders: initialReminders, onSave, onSkip, onRemove }: { name: string; initial: StudySchedule | null; reminders: ReminderSettings; onSave: (s: StudySchedule, r: ReminderSettings) => void; onSkip: () => void; onRemove?: () => void }) {
   const subjects = getSubjects()
   const [days, setDays] = useState<number[]>(initial?.days ?? [1, 2, 3, 4, 5])
-  const [time, setTime] = useState<TimeOfDay>(initial?.time ?? 'afternoon')
+  const [start, setStart] = useState<string>(initial?.start ?? TIME_START.afternoon)
+  const time = timeOfDay(start)
   const [minutes, setMinutes] = useState<number>(initial?.minutes ?? 30)
+  const [reminders, setReminders] = useState<ReminderSettings>(initialReminders)
+  const [dayReminders, setDayReminders] = useState<StudySchedule['dayReminders']>(initial?.dayReminders ?? {})
   const [picked, setPicked] = useState<string[]>(initial?.subjects.length ? initial.subjects : subjects.map((s) => s.id))
   const toggle = <T,>(list: T[], x: T) => (list.includes(x) ? list.filter((y) => y !== x) : [...list, x])
   const valid = days.length > 0 && picked.length > 0
@@ -46,7 +51,8 @@ export function StudyPlanStep({ name, initial, onSave, onSkip, onRemove }: { nam
         if (!valid) return
         // all subjects picked is stored as "all", so new subjects join the plan automatically
         const all = picked.length === subjects.length
-        onSave({ days: [...days].sort(), time, minutes, subjects: all ? [] : picked, updatedAt: new Date().toISOString() })
+        // overrides for days no longer in the plan are dropped when the plan is saved
+        onSave({ days: [...days].sort(), time, start, minutes, subjects: all ? [] : picked, dayReminders, updatedAt: new Date().toISOString() }, reminders)
       }}
     >
       <p className="text-5xl">📅</p>
@@ -68,15 +74,19 @@ export function StudyPlanStep({ name, initial, onSave, onSkip, onRemove }: { nam
         </div>
       </Group>
 
-      <Group legend="What time of day?">
+      <Group legend="What time?" hint="Pick a time of day, then set the exact start if you like.">
         <div className="grid grid-cols-3 gap-2" role="radiogroup" aria-label="Time of day">
           {TIMES.map((t) => (
-            <button key={t.id} type="button" role="radio" aria-checked={time === t.id} onClick={() => setTime(t.id)} className={cn(CHIP, 'flex flex-col items-center gap-0.5 px-1', chipState(time === t.id))}>
+            <button key={t.id} type="button" role="radio" aria-checked={time === t.id} onClick={() => setStart(TIME_START[t.id])} className={cn(CHIP, 'flex flex-col items-center gap-0.5 px-1', chipState(time === t.id))}>
               <span className="text-2xl" aria-hidden>{t.emoji}</span>
               <span className="text-xs sm:text-sm">{t.label}</span>
             </button>
           ))}
         </div>
+        <label className="mt-2 flex flex-wrap items-center gap-2 text-sm font-semibold">
+          Starts at
+          <input type="time" step={300} required value={start} onChange={(e) => isClock(e.target.value) && setStart(e.target.value)} className="rounded-xl border-2 bg-background px-3 py-1.5 font-semibold tabular-nums focus-visible:border-brand focus-visible:outline-none" />
+        </label>
       </Group>
 
       <Group legend="How long each time?">
@@ -96,6 +106,39 @@ export function StudyPlanStep({ name, initial, onSave, onSkip, onRemove }: { nam
             </button>
           ))}
         </div>
+      </Group>
+
+      <Group legend="Reminders" hint="A chime before each study session, and a sound when it's time to start.">
+        <ReminderControls value={reminders} onChange={setReminders} />
+        {reminders.on && days.length > 0 && (
+          <details className="mt-3 rounded-xl border-2 px-3 py-2 text-sm">
+            <summary className="cursor-pointer font-semibold">Change the reminder for one day</summary>
+            <p className="mt-1 text-xs text-muted-foreground">Default is {reminders.lead} min before, as chosen above.</p>
+            <ul className="mt-2 space-y-2">
+              {WEEK.filter((d) => days.includes(d)).map((d) => (
+                <li key={d} className="flex items-center justify-between gap-2">
+                  <label htmlFor={`rem-${d}`} className="min-w-0">{DAY_LONG[d]}</label>
+                  <select
+                    id={`rem-${d}`}
+                    value={String(dayReminders[d] ?? 'default')}
+                    onChange={(e) => {
+                      const v = e.target.value
+                      const next = { ...dayReminders }
+                      if (v === 'default') delete next[d]
+                      else next[d] = (v === 'off' ? 'off' : Number(v)) as DayReminder
+                      setDayReminders(next)
+                    }}
+                    className="max-w-[60%] min-w-0 rounded-lg border-2 bg-background px-2 py-1 text-sm"
+                  >
+                    <option value="default">Default</option>
+                    {[...LEADS].reverse().map((m) => <option key={m} value={m}>{m} min before</option>)}
+                    <option value="off">Off</option>
+                  </select>
+                </li>
+              ))}
+            </ul>
+          </details>
+        )}
       </Group>
 
       <p className="mt-5 rounded-xl bg-brand-soft px-4 py-3 text-sm" aria-live="polite">
@@ -134,20 +177,8 @@ export function WeekStrip({ schedule, activeDays, className }: { schedule: Study
   )
 }
 
-/** Best next topic for today's plan: a warm-up first, else the first unmastered topic in the plan's subjects. */
-function nextForPlan(subjectIds: string[], topics: Record<string, TopicProgress>, grade: Grade | null, check: SkillsCheck | null): Topic | undefined {
-  const warm = pendingWarmups(check, topics).find((t) => subjectIds.includes(t.subjectId))
-  if (warm || !grade) return warm
-  for (const sid of subjectIds) {
-    const list = gradeTopics(sid, grade)
-    const t = list.find((x) => x.core && !topics[x.key]?.masteredAt) ?? list.find((x) => !topics[x.key]?.masteredAt)
-    if (t) return t
-  }
-  return undefined
-}
-
 /** Home page card: today's plan and this week so far, or a small prompt to make a plan. */
-export function TodayPlan({ schedule, activeDays, topics, grade, check }: { schedule: StudySchedule | null; activeDays: string[]; topics: Record<string, TopicProgress>; grade: Grade | null; check: SkillsCheck | null }) {
+export function TodayPlan({ schedule, reminders, activeDays, topics, grade, check }: { schedule: StudySchedule | null; reminders?: ReminderSettings; activeDays: string[]; topics: Record<string, TopicProgress>; grade: Grade | null; check: SkillsCheck | null }) {
   if (!schedule) {
     return (
       <Link to="/welcome" search={{ step: 'schedule' }} className="flex flex-wrap items-center justify-between gap-2 rounded-2xl border border-dashed p-4 text-sm transition hover:border-brand">
@@ -165,6 +196,7 @@ export function TodayPlan({ schedule, activeDays, topics, grade, check }: { sche
   const week = weekAdherence(schedule, activeDays, today)
   const nextDay = nextStudyDay(schedule, today)
   const time = TIMES.find((t) => t.id === schedule.time)
+  const lead = reminders ? leadFor(schedule, reminders, dayOfWeek(today)) : null
   const next = studyDay ? nextForPlan(ids, topics, grade, check) : undefined
 
   return (
@@ -177,7 +209,8 @@ export function TodayPlan({ schedule, activeDays, topics, grade, check }: { sche
           </div>
           {studyDay ? (
             <p className="mt-1 text-sm">
-              <b>{schedule.minutes} min</b> · {names.length === subjects.length ? 'any subject' : names.map((s) => `${s.icon} ${s.title}`).join(', ')} · {time?.emoji} {time?.label.toLowerCase()}
+              <b>{schedule.minutes} min</b> · {names.length === subjects.length ? 'any subject' : names.map((s) => `${s.icon} ${s.title}`).join(', ')} · {time?.emoji} {formatClock(schedule.start)}
+              {reminders && <span className="text-muted-foreground"> · {lead ? `🔔 ${lead} min before` : '🔕 no reminder'}</span>}
             </p>
           ) : (
             <p className="mt-1 text-sm">Rest day 🌿{nextDay && <span className="text-muted-foreground"> Next study day: {DAY_LONG[new Date(`${nextDay}T00:00:00Z`).getUTCDay()]}.</span>}</p>

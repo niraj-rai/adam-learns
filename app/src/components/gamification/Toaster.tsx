@@ -18,7 +18,7 @@ export function Toaster() {
             exit={{ opacity: 0, x: 40 }}
             className={cn(
               'pointer-events-auto rounded-xl border px-4 py-3 text-left shadow-lg',
-              t.kind === 'badge' ? 'border-amber-300 bg-amber-50 dark:border-amber-700 dark:bg-amber-950' : 'bg-card',
+              t.kind === 'badge' ? 'border-amber-300 bg-amber-50 dark:border-amber-700 dark:bg-amber-950' : t.kind === 'reminder' ? 'border-2 border-brand bg-brand-soft' : 'bg-card',
             )}
           >
             <p className="font-heading font-semibold">{t.title}</p>

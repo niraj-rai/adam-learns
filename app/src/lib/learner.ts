@@ -114,3 +114,15 @@ export function nextForLearner(topics: Record<string, TopicProgress>, grade: Gra
   }
   return { topic: nextRecommended(topics), warmup: false }
 }
+
+/** Best next topic for today's plan: a warm-up first, else the first unmastered topic in the plan's subjects. */
+export function nextForPlan(subjectIds: string[], topics: Record<string, TopicProgress>, grade: Grade | null, check: SkillsCheck | null): Topic | undefined {
+  const warm = pendingWarmups(check, topics).find((t) => subjectIds.includes(t.subjectId))
+  if (warm || !grade) return warm
+  for (const sid of subjectIds) {
+    const list = gradeTopics(sid, grade)
+    const t = list.find((x) => x.core && !topics[x.key]?.masteredAt) ?? list.find((x) => !topics[x.key]?.masteredAt)
+    if (t) return t
+  }
+  return undefined
+}
