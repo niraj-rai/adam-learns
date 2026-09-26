@@ -1,0 +1,56 @@
+{
+  "id": "types-of-reactions",
+  "number": "9.2",
+  "title": "Types of Chemical Reactions",
+  "summary": "Combination, decomposition, displacement, double displacement and precipitation; exothermic and endothermic.",
+  "emoji": "🔁",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Chemical reactions, MYP 5 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Chemical Reactions and Equations",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can classify reactions by type.",
+    "I can predict products of simple reactions.",
+    "I can distinguish exothermic and endothermic reactions."
+  ],
+  "misconceptions": [
+    "Every reaction fits only one category.",
+    "Decomposition happens on its own at room temperature.",
+    "Displacement works whatever the reactivity."
+  ],
+  "prerequisites": [
+    "chemistry/reactions-and-equations/balancing-equations",
+    "chemistry/changes/signs-of-a-reaction"
+  ],
+  "labs": [
+    "reaction-types"
+  ],
+  "keyTerms": [
+    "combination",
+    "decomposition",
+    "displacement",
+    "double displacement",
+    "precipitate",
+    "exothermic",
+    "endothermic"
+  ],
+  "estMinutes": 30
+}

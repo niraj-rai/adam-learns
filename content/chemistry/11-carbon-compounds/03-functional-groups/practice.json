@@ -1,0 +1,127 @@
+{
+  "topicId": "functional-groups",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the functional group in ethanoic acid?",
+      "options": [
+        ">C=O",
+        "–CHO",
+        "–OH",
+        "–COOH"
+      ],
+      "answer": 3,
+      "explain": "Carboxylic acid.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the name of CH₃CH₂CH₂OH?",
+      "options": [
+        "Propanol",
+        "Propanoic acid",
+        "Propanone",
+        "Propanal"
+      ],
+      "answer": 0,
+      "explain": "3 carbons, –OH.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which gas is given off when ethanoic acid reacts with sodium carbonate?",
+      "options": [
+        "Chlorine",
+        "Hydrogen",
+        "Carbon dioxide",
+        "Oxygen"
+      ],
+      "answer": 2,
+      "explain": "Acids + carbonates → CO₂.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is formed when ethanol reacts with sodium?",
+      "options": [
+        "Sodium chloride and water",
+        "Sodium ethoxide and hydrogen",
+        "Ethanoic acid",
+        "An ester"
+      ],
+      "answer": 1,
+      "explain": "2Na + 2C₂H₅OH → 2C₂H₅ONa + H₂."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Warming ethanol with ethanoic acid and a little concentrated H₂SO₄ gives a sweet smell. What forms?",
+      "options": [
+        "Carbon dioxide",
+        "An alkene",
+        "A soap",
+        "An ester"
+      ],
+      "answer": 3,
+      "explain": "Esterification."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which substance oxidises ethanol to ethanoic acid?",
+      "options": [
+        "Alkaline potassium permanganate",
+        "Water",
+        "Sodium chloride",
+        "Nitrogen"
+      ],
+      "answer": 0,
+      "explain": "An oxidising agent adds oxygen."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the name of the ketone with 3 carbons?",
+      "options": [
+        "Propanol",
+        "Ethanone",
+        "Propanone",
+        "Propanal"
+      ],
+      "answer": 2,
+      "explain": "Acetone, used in nail-polish remover."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "How could you tell ethanol and ethanoic acid apart using a simple chemical test? Explain the result.",
+      "modelAnswer": "Add sodium hydrogencarbonate (or sodium carbonate) to each. Ethanoic acid, being a carboxylic acid, reacts and fizzes, giving carbon dioxide gas (which turns limewater milky). Ethanol does not react, so there is no fizzing. (Blue litmus turning red would also show the acid.)",
+      "rubric": [
+        "A suitable test (carbonate or litmus)",
+        "Ethanoic acid gives fizzing/CO₂ (or red litmus)",
+        "Ethanol no reaction"
+      ],
+      "explain": "Criterion B/C."
+    }
+  ]
+}

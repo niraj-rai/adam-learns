@@ -1,0 +1,127 @@
+{
+  "topicId": "extracting-metals",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The unwanted rock and sand mixed with an ore is called…",
+      "options": [
+        "alloy",
+        "flux",
+        "slag",
+        "gangue"
+      ],
+      "answer": 3,
+      "explain": "It is removed during concentration.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Heating zinc carbonate strongly in limited air to form zinc oxide is called…",
+      "options": [
+        "calcination",
+        "refining",
+        "roasting",
+        "reduction"
+      ],
+      "answer": 0,
+      "explain": "Carbonates are calcined.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Heating zinc sulfide in excess air to form zinc oxide is called…",
+      "options": [
+        "electrolysis",
+        "calcination",
+        "roasting",
+        "galvanising"
+      ],
+      "answer": 2,
+      "explain": "Sulfides are roasted.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "In electrolytic refining of copper, the anode is made of…",
+      "options": [
+        "graphite",
+        "impure copper",
+        "zinc",
+        "pure copper"
+      ],
+      "answer": 1,
+      "explain": "Pure copper builds up on the cathode."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why can’t sodium be extracted by heating its oxide with carbon?",
+      "options": [
+        "Carbon is a metal",
+        "Sodium has a high melting point",
+        "Sodium oxide doesn’t exist",
+        "Sodium is more reactive than carbon"
+      ],
+      "answer": 3,
+      "explain": "Carbon can only reduce oxides of less reactive metals."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is an alloy?",
+      "options": [
+        "A mixture of a metal with other metals or a non-metal",
+        "An ore",
+        "A pure metal",
+        "A compound of a metal and oxygen"
+      ],
+      "answer": 0,
+      "explain": "e.g. brass (Cu + Zn), steel (Fe + C)."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why is 22-carat gold used for jewellery instead of 24-carat?",
+      "options": [
+        "Pure gold is magnetic",
+        "22-carat is shinier",
+        "24-carat (pure) gold is too soft; alloying with copper or silver makes it harder",
+        "Pure gold rusts"
+      ],
+      "answer": 2,
+      "explain": "Alloys are often harder than pure metals."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why the method used to extract a metal depends on its position in the reactivity series.",
+      "modelAnswer": "Very reactive metals (like Na, Al) form very stable compounds that carbon can’t reduce, so they need electrolysis of the molten compound, which uses a lot of energy. Metals of middle reactivity (Zn, Fe) have oxides that carbon (more reactive) can reduce. Metals of low reactivity (Cu, Hg) can be obtained just by heating their ores, and the least reactive (Ag, Au) are found free.",
+      "rubric": [
+        "Very reactive: electrolysis",
+        "Middle: reduction with carbon",
+        "Low: heat alone or found free"
+      ],
+      "explain": "Criterion A."
+    }
+  ]
+}

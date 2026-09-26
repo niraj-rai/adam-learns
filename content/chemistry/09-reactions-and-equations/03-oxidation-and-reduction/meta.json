@@ -1,0 +1,56 @@
+{
+  "id": "oxidation-and-reduction",
+  "number": "9.3",
+  "title": "Oxidation, Reduction and Corrosion",
+  "summary": "Redox as gain or loss of oxygen and hydrogen, oxidising and reducing agents, corrosion and rancidity.",
+  "emoji": "🕵️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Redox, MYP 5 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Chemical Reactions and Equations",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can identify oxidation and reduction in a reaction.",
+    "I can name oxidising and reducing agents.",
+    "I can explain corrosion and rancidity and how to prevent them."
+  ],
+  "misconceptions": [
+    "Oxidation and reduction happen separately.",
+    "Rusting needs only water.",
+    "Rancidity is caused by bacteria alone."
+  ],
+  "prerequisites": [
+    "chemistry/reactions-and-equations/types-of-reactions",
+    "chemistry/changes/rusting-and-corrosion"
+  ],
+  "labs": [
+    "redox-detective"
+  ],
+  "keyTerms": [
+    "oxidation",
+    "reduction",
+    "redox",
+    "oxidising agent",
+    "reducing agent",
+    "corrosion",
+    "rancidity"
+  ],
+  "estMinutes": 30
+}

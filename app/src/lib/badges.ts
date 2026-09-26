@@ -98,6 +98,12 @@ export type BadgeId =
   | 'unit-reflection-refraction'
   | 'unit-current-electricity'
   | 'circuit-master'
+  | 'unit-reactions-and-equations'
+  | 'reactions-master'
+  | 'unit-salts-and-metals'
+  | 'salts-metals-master'
+  | 'unit-carbon-compounds'
+  | 'carbon-master'
   | 'light-master'
   | 'perfect-score'
 
@@ -202,5 +208,11 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'light-master': { title: "Light Master", emoji: '🌈', description: "Solved ten Grade 10 light problems (Boss Challenge)" },
   'unit-current-electricity': { title: "Electrician", emoji: '🔌', description: "Mastered every core topic in Grade 10 Physics Unit 13: Electricity and Magnetism" },
   'circuit-master': { title: "Circuit Master", emoji: '⚡', description: "Solved ten Grade 10 electricity problems (Boss Challenge)" },
+  'unit-reactions-and-equations': { title: "Equation Expert", emoji: '⚖️', description: "Mastered every core topic in Grade 10 Chemistry Unit 9: Chemical Reactions and Equations" },
+  'reactions-master': { title: "Reaction Master", emoji: '⚗️', description: "Solved ten Grade 10 reaction problems (Boss Challenge)" },
+  'unit-salts-and-metals': { title: "Salt and Metal Specialist", emoji: '⛏️', description: "Mastered every core topic in Grade 10 Chemistry Unit 10: Acids, Salts and Metals in Depth" },
+  'salts-metals-master': { title: "Salts and Metals Master", emoji: '🧂', description: "Solved ten Grade 10 salts and metals problems (Boss Challenge)" },
+  'unit-carbon-compounds': { title: "Carbon Chemist", emoji: '🧬', description: "Mastered every core topic in Grade 10 Chemistry Unit 11: Carbon and Its Compounds" },
+  'carbon-master': { title: "Carbon Master", emoji: '🔗', description: "Solved ten Grade 10 carbon chemistry problems (Boss Challenge)" },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

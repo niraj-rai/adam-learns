@@ -1,0 +1,52 @@
+{
+  "id": "reactions-master",
+  "number": "9.4",
+  "title": "Boss Challenge: Reaction Master",
+  "summary": "Ten problems on balancing, reaction types and redox. Three lives!",
+  "emoji": "⚗️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Chemical Reactions and Equations",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can balance equations.",
+    "I can classify reactions.",
+    "I can identify redox."
+  ],
+  "misconceptions": [
+    "Changing formulae to balance.",
+    "Oxidation without reduction."
+  ],
+  "prerequisites": [
+    "chemistry/reactions-and-equations/balancing-equations",
+    "chemistry/reactions-and-equations/types-of-reactions",
+    "chemistry/reactions-and-equations/oxidation-and-reduction"
+  ],
+  "labs": [
+    "reactions-master"
+  ],
+  "keyTerms": [
+    "balanced equation",
+    "displacement",
+    "redox"
+  ],
+  "estMinutes": 20
+}

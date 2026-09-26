@@ -1,0 +1,56 @@
+{
+  "id": "soaps-and-detergents",
+  "number": "11.4",
+  "title": "Soaps and Detergents",
+  "summary": "How soap molecules form micelles, saponification, hard water and detergents.",
+  "emoji": "🧼",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Organic chemistry, MYP 5 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Carbon and its Compounds",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can explain how soap removes grease.",
+    "I can explain why soap forms scum in hard water.",
+    "I can compare soaps and detergents."
+  ],
+  "misconceptions": [
+    "Soap dissolves dirt like sugar in water.",
+    "Detergents are the same as soap.",
+    "Scum is dirt from clothes."
+  ],
+  "prerequisites": [
+    "chemistry/carbon-compounds/functional-groups"
+  ],
+  "labs": [
+    "soap-micelle"
+  ],
+  "keyTerms": [
+    "soap",
+    "detergent",
+    "micelle",
+    "hydrophilic",
+    "hydrophobic",
+    "saponification",
+    "hard water",
+    "scum"
+  ],
+  "estMinutes": 30
+}

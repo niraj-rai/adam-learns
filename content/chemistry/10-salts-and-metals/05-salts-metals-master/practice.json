@@ -1,0 +1,120 @@
+{
+  "topicId": "salts-metals-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the chemical name of bleaching powder?",
+      "options": [
+        "Calcium sulfate",
+        "Calcium oxychloride",
+        "Calcium carbonate",
+        "Sodium hypochlorite"
+      ],
+      "answer": 1,
+      "explain": "CaOCl₂."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which salt solution has a pH above 7?",
+      "options": [
+        "Potassium nitrate",
+        "Sodium chloride",
+        "Ammonium chloride",
+        "Sodium carbonate"
+      ],
+      "answer": 3,
+      "explain": "Weak acid + strong base."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "15 mL of 0.2 mol/L NaOH neutralises 30 mL of HCl. What is the HCl concentration in mol/L?",
+      "answer": 0.1,
+      "tolerance": 0,
+      "explain": "n = 0.003; 0.003 ÷ 0.030.",
+      "unit": "mol/L"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the formula of aluminium oxide?",
+      "options": [
+        "Al₂O₃",
+        "AlO",
+        "Al₃O₂",
+        "AlO₃"
+      ],
+      "answer": 0,
+      "explain": "Al³⁺ and O²⁻."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Iron is extracted from haematite in a blast furnace using…",
+      "options": [
+        "hydrogen only",
+        "electrolysis",
+        "carbon (as coke / carbon monoxide)",
+        "heating alone"
+      ],
+      "answer": 2,
+      "explain": "Iron is below carbon in reactivity."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Molten ionic compounds conduct because…",
+      "options": [
+        "they are hot",
+        "their ions are free to move",
+        "they are acidic",
+        "they contain free electrons"
+      ],
+      "answer": 1,
+      "explain": "Mobile charged particles carry current."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Brass is an alloy of…",
+      "options": [
+        "lead and tin",
+        "copper and tin",
+        "iron and carbon",
+        "copper and zinc"
+      ],
+      "answer": 3,
+      "explain": "Bronze is copper and tin; solder is lead and tin."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain how electrolytic refining produces very pure copper.",
+      "modelAnswer": "Impure copper is made the anode and a thin strip of pure copper the cathode, in copper sulfate solution. When current flows, copper from the anode dissolves as Cu²⁺ ions, which move to the cathode and are deposited as pure copper. Insoluble impurities fall below the anode as anode mud.",
+      "rubric": [
+        "Impure anode, pure cathode, copper sulfate electrolyte",
+        "Cu²⁺ ions move and deposit on the cathode",
+        "Impurities collect as anode mud"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

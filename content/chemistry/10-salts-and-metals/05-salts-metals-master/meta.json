@@ -1,0 +1,52 @@
+{
+  "id": "salts-metals-master",
+  "number": "10.5",
+  "title": "Boss Challenge: Salts and Metals Master",
+  "summary": "Ten problems on salts, titration, ionic bonding and metals. Three lives!",
+  "emoji": "🧂",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Metals and Non-metals",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply ideas about salts, titration, bonding and metals."
+  ],
+  "misconceptions": [
+    "All salts are neutral.",
+    "Carbon reduces all oxides."
+  ],
+  "prerequisites": [
+    "chemistry/salts-and-metals/salts",
+    "chemistry/salts-and-metals/titration",
+    "chemistry/salts-and-metals/ionic-bonding",
+    "chemistry/salts-and-metals/extracting-metals"
+  ],
+  "labs": [
+    "salts-metals-master"
+  ],
+  "keyTerms": [
+    "salt",
+    "titration",
+    "ionic bond",
+    "electrolysis"
+  ],
+  "estMinutes": 20
+}

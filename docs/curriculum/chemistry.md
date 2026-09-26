@@ -133,26 +133,13 @@ IB MYP 4–5 Chemistry · CBSE Class 9 uses the new integrated NCERT book **Expl
 | 8.5 | The mole | MYP 4–5 | Exploration Ch 9 ✅ | ★★★ | **The Mole Bridge** |
 | 8.6 | Boss: Mole Master | MYP 4 | Mixed | ★★★ | 10 problems (3 lives) |
 
-### Grade 10 (planned, to be checked against the current NCERT Class 10 book)
+### Grade 10 ✅ built (NCERT Class 10 unchanged for 2026–27; IB MYP 5)
 
-| Unit | Topics | IB | ★ |
-|---|---|---|---|
-| Chemical Reactions & Equations | Balancing, types of reaction, redox intro | MYP 5 | ★★★★ |
-| Acids, Bases & Salts (adv.) | pH, salts, water of crystallisation | MYP 5 | ★★★★ |
-| Metals & Non-metals (adv.) | Ionic bonding, extraction, corrosion | MYP 5 | ★★★★ |
-| Carbon & Its Compounds | Covalent bonding, homologous series, functional groups, soaps | MYP 5 | ★★★★ |
-
----|---|---|---|---|---|
-| 7. Atomic Structure | Bohr model, electron configuration (2,8,8), valency, isotopes, isobars, relative atomic mass | MYP 4 | 9 Ch4 | ★★★★ | Atom Builder (full), Isotope Mixer |
-| 8. Periodic Table | Mendeleev → modern table, groups (1, 17, 18), periodic trends (size, reactivity, metallic character) | MYP 4 | 10 (moved to 11) | ★★★★ | Periodic Table Explorer with trend heatmaps |
-| 9. Chemical Bonding | Ionic (dot & cross), covalent (single/double/triple), metallic; properties by bond type | MYP 4–5 | 10 Ch4, 11 Ch4 | ★★★★ | **Molecule Builder 3D** (react-three-fiber), Ion Handshake |
-| 10. Mole Concept & Stoichiometry | Atomic/molecular mass, mole, Avogadro, % composition, empirical formula, reacting masses | MYP 5 | 9 Ch3, 11 Ch1 | ★★★★ | **Mole Machine** (mass ↔ moles ↔ particles) |
-| 11. Chemical Reactions & Equations | Balancing, types (combination, decomposition, displacement, double displacement), redox intro | MYP 4 | 10 Ch1 | ★★★★ | **Equation Balancer** game, Reaction Type Sorter |
-| 12. Acids, Bases & Salts (adv.) | pH, strong vs weak, reactions of acids, salts (NaCl, baking soda, bleaching powder, plaster of Paris), water of crystallisation | MYP 4–5 | 10 Ch2 | ★★★★ | **Titration Lab** |
-| 13. Rates & Energetics | Exothermic/endothermic, energy profiles, factors affecting rate, catalysts, collision theory | MYP 5 | 11 (prep) | ★★★★ | **Collision Theory sim**, Rate Graph lab |
-| 14. Metals & Extraction | Occurrence, extraction by reactivity, electrolytic refining, corrosion prevention, alloys | MYP 5 | 10 Ch3 | ★★★★ | Extraction Flowchart game, Electrolysis Cell |
-| 15. Carbon & Its Compounds | Covalent bonding in carbon, allotropes, homologous series, functional groups, IUPAC basics, ethanol & ethanoic acid, soaps | MYP 5 | 10 Ch4 | ★★★★ | **Carbon Chain Builder**, Soap Micelle animation |
-| 16. Environmental Chemistry | Greenhouse gases, ozone, water/air pollution, green chemistry (Criterion D) | MYP 4–5 | 8–10 | ★★★ | Carbon Footprint calculator |
+| Unit | Topics | Labs |
+|---|---|---|
+| 9. Chemical Reactions and Equations | Balancing equations · Types of reactions · Oxidation, reduction and corrosion · Boss | Equation Balancer, Types of Reactions, Redox Detective, Reaction Master |
+| 10. Acids, Salts and Metals in Depth | Salts and water of crystallisation · Neutralisation and titration · Ionic bonding · Extracting and refining metals · Boss | Salt Factory, Titration, Ionic Bonding, Getting Metals from Ores, Salts and Metals Master |
+| 11. Carbon and Its Compounds | Covalent bonding and allotropes · Hydrocarbons and homologous series · Functional groups, ethanol and ethanoic acid · Soaps and detergents · Boss | Covalent Bonds, Carbon Chains, Functional Groups, How Soap Cleans, Carbon Master |
 
 ---
 

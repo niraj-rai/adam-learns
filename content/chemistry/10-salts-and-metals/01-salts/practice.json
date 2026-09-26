@@ -1,0 +1,123 @@
+{
+  "topicId": "salts",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the formula of washing soda?",
+      "options": [
+        "CaOCl₂",
+        "Na₂CO₃·10H₂O",
+        "NaHCO₃",
+        "CaSO₄·½H₂O"
+      ],
+      "answer": 1,
+      "explain": "Sodium carbonate decahydrate.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which salt is used to disinfect drinking water?",
+      "options": [
+        "Baking soda",
+        "Plaster of Paris",
+        "Washing soda",
+        "Bleaching powder"
+      ],
+      "answer": 3,
+      "explain": "It releases chlorine.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What happens when plaster of Paris is mixed with water?",
+      "options": [
+        "It sets into a hard solid (gypsum)",
+        "It turns blue",
+        "It releases CO₂",
+        "It dissolves completely"
+      ],
+      "answer": 0,
+      "explain": "CaSO₄·½H₂O + 1½H₂O → CaSO₄·2H₂O.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The salt formed from nitric acid and potassium hydroxide is…",
+      "options": [
+        "potassium chloride",
+        "potassium nitrite",
+        "potassium nitrate",
+        "nitrogen hydroxide"
+      ],
+      "answer": 2,
+      "explain": "KNO₃."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Ammonium chloride (from a strong acid and a weak base) dissolves to give a solution that is…",
+      "options": [
+        "neutral",
+        "acidic",
+        "impossible to tell",
+        "basic"
+      ],
+      "answer": 1,
+      "explain": "Strong acid + weak base → acidic salt."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Heating 25 g of CuSO₄·5H₂O (M = 249.5) drives off 5H₂O (M = 90). How many grams of water are lost? (nearest whole number)",
+      "answer": 9,
+      "tolerance": 0.5,
+      "explain": "25 × 90 ÷ 249.5 ≈ 9 g.",
+      "unit": "g"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why does baking soda make cakes soft and spongy?",
+      "options": [
+        "It melts in the oven",
+        "It adds sweetness",
+        "It removes water",
+        "On heating it releases carbon dioxide, which makes the batter rise"
+      ],
+      "answer": 3,
+      "explain": "2NaHCO₃ → Na₂CO₃ + H₂O + CO₂."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain what “water of crystallisation” means, using copper sulfate as an example.",
+      "modelAnswer": "Water of crystallisation is the fixed number of water molecules chemically combined in each formula unit of a salt in its crystals. Blue copper sulfate is CuSO₄·5H₂O: five water molecules per unit. Heating removes this water, leaving white anhydrous CuSO₄; adding water turns it blue again.",
+      "rubric": [
+        "Fixed number of water molecules in the crystal",
+        "CuSO₄·5H₂O example",
+        "Heating removes it (blue → white), reversible"
+      ],
+      "explain": "Criterion A."
+    }
+  ]
+}

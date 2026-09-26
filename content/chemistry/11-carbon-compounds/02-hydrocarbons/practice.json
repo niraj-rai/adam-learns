@@ -1,0 +1,122 @@
+{
+  "topicId": "hydrocarbons",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the formula of ethene?",
+      "options": [
+        "C₂H₆",
+        "CH₄",
+        "C₂H₄",
+        "C₂H₂"
+      ],
+      "answer": 2,
+      "explain": "Alkene: CₙH₂ₙ.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is a saturated hydrocarbon?",
+      "options": [
+        "Propene",
+        "Propane",
+        "Ethyne",
+        "Ethene"
+      ],
+      "answer": 1,
+      "explain": "Only single bonds.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many hydrogen atoms are in pentane (5 carbons)?",
+      "answer": 12,
+      "tolerance": 0,
+      "explain": "2 × 5 + 2 = 12."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Successive members of a homologous series differ by…",
+      "options": [
+        "C₂H₄",
+        "CH₃",
+        "H₂",
+        "CH₂"
+      ],
+      "answer": 3,
+      "explain": "And by 14 u in mass.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "What is the name of C₃H₄ with a triple bond?",
+      "options": [
+        "Propyne",
+        "Propane",
+        "Butyne",
+        "Propene"
+      ],
+      "answer": 0,
+      "explain": "3 carbons: prop-; triple bond: -yne."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Butane and 2-methylpropane have the same formula C₄H₁₀ but different structures. They are…",
+      "options": [
+        "isotopes",
+        "homologues",
+        "isomers",
+        "allotropes"
+      ],
+      "answer": 2,
+      "explain": "Same formula, different arrangement."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Along the alkane series from methane to octane, the boiling point…",
+      "options": [
+        "goes up and down randomly",
+        "increases",
+        "stays the same",
+        "decreases"
+      ],
+      "answer": 1,
+      "explain": "Bigger molecules, stronger attractions."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain the difference between saturated and unsaturated hydrocarbons, giving one example of each.",
+      "modelAnswer": "Saturated hydrocarbons contain only single C–C bonds, so every carbon has the maximum number of hydrogens (e.g. ethane, C₂H₆). Unsaturated hydrocarbons contain at least one double or triple C–C bond (e.g. ethene, C₂H₄), so they can add more atoms (such as hydrogen) in addition reactions.",
+      "rubric": [
+        "Saturated: only single bonds + example",
+        "Unsaturated: double/triple bond + example",
+        "Mentions addition reactions or hydrogen count"
+      ],
+      "explain": "Criterion A."
+    }
+  ]
+}

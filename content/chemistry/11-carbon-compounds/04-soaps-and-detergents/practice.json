@@ -1,0 +1,127 @@
+{
+  "topicId": "soaps-and-detergents",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which part of a soap molecule dissolves in oil?",
+      "options": [
+        "The water around it",
+        "The ionic head",
+        "The sodium ion",
+        "The hydrocarbon tail"
+      ],
+      "answer": 3,
+      "explain": "Like dissolves like.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is a micelle?",
+      "options": [
+        "A cluster of soap molecules around oil, with heads facing outwards",
+        "A salt crystal",
+        "A bubble of air",
+        "A type of dirt"
+      ],
+      "answer": 0,
+      "explain": "It can be rinsed away.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which ions make water hard?",
+      "options": [
+        "Chloride ions",
+        "Sodium and potassium ions",
+        "Calcium and magnesium ions",
+        "Hydrogen ions"
+      ],
+      "answer": 2,
+      "explain": "They form scum with soap."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why are detergents better than soap in hard water?",
+      "options": [
+        "They are more acidic",
+        "They don’t form insoluble scum with Ca²⁺ and Mg²⁺",
+        "They are cheaper",
+        "They dissolve oil better"
+      ],
+      "answer": 1,
+      "explain": "Detergent salts stay soluble.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Saponification is the reaction of…",
+      "options": [
+        "an acid with an alcohol",
+        "a metal with an acid",
+        "sugar with yeast",
+        "an oil or fat with an alkali to make soap"
+      ],
+      "answer": 3,
+      "explain": "Heating fats with NaOH."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A student’s soap won’t lather and leaves a grey deposit. What can you conclude?",
+      "options": [
+        "The water is hard",
+        "The soap is too new",
+        "The water is pure",
+        "The soap is a detergent"
+      ],
+      "answer": 0,
+      "explain": "Scum shows hard water."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is a disadvantage of some detergents?",
+      "options": [
+        "They make scum",
+        "They don’t work in hard water",
+        "Some are not easily biodegradable and pollute water",
+        "They are made from vegetable oil"
+      ],
+      "answer": 2,
+      "explain": "They can cause foaming in rivers."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain step by step how soap removes an oily stain from a cloth.",
+      "modelAnswer": "Soap molecules have a hydrophilic ionic head and a hydrophobic hydrocarbon tail. In water, the tails dissolve into the oily stain while the heads stay in the water. The molecules surround tiny droplets of oil, forming micelles with the oil trapped inside. Scrubbing and rinsing carry the micelles, and the oil, away in the water.",
+      "rubric": [
+        "Head/tail description",
+        "Tails in oil, heads in water: micelles",
+        "Rinsed away"
+      ],
+      "explain": "Criterion A."
+    }
+  ]
+}

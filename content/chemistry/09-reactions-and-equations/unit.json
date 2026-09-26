@@ -1,0 +1,33 @@
+{
+  "id": "reactions-and-equations",
+  "number": 9,
+  "stage": "G10",
+  "title": "Chemical Reactions and Equations",
+  "summary": "Grade 10: writing and balancing equations, the main types of reactions, and oxidation and reduction in everyday life.",
+  "ib": {
+    "keyConcept": "Change",
+    "relatedConcepts": [
+      "Balance",
+      "Evidence",
+      "Transformation"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Balanced equations describe how atoms rearrange in reactions, helping us predict products and control changes like corrosion."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "How do you balance an equation?",
+      "What is a redox reaction?"
+    ],
+    "conceptual": [
+      "Why must equations be balanced?",
+      "How can we tell what type of reaction has happened?"
+    ],
+    "debatable": [
+      "Should manufacturers be required to use rust-proof materials in public infrastructure?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 10: Chemical Reactions and Equations"
+  ]
+}

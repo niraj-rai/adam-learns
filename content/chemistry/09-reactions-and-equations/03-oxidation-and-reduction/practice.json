@@ -1,0 +1,127 @@
+{
+  "topicId": "oxidation-and-reduction",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In 2Cu + O₂ → 2CuO, copper is…",
+      "options": [
+        "oxidised",
+        "reduced",
+        "neither",
+        "decomposed"
+      ],
+      "answer": 0,
+      "explain": "Copper gains oxygen.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "In ZnO + C → Zn + CO, which substance is the reducing agent?",
+      "options": [
+        "C",
+        "CO",
+        "ZnO",
+        "Zn"
+      ],
+      "answer": 0,
+      "explain": "Carbon takes oxygen from ZnO (and is itself oxidised).",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is NOT a way to prevent rusting?",
+      "options": [
+        "Painting",
+        "Galvanising with zinc",
+        "Keeping the iron in salty water",
+        "Oiling or greasing"
+      ],
+      "answer": 2,
+      "explain": "Salt water speeds up rusting."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is galvanisation?",
+      "options": [
+        "Mixing iron with carbon",
+        "Coating iron with a layer of zinc",
+        "Heating iron strongly",
+        "Painting iron red"
+      ],
+      "answer": 1,
+      "explain": "Zinc protects the iron even if scratched.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which change is caused by oxidation of fats?",
+      "options": [
+        "Melting of butter",
+        "Freezing of oil",
+        "Dissolving of sugar",
+        "Rancidity of chips"
+      ],
+      "answer": 3,
+      "explain": "Oxidised fats smell and taste bad."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "In H₂S + Cl₂ → 2HCl + S, which substance is oxidised?",
+      "options": [
+        "H₂S (it loses hydrogen)",
+        "S",
+        "HCl",
+        "Cl₂ (it gains hydrogen)"
+      ],
+      "answer": 0,
+      "explain": "Loss of hydrogen is oxidation."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Why do oil-based snacks often contain added antioxidants?",
+      "options": [
+        "To add vitamins",
+        "To make them crunchier",
+        "To slow down oxidation of the fats",
+        "To change their colour"
+      ],
+      "answer": 2,
+      "explain": "Antioxidants delay rancidity."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why oxidation and reduction always happen together, using CuO + H₂ → Cu + H₂O.",
+      "modelAnswer": "Oxygen that is removed from one substance must go somewhere. Here CuO loses oxygen (reduction) and that oxygen is gained by hydrogen, forming water (oxidation). So whenever one substance is reduced, another is oxidised: a redox reaction.",
+      "rubric": [
+        "CuO loses oxygen: reduced",
+        "H₂ gains oxygen: oxidised",
+        "Oxygen transferred, so both happen together"
+      ],
+      "explain": "Criterion A: redox reasoning."
+    }
+  ]
+}

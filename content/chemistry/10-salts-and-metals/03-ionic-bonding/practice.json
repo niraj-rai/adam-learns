@@ -1,0 +1,127 @@
+{
+  "topicId": "ionic-bonding",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How does a magnesium atom (2, 8, 2) become an ion?",
+      "options": [
+        "It gains 2 electrons to form Mg²⁻",
+        "It shares 2 electrons",
+        "It loses 8 electrons",
+        "It loses 2 electrons to form Mg²⁺"
+      ],
+      "answer": 3,
+      "explain": "Metals lose outer electrons.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the formula of the compound formed between Mg²⁺ and Cl⁻?",
+      "options": [
+        "MgCl₂",
+        "Mg₂Cl",
+        "Mg₂Cl₂",
+        "MgCl"
+      ],
+      "answer": 0,
+      "explain": "Two Cl⁻ balance one Mg²⁺.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why do ionic compounds have high melting points?",
+      "options": [
+        "They are made of small molecules",
+        "They contain water",
+        "Strong forces between oppositely charged ions need a lot of energy to overcome",
+        "They are metals"
+      ],
+      "answer": 2,
+      "explain": "The lattice holds together strongly.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Solid sodium chloride does not conduct electricity because…",
+      "options": [
+        "it is a metal",
+        "its ions cannot move",
+        "it has free electrons",
+        "it has no ions"
+      ],
+      "answer": 1,
+      "explain": "Ions are held in place."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "In which solvent are ionic compounds usually insoluble?",
+      "options": [
+        "Dilute acid",
+        "Salt solution",
+        "Water",
+        "Kerosene"
+      ],
+      "answer": 3,
+      "explain": "Non-polar solvents don’t dissolve them."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Calcium (2,8,8,2) reacts with oxygen (2,6). Which formula?",
+      "options": [
+        "CaO",
+        "CaO₂",
+        "Ca₂O",
+        "Ca₂O₂"
+      ],
+      "answer": 0,
+      "explain": "Ca²⁺ and O²⁻ balance 1 : 1."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which pair would form an ionic compound?",
+      "options": [
+        "Nitrogen and oxygen",
+        "Chlorine and chlorine",
+        "Potassium and fluorine",
+        "Carbon and hydrogen"
+      ],
+      "answer": 2,
+      "explain": "A metal and a non-metal."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Describe how sodium chloride forms from sodium and chlorine atoms, including electron arrangements.",
+      "modelAnswer": "Sodium (2, 8, 1) loses its one outer electron to become Na⁺ (2, 8). Chlorine (2, 8, 7) gains that electron to become Cl⁻ (2, 8, 8). Both ions now have full outer shells. The oppositely charged ions attract strongly, forming ionic bonds in a giant lattice of NaCl.",
+      "rubric": [
+        "Na loses 1 electron → Na⁺",
+        "Cl gains 1 electron → Cl⁻",
+        "Opposite charges attract in a lattice"
+      ],
+      "explain": "Criterion A."
+    }
+  ]
+}

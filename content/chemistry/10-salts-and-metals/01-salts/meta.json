@@ -1,0 +1,57 @@
+{
+  "id": "salts",
+  "number": "10.1",
+  "title": "Salts and Water of Crystallisation",
+  "summary": "Neutralisation, pH of salts, and common salt, baking soda, washing soda, bleaching powder and plaster of Paris.",
+  "emoji": "🧂",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Acids, bases and salts, MYP 5 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Acids, Bases and Salts",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can name salts from their acid and base.",
+    "I can predict whether a salt solution is acidic, basic or neutral.",
+    "I can describe the preparation and uses of important salts."
+  ],
+  "misconceptions": [
+    "All salts are neutral.",
+    "Salt means only table salt.",
+    "Water of crystallisation makes crystals wet."
+  ],
+  "prerequisites": [
+    "chemistry/acids/neutralisation",
+    "chemistry/atoms-and-moles/chemical-formulae"
+  ],
+  "labs": [
+    "salt-factory"
+  ],
+  "keyTerms": [
+    "salt",
+    "neutralisation",
+    "water of crystallisation",
+    "baking soda",
+    "washing soda",
+    "bleaching powder",
+    "plaster of Paris",
+    "chlor-alkali process"
+  ],
+  "estMinutes": 30
+}

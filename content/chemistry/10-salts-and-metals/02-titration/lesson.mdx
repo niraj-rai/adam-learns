@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="Drop by drop" />
+
+<Hook emoji="💗">
+Food scientists check the acidity of pickles, and water engineers check how acidic rain is, using the same precise technique: titration. One drop can make the difference.
+</Hook>
+
+<PredictFirst
+  question="As you add alkali to acid, the pH…"
+  options={["stays at 7", "rises slowly then jumps sharply near the endpoint", "falls steadily", "jumps at the very start"]}
+  answer={1}
+>
+pH barely changes at first, then jumps from about 4 to 10 within a drop or two at the endpoint.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<StepReveal
+  steps={[
+    "Use a pipette to put an exact volume (e.g. 25 mL) of acid in a conical flask, with a few drops of indicator.",
+    "Fill a burette with alkali of known concentration.",
+    "Add alkali, swirling, until the indicator just changes colour permanently: the endpoint.",
+    "Repeat until results agree; use the average volume.",
+    "Moles of alkali = concentration × volume; use the equation to find moles and concentration of the acid."
+  ]}
+/>
+
+<Formula tex="c = \frac{n}{V}" caption="concentration (mol/L) = moles ÷ volume (L)" />
+
+<Stage kind="try" title="Titration" />
+
+<Lab id="titration-lab" />
+
+
+
+<Stage kind="apply" title="Reflect on impacts" />
+
+<Inquiry criterion="B" title="Vinegar check">
+Plan a titration to find the concentration of ethanoic acid in a brand of vinegar using 0.1 mol/L sodium hydroxide. What equipment, indicator and safety steps would you use, and how would you make your result reliable?
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Acids, Bases and Salts">
+- Neutralisation; importance of pH in everyday life.
+- (Quantitative titration calculations are an IB MYP 5 extension.)
+</CbseCorner>
+
+<Reflect id="chem10-titration" prompt="Why do you think scientists repeat a titration several times?" />

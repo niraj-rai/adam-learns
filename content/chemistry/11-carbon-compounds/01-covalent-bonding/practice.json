@@ -1,0 +1,127 @@
+{
+  "topicId": "covalent-bonding",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What type of bond is in a methane molecule, CH₄?",
+      "options": [
+        "No bonds",
+        "Metallic",
+        "Covalent",
+        "Ionic"
+      ],
+      "answer": 2,
+      "explain": "Carbon and hydrogen share electrons.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many covalent bonds does a carbon atom usually form?",
+      "options": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "answer": 1,
+      "explain": "Carbon is tetravalent.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why does graphite conduct electricity but diamond does not?",
+      "options": [
+        "Graphite contains metal",
+        "Diamond is a liquid",
+        "Diamond is ionic",
+        "Graphite has free electrons between its layers"
+      ],
+      "answer": 3,
+      "explain": "Each C in graphite uses only 3 electrons in bonding.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why do most covalent compounds have low boiling points?",
+      "options": [
+        "The forces between molecules are weak",
+        "They contain ions",
+        "The covalent bonds are weak",
+        "They are always gases"
+      ],
+      "answer": 0,
+      "explain": "Boiling separates molecules, not atoms."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which molecule contains a double bond?",
+      "options": [
+        "N₂",
+        "Cl₂",
+        "O₂",
+        "H₂"
+      ],
+      "answer": 2,
+      "explain": "N₂ has a triple bond; H₂ and Cl₂ single."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is catenation?",
+      "options": [
+        "Carbon dissolving in water",
+        "Carbon atoms bonding to each other to form chains and rings",
+        "Carbon burning",
+        "Carbon forming ions"
+      ],
+      "answer": 1,
+      "explain": "It allows millions of compounds."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Diamond is used in drill tips because…",
+      "options": [
+        "it conducts electricity",
+        "it is a metal",
+        "it is soft",
+        "each carbon is strongly bonded to four others in a rigid 3D network"
+      ],
+      "answer": 3,
+      "explain": "That makes it extremely hard."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why carbon forms such a huge number of compounds.",
+      "modelAnswer": "Carbon has a valency of 4 (tetravalency), so each atom can bond to four other atoms, including other carbons, hydrogen, oxygen, nitrogen and halogens. It also shows catenation: carbon atoms link to each other in long chains, branches and rings, with single, double or triple bonds. The C–C bond is strong, so these compounds are stable.",
+      "rubric": [
+        "Tetravalency",
+        "Catenation: chains, branches, rings",
+        "Strong bonds / multiple bonds"
+      ],
+      "explain": "Criterion A."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "topicId": "types-of-reactions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "2H₂O → 2H₂ + O₂ (by electricity) is a…",
+      "options": [
+        "double displacement reaction",
+        "displacement reaction",
+        "combination reaction",
+        "decomposition reaction"
+      ],
+      "answer": 3,
+      "explain": "One compound splits.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which reaction is a displacement?",
+      "options": [
+        "Fe + CuSO₄ → FeSO₄ + Cu",
+        "AgNO₃ + NaCl → AgCl + NaNO₃",
+        "C + O₂ → CO₂",
+        "CaCO₃ → CaO + CO₂"
+      ],
+      "answer": 0,
+      "explain": "Iron pushes copper out.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is endothermic?",
+      "options": [
+        "Respiration",
+        "Burning natural gas",
+        "Heating calcium carbonate to form lime",
+        "Adding quicklime to water"
+      ],
+      "answer": 2,
+      "explain": "It absorbs heat."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Mixing two clear solutions gives an insoluble white solid. The solid is called a…",
+      "options": [
+        "crystal of water",
+        "precipitate",
+        "solvent",
+        "catalyst"
+      ],
+      "answer": 1,
+      "explain": "Precipitation is a double displacement."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why doesn’t copper displace zinc from zinc sulfate?",
+      "options": [
+        "The solution is too cold",
+        "Zinc sulfate is insoluble",
+        "Copper is more reactive",
+        "Copper is less reactive than zinc"
+      ],
+      "answer": 3,
+      "explain": "Only a more reactive metal displaces a less reactive one."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Silver chloride turns grey in sunlight. What type of reaction?",
+      "options": [
+        "Decomposition by light (photolysis)",
+        "Neutralisation",
+        "Double displacement",
+        "Combination"
+      ],
+      "answer": 0,
+      "explain": "2AgCl → 2Ag + Cl₂."
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Sort the reactions.",
+      "bins": [
+        "Combination",
+        "Decomposition",
+        "Displacement"
+      ],
+      "items": [
+        {
+          "label": "2Mg + O₂ → 2MgO",
+          "bin": 0
+        },
+        {
+          "label": "2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂",
+          "bin": 1
+        },
+        {
+          "label": "Zn + H₂SO₄ → ZnSO₄ + H₂",
+          "bin": 2
+        },
+        {
+          "label": "CaO + CO₂ → CaCO₃",
+          "bin": 0
+        },
+        {
+          "label": "2H₂O₂ → 2H₂O + O₂",
+          "bin": 1
+        },
+        {
+          "label": "Mg + CuO → MgO + Cu",
+          "bin": 2
+        }
+      ],
+      "explain": "Look at how many reactants and products there are and who swaps."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "An iron nail in copper sulfate solution turns brown and the blue colour fades. Explain, with an equation.",
+      "modelAnswer": "Iron is more reactive than copper, so it displaces copper from copper sulfate: Fe + CuSO₄ → FeSO₄ + Cu. The brown coating is copper metal. The blue colour (from copper ions) fades to pale green as iron sulfate forms.",
+      "rubric": [
+        "Iron more reactive: displacement",
+        "Correct equation",
+        "Explains colour changes"
+      ],
+      "explain": "Criterion A: explaining observations."
+    }
+  ]
+}

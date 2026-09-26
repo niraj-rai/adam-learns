@@ -1,0 +1,52 @@
+{
+  "id": "carbon-master",
+  "number": "11.5",
+  "title": "Boss Challenge: Carbon Master",
+  "summary": "Ten problems on covalent bonds, hydrocarbons, functional groups and soaps. Three lives!",
+  "emoji": "🧬",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Carbon and its Compounds",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply organic chemistry ideas."
+  ],
+  "misconceptions": [
+    "Covalent compounds conduct.",
+    "Soap works in hard water."
+  ],
+  "prerequisites": [
+    "chemistry/carbon-compounds/covalent-bonding",
+    "chemistry/carbon-compounds/hydrocarbons",
+    "chemistry/carbon-compounds/functional-groups",
+    "chemistry/carbon-compounds/soaps-and-detergents"
+  ],
+  "labs": [
+    "carbon-master"
+  ],
+  "keyTerms": [
+    "covalent bond",
+    "alkane",
+    "functional group",
+    "micelle"
+  ],
+  "estMinutes": 20
+}

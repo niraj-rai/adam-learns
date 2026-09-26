@@ -1,0 +1,57 @@
+{
+  "id": "functional-groups",
+  "number": "11.3",
+  "title": "Functional Groups, Ethanol and Ethanoic Acid",
+  "summary": "Alcohols, aldehydes, ketones, carboxylic acids and halo groups; reactions of ethanol and ethanoic acid; esters.",
+  "emoji": "🧪",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Organic chemistry, MYP 5 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Carbon and its Compounds",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can name compounds with common functional groups.",
+    "I can describe reactions of ethanol and ethanoic acid.",
+    "I can explain esterification."
+  ],
+  "misconceptions": [
+    "Ethanol is an acid.",
+    "Functional groups don’t change properties.",
+    "Vinegar is pure ethanoic acid."
+  ],
+  "prerequisites": [
+    "chemistry/carbon-compounds/hydrocarbons"
+  ],
+  "labs": [
+    "functional-groups"
+  ],
+  "keyTerms": [
+    "functional group",
+    "alcohol",
+    "aldehyde",
+    "ketone",
+    "carboxylic acid",
+    "ester",
+    "esterification",
+    "ethanol",
+    "ethanoic acid"
+  ],
+  "estMinutes": 30
+}

@@ -1,0 +1,55 @@
+{
+  "id": "covalent-bonding",
+  "number": "11.1",
+  "title": "Covalent Bonding and Allotropes",
+  "summary": "Sharing electron pairs, single, double and triple bonds, and diamond, graphite and fullerenes.",
+  "emoji": "🤝",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Bonding, MYP 5 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Carbon and its Compounds",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can draw electron-dot structures of simple molecules.",
+    "I can explain the properties of covalent compounds.",
+    "I can relate the structures of diamond and graphite to their properties."
+  ],
+  "misconceptions": [
+    "Covalent bonds are weak.",
+    "Diamond and graphite are different elements.",
+    "Covalent compounds conduct electricity."
+  ],
+  "prerequisites": [
+    "chemistry/atoms-and-moles/valency-and-ions",
+    "chemistry/salts-and-metals/ionic-bonding"
+  ],
+  "labs": [
+    "covalent-builder"
+  ],
+  "keyTerms": [
+    "covalent bond",
+    "shared pair",
+    "double bond",
+    "triple bond",
+    "allotrope",
+    "catenation"
+  ],
+  "estMinutes": 30
+}

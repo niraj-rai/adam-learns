@@ -1,0 +1,119 @@
+{
+  "topicId": "carbon-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many shared pairs are in a CO₂ molecule?",
+      "options": [
+        "1",
+        "2",
+        "4 (two double bonds)",
+        "3"
+      ],
+      "answer": 2,
+      "explain": "O=C=O."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the name of C₂H₂?",
+      "options": [
+        "Methyne",
+        "Ethyne",
+        "Ethane",
+        "Ethene"
+      ],
+      "answer": 1,
+      "explain": "Triple bond: -yne."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which molecule has a ketone group?",
+      "options": [
+        "Propanal",
+        "Propanol",
+        "Propanoic acid",
+        "Propanone"
+      ],
+      "answer": 3,
+      "explain": "-one ending."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many carbon atoms are in butanoic acid?",
+      "answer": 4,
+      "tolerance": 0,
+      "explain": "but- = 4."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which reaction turns an unsaturated oil into a saturated fat?",
+      "options": [
+        "Addition of hydrogen with a nickel catalyst",
+        "Combustion",
+        "Saponification",
+        "Esterification"
+      ],
+      "answer": 0,
+      "explain": "Hydrogenation."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is true of covalent compounds such as methane?",
+      "options": [
+        "High melting point and conduct when molten",
+        "Made of ions",
+        "Low boiling point and poor electrical conductivity",
+        "Always solids"
+      ],
+      "answer": 2,
+      "explain": "Weak forces between molecules."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Why does ethanol burn with a clean blue flame while wax often gives a yellow sooty flame?",
+      "options": [
+        "Wax contains metals",
+        "Ethanol burns completely; larger molecules like wax often burn incompletely",
+        "Ethanol has no carbon",
+        "Blue flames are colder"
+      ],
+      "answer": 1,
+      "explain": "Incomplete combustion releases soot (carbon)."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Compare how ethanol and ethanoic acid react with sodium hydrogencarbonate, and explain the difference.",
+      "modelAnswer": "Ethanoic acid reacts with sodium hydrogencarbonate, fizzing and giving off carbon dioxide, because it is an acid (it has the –COOH group that releases H⁺). Ethanol does not react because the –OH in an alcohol is not acidic enough. So the fizz identifies the acid.",
+      "rubric": [
+        "Ethanoic acid fizzes / CO₂",
+        "Ethanol no reaction",
+        "Explains via functional group / acidity"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

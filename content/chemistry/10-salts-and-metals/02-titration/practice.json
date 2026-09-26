@@ -1,0 +1,113 @@
+{
+  "topicId": "titration",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which piece of apparatus delivers the alkali in a titration?",
+      "options": [
+        "Test tube",
+        "Beaker",
+        "Burette",
+        "Funnel"
+      ],
+      "answer": 2,
+      "explain": "It measures the volume added precisely.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many moles are in 20 mL of 0.1 mol/L NaOH?",
+      "answer": 0.002,
+      "tolerance": 0,
+      "explain": "0.1 × 0.020 = 0.002.",
+      "unit": "mol"
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "0.002 mol of HCl is in 25 mL of solution. What is its concentration in mol/L?",
+      "answer": 0.08,
+      "tolerance": 0,
+      "explain": "0.002 ÷ 0.025.",
+      "unit": "mol/L"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why is the last part of a titration done drop by drop?",
+      "options": [
+        "To save alkali",
+        "The pH changes very sharply near the endpoint",
+        "To keep the solution cold",
+        "Because burettes are slow"
+      ],
+      "answer": 1,
+      "explain": "One drop can pass the endpoint."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What colour is phenolphthalein in a basic solution?",
+      "options": [
+        "Yellow",
+        "Colourless",
+        "Blue",
+        "Pink"
+      ],
+      "answer": 3,
+      "explain": "Colourless in acid and neutral solutions."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "At the endpoint of HCl + NaOH, what is in the flask?",
+      "options": [
+        "Sodium chloride solution (pH about 7)",
+        "Pure water",
+        "Hydrochloric acid only",
+        "Sodium hydroxide only"
+      ],
+      "answer": 0,
+      "explain": "Salt + water."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "10 mL of 0.2 mol/L NaOH neutralises 20 mL of HCl. What is the concentration of the HCl in mol/L?",
+      "answer": 0.1,
+      "tolerance": 0,
+      "explain": "n = 0.002 mol; 0.002 ÷ 0.020 = 0.1.",
+      "unit": "mol/L"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why an indicator is needed in a titration and how you know you have reached the endpoint.",
+      "modelAnswer": "Acid, alkali and salt solutions are usually colourless, so you can’t see when the acid has been exactly neutralised. An indicator changes colour at a certain pH. The endpoint is reached when the indicator just changes colour permanently (e.g. phenolphthalein turns faint pink) after adding one more drop while swirling.",
+      "rubric": [
+        "Solutions colourless: need a visible sign",
+        "Indicator changes colour with pH",
+        "Permanent colour change after one drop"
+      ],
+      "explain": "Criterion C."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "balancing-equations",
+  "number": "9.1",
+  "title": "Writing and Balancing Equations",
+  "summary": "Word equations, formula equations, state symbols and balancing by inspection.",
+  "emoji": "⚖️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Chemical equations, MYP 5 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Chemical Reactions and Equations",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can write word and formula equations.",
+    "I can balance equations by inspection.",
+    "I can use state symbols."
+  ],
+  "misconceptions": [
+    "You can balance by changing the small numbers in formulae.",
+    "A balanced equation means the same number of molecules on each side.",
+    "State symbols are optional decoration."
+  ],
+  "prerequisites": [
+    "chemistry/changes/symbols-formulas-equations",
+    "chemistry/atoms-and-moles/laws-of-combination"
+  ],
+  "labs": [
+    "equation-balancer"
+  ],
+  "keyTerms": [
+    "chemical equation",
+    "reactant",
+    "product",
+    "coefficient",
+    "balanced equation",
+    "state symbols"
+  ],
+  "estMinutes": 30
+}

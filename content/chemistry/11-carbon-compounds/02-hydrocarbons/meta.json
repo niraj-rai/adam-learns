@@ -1,0 +1,57 @@
+{
+  "id": "hydrocarbons",
+  "number": "11.2",
+  "title": "Hydrocarbons and Homologous Series",
+  "summary": "Alkanes, alkenes and alkynes, saturated and unsaturated compounds, naming and homologous series.",
+  "emoji": "🔗",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Organic chemistry, MYP 5 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Carbon and its Compounds",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can name and draw simple alkanes, alkenes and alkynes.",
+    "I can explain homologous series.",
+    "I can distinguish saturated and unsaturated compounds."
+  ],
+  "misconceptions": [
+    "All hydrocarbons have only single bonds.",
+    "Methene exists.",
+    "Members of a series have identical physical properties."
+  ],
+  "prerequisites": [
+    "chemistry/carbon-compounds/covalent-bonding",
+    "chemistry/changes/fuels"
+  ],
+  "labs": [
+    "carbon-chain"
+  ],
+  "keyTerms": [
+    "hydrocarbon",
+    "alkane",
+    "alkene",
+    "alkyne",
+    "saturated",
+    "unsaturated",
+    "homologous series",
+    "isomer"
+  ],
+  "estMinutes": 30
+}

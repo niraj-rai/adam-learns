@@ -1,0 +1,114 @@
+{
+  "topicId": "reactions-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Balance: _Al + 3Cl₂ → 2AlCl₃. What is the coefficient of Al?",
+      "answer": 2,
+      "tolerance": 0,
+      "explain": "2AlCl₃ has 2 Al."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Pb(NO₃)₂ + 2KI → PbI₂ + 2KNO₃ gives a yellow solid. The type is…",
+      "options": [
+        "double displacement (precipitation)",
+        "displacement",
+        "combination",
+        "decomposition"
+      ],
+      "answer": 0,
+      "explain": "Ions swap partners."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "In Fe₂O₃ + 2Al → Al₂O₃ + 2Fe, what is reduced?",
+      "options": [
+        "Al₂O₃",
+        "Al",
+        "Fe₂O₃",
+        "Fe"
+      ],
+      "answer": 2,
+      "explain": "It loses oxygen."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is exothermic?",
+      "options": [
+        "Photosynthesis",
+        "Burning LPG",
+        "Electrolysis of water",
+        "Decomposing limestone"
+      ],
+      "answer": 1,
+      "explain": "Combustion releases heat."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Balance: _KClO₃ → _KCl + 3O₂. What is the coefficient of KClO₃?",
+      "answer": 2,
+      "tolerance": 0,
+      "explain": "6 O on the right = 2KClO₃."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "A shiny copper coin gets a black coating when heated in air. Why?",
+      "options": [
+        "Copper is reduced",
+        "Soot is deposited",
+        "Copper melts",
+        "Copper is oxidised to black copper oxide"
+      ],
+      "answer": 3,
+      "explain": "2Cu + O₂ → 2CuO."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which metal will NOT displace hydrogen from dilute hydrochloric acid?",
+      "options": [
+        "Copper",
+        "Zinc",
+        "Magnesium",
+        "Iron"
+      ],
+      "answer": 0,
+      "explain": "Copper is below hydrogen in the reactivity series."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Write a balanced equation with state symbols for zinc reacting with dilute sulfuric acid, and name the type of reaction.",
+      "modelAnswer": "Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g). It is a displacement reaction: zinc displaces hydrogen from the acid (it is also a redox reaction).",
+      "rubric": [
+        "Correct formulae",
+        "Balanced with state symbols",
+        "Displacement"
+      ],
+      "explain": "Criterion A."
+    }
+  ]
+}

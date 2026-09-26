@@ -1,0 +1,47 @@
+<Stage kind="wonder" title="Four patterns" />
+
+<Hook emoji="🔁">
+Whitewashing walls, making cement, extracting metals and testing water all rely on a few reaction patterns. Learn the patterns and you can predict products you've never seen.
+</Hook>
+
+<PredictFirst
+  question="Zinc is added to copper sulfate solution. What forms?"
+  options={["Nothing", "Copper and zinc sulfate", "Zinc copper", "Copper sulfate and zinc oxide"]}
+  answer={1}
+>
+Zinc is more reactive than copper, so it **displaces** it: Zn + CuSO₄ → ZnSO₄ + Cu.
+</PredictFirst>
+
+<Stage kind="explain" title="Key ideas" />
+
+<Compare
+  columns={[
+    { title: "Combination", emoji: "🤝", points: ["A + B → AB", "CaO + H₂O → Ca(OH)₂ (very exothermic)"] },
+    { title: "Decomposition", emoji: "💔", points: ["AB → A + B", "Needs heat, light or electricity", "CaCO₃ → CaO + CO₂"] },
+    { title: "Displacement", emoji: "🔁", points: ["A + BC → AC + B", "A must be more reactive than B"] },
+    { title: "Double displacement", emoji: "💃", points: ["AB + CD → AD + CB", "Often forms a precipitate", "Neutralisation too"] }
+  ]}
+/>
+
+<ConceptCard title="Energy changes" emoji="🌡️">
+<KeyTerm def="A reaction that releases heat to the surroundings, like burning or respiration.">Exothermic</KeyTerm> reactions give out heat; <KeyTerm def="A reaction that absorbs heat from the surroundings, like the thermal decomposition of limestone.">endothermic</KeyTerm> reactions take it in.
+</ConceptCard>
+
+<Stage kind="try" title="Types of Reactions" />
+
+<Lab id="reaction-types" />
+
+
+
+<Stage kind="apply" title="Reflect on impacts" />
+
+<Inquiry criterion="D" title="Whitewash chemistry">
+Whitewash is slaked lime, Ca(OH)₂, which slowly reacts with carbon dioxide in the air to form a shiny coat of calcium carbonate. Write both equations (making slaked lime, then the coating), name the types, and explain why walls look whiter a few days after whitewashing.
+</Inquiry>
+
+<CbseCorner source="NCERT Class 10: Chemical Reactions and Equations">
+- Types of reactions: combination, decomposition, displacement, double displacement, precipitation.
+- Exothermic and endothermic reactions.
+</CbseCorner>
+
+<Reflect id="chem10-types" prompt="Which type of reaction do you think happens most often in your kitchen?" />

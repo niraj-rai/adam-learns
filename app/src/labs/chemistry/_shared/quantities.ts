@@ -2,7 +2,7 @@
 
 /** Atomic masses (u), NCERT values. */
 export const ATOMIC_MASS: Record<string, number> = {
-  H: 1, He: 4, C: 12, N: 14, O: 16, Na: 23, Mg: 24, Al: 27, P: 31, S: 32, Cl: 35.5, K: 39, Ca: 40, Fe: 56, Cu: 63.5, Zn: 65, Ag: 108,
+  H: 1, He: 4, C: 12, N: 14, O: 16, Na: 23, Mg: 24, Al: 27, P: 31, S: 32, Cl: 35.5, K: 39, Ca: 40, Fe: 56, Cu: 63.5, Zn: 65, Ag: 108, Ba: 137, Pb: 207, Mn: 55, I: 127, Br: 80,
 }
 export const AVOGADRO = 6.022e23
 

@@ -1,0 +1,56 @@
+{
+  "id": "titration",
+  "number": "10.2",
+  "title": "Neutralisation and Titration",
+  "summary": "Measuring exact amounts of acid and base with a burette and indicator, and calculating concentration.",
+  "emoji": "💗",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 5,
+      "note": "Quantitative chemistry, MYP 5 Chemistry"
+    },
+    "cbse": [
+      {
+        "class": 10,
+        "chapter": "Acids, Bases and Salts",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can describe how to carry out a titration.",
+    "I can read a pH curve.",
+    "I can calculate an unknown concentration from titration results."
+  ],
+  "misconceptions": [
+    "The endpoint is when the solution turns bright red.",
+    "pH changes steadily through a titration.",
+    "Concentration doesn’t depend on volume."
+  ],
+  "prerequisites": [
+    "chemistry/acids/ph-scale",
+    "chemistry/atoms-and-moles/the-mole",
+    "chemistry/salts-and-metals/salts"
+  ],
+  "labs": [
+    "titration-lab"
+  ],
+  "keyTerms": [
+    "titration",
+    "burette",
+    "pipette",
+    "endpoint",
+    "indicator",
+    "concentration"
+  ],
+  "estMinutes": 30
+}

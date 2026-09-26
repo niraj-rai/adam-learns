@@ -1,0 +1,114 @@
+{
+  "topicId": "balancing-equations",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which equation is balanced?",
+      "options": [
+        "2H₂ + O₂ → 2H₂O",
+        "2H₂ + 2O₂ → 2H₂O",
+        "H₂ + O₂ → 2H₂O",
+        "H₂ + O₂ → H₂O"
+      ],
+      "answer": 0,
+      "explain": "Both sides have 4 H and 2 O.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What can you change when balancing an equation?",
+      "options": [
+        "The symbols of elements",
+        "The small numbers inside formulae",
+        "The coefficients in front of formulae",
+        "The arrow"
+      ],
+      "answer": 2,
+      "explain": "Changing formulae changes the substances.",
+      "feedback": {
+        "1": "That would make a different substance."
+      },
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Balance: _Fe + 3O₂ → 2Fe₂O₃. What is the coefficient of Fe?",
+      "answer": 4,
+      "tolerance": 0,
+      "explain": "2Fe₂O₃ has 4 Fe."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Balance: N₂ + _H₂ → 2NH₃. What is the coefficient of H₂?",
+      "answer": 3,
+      "tolerance": 0,
+      "explain": "2NH₃ has 6 H = 3H₂."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What does (aq) mean in NaCl(aq)?",
+      "options": [
+        "Liquid",
+        "Dissolved in water",
+        "Gas",
+        "Solid"
+      ],
+      "answer": 1,
+      "explain": "aq = aqueous."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Balance: C₃H₈ + _O₂ → 3CO₂ + 4H₂O. What is the coefficient of O₂?",
+      "answer": 5,
+      "tolerance": 0,
+      "explain": "Right: 6 + 4 = 10 O = 5O₂."
+    },
+    {
+      "id": "q7",
+      "type": "order-steps",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Put the steps for balancing an equation in order.",
+      "steps": [
+        "Write the word equation",
+        "Write the correct formula of each substance",
+        "Count the atoms of each element on both sides",
+        "Add coefficients to balance one element at a time",
+        "Check every element and add state symbols"
+      ],
+      "explain": "Formulae first, then coefficients."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why a chemical equation must be balanced.",
+      "modelAnswer": "In a chemical reaction atoms are only rearranged: none are created or destroyed (law of conservation of mass). So the total number of atoms of each element must be the same in the reactants and products. A balanced equation shows this and lets us work out the amounts that react.",
+      "rubric": [
+        "Atoms not created or destroyed",
+        "Same number of each atom on both sides",
+        "Link to conservation of mass"
+      ],
+      "explain": "Criterion C: communicating why."
+    }
+  ]
+}

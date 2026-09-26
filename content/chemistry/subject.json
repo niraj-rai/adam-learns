@@ -5,12 +5,6 @@
   "color": "chem",
   "icon": "⚗️",
   "order": 2,
-  "comingNext": "Grade 10 Chemistry: chemical reactions and equations, acids and bases in depth, metals, carbon compounds",
-  "planned": [
-    {
-      "unit": "Grade 10: reactions and equations, acids/bases/salts, metals and non-metals, carbon and its compounds",
-      "ib": "MYP 5",
-      "cbse": "Class 10"
-    }
-  ]
+  "comingNext": "More IB MYP 5 extensions: rates of reaction and energy changes",
+  "planned": []
 }

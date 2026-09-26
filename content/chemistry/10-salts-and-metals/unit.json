@@ -1,0 +1,35 @@
+{
+  "id": "salts-and-metals",
+  "number": 10,
+  "stage": "G10",
+  "title": "Acids, Salts and Metals in Depth",
+  "summary": "Grade 10: important salts and water of crystallisation, titration, ionic bonding, and how metals are extracted and refined.",
+  "ib": {
+    "keyConcept": "Systems",
+    "relatedConcepts": [
+      "Composition",
+      "Balance",
+      "Consequences"
+    ],
+    "globalContext": "Globalization and sustainability",
+    "statementOfInquiry": "Understanding how ions combine and how metals are extracted helps industry make useful materials while managing energy and environmental costs."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "How is plaster of Paris made?",
+      "What is titration?",
+      "How is aluminium extracted?"
+    ],
+    "conceptual": [
+      "Why do ionic compounds conduct only when molten or dissolved?",
+      "How does reactivity decide the extraction method?"
+    ],
+    "debatable": [
+      "Should metals be recycled by law, given the energy used to extract them?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 10: Acids, Bases and Salts",
+    "Class 10: Metals and Non-metals"
+  ]
+}
