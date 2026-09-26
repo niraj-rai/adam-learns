@@ -7,11 +7,6 @@
   "order": 1,
   "planned": [
     {
-      "unit": "9. Forces and Newton's Laws",
-      "ib": "MYP 4",
-      "cbse": "Grade 9 (Exploration Ch 6)"
-    },
-    {
       "unit": "10. Work, Energy and Simple Machines",
       "ib": "MYP 4",
       "cbse": "Grade 9 (Exploration Ch 7)"
@@ -22,5 +17,5 @@
       "cbse": "Grade 9 (Exploration Ch 10)"
     }
   ],
-  "comingNext": "Grade 9 Unit 9: Forces and Newton’s Laws"
+  "comingNext": "Grade 9 Unit 10: Work, Energy and Simple Machines"
 }

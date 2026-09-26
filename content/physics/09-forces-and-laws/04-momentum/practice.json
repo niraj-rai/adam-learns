@@ -1,0 +1,115 @@
+{
+  "topicId": "momentum",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the momentum of a 1500 kg car moving at 20 m/s?",
+      "answer": 30000,
+      "tolerance": 0,
+      "unit": "kg m/s",
+      "explain": "p = mv = 1500 × 20 = 30 000 kg m/s.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A 0.16 kg cricket ball has a momentum of 4.8 kg m/s. How fast is it moving?",
+      "answer": 30,
+      "tolerance": 0,
+      "unit": "m/s",
+      "explain": "v = p ÷ m = 4.8 ÷ 0.16 = 30 m/s."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the SI unit of momentum?",
+      "options": [
+        "N",
+        "kg m/s²",
+        "kg m/s",
+        "J"
+      ],
+      "answer": 2,
+      "explain": "Momentum = mass × velocity, so kg × m/s."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A 4 kg trolley at 3 m/s hits a stationary 2 kg trolley and they stick together. What is their velocity afterwards?",
+      "answer": 2,
+      "tolerance": 0,
+      "unit": "m/s",
+      "explain": "Momentum before = 4 × 3 = 12 kg m/s. After: 6 kg × v = 12, so v = 2 m/s.",
+      "hint": "Total momentum before = total momentum after.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A 5 kg gun fires a 0.02 kg bullet at 400 m/s. What is the recoil speed of the gun?",
+      "answer": 1.6,
+      "tolerance": 0,
+      "unit": "m/s",
+      "explain": "Total momentum starts at 0. Bullet: 0.02 × 400 = 8 kg m/s forward, so the gun has 8 kg m/s backward: v = 8 ÷ 5 = 1.6 m/s.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why does an airbag reduce injury in a crash?",
+      "options": [
+        "It increases the time taken to stop, so the force is smaller",
+        "It reduces your momentum before the crash",
+        "It makes you stop more quickly",
+        "It absorbs all of your momentum instantly"
+      ],
+      "answer": 0,
+      "explain": "The same change of momentum over a longer time means a smaller force.",
+      "feedback": {
+        "2": "Stopping more quickly would need a bigger force."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Two identical carts move towards each other at the same speed and stick together. What happens?",
+      "options": [
+        "Momentum is lost, so they stop",
+        "They stop: the total momentum was zero",
+        "They move off to the right",
+        "They bounce back at the same speed"
+      ],
+      "answer": 1,
+      "explain": "Equal and opposite momenta add to zero, so after sticking the velocity is zero. Momentum is not lost; it was zero all along."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Explain why a cricket fielder moves their hands backwards when catching a fast ball.",
+      "modelAnswer": "The ball has a certain momentum that must be reduced to zero. Moving the hands back makes the catch last longer. Since force = change in momentum ÷ time, a longer time means a smaller force on the hands, so it stings less and the ball is less likely to bounce out.",
+      "rubric": [
+        "The change in momentum is the same",
+        "Moving hands back increases the time",
+        "Longer time means a smaller force"
+      ],
+      "explain": "Criterion D: applying physics to sport."
+    }
+  ]
+}

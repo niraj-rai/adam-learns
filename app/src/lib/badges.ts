@@ -67,6 +67,8 @@ export type BadgeId =
   | 'data-detective'
   | 'unit-kinematics'
   | 'motion-master'
+  | 'unit-forces-and-laws'
+  | 'force-master'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -138,5 +140,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'data-detective': { title: 'Data Detective', emoji: '🕵️', description: 'Cracked ten cases on averages, charts and chance (Boss Challenge)' },
   'unit-kinematics': { title: 'Kinematics Expert', emoji: '🚀', description: 'Mastered every core topic in Grade 9 Physics Unit 8: Describing Motion' },
   'motion-master': { title: 'Motion Master', emoji: '🏎️', description: 'Solved ten Grade 9 motion problems (Boss Challenge)' },
+  'unit-forces-and-laws': { title: 'Newton’s Apprentice', emoji: '🍎', description: 'Mastered every core topic in Grade 9 Physics Unit 9: Forces and Newton’s Laws' },
+  'force-master': { title: 'Force Master', emoji: '🏋️', description: 'Solved ten Grade 9 force and momentum problems (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

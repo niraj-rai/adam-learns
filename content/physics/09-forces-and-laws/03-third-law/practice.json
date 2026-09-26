@@ -1,0 +1,138 @@
+{
+  "topicId": "third-law",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "You push a wall with a force of 50 N. What force does the wall exert on you?",
+      "options": [
+        "100 N",
+        "0 N, walls can’t push",
+        "Less than 50 N, because the wall is fixed",
+        "50 N, pushing you back"
+      ],
+      "answer": 3,
+      "explain": "Newton’s third law: equal in size and opposite in direction.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why don’t action and reaction forces cancel each other out?",
+      "options": [
+        "They act on different objects",
+        "They act in the same direction",
+        "One of them is always friction",
+        "They are not equal in size"
+      ],
+      "answer": 0,
+      "explain": "Forces only cancel when they act on the same object.",
+      "feedback": {
+        "3": "They are always exactly equal in size."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "When you walk, what force pushes you forwards?",
+      "options": [
+        "Your foot pushing backwards on the ground",
+        "Your leg muscles pushing on your body",
+        "The ground pushing forwards on your foot",
+        "Air resistance"
+      ],
+      "answer": 2,
+      "explain": "Your foot pushes the ground back (action); the ground pushes you forward (reaction). The force on YOU is the ground’s push."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A truck and a small car collide head-on. Which experiences the larger force?",
+      "options": [
+        "Both experience the same size force",
+        "The truck",
+        "The car",
+        "Whichever was moving faster"
+      ],
+      "answer": 0,
+      "explain": "Third law: the forces are equal. The car has the bigger acceleration (and damage) because it has less mass."
+    },
+    {
+      "id": "q5",
+      "type": "match-pairs",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Match each action to its reaction.",
+      "pairs": [
+        {
+          "left": "Rocket pushes gas down",
+          "right": "Gas pushes rocket up"
+        },
+        {
+          "left": "Swimmer pushes water back",
+          "right": "Water pushes swimmer forward"
+        },
+        {
+          "left": "Gun pushes bullet forward",
+          "right": "Bullet pushes gun back (recoil)"
+        },
+        {
+          "left": "Earth pulls apple down",
+          "right": "Apple pulls Earth up"
+        }
+      ],
+      "explain": "In every pair the forces are equal, opposite and act on different objects."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Two skaters push apart with a force of 120 N. The lighter skater has a mass of 40 kg. What is that skater’s acceleration?",
+      "answer": 3,
+      "tolerance": 0,
+      "unit": "m/s²",
+      "explain": "a = F ÷ m = 120 ÷ 40 = 3 m/s²."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A book rests on a table. The Earth pulls the book down with 5 N. What is the third-law partner of this force?",
+      "options": [
+        "The table pushes the book up with 5 N",
+        "The book pulls the Earth up with 5 N",
+        "There is no partner force",
+        "The book pushes the table down with 5 N"
+      ],
+      "answer": 1,
+      "explain": "The partner must be the same type of force (gravity) acting on the other object (the Earth).",
+      "feedback": {
+        "0": "That balances the weight, but it acts on the same object (the book) and is a contact force, so it’s not the pair."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A firefighter must hold a hose firmly when water rushes out at high speed. Explain why, using Newton’s third law.",
+      "modelAnswer": "The hose pushes the water forwards at high speed (action). The water pushes the hose backwards with an equal and opposite force (reaction). This force can be large, so the firefighter must push forwards on the hose to balance it, otherwise the hose would jerk backwards.",
+      "rubric": [
+        "Hose pushes water forwards",
+        "Water pushes hose backwards with equal force",
+        "Firefighter must supply a balancing force"
+      ],
+      "explain": "Criterion D: a real-life application."
+    }
+  ]
+}

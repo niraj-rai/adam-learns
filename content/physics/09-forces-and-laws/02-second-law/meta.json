@@ -1,0 +1,58 @@
+{
+  "id": "second-law",
+  "number": "9.2",
+  "title": "Newton's Second Law: F = ma",
+  "summary": "How force, mass and acceleration are linked, the newton, and why weight is W = mg.",
+  "emoji": "🛒",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Newton's laws, MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 6: How Forces Affect Motion",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Force and Laws of Motion",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can use F = ma to calculate force, mass or acceleration.",
+    "I can describe an experiment to show a ∝ F and a ∝ 1/m.",
+    "I can calculate weight using W = mg."
+  ],
+  "misconceptions": [
+    "A bigger force always means a bigger speed (rather than a bigger acceleration).",
+    "Mass and weight are the same thing.",
+    "The force in F = ma is any single force, not the resultant force."
+  ],
+  "prerequisites": [
+    "physics/forces-and-laws/balanced-forces"
+  ],
+  "labs": [
+    "newtons-second-law"
+  ],
+  "keyTerms": [
+    "F = ma",
+    "newton",
+    "resultant force",
+    "weight",
+    "gravitational field strength"
+  ],
+  "estMinutes": 30
+}

@@ -1,0 +1,58 @@
+{
+  "id": "third-law",
+  "number": "9.3",
+  "title": "Newton's Third Law: Action and Reaction",
+  "summary": "Forces come in equal and opposite pairs acting on different objects: walking, rowing, recoil and rockets.",
+  "emoji": "⛸️",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Newton's laws, MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 6: How Forces Affect Motion",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Force and Laws of Motion",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can state Newton's third law.",
+    "I can identify action-reaction pairs and the objects they act on.",
+    "I can explain why paired forces do not cancel."
+  ],
+  "misconceptions": [
+    "Action and reaction cancel each other out.",
+    "The bigger object exerts the bigger force.",
+    "A rocket needs air to push against."
+  ],
+  "prerequisites": [
+    "physics/forces-and-laws/second-law"
+  ],
+  "labs": [
+    "action-reaction"
+  ],
+  "keyTerms": [
+    "Newton's third law",
+    "action",
+    "reaction",
+    "interaction pair",
+    "recoil"
+  ],
+  "estMinutes": 25
+}

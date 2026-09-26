@@ -1,0 +1,58 @@
+{
+  "id": "momentum",
+  "number": "9.4",
+  "title": "Momentum, Collisions and Safety",
+  "summary": "Momentum p = mv, conservation of momentum in collisions and recoil, and why airbags and crumple zones save lives.",
+  "emoji": "💥",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Momentum, MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 6: How Forces Affect Motion",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Force and Laws of Motion",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can calculate momentum using p = mv.",
+    "I can apply conservation of momentum to collisions and explosions.",
+    "I can explain how increasing stopping time reduces force."
+  ],
+  "misconceptions": [
+    "Momentum is lost when objects stick together.",
+    "A heavy object always has more momentum than a light one.",
+    "Airbags work by reducing your momentum before a crash."
+  ],
+  "prerequisites": [
+    "physics/forces-and-laws/third-law"
+  ],
+  "labs": [
+    "collision-lab"
+  ],
+  "keyTerms": [
+    "momentum",
+    "conservation of momentum",
+    "collision",
+    "impulse",
+    "crumple zone"
+  ],
+  "estMinutes": 35
+}

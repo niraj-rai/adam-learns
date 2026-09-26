@@ -1,0 +1,180 @@
+{
+  "topicId": "balanced-forces",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Forces of 60 N to the right and 25 N to the left act on a box. What is the resultant force?",
+      "options": [
+        "35 N to the right",
+        "0 N",
+        "35 N to the left",
+        "85 N to the right"
+      ],
+      "answer": 0,
+      "explain": "Opposite forces subtract: 60 − 25 = 35 N, in the direction of the bigger force.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A car moves along a straight road at a constant 20 m/s. What can you say about the forces on it?",
+      "options": [
+        "There are no forces on the car",
+        "The forward force is bigger than the backward forces",
+        "They are balanced: the resultant force is zero",
+        "The backward forces are bigger"
+      ],
+      "answer": 2,
+      "explain": "Constant velocity means no acceleration, so the resultant force must be zero.",
+      "feedback": {
+        "1": "A bigger forward force would make the car speed up.",
+        "0": "Engine force, friction, air resistance and weight all act; they just balance."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which has the most inertia?",
+      "options": [
+        "A cricket ball",
+        "A loaded truck at rest",
+        "A feather",
+        "A bicycle moving fast"
+      ],
+      "answer": 1,
+      "explain": "Inertia depends on mass, not on speed. The truck has by far the most mass."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A bus brakes suddenly. Why do standing passengers fall forwards?",
+      "options": [
+        "The bus pushes them forwards",
+        "Air rushes forwards inside the bus",
+        "Gravity suddenly increases",
+        "Their bodies keep moving forwards because of inertia"
+      ],
+      "answer": 3,
+      "explain": "The bus slows, but the passengers keep moving until a force (the floor, a pole) slows them too.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A ball rolls across a carpet and stops. Which force stopped it?",
+      "options": [
+        "Friction from the carpet (and air resistance)",
+        "No force: moving things stop naturally",
+        "Gravity",
+        "The ball ran out of force"
+      ],
+      "answer": 0,
+      "explain": "Objects only slow down when a resultant force acts against the motion.",
+      "feedback": {
+        "1": "That was Aristotle's idea; Newton showed that a force is needed to change motion."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A 10 kg crate is pushed right with 50 N. Friction is 20 N. What is the resultant force (in N) to the right?",
+      "answer": 30,
+      "tolerance": 0,
+      "unit": "N",
+      "explain": "50 − 20 = 30 N to the right."
+    },
+    {
+      "id": "q7",
+      "type": "sort-bins",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Sort each situation by the forces acting.",
+      "bins": [
+        "Balanced forces",
+        "Unbalanced forces"
+      ],
+      "items": [
+        {
+          "label": "A book resting on a table",
+          "bin": 0
+        },
+        {
+          "label": "A plane cruising at a steady speed and height",
+          "bin": 0
+        },
+        {
+          "label": "A cricket ball being hit",
+          "bin": 1
+        },
+        {
+          "label": "An auto-rickshaw pulling away",
+          "bin": 1
+        },
+        {
+          "label": "A lift moving up at a constant speed",
+          "bin": 0
+        },
+        {
+          "label": "A car going round a bend at a steady speed",
+          "bin": 1
+        }
+      ],
+      "explain": "Constant velocity (including at rest) means balanced forces. Any change of speed OR direction means a resultant force."
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete Newton's first law.",
+      "text": "An object stays at ___ or keeps moving at a constant ___ unless a resultant ___ acts on it.",
+      "blanks": [
+        [
+          "rest"
+        ],
+        [
+          "velocity",
+          "speed"
+        ],
+        [
+          "force"
+        ]
+      ],
+      "wordBank": [
+        "rest",
+        "velocity",
+        "force",
+        "mass",
+        "friction"
+      ],
+      "explain": "This is the law of inertia."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why a spacecraft travelling between planets does not need to keep its engines running.",
+      "modelAnswer": "In space there is almost no friction or air resistance, so there is no resultant force on the spacecraft (apart from gravity). By Newton's first law it keeps moving at the same velocity without any driving force. Engines are only needed to change its speed or direction.",
+      "rubric": [
+        "No friction or air resistance in space",
+        "Newton's first law: no resultant force means constant velocity",
+        "Engines only needed to change velocity"
+      ],
+      "explain": "Criterion A/D: applying the first law."
+    }
+  ]
+}

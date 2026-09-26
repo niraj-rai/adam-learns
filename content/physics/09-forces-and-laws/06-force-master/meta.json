@@ -1,0 +1,62 @@
+{
+  "id": "force-master",
+  "number": "9.6",
+  "title": "Boss Challenge: Force Master",
+  "summary": "Ten problems on balanced forces, inertia, F = ma, action and reaction, momentum and weight. Three lives!",
+  "emoji": "🏋️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 6: How Forces Affect Motion",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Force and Laws of Motion",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can apply Newton's three laws to unfamiliar problems.",
+    "I can solve problems on momentum and weight.",
+    "I can explain safety features using physics."
+  ],
+  "misconceptions": [
+    "Motion needs a force.",
+    "Action and reaction cancel.",
+    "Mass and weight are the same."
+  ],
+  "prerequisites": [
+    "physics/forces-and-laws/balanced-forces",
+    "physics/forces-and-laws/second-law",
+    "physics/forces-and-laws/third-law",
+    "physics/forces-and-laws/momentum",
+    "physics/forces-and-laws/gravitation"
+  ],
+  "labs": [
+    "force-master"
+  ],
+  "keyTerms": [
+    "resultant force",
+    "inertia",
+    "F = ma",
+    "momentum",
+    "weight"
+  ],
+  "estMinutes": 25
+}

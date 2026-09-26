@@ -1,0 +1,61 @@
+<Stage kind="wonder" title="The hammer and the feather" />
+
+<Hook emoji="🪶">
+In 1971, astronaut David Scott stood on the Moon and dropped a hammer and a falcon feather at the same moment. They hit the ground **together**. On Earth the feather drifts down slowly, but that's air resistance, not gravity. Gravity pulls on everything with mass, from apples to the Moon.
+</Hook>
+
+<PredictFirst
+  question="Without air, a 1 kg ball and a 10 kg ball are dropped together. Which lands first?"
+  options={["The 10 kg ball", "The 1 kg ball", "It depends on their size", "They land together"]}
+  answer={3}
+>
+The 10 kg ball is pulled 10 times harder, but it also has 10 times the mass (inertia). a = F ÷ m is the same: **g ≈ 9.8 m/s²** for both.
+</PredictFirst>
+
+<Stage kind="explain" title="Newton's law of gravitation" />
+
+<ConceptCard title="Every mass attracts every other mass" emoji="🍎">
+Newton realised that the force pulling an apple to the ground is the same force that keeps the Moon in orbit. The <KeyTerm def="The attractive force between any two objects with mass. It is stronger for bigger masses and weaker for bigger distances.">gravitational force</KeyTerm> between two masses is:
+</ConceptCard>
+
+<Formula tex="F = \frac{G\, m_1 m_2}{r^2}" caption="G = 6.67 × 10⁻¹¹ N m²/kg² · r = distance between the centres of the two masses" />
+
+<Compare
+  columns={[
+    { title: "Double one mass", emoji: "✖️2", points: ["Force doubles", "F ∝ m₁m₂"] },
+    { title: "Double the distance", emoji: "↔️", points: ["Force drops to ¼", "Inverse square law: F ∝ 1/r²"] },
+    { title: "Triple the distance", emoji: "↔️↔️", points: ["Force drops to 1/9"] }
+  ]}
+/>
+
+<ConceptCard title="Mass and weight" emoji="⚖️">
+- <KeyTerm def="The amount of matter in an object, measured in kilograms. It is the same everywhere.">Mass</KeyTerm> is how much matter something has (kg). It is the **same everywhere**, and it's also a measure of inertia.
+- **Weight** is the force of gravity on that mass (N): **W = mg**. It **changes** with g.
+- On Earth g ≈ 9.8 N/kg; on the Moon about 1.6 N/kg. A 60 kg student weighs about 590 N on Earth but only about 96 N on the Moon.
+</ConceptCard>
+
+<Stage kind="try" title="Weight on Other Worlds" />
+
+<Lab id="weight-on-worlds" />
+
+<MythFact myth="There is no gravity in space, so astronauts float.">
+At the height of the ISS (about 400 km) gravity is still about 89% as strong as on the ground. Astronauts float because they and the station are **falling together** around the Earth all the time: they are in free fall.
+</MythFact>
+
+<DidYouKnow>
+Bhaskaracharya (Bhāskara II), writing in 12th-century India, described the Earth as having a natural power of attraction that pulls heavy objects towards it, centuries before Newton turned gravity into a precise law.
+</DidYouKnow>
+
+<Stage kind="apply" title="Reflect on impacts" />
+
+<Inquiry criterion="D" title="A Moon base">
+ISRO and other space agencies are planning Moon bases. Using W = mg and the lab, explain two ways low gravity would help and two ways it could cause problems for astronauts (think about carrying loads, jumping, muscles and bones). Suggest one design solution.
+</Inquiry>
+
+<CbseCorner source="Exploration (Class 9, 2026) Ch 6 · Earlier NCERT Class 9: Gravitation">
+- Weight as the force of gravity, W = mg; mass vs weight; weight on the Moon.
+- Universal law of gravitation and free fall (earlier NCERT Class 9 Gravitation; check whether your school still teaches it).
+- Value of g ≈ 9.8 m/s²; motion of objects under gravity.
+</CbseCorner>
+
+<Reflect id="phys9-forces-gravity" prompt="If you travelled to Mars, what would change: your mass, your weight, or both? Explain how you know." />

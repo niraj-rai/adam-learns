@@ -1,0 +1,60 @@
+<Stage kind="wonder" title="Why is an empty trolley easier to push?" />
+
+<Hook emoji="🛒">
+Push an empty supermarket trolley and it shoots forward. Push a full one just as hard and it creeps. Push the full one harder and it speeds up faster. Newton turned these everyday experiences into one of the most useful equations in physics.
+</Hook>
+
+<PredictFirst
+  question="You double the resultant force on a trolley (same mass). What happens to its acceleration?"
+  options={["It stays the same", "It doubles", "It halves", "It becomes four times bigger"]}
+  answer={1}
+>
+Acceleration is **proportional** to the resultant force: double the force, double the acceleration.
+</PredictFirst>
+
+<Stage kind="explain" title="Force, mass and acceleration" />
+
+<Formula tex="F = m \times a" caption="F = resultant force (N), m = mass (kg), a = acceleration (m/s²)" />
+
+<ConceptCard title="What the equation says" emoji="🧮">
+- **a ∝ F**: for the same mass, a bigger resultant force gives a bigger acceleration.
+- **a ∝ 1/m**: for the same force, a bigger mass gives a smaller acceleration.
+- **1 newton** is the force that gives a mass of 1 kg an acceleration of 1 m/s². So 1 N = 1 kg m/s².
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "Find the resultant force first: add forces in the same direction, subtract opposite ones.",
+    "Write down what you know: F, m or a.",
+    "Rearrange if needed: a = F ÷ m, or m = F ÷ a.",
+    "Check units: N, kg, m/s². Is your answer sensible?"
+  ]}
+/>
+
+<Stage kind="try" title="Newton's Second Law" />
+
+<Lab id="newtons-second-law" />
+
+<ConceptCard title="Weight is a force" emoji="🌍">
+Near Earth's surface, everything falls with an acceleration of about **g = 9.8 m/s²** (ignoring air). Using F = ma, the force of gravity on a mass m is its <KeyTerm def="The force of gravity on an object, measured in newtons. W = mg.">weight</KeyTerm>:
+</ConceptCard>
+
+<Formula tex="W = m \times g" caption="On Earth g ≈ 9.8 N/kg, so a 50 kg student weighs about 490 N" />
+
+<MythFact myth="A bigger force means a bigger speed.">
+A force changes speed: it causes **acceleration**. A small force acting for a long time can build up a huge speed. Ion engines on spacecraft push with less force than the weight of a sheet of paper, yet after months they reach very high speeds.
+</MythFact>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Testing F = ma">
+Design an experiment with a trolley, a ramp or bench, a pulley and slotted masses to test whether acceleration is proportional to force. How will you keep the total mass the same while changing the force? What graph would you draw, and what shape would support the hypothesis?
+</Inquiry>
+
+<CbseCorner source="Exploration (Class 9, 2026) Ch 6 · Earlier NCERT Class 9: Force and Laws of Motion">
+- Newton's second law, F = ma; the SI unit of force (newton).
+- Numerical problems using F = ma.
+- Weight as the force of gravity (W = mg).
+</CbseCorner>
+
+<Reflect id="phys9-forces-second" prompt="A cricket bowler and a table-tennis player both hit a ball hard. Use F = ma to explain why the table-tennis ball reaches a high speed so easily." />

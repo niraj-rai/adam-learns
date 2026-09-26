@@ -1,0 +1,68 @@
+<Stage kind="wonder" title="Why do fielders pull their hands back?" />
+
+<Hook emoji="🏏">
+Watch a fielder catch a fast cricket ball: their hands move backwards with the ball as they catch it. Nobody taught them the physics, but it works. A moving object carries **momentum**, and how quickly you take it away decides how much it hurts.
+</Hook>
+
+<PredictFirst
+  question="Which has more momentum: a 0.16 kg cricket ball at 40 m/s, or a 60 kg person walking at 1 m/s?"
+  options={["The cricket ball", "The walking person", "They are equal", "You can't compare them"]}
+  answer={1}
+>
+Ball: 0.16 × 40 = **6.4 kg m/s**. Person: 60 × 1 = **60 kg m/s**. Momentum depends on mass *and* velocity.
+</PredictFirst>
+
+<Stage kind="explain" title="Momentum" />
+
+<Formula tex="p = m \times v" caption="p = momentum (kg m/s), m = mass (kg), v = velocity (m/s). Momentum has a direction, like velocity." />
+
+<ConceptCard title="Conservation of momentum" emoji="🔒">
+When objects collide or push apart, and no outside force acts, the <KeyTerm def="In a collision or explosion with no outside forces, the total momentum before equals the total momentum after.">total momentum is conserved</KeyTerm>:
+
+**total momentum before = total momentum after**
+
+This follows from the third law: the forces on the two objects are equal and opposite and last for the same time, so one gains exactly the momentum the other loses.
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "Choose a positive direction (say, right). Velocities to the left are negative.",
+    "Work out the total momentum before: m₁u₁ + m₂u₂.",
+    "Write the total after: m₁v₁ + m₂v₂ (or (m₁ + m₂)v if they stick together).",
+    "Set them equal and solve for the unknown."
+  ]}
+/>
+
+<Stage kind="try" title="Collision Lab" />
+
+<Lab id="collision-lab" />
+
+<ConceptCard title="Force and change of momentum" emoji="🎈">
+Newton actually wrote his second law as: force = rate of change of momentum.
+
+**F = (mv − mu) ÷ t**
+
+To stop the same momentum, a **longer time** needs a **smaller force**. That's why fielders pull their hands back, why gymnasts land on soft mats, and why cars have airbags, seat belts that stretch slightly, and <KeyTerm def="Parts at the front and back of a car designed to crumple slowly in a crash, making the stopping time longer and the force smaller.">crumple zones</KeyTerm>.
+</ConceptCard>
+
+<MythFact myth="When two objects stick together, momentum is lost.">
+Momentum is **never** lost in a collision (without outside forces). Kinetic **energy** is partly changed to heat, sound and bending, but the total momentum is exactly the same before and after.
+</MythFact>
+
+<RealLife>
+India made airbags for the driver and front passenger compulsory in new cars from 2022, and crash-test safety ratings (Bharat NCAP) started in 2023. Every one of these features works by making the time of a collision longer.
+</RealLife>
+
+<Stage kind="apply" title="Reflect on impacts" />
+
+<Inquiry criterion="D" title="Designing an egg-drop protector">
+Design a package that stops an egg breaking when dropped from 2 m. Use the idea F = change in momentum ÷ time to justify every design choice, and suggest how you would test and improve it.
+</Inquiry>
+
+<CbseCorner source="Exploration (Class 9, 2026) Ch 6 · Earlier NCERT Class 9: Force and Laws of Motion">
+- Momentum, p = mv; unit kg m/s.
+- Second law as rate of change of momentum; catching a ball, jumping onto sand.
+- Conservation of momentum; recoil of a gun; numerical problems on collisions.
+</CbseCorner>
+
+<Reflect id="phys9-forces-momentum" prompt="Why is it safer to jump onto a sand pit than onto concrete from the same height? Use the words momentum, time and force." />

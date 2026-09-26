@@ -1,0 +1,112 @@
+{
+  "topicId": "force-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A lift moves upwards at a constant speed. How does the upward tension compare with its weight?",
+      "options": [
+        "Greater than the weight",
+        "Zero",
+        "Less than the weight",
+        "Equal to the weight"
+      ],
+      "answer": 3,
+      "explain": "Constant velocity means balanced forces (first law)."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A 0.5 kg ball is kicked with a resultant force of 150 N. What is its acceleration?",
+      "answer": 300,
+      "tolerance": 0,
+      "unit": "m/s²",
+      "explain": "a = F ÷ m = 150 ÷ 0.5 = 300 m/s²."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A 60 kg skater at 4 m/s catches a 20 kg bag that was at rest. What is their combined velocity?",
+      "answer": 3,
+      "tolerance": 0,
+      "unit": "m/s",
+      "explain": "p = 60 × 4 = 240 kg m/s; 240 ÷ 80 = 3 m/s."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why do you jerk backwards when a stationary bus suddenly starts?",
+      "options": [
+        "Your body tends to stay at rest (inertia)",
+        "The bus pushes you backwards",
+        "The air pushes you back",
+        "Your weight increases"
+      ],
+      "answer": 0,
+      "explain": "The bus moves forward under you while your body tends to stay where it was."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A 1 kg and a 5 kg stone are dropped from the same height in a vacuum. Which statement is correct?",
+      "options": [
+        "They land at the same time",
+        "The 5 kg stone lands first",
+        "The 1 kg stone lands first",
+        "Neither falls in a vacuum"
+      ],
+      "answer": 0,
+      "explain": "All objects have the same acceleration g in free fall."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A car of mass 1000 kg slows from 20 m/s to 0 in 4 s. What is the average braking force?",
+      "answer": 5000,
+      "tolerance": 0,
+      "unit": "N",
+      "explain": "Change in momentum = 1000 × 20 = 20 000 kg m/s; F = 20 000 ÷ 4 = 5000 N (or a = 5 m/s², F = ma)."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "A horse pulls a cart. By the third law, the cart pulls back on the horse with an equal force. So how can they move?",
+      "options": [
+        "They can’t move: the forces cancel",
+        "The horse pulls first, before the cart reacts",
+        "The horse pushes back on the ground, and the ground pushes the horse forward more than the cart pulls back",
+        "The forces are not really equal"
+      ],
+      "answer": 2,
+      "explain": "Only forces on the same object matter for its motion. On the horse: the ground’s forward push is bigger than the cart’s backward pull."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Use two of Newton’s laws to explain why wearing a helmet reduces head injuries in a two-wheeler accident.",
+      "modelAnswer": "First law: in a crash the rider’s head keeps moving (inertia) until something stops it. The helmet’s foam crushes, making the stopping time longer. Since force = change in momentum ÷ time (second law), a longer time means a smaller force on the head, reducing injury. The hard shell also spreads the force over a bigger area.",
+      "rubric": [
+        "Inertia: the head keeps moving",
+        "Helmet increases stopping time",
+        "Smaller force from F = change in momentum ÷ time"
+      ],
+      "explain": "Criterion D: applying physics to safety."
+    }
+  ]
+}

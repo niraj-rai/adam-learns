@@ -41,10 +41,12 @@ function SubjectPage() {
   const units = subject.units.filter((u) => u.stage === stage)
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-6">
       <header>
-        <p className="text-5xl">{subject.icon}</p>
-        <h1 className="mt-2 font-heading text-4xl font-bold">{subject.title}</h1>
+        <h1 className="flex items-start gap-2 font-heading text-4xl font-bold">
+          <span aria-hidden="true" className="shrink-0">{subject.icon}</span>
+          <span className="min-w-0 break-words">{subject.title}</span>
+        </h1>
         <p className="mt-1 text-lg text-muted-foreground">{subject.tagline}</p>
         {stages.length > 1 && (
           <div className="mt-4 inline-flex flex-wrap rounded-xl border p-1" role="tablist" aria-label="Choose a grade">

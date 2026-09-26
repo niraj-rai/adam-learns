@@ -118,11 +118,25 @@ CBSE Class 9 now uses the new integrated NCERT science book **Exploration** (Apr
 | 8.5 | Uniform circular motion | MYP 4 | Exploration Ch 4 ✅ | ★★ | **Circular Motion**: tangential velocity; let go! |
 | 8.6 | Boss: Motion Master | MYP 4 | Mixed | ★★★ | 10 problems (3 lives) |
 
+### Grade 9 · Unit 9: Forces and Newton's Laws ✅ built
+
+*IB Key Concept:* **Relationships** · *Related:* Interaction, Consequences, Models · *Global Context:* Scientific and technical innovation
+
+Exploration Ch 6 covers balanced forces, inertia, the three laws, momentum and friction; it uses F = mg but no longer teaches universal gravitation as a topic, so 9.5 is also mapped to the earlier NCERT Class 9 Gravitation chapter.
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 9.1 | Balanced forces and inertia (first law) | MYP 4 | Exploration Ch 6 ✅, earlier NCERT 9 Force and Laws of Motion ✅ | ★★ | **Force Arena**: two teams push a crate on ice, tiles, carpet or no friction |
+| 9.2 | Newton's second law, F = ma, W = mg | MYP 4 | Exploration Ch 6 ✅ | ★★★ | **Newton's Second Law**: light-gate trolley, a vs F graph |
+| 9.3 | Newton's third law: action and reaction | MYP 4 | Exploration Ch 6 ✅ | ★★ | **Action and Reaction**: skaters push apart |
+| 9.4 | Momentum, collisions and safety | MYP 4 | Exploration Ch 6 ✅, earlier NCERT 9 ✅ | ★★★ | **Collision Lab**: bouncy or sticky carts, momentum and KE |
+| 9.5 | Gravity, mass and weight | MYP 4 | Exploration Ch 6 (W = mg) ✅, earlier NCERT 9 Gravitation ✅ | ★★★ | **Weight on Other Worlds**: Moon to Jupiter; g with height |
+| 9.6 | Boss: Force Master | MYP 4 | Mixed | ★★★ | 10 problems (3 lives) |
+
 ### Grade 9 (planned)
 
 | Unit | Topics | IB | CBSE (Exploration) | ★ |
 |---|---|---|---|---|
-| 9. Forces and Newton's Laws | Balanced/unbalanced forces, three laws, momentum and its conservation, gravitation, g, weight | MYP 4 | Ch 6 | ★★★★ |
 | 10. Work, Energy and Simple Machines | Work, KE, PE, conservation, power, levers, pulleys, inclined planes, mechanical advantage | MYP 4 | Ch 7 | ★★★★ |
 | 11. Sound Waves | Longitudinal waves, frequency, wavelength, speed, echo, reverberation, ultrasound, sonar, the ear | MYP 4 | Ch 10 | ★★★ |
 

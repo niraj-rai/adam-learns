@@ -1,0 +1,125 @@
+{
+  "topicId": "second-law",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A resultant force of 12 N acts on a 3 kg trolley. What is its acceleration?",
+      "answer": 4,
+      "tolerance": 0,
+      "unit": "m/s²",
+      "explain": "a = F ÷ m = 12 ÷ 3 = 4 m/s².",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What resultant force gives a 1200 kg car an acceleration of 2.5 m/s²?",
+      "answer": 3000,
+      "tolerance": 0,
+      "unit": "N",
+      "explain": "F = ma = 1200 × 2.5 = 3000 N.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A force of 20 N gives an object an acceleration of 4 m/s². What is its mass?",
+      "answer": 5,
+      "tolerance": 0,
+      "unit": "kg",
+      "explain": "m = F ÷ a = 20 ÷ 4 = 5 kg."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "The mass of a trolley is doubled but the resultant force stays the same. What happens to the acceleration?",
+      "options": [
+        "It halves",
+        "It stays the same",
+        "It doubles",
+        "It becomes zero"
+      ],
+      "answer": 0,
+      "explain": "a = F ÷ m: doubling m halves a."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is 1 newton?",
+      "options": [
+        "The mass of a small apple",
+        "The force needed to move 1 kg by 1 m",
+        "The force that gives 1 kg an acceleration of 1 m/s²",
+        "The weight of 1 kg on Earth"
+      ],
+      "answer": 2,
+      "explain": "1 N = 1 kg × 1 m/s².",
+      "feedback": {
+        "3": "The weight of 1 kg is about 9.8 N."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A 50 kg student stands on Earth (g = 9.8 N/kg). What is the student’s weight?",
+      "answer": 490,
+      "tolerance": 0,
+      "unit": "N",
+      "explain": "W = mg = 50 × 9.8 = 490 N."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "A 2 kg box is pushed with 18 N; friction is 6 N. What is its acceleration?",
+      "answer": 6,
+      "tolerance": 0,
+      "unit": "m/s²",
+      "explain": "Resultant = 18 − 6 = 12 N; a = 12 ÷ 2 = 6 m/s².",
+      "hint": "Find the resultant force first."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In a trolley experiment, the graph of acceleration against force (constant mass) is a straight line through the origin. What does this show?",
+      "options": [
+        "The mass is changing",
+        "Acceleration is proportional to force",
+        "Force does not affect acceleration",
+        "Acceleration is inversely proportional to force"
+      ],
+      "answer": 1,
+      "explain": "A straight line through the origin means direct proportion: a ∝ F."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Explain, using F = ma, why a loaded lorry needs a much longer distance to stop than a car with the same brakes.",
+      "modelAnswer": "The lorry has a much bigger mass. With a similar braking force, a = F ÷ m is much smaller, so the lorry decelerates more slowly. At a smaller deceleration it takes longer, and further, to reduce its speed to zero.",
+      "rubric": [
+        "Larger mass",
+        "Same force gives smaller deceleration (a = F/m)",
+        "Smaller deceleration means longer stopping distance"
+      ],
+      "explain": "Criterion D: applying physics to road safety."
+    }
+  ]
+}

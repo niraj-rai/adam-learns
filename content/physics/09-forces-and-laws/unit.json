@@ -1,0 +1,36 @@
+{
+  "id": "forces-and-laws",
+  "number": 9,
+  "stage": "G9",
+  "title": "Forces and Newton’s Laws",
+  "summary": "Grade 9: balanced and unbalanced forces, inertia, Newton’s three laws, momentum and its conservation, and gravity, mass and weight.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Interaction",
+      "Consequences",
+      "Models"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Three simple laws connect force, mass and motion, letting us design safer vehicles, launch rockets and send spacecraft to other worlds."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is inertia?",
+      "How are force, mass and acceleration related?",
+      "What is momentum, and when is it conserved?"
+    ],
+    "conceptual": [
+      "Why do action and reaction forces not cancel each other out?",
+      "Why does an airbag reduce the force in a crash?"
+    ],
+    "debatable": [
+      "Should every car sold in India have six airbags?",
+      "Is it fair to call Newton's laws 'laws' when Einstein later improved on them?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 (Exploration, 2026) Ch 6: How Forces Affect Motion",
+    "Earlier NCERT Class 9: Force and Laws of Motion; Gravitation"
+  ]
+}

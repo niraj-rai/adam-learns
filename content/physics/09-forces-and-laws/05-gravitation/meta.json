@@ -1,0 +1,61 @@
+{
+  "id": "gravitation",
+  "number": "9.5",
+  "title": "Gravity, Mass and Weight",
+  "summary": "Newton's law of gravitation, free fall, g on Earth and other worlds, and the difference between mass and weight.",
+  "emoji": "🌙",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Gravitation, MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 6: How Forces Affect Motion (weight, F = mg)",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Gravitation",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can describe Newton's law of gravitation and the inverse square law.",
+    "I can distinguish between mass and weight and calculate W = mg.",
+    "I can explain why all objects fall with the same acceleration without air resistance."
+  ],
+  "misconceptions": [
+    "Heavy objects fall faster than light ones.",
+    "There is no gravity in space.",
+    "Mass and weight are the same, and both change on the Moon."
+  ],
+  "prerequisites": [
+    "physics/forces-and-laws/second-law",
+    "physics/forces/gravity-and-weight"
+  ],
+  "labs": [
+    "weight-on-worlds"
+  ],
+  "keyTerms": [
+    "gravitational force",
+    "law of gravitation",
+    "inverse square law",
+    "free fall",
+    "mass",
+    "weight",
+    "g"
+  ],
+  "estMinutes": 35
+}

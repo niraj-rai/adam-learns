@@ -1,0 +1,118 @@
+{
+  "topicId": "gravitation",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "An astronaut’s mass on Earth is 70 kg. What is their mass on the Moon?",
+      "options": [
+        "0 kg",
+        "About 112 kg",
+        "About 12 kg",
+        "70 kg"
+      ],
+      "answer": 3,
+      "explain": "Mass is the amount of matter: it doesn’t change from place to place.",
+      "feedback": {
+        "2": "That’s the kind of change weight shows, not mass."
+      },
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the weight of a 60 kg astronaut on the Moon, where g = 1.6 N/kg?",
+      "answer": 96,
+      "tolerance": 0,
+      "unit": "N",
+      "explain": "W = mg = 60 × 1.6 = 96 N."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "The distance between two masses is doubled. What happens to the gravitational force between them?",
+      "options": [
+        "It becomes a quarter",
+        "It stays the same",
+        "It halves",
+        "It doubles"
+      ],
+      "answer": 0,
+      "explain": "Inverse square law: F ∝ 1/r², so doubling r gives 1/2² = 1/4.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Why does a feather fall more slowly than a stone on Earth?",
+      "options": [
+        "Gravity pulls the feather less strongly per kilogram",
+        "Light objects always fall more slowly, even in a vacuum",
+        "Air resistance affects the feather much more",
+        "The feather has no weight"
+      ],
+      "answer": 2,
+      "explain": "In a vacuum they fall together with g. Air resistance is large compared with the feather’s tiny weight."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which statement about weight is correct?",
+      "options": [
+        "It is the amount of matter in an object",
+        "It is a force measured in newtons",
+        "It is the same everywhere in the universe",
+        "It is measured in kilograms"
+      ],
+      "answer": 1,
+      "explain": "Weight = mg, a force in newtons. It depends on g."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "An object weighs 49 N on Earth (g = 9.8 N/kg). What is its mass?",
+      "answer": 5,
+      "tolerance": 0,
+      "unit": "kg",
+      "explain": "m = W ÷ g = 49 ÷ 9.8 = 5 kg.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Two masses attract with a force of 36 N. If the distance between them is tripled, what is the new force?",
+      "answer": 4,
+      "tolerance": 0,
+      "unit": "N",
+      "explain": "Tripling r divides F by 3² = 9: 36 ÷ 9 = 4 N."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Astronauts on the International Space Station seem weightless, but gravity there is still about 89% of Earth’s. Explain why they float.",
+      "modelAnswer": "The astronauts and the station are in free fall: they are all falling towards the Earth together, while also moving sideways fast enough to keep missing it (orbiting). Because they fall with the same acceleration as the station, the floor doesn’t push up on them, so they feel weightless even though gravity still acts.",
+      "rubric": [
+        "Gravity still acts on them",
+        "They and the station fall together (free fall / orbit)",
+        "No support force, so they feel weightless"
+      ],
+      "explain": "Criterion A/D: explaining a misconception."
+    }
+  ]
+}

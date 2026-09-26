@@ -1,0 +1,60 @@
+{
+  "id": "balanced-forces",
+  "number": "9.1",
+  "title": "Balanced Forces and Inertia",
+  "summary": "Resultant force, friction, and Newton's first law: objects keep doing what they're doing unless a resultant force acts.",
+  "emoji": "⚖️",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Forces and motion, MYP 4 Physics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Exploration (2026) Ch 6: How Forces Affect Motion",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Force and Laws of Motion",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can find the resultant of forces acting along a line.",
+    "I can state Newton's first law and explain inertia.",
+    "I can explain how friction affects motion."
+  ],
+  "misconceptions": [
+    "A moving object needs a force to keep it moving.",
+    "If an object is not moving, no forces act on it.",
+    "Heavier objects have no more inertia than light ones."
+  ],
+  "prerequisites": [
+    "physics/forces/friction",
+    "physics/kinematics/acceleration"
+  ],
+  "labs": [
+    "force-arena"
+  ],
+  "keyTerms": [
+    "resultant force",
+    "balanced forces",
+    "unbalanced forces",
+    "inertia",
+    "Newton's first law",
+    "friction"
+  ],
+  "estMinutes": 30
+}
