@@ -7,6 +7,8 @@ import { LEVELS, levelFor } from '@/lib/levels'
 import { STATUS_STYLE, topicStatus } from '@/lib/status'
 import { cn } from '@/lib/utils'
 import { currentStreak, dueReviewItems, useProgress } from '@/stores/progress'
+import { strength } from '@/lib/learner'
+import { useProfile } from '@/stores/profile'
 
 export const Route = createFileRoute('/progress')({ component: ProgressPage })
 
@@ -17,9 +19,11 @@ function ProgressPage() {
   const fileRef = useRef<HTMLInputElement>(null)
   const [msg, setMsg] = useState<string | null>(null)
 
+  const profile = useProfile()
   const exportData = () => {
     const { xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones } = useProgress.getState()
-    const blob = new Blob([JSON.stringify({ xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones }, null, 2)], { type: 'application/json' })
+    const { firstName, lastName, grade, onboardedAt, check } = useProfile.getState()
+    const blob = new Blob([JSON.stringify({ xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones, profile: { firstName, lastName, grade, onboardedAt, check } }, null, 2)], { type: 'application/json' })
     const a = document.createElement('a')
     a.href = URL.createObjectURL(blob)
     a.download = `adamlearns-progress-${new Date().toISOString().slice(0, 10)}.json`
@@ -35,8 +39,31 @@ function ProgressPage() {
   return (
     <div className="space-y-8">
       <header>
-        <h1 className="font-heading text-4xl font-bold">📈 My Progress</h1>
+        <h1 className="font-heading text-4xl font-bold">📈 {profile.firstName ? <>{profile.firstName}'s Progress</> : 'My Progress'}</h1>
       </header>
+
+      <section className="rounded-2xl border bg-card p-5">
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <div>
+            <p className="text-xs font-semibold text-muted-foreground uppercase">Profile</p>
+            <p className="mt-1 font-heading text-2xl font-bold">{[profile.firstName, profile.lastName].filter(Boolean).join(' ') || 'Learner'}</p>
+            <p className="text-sm text-muted-foreground">{profile.grade ? `Grade ${profile.grade}` : 'Grade not set'}{profile.check ? ` · Skills check on ${profile.check.takenAt.slice(0, 10)}` : ' · Skills check not taken'}</p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <Button asChild variant="outline"><Link to="/welcome">Edit name &amp; grade</Link></Button>
+            <Button asChild className="bg-brand text-white hover:bg-brand/90"><Link to="/welcome" search={{ step: 'check' }}>{profile.check ? 'Retake skills check' : 'Take skills check'}</Link></Button>
+          </div>
+        </div>
+        {profile.check && Object.keys(profile.check.results).length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-2">
+            {getSubjects().filter((s) => profile.check!.results[s.id]).map((s) => {
+              const r = profile.check!.results[s.id]
+              const st = strength(r)
+              return <span key={s.id} className={cn('rounded-full px-2.5 py-1 text-xs font-semibold', st.cls)}>{s.icon} {s.title}: {st.label} ({r.correct}/{r.total})</span>
+            })}
+          </div>
+        )}
+      </section>
 
       <section className="grid gap-4 md:grid-cols-3">
         <div className="rounded-2xl border bg-card p-5 md:col-span-2">
@@ -152,7 +179,13 @@ function ProgressPage() {
             onChange={async (e) => {
               const f = e.target.files?.[0]
               if (!f) return
-              setMsg(importState(await f.text()) ? '✅ Progress imported.' : '❌ That file does not look like a progress export.')
+              const text = await f.text()
+              const ok = importState(text)
+              if (ok) {
+                const p = JSON.parse(text).profile
+                if (p && typeof p.firstName === 'string') useProfile.setState({ firstName: p.firstName, lastName: p.lastName ?? '', grade: p.grade ?? null, onboardedAt: p.onboardedAt ?? null, check: p.check ?? null })
+              }
+              setMsg(ok ? '✅ Progress imported.' : '❌ That file does not look like a progress export.')
               e.target.value = ''
             }}
           />

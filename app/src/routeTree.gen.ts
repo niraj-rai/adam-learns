@@ -15,6 +15,7 @@ import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as ProgressRouteImport } from './routes/progress'
 import { Route as ReviewRouteImport } from './routes/review'
 import { Route as TermsRouteImport } from './routes/terms'
+import { Route as WelcomeRouteImport } from './routes/welcome'
 import { Route as SubjectIndexRouteImport } from './routes/$subject/index'
 import { Route as LabsIndexRouteImport } from './routes/labs/index'
 import { Route as LabsLabIdRouteImport } from './routes/labs/$labId'
@@ -50,6 +51,11 @@ const ReviewRoute = ReviewRouteImport.update({
 const TermsRoute = TermsRouteImport.update({
   id: '/terms',
   path: '/terms',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WelcomeRoute = WelcomeRouteImport.update({
+  id: '/welcome',
+  path: '/welcome',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SubjectIndexRoute = SubjectIndexRouteImport.update({
@@ -91,6 +97,7 @@ export interface FileRoutesByFullPath {
   '/progress': typeof ProgressRoute
   '/review': typeof ReviewRoute
   '/terms': typeof TermsRoute
+  '/welcome': typeof WelcomeRoute
   '/labs/$labId': typeof LabsLabIdRoute
   '/$subject/': typeof SubjectIndexRoute
   '/labs/': typeof LabsIndexRoute
@@ -105,6 +112,7 @@ export interface FileRoutesByTo {
   '/progress': typeof ProgressRoute
   '/review': typeof ReviewRoute
   '/terms': typeof TermsRoute
+  '/welcome': typeof WelcomeRoute
   '/labs/$labId': typeof LabsLabIdRoute
   '/$subject': typeof SubjectIndexRoute
   '/labs': typeof LabsIndexRoute
@@ -120,6 +128,7 @@ export interface FileRoutesById {
   '/progress': typeof ProgressRoute
   '/review': typeof ReviewRoute
   '/terms': typeof TermsRoute
+  '/welcome': typeof WelcomeRoute
   '/labs/$labId': typeof LabsLabIdRoute
   '/$subject/': typeof SubjectIndexRoute
   '/labs/': typeof LabsIndexRoute
@@ -136,6 +145,7 @@ export interface FileRouteTypes {
     | '/progress'
     | '/review'
     | '/terms'
+    | '/welcome'
     | '/labs/$labId'
     | '/$subject/'
     | '/labs/'
@@ -150,6 +160,7 @@ export interface FileRouteTypes {
     | '/progress'
     | '/review'
     | '/terms'
+    | '/welcome'
     | '/labs/$labId'
     | '/$subject'
     | '/labs'
@@ -164,6 +175,7 @@ export interface FileRouteTypes {
     | '/progress'
     | '/review'
     | '/terms'
+    | '/welcome'
     | '/labs/$labId'
     | '/$subject/'
     | '/labs/'
@@ -179,6 +191,7 @@ export interface RootRouteChildren {
   ProgressRoute: typeof ProgressRoute
   ReviewRoute: typeof ReviewRoute
   TermsRoute: typeof TermsRoute
+  WelcomeRoute: typeof WelcomeRoute
   LabsLabIdRoute: typeof LabsLabIdRoute
   SubjectIndexRoute: typeof SubjectIndexRoute
   LabsIndexRoute: typeof LabsIndexRoute
@@ -229,6 +242,13 @@ declare module '@tanstack/react-router' {
       path: '/terms'
       fullPath: '/terms'
       preLoaderRoute: typeof TermsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/welcome': {
+      id: '/welcome'
+      path: '/welcome'
+      fullPath: '/welcome'
+      preLoaderRoute: typeof WelcomeRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/$subject/': {
@@ -283,6 +303,7 @@ const rootRouteChildren: RootRouteChildren = {
   ProgressRoute: ProgressRoute,
   ReviewRoute: ReviewRoute,
   TermsRoute: TermsRoute,
+  WelcomeRoute: WelcomeRoute,
   LabsLabIdRoute: LabsLabIdRoute,
   SubjectIndexRoute: SubjectIndexRoute,
   LabsIndexRoute: LabsIndexRoute,

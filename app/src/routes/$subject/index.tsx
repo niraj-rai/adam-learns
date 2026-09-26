@@ -6,6 +6,8 @@ import { STAGE_LABEL } from '@/content/schema'
 import { STATUS_STYLE, topicStatus } from '@/lib/status'
 import { cn } from '@/lib/utils'
 import { useProgress } from '@/stores/progress'
+import { effectiveGrade, stageForGrade, topicGrade } from '@/lib/learner'
+import { useProfile } from '@/stores/profile'
 
 export const Route = createFileRoute('/$subject/')({
   loader: ({ params }) => {
@@ -19,12 +21,17 @@ export const Route = createFileRoute('/$subject/')({
 function SubjectPage() {
   const subject = Route.useLoaderData()
   const topics = useProgress((s) => s.topics)
+  const grade = useProfile((s) => s.grade)
+  const warmups = useProfile((s) => s.check?.warmups ?? [])
+  const myGrade = grade ? effectiveGrade(grade, subject.id) : null
   const stages = (['G5', 'G6-8', 'G9', 'G10'] as const).filter((st) => subject.units.some((u) => u.stage === st))
   const [stage, setStageState] = useState(() => {
     try {
       const saved = localStorage.getItem(`adamlearns-stage-${subject.id}`)
       if (saved && stages.includes(saved as (typeof stages)[number])) return saved as (typeof stages)[number]
     } catch { /* storage unavailable */ }
+    const mine = myGrade ? stageForGrade(myGrade) : null
+    if (mine && stages.includes(mine as (typeof stages)[number])) return mine as (typeof stages)[number]
     return stages.includes('G6-8') ? 'G6-8' : stages[0]
   })
   const setStage = (st: (typeof stages)[number]) => {
@@ -101,6 +108,8 @@ function SubjectPage() {
                             <ComplexityStars value={t.complexity} />
                             <span className={cn('rounded-full px-2 py-0.5 text-[11px] font-semibold', STATUS_STYLE[st].cls)}>{STATUS_STYLE[st].label}</span>
                             {!t.core && <span className="rounded-full border px-2 py-0.5 text-[11px]">Extension</span>}
+                            {warmups.includes(t.key) && !topics[t.key]?.masteredAt ? <span className="rounded-full bg-brand-soft px-2 py-0.5 text-[11px] font-semibold text-brand">🔧 Warm-up</span>
+                              : myGrade && topicGrade(t) === myGrade && <span className="rounded-full bg-brand-soft px-2 py-0.5 text-[11px] font-semibold text-brand">Your grade</span>}
                           </span>
                           <BoardTags topic={t} compact className="mt-1.5" />
                         </span>

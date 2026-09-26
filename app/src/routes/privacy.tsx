@@ -8,12 +8,13 @@ function PrivacyPage() {
     <LegalPage emoji="🔒" title="Privacy policy" updated="26 September 2026">
       <section>
         <h2>In short</h2>
-        <p><b>AdamLearns does not collect any personal data.</b> There are no accounts, no sign-in, no forms, no cookies, no analytics and no tracking. Everything you do stays on your own device.</p>
+        <p><b>AdamLearns does not collect any personal data.</b> There are no accounts, no sign-in, no cookies, no analytics and no tracking. When you first visit we ask for your name and grade, only so the site can greet you and show the right topics: they are saved on your device and never sent anywhere. Everything you do stays on your own device.</p>
       </section>
       <section>
         <h2>What is stored, and where</h2>
         <p>To remember your learning, AdamLearns saves a few things in your browser's local storage, <b>on this device only</b>:</p>
         <ul>
+          <li>your profile: first and last name, grade, and your skills-check results (strengths and warm-up topics);</li>
           <li>your progress: topics started and mastered, practice scores, XP, badges and streak;</li>
           <li>your review queue and reflection answers;</li>
           <li>your settings: theme, sounds and whether the CBSE mapping is shown.</li>
@@ -25,7 +26,7 @@ function PrivacyPage() {
         <ul>
           <li>Progress doesn't move between devices or browsers by itself: each keeps its own. To move it, use <b>Export progress</b> on the Progress page to save a file, then <b>Import progress</b> on the other device. The file stays with you.</li>
           <li>Clearing your browser data (or using private browsing) erases your progress.</li>
-          <li>You can reset your progress at any time from the <Link to="/progress" className="text-chem underline">Progress</Link> page, or by clearing this site's data in your browser.</li>
+          <li>You can reset your progress at any time from the <Link to="/progress" className="text-chem underline">Progress</Link> page, or by clearing this site's data in your browser. You can change your name and grade (or remove them) there too.</li>
         </ul>
       </section>
       <section>
