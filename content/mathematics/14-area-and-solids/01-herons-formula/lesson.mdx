@@ -1,0 +1,40 @@
+<Stage kind="wonder" title="Area without a height" />
+
+<Hook emoji="🌾">
+A farmer's triangular field has sides of 130 m, 140 m and 150 m. Measuring the sides is easy with a tape; finding the height means walking across crops. Heron of Alexandria found a way to get the area from the three sides alone.
+</Hook>
+
+<PredictFirst
+  question="Can sides of 3 cm, 4 cm and 8 cm make a triangle?"
+  options={["No: 3 + 4 is less than 8", "Yes", "Only a right-angled one", "Only an isosceles one"]}
+  answer={0}
+>
+The **triangle inequality**: any two sides must add up to more than the third. 3 + 4 = 7, which is less than 8.
+</PredictFirst>
+
+<Stage kind="explain" title="Heron's formula" />
+
+<Formula tex="s = \frac{a + b + c}{2}" caption="The semi-perimeter" />
+
+<Formula tex="\text{Area} = \sqrt{s(s - a)(s - b)(s - c)}" />
+
+<ConceptCard title="Brahmagupta's formula" emoji="🔲">
+In 628 CE Brahmagupta gave the area of a **cyclic** quadrilateral (all corners on a circle) with sides a, b, c, d: Area = √[(s − a)(s − b)(s − c)(s − d)], with s = (a + b + c + d)/2. Set d = 0 and you get Heron's formula!
+</ConceptCard>
+
+<Stage kind="try" title="Heron's Formula" />
+
+<Lab id="heron-calculator" />
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Measure a real space">
+Choose a real four-sided space: a classroom, a garden bed or a rooftop. Measure its four sides and one diagonal. Split it into two triangles and use Heron's formula to find its area. How could you check your answer another way?
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026): Measuring Space: Perimeter and Area · Earlier NCERT Class 9: Heron's Formula">
+- Area of a triangle by Heron's formula; application to quadrilaterals.
+- Brahmagupta's formula for cyclic quadrilaterals (Ganita Manjari).
+</CbseCorner>
+
+<Reflect id="math9-mens-heron" prompt="When would Heron's formula be more useful than ½ × base × height?" />

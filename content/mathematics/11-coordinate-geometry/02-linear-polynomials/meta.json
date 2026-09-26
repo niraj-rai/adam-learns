@@ -1,0 +1,54 @@
+{
+  "id": "linear-polynomials",
+  "number": "11.2",
+  "title": "Linear Polynomials and y = mx + c",
+  "summary": "Slope and intercept, graphs of linear polynomials, and their zeros.",
+  "emoji": "📈",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Linear functions, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Introduction to Linear Polynomials",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can find the slope and y-intercept of a line.",
+    "I can write the equation of a line through two points.",
+    "I can find the zero of a linear polynomial."
+  ],
+  "misconceptions": [
+    "A steeper line always has a bigger c.",
+    "Slope = run ÷ rise.",
+    "Horizontal lines have no equation."
+  ],
+  "prerequisites": [
+    "mathematics/equations/linear-graphs",
+    "mathematics/coordinate-geometry/distance-and-midpoint"
+  ],
+  "labs": [
+    "slope-explorer"
+  ],
+  "keyTerms": [
+    "linear polynomial",
+    "slope",
+    "gradient",
+    "y-intercept",
+    "zero of a polynomial"
+  ],
+  "estMinutes": 30
+}

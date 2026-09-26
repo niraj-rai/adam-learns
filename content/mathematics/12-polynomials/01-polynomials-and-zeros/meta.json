@@ -1,0 +1,62 @@
+{
+  "id": "polynomials-and-zeros",
+  "number": "12.1",
+  "title": "Polynomials, Degree and Zeros",
+  "summary": "Terms, coefficients and degree; evaluating polynomials; zeros and graphs.",
+  "emoji": "📈",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Algebra, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Exploring Algebraic Identities",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Polynomials",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can identify the degree and type of a polynomial.",
+    "I can evaluate p(a).",
+    "I can find and interpret zeros of a polynomial."
+  ],
+  "misconceptions": [
+    "The degree is the first power written.",
+    "1/x and √x terms are allowed in polynomials.",
+    "Every polynomial has as many zeros as its degree."
+  ],
+  "prerequisites": [
+    "mathematics/algebra/simplifying-expressions",
+    "mathematics/coordinate-geometry/linear-polynomials"
+  ],
+  "labs": [
+    "polynomial-plotter"
+  ],
+  "keyTerms": [
+    "polynomial",
+    "term",
+    "coefficient",
+    "degree",
+    "linear",
+    "quadratic",
+    "cubic",
+    "zero"
+  ],
+  "estMinutes": 25
+}

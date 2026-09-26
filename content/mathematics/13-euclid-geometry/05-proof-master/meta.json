@@ -1,0 +1,58 @@
+{
+  "id": "proof-master",
+  "number": "13.5",
+  "title": "Boss Challenge: Proof Master",
+  "summary": "Ten problems on Euclid, angles, congruence, quadrilaterals and circles. Three lives!",
+  "emoji": "📐",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, B and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): I'm Up and Down, and Round and Round",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Triangles; Quadrilaterals; Circles",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can apply the ideas of this unit to unfamiliar problems.",
+    "I can choose the right method.",
+    "I can check my answers."
+  ],
+  "misconceptions": [
+    "Rushing without checking units and signs."
+  ],
+  "prerequisites": [
+    "mathematics/euclid-geometry/euclid-and-constructions",
+    "mathematics/euclid-geometry/proofs-and-congruence",
+    "mathematics/euclid-geometry/quadrilaterals-and-midpoints",
+    "mathematics/euclid-geometry/circle-theorems"
+  ],
+  "labs": [
+    "proof-master"
+  ],
+  "keyTerms": [
+    "axiom",
+    "congruence",
+    "parallelogram",
+    "cyclic quadrilateral"
+  ],
+  "estMinutes": 20
+}

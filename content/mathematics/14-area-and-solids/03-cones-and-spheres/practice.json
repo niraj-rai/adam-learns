@@ -1,0 +1,103 @@
+{
+  "topicId": "cones-and-spheres",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A cone has radius 5 cm and height 12 cm. Find its slant height.",
+      "answer": 13,
+      "tolerance": 0,
+      "explain": "√(25 + 144) = 13.",
+      "unit": "cm",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the curved surface area of a cone with r = 7 cm and l = 10 cm. (π = 22/7)",
+      "answer": 220,
+      "tolerance": 0,
+      "explain": "22/7 × 7 × 10 = 220.",
+      "unit": "cm²",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the volume of a cone with r = 3 cm and h = 7 cm. (π = 22/7)",
+      "answer": 66,
+      "tolerance": 0,
+      "explain": "⅓ × 22/7 × 9 × 7 = 66.",
+      "unit": "cm³"
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the surface area of a sphere of radius 7 cm. (π = 22/7)",
+      "answer": 616,
+      "tolerance": 0,
+      "explain": "4 × 22/7 × 49 = 616.",
+      "unit": "cm²",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the volume of a sphere of radius 3 cm, in terms of π. Type the coefficient of π.",
+      "answer": 36,
+      "tolerance": 0,
+      "explain": "⁴⁄₃ × 27 = 36, so 36π cm³.",
+      "unit": "π cm³"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "The radius of a sphere is doubled. Its surface area becomes…",
+      "options": [
+        "8 times bigger",
+        "4 times bigger",
+        "2 times bigger",
+        "the same"
+      ],
+      "answer": 1,
+      "explain": "Surface area ∝ r²."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the total surface area of a solid hemisphere of radius 7 cm. (π = 22/7)",
+      "answer": 462,
+      "tolerance": 0,
+      "explain": "3 × 22/7 × 49 = 462.",
+      "unit": "cm²"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A conical tent has radius 3 m and height 4 m. How much canvas is needed (ignore the floor and wastage)? Use π ≈ 3.14.",
+      "modelAnswer": "Slant height l = √(3² + 4²) = 5 m. Curved surface area = πrl = 3.14 × 3 × 5 = 47.1 m². So about 47.1 m² of canvas is needed.",
+      "rubric": [
+        "Finds l = 5 m",
+        "Uses πrl",
+        "About 47.1 m²"
+      ],
+      "explain": "Criterion D: a real problem."
+    }
+  ]
+}

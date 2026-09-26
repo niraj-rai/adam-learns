@@ -1,0 +1,111 @@
+{
+  "topicId": "cubic-identities",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Expand (x + 1)³.",
+      "options": [
+        "x³ + 3x² + 3x + 1",
+        "x³ + 1",
+        "x³ + x² + x + 1",
+        "x³ + 3x + 1"
+      ],
+      "answer": 0,
+      "explain": "Use (a + b)³ with a = x, b = 1.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Expand (a + b + c)².",
+      "options": [
+        "a² + b² + c²",
+        "2a + 2b + 2c",
+        "a² + b² + c² + 2ab + 2bc + 2ca",
+        "a² + b² + c² + ab + bc + ca"
+      ],
+      "answer": 2,
+      "explain": "Nine pieces: three squares and three pairs of rectangles.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Use (a − b)³ to find 99³.",
+      "answer": 970299,
+      "tolerance": 0,
+      "explain": "(100 − 1)³ = 1 000 000 − 30 000 + 300 − 1 = 970 299."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "If a + b + c = 0 and abc = 4, find a³ + b³ + c³.",
+      "answer": 12,
+      "tolerance": 0,
+      "explain": "a³ + b³ + c³ = 3abc = 12."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Factorise 8x³ + 27.",
+      "options": [
+        "(2x − 3)(4x² + 6x + 9)",
+        "(2x + 3)(4x² − 6x + 9)",
+        "(2x + 3)³",
+        "(8x + 27)(x² + 1)"
+      ],
+      "answer": 1,
+      "explain": "a³ + b³ = (a + b)(a² − ab + b²) with a = 2x, b = 3."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In the cube model of (a + b)³, how many slabs of size a × a × b are there?",
+      "options": [
+        "1",
+        "6",
+        "2",
+        "3"
+      ],
+      "answer": 3,
+      "explain": "That gives the 3a²b term."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find (x + y)³ when x + y = 5.",
+      "answer": 125,
+      "tolerance": 0,
+      "explain": "5³ = 125."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain, using the 3 × 3 square model, why (a + b + c)² has the terms 2ab, 2bc and 2ca.",
+      "modelAnswer": "A square of side a + b + c splits into a 3 × 3 grid of rectangles. The three on the diagonal are squares a², b² and c². The other six rectangles come in matching pairs: two of size a × b, two of b × c and two of c × a. Adding them gives 2ab + 2bc + 2ca.",
+      "rubric": [
+        "Describes the 3 × 3 split",
+        "Identifies the three squares",
+        "Explains the pairs of rectangles"
+      ],
+      "explain": "Criterion C: justifying with a model."
+    }
+  ]
+}

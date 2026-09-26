@@ -1,0 +1,57 @@
+{
+  "id": "probability-trees",
+  "number": "15.3",
+  "title": "Probability and Tree Diagrams",
+  "summary": "Empirical vs theoretical probability, the probability scale, two-stage experiments and tree diagrams.",
+  "emoji": "🌳",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Probability, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): The Mathematics of Maybe: Introduction to Probability",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can find theoretical and experimental probabilities.",
+    "I can draw and use tree diagrams.",
+    "I can handle 'with' and 'without replacement'."
+  ],
+  "misconceptions": [
+    "After five heads, tails is 'due'.",
+    "Experimental probability must equal theoretical probability.",
+    "Probabilities along branches are added."
+  ],
+  "prerequisites": [
+    "mathematics/data/probability",
+    "mathematics/data/chance-and-experiments"
+  ],
+  "labs": [
+    "tree-diagram",
+    "dice-lab"
+  ],
+  "keyTerms": [
+    "experimental probability",
+    "theoretical probability",
+    "outcome",
+    "event",
+    "tree diagram",
+    "independent",
+    "with replacement"
+  ],
+  "estMinutes": 35
+}

@@ -1,0 +1,106 @@
+{
+  "topicId": "arcs-and-sectors",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the arc length of a 90° sector of radius 14 cm. (Use π = 22/7.)",
+      "answer": 22,
+      "tolerance": 0,
+      "explain": "¼ × 2 × 22/7 × 14 = 22.",
+      "unit": "cm",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the area of a 60° sector of radius 21 cm. (Use π = 22/7.)",
+      "answer": 231,
+      "tolerance": 0,
+      "explain": "⅙ × 22/7 × 441 = 231.",
+      "unit": "cm²",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What fraction of a circle is a 120° sector?",
+      "options": [
+        "1/3",
+        "1/4",
+        "1/12",
+        "1/2"
+      ],
+      "answer": 0,
+      "explain": "120/360."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the perimeter of a 90° sector of radius 14 cm. (π = 22/7)",
+      "answer": 50,
+      "tolerance": 0,
+      "explain": "Arc 22 + 2 × 14 = 50.",
+      "unit": "cm"
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "The minute hand of a clock is 7 cm long. What area does it sweep in 20 minutes? (π = 22/7, give to 2 decimal places)",
+      "answer": 51.33,
+      "tolerance": 0.01,
+      "explain": "120/360 × 22/7 × 49 = 51.33.",
+      "unit": "cm²"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How do you find the area of a segment?",
+      "options": [
+        "πr² ÷ 2",
+        "Sector area plus the triangle area",
+        "Sector area minus the triangle area",
+        "Arc length × radius"
+      ],
+      "answer": 2,
+      "explain": "The segment is the sector without the triangle."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "A sector of radius 10 cm has an arc length of 10π cm. What is its angle in degrees?",
+      "answer": 180,
+      "tolerance": 0,
+      "explain": "θ/360 × 20π = 10π gives θ = 180°.",
+      "unit": "°"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A circular pizza of radius 15 cm is cut into 6 equal slices. Find the area and crust length of one slice, using π ≈ 3.14.",
+      "modelAnswer": "Each slice has angle 360 ÷ 6 = 60°, which is 1/6 of the pizza. Area = ⅙ × 3.14 × 15² = ⅙ × 706.5 ≈ 117.75 cm². Crust (arc) = ⅙ × 2 × 3.14 × 15 = 15.7 cm.",
+      "rubric": [
+        "Angle 60° (1/6 of the circle)",
+        "Area ≈ 117.75 cm²",
+        "Arc ≈ 15.7 cm"
+      ],
+      "explain": "Criterion D: sectors in context."
+    }
+  ]
+}

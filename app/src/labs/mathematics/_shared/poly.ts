@@ -23,3 +23,22 @@ export function format(p: Poly, v = 'x') {
   }
   return terms.join(' ') || '0'
 }
+
+export const degree = (p: Poly) => trim(p).length - 1
+
+/** Synthetic division of p by (x − a): the quotient and the remainder (which equals p(a)). */
+export function divideByLinear(p: Poly, a: number) {
+  const hi = [...trim(p)].reverse() // highest power first
+  const out: number[] = []
+  let carry = 0
+  for (const c of hi) { carry = c + carry * a; out.push(carry) }
+  const remainder = out.pop()!
+  return { quotient: out.reverse() as Poly, remainder, steps: out.length }
+}
+
+/** Whole-number zeros between −limit and limit (candidates are divisors of the constant term). */
+export function integerZeros(p: Poly, limit = 12) {
+  const zs: number[] = []
+  for (let x = -limit; x <= limit; x++) if (Math.abs(evaluate(p, x)) < 1e-9) zs.push(x)
+  return zs
+}

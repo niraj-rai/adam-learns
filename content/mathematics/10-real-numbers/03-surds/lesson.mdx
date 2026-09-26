@@ -1,0 +1,49 @@
+<Stage kind="wonder" title="Exact answers" />
+
+<Hook emoji="✂️">
+An engineer designing a square tiled floor with a diagonal of exactly 10 m needs a side of 10/√2 m. A calculator says 7.0710678…, but the exact answer is **5√2** m. Surds let mathematicians keep answers exact instead of rounding.
+</Hook>
+
+<PredictFirst
+  question="What is √50 in simplest form?"
+  options={["25√2", "5√2", "2√5", "10√5"]}
+  answer={1}
+>
+√50 = √(25 × 2) = √25 × √2 = **5√2**.
+</PredictFirst>
+
+<Stage kind="explain" title="Rules for surds" />
+
+<Compare
+  columns={[
+    { title: "Multiply and divide", emoji: "✖️", points: ["√a × √b = √(ab)", "√a ÷ √b = √(a/b)", "√a × √a = a"] },
+    { title: "Add and subtract", emoji: "➕", points: ["Only like surds: 2√3 + 5√3 = 7√3", "√2 + √3 can't be simplified", "√a + √b ≠ √(a + b)"] },
+    { title: "Rationalise", emoji: "➗", points: ["1/√a = √a/a", "1/(√a + √b): multiply by √a − √b", "Uses (x + y)(x − y) = x² − y²"] }
+  ]}
+/>
+
+<Stage kind="try" title="Surd Simplifier" />
+
+<Lab id="surd-simplifier" />
+
+<StepReveal
+  steps={[
+    "Simplify √72: find the biggest square factor, 36. √72 = √36 × √2 = 6√2.",
+    "Add: √18 + √8 = 3√2 + 2√2 = 5√2.",
+    "Rationalise: 6/√3 = 6√3/3 = 2√3.",
+    "Conjugate: 1/(√3 + 1) = (√3 − 1)/(3 − 1) = (√3 − 1)/2."
+  ]}
+/>
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Paper sizes">
+A4 paper has sides in the ratio 1 : √2. Fold it in half and the ratio stays the same. Measure a sheet of A4 (210 mm × 297 mm) and check how close 297/210 is to √2. Explain why this ratio is so useful for printing and photocopying.
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026): The World of Numbers · Earlier NCERT Class 9: Number Systems">
+- Operations on real numbers; simplifying expressions with square roots.
+- Rationalising the denominator; laws of exponents for real numbers.
+</CbseCorner>
+
+<Reflect id="math9-real-surds" prompt="Why might a scientist or engineer prefer 5√2 to 7.07 as an answer?" />

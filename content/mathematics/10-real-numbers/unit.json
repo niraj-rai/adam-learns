@@ -1,0 +1,34 @@
+{
+  "id": "real-numbers",
+  "number": 10,
+  "stage": "G9",
+  "title": "Real Numbers",
+  "summary": "Grade 9: terminating and recurring decimals, irrational numbers like √2 and π, the real number line, and working with surds.",
+  "ib": {
+    "keyConcept": "Form",
+    "relatedConcepts": [
+      "Representation",
+      "Quantity",
+      "Justification"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Representing numbers in different forms reveals that some quantities, like √2, can never be written as fractions."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "When does a fraction have a terminating decimal?",
+      "What is an irrational number?"
+    ],
+    "conceptual": [
+      "How can we prove that √2 is irrational?",
+      "Why does every point on the number line correspond to a real number?"
+    ],
+    "debatable": [
+      "Is 0.999… really equal to 1?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 Ganita Manjari (2026): The World of Numbers",
+    "Earlier NCERT Class 9: Number Systems"
+  ]
+}

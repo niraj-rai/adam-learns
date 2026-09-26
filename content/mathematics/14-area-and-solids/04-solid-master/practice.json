@@ -1,0 +1,104 @@
+{
+  "topicId": "solid-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the area of a triangle with sides 7, 24 and 25 cm.",
+      "answer": 84,
+      "tolerance": 0,
+      "explain": "s = 28; √(28 × 21 × 4 × 3) = 84.",
+      "unit": "cm²"
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the arc length of a 180° arc of radius 7 cm. (π = 22/7)",
+      "answer": 22,
+      "tolerance": 0,
+      "explain": "½ × 2 × 22/7 × 7 = 22.",
+      "unit": "cm"
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the volume of a hemisphere of radius 3 cm in terms of π. Type the coefficient of π.",
+      "answer": 18,
+      "tolerance": 0,
+      "explain": "⅔ × 27 = 18.",
+      "unit": "π cm³"
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A cone has slant height 10 cm and radius 6 cm. Find its height.",
+      "answer": 8,
+      "tolerance": 0,
+      "explain": "√(100 − 36) = 8.",
+      "unit": "cm"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which has the greatest volume, for the same radius r and height 2r?",
+      "options": [
+        "The sphere",
+        "The cone",
+        "They are equal",
+        "The cylinder"
+      ],
+      "answer": 3,
+      "explain": "Ratio cone : sphere : cylinder = 1 : 2 : 3."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the area of a quadrant of a circle of radius 14 cm. (π = 22/7)",
+      "answer": 154,
+      "tolerance": 0,
+      "explain": "¼ × 22/7 × 196 = 154.",
+      "unit": "cm²"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A ball’s radius is halved. Its volume becomes…",
+      "options": [
+        "one-eighth",
+        "one-quarter",
+        "the same",
+        "one-half"
+      ],
+      "answer": 0,
+      "explain": "(½)³ = ⅛."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A toy is a cone of radius 3 cm and height 4 cm on top of a hemisphere of radius 3 cm. Find its total volume in terms of π.",
+      "modelAnswer": "Cone: ⅓π × 9 × 4 = 12π cm³. Hemisphere: ⅔π × 27 = 18π cm³. Total volume = 30π cm³ (about 94.2 cm³).",
+      "rubric": [
+        "Cone volume 12π",
+        "Hemisphere volume 18π",
+        "Total 30π cm³"
+      ],
+      "explain": "Criterion A: composite solids."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "surds",
+  "number": "10.3",
+  "title": "Working with Surds",
+  "summary": "Simplifying square roots, adding and multiplying surds, and rationalising denominators.",
+  "emoji": "✂️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Number, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): The World of Numbers",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Number Systems",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can simplify surds like √72.",
+    "I can add, subtract and multiply surds.",
+    "I can rationalise denominators, including with conjugates."
+  ],
+  "misconceptions": [
+    "√a + √b = √(a + b).",
+    "√(a²) is always a.",
+    "You can't have a root in the answer."
+  ],
+  "prerequisites": [
+    "mathematics/real-numbers/irrational-numbers",
+    "mathematics/squares-and-roots/square-roots"
+  ],
+  "labs": [
+    "surd-simplifier"
+  ],
+  "keyTerms": [
+    "surd",
+    "simplest form",
+    "like surds",
+    "rationalise",
+    "conjugate"
+  ],
+  "estMinutes": 30
+}

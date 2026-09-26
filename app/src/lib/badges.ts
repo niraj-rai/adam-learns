@@ -83,6 +83,18 @@ export type BadgeId =
   | 'classification-master'
   | 'unit-life-continues'
   | 'life-master'
+  | 'unit-real-numbers'
+  | 'real-number-rumble'
+  | 'unit-coordinate-geometry'
+  | 'coordinate-commander'
+  | 'unit-polynomials'
+  | 'polynomial-power'
+  | 'unit-euclid-geometry'
+  | 'proof-master'
+  | 'unit-area-and-solids'
+  | 'solid-master'
+  | 'unit-patterns-and-chance'
+  | 'chance-master'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -170,5 +182,17 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'classification-master': { title: 'Classification Master', emoji: '🦚', description: 'Solved ten Grade 9 classification problems (Boss Challenge)' },
   'unit-life-continues': { title: 'Life Cycle Expert', emoji: '🌸', description: 'Mastered every core topic in Grade 9 Biology Unit 11: Reproduction' },
   'life-master': { title: 'Life Cycle Master', emoji: '🌺', description: 'Solved ten Grade 9 reproduction problems (Boss Challenge)' },
+  'unit-real-numbers': { title: "Real Number Ranger", emoji: '♾️', description: "Mastered every core topic in Grade 9 Maths Unit 10: Real Numbers" },
+  'real-number-rumble': { title: "Real Number Rumble", emoji: '🥊', description: "Solved ten Grade 9 real number problems (Boss Challenge)" },
+  'unit-coordinate-geometry': { title: "Coordinate Captain", emoji: '🧭', description: "Mastered every core topic in Grade 9 Maths Unit 11: Coordinates and Linear Equations" },
+  'coordinate-commander': { title: "Coordinate Commander", emoji: '🎖️', description: "Solved ten Grade 9 coordinate problems (Boss Challenge)" },
+  'unit-polynomials': { title: "Polynomial Pro", emoji: '🧊', description: "Mastered every core topic in Grade 9 Maths Unit 12: Polynomials" },
+  'polynomial-power': { title: "Polynomial Power", emoji: '⚡', description: "Solved ten Grade 9 polynomial problems (Boss Challenge)" },
+  'unit-euclid-geometry': { title: "Geometer", emoji: '📐', description: "Mastered every core topic in Grade 9 Maths Unit 13: Euclid’s Geometry, Triangles and Circles" },
+  'proof-master': { title: "Proof Master", emoji: '🧱', description: "Solved ten Grade 9 geometry problems (Boss Challenge)" },
+  'unit-area-and-solids': { title: "Measure Master", emoji: '🏺', description: "Mastered every core topic in Grade 9 Maths Unit 14: Area, Surface Area and Volume" },
+  'solid-master': { title: "Solid Master", emoji: '🍦', description: "Solved ten Grade 9 mensuration problems (Boss Challenge)" },
+  'unit-patterns-and-chance': { title: "Pattern Seer", emoji: '🔮', description: "Mastered every core topic in Grade 9 Maths Unit 15: Sequences, Statistics and Probability" },
+  'chance-master': { title: "Chance Master", emoji: '🎲', description: "Solved ten Grade 9 sequences and probability problems (Boss Challenge)" },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

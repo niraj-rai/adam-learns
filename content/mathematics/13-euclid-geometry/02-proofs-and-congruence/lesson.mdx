@@ -1,0 +1,45 @@
+<Stage kind="wonder" title="Why, not just what" />
+
+<Hook emoji="🧱">
+You know that the angles of a triangle add to 180°. But **why**? Measuring a thousand triangles only shows it's true for those thousand. A proof shows it must be true for **every** triangle, forever.
+</Hook>
+
+<PredictFirst
+  question="Two triangles have all three angles equal. Must they be congruent?"
+  options={["Yes, always", "No: one could be a bigger copy of the other", "Only if they are right-angled", "Only if they are isosceles"]}
+  answer={1}
+>
+AAA only guarantees the same **shape** (similar triangles), not the same size. Congruence needs at least one pair of equal sides.
+</PredictFirst>
+
+<Stage kind="explain" title="Tools for proofs" />
+
+<Compare
+  columns={[
+    { title: "Angle facts", emoji: "📐", points: ["Linear pair: add to 180°", "Vertically opposite angles are equal", "Parallel lines: alternate equal, co-interior add to 180°"] },
+    { title: "Congruence rules", emoji: "🧩", points: ["SSS, SAS (included angle), ASA/AAS, RHS", "NOT SSA or AAA", "CPCT: corresponding parts of congruent triangles are equal"] }
+  ]}
+/>
+
+<Stage kind="try" title="Proof Builder" />
+
+<Lab id="proof-builder" />
+
+<ConceptCard title="Writing a proof" emoji="✍️">
+Write **Given**, **To prove**, then numbered statements, each with a **reason** (given, a definition, an axiom or an earlier theorem). End with the result and ∎.
+</ConceptCard>
+
+<Lab id="congruence-checker" />
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Why not SSA?">
+Try to draw two different triangles with sides 5 cm and 4 cm and a 40° angle that is NOT between them. What do you find? Explain why SSA is not a congruence rule, but RHS (which is a special SSA) is.
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026): Triangles · Earlier NCERT Class 9: Lines and Angles; Triangles">
+- Linear pairs, vertically opposite angles, parallel lines and a transversal; angle sum property.
+- Congruence criteria SAS, ASA, AAS, SSS, RHS; properties of isosceles triangles.
+</CbseCorner>
+
+<Reflect id="math9-geo-proofs" prompt="What makes a proof convincing to you? Write one sentence of advice for someone writing their first proof." />

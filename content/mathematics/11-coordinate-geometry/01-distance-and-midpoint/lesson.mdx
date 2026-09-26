@@ -1,0 +1,40 @@
+<Stage kind="wonder" title="A map made of numbers" />
+
+<Hook emoji="📍">
+Your phone's map knows exactly where you are as two numbers: latitude and longitude. In the 1600s René Descartes had the same idea for geometry: describe every point with a pair of numbers (x, y). Suddenly shapes could be studied with algebra, and algebra could be drawn.
+</Hook>
+
+<PredictFirst
+  question="How far apart are the points (0, 0) and (3, 4)?"
+  options={["7", "12", "1", "5"]}
+  answer={3}
+>
+The gaps are 3 across and 4 up. By Pythagoras, the distance is √(3² + 4²) = √25 = **5**.
+</PredictFirst>
+
+<Stage kind="explain" title="Formulas from Pythagoras" />
+
+<Formula tex="d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}" caption="The distance between (x₁, y₁) and (x₂, y₂)" />
+
+<Formula tex="M = \left(\frac{x_1 + x_2}{2},\ \frac{y_1 + y_2}{2}\right)" caption="The midpoint: average the x-coordinates and the y-coordinates" />
+
+<ConceptCard title="The four quadrants" emoji="🧭">
+The axes split the plane into four <KeyTerm def="One of the four regions of the Cartesian plane made by the x- and y-axes, numbered I to IV anticlockwise from the top right.">quadrants</KeyTerm>: I (+, +), II (−, +), III (−, −), IV (+, −). The x-coordinate is also called the **abscissa** and the y-coordinate the **ordinate**.
+</ConceptCard>
+
+<Stage kind="try" title="Distance and Midpoint" />
+
+<Lab id="distance-finder" />
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Mapping your school">
+Put a coordinate grid over a map of your school or neighbourhood (1 square = 10 m). Give coordinates to five places. Use the distance formula to find the straight-line distance between three pairs, and compare with the walking distance. Where would you put a new water cooler so it is exactly halfway between two classrooms?
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026): The Use of Coordinates · Earlier NCERT Class 9: Coordinate Geometry">
+- Cartesian system: axes, origin, quadrants, abscissa and ordinate; plotting points.
+- Distance and midpoint formulas (Ganita Manjari).
+</CbseCorner>
+
+<Reflect id="math9-coord-distance" prompt="Where else in daily life do we use two numbers to describe a position?" />

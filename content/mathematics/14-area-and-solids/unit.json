@@ -1,0 +1,34 @@
+{
+  "id": "area-and-solids",
+  "number": 14,
+  "stage": "G9",
+  "title": "Area, Surface Area and Volume",
+  "summary": "Grade 9: Heron's and Brahmagupta's formulas, arc length and sector area, and the surface area and volume of cones and spheres.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Measurement",
+      "Quantity",
+      "Space"
+    ],
+    "globalContext": "Globalization and sustainability",
+    "statementOfInquiry": "Measuring area and volume precisely helps us use land, materials and resources efficiently."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is Heron's formula?",
+      "How do you find the volume of a cone and a sphere?"
+    ],
+    "conceptual": [
+      "Why is a cone one-third of a cylinder?",
+      "How are arc length and sector area related to the whole circle?"
+    ],
+    "debatable": [
+      "Should packaging be designed for the least material or the most attractive shape?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 Ganita Manjari (2026): Measuring Space: Perimeter and Area; Mensuration: Surface Area and Volume",
+    "Earlier NCERT Class 9: Heron's Formula; Surface Areas and Volumes"
+  ]
+}

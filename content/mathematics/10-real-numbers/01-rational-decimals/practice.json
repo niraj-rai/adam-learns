@@ -1,0 +1,116 @@
+{
+  "topicId": "rational-decimals",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which fraction has a terminating decimal?",
+      "options": [
+        "7/25",
+        "5/6",
+        "4/9",
+        "1/3"
+      ],
+      "answer": 0,
+      "explain": "25 = 5², so 7/25 = 0.28.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Write 0.(6) = 0.666… as a fraction.",
+      "options": [
+        "1/6",
+        "6/10",
+        "2/3",
+        "3/5"
+      ],
+      "answer": 2,
+      "explain": "x = 0.666…, 10x − x = 6, x = 6/9 = 2/3.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many digits are in the repeating block of 1/7?",
+      "answer": 6,
+      "tolerance": 0,
+      "explain": "1/7 = 0.(142857)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In lowest terms, a fraction’s denominator is 2³ × 3. Its decimal is…",
+      "options": [
+        "impossible to tell",
+        "recurring",
+        "terminating",
+        "irrational"
+      ],
+      "answer": 1,
+      "explain": "The factor 3 makes it recur."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Write 0.1(6) = 0.1666… as a fraction.",
+      "options": [
+        "1/16",
+        "16/90",
+        "16/99",
+        "1/6"
+      ],
+      "answer": 3,
+      "explain": "100x − 10x = 16.666… − 1.666… = 15, so x = 15/90 = 1/6."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Is 0.999… equal to 1?",
+      "options": [
+        "Yes, exactly",
+        "It is irrational",
+        "No, it is slightly less",
+        "Only when rounded"
+      ],
+      "answer": 0,
+      "explain": "9x = 9 gives x = 1."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Write 0.(45) = 0.4545… as a fraction a/b in lowest terms. What is b?",
+      "answer": 11,
+      "tolerance": 0,
+      "explain": "99x = 45, x = 45/99 = 5/11."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why the decimal of any fraction p/q must either terminate or repeat.",
+      "modelAnswer": "In long division by q, every remainder is one of 0, 1, 2, …, q − 1. If a remainder is 0 the decimal terminates. If not, after at most q − 1 steps a remainder must repeat, and from then on the division repeats the same steps, so the digits repeat forever.",
+      "rubric": [
+        "Remainders are less than q",
+        "Remainder 0 means it terminates",
+        "A repeated remainder means the digits repeat"
+      ],
+      "explain": "Criterion C: communicating a reason."
+    }
+  ]
+}

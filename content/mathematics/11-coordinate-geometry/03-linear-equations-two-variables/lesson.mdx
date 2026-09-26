@@ -1,0 +1,50 @@
+<Stage kind="wonder" title="Two clues, one answer" />
+
+<Hook emoji="🥭">
+"I bought some mangoes and bananas: 7 fruits for ₹100. Mangoes cost ₹20 and bananas ₹10." One clue alone ("7 fruits") has lots of possible answers. Two clues together pin down exactly one: that's the power of **simultaneous equations**.
+</Hook>
+
+<PredictFirst
+  question="How many solutions does x + y = 7 have?"
+  options={["Exactly one", "Two", "None", "Infinitely many"]}
+  answer={3}
+>
+(0, 7), (1, 6), (2.5, 4.5), (−3, 10)… Every point on the line x + y = 7 is a solution: **infinitely many**.
+</PredictFirst>
+
+<Stage kind="explain" title="Solving a pair" />
+
+<ConceptCard title="Every point on the line" emoji="📏">
+A <KeyTerm def="An equation of the form ax + by + c = 0, where a and b are not both zero. Its graph is a straight line.">linear equation in two variables</KeyTerm>, ax + by = c, has infinitely many solutions: all the points on its line. Two such equations together usually have **one** common solution: where the lines cross.
+</ConceptCard>
+
+<Compare
+  columns={[
+    { title: "Substitution", emoji: "🔄", points: ["Make one variable the subject", "Substitute into the other equation", "Solve, then back-substitute"] },
+    { title: "Elimination", emoji: "➖", points: ["Make the coefficients of one variable match", "Add or subtract to eliminate it", "Solve, then back-substitute"] },
+    { title: "Graphing", emoji: "📈", points: ["Draw both lines", "Read off the crossing point", "Good for seeing; less exact"] }
+  ]}
+/>
+
+<Stage kind="try" title="Where Lines Cross" />
+
+<Lab id="line-crossing" />
+
+<ConceptCard title="One, none or infinitely many" emoji="🔀">
+- Lines cross once → **one solution** (consistent).
+- Lines parallel → **no solution** (inconsistent), e.g. x + y = 3 and x + y = 5.
+- Same line → **infinitely many** (dependent), e.g. x + 2y = 4 and 2x + 4y = 8.
+</ConceptCard>
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="School fete">
+At a school fete, adult tickets cost ₹50 and child tickets ₹20. 180 tickets were sold for ₹5 100. Set up two equations, solve them by elimination, and check your answer with a graph. How would the answer change if the prices were different?
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026): Linear Equations in Two Variables · Earlier NCERT Class 9: Linear Equations in Two Variables">
+- Linear equations in two variables; infinitely many solutions; graph is a straight line.
+- Pairs of linear equations: graphical and algebraic (substitution, elimination) solutions; consistency.
+</CbseCorner>
+
+<Reflect id="math9-coord-simultaneous" prompt="When would you choose substitution, and when elimination? Give an example of each." />

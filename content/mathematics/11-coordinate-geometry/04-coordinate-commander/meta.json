@@ -1,0 +1,60 @@
+{
+  "id": "coordinate-commander",
+  "number": "11.4",
+  "title": "Boss Challenge: Coordinate Commander",
+  "summary": "Ten problems on distance, midpoints, slopes and pairs of linear equations. Three lives!",
+  "emoji": "🧭",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, B and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Orienting Yourself: The Use of Coordinates",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Coordinate Geometry",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can use coordinate formulas.",
+    "I can interpret y = mx + c.",
+    "I can solve pairs of equations."
+  ],
+  "misconceptions": [
+    "Distance = sum of the gaps.",
+    "Parallel lines meet somewhere.",
+    "Slope = run ÷ rise."
+  ],
+  "prerequisites": [
+    "mathematics/coordinate-geometry/distance-and-midpoint",
+    "mathematics/coordinate-geometry/linear-polynomials",
+    "mathematics/coordinate-geometry/linear-equations-two-variables"
+  ],
+  "labs": [
+    "coordinate-commander"
+  ],
+  "keyTerms": [
+    "distance",
+    "midpoint",
+    "slope",
+    "intercept",
+    "simultaneous equations"
+  ],
+  "estMinutes": 20
+}

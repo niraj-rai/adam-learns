@@ -1,0 +1,126 @@
+{
+  "topicId": "euclid-and-constructions",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A statement accepted as true without proof is called…",
+      "options": [
+        "an axiom",
+        "a theorem",
+        "a construction",
+        "a corollary"
+      ],
+      "answer": 0,
+      "explain": "Axioms and postulates are the starting assumptions.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is one of Euclid’s postulates?",
+      "options": [
+        "The angles of a triangle add to 180°",
+        "Two lines always meet",
+        "A circle can be drawn with any centre and any radius",
+        "All triangles are equilateral"
+      ],
+      "answer": 2,
+      "explain": "Postulate 3.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which construction divides a line segment into two equal parts at right angles?",
+      "options": [
+        "Angle bisector",
+        "Perpendicular bisector",
+        "Parallel line",
+        "Tangent"
+      ],
+      "answer": 1,
+      "explain": "It passes through the midpoint at 90°."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "In Euclid’s construction of an equilateral triangle on AB, why is AC = AB?",
+      "options": [
+        "C is the midpoint",
+        "They look equal",
+        "Because the triangle is right-angled",
+        "They are radii of the same circle centred at A"
+      ],
+      "answer": 3,
+      "explain": "Every radius of a circle is equal."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "The Śulba Sūtras used a rope of 12 equal parts to make a right angle. Which triple did they use?",
+      "options": [
+        "3, 4, 5",
+        "2, 4, 6",
+        "1, 5, 6",
+        "4, 4, 4"
+      ],
+      "answer": 0,
+      "explain": "3² + 4² = 5² and 3 + 4 + 5 = 12."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which is an axiom rather than a theorem?",
+      "options": [
+        "The diagonals of a parallelogram bisect each other",
+        "The angle in a semicircle is 90°",
+        "If equals are added to equals, the wholes are equal",
+        "An exterior angle equals the sum of the two opposite interior angles"
+      ],
+      "answer": 2,
+      "explain": "Adding equals to equals is a common notion."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Why do the arcs in a perpendicular bisector construction need a radius of more than half of AB?",
+      "options": [
+        "To make the line longer",
+        "Otherwise the arcs would not cross",
+        "To make it look neat",
+        "Because Euclid said so"
+      ],
+      "answer": 1,
+      "explain": "Arcs of radius less than half AB never meet."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain the difference between an axiom and a theorem, with one example of each.",
+      "modelAnswer": "An axiom (or postulate) is a basic statement accepted as true without proof, used as a starting point, e.g. \"things equal to the same thing are equal to one another\". A theorem is a statement that is proved logically from axioms, definitions and earlier theorems, e.g. \"the angles of a triangle add up to 180°\".",
+      "rubric": [
+        "Axiom accepted without proof",
+        "Theorem proved",
+        "Correct example of each"
+      ],
+      "explain": "Criterion C: communicating definitions."
+    }
+  ]
+}

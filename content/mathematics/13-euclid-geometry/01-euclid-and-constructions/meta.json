@@ -1,0 +1,60 @@
+{
+  "id": "euclid-and-constructions",
+  "number": "13.1",
+  "title": "Euclid's Axioms and Constructions",
+  "summary": "Definitions, axioms and postulates, and constructions with ruler and compass, including the Śulba Sūtras.",
+  "emoji": "🧭",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Geometry and proof, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Introduction to Euclid's Geometry",
+        "verified": false
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Introduction to Euclid's Geometry",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can distinguish axioms, postulates and theorems.",
+    "I can state Euclid's first postulates.",
+    "I can carry out and justify basic constructions."
+  ],
+  "misconceptions": [
+    "Axioms need to be proved.",
+    "A construction is just a neat drawing.",
+    "Geometry started in Greece alone."
+  ],
+  "prerequisites": [
+    "mathematics/geometry/angles-and-parallel-lines"
+  ],
+  "labs": [
+    "compass-constructions"
+  ],
+  "keyTerms": [
+    "axiom",
+    "postulate",
+    "theorem",
+    "definition",
+    "construction",
+    "perpendicular bisector",
+    "angle bisector"
+  ],
+  "estMinutes": 25
+}

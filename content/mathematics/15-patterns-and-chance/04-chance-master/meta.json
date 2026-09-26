@@ -1,0 +1,57 @@
+{
+  "id": "chance-master",
+  "number": "15.4",
+  "title": "Boss Challenge: Chance Master",
+  "summary": "Ten problems on sequences, grouped data and probability. Three lives!",
+  "emoji": "🎲",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, B and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): The Mathematics of Maybe: Introduction to Probability",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Statistics",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can apply the ideas of this unit to unfamiliar problems.",
+    "I can choose the right method.",
+    "I can check my answers."
+  ],
+  "misconceptions": [
+    "Rushing without checking units and signs."
+  ],
+  "prerequisites": [
+    "mathematics/patterns-and-chance/sequences",
+    "mathematics/patterns-and-chance/grouped-data",
+    "mathematics/patterns-and-chance/probability-trees"
+  ],
+  "labs": [
+    "chance-master"
+  ],
+  "keyTerms": [
+    "arithmetic progression",
+    "geometric progression",
+    "histogram",
+    "probability"
+  ],
+  "estMinutes": 20
+}

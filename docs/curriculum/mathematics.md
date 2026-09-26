@@ -139,3 +139,19 @@ Real numbers · Polynomials · Linear equations in two variables · Quadratics �
 ## L4: Grades 11–12
 
 IB DP Maths *Analysis & Approaches* or *Applications & Interpretation* (SL/HL), and CBSE 11–12 (sets, functions, calculus, vectors, 3D, matrices, probability).
+
+## Grade 9 (L3) ✅ built
+
+CBSE Class 9 Maths now uses the new NCERT book **Ganita Manjari** (2026). Its Part 1 chapters (verified): Orienting Yourself: The Use of Coordinates; Introduction to Linear Polynomials; The World of Numbers; Exploring Algebraic Identities; I'm Up and Down, and Round and Round (circles); Measuring Space: Perimeter and Area; The Mathematics of Maybe (probability); Predicting What Comes Next (sequences). Other chapter titles (Euclid, triangles, quadrilaterals, linear equations in two variables, surface area and volume, statistics, lines and angles) come from one source and are marked `verified: false` until confirmed. Every topic is also mapped to the earlier NCERT Class 9 book. Units have `stage: "G9"`.
+
+| Unit | Topics | Labs |
+|---|---|---|
+| 10. Real Numbers | Rational decimals · Irrational numbers and the real line · Surds · Boss | Decimal Detective, Square Root Spiral, Surd Simplifier, Real Number Rumble |
+| 11. Coordinates and Linear Equations | Distance and midpoint · Linear polynomials (y = mx + c) · Linear equations in two variables · Boss | Distance and Midpoint, Slope Explorer, Where Lines Cross, Coordinate Commander |
+| 12. Polynomials and Identities | Degree and zeros · Remainder and factor theorems · Cube and three-term identities · Boss | Polynomial Plotter, Factor Finder, Identity Builder, Polynomial Power |
+| 13. Euclid's Geometry, Triangles and Circles | Axioms and constructions · Angle and congruence proofs · Quadrilaterals and midpoint theorem · Circle theorems · Boss | Ruler and Compass, Proof Builder (+ Congruence Checker), Midpoint Theorem, Circle Theorems, Proof Master |
+| 14. Area, Surface Area and Volume | Heron's and Brahmagupta's formulas · Arcs and sectors · Cones and spheres · Boss | Heron's Formula, Arcs and Sectors, Cones and Spheres, Solid Master |
+| 15. Sequences, Statistics and Probability | Sequences and progressions · Grouped data and histograms · Probability and tree diagrams · Boss | Pattern Predictor, Histogram Builder, Tree Diagrams (+ Dice Lab), Chance Master |
+
+### Grade 10 (planned, to be checked against the current NCERT Class 10 book)
+Real numbers (HCF/LCM, proofs), polynomials, pairs of linear equations, quadratic equations, arithmetic progressions, triangles (similarity), coordinate geometry, trigonometry and its applications, circles (tangents), areas related to circles, surface areas and volumes, statistics, probability.

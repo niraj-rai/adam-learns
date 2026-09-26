@@ -1,0 +1,112 @@
+{
+  "topicId": "proof-master",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which of these is a postulate of Euclid?",
+      "options": [
+        "Opposite angles of a parallelogram are equal",
+        "A straight line can be drawn from any point to any other point",
+        "The angles of a triangle add to 180°",
+        "The angle in a semicircle is 90°"
+      ],
+      "answer": 1,
+      "explain": "Postulate 1."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In △PQR, PQ = PR and ∠P = 80°. Find ∠Q in degrees.",
+      "answer": 50,
+      "tolerance": 0,
+      "explain": "(180 − 80) ÷ 2 = 50.",
+      "unit": "°"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Two triangles have AB = PQ, ∠B = ∠Q and BC = QR. Which rule proves them congruent?",
+      "options": [
+        "RHS",
+        "ASA",
+        "SSS",
+        "SAS"
+      ],
+      "answer": 3,
+      "explain": "Two sides and the included angle."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In parallelogram ABCD, AB = 7 cm and BC = 4 cm. What is its perimeter in cm?",
+      "answer": 22,
+      "tolerance": 0,
+      "explain": "2 × (7 + 4) = 22.",
+      "unit": "cm"
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The angle at the centre subtended by an arc is 140°. What is the angle at the circumference in degrees?",
+      "answer": 70,
+      "tolerance": 0,
+      "explain": "Half of 140.",
+      "unit": "°"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "A chord of a circle of radius 10 cm is 6 cm from the centre. How long is the chord?",
+      "options": [
+        "16 cm",
+        "8 cm",
+        "12 cm",
+        "20 cm"
+      ],
+      "answer": 0,
+      "explain": "Half chord = √(100 − 36) = 8, so the chord is 16 cm."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "M and N are midpoints of two sides of a triangle, and MN = 7 cm. The third side is…",
+      "options": [
+        "7 cm",
+        "3.5 cm",
+        "14 cm",
+        "21 cm"
+      ],
+      "answer": 2,
+      "explain": "Midpoint theorem."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "ABCD is a cyclic quadrilateral with ∠A = (2x + 10)° and ∠C = (x + 20)°. Find x and ∠A.",
+      "modelAnswer": "Opposite angles of a cyclic quadrilateral add to 180°: 2x + 10 + x + 20 = 180, so 3x = 150 and x = 50. Then ∠A = 2(50) + 10 = 110°.",
+      "rubric": [
+        "Uses opposite angles sum to 180°",
+        "x = 50",
+        "∠A = 110°"
+      ],
+      "explain": "Criterion A: applying a circle theorem."
+    }
+  ]
+}

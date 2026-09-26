@@ -1,0 +1,44 @@
+<Stage kind="wonder" title="Starting from almost nothing" />
+
+<Hook emoji="🧭">
+Around 300 BCE, Euclid of Alexandria wrote the *Elements*, which became one of the most-studied books in history. He began with 23 definitions and a handful of statements so obvious that everyone would accept them, and from those proved hundreds of results. Centuries earlier, Indian priests were already using ropes and pegs in the **Śulba Sūtras** to construct precise altars.
+</Hook>
+
+<PredictFirst
+  question="Which of these is an axiom (accepted without proof)?"
+  options={["The angles of a triangle add to 180°", "The whole is greater than the part", "Base angles of an isosceles triangle are equal", "Vertically opposite angles are equal"]}
+  answer={1}
+>
+"The whole is greater than the part" is one of Euclid's common notions. The others are **theorems**: they are proved.
+</PredictFirst>
+
+<Stage kind="explain" title="The building blocks" />
+
+<Compare
+  columns={[
+    { title: "Axioms (common notions)", emoji: "🧱", points: ["True for all of maths", "Things equal to the same thing are equal", "The whole is greater than the part"] },
+    { title: "Postulates", emoji: "📐", points: ["Specific to geometry", "A line can be drawn between two points", "A circle can be drawn with any centre and radius"] },
+    { title: "Theorems", emoji: "🎓", points: ["Proved from axioms, postulates and earlier theorems", "e.g. angle sum of a triangle"] }
+  ]}
+/>
+
+<Stage kind="try" title="Ruler and Compass" />
+
+<Lab id="compass-constructions" />
+
+<DidYouKnow>
+Euclid's fifth postulate (about parallel lines) puzzled mathematicians for 2 000 years. In the 1800s they discovered that changing it gives completely new, consistent geometries, which turned out to describe curved space in Einstein's theory of gravity.
+</DidYouKnow>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Constructing a regular hexagon">
+Using only a compass and ruler, construct a regular hexagon inside a circle (hint: the radius fits around the circle exactly six times). Describe your steps and explain why they work using what you know about equilateral triangles.
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026): Euclid's Geometry · Earlier NCERT Class 9: Introduction to Euclid's Geometry">
+- Euclid's definitions, axioms and postulates; theorems; the Śulba Sūtras.
+- Equivalent versions of the fifth postulate.
+</CbseCorner>
+
+<Reflect id="math9-geo-euclid" prompt="Why do you think Euclid started with axioms rather than just listing all the facts he knew?" />

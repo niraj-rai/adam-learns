@@ -1,0 +1,49 @@
+<Stage kind="wonder" title="Algebra you can build" />
+
+<Hook emoji="🧊">
+Build a big cube from smaller blocks: one cube of side a, one of side b, and some slabs and rods to fill the gaps. Count the pieces and you have proved (a + b)³ = a³ + 3a²b + 3ab² + b³ without writing a single line of algebra.
+</Hook>
+
+<PredictFirst
+  question="Is (a + b)³ equal to a³ + b³?"
+  options={["Yes, always", "Only when a = b", "No: there are extra 3a²b and 3ab² terms", "Only for negative numbers"]}
+  answer={2}
+>
+Try a = b = 1: (1 + 1)³ = 8 but 1³ + 1³ = 2. The missing 6 comes from 3a²b + 3ab² = 3 + 3.
+</PredictFirst>
+
+<Stage kind="explain" title="The identities" />
+
+<Formula tex="(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3" />
+
+<Formula tex="(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3" />
+
+<Formula tex="(a + b + c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca" />
+
+<Formula tex="a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca)" caption="So if a + b + c = 0, then a³ + b³ + c³ = 3abc" />
+
+<Stage kind="try" title="Identity Builder" />
+
+<Lab id="identity-cubes" />
+
+<StepReveal
+  steps={[
+    "Calculate 103³ fast: (100 + 3)³ = 1 000 000 + 3 × 10 000 × 3 + 3 × 100 × 9 + 27.",
+    "= 1 000 000 + 90 000 + 2 700 + 27 = 1 092 727.",
+    "Factorise x³ + 8 = x³ + 2³ = (x + 2)(x² − 2x + 4).",
+    "If x + y + z = 0 with x = 1, y = 2, z = −3: x³ + y³ + z³ = 1 + 8 − 27 = −18 = 3 × 1 × 2 × (−3). ✔"
+  ]}
+/>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Pascal's triangle">
+Expand (a + b)¹, (a + b)², (a + b)³ and (a + b)⁴. Write the coefficients in rows. Compare them with Pascal's triangle, which the Indian mathematician Piṅgala described as the "Meru Prastāra" over 2 000 years ago. Predict the coefficients of (a + b)⁵ and check.
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026): Exploring Algebraic Identities · Earlier NCERT Class 9: Polynomials">
+- Algebraic identities: (x + y + z)², (x ± y)³, x³ ± y³, x³ + y³ + z³ − 3xyz; geometric visualisation.
+- Using identities to factorise and to calculate.
+</CbseCorner>
+
+<Reflect id="math9-poly-identities" prompt="Which identity do you find easiest to remember, and what picture helps you?" />

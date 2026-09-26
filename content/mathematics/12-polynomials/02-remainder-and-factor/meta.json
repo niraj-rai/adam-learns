@@ -1,0 +1,59 @@
+{
+  "id": "remainder-and-factor",
+  "number": "12.2",
+  "title": "Remainder and Factor Theorems",
+  "summary": "Dividing by (x − a), the remainder theorem, the factor theorem, and factorising cubics.",
+  "emoji": "🔎",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Algebra, MYP 4–5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Polynomials",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Exploring Algebraic Identities (factorisation)",
+        "verified": false
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can find the remainder when p(x) is divided by (x − a).",
+    "I can use the factor theorem to test factors.",
+    "I can factorise simple cubics."
+  ],
+  "misconceptions": [
+    "Dividing by (x − 2) means substituting x = −2.",
+    "Every polynomial has whole-number zeros.",
+    "A remainder of 0 means the quotient is 0."
+  ],
+  "prerequisites": [
+    "mathematics/polynomials/polynomials-and-zeros",
+    "mathematics/algebra/factorisation"
+  ],
+  "labs": [
+    "factor-finder"
+  ],
+  "keyTerms": [
+    "remainder theorem",
+    "factor theorem",
+    "synthetic division",
+    "quotient",
+    "factorise"
+  ],
+  "estMinutes": 30
+}

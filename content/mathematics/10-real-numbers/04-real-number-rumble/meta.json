@@ -1,0 +1,60 @@
+{
+  "id": "real-number-rumble",
+  "number": "10.4",
+  "title": "Boss Challenge: Real Number Rumble",
+  "summary": "Ten problems on decimals, irrational numbers and surds. Three lives!",
+  "emoji": "♾️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, B and C)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): The World of Numbers",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Number Systems",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can classify real numbers.",
+    "I can convert recurring decimals.",
+    "I can simplify and rationalise surds."
+  ],
+  "misconceptions": [
+    "π = 22/7.",
+    "√a + √b = √(a + b).",
+    "0.999… < 1."
+  ],
+  "prerequisites": [
+    "mathematics/real-numbers/rational-decimals",
+    "mathematics/real-numbers/irrational-numbers",
+    "mathematics/real-numbers/surds"
+  ],
+  "labs": [
+    "real-number-rumble"
+  ],
+  "keyTerms": [
+    "rational",
+    "irrational",
+    "surd",
+    "conjugate",
+    "real number"
+  ],
+  "estMinutes": 20
+}

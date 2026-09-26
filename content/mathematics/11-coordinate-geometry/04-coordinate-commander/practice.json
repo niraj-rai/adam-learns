@@ -1,0 +1,115 @@
+{
+  "topicId": "coordinate-commander",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the distance between (−1, 3) and (5, 11).",
+      "answer": 10,
+      "tolerance": 0,
+      "explain": "√(36 + 64) = 10.",
+      "unit": "units"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the slope of the line through (−2, 1) and (2, −7)?",
+      "options": [
+        "−1/2",
+        "−2",
+        "2",
+        "−8"
+      ],
+      "answer": 1,
+      "explain": "(−7 − 1) ÷ (2 + 2) = −8 ÷ 4 = −2."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which line is parallel to y = 3x + 1?",
+      "options": [
+        "y = −3x + 1",
+        "y = (1/3)x",
+        "y = x + 3",
+        "y = 3x − 5"
+      ],
+      "answer": 3,
+      "explain": "Parallel lines have equal slopes."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Solve 2x + y = 11 and x + y = 7. What is x?",
+      "answer": 4,
+      "tolerance": 0,
+      "explain": "Subtract: x = 4."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "The midpoint of (a, 4) and (6, 10) is (5, 7). Find a.",
+      "options": [
+        "4",
+        "3",
+        "6",
+        "5"
+      ],
+      "answer": 0,
+      "explain": "(a + 6)/2 = 5 gives a = 4."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which point is in the third quadrant?",
+      "options": [
+        "(0, −5)",
+        "(2, −5)",
+        "(−2, −5)",
+        "(−2, 5)"
+      ],
+      "answer": 2,
+      "explain": "Both coordinates negative."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "A plumber charges ₹200 plus ₹150 per hour. After how many hours is the bill ₹950?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "explain": "200 + 150h = 950 gives h = 5."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the equation of the line through (2, 5) with slope −1, and find where it crosses the x-axis.",
+      "modelAnswer": "y = −x + c. Using (2, 5): 5 = −2 + c, so c = 7. The line is y = −x + 7. It crosses the x-axis when y = 0: x = 7, at (7, 0).",
+      "rubric": [
+        "Finds c = 7",
+        "Writes y = −x + 7",
+        "x-intercept (7, 0)"
+      ],
+      "explain": "Criterion A: equation of a line."
+    }
+  ]
+}

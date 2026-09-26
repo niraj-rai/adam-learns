@@ -1,0 +1,34 @@
+{
+  "id": "coordinate-geometry",
+  "number": 11,
+  "stage": "G9",
+  "title": "Coordinates and Linear Equations",
+  "summary": "Grade 9: the Cartesian plane, distance and midpoint, linear polynomials and y = mx + c, and pairs of linear equations in two variables.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Change",
+      "Representation",
+      "Models"
+    ],
+    "globalContext": "Orientation in space and time",
+    "statementOfInquiry": "Coordinates let us describe position with numbers, so relationships between quantities can be seen as lines and solved with algebra."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "How do you find the distance between two points?",
+      "What do m and c tell you in y = mx + c?"
+    ],
+    "conceptual": [
+      "Why is the solution of two equations the point where their graphs cross?",
+      "How is the distance formula related to Pythagoras?"
+    ],
+    "debatable": [
+      "Is it better to solve equations with graphs or with algebra?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 Ganita Manjari (2026): Orienting Yourself: The Use of Coordinates; Introduction to Linear Polynomials; Linear Equations in Two Variables",
+    "Earlier NCERT Class 9: Coordinate Geometry; Linear Equations in Two Variables"
+  ]
+}

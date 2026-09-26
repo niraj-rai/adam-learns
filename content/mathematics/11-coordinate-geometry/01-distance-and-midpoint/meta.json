@@ -1,0 +1,60 @@
+{
+  "id": "distance-and-midpoint",
+  "number": "11.1",
+  "title": "Distance and Midpoint",
+  "summary": "The Cartesian plane, quadrants, and the distance and midpoint formulas.",
+  "emoji": "📍",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Coordinate geometry, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Orienting Yourself: The Use of Coordinates",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Coordinate Geometry",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can plot points in all four quadrants.",
+    "I can find the distance between two points.",
+    "I can find the midpoint of a segment."
+  ],
+  "misconceptions": [
+    "(3, 5) and (5, 3) are the same point.",
+    "Distance = difference in x + difference in y.",
+    "The midpoint is found by subtracting."
+  ],
+  "prerequisites": [
+    "mathematics/equations/coordinates",
+    "mathematics/geometry/pythagoras"
+  ],
+  "labs": [
+    "distance-finder"
+  ],
+  "keyTerms": [
+    "Cartesian plane",
+    "quadrant",
+    "abscissa",
+    "ordinate",
+    "distance formula",
+    "midpoint formula"
+  ],
+  "estMinutes": 25
+}

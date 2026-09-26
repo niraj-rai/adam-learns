@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="What comes next?" />
+
+<Hook emoji="🔮">
+Saving ₹100 more each month, a virus doubling every day, seats in the rows of a stadium, the Tower of Hanoi puzzle: they all follow rules. Find the rule and you can jump straight to the 100th term without writing the first 99.
+</Hook>
+
+<PredictFirst
+  question="What is the 10th term of 4, 7, 10, 13, …?"
+  options={["30", "34", "31", "40"]}
+  answer={2}
+>
+It adds 3 each time. The 10th term is 4 + 9 × 3 = **31** (nine jumps after the first term).
+</PredictFirst>
+
+<Stage kind="explain" title="Two famous kinds" />
+
+<Compare
+  columns={[
+    { title: "Arithmetic (AP)", emoji: "➕", points: ["Add the same d each time", "aₙ = a + (n − 1)d", "Sₙ = n/2 × [2a + (n − 1)d]", "Graph: straight line"] },
+    { title: "Geometric (GP)", emoji: "✖️", points: ["Multiply by the same r each time", "aₙ = a × rⁿ⁻¹", "Sₙ = a(rⁿ − 1)/(r − 1)", "Graph: curves steeply"] }
+  ]}
+/>
+
+<ConceptCard title="Recursive and explicit" emoji="🔁">
+A <KeyTerm def="A rule that gives each term from the one before, e.g. aₙ = aₙ₋₁ + 3.">recursive rule</KeyTerm> says how to get the next term from the previous one. An <KeyTerm def="A formula that gives any term directly from its position n, e.g. aₙ = 3n + 1.">explicit rule</KeyTerm> gives any term directly from n. Explicit rules let you predict far ahead.
+</ConceptCard>
+
+<Stage kind="try" title="Pattern Predictor" />
+
+<Lab id="pattern-predictor" />
+
+<DidYouKnow>
+Indian mathematicians studied progressions long ago: Āryabhaṭa (499 CE) gave formulas for the sums of arithmetic series and of squares and cubes, and Piṅgala's work on poetic metres led to patterns now called the Fibonacci numbers and Pascal's triangle.
+</DidYouKnow>
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Two ways to save">
+Plan A: save ₹500 in month 1 and ₹100 more each month. Plan B: save ₹100 in month 1 and 20% more each month. Use sequences to compare the monthly savings and the totals after 12 months. Which plan is better, and does the answer change over longer times?
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026): Predicting What Comes Next: Exploring Sequences and Progressions">
+- Sequences; recursive and explicit rules; arithmetic and geometric progressions; the Tower of Hanoi.
+</CbseCorner>
+
+<Reflect id="math9-seq" prompt="Think of a real pattern you have noticed. Is it arithmetic, geometric or neither?" />

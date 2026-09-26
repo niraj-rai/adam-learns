@@ -1,0 +1,34 @@
+{
+  "id": "polynomials",
+  "number": 12,
+  "stage": "G9",
+  "title": "Polynomials and Identities",
+  "summary": "Grade 9: degree, value and zeros of polynomials, the remainder and factor theorems, and identities for cubes and three terms.",
+  "ib": {
+    "keyConcept": "Form",
+    "relatedConcepts": [
+      "Patterns",
+      "Equivalence",
+      "Generalization"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Polynomials describe patterns of change, and identities let us rewrite them in equivalent forms that are easier to use."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is the degree of a polynomial?",
+      "What does the remainder theorem say?"
+    ],
+    "conceptual": [
+      "Why does p(a) = 0 mean (x − a) is a factor?",
+      "How can a shape prove an algebraic identity?"
+    ],
+    "debatable": [
+      "Are identities discovered or invented?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 Ganita Manjari (2026): Exploring Algebraic Identities",
+    "Earlier NCERT Class 9: Polynomials"
+  ]
+}

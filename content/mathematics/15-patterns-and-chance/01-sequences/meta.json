@@ -1,0 +1,57 @@
+{
+  "id": "sequences",
+  "number": "15.1",
+  "title": "Sequences and Progressions",
+  "summary": "Recursive and explicit rules, arithmetic and geometric progressions, sums, and the Tower of Hanoi.",
+  "emoji": "🔮",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Patterns and sequences, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Predicting What Comes Next: Exploring Sequences and Progressions",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can find and use the nth term of an AP and a GP.",
+    "I can find the sum of an AP.",
+    "I can describe sequences with recursive and explicit rules."
+  ],
+  "misconceptions": [
+    "The nth term of an AP is a + nd.",
+    "Every sequence is either arithmetic or geometric.",
+    "A GP always grows."
+  ],
+  "prerequisites": [
+    "mathematics/algebra/letter-numbers",
+    "mathematics/proportion/interest-and-growth"
+  ],
+  "labs": [
+    "pattern-predictor"
+  ],
+  "keyTerms": [
+    "sequence",
+    "term",
+    "arithmetic progression",
+    "common difference",
+    "geometric progression",
+    "common ratio",
+    "recursive rule",
+    "explicit rule"
+  ],
+  "estMinutes": 30
+}

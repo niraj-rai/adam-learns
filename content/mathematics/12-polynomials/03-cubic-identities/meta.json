@@ -1,0 +1,59 @@
+{
+  "id": "cubic-identities",
+  "number": "12.3",
+  "title": "Identities for Cubes and Three Terms",
+  "summary": "(a + b)³, (a − b)³, (a + b + c)² and a³ + b³ + c³ − 3abc, seen with shapes and used to calculate.",
+  "emoji": "🧊",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Algebra, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Exploring Algebraic Identities",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Polynomials",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can expand (a ± b)³ and (a + b + c)².",
+    "I can use identities to calculate and factorise.",
+    "I can explain identities with area and volume models."
+  ],
+  "misconceptions": [
+    "(a + b)³ = a³ + b³.",
+    "(a + b + c)² = a² + b² + c².",
+    "Identities only work for some numbers."
+  ],
+  "prerequisites": [
+    "mathematics/algebra/algebraic-identities",
+    "mathematics/polynomials/polynomials-and-zeros"
+  ],
+  "labs": [
+    "identity-cubes"
+  ],
+  "keyTerms": [
+    "identity",
+    "expand",
+    "cube of a binomial",
+    "area model",
+    "volume model"
+  ],
+  "estMinutes": 30
+}

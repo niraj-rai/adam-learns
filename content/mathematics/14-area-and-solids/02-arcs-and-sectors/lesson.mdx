@@ -1,0 +1,39 @@
+<Stage kind="wonder" title="A slice of the circle" />
+
+<Hook emoji="🍕">
+Cut a pizza into 8 equal slices and each slice is 1/8 of the whole: 1/8 of the crust and 1/8 of the area. Each slice has a 45° angle at the centre, and 45/360 = 1/8. Every sector works this way.
+</Hook>
+
+<PredictFirst
+  question="A sector has an angle of 90°. What fraction of the circle is it?"
+  options={["1/2", "1/3", "1/4", "1/90"]}
+  answer={2}
+>
+90/360 = **1/4** of the circle: a quadrant.
+</PredictFirst>
+
+<Stage kind="explain" title="Fraction of the whole" />
+
+<Formula tex="\text{arc length} = \frac{\theta}{360} \times 2\pi r" />
+
+<Formula tex="\text{sector area} = \frac{\theta}{360} \times \pi r^2" />
+
+<ConceptCard title="Sectors and segments" emoji="🧩">
+A <KeyTerm def="The region between two radii and the arc joining them, like a slice of pizza.">sector</KeyTerm> is bounded by two radii and an arc. A <KeyTerm def="The region between a chord and the arc it cuts off.">segment</KeyTerm> is bounded by a chord and an arc: segment area = sector area − triangle area. The perimeter of a sector = arc + 2r.
+</ConceptCard>
+
+<Stage kind="try" title="Arcs and Sectors" />
+
+<Lab id="sector-slicer" />
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Windscreen wipers">
+Measure (or estimate) the length of a car's wiper blade and the angle it sweeps. Calculate the area it cleans. If two wipers overlap, how would you estimate the total cleaned area?
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026): Measuring Space: Perimeter and Area">
+- Circumference, arc length and area of a sector.
+</CbseCorner>
+
+<Reflect id="math9-mens-sectors" prompt="How is finding the area of a sector like finding a percentage?" />

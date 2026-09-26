@@ -1,0 +1,49 @@
+<Stage kind="wonder" title="Angles that never change" />
+
+<Hook emoji="⭕">
+Stand anywhere on the edge of a circular garden and look at a gate in the fence opposite. Wherever you stand on the same side, the angle between the two gateposts is **exactly the same**. Circles hide beautiful, unchanging angle facts.
+</Hook>
+
+<PredictFirst
+  question="An arc makes an angle of 40° at a point on the circle. What angle does it make at the centre?"
+  options={["20°", "80°", "40°", "140°"]}
+  answer={1}
+>
+The angle at the centre is **double** the angle at the circumference: 80°.
+</PredictFirst>
+
+<Stage kind="explain" title="The theorems" />
+
+<Compare
+  columns={[
+    { title: "Chords", emoji: "📏", points: ["The perpendicular from the centre bisects a chord", "Equal chords are equidistant from the centre", "Equal chords subtend equal angles at the centre"] },
+    { title: "Angles", emoji: "📐", points: ["Angle at centre = 2 × angle at circumference", "Angles in the same segment are equal", "Angle in a semicircle = 90°"] },
+    { title: "Cyclic quadrilaterals", emoji: "🔲", points: ["All four vertices on a circle", "Opposite angles add to 180°"] }
+  ]}
+/>
+
+<Stage kind="try" title="Circle Theorems" />
+
+<Lab id="circle-theorems" />
+
+<StepReveal
+  steps={[
+    "Why is the angle at the centre double? Join the point P on the circle to the centre O and extend it.",
+    "OA = OP (radii), so triangle OAP is isosceles: its base angles are equal, say x.",
+    "The exterior angle at O of triangle OAP is x + x = 2x.",
+    "Do the same on the other side (angle y becomes 2y). So ∠AOB = 2x + 2y = 2 × ∠APB."
+  ]}
+/>
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Finding the centre">
+You have a broken circular plate and only a piece of its rim. Explain how you could find the centre (and the original size) using two chords and their perpendicular bisectors. Try it with a drawing, and explain which theorem makes it work.
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026): I'm Up and Down, and Round and Round · Earlier NCERT Class 9: Circles">
+- Chords and their distance from the centre; angle subtended by a chord or arc.
+- Angle at the centre theorem, angles in the same segment, cyclic quadrilaterals.
+</CbseCorner>
+
+<Reflect id="math9-geo-circles" prompt="Which circle theorem surprised you most when you dragged the points in the lab?" />

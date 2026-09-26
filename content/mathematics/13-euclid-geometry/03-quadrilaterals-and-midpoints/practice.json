@@ -1,0 +1,118 @@
+{
+  "topicId": "quadrilaterals-and-midpoints",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In parallelogram PQRS, ∠P = 72°. Find ∠Q in degrees.",
+      "answer": 108,
+      "tolerance": 0,
+      "explain": "Adjacent angles add to 180°.",
+      "unit": "°",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which statement is true for every parallelogram?",
+      "options": [
+        "All angles are 90°",
+        "The diagonals are equal",
+        "The diagonals bisect each other",
+        "All sides are equal"
+      ],
+      "answer": 2,
+      "explain": "Equal diagonals only in rectangles.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "M and N are the midpoints of AB and AC; MN = 4.5 cm. Find BC in cm.",
+      "answer": 9,
+      "tolerance": 0,
+      "explain": "BC = 2 × MN.",
+      "unit": "cm"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "A quadrilateral has diagonals that bisect each other at right angles. It must be a…",
+      "options": [
+        "kite only",
+        "rhombus",
+        "rectangle",
+        "trapezium"
+      ],
+      "answer": 1,
+      "explain": "Perpendicular bisecting diagonals: a rhombus (a square is a special case)."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Joining the midpoints of the sides of ANY quadrilateral always gives a…",
+      "options": [
+        "triangle",
+        "square",
+        "rectangle",
+        "parallelogram"
+      ],
+      "answer": 3,
+      "explain": "Varignon’s theorem, from the midpoint theorem."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "In △ABC, a line through the midpoint of AB parallel to BC meets AC at P. What can you say about P?",
+      "options": [
+        "P is the midpoint of AC",
+        "AP ⟂ BC",
+        "P = C",
+        "AP = 2 PC"
+      ],
+      "answer": 0,
+      "explain": "The converse of the midpoint theorem."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which quadrilateral has exactly one pair of parallel sides?",
+      "options": [
+        "Parallelogram",
+        "Rectangle",
+        "Trapezium",
+        "Rhombus"
+      ],
+      "answer": 2,
+      "explain": "That is the definition of a trapezium."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why the midpoints of any quadrilateral ABCD form a parallelogram PQRS.",
+      "modelAnswer": "Draw diagonal AC. In △ABC, P and Q are midpoints of AB and BC, so PQ ∥ AC and PQ = ½AC (midpoint theorem). In △ADC, S and R are midpoints of AD and DC, so SR ∥ AC and SR = ½AC. So PQ and SR are parallel and equal, which makes PQRS a parallelogram.",
+      "rubric": [
+        "Draws a diagonal",
+        "Applies the midpoint theorem in two triangles",
+        "Concludes one pair of sides equal and parallel"
+      ],
+      "explain": "Criterion C: proof."
+    }
+  ]
+}

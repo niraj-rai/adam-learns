@@ -1,0 +1,112 @@
+{
+  "topicId": "polynomials-and-zeros",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the degree of 4x² − x⁵ + 3?",
+      "answer": 5,
+      "tolerance": 0,
+      "explain": "The highest power is 5.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which expression is a polynomial?",
+      "options": [
+        "√x + 2",
+        "3x² − 5x + 1",
+        "2ˣ + 1",
+        "x + 1/x"
+      ],
+      "answer": 1,
+      "explain": "Powers of x must be whole numbers.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "If p(x) = 2x² − 3x + 1, find p(2).",
+      "answer": 3,
+      "tolerance": 0,
+      "explain": "8 − 6 + 1 = 3."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is a zero of x² − 5x + 6?",
+      "options": [
+        "6",
+        "5",
+        "−3",
+        "3"
+      ],
+      "answer": 3,
+      "explain": "9 − 15 + 6 = 0.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the most number of zeros a cubic polynomial can have?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "Infinitely many"
+      ],
+      "answer": 0,
+      "explain": "A degree-n polynomial has at most n zeros."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A polynomial of degree 1 is called…",
+      "options": [
+        "quadratic",
+        "cubic",
+        "linear",
+        "constant"
+      ],
+      "answer": 2,
+      "explain": "Degree 1: its graph is a straight line."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find k if x = 2 is a zero of x² + kx − 10.",
+      "answer": 3,
+      "tolerance": 0,
+      "explain": "4 + 2k − 10 = 0 gives k = 3."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "The height of a ball is h(t) = 20t − 5t² metres after t seconds. Find h(2) and the zeros of h(t), and explain what they mean.",
+      "modelAnswer": "h(2) = 40 − 20 = 20 m: the ball is 20 m high after 2 s. Zeros: 20t − 5t² = 5t(4 − t) = 0, so t = 0 or t = 4. The ball is at ground level when thrown (t = 0) and lands again after 4 s.",
+      "rubric": [
+        "h(2) = 20 m",
+        "Zeros t = 0 and t = 4",
+        "Interprets zeros as launch and landing"
+      ],
+      "explain": "Criterion D: interpreting a polynomial model."
+    }
+  ]
+}

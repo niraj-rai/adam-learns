@@ -1,0 +1,45 @@
+<Stage kind="wonder" title="The mathematics of maybe" />
+
+<Hook emoji="🎲">
+Will it rain tomorrow? Will your team win the toss? Will a new medicine work? We can't know for sure, but probability lets us measure **how likely** things are, and make better decisions under uncertainty.
+</Hook>
+
+<PredictFirst
+  question="A fair coin lands heads 5 times in a row. What is the probability the next toss is heads?"
+  options={["Less than 1/2: tails is 'due'", "More than 1/2: heads is on a streak", "Impossible to say", "1/2"]}
+  answer={3}
+>
+The coin has no memory: each toss is **independent**, so P(heads) is still **1/2**.
+</PredictFirst>
+
+<Stage kind="explain" title="Measuring chance" />
+
+<Compare
+  columns={[
+    { title: "Theoretical", emoji: "🧠", points: ["Reason from equally likely outcomes", "P(event) = favourable ÷ total", "e.g. P(6 on a die) = 1/6"] },
+    { title: "Experimental", emoji: "🧪", points: ["Do trials and count", "P ≈ frequency ÷ number of trials", "Gets closer to theory with more trials"] }
+  ]}
+/>
+
+<ConceptCard title="Tree diagrams" emoji="🌳">
+For two (or more) stages, draw a branch for each outcome with its probability. **Multiply along** a path to get the probability of that combined outcome; **add** the paths that make up your event. Without replacement, the second-stage probabilities change.
+</ConceptCard>
+
+<Stage kind="try" title="Tree Diagrams" />
+
+<Lab id="tree-diagram" />
+
+<Lab id="dice-lab" />
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Is the game fair?">
+Design a simple game using two dice or two coins. Use a tree diagram or sample space to work out each player's chance of winning. Is it fair? If not, change the rules to make it fair, and test it with at least 50 plays.
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026): The Mathematics of Maybe: Introduction to Probability">
+- Randomness and the probability scale; empirical and theoretical probability.
+- Tree diagrams and tables of outcomes for two-stage experiments.
+</CbseCorner>
+
+<Reflect id="math9-prob" prompt="Where have you seen someone make a mistake about chance (like 'it's due to happen')? How would you explain it to them?" />

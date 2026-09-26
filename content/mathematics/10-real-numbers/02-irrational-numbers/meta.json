@@ -1,0 +1,59 @@
+{
+  "id": "irrational-numbers",
+  "number": "10.2",
+  "title": "Irrational Numbers and the Real Line",
+  "summary": "Numbers like √2 and π that can't be written as fractions, the square-root spiral, and the real number line.",
+  "emoji": "🌀",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Number, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): The World of Numbers",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Number Systems",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can define irrational and real numbers.",
+    "I can explain a proof that √2 is irrational.",
+    "I can locate √n on the number line."
+  ],
+  "misconceptions": [
+    "π = 22/7 exactly.",
+    "All square roots are irrational.",
+    "Irrational numbers can't be placed on the number line."
+  ],
+  "prerequisites": [
+    "mathematics/real-numbers/rational-decimals",
+    "mathematics/geometry/pythagoras"
+  ],
+  "labs": [
+    "root-spiral"
+  ],
+  "keyTerms": [
+    "irrational number",
+    "real number",
+    "square root spiral",
+    "proof by contradiction",
+    "number line"
+  ],
+  "estMinutes": 30
+}

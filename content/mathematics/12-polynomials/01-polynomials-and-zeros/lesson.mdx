@@ -1,0 +1,40 @@
+<Stage kind="wonder" title="Curves from powers" />
+
+<Hook emoji="📈">
+Throw a ball and its height follows a quadratic curve. The volume of a box you fold from a sheet of card follows a cubic. Polynomials, expressions built from powers of x, describe shapes and change all around us.
+</Hook>
+
+<PredictFirst
+  question="What is the degree of 7 − 3x + 2x³?"
+  options={["7", "1", "3", "2"]}
+  answer={2}
+>
+The degree is the **highest** power of x: 3. It's a cubic polynomial.
+</PredictFirst>
+
+<Stage kind="explain" title="The language of polynomials" />
+
+<ConceptCard title="What counts as a polynomial?" emoji="🧮">
+A <KeyTerm def="An expression made of terms of the form a·xⁿ, where n is a whole number (0, 1, 2, …) and a is a number.">polynomial</KeyTerm> has terms like 5x³, −2x and 7, with whole-number powers. 1/x and √x are **not** allowed. The <KeyTerm def="The highest power of the variable in a polynomial with a non-zero coefficient.">degree</KeyTerm> is the highest power: linear (1), quadratic (2), cubic (3).
+</ConceptCard>
+
+<ConceptCard title="Zeros" emoji="0️⃣">
+A <KeyTerm def="A value of x for which p(x) = 0; on the graph, where the curve crosses the x-axis.">zero</KeyTerm> of p(x) is a value where p(x) = 0. A polynomial of degree n has **at most** n zeros.
+</ConceptCard>
+
+<Stage kind="try" title="Polynomial Plotter" />
+
+<Lab id="polynomial-plotter" />
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="The open box">
+Cut equal squares of side x cm from the corners of a 20 cm × 20 cm card and fold it into an open box. Show that its volume is V(x) = x(20 − 2x)². What is its degree? Use the plotter or a table to estimate the value of x that gives the biggest box.
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026) · Earlier NCERT Class 9: Polynomials">
+- Polynomials in one variable; coefficients, terms, degree; linear, quadratic, cubic polynomials.
+- Value of a polynomial; zeros of a polynomial.
+</CbseCorner>
+
+<Reflect id="math9-poly-zeros" prompt="Why can a quadratic cross the x-axis at most twice? Think about its shape." />

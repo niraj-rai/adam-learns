@@ -1,0 +1,42 @@
+<Stage kind="wonder" title="Too many numbers" />
+
+<Hook emoji="📏">
+Your school measures the heights of 400 students. A list of 400 numbers tells you almost nothing at a glance. Group them into classes like 140–145 cm, 145–150 cm, … and draw a histogram, and suddenly you can see the typical height and how spread out they are.
+</Hook>
+
+<PredictFirst
+  question="A class is 20–30. What value do we use to represent it when estimating the mean?"
+  options={["20", "30", "10", "25"]}
+  answer={3}
+>
+We use the **midpoint**, (20 + 30) ÷ 2 = 25, because we don't know the exact values inside the class.
+</PredictFirst>
+
+<Stage kind="explain" title="Grouping data" />
+
+<ConceptCard title="Histograms" emoji="📊">
+For continuous data (heights, times, marks), group values into <KeyTerm def="A range of values used to group data, such as 150–155 cm. The class width is the size of the range.">class intervals</KeyTerm> of equal width and count the frequency of each. A <KeyTerm def="A chart for grouped continuous data where touching bars show the frequency of each class.">histogram</KeyTerm> shows them as touching bars.
+</ConceptCard>
+
+<Formula tex="\bar{x} \approx \frac{\sum f \times m}{\sum f}" caption="Estimated mean of grouped data: f = frequency, m = class midpoint" />
+
+<Stage kind="try" title="Histogram Builder" />
+
+<Lab id="histogram-builder" />
+
+<ConceptCard title="Weighted averages" emoji="⚖️">
+When some values count more than others, use a weighted mean: Σ(weight × value) ÷ Σweights. Your school's final grade might weight exams 60% and projects 40%. The grouped-data mean is a weighted mean where the weights are the frequencies.
+</ConceptCard>
+
+<Stage kind="apply" title="Real-life maths" />
+
+<Inquiry criterion="D" title="Screen-time survey">
+Survey at least 25 classmates (anonymously) about their daily screen time in minutes. Group the data, draw a histogram and estimate the mean. Compare with the exact mean. What do the results suggest, and how could the survey be improved?
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026): Statistics · Earlier NCERT Class 9: Statistics">
+- Grouped frequency distributions; histograms and frequency polygons.
+- Mean of grouped data (using midpoints); weighted averages.
+</CbseCorner>
+
+<Reflect id="math9-stats" prompt="Why might two histograms of the same data look different? Which one would you trust more?" />

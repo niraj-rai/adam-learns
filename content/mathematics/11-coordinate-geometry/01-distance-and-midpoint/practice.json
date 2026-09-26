@@ -1,0 +1,118 @@
+{
+  "topicId": "distance-and-midpoint",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the distance between (2, 1) and (8, 9).",
+      "answer": 10,
+      "tolerance": 0,
+      "explain": "√(6² + 8²) = √100 = 10.",
+      "unit": "units",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the midpoint of (−2, 5) and (4, −1).",
+      "options": [
+        "(−3, 3)",
+        "(3, −3)",
+        "(2, 4)",
+        "(1, 2)"
+      ],
+      "answer": 3,
+      "explain": "((−2 + 4)/2, (5 − 1)/2) = (1, 2).",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In which quadrant is (4, −7)?",
+      "options": [
+        "Fourth",
+        "Third",
+        "First",
+        "Second"
+      ],
+      "answer": 0,
+      "explain": "x positive, y negative."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the distance from the origin to (−5, 12).",
+      "answer": 13,
+      "tolerance": 0,
+      "explain": "√(25 + 144) = √169 = 13.",
+      "unit": "units"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "M(3, 4) is the midpoint of A(1, 2) and B. Find B.",
+      "options": [
+        "(7, 10)",
+        "(2, 3)",
+        "(5, 6)",
+        "(4, 6)"
+      ],
+      "answer": 2,
+      "explain": "x: (1 + b)/2 = 3 gives b = 5; y: (2 + b)/2 = 4 gives b = 6."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the abscissa of the point (−3, 8)?",
+      "options": [
+        "−24",
+        "−3",
+        "8",
+        "5"
+      ],
+      "answer": 1,
+      "explain": "The abscissa is the x-coordinate."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which point lies on the y-axis?",
+      "options": [
+        "(−4, 0)",
+        "(1, −1)",
+        "(4, 4)",
+        "(0, −4)"
+      ],
+      "answer": 3,
+      "explain": "Points on the y-axis have x = 0."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Show that the points A(1, 1), B(4, 5) and C(7, 1) form an isosceles triangle.",
+      "modelAnswer": "AB = √(3² + 4²) = 5, BC = √(3² + (−4)²) = 5, AC = √(6² + 0²) = 6. Two sides (AB and BC) are equal, so the triangle is isosceles.",
+      "rubric": [
+        "Calculates AB = 5",
+        "Calculates BC = 5 and AC = 6",
+        "Concludes two equal sides"
+      ],
+      "explain": "Criterion A: using the distance formula."
+    }
+  ]
+}

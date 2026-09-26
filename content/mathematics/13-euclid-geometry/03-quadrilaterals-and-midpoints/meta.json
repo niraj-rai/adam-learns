@@ -1,0 +1,61 @@
+{
+  "id": "quadrilaterals-and-midpoints",
+  "number": "13.3",
+  "title": "Quadrilaterals and the Midpoint Theorem",
+  "summary": "Properties of parallelograms, the midpoint theorem and its converse, and Varignon's parallelogram.",
+  "emoji": "✂️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Geometric proof, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): 4-gons (Quadrilaterals)",
+        "verified": false
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Quadrilaterals",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can prove and use properties of parallelograms.",
+    "I can state and apply the midpoint theorem.",
+    "I can explain why the midpoints of any quadrilateral form a parallelogram."
+  ],
+  "misconceptions": [
+    "All parallelograms have equal diagonals.",
+    "A rhombus is not a parallelogram.",
+    "The midpoint line is parallel to any side."
+  ],
+  "prerequisites": [
+    "mathematics/geometry/quadrilaterals",
+    "mathematics/euclid-geometry/proofs-and-congruence"
+  ],
+  "labs": [
+    "midpoint-theorem"
+  ],
+  "keyTerms": [
+    "parallelogram",
+    "rhombus",
+    "rectangle",
+    "square",
+    "trapezium",
+    "midpoint theorem",
+    "diagonal"
+  ],
+  "estMinutes": 30
+}

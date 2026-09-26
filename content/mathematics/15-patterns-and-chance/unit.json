@@ -1,0 +1,35 @@
+{
+  "id": "patterns-and-chance",
+  "number": 15,
+  "stage": "G9",
+  "title": "Sequences, Statistics and Probability",
+  "summary": "Grade 9: arithmetic and geometric progressions, grouped data and histograms, and probability with tree diagrams and experiments.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Patterns",
+      "Change",
+      "Models"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Recognising patterns in sequences and data lets us model change and make informed predictions about an uncertain future."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is the nth term of an AP?",
+      "How do you estimate the mean of grouped data?",
+      "What is a tree diagram?"
+    ],
+    "conceptual": [
+      "Why does experimental probability approach theoretical probability with more trials?",
+      "How is compound growth a geometric progression?"
+    ],
+    "debatable": [
+      "Can probability ever tell you what WILL happen?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 9 Ganita Manjari (2026): Predicting What Comes Next: Exploring Sequences and Progressions; The Mathematics of Maybe: Introduction to Probability; Statistics",
+    "Earlier NCERT Class 9: Statistics"
+  ]
+}

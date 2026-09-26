@@ -1,0 +1,59 @@
+{
+  "id": "herons-formula",
+  "number": "14.1",
+  "title": "Heron's and Brahmagupta's Formulas",
+  "summary": "Areas of triangles from three sides, and of cyclic quadrilaterals from four.",
+  "emoji": "🔺",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Measurement, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Measuring Space: Perimeter and Area",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Heron's Formula",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can use Heron's formula.",
+    "I can check the triangle inequality.",
+    "I can find areas of fields by splitting them into triangles."
+  ],
+  "misconceptions": [
+    "s is the perimeter.",
+    "Heron's formula needs a right angle.",
+    "Any three lengths make a triangle."
+  ],
+  "prerequisites": [
+    "mathematics/mensuration/area-of-shapes",
+    "mathematics/real-numbers/surds"
+  ],
+  "labs": [
+    "heron-calculator"
+  ],
+  "keyTerms": [
+    "Heron's formula",
+    "semi-perimeter",
+    "triangle inequality",
+    "Brahmagupta's formula",
+    "cyclic quadrilateral"
+  ],
+  "estMinutes": 25
+}

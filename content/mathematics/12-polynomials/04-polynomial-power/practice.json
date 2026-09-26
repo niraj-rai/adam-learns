@@ -1,0 +1,109 @@
+{
+  "topicId": "polynomial-power",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the remainder when x³ − x + 4 is divided by (x − 1)?",
+      "answer": 4,
+      "tolerance": 0,
+      "explain": "p(1) = 1 − 1 + 4 = 4."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is NOT a polynomial?",
+      "options": [
+        "x² + 1",
+        "5",
+        "x² + 1/x",
+        "3x − 7"
+      ],
+      "answer": 2,
+      "explain": "1/x has a negative power."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Evaluate p(x) = x³ − 2x at x = −2.",
+      "answer": -4,
+      "tolerance": 0,
+      "explain": "−8 + 4 = −4."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is a zero of x³ − 4x?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "answer": 1,
+      "explain": "8 − 8 = 0 (also 0 and −2)."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Expand (2x − 1)³.",
+      "options": [
+        "2x³ − 1",
+        "8x³ + 12x² + 6x − 1",
+        "8x³ − 1",
+        "8x³ − 12x² + 6x − 1"
+      ],
+      "answer": 3,
+      "explain": "(a − b)³ with a = 2x, b = 1."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Factorise x³ − 1.",
+      "options": [
+        "(x − 1)(x² + x + 1)",
+        "(x − 1)(x + 1)",
+        "(x − 1)³",
+        "(x + 1)(x² − x + 1)"
+      ],
+      "answer": 0,
+      "explain": "a³ − b³ = (a − b)(a² + ab + b²)."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the value of 101² using an identity.",
+      "answer": 10201,
+      "tolerance": 0,
+      "explain": "(100 + 1)² = 10000 + 200 + 1."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Show that (x + 2) is a factor of x³ + 3x² − 4 and find the other factors.",
+      "modelAnswer": "p(−2) = −8 + 12 − 4 = 0, so (x + 2) is a factor. Dividing: x³ + 3x² − 4 = (x + 2)(x² + x − 2) = (x + 2)(x + 2)(x − 1) = (x + 2)²(x − 1).",
+      "rubric": [
+        "p(−2) = 0",
+        "Quotient x² + x − 2",
+        "Full factorisation (x + 2)²(x − 1)"
+      ],
+      "explain": "Criterion A: factor theorem."
+    }
+  ]
+}

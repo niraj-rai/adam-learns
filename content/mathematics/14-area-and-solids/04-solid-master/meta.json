@@ -1,0 +1,57 @@
+{
+  "id": "solid-master",
+  "number": "14.4",
+  "title": "Boss Challenge: Solid Master",
+  "summary": "Ten problems on Heron's formula, sectors, cones and spheres. Three lives!",
+  "emoji": "🏺",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, B and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Measuring Space: Perimeter and Area",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Heron's Formula; Surface Areas and Volumes",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can apply the ideas of this unit to unfamiliar problems.",
+    "I can choose the right method.",
+    "I can check my answers."
+  ],
+  "misconceptions": [
+    "Rushing without checking units and signs."
+  ],
+  "prerequisites": [
+    "mathematics/area-and-solids/herons-formula",
+    "mathematics/area-and-solids/arcs-and-sectors",
+    "mathematics/area-and-solids/cones-and-spheres"
+  ],
+  "labs": [
+    "solid-master"
+  ],
+  "keyTerms": [
+    "Heron's formula",
+    "sector",
+    "cone",
+    "sphere"
+  ],
+  "estMinutes": 20
+}

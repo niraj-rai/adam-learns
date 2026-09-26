@@ -1,0 +1,116 @@
+{
+  "topicId": "linear-polynomials",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the slope of y = 4x − 7?",
+      "options": [
+        "7",
+        "4",
+        "−7",
+        "−4"
+      ],
+      "answer": 1,
+      "explain": "In y = mx + c, m is the slope.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the slope of the line through (1, 2) and (5, 14).",
+      "answer": 3,
+      "tolerance": 0,
+      "explain": "(14 − 2) ÷ (5 − 1) = 3."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the zero of p(x) = 3x − 12.",
+      "answer": 4,
+      "tolerance": 0,
+      "explain": "3x − 12 = 0 gives x = 4.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Where does y = −2x + 6 cross the y-axis?",
+      "options": [
+        "(0, −2)",
+        "(3, 0)",
+        "(6, 0)",
+        "(0, 6)"
+      ],
+      "answer": 3,
+      "explain": "Put x = 0: y = 6."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A line has slope 0. It is…",
+      "options": [
+        "horizontal",
+        "impossible",
+        "at 45°",
+        "vertical"
+      ],
+      "answer": 0,
+      "explain": "y stays the same as x changes."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which is the equation of the line through (0, −1) and (2, 3)?",
+      "options": [
+        "y = −x + 2",
+        "y = x − 1",
+        "y = 2x − 1",
+        "y = 2x + 3"
+      ],
+      "answer": 2,
+      "explain": "Slope 4/2 = 2; intercept −1."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "A taxi charges ₹40 plus ₹15 per km. Which equation gives the fare y for x km?",
+      "options": [
+        "y = 55x",
+        "y = 15x + 40",
+        "y = 40x + 15",
+        "y = 15x − 40"
+      ],
+      "answer": 1,
+      "explain": "Rate per km is the slope; fixed charge is the intercept."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Explain what the slope and y-intercept mean for a phone plan y = 2x + 99, where y is the monthly cost in ₹ and x is the number of minutes over the limit.",
+      "modelAnswer": "The y-intercept 99 is the fixed monthly charge in ₹ you pay even if you use no extra minutes. The slope 2 means the cost rises by ₹2 for each extra minute.",
+      "rubric": [
+        "Intercept = fixed charge ₹99",
+        "Slope = ₹2 per extra minute",
+        "Clear interpretation in context"
+      ],
+      "explain": "Criterion D: interpreting a model."
+    }
+  ]
+}

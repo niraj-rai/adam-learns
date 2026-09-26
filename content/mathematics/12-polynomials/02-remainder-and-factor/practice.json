@@ -1,0 +1,111 @@
+{
+  "topicId": "remainder-and-factor",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the remainder when x³ + 2x − 5 is divided by (x − 2).",
+      "answer": 7,
+      "tolerance": 0,
+      "explain": "p(2) = 8 + 4 − 5 = 7.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the remainder when x² − 4x + 1 is divided by (x + 1).",
+      "answer": 6,
+      "tolerance": 0,
+      "explain": "Divide by (x + 1): use x = −1. 1 + 4 + 1 = 6."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Is (x − 3) a factor of x³ − 27?",
+      "options": [
+        "No, because the remainder is 27",
+        "Yes, because 3³ − 27 = 0",
+        "Only if x = 3",
+        "No, cubes can’t be factorised"
+      ],
+      "answer": 1,
+      "explain": "p(3) = 0.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which is a factor of x³ − 7x + 6?",
+      "options": [
+        "(x + 1)",
+        "(x + 2)",
+        "(x − 4)",
+        "(x − 1)"
+      ],
+      "answer": 3,
+      "explain": "p(1) = 1 − 7 + 6 = 0."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Find k if (x − 2) is a factor of x³ − 3x² + kx − 2.",
+      "answer": 3,
+      "tolerance": 0,
+      "explain": "8 − 12 + 2k − 2 = 0 gives k = 3."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Factorise x² + 5x + 6.",
+      "options": [
+        "(x + 2)(x + 3)",
+        "(x + 5)(x + 1)",
+        "(x + 1)(x + 6)",
+        "(x − 2)(x − 3)"
+      ],
+      "answer": 0,
+      "explain": "2 + 3 = 5 and 2 × 3 = 6."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "When p(x) is divided by (x − a), the remainder is 0. What does this tell you?",
+      "options": [
+        "The quotient is zero",
+        "a = 0",
+        "(x − a) is a factor and a is a zero",
+        "p(x) = 0 for every x"
+      ],
+      "answer": 2,
+      "explain": "Factor theorem."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Factorise x³ − 2x² − 5x + 6 fully, showing your working.",
+      "modelAnswer": "Try divisors of 6. p(1) = 1 − 2 − 5 + 6 = 0, so (x − 1) is a factor. Dividing gives x² − x − 6 = (x − 3)(x + 2). So x³ − 2x² − 5x + 6 = (x − 1)(x − 3)(x + 2).",
+      "rubric": [
+        "Finds a first factor with the factor theorem",
+        "Divides to get the quadratic",
+        "Correct full factorisation"
+      ],
+      "explain": "Criterion A: factorising a cubic."
+    }
+  ]
+}

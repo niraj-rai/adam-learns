@@ -1,0 +1,57 @@
+{
+  "id": "polynomial-power",
+  "number": "12.4",
+  "title": "Boss Challenge: Polynomial Power",
+  "summary": "Ten problems on degree, zeros, the remainder and factor theorems, and identities. Three lives!",
+  "emoji": "📈",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Unit summative-style task (Criteria A, B and D)"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Exploring Algebraic Identities",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Polynomials",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can apply the ideas of this unit to unfamiliar problems.",
+    "I can choose the right method.",
+    "I can check my answers."
+  ],
+  "misconceptions": [
+    "Rushing without checking units and signs."
+  ],
+  "prerequisites": [
+    "mathematics/polynomials/polynomials-and-zeros",
+    "mathematics/polynomials/remainder-and-factor",
+    "mathematics/polynomials/cubic-identities"
+  ],
+  "labs": [
+    "polynomial-power"
+  ],
+  "keyTerms": [
+    "degree",
+    "zero",
+    "factor theorem",
+    "identity"
+  ],
+  "estMinutes": 20
+}

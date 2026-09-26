@@ -1,0 +1,107 @@
+{
+  "topicId": "sequences",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the 15th term of 2, 5, 8, 11, …",
+      "answer": 44,
+      "tolerance": 0,
+      "explain": "2 + 14 × 3 = 44.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the sum of the first 20 terms of 1, 3, 5, 7, …",
+      "answer": 400,
+      "tolerance": 0,
+      "explain": "n/2 × (2a + (n − 1)d) = 10 × (2 + 38) = 400."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the 6th term of the GP 3, 6, 12, …",
+      "answer": 96,
+      "tolerance": 0,
+      "explain": "3 × 2⁵ = 96.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which sequence is geometric?",
+      "options": [
+        "1, 4, 9, 16",
+        "2, 3, 5, 8",
+        "5, 10, 15, 20",
+        "5, 15, 45, 135"
+      ],
+      "answer": 3,
+      "explain": "Each term is 3 times the one before."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which is the explicit rule for 7, 11, 15, 19, …?",
+      "options": [
+        "aₙ = 4n + 3",
+        "aₙ = n + 4",
+        "aₙ = 4n + 7",
+        "aₙ = 7n + 4"
+      ],
+      "answer": 0,
+      "explain": "a₁ = 4 + 3 = 7, a₂ = 11 ✔"
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many moves does the Tower of Hanoi need with 6 discs?",
+      "answer": 63,
+      "tolerance": 0,
+      "explain": "2⁶ − 1 = 63.",
+      "unit": "moves"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Which term of the AP 3, 8, 13, … is 98?",
+      "options": [
+        "19th",
+        "98th",
+        "20th",
+        "21st"
+      ],
+      "answer": 2,
+      "explain": "3 + (n − 1)5 = 98 gives n = 20."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A new video gets 100 views on day 1, and the number of new views doubles each day. How many new views on day 8, and why is this a geometric progression?",
+      "modelAnswer": "Each day the number of new views is multiplied by the same ratio, 2, so the sequence 100, 200, 400, … is a geometric progression with a = 100 and r = 2. On day 8: 100 × 2⁷ = 12 800 new views.",
+      "rubric": [
+        "Identifies constant ratio 2",
+        "Uses a × rⁿ⁻¹",
+        "Answer 12 800"
+      ],
+      "explain": "Criterion D: modelling growth."
+    }
+  ]
+}

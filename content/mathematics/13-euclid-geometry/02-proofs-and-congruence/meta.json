@@ -1,0 +1,64 @@
+{
+  "id": "proofs-and-congruence",
+  "number": "13.2",
+  "title": "Lines, Angles and Congruence Proofs",
+  "summary": "Angle theorems, congruence rules (SSS, SAS, ASA, RHS) and writing two-column proofs.",
+  "emoji": "🧱",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Geometric proof, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Triangles: Congruence Theorems",
+        "verified": false
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Lines and Angles; Triangles",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can prove angle facts about intersecting and parallel lines.",
+    "I can use congruence rules to prove triangles congruent.",
+    "I can write a proof with a reason for every step."
+  ],
+  "misconceptions": [
+    "SSA and AAA prove congruence.",
+    "A diagram that looks right is a proof.",
+    "Vertically opposite angles are supplementary."
+  ],
+  "prerequisites": [
+    "mathematics/geometry/congruence",
+    "mathematics/euclid-geometry/euclid-and-constructions"
+  ],
+  "labs": [
+    "proof-builder",
+    "congruence-checker"
+  ],
+  "keyTerms": [
+    "proof",
+    "linear pair",
+    "vertically opposite angles",
+    "congruent",
+    "SSS",
+    "SAS",
+    "ASA",
+    "RHS",
+    "CPCT"
+  ],
+  "estMinutes": 35
+}

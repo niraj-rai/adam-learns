@@ -1,0 +1,49 @@
+<Stage kind="wonder" title="A number that shocked the Greeks" />
+
+<Hook emoji="🌀">
+Draw a square with sides of 1. Its diagonal is √2 long. Legend says that when a follower of Pythagoras proved this length could **never** be written as a fraction, it upset the whole school, which believed everything was made of whole numbers and their ratios. Indian mathematicians in the Śulba Sūtras had already found √2 ≈ 1.4142156, accurate to five decimal places.
+</Hook>
+
+<PredictFirst
+  question="Which of these numbers is irrational?"
+  options={["√49", "√3", "0.(12)", "22/7"]}
+  answer={1}
+>
+3 isn't a perfect square, so **√3** is irrational. √49 = 7, 0.(12) = 4/33 and 22/7 are all rational.
+</PredictFirst>
+
+<Stage kind="explain" title="Beyond fractions" />
+
+<ConceptCard title="Irrational numbers" emoji="♾️">
+An <KeyTerm def="A number that cannot be written as p/q with p, q integers and q ≠ 0. Its decimal never ends and never repeats.">irrational number</KeyTerm> can't be written as p/q. Examples: √2, √3, √5, π. The rational and irrational numbers together make the <KeyTerm def="All the rational and irrational numbers: every point on the number line.">real numbers</KeyTerm>.
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "Suppose √2 = p/q, a fraction in lowest terms (p and q have no common factor).",
+    "Square both sides: 2 = p²/q², so p² = 2q². So p² is even, which means p is even: p = 2k.",
+    "Then (2k)² = 2q², so 4k² = 2q² and q² = 2k². So q is even too.",
+    "But then p and q share the factor 2, contradicting 'lowest terms'. So √2 is irrational. ∎"
+  ]}
+/>
+
+<Stage kind="try" title="Square Root Spiral" />
+
+<Lab id="root-spiral" />
+
+<MythFact myth="π = 22/7.">
+22/7 = 3.142857…, while π = 3.14159265… They agree to only two decimal places. π is irrational: no fraction equals it exactly. Āryabhaṭa gave the better value 62832/20000 = 3.1416 in 499 CE.
+</MythFact>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Rational or irrational?">
+Investigate sums and products: is (rational + irrational) always irrational? What about (irrational × irrational)? Try √2 × √2, √2 × √8 and √2 × √3. Write a conjecture for each case and test it with examples.
+</Inquiry>
+
+<CbseCorner source="Ganita Manjari (Class 9, 2026): The World of Numbers · Earlier NCERT Class 9: Number Systems">
+- Irrational numbers; proof that √2 is irrational; the square root spiral.
+- Real numbers and their decimal expansions; representing √x on the number line.
+</CbseCorner>
+
+<Reflect id="math9-real-irrational" prompt="What surprised you most about irrational numbers? Could a computer ever store √2 exactly as a decimal?" />

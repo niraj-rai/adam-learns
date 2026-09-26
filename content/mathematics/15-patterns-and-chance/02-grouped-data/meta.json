@@ -1,0 +1,61 @@
+{
+  "id": "grouped-data",
+  "number": "15.2",
+  "title": "Grouped Data and Histograms",
+  "summary": "Grouping continuous data, histograms, estimating the mean with midpoints, and weighted averages.",
+  "emoji": "📊",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Statistics, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Statistics",
+        "verified": false
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Statistics",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can make a grouped frequency table and histogram.",
+    "I can estimate the mean of grouped data.",
+    "I can find the modal class and compare distributions."
+  ],
+  "misconceptions": [
+    "Histogram bars should have gaps.",
+    "The grouped mean is exact.",
+    "More classes are always better."
+  ],
+  "prerequisites": [
+    "mathematics/data/averages",
+    "mathematics/data/charts-and-graphs"
+  ],
+  "labs": [
+    "histogram-builder"
+  ],
+  "keyTerms": [
+    "grouped frequency table",
+    "class interval",
+    "class width",
+    "histogram",
+    "midpoint",
+    "modal class",
+    "weighted mean"
+  ],
+  "estMinutes": 30
+}

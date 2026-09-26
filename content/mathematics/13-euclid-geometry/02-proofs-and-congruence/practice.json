@@ -1,0 +1,123 @@
+{
+  "topicId": "proofs-and-congruence",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Two lines intersect. One angle is 125°. What is the angle vertically opposite it?",
+      "options": [
+        "235°",
+        "125°",
+        "65°",
+        "55°"
+      ],
+      "answer": 1,
+      "explain": "Vertically opposite angles are equal.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which is NOT a valid congruence rule?",
+      "options": [
+        "SAS",
+        "SSS",
+        "RHS",
+        "SSA"
+      ],
+      "answer": 3,
+      "explain": "SSA can give two different triangles.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In △ABC, AB = AC and ∠A = 40°. Find ∠B.",
+      "options": [
+        "70°",
+        "140°",
+        "50°",
+        "40°"
+      ],
+      "answer": 0,
+      "explain": "(180 − 40) ÷ 2 = 70.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A transversal crosses two parallel lines. One co-interior angle is 65°. Find the other.",
+      "options": [
+        "25°",
+        "65°",
+        "115°",
+        "295°"
+      ],
+      "answer": 2,
+      "explain": "Co-interior angles add to 180°."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "After proving △PQR ≅ △XYZ, why can we say PQ = XY?",
+      "options": [
+        "Because they look equal",
+        "CPCT: corresponding parts of congruent triangles are equal",
+        "By the angle sum property",
+        "By Euclid’s fifth postulate"
+      ],
+      "answer": 1,
+      "explain": "Congruent triangles have all matching parts equal."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "An exterior angle of a triangle is 110° and one opposite interior angle is 45°. Find the other opposite interior angle in degrees.",
+      "answer": 65,
+      "tolerance": 0,
+      "explain": "Exterior angle = sum of the two opposite interior angles: 110 − 45 = 65.",
+      "unit": "°"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "C",
+      "prompt": "Which rule proves two right triangles congruent if their hypotenuses and one other side are equal?",
+      "options": [
+        "SSA",
+        "AAA",
+        "SAS",
+        "RHS"
+      ],
+      "answer": 3,
+      "explain": "Right angle–Hypotenuse–Side."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Prove that if two lines intersect, the vertically opposite angles are equal.",
+      "modelAnswer": "Let lines AB and CD meet at O. ∠AOC + ∠AOD = 180° (linear pair on CD). ∠AOD + ∠BOD = 180° (linear pair on AB). So ∠AOC + ∠AOD = ∠AOD + ∠BOD (both equal 180°). Subtracting ∠AOD from both sides, ∠AOC = ∠BOD. Similarly ∠AOD = ∠BOC.",
+      "rubric": [
+        "Two linear pairs with reasons",
+        "Equates the sums",
+        "Subtracts to conclude"
+      ],
+      "explain": "Criterion C: writing a proof."
+    }
+  ]
+}

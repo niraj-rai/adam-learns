@@ -1,0 +1,119 @@
+{
+  "topicId": "real-number-rumble",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which number is rational?",
+      "options": [
+        "π",
+        "√11",
+        "0.(142857)",
+        "√2"
+      ],
+      "answer": 2,
+      "explain": "Any recurring decimal is rational (it equals 1/7)."
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Write 0.(81) as a fraction a/11. What is a?",
+      "answer": 9,
+      "tolerance": 0,
+      "explain": "99x = 81, x = 81/99 = 9/11."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Simplify 3√8.",
+      "options": [
+        "√24",
+        "6√2",
+        "24",
+        "3√2"
+      ],
+      "answer": 1,
+      "explain": "√8 = 2√2, so 3 × 2√2 = 6√2."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which of these is irrational?",
+      "options": [
+        "(√2)²",
+        "√2 × √8",
+        "√16",
+        "√2 + 1"
+      ],
+      "answer": 3,
+      "explain": "(√2)² = 2, √16 = 4, √2 × √8 = 4; √2 + 1 is irrational."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "What is 1/(2 + √3) after rationalising?",
+      "options": [
+        "2 − √3",
+        "2 + √3",
+        "(2 − √3)/7",
+        "1/7"
+      ],
+      "answer": 0,
+      "explain": "(2 − √3)/(4 − 3) = 2 − √3."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Between which two whole numbers does √40 lie?",
+      "options": [
+        "7 and 8",
+        "5 and 6",
+        "6 and 7",
+        "20 and 21"
+      ],
+      "answer": 2,
+      "explain": "6² = 36 and 7² = 49."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which fraction has a recurring decimal?",
+      "options": [
+        "3/8",
+        "5/12",
+        "9/50",
+        "7/20"
+      ],
+      "answer": 1,
+      "explain": "12 = 2² × 3 contains 3."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Is the product of two irrational numbers always irrational? Justify with examples.",
+      "modelAnswer": "No. Sometimes it is irrational, e.g. √2 × √3 = √6. But sometimes it is rational, e.g. √2 × √2 = 2 or √2 × √8 = 4. So the product of two irrationals can be either.",
+      "rubric": [
+        "States “not always”",
+        "Irrational example",
+        "Rational counterexample"
+      ],
+      "explain": "Criterion C: justifying with counterexamples."
+    }
+  ]
+}

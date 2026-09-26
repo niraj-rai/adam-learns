@@ -1,0 +1,126 @@
+{
+  "topicId": "irrational-numbers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which number is irrational?",
+      "options": [
+        "√64",
+        "5/8",
+        "√7",
+        "3.25"
+      ],
+      "answer": 2,
+      "explain": "7 is not a perfect square.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which statement is true?",
+      "options": [
+        "Every real number is rational",
+        "Every rational number is a real number",
+        "√9 is irrational",
+        "π is rational"
+      ],
+      "answer": 1,
+      "explain": "Real numbers include all rationals and irrationals.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "The decimal expansion of an irrational number is…",
+      "options": [
+        "always exactly 3 decimal places",
+        "non-terminating and repeating",
+        "terminating",
+        "non-terminating and non-repeating"
+      ],
+      "answer": 3,
+      "explain": "That is what makes it impossible to write as p/q."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "In the proof that √2 is irrational, what contradiction is reached?",
+      "options": [
+        "p and q are both even, although p/q was in lowest terms",
+        "√2 is bigger than 2",
+        "p² is negative",
+        "q is zero"
+      ],
+      "answer": 0,
+      "explain": "Both being even contradicts “no common factor”."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Which is a rational number between √2 and √3?",
+      "options": [
+        "1.5",
+        "√5 − 1",
+        "π/2",
+        "√2.5"
+      ],
+      "answer": 0,
+      "explain": "√2 ≈ 1.414 and √3 ≈ 1.732; 1.5 = 3/2 is rational."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "To place √5 on the number line, you draw a right triangle with legs…",
+      "options": [
+        "5 and 1",
+        "3 and 2",
+        "2 and 1",
+        "√5 and 1"
+      ],
+      "answer": 2,
+      "explain": "2² + 1² = 5, so the hypotenuse is √5."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Is 2 + √3 rational or irrational?",
+      "options": [
+        "Irrational",
+        "Rational",
+        "Neither",
+        "It depends on the calculator"
+      ],
+      "answer": 0,
+      "explain": "A rational plus an irrational is always irrational."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why 22/7 cannot be exactly equal to π.",
+      "modelAnswer": "22/7 is a fraction of two integers, so it is rational and its decimal (3.142857142857…) repeats. π is irrational: its decimal never ends and never repeats. So they cannot be equal; 22/7 is only an approximation (they differ from the third decimal place).",
+      "rubric": [
+        "22/7 is rational (repeating decimal)",
+        "π is irrational (non-repeating)",
+        "Therefore only an approximation"
+      ],
+      "explain": "Criterion C: reasoning about number types."
+    }
+  ]
+}

@@ -14,3 +14,16 @@ describe('poly helpers', () => {
     expect(evaluate([6, -5, 1], 4)).toBe(2)
   })
 })
+
+import { degree, divideByLinear, integerZeros } from './poly'
+
+describe('remainder and factor theorems', () => {
+  it('synthetic division gives the quotient and p(a) as remainder', () => {
+    // x³ − 6x² + 11x − 6 = (x − 1)(x − 2)(x − 3)
+    const p = [-6, 11, -6, 1]
+    expect(divideByLinear(p, 1)).toMatchObject({ quotient: [6, -5, 1], remainder: 0 })
+    expect(divideByLinear(p, 4).remainder).toBe(6)
+    expect(integerZeros(p)).toEqual([1, 2, 3])
+    expect(degree([0, 0, 3, 0])).toBe(2)
+  })
+})

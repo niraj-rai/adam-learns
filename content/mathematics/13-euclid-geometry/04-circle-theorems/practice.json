@@ -1,0 +1,115 @@
+{
+  "topicId": "circle-theorems",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "An arc subtends 110° at the centre. What angle does it subtend at a point on the remaining part of the circle?",
+      "answer": 55,
+      "tolerance": 0,
+      "explain": "Half of 110°.",
+      "unit": "°",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In a cyclic quadrilateral ABCD, ∠A = 75°. Find ∠C in degrees.",
+      "answer": 105,
+      "tolerance": 0,
+      "explain": "Opposite angles add to 180°.",
+      "unit": "°",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "AB is a diameter of a circle and C is a point on the circle. ∠ACB is…",
+      "options": [
+        "45°",
+        "180°",
+        "90°",
+        "60°"
+      ],
+      "answer": 2,
+      "explain": "Angle in a semicircle.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A chord is 24 cm long and 5 cm from the centre. Find the radius in cm.",
+      "answer": 13,
+      "tolerance": 0,
+      "explain": "√(12² + 5²) = 13.",
+      "unit": "cm"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "P and Q are on the same arc of a circle, with ∠APB = 35°. What is ∠AQB?",
+      "options": [
+        "70°",
+        "35°",
+        "145°",
+        "17.5°"
+      ],
+      "answer": 1,
+      "explain": "Angles in the same segment are equal."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Two chords of a circle are equal. What can you say about their distances from the centre?",
+      "options": [
+        "One is double the other",
+        "Nothing",
+        "The longer one is closer",
+        "They are equal"
+      ],
+      "answer": 3,
+      "explain": "Equal chords are equidistant from the centre."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Which quadrilateral can always be drawn with all four vertices on a circle?",
+      "options": [
+        "Rectangle",
+        "Trapezium",
+        "Rhombus",
+        "Parallelogram"
+      ],
+      "answer": 0,
+      "explain": "A rectangle’s opposite angles add to 180° (90 + 90)."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why the perpendicular from the centre of a circle to a chord bisects the chord.",
+      "modelAnswer": "Let O be the centre and AB the chord, with OM ⟂ AB. In triangles OMA and OMB: OA = OB (radii), OM is common, and ∠OMA = ∠OMB = 90°. So the triangles are congruent by RHS, and by CPCT AM = MB. So M is the midpoint of AB.",
+      "rubric": [
+        "Two right triangles OMA, OMB",
+        "RHS with OA = OB and OM common",
+        "CPCT gives AM = MB"
+      ],
+      "explain": "Criterion C: proof."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cones-and-spheres",
+  "number": "14.3",
+  "title": "Cones and Spheres",
+  "summary": "Slant height, surface area and volume of cones, spheres and hemispheres, and Archimedes' ratio.",
+  "emoji": "🍦",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Measurement, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Mensuration: Surface Area and Volume",
+        "verified": false
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Surface Areas and Volumes",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can find the slant height, surface area and volume of a cone.",
+    "I can find the surface area and volume of spheres and hemispheres.",
+    "I can solve real problems with composite solids."
+  ],
+  "misconceptions": [
+    "A cone's volume equals the cylinder's.",
+    "Surface area of a hemisphere is 2πr² (for a solid one).",
+    "Doubling the radius doubles the volume."
+  ],
+  "prerequisites": [
+    "mathematics/mensuration/surface-area",
+    "mathematics/mensuration/volume"
+  ],
+  "labs": [
+    "cone-sphere"
+  ],
+  "keyTerms": [
+    "cone",
+    "slant height",
+    "sphere",
+    "hemisphere",
+    "curved surface area",
+    "volume"
+  ],
+  "estMinutes": 30
+}

@@ -1,0 +1,60 @@
+{
+  "id": "circle-theorems",
+  "number": "13.4",
+  "title": "Circle Theorems",
+  "summary": "Chords, arcs and angles: the angle at the centre, angles in the same segment, cyclic quadrilaterals and the angle in a semicircle.",
+  "emoji": "⭕",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Circle geometry, MYP 4–5 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): I'm Up and Down, and Round and Round",
+        "verified": true
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Circles",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can use chord properties.",
+    "I can apply the angle at the centre and same segment theorems.",
+    "I can use the cyclic quadrilateral theorem."
+  ],
+  "misconceptions": [
+    "The angle at the centre is half the angle at the circumference.",
+    "Any quadrilateral in a circle has opposite angles equal.",
+    "The perpendicular from the centre meets any chord at its end."
+  ],
+  "prerequisites": [
+    "mathematics/mensuration/circles",
+    "mathematics/euclid-geometry/proofs-and-congruence"
+  ],
+  "labs": [
+    "circle-theorems"
+  ],
+  "keyTerms": [
+    "chord",
+    "arc",
+    "segment",
+    "subtended angle",
+    "cyclic quadrilateral",
+    "semicircle"
+  ],
+  "estMinutes": 35
+}

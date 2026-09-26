@@ -1,0 +1,116 @@
+{
+  "topicId": "linear-equations-two-variables",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which point is a solution of 2x + y = 10?",
+      "options": [
+        "(2, 3)",
+        "(4, 3)",
+        "(3, 4)",
+        "(5, 5)"
+      ],
+      "answer": 2,
+      "explain": "2 × 3 + 4 = 10.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Solve x + y = 9 and x − y = 3.",
+      "options": [
+        "x = 5, y = 4",
+        "x = 6, y = 3",
+        "x = 3, y = 6",
+        "x = 12, y = −3"
+      ],
+      "answer": 1,
+      "explain": "Add: 2x = 12, x = 6; then y = 3.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "How many solutions do x + 2y = 5 and 2x + 4y = 10 have?",
+      "options": [
+        "None",
+        "Two",
+        "One",
+        "Infinitely many"
+      ],
+      "answer": 3,
+      "explain": "The second equation is 2 × the first: the same line."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "The lines 3x − y = 4 and 3x − y = 9 are…",
+      "options": [
+        "parallel, so there is no solution",
+        "the same line",
+        "crossing at one point",
+        "perpendicular"
+      ],
+      "answer": 0,
+      "explain": "Same slope, different intercepts."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Solve y = 2x and x + y = 12. What is x?",
+      "answer": 4,
+      "tolerance": 0,
+      "explain": "x + 2x = 12 gives x = 4 (and y = 8)."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Two pens and three pencils cost ₹40. One pen and three pencils cost ₹31. What does a pen cost?",
+      "options": [
+        "₹20",
+        "₹11",
+        "₹9",
+        "₹3"
+      ],
+      "answer": 2,
+      "explain": "Subtract: 1 pen = ₹9."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Solve 3x + 2y = 16 and x − 2y = 0. What is y?",
+      "answer": 2,
+      "tolerance": 0,
+      "explain": "Add: 4x = 16, x = 4; then 4 − 2y = 0, y = 2."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Explain why a pair of parallel lines gives a pair of equations with no solution.",
+      "modelAnswer": "A solution of both equations must be a point that lies on both lines. Parallel lines never meet, so there is no point on both, and therefore no pair (x, y) satisfies both equations at once. Algebraically, trying to eliminate a variable gives a false statement like 0 = 5.",
+      "rubric": [
+        "Solution = point on both lines",
+        "Parallel lines never meet",
+        "Mentions contradiction such as 0 = 5 (or equivalent)"
+      ],
+      "explain": "Criterion C: communicating reasoning."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "arcs-and-sectors",
+  "number": "14.2",
+  "title": "Arcs and Sectors",
+  "summary": "Arc length and sector area as fractions of a circle.",
+  "emoji": "🍕",
+  "complexity": 2,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Measurement, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Measuring Space: Perimeter and Area",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can find the length of an arc.",
+    "I can find the area of a sector.",
+    "I can solve problems with sectors and segments."
+  ],
+  "misconceptions": [
+    "Arc length uses πr².",
+    "A sector's perimeter is just the arc.",
+    "The angle fraction is θ/180."
+  ],
+  "prerequisites": [
+    "mathematics/mensuration/circles"
+  ],
+  "labs": [
+    "sector-slicer"
+  ],
+  "keyTerms": [
+    "arc",
+    "sector",
+    "segment",
+    "central angle",
+    "arc length"
+  ],
+  "estMinutes": 25
+}

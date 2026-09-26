@@ -1,0 +1,60 @@
+{
+  "id": "linear-equations-two-variables",
+  "number": "11.3",
+  "title": "Linear Equations in Two Variables",
+  "summary": "Solutions as lines, and solving pairs of equations by graphs, substitution and elimination.",
+  "emoji": "✖️",
+  "complexity": 3,
+  "level": "L3",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 4,
+      "note": "Simultaneous equations, MYP 4 Mathematics"
+    },
+    "cbse": [
+      {
+        "class": 9,
+        "chapter": "Ganita Manjari (2026): Linear Equations in Two Variables",
+        "verified": false
+      },
+      {
+        "class": 9,
+        "chapter": "Earlier NCERT: Linear Equations in Two Variables",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can show that a linear equation in two variables has infinitely many solutions.",
+    "I can solve a pair of equations graphically and algebraically.",
+    "I can decide whether a pair has one, no or infinitely many solutions."
+  ],
+  "misconceptions": [
+    "A linear equation in two variables has only one solution.",
+    "Parallel lines have a solution far away.",
+    "You must always graph to solve."
+  ],
+  "prerequisites": [
+    "mathematics/coordinate-geometry/linear-polynomials",
+    "mathematics/equations/solving-linear-equations"
+  ],
+  "labs": [
+    "line-crossing"
+  ],
+  "keyTerms": [
+    "linear equation in two variables",
+    "simultaneous equations",
+    "substitution",
+    "elimination",
+    "consistent",
+    "inconsistent"
+  ],
+  "estMinutes": 35
+}
