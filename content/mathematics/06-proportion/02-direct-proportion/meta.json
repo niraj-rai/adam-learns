@@ -1,0 +1,58 @@
+{
+  "id": "direct-proportion",
+  "number": "6.2",
+  "title": "Direct Proportion and the Unitary Method",
+  "summary": "When one quantity doubles and the other doubles too: recipes, prices, speeds and unit conversions.",
+  "emoji": "☕",
+  "complexity": 1,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Direct proportion is MYP 2–3 Number"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 7: Proportional Reasoning-1",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 11: Direct and Inverse Proportions",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can recognise direct proportion.",
+    "I can solve problems using the unitary method or a multiplier.",
+    "I can convert between units."
+  ],
+  "misconceptions": [
+    "If one quantity goes up, they're always in direct proportion.",
+    "You can add the same amount to both quantities.",
+    "Direct proportion graphs can start anywhere."
+  ],
+  "prerequisites": [
+    "mathematics/proportion/ratios"
+  ],
+  "labs": [
+    "recipe-scaler"
+  ],
+  "keyTerms": [
+    "direct proportion",
+    "unitary method",
+    "rate",
+    "multiplier",
+    "unit conversion"
+  ],
+  "estMinutes": 25
+}

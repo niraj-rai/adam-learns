@@ -75,11 +75,24 @@ CBSE mapping uses the new *Ganita Prakash* books (GP 6; GP 7 Parts 1–2; GP 8 P
 | 5.6 | Reading real-life graphs | MYP 3 | Earlier NCERT 8 Ch 13 ✅ | ★★ | **Graph Stories**: match 5 graphs to stories |
 | 5.7 | Boss: Equation Escape | MYP 3 | Mixed | ★★★ | 10 locks (3 lives) |
 
-### Units 6–9 (planned)
+### Unit 6: Ratio, Proportion and Percentages ✅ built
+
+*IB Key Concept:* **Relationships** · *Related:* Quantity, Change, Equivalence · *Global Context:* Fairness and development
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 6.1 | Ratios and sharing | MYP 2 | GP 8 Ch 7 ✅, GP 8 P2 Ch 3 ✅ | ★ | **Ratio Mixer**: paint, prize sharing, map scales |
+| 6.2 | Direct proportion and the unitary method | MYP 2 | GP 8 Ch 7 ✅, earlier NCERT 8 Ch 11 ✅ | ★ | **Recipe Scaler**: masala chai; unit conversions |
+| 6.3 | Inverse proportion | MYP 3 | GP 8 P2 Ch 3 ✅, earlier NCERT 8 Ch 11 ✅ | ★★ | **Workers and Days**: constant-product rectangle and curve |
+| 6.4 | Percentages | MYP 2 | GP 8 P2 Ch 1 ✅, earlier NCERT 7 Ch 7 ✅ | ★ | **Percent Grid**: hundred grid; percentage change |
+| 6.5 | Profit, loss, discount and GST | MYP 3 | GP 8 P2 Ch 1 ✅, earlier NCERT 8 Ch 7 ✅ | ★★ | **Market Stall**: CP, MP, discount, GST (0/5/18/40%) |
+| 6.6 | Interest, growth and depreciation | MYP 3 | GP 8 P2 Ch 1 ✅, earlier NCERT 8 Ch 7 ✅ | ★★★ | **Interest and Growth**: SI vs CI chart; depreciation |
+| 6.7 | Boss: Market Master | MYP 3 | Mixed | ★★★ | 10 real-life problems (3 lives) |
+
+### Units 7–9 (planned)
 
 | Unit | Topics | IB | CBSE | ★ | Signature labs |
 |---|---|---|---|---|---|
-| 6. Ratio, Proportion & Percentages | Ratio, rule of three, direct/inverse proportion, percentages, profit/loss, tax, compound interest | MYP 2–3 | GP 8 Ch 7, P2 Ch 1, P2 Ch 3; earlier NCERT 8 Ch 7, 11 | ★★★ | **Recipe Scaler**, Interest Growth |
 | 7. Geometry: Angles, Shapes & Pythagoras | Parallel lines and transversals, triangles, congruence, quadrilaterals, constructions, Baudhayana–Pythagoras theorem | MYP 1–3 | GP 7 Ch 5, 7, P2 Ch 1, 6; GP 8 Ch 4, P2 Ch 2 | ★★★ | **Geometry Sandbox**, Pythagoras Proof |
 | 8. Mensuration | Area of polygons, surface area and volume, nets, solids and projections | MYP 2–3 | GP 8 P2 Ch 4, 7; earlier NCERT 8 Ch 9 | ★★★ | **Net Folder** |
 | 9. Data Handling & Probability | Dot plots, mean/median, frequency, pie charts, basic probability | MYP 1–3 | GP 7 P2 Ch 5; GP 8 P2 Ch 3, 5; earlier NCERT 8 Ch 4 | ★★ | **Dice & Spinner**, Chart Maker |

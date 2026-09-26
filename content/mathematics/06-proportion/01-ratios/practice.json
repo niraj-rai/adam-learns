@@ -1,0 +1,107 @@
+{
+  "topicId": "ratios",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Simplify 18 : 24.",
+      "options": [
+        "6 : 8",
+        "9 : 12",
+        "4 : 3",
+        "3 : 4"
+      ],
+      "answer": 3,
+      "explain": "Divide both by the HCF, 6.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Share ₹900 in the ratio 4 : 5. What is the larger share?",
+      "answer": 500,
+      "unit": "₹",
+      "explain": "9 parts; one part = ₹100; 5 parts = ₹500.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which ratio is equivalent to 2 : 5?",
+      "options": [
+        "6 : 15",
+        "4 : 7",
+        "2 : 10",
+        "5 : 2"
+      ],
+      "answer": 0,
+      "explain": "Multiply both parts by 3."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A map has a scale of 1 : 25,000. Two temples are 6 cm apart on the map. How far apart are they in km?",
+      "answer": 1.5,
+      "unit": "km",
+      "explain": "6 × 25,000 = 1,50,000 cm = 1.5 km.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Green paint is mixed from blue and yellow in the ratio 2 : 3. How many litres of yellow go with 12 L of blue?",
+      "answer": 18,
+      "unit": "L",
+      "explain": "Blue × 6 (2 → 12), so yellow × 6: 3 → 18 L.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A drink is made of concentrate and water in the ratio 1 : 4. How much concentrate is in 250 mL of drink?",
+      "answer": 50,
+      "unit": "mL",
+      "explain": "5 parts = 250 mL, so 1 part = 50 mL.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "₹2400 is shared in the ratio 3 : 4 : 5. What is the smallest share?",
+      "answer": 600,
+      "unit": "₹",
+      "explain": "12 parts; one part = ₹200; 3 parts = ₹600.",
+      "tolerance": 0
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "If a : b = 2 : 3 and b : c = 3 : 4, what is a : b : c?",
+      "options": [
+        "2 : 9 : 4",
+        "2 : 3 : 4",
+        "3 : 2 : 4",
+        "6 : 9 : 12 : 4"
+      ],
+      "answer": 1,
+      "explain": "b is 3 in both, so they join directly."
+    }
+  ]
+}

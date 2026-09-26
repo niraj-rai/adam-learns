@@ -1,0 +1,103 @@
+{
+  "topicId": "profit-loss-discount",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "An item costs ₹500 and sells for ₹600. What is the profit percentage?",
+      "answer": 20,
+      "unit": "%",
+      "explain": "Profit ₹100 on a CP of ₹500: 20%.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A bat is marked ₹2000 with a 15% discount. What is the selling price?",
+      "answer": 1700,
+      "unit": "₹",
+      "explain": "15% of 2000 = 300; 2000 − 300 = 1700.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A phone bought for ₹1500 is sold for ₹1200. What is the loss percentage?",
+      "answer": 20,
+      "unit": "%",
+      "explain": "Loss ₹300 ÷ ₹1500 × 100 = 20%.",
+      "tolerance": 0
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "An item costs ₹1000 before 18% GST. What is the price including GST?",
+      "answer": 1180,
+      "unit": "₹",
+      "explain": "1000 × 1.18 = 1180.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A discount percentage is calculated on the…",
+      "options": [
+        "cost price",
+        "marked price",
+        "selling price",
+        "profit"
+      ],
+      "answer": 1,
+      "explain": "Discounts are taken off the price on the label."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A shopkeeper bought a lamp for ₹800 and wants a 25% profit. What should the selling price be?",
+      "answer": 1000,
+      "unit": "₹",
+      "explain": "800 × 1.25 = 1000.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A ₹600 jacket is offered with either 20% off or ₹150 off. Which is the better deal?",
+      "options": [
+        "₹150 off",
+        "20% off",
+        "It depends on GST",
+        "They are the same"
+      ],
+      "answer": 0,
+      "explain": "20% of 600 is only ₹120."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "A school bag is marked ₹1200. After a 10% discount, 5% GST is added. What is the final price?",
+      "answer": 1134,
+      "unit": "₹",
+      "explain": "1200 × 0.9 = 1080; 1080 × 1.05 = 1134.",
+      "tolerance": 0
+    }
+  ]
+}

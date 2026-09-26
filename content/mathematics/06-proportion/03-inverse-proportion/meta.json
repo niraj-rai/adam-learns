@@ -1,0 +1,56 @@
+{
+  "id": "inverse-proportion",
+  "number": "6.3",
+  "title": "Inverse Proportion",
+  "summary": "More workers, fewer days; faster speed, less time. When the product stays the same.",
+  "emoji": "👷",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Inverse proportion is MYP 3 Number/Algebra"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 3: Proportional Reasoning-2",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 11: Direct and Inverse Proportions",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can recognise inverse proportion.",
+    "I can solve inverse proportion problems using a constant product.",
+    "I can compare direct and inverse proportion."
+  ],
+  "misconceptions": [
+    "If one quantity goes down when the other goes up, it's always inverse proportion.",
+    "Inverse proportion means subtracting.",
+    "Inverse proportion graphs are straight lines."
+  ],
+  "prerequisites": [
+    "mathematics/proportion/direct-proportion"
+  ],
+  "labs": [
+    "workers-and-days"
+  ],
+  "keyTerms": [
+    "inverse proportion",
+    "constant product",
+    "rate"
+  ],
+  "estMinutes": 25
+}

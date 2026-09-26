@@ -1,0 +1,54 @@
+<Stage kind="wonder" title="Running a stall" />
+
+<Hook emoji="🏪">
+You buy cricket bats for ₹1500 each and label them ₹2000. A customer asks for a discount. How much can you give before you start losing money? And once GST is added, what does the customer actually pay? Every shopkeeper needs this maths.
+</Hook>
+
+<PredictFirst
+  question="You bought a bat for ₹1500 and sell it for ₹1800. What is your profit percentage?"
+  options={["300%", "20%", "16.7%", "30%"]}
+  answer={1}
+>
+Profit = ₹300. Profit % is always calculated on the **cost price**: 300 ÷ 1500 × 100 = **20%**.
+</PredictFirst>
+
+<Stage kind="explain" title="The vocabulary of trade" />
+
+<Compare
+  columns={[
+    { title: "Cost price (CP)", emoji: "🛒", points: ["What the shopkeeper paid", "Profit/loss % uses CP"] },
+    { title: "Marked price (MP)", emoji: "🏷️", points: ["The price on the label", "Discount % uses MP"] },
+    { title: "Selling price (SP)", emoji: "💵", points: ["What the item sells for", "SP = MP − discount"] },
+    { title: "GST", emoji: "🧾", points: ["Tax added on the SP", "Goes to the government"] }
+  ]}
+/>
+
+<StepReveal
+  steps={[
+    "A bag is marked ₹1200 with a 10% discount.",
+    "Discount = 10% of ₹1200 = ₹120, so SP = ₹1080 (or ₹1200 × 0.9).",
+    "GST of 5% is added: ₹1080 × 1.05 = ₹1134.",
+    "If the shopkeeper paid ₹900, profit = ₹1080 − ₹900 = ₹180 (GST isn't profit).",
+    "Profit % = 180 ÷ 900 × 100 = 20%."
+  ]}
+/>
+
+<Stage kind="try" title="Market Stall" />
+
+<Lab id="market-stall" />
+
+<RealLife>
+**GST (Goods and Services Tax)** replaced many older taxes across India in 2017. After the 2025 reform, the main rates are 5% and 18%, with 0% on essentials and 40% on luxury and sin goods.
+</RealLife>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="Best deal hunt">
+Compare the price of the same item (a book, headphones, or a school bag) from three shops or websites, including discounts, delivery and GST. Calculate the final price for each and recommend the best deal, explaining your reasoning.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Part 2 Ch 1 · Earlier NCERT 8 Ch 7">
+- Profit and loss; discounts; estimation in percentages; sales tax and GST.
+</CbseCorner>
+
+<Reflect id="math-prop-market" prompt="Why does a shop mark prices higher than the cost price, even if it offers discounts?" />

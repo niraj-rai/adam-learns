@@ -1,0 +1,61 @@
+{
+  "id": "market-master",
+  "number": "6.7",
+  "title": "Boss Challenge: Market Master",
+  "summary": "Ten real-life problems on ratio, proportion, percentages and interest. Three lives!",
+  "emoji": "🏆",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 7: Proportional Reasoning-1",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 1: Fractions in Disguise",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 3: Proportional Reasoning-2",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can choose the right proportional method for each problem.",
+    "I can explain and check my reasoning."
+  ],
+  "misconceptions": [
+    "Every problem with two quantities is direct proportion."
+  ],
+  "prerequisites": [
+    "mathematics/proportion/profit-loss-discount",
+    "mathematics/proportion/interest-and-growth",
+    "mathematics/proportion/inverse-proportion"
+  ],
+  "labs": [
+    "market-master"
+  ],
+  "keyTerms": [
+    "ratio",
+    "proportion",
+    "percentage",
+    "interest"
+  ],
+  "estMinutes": 20
+}

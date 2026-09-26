@@ -1,0 +1,37 @@
+{
+  "id": "proportion",
+  "number": 6,
+  "title": "Ratio, Proportion and Percentages",
+  "summary": "Mixing paint and sharing money in ratios, scaling recipes, workers and days, percentages everywhere, profit, discounts and GST, and how interest grows money over time.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Quantity",
+      "Change",
+      "Equivalence"
+    ],
+    "globalContext": "Fairness and development",
+    "statementOfInquiry": "Proportional reasoning helps us compare quantities fairly and make informed decisions about money, resources and change."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "How do we share an amount in a ratio?",
+      "What is the difference between direct and inverse proportion?",
+      "How is compound interest calculated?"
+    ],
+    "conceptual": [
+      "Why does compound interest grow faster than simple interest?",
+      "Why do we always divide by the original value to find a percentage change?"
+    ],
+    "debatable": [
+      "Is it fair to share a prize in proportion to effort?",
+      "Are ‘Sale! 50% off’ signs always good deals?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 8 (Ganita Prakash) Ch 7: Proportional Reasoning-1",
+    "Class 8 (Ganita Prakash) Part 2 Ch 1: Fractions in Disguise; Ch 3: Proportional Reasoning-2",
+    "Earlier NCERT Class 7 Ch 7 and Class 8 Ch 7: Comparing Quantities",
+    "Earlier NCERT Class 8 Ch 11: Direct and Inverse Proportions"
+  ]
+}

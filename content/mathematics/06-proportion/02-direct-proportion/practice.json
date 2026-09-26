@@ -1,0 +1,106 @@
+{
+  "topicId": "direct-proportion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "5 kg of rice costs ₹300. How much do 8 kg cost?",
+      "answer": 480,
+      "unit": "₹",
+      "explain": "1 kg = ₹60; 8 kg = ₹480.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A car travels 150 km on 10 litres of petrol. How far can it go on 24 litres?",
+      "answer": 360,
+      "unit": "km",
+      "explain": "15 km per litre × 24 = 360 km.",
+      "tolerance": 0
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which pair of quantities is in direct proportion?",
+      "options": [
+        "Number of workers and days to finish a job",
+        "Speed and time for a fixed journey",
+        "The number of pens and their total cost",
+        "A person's age and height"
+      ],
+      "answer": 2,
+      "explain": "Twice the pens cost twice as much.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "A chai recipe for 4 cups uses 8 tsp of sugar. How much sugar for 6 cups?",
+      "answer": 12,
+      "unit": "tsp",
+      "explain": "2 tsp per cup × 6 = 12.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Convert 72 km/h to m/s.",
+      "answer": 20,
+      "unit": "m/s",
+      "explain": "72 × 5/18 = 20 m/s.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How many metres are in 3.5 km?",
+      "answer": 3500,
+      "unit": "m",
+      "explain": "× 1000.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "4 notebooks cost ₹100. Explain how to use the unitary method to find the cost of 7 notebooks.",
+      "modelAnswer": "First find the cost of one notebook: ₹100 ÷ 4 = ₹25. Then multiply by the number needed: ₹25 × 7 = ₹175. This works because the cost is directly proportional to the number of notebooks.",
+      "rubric": [
+        "Finds the cost of one",
+        "Multiplies by 7",
+        "States the answer ₹175"
+      ],
+      "explain": "Criterion C: explain the method."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What does the graph of a direct proportion look like?",
+      "options": [
+        "A straight line that starts high and falls",
+        "A straight line through the origin",
+        "A horizontal line",
+        "A curve that never touches the axes"
+      ],
+      "answer": 1,
+      "explain": "When one is 0, so is the other, and the rate is constant."
+    }
+  ]
+}

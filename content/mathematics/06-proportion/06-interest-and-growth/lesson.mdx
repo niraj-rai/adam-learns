@@ -1,0 +1,44 @@
+<Stage kind="wonder" title="Money that grows" />
+
+<Hook emoji="🏦">
+Put ₹10,000 in a bank at 10% a year. With **simple interest**, you earn ₹1,000 every year. With **compound interest**, you earn interest on your interest too. After 25 years, simple interest gives ₹35,000, but compound interest gives about ₹1,08,000! Einstein is often (probably wrongly) quoted as calling compound interest the eighth wonder of the world.
+</Hook>
+
+<PredictFirst
+  question="₹10,000 at 10% compound interest for 2 years becomes…"
+  options={["₹12,000", "₹12,100", "₹11,000", "₹20,000"]}
+  answer={1}
+>
+Year 1: ₹10,000 × 1.1 = ₹11,000. Year 2: ₹11,000 × 1.1 = **₹12,100**. The extra ₹100 is interest earned on the first year's interest.
+</PredictFirst>
+
+<Stage kind="explain" title="Simple vs compound" />
+
+<Formula tex="SI = \frac{P \times R \times T}{100} \qquad A = P\left(1 + \frac{R}{100}\right)^{T}" caption="Simple interest, and the compound amount" />
+
+<Compare
+  columns={[
+    { title: "Growth", emoji: "📈", points: ["Savings, populations", "Multiply by (1 + R/100) each year", "A = P(1 + R/100)ᵀ"] },
+    { title: "Depreciation", emoji: "📉", points: ["Scooters, phones, machines", "Multiply by (1 − R/100) each year", "V = P(1 − R/100)ᵀ"] }
+  ]}
+/>
+
+<Stage kind="try" title="Interest and Growth" />
+
+<Lab id="interest-growth" />
+
+<DidYouKnow>
+The **rule of 72**: divide 72 by the interest rate to estimate how many years it takes money to double. At 6%, about 12 years; at 9%, about 8 years.
+</DidYouKnow>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="How often to compound?">
+Invest ₹10,000 at 12% a year for one year, compounded yearly, half-yearly, quarterly and monthly. Record the amounts and describe the pattern. Does compounding more and more often keep increasing the amount without limit? Make a prediction and test it.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Part 2 Ch 1 · Earlier NCERT 8 Ch 7">
+- Simple and compound interest (yearly and half-yearly); growth and depreciation.
+</CbseCorner>
+
+<Reflect id="math-prop-interest" prompt="What does compound interest teach you about saving early, and about borrowing?" />

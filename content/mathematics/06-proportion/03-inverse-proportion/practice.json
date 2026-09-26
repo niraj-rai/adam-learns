@@ -1,0 +1,108 @@
+{
+  "topicId": "inverse-proportion",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "6 workers build a wall in 10 days. How many days would 15 workers take?",
+      "answer": 4,
+      "unit": "days",
+      "explain": "6 × 10 = 60 worker-days; 60 ÷ 15 = 4.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A trip takes 4 hours at 60 km/h. How long does it take at 80 km/h?",
+      "answer": 3,
+      "unit": "hours",
+      "explain": "Distance = 240 km; 240 ÷ 80 = 3 hours.",
+      "tolerance": 0
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which pair of quantities is in inverse proportion?",
+      "options": [
+        "Distance and time at a constant speed",
+        "Speed and time for a fixed distance",
+        "Side of a square and its perimeter",
+        "Number of books and their total cost"
+      ],
+      "answer": 1,
+      "explain": "Double the speed, half the time.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Food at a camp lasts 15 days for 40 people. How long would it last for 60 people?",
+      "answer": 10,
+      "unit": "days",
+      "explain": "40 × 15 = 600 person-days; 600 ÷ 60 = 10.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "B",
+      "prompt": "If x and y are in inverse proportion, then…",
+      "options": [
+        "x × y is constant",
+        "x + y is constant",
+        "x ÷ y is constant",
+        "x − y is constant"
+      ],
+      "answer": 0,
+      "explain": "For example 6 × 10 = 15 × 4 = 60."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "12 taps fill a tank in 5 hours. How long would 20 identical taps take?",
+      "answer": 3,
+      "unit": "hours",
+      "explain": "12 × 5 = 60 tap-hours; 60 ÷ 20 = 3.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "B",
+      "prompt": "In an inverse proportion, x is doubled. What happens to y?",
+      "options": [
+        "It doubles",
+        "It increases by 2",
+        "It stays the same",
+        "It halves"
+      ],
+      "answer": 3,
+      "explain": "The product must stay the same."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A pizza costs ₹600. Shared equally by 8 friends, each pays ₹75. How much does each pay if 12 friends share it?",
+      "answer": 50,
+      "unit": "₹",
+      "explain": "600 ÷ 12 = 50.",
+      "tolerance": 0
+    }
+  ]
+}

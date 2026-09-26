@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="More guests!" />
+
+<Hook emoji="☕">
+Amma's masala chai recipe makes 4 cups. Suddenly 6 relatives arrive. How much milk, sugar and tea leaves do you need now? If you double the cups, you double everything; for 6 cups, you multiply everything by 6/4 = 1.5. That's **direct proportion**.
+</Hook>
+
+<PredictFirst
+  question="4 cups of chai need 8 tsp of sugar. How much sugar for 6 cups?"
+  options={["10 tsp", "12 tsp", "14 tsp", "24 tsp"]}
+  answer={1}
+>
+Unitary method: 8 ÷ 4 = 2 tsp per cup, then 2 × 6 = **12 tsp**. Adding 2 to both (6 cups, 10 tsp) would make the chai less sweet.
+</PredictFirst>
+
+<Stage kind="explain" title="The unitary method" />
+
+<Formula tex="\frac{y_1}{x_1} = \frac{y_2}{x_2} \qquad \text{(direct proportion: the ratio stays the same)}" caption="Direct proportion" />
+
+<Compare
+  columns={[
+    { title: "Unitary method", emoji: "1️⃣", points: ["Find the value for ONE", "5 kg cost ₹300 → 1 kg ₹60", "8 kg → ₹480"] },
+    { title: "Multiplier", emoji: "✖️", points: ["Find the scale factor", "8 kg is 8/5 of 5 kg", "₹300 × 8/5 = ₹480"] },
+    { title: "Rule of three", emoji: "3️⃣", points: ["An ancient Indian method (trairāśika)", "Known: 5 kg ↔ ₹300; want 8 kg", "(300 × 8) ÷ 5 = 480"] }
+  ]}
+/>
+
+<Stage kind="try" title="Recipe Scaler" />
+
+<Lab id="recipe-scaler" />
+
+<DidYouKnow>
+The **rule of three** (*trairāśika*) was described by Āryabhaṭa in 499 CE and used by Indian merchants for centuries. It travelled to Europe, where it was once called “the golden rule” of arithmetic.
+</DidYouKnow>
+
+<Stage kind="apply" title="Communicate" />
+
+<Inquiry criterion="C" title="Three methods, one problem">
+A car uses 10 L of petrol for 150 km. Find how much it needs for 420 km using the unitary method, the multiplier method and a graph. Present all three clearly and explain which you prefer and why.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Ch 7 · Earlier NCERT 8 Ch 11">
+- Direct proportion; unitary method; rule of three; unit conversions.
+- The graph of a direct proportion is a straight line through the origin.
+</CbseCorner>
+
+<Reflect id="math-prop-direct" prompt="Give an example of two quantities that both increase but are NOT in direct proportion." />

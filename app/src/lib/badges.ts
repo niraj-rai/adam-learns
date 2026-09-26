@@ -57,6 +57,8 @@ export type BadgeId =
   | 'algebra-quest'
   | 'unit-equations'
   | 'equation-escape'
+  | 'unit-proportion'
+  | 'market-master'
   | 'perfect-score'
 
 export const BADGES: Record<BadgeId, { title: string; emoji: string; description: string }> = {
@@ -118,5 +120,7 @@ export const BADGES: Record<BadgeId, { title: string; emoji: string; description
   'algebra-quest': { title: 'Algebra Champion', emoji: '🏆', description: 'Solved ten problems on expressions, identities and factorising (Boss Challenge)' },
   'unit-equations': { title: 'Equation Master', emoji: '⚖️', description: 'Mastered every core topic in Maths Unit 5: Linear Equations and Graphs' },
   'equation-escape': { title: 'Escape Artist', emoji: '🗝️', description: 'Opened ten locks with equations and graphs (Boss Challenge)' },
+  'unit-proportion': { title: 'Proportion Pro', emoji: '⚗️', description: 'Mastered every core topic in Maths Unit 6: Ratio, Proportion and Percentages' },
+  'market-master': { title: 'Market Master', emoji: '🏪', description: 'Solved ten real-life ratio and percentage problems (Boss Challenge)' },
   'perfect-score': { title: 'Flawless', emoji: '💎', description: 'Scored 100% on a practice set' },
 }

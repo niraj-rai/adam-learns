@@ -1,0 +1,58 @@
+{
+  "id": "percentages",
+  "number": "6.4",
+  "title": "Percentages",
+  "summary": "Fractions in disguise: percentages as fractions and decimals, percentages of amounts, and percentage change.",
+  "emoji": "💯",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Percentages are MYP 2 Number"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 1: Fractions in Disguise",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 7: Comparing Quantities",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can convert between fractions, decimals and percentages.",
+    "I can find a percentage of an amount.",
+    "I can calculate percentage increase and decrease."
+  ],
+  "misconceptions": [
+    "Percentage change is divided by the new value.",
+    "A 50% increase then a 50% decrease gets you back to the start.",
+    "Percentages can never be more than 100%."
+  ],
+  "prerequisites": [
+    "mathematics/number-systems/decimals-and-rationals"
+  ],
+  "labs": [
+    "percent-bar"
+  ],
+  "keyTerms": [
+    "percent",
+    "percentage change",
+    "increase",
+    "decrease",
+    "original value"
+  ],
+  "estMinutes": 25
+}

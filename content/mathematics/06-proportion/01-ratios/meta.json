@@ -1,0 +1,59 @@
+{
+  "id": "ratios",
+  "number": "6.1",
+  "title": "Ratios and Sharing",
+  "summary": "Comparing quantities with ratios, equivalent ratios, sharing in a ratio, and map scales.",
+  "emoji": "🎨",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Ratio is MYP 2 Number"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 7: Proportional Reasoning-1",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 3: Proportional Reasoning-2",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can write and simplify ratios.",
+    "I can share an amount in a given ratio.",
+    "I can use ratios in real contexts like mixing and map scales."
+  ],
+  "misconceptions": [
+    "2 : 3 and 3 : 2 are the same.",
+    "Sharing in 2 : 3 gives 2 and 3 of the money.",
+    "A ratio tells you the actual amounts."
+  ],
+  "prerequisites": [
+    "mathematics/number-systems/fractions",
+    "mathematics/squares-and-roots/primes-and-factors"
+  ],
+  "labs": [
+    "ratio-mixer"
+  ],
+  "keyTerms": [
+    "ratio",
+    "equivalent ratio",
+    "simplest form",
+    "share",
+    "scale"
+  ],
+  "estMinutes": 25
+}

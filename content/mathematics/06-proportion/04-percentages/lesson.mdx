@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="Fractions in disguise" />
+
+<Hook emoji="💯">
+“Up to 70% off!” “Battery 45%.” “Chance of rain: 20%.” “Scored 85% in maths.” Percentages are everywhere, and they're really just **fractions in disguise**, all with the same denominator: 100.
+</Hook>
+
+<PredictFirst
+  question="A price rises from ₹800 to ₹1000. What is the percentage increase?"
+  options={["20%", "25%", "200%", "80%"]}
+  answer={1}
+>
+The increase is ₹200, and we compare it with the **original** ₹800: 200/800 = 1/4 = **25%**.
+</PredictFirst>
+
+<Stage kind="explain" title="Out of 100" />
+
+<Compare
+  columns={[
+    { title: "Fraction", emoji: "🍕", points: ["3/5", "1/4", "1/8"] },
+    { title: "Decimal", emoji: "🔢", points: ["0.6", "0.25", "0.125"] },
+    { title: "Percent", emoji: "💯", points: ["60%", "25%", "12.5%"] }
+  ]}
+/>
+
+<Formula tex="\text{percentage change} = \frac{\text{new} - \text{original}}{\text{original}} \times 100\%" caption="Always divide by the original value" />
+
+<Stage kind="try" title="Percent Grid" />
+
+<Lab id="percent-bar" />
+
+<MythFact myth="A 50% increase followed by a 50% decrease gets you back where you started.">
+₹100 + 50% = ₹150. Then 50% of ₹150 is ₹75, so you end up at ₹75. The second percentage is of a **different** amount.
+</MythFact>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="Percentages in the news">
+Find three news stories or adverts that use percentages. For each, explain what the percentage is ‘of’, check any calculation you can, and decide whether the percentage could mislead readers.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Part 2 Ch 1 · Earlier NCERT 7 Ch 7">
+- Converting between fractions, decimals and percentages; percentage of a quantity.
+- Percentage increase and decrease.
+</CbseCorner>
+
+<Reflect id="math-prop-percent" prompt="Why do you think percentages are used so much in everyday life?" />

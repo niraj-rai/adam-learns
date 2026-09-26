@@ -1,0 +1,44 @@
+<Stage kind="wonder" title="Many hands" />
+
+<Hook emoji="👷">
+6 workers paint a school wall in 10 days. If 15 workers help, it should take fewer days. But how many? More workers means less time: when one quantity goes up, the other goes down. That's **inverse proportion**.
+</Hook>
+
+<PredictFirst
+  question="6 workers take 10 days. How long for 12 workers?"
+  options={["20 days", "5 days", "4 days", "16 days"]}
+  answer={1}
+>
+Double the workers, half the time: **5 days**. The total work, 6 × 10 = 60 worker-days, stays the same: 12 × 5 = 60.
+</PredictFirst>
+
+<Stage kind="explain" title="The product stays the same" />
+
+<Formula tex="x_1 \times y_1 = x_2 \times y_2 \qquad \text{(inverse proportion)}" caption="Inverse proportion: the product is constant" />
+
+<Compare
+  columns={[
+    { title: "Direct", emoji: "📈", points: ["Both go up together", "y ÷ x is constant", "Straight line through origin", "Pens and cost"] },
+    { title: "Inverse", emoji: "📉", points: ["One up, the other down", "x × y is constant", "Curve that never touches the axes", "Speed and time"] }
+  ]}
+/>
+
+<Stage kind="try" title="Workers and Days" />
+
+<Lab id="workers-and-days" />
+
+<MythFact myth="Any time one quantity goes up while another goes down, it's inverse proportion.">
+The **product** must stay constant. As a phone battery is used, time goes up and charge goes down, but time × charge isn't constant, so it isn't inverse proportion.
+</MythFact>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Rectangles with the same area">
+List all the rectangles with whole-number sides and an area of 36 cm². Plot length against width. Describe the shape of the graph and explain how it shows inverse proportion. What happens to the width as the length gets very large?
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Part 2 Ch 3 · Earlier NCERT 8 Ch 11">
+- Inverse proportion; problems on time and work, speed and time, and food supplies.
+</CbseCorner>
+
+<Reflect id="math-prop-inverse" prompt="Can you think of a situation where adding more people would NOT make a job faster?" />

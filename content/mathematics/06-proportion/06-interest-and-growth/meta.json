@@ -1,0 +1,60 @@
+{
+  "id": "interest-and-growth",
+  "number": "6.6",
+  "title": "Interest, Growth and Depreciation",
+  "summary": "Simple and compound interest, population growth, and things that lose value over time.",
+  "emoji": "🏦",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Compound growth is MYP 3 (exponential models in MYP 4–5)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 1: Fractions in Disguise",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 7: Comparing Quantities",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can calculate simple interest.",
+    "I can calculate compound interest, including half-yearly compounding.",
+    "I can apply growth and depreciation formulas to real situations."
+  ],
+  "misconceptions": [
+    "Compound interest is the same as simple interest.",
+    "Depreciating 10% a year for 10 years means the item is worthless.",
+    "Compounding more often makes no difference."
+  ],
+  "prerequisites": [
+    "mathematics/proportion/percentages",
+    "mathematics/powers/exponents"
+  ],
+  "labs": [
+    "interest-growth"
+  ],
+  "keyTerms": [
+    "principal",
+    "rate",
+    "simple interest",
+    "compound interest",
+    "depreciation",
+    "amount"
+  ],
+  "estMinutes": 30
+}

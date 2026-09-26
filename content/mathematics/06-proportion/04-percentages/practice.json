@@ -1,0 +1,105 @@
+{
+  "topicId": "percentages",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find 35% of 240.",
+      "answer": 84,
+      "explain": "10% = 24, so 30% = 72, 5% = 12; 72 + 12 = 84.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Write 3/5 as a percentage.",
+      "options": [
+        "53%",
+        "35%",
+        "60%",
+        "0.6%"
+      ],
+      "answer": 2,
+      "explain": "3/5 = 60/100 = 60%.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Write 0.08 as a percentage.",
+      "answer": 8,
+      "unit": "%",
+      "explain": "0.08 × 100 = 8%.",
+      "tolerance": 0
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "Adam scored 42 out of 60 in a test. What percentage is that?",
+      "answer": 70,
+      "unit": "%",
+      "explain": "42 ÷ 60 × 100 = 70%.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A town's population rose from 20,000 to 23,000. What is the percentage increase?",
+      "answer": 15,
+      "unit": "%",
+      "explain": "3,000 ÷ 20,000 × 100 = 15%.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A price goes from ₹800 to ₹1000, then back to ₹800. Which describes the two changes?",
+      "options": [
+        "A 25% increase, then a 25% decrease",
+        "A 20% increase, then a 20% decrease",
+        "A 20% increase, then a 25% decrease",
+        "A 25% increase, then a 20% decrease"
+      ],
+      "answer": 3,
+      "explain": "200 ÷ 800 = 25%; 200 ÷ 1000 = 20%. The originals are different."
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain why increasing a price by 50% and then decreasing the new price by 50% does not get you back to the original price. Use an example.",
+      "modelAnswer": "The second 50% is taken from a bigger amount. For example, ₹100 increased by 50% is ₹150. Then 50% of ₹150 is ₹75, so the price drops to ₹75, not ₹100. Each percentage is of a different original amount.",
+      "rubric": [
+        "Uses a numerical example",
+        "Notes the percentages are of different amounts",
+        "Clear conclusion"
+      ],
+      "explain": "Criterion C: a clear explanation."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "12% of the 850 students in a school walk to school. How many is that?",
+      "answer": 102,
+      "unit": "students",
+      "explain": "0.12 × 850 = 102.",
+      "tolerance": 0
+    }
+  ]
+}

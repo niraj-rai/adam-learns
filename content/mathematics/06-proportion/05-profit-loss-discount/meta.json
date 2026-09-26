@@ -1,0 +1,59 @@
+{
+  "id": "profit-loss-discount",
+  "number": "6.5",
+  "title": "Profit, Loss, Discount and GST",
+  "summary": "Cost price, selling price, marked price and discounts, and how GST is added.",
+  "emoji": "🏪",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Financial maths in context is MYP 3 Criterion D"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 1: Fractions in Disguise",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 7: Comparing Quantities",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "D"
+  ],
+  "objectives": [
+    "I can calculate profit and loss, and profit or loss percentage.",
+    "I can calculate discounts on marked prices.",
+    "I can add GST to a price."
+  ],
+  "misconceptions": [
+    "Profit % is calculated on the selling price.",
+    "A discount is taken from the cost price.",
+    "GST is part of the shop's profit."
+  ],
+  "prerequisites": [
+    "mathematics/proportion/percentages"
+  ],
+  "labs": [
+    "market-stall"
+  ],
+  "keyTerms": [
+    "cost price",
+    "selling price",
+    "marked price",
+    "profit",
+    "loss",
+    "discount",
+    "GST"
+  ],
+  "estMinutes": 25
+}
