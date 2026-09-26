@@ -1,0 +1,45 @@
+<Stage kind="wonder" title="Pictures that talk (and sometimes lie)" />
+
+<Hook emoji="📊">
+A news channel shows a bar chart: Party A's bar is twice as tall as Party B's. But look at the axis: it starts at 45%, and the real numbers are 49% and 51%. Charts are powerful because we believe what we see. This lesson is about choosing the right chart, and never being fooled by one.
+</Hook>
+
+<PredictFirst
+  question="Which chart would best show how a day is split between sleep, school and play?"
+  options={["Line graph", "Pie chart", "Histogram", "Dot plot"]}
+  answer={1}
+>
+A **pie chart** shows parts of a whole. Line graphs show change over time; histograms show grouped numerical data.
+</PredictFirst>
+
+<Stage kind="explain" title="Choosing a chart" />
+
+<Compare
+  columns={[
+    { title: "Bar graph", emoji: "📊", points: ["Compare separate categories", "Gaps between bars", "Axis starts at 0"] },
+    { title: "Pie chart", emoji: "🥧", points: ["Parts of a whole", "Angle = value ÷ total × 360°"] },
+    { title: "Line graph", emoji: "📈", points: ["Change over time", "Points joined in order"] }
+  ]}
+/>
+
+<Formula tex="\text{sector angle} = \frac{\text{value}}{\text{total}} \times 360^\circ" caption="Drawing a pie chart" />
+
+<Stage kind="try" title="Chart Maker" />
+
+<Lab id="chart-maker" />
+
+<MythFact myth="If it's a graph, it must be accurate.">
+Graphs can mislead with **cut axes**, uneven scales, 3D effects that distort slices, or missing labels. Always check the axis, the scale and the source.
+</MythFact>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="Graph detective">
+Find a chart in a newspaper, advert or website. Describe what it shows, check the axes and scale, and decide whether it could mislead. Redraw it honestly if needed, and explain your changes.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 6 Ch 4 · Ganita Prakash 8 Part 2 Ch 3 · Earlier NCERT 8 Ch 4">
+- Bar graphs, double bar graphs, pie charts (circle graphs) and reading line graphs.
+</CbseCorner>
+
+<Reflect id="math-data-charts" prompt="Why might someone deliberately make a misleading graph?" />

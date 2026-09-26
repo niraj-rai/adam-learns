@@ -1,0 +1,37 @@
+{
+  "id": "data",
+  "number": 9,
+  "title": "Data Handling and Probability",
+  "summary": "Collecting and grouping data, averages as balance points, choosing (and questioning) charts, and chance: dice experiments, sample spaces and probability.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Representation",
+      "Justification",
+      "Model"
+    ],
+    "globalContext": "Fairness and development",
+    "statementOfInquiry": "Representing data and reasoning about chance help us make fair, justified decisions and spot misleading claims."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "How do we find the mean, median, mode and range?",
+      "How do we draw a pie chart?",
+      "How do we calculate a probability?"
+    ],
+    "conceptual": [
+      "Why can the mean and median tell different stories?",
+      "Why do experimental results get closer to theory with more trials?"
+    ],
+    "debatable": [
+      "Can statistics prove anything?",
+      "Are games of chance ever truly fair?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 6 (Ganita Prakash) Ch 4: Data Handling and Presentation",
+    "Class 7 (Ganita Prakash) Part 2 Ch 5: Connecting the Dots",
+    "Class 8 (Ganita Prakash) Part 2 Ch 5: Tales by Dots and Lines (and pie charts in Ch 3)",
+    "Earlier NCERT Class 7 Ch 3 and Class 8 Ch 4: Data Handling"
+  ]
+}

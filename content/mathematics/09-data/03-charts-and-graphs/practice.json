@@ -1,0 +1,114 @@
+{
+  "topicId": "charts-and-graphs",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "45 of 120 students chose cricket. What angle is the cricket slice of a pie chart?",
+      "answer": 135,
+      "unit": "°",
+      "explain": "45/120 × 360° = 135°.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which graph best shows how a city's temperature changes over a year?",
+      "options": [
+        "Tally table",
+        "Pictograph of favourite foods",
+        "Line graph",
+        "Pie chart"
+      ],
+      "answer": 2,
+      "explain": "Line graphs show change over time."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which chart best shows how a whole day is split into activities?",
+      "options": [
+        "Pie chart",
+        "Scatter graph",
+        "Histogram",
+        "Line graph"
+      ],
+      "answer": 0,
+      "explain": "Pie charts show parts of a whole.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "A pie chart of 200 students has a 72° slice for ‘walk to school’. How many students walk?",
+      "answer": 40,
+      "unit": "students",
+      "explain": "72/360 = 1/5; 1/5 of 200 = 40.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A bar chart's axis starts at 90 instead of 0. What effect does this have?",
+      "options": [
+        "It makes the data more accurate",
+        "It shows the data as percentages",
+        "It has no effect",
+        "It exaggerates small differences"
+      ],
+      "answer": 3,
+      "explain": "Bars of 95 and 100 can look like one is double the other."
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Bengaluru's rainfall (mm) from June to November is roughly 105, 115, 145, 210, 185, 55. Describe what a line graph of this data would show.",
+      "modelAnswer": "The line rises from June to a peak in September (about 210 mm), stays high in October, then drops sharply in November. So the wettest months are September and October, and the rains ease off by November.",
+      "rubric": [
+        "Describes the rise",
+        "Identifies the peak",
+        "Describes the drop"
+      ],
+      "explain": "Criterion C: describe a trend in words."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "Adam sleeps 9 hours in a 24-hour day. What angle is the sleep slice in a pie chart of his day?",
+      "answer": 135,
+      "unit": "°",
+      "explain": "9/24 × 360° = 135°.",
+      "tolerance": 0
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Why are there gaps between the bars in a bar graph?",
+      "options": [
+        "The categories are separate, not continuous",
+        "Because of the axis",
+        "To make it look neat",
+        "There should never be gaps"
+      ],
+      "answer": 0,
+      "explain": "Separate categories (like sports) don't run into each other."
+    }
+  ]
+}

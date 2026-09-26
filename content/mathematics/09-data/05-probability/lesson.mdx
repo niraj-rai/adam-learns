@@ -1,0 +1,47 @@
+<Stage kind="wonder" title="Is the game fair?" />
+
+<Hook emoji="🔢">
+Adam and his sister roll two dice. Adam wins if the total is 7; his sister wins if it's 6 or 8. Two numbers beat one, so she's obviously more likely to win… right? To be sure, you need to list the **sample space**, every possible outcome, and count.
+</Hook>
+
+<PredictFirst
+  question="With two dice, which total is most likely?"
+  options={["2", "7", "12", "They're all equally likely"]}
+  answer={1}
+>
+**7** can be made 6 ways (1+6, 2+5, 3+4, 4+3, 5+2, 6+1), more than any other total. Only one way makes 2 or 12.
+</PredictFirst>
+
+<Stage kind="explain" title="Counting outcomes" />
+
+<Formula tex="P(\text{event}) = \frac{\text{number of favourable outcomes}}{\text{total number of equally likely outcomes}}" caption="Theoretical probability" />
+
+<StepReveal
+  steps={[
+    "List the sample space: two dice give 6 × 6 = 36 equally likely outcomes.",
+    "Mark the outcomes in the event: a total of 7 happens in 6 of them.",
+    "P(total is 7) = 6/36 = 1/6.",
+    "Complement: P(not 7) = 1 − 1/6 = 5/6.",
+    "Fair game? The sister's totals 6 and 8 happen 5 + 5 = 10 ways, so she has 10/36 vs Adam's 6/36. It's not fair."
+  ]}
+/>
+
+<Stage kind="try" title="Sample Space" />
+
+<Lab id="sample-space" />
+
+<RealLife>
+The Indian Meteorological Department's forecasts say things like “60% chance of rain”. That means on days with conditions like these, it rained about 6 times in 10. Planners, farmers and cricket boards all use these probabilities.
+</RealLife>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="Design a fair game">
+Design a game for two players using two dice or a coin and a die where each player has exactly the same chance of winning. Use a sample space to prove it's fair, then test it with 30 rounds and compare the results with your prediction.
+</Inquiry>
+
+<CbseCorner source="Earlier NCERT 8 Ch 4">
+- Sample space, events, probability of an event, and P(not E) = 1 − P(E).
+</CbseCorner>
+
+<Reflect id="math-data-probability" prompt="Why is listing the sample space more reliable than guessing?" />

@@ -1,0 +1,59 @@
+{
+  "id": "chance-and-experiments",
+  "number": "9.4",
+  "title": "Chance and Experiments",
+  "summary": "The probability scale, experiments with dice and coins, and why more trials give better estimates.",
+  "emoji": "🎲",
+  "complexity": 1,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Experimental probability is MYP 3 Probability"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 3: Data Handling",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 4: Data Handling",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can place events on the probability scale from 0 to 1.",
+    "I can find experimental probabilities from data.",
+    "I can explain why results get closer to theory with more trials."
+  ],
+  "misconceptions": [
+    "After five heads, tails is ‘due’.",
+    "If a 6 came up 4 times in 10 rolls, the die must be unfair.",
+    "A probability can be more than 1."
+  ],
+  "prerequisites": [
+    "mathematics/data/averages"
+  ],
+  "labs": [
+    "dice-lab"
+  ],
+  "keyTerms": [
+    "probability",
+    "chance",
+    "experiment",
+    "trial",
+    "outcome",
+    "law of large numbers"
+  ],
+  "estMinutes": 25
+}

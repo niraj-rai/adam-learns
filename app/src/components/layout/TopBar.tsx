@@ -1,33 +1,84 @@
 import { Link } from '@tanstack/react-router'
-import { Menu, Monitor, Moon, Sun, Volume2, VolumeX } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { ChevronDown, Menu, Monitor, Moon, Settings, Sun, Volume2, VolumeX } from 'lucide-react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { Button } from '@/components/ui/button'
-import { getSubjects } from '@/content/loader'
-import { Logo } from './Logo'
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
+import { getSubjects } from '@/content/loader'
 import { levelFor } from '@/lib/levels'
 import { cn } from '@/lib/utils'
 import { currentStreak, dueReviewItems, useProgress } from '@/stores/progress'
 import { applyTheme, useSettings, type Theme } from '@/stores/settings'
+import { Logo } from './Logo'
 
-const NAV = [
-  { to: '/', label: 'Home' },
-  ...getSubjects().map((s) => ({ to: '/$subject' as const, params: { subject: s.id }, label: s.title })),
-  { to: '/labs', label: 'Labs' },
-  { to: '/review', label: 'Review' },
-  { to: '/progress', label: 'Progress' },
-  { to: '/curriculum', label: 'Curriculum' },
-]
+const LINK = 'rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground data-[status=active]:bg-chem-soft data-[status=active]:text-foreground'
+
+/** A small click-to-open menu that closes on outside click or Escape. */
+function Popover({ label, trigger, children, align = 'left' }: { label: string; trigger: ReactNode; children: (close: () => void) => ReactNode; align?: 'left' | 'right' }) {
+  const [open, setOpen] = useState(false)
+  const ref = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    if (!open) return
+    const onDown = (e: MouseEvent) => { if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false) }
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setOpen(false) }
+    document.addEventListener('mousedown', onDown)
+    document.addEventListener('keydown', onKey)
+    return () => { document.removeEventListener('mousedown', onDown); document.removeEventListener('keydown', onKey) }
+  }, [open])
+  return (
+    <div ref={ref} className="relative">
+      <button type="button" aria-haspopup="true" aria-expanded={open} aria-label={label} onClick={() => setOpen((v) => !v)} className={cn(LINK, 'inline-flex items-center gap-1', open && 'bg-muted text-foreground')}>
+        {trigger}
+      </button>
+      {open && (
+        <div className={cn('absolute top-full z-50 mt-2 w-64 rounded-xl border bg-popover p-2 text-popover-foreground shadow-lg', align === 'right' ? 'right-0' : 'left-0')}>
+          {children(() => setOpen(false))}
+        </div>
+      )}
+    </div>
+  )
+}
+
+function SettingsPanel() {
+  const { theme, setTheme, sound, toggleSound, boardView, setBoardView } = useSettings()
+  const THEMES: { t: Theme; icon: ReactNode; label: string }[] = [
+    { t: 'system', icon: <Monitor className="size-4" />, label: 'Auto' },
+    { t: 'light', icon: <Sun className="size-4" />, label: 'Light' },
+    { t: 'dark', icon: <Moon className="size-4" />, label: 'Dark' },
+  ]
+  return (
+    <div className="space-y-3 p-1 text-sm">
+      <div>
+        <p className="mb-1 text-xs font-semibold uppercase text-muted-foreground">Theme</p>
+        <div className="grid grid-cols-3 gap-1">
+          {THEMES.map((x) => (
+            <button key={x.t} type="button" aria-pressed={theme === x.t} onClick={() => setTheme(x.t)} className={cn('flex flex-col items-center gap-0.5 rounded-lg border py-1.5 text-xs', theme === x.t ? 'border-chem bg-chem-soft font-semibold' : 'hover:bg-muted')}>
+              {x.icon}{x.label}
+            </button>
+          ))}
+        </div>
+      </div>
+      <button type="button" onClick={toggleSound} className="flex w-full items-center justify-between rounded-lg border px-3 py-2 hover:bg-muted">
+        <span className="flex items-center gap-2">{sound ? <Volume2 className="size-4" /> : <VolumeX className="size-4" />} Sounds</span>
+        <span className="text-xs font-semibold">{sound ? 'On' : 'Off'}</span>
+      </button>
+      <button type="button" onClick={() => setBoardView(boardView === 'ib' ? 'ib+cbse' : 'ib')} className="flex w-full items-center justify-between rounded-lg border px-3 py-2 hover:bg-muted">
+        <span><span className="font-semibold text-ib">IB</span> + <span className="font-semibold text-cbse">CBSE</span> mapping</span>
+        <span className="text-xs font-semibold">{boardView === 'ib+cbse' ? 'Shown' : 'Hidden'}</span>
+      </button>
+    </div>
+  )
+}
 
 export function TopBar() {
   const xp = useProgress((s) => s.xp)
   const activeDays = useProgress((s) => s.activeDays)
   const review = useProgress((s) => s.review)
-  const { theme, setTheme, sound, toggleSound, boardView, setBoardView } = useSettings()
+  const theme = useSettings((s) => s.theme)
   const [open, setOpen] = useState(false)
   const level = levelFor(xp)
   const streak = currentStreak(activeDays)
   const due = dueReviewItems(review).length
+  const subjects = getSubjects()
 
   useEffect(() => {
     applyTheme(theme)
@@ -38,61 +89,52 @@ export function TopBar() {
     return () => mq.removeEventListener('change', onChange)
   }, [theme])
 
-  const nextTheme: Record<Theme, Theme> = { system: 'light', light: 'dark', dark: 'system' }
-  const ThemeIcon = theme === 'light' ? Sun : theme === 'dark' ? Moon : Monitor
-
-  const links = (onClick?: () => void) =>
-    NAV.map((n) => (
-      <Link
-        key={n.label}
-        to={n.to}
-        params={'params' in n ? n.params : undefined}
-        onClick={onClick}
-        activeOptions={{ exact: n.to === '/' }}
-        className="relative rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground data-[status=active]:bg-chem-soft data-[status=active]:text-foreground"
-      >
-        {n.label}
-        {n.label === 'Review' && due > 0 && <span className="ml-1 rounded-full bg-destructive px-1.5 text-[10px] font-bold text-white">{due}</span>}
-      </Link>
-    ))
+  const reviewBadge = due > 0 && <span className="ml-1 rounded-full bg-destructive px-1.5 text-[10px] font-bold text-white">{due}</span>
 
   return (
     <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur">
-      <div className="mx-auto flex h-14 max-w-6xl items-center gap-3 px-4">
-        <Link to="/" className="flex items-center gap-2 font-heading text-lg font-bold">
+      <div className="mx-auto flex h-14 max-w-6xl items-center gap-2 px-4">
+        <Link to="/" className="flex shrink-0 items-center gap-2 font-heading text-lg font-bold" aria-label="AdamLearns home">
           <Logo className="size-9 shrink-0 drop-shadow-sm" />
           <span className="hidden sm:inline">AdamLearns</span>
         </Link>
 
-        <nav className="ml-2 hidden items-center gap-1 lg:flex">{links()}</nav>
+        <nav className="ml-2 hidden items-center gap-1 lg:flex" aria-label="Main">
+          <Popover label="Subjects" trigger={<>Subjects <ChevronDown className="size-4" /></>}>
+            {(close) => (
+              <div className="flex flex-col">
+                {subjects.map((s) => (
+                  <Link key={s.id} to="/$subject" params={{ subject: s.id }} onClick={close} className="flex items-center gap-2 rounded-lg px-3 py-2 text-sm hover:bg-muted data-[status=active]:bg-chem-soft">
+                    <span className="text-lg" aria-hidden>{s.icon}</span>{s.title}
+                  </Link>
+                ))}
+                <div className="my-1 border-t" />
+                <Link to="/curriculum" onClick={close} className="rounded-lg px-3 py-2 text-sm text-muted-foreground hover:bg-muted">🗺️ Curriculum map</Link>
+              </div>
+            )}
+          </Popover>
+          <Link to="/labs" className={LINK}>Labs</Link>
+          <Link to="/review" className={LINK}>Review{reviewBadge}</Link>
+          <Link to="/progress" className={LINK}>Progress</Link>
+        </nav>
 
-        <div className="ml-auto flex items-center gap-1.5">
-          <Link to="/progress" className="flex items-center gap-2 rounded-full border px-2.5 py-1 text-sm" title={`${xp} XP`}>
+        <div className="ml-auto flex shrink-0 items-center gap-1.5">
+          <Link to="/progress" className="flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-sm" title={`${level.current.name}: ${xp} XP`}>
             <span aria-hidden>{level.current.emoji}</span>
-            <span className="hidden font-semibold md:inline">{level.current.name}</span>
-            <span className="h-1.5 w-12 overflow-hidden rounded-full bg-muted">
+            <span className="hidden font-semibold xl:inline">{level.current.name}</span>
+            <span className="hidden h-1.5 w-10 overflow-hidden rounded-full bg-muted md:block">
               <span className="block h-full rounded-full bg-chem" style={{ width: `${level.progress * 100}%` }} />
             </span>
-            <span className="tabular-nums text-muted-foreground">{xp} XP</span>
+            <span className="tabular-nums text-muted-foreground">{xp}<span className="hidden sm:inline"> XP</span></span>
           </Link>
-          <span className={cn('rounded-full border px-2.5 py-1 text-sm tabular-nums', streak > 0 ? 'text-orange-600' : 'text-muted-foreground')} title={`${streak}-day streak`}>
+          <span className={cn('rounded-full border px-2 py-1 text-sm tabular-nums', streak > 0 ? 'text-orange-600' : 'text-muted-foreground')} title={`${streak}-day streak`}>
             🔥 {streak}
           </span>
-          <Button variant="ghost" size="icon" onClick={toggleSound} aria-label={sound ? 'Mute sounds' : 'Turn sounds on'}>
-            {sound ? <Volume2 /> : <VolumeX />}
-          </Button>
-          <Button variant="ghost" size="icon" onClick={() => setTheme(nextTheme[theme])} aria-label={`Theme: ${theme}. Click to change.`}>
-            <ThemeIcon />
-          </Button>
-          <button
-            type="button"
-            onClick={() => setBoardView(boardView === 'ib' ? 'ib+cbse' : 'ib')}
-            className="hidden rounded-full border px-2.5 py-1 text-xs font-semibold sm:block"
-            title="Show or hide CBSE mapping"
-          >
-            <span className="text-ib">IB</span>
-            {boardView === 'ib+cbse' ? <span className="text-cbse"> + CBSE</span> : <span className="text-muted-foreground line-through"> CBSE</span>}
-          </button>
+          <div className="hidden lg:block">
+            <Popover label="Settings" align="right" trigger={<Settings className="size-5" />}>
+              {() => <SettingsPanel />}
+            </Popover>
+          </div>
 
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
@@ -100,11 +142,25 @@ export function TopBar() {
                 <Menu />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-64">
+            <SheetContent side="right" className="w-72 overflow-y-auto">
               <SheetHeader>
                 <SheetTitle>AdamLearns</SheetTitle>
               </SheetHeader>
-              <nav className="flex flex-col gap-1 px-4">{links(() => setOpen(false))}</nav>
+              <nav className="flex flex-col gap-1 px-4" aria-label="Main">
+                <Link to="/" onClick={() => setOpen(false)} activeOptions={{ exact: true }} className={LINK}>🏠 Home</Link>
+                <p className="mt-2 px-3 text-xs font-semibold uppercase text-muted-foreground">Subjects</p>
+                {subjects.map((s) => (
+                  <Link key={s.id} to="/$subject" params={{ subject: s.id }} onClick={() => setOpen(false)} className={LINK}>{s.icon} {s.title}</Link>
+                ))}
+                <div className="my-2 border-t" />
+                <Link to="/labs" onClick={() => setOpen(false)} className={LINK}>🧪 Labs</Link>
+                <Link to="/review" onClick={() => setOpen(false)} className={LINK}>🔁 Review{reviewBadge}</Link>
+                <Link to="/progress" onClick={() => setOpen(false)} className={LINK}>🏆 Progress</Link>
+                <Link to="/curriculum" onClick={() => setOpen(false)} className={LINK}>🗺️ Curriculum map</Link>
+                <div className="my-2 border-t" />
+                <p className="px-3 text-xs font-semibold uppercase text-muted-foreground">Settings</p>
+                <SettingsPanel />
+              </nav>
             </SheetContent>
           </Sheet>
         </div>

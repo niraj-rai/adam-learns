@@ -5,12 +5,5 @@
   "color": "math",
   "icon": "📐",
   "order": 4,
-  "comingNext": "Unit 9: Data Handling and Probability",
-  "planned": [
-    {
-      "unit": "9. Data Handling & Probability",
-      "ib": "MYP 1–3",
-      "cbse": "GP 7 Part 2 Ch 5; GP 8 Part 2 Ch 5"
-    }
-  ]
+  "planned": []
 }

@@ -1,0 +1,111 @@
+{
+  "topicId": "collecting-data",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which of these is a statistical question (one with varied answers)?",
+      "options": [
+        "What is 5 + 3?",
+        "How many hours do students in my class sleep?",
+        "How old am I?",
+        "What colour is my school bag?"
+      ],
+      "answer": 1,
+      "explain": "It expects different answers from different students.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "In the data 3, 5, 3, 2, 3, 5, 4, 3, what is the frequency of 3?",
+      "answer": 4,
+      "explain": "3 appears four times.",
+      "tolerance": 0
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Data is grouped as 20–30, 30–40, 40–50. Where does 30 go?",
+      "options": [
+        "In neither",
+        "In both",
+        "In 30–40",
+        "In 20–30"
+      ],
+      "answer": 2,
+      "explain": "Each class includes its lower limit but not its upper limit.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A tally shows two groups of five and 3 single strokes. What is the frequency?",
+      "answer": 13,
+      "explain": "5 + 5 + 3 = 13.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Why do the bars of a histogram touch, unlike a bar graph?",
+      "options": [
+        "Because the data is secret",
+        "Histograms always have exactly 5 bars",
+        "The class intervals are continuous, with no gaps between them",
+        "To save space"
+      ],
+      "answer": 2,
+      "explain": "Heights run continuously from one class to the next."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Heights: 140–145: 4 students, 145–150: 9, 150–155: 12, 155–160: 7. How many students are shorter than 150 cm?",
+      "answer": 13,
+      "explain": "4 + 9 = 13.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain why the choice of class width matters when grouping data into a histogram.",
+      "modelAnswer": "If the classes are too narrow, there are many classes with only a few values in each, so the histogram looks bumpy and it's hard to see the overall pattern. If they are too wide, there are only one or two classes and the detail is lost. A sensible width (often giving about 5–10 classes) shows the shape of the data clearly.",
+      "rubric": [
+        "Too narrow: bumpy, too many classes",
+        "Too wide: detail lost",
+        "A sensible choice shows the pattern"
+      ],
+      "explain": "Criterion C: explain a choice."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Data you collect yourself (for example, by a survey) is called…",
+      "options": [
+        "secondary data",
+        "primary data",
+        "grouped data",
+        "raw average"
+      ],
+      "answer": 1,
+      "explain": "Secondary data comes from someone else's source."
+    }
+  ]
+}

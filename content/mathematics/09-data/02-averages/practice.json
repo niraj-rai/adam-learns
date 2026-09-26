@@ -1,0 +1,97 @@
+{
+  "topicId": "averages",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the mean of 12, 15, 18, 20, 25.",
+      "answer": 18,
+      "explain": "90 ÷ 5 = 18.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the median of 7, 2, 9, 4, 5.",
+      "answer": 5,
+      "explain": "Sorted: 2, 4, 5, 7, 9. The middle is 5.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the mode of 4, 6, 6, 7, 8, 8, 8, 9.",
+      "answer": 8,
+      "explain": "8 appears three times.",
+      "tolerance": 0
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the range of 31, 18, 45, 27.",
+      "answer": 27,
+      "explain": "45 − 18 = 27.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "The value 100 is added to the data 5, 6, 7. Which changes the most?",
+      "options": [
+        "The mode",
+        "The median",
+        "The mean",
+        "None of them"
+      ],
+      "answer": 2,
+      "explain": "The mean jumps from 6 to 29.5; the median only moves from 6 to 6.5."
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "Adam's mean score in 4 tests is 70. What must he score in the 5th test to make his mean 75?",
+      "answer": 95,
+      "explain": "He needs 5 × 75 = 375 in total; he has 4 × 70 = 280; 375 − 280 = 95.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "In a small company, most workers earn ₹25,000 a month but the owner earns ₹5,00,000. Which average best describes a typical salary?",
+      "options": [
+        "The median",
+        "The range",
+        "The largest value",
+        "The mean"
+      ],
+      "answer": 0,
+      "explain": "The owner's salary drags the mean up; the median ignores that outlier."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "The mean of five numbers is 12. Four of them are 10, 11, 13 and 14. What is the fifth?",
+      "answer": 12,
+      "explain": "Total = 60; 60 − 48 = 12.",
+      "tolerance": 0
+    }
+  ]
+}

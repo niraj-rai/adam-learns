@@ -1,0 +1,64 @@
+{
+  "id": "averages",
+  "number": "9.2",
+  "title": "Mean, Median, Mode and Range",
+  "summary": "Three kinds of average and a measure of spread, and why an outlier can fool the mean.",
+  "emoji": "⚖️",
+  "complexity": 1,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Measures of centre and spread are MYP 2 Statistics"
+    },
+    "cbse": [
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Part 2 Ch 5: Connecting the Dots",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 5: Tales by Dots and Lines",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Earlier NCERT Ch 3: Data Handling",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can calculate the mean, median, mode and range.",
+    "I can explain the mean as a balance point.",
+    "I can choose the best average for a situation."
+  ],
+  "misconceptions": [
+    "The median is the middle of the unsorted list.",
+    "The mean is always one of the data values.",
+    "Outliers don't affect averages."
+  ],
+  "prerequisites": [
+    "mathematics/data/collecting-data"
+  ],
+  "labs": [
+    "dot-plot-balance"
+  ],
+  "keyTerms": [
+    "mean",
+    "median",
+    "mode",
+    "range",
+    "outlier",
+    "average"
+  ],
+  "estMinutes": 25
+}

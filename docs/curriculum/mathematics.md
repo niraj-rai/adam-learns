@@ -117,11 +117,20 @@ CBSE mapping uses the new *Ganita Prakash* books (GP 6; GP 7 Parts 1–2; GP 8 P
 | 8.6 | Volume and capacity | MYP 3 | Earlier NCERT 8 Ch 9 ✅ | ★★ | **Volume Builder**: unit cubes, cylinder layers, water tank |
 | 8.7 | Boss: Space Architect | MYP 3 | Mixed | ★★★ | 10 problems (3 lives) |
 
-### Unit 9 (planned)
+### Unit 9: Data Handling and Probability ✅ built
 
-| Unit | Topics | IB | CBSE | ★ | Signature labs |
+*IB Key Concept:* **Relationships** · *Related:* Representation, Justification, Model · *Global Context:* Fairness and development
+
+| # | Topic | IB | CBSE | ★ | Lab |
 |---|---|---|---|---|---|
-| 9. Data Handling & Probability | Dot plots, mean/median, frequency, pie charts, basic probability | MYP 1–3 | GP 7 P2 Ch 5; GP 8 P2 Ch 3, 5; earlier NCERT 8 Ch 4 | ★★ | **Dice & Spinner**, Chart Maker |
+| 9.1 | Collecting and organising data | MYP 2 | GP 6 Ch 4 ✅, earlier NCERT 8 Ch 4 ✅ | ★ | **Frequency Builder**: tallies, class width, histogram |
+| 9.2 | Mean, median, mode and range | MYP 2 | GP 7 P2 Ch 5 ✅, GP 8 P2 Ch 5 ✅, earlier NCERT 7 Ch 3 ✅ | ★ | **Dot Plot Balance**: mean as balance point; outliers |
+| 9.3 | Charts and graphs | MYP 3 | GP 6 Ch 4 ✅, GP 8 P2 Ch 3 ✅, earlier NCERT 8 Ch 4 ✅ | ★★ | **Chart Maker**: bar/pie/line; cut-axis trick |
+| 9.4 | Chance and experiments | MYP 3 | Earlier NCERT 7 Ch 3 ✅, 8 Ch 4 ✅ | ★★ | **Dice Lab**: experiment vs theory, one or two dice |
+| 9.5 | Probability and sample spaces | MYP 3 | Earlier NCERT 8 Ch 4 ✅ | ★★ | **Sample Space**: 36 outcomes; complements |
+| 9.6 | Boss: Data Detective | MYP 3 | Mixed | ★★★ | 10 cases (3 lives) |
+
+**Mathematics L0–L2 is complete** (9 units).
 
 ## L3: Grades 9–10
 

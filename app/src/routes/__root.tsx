@@ -36,8 +36,14 @@ function RootLayout() {
       <main className="mx-auto max-w-6xl px-4 pt-6 pb-24">
         <Outlet />
       </main>
-      <footer className="border-t py-6 text-center text-xs text-muted-foreground">
-        AdamLearns · IB MYP first, mapped to CBSE/NCERT · Progress is saved on this device
+      <footer className="border-t px-4 py-8 text-center text-xs text-muted-foreground">
+        <p className="font-medium text-foreground/80">© {new Date().getFullYear()} AdamLearns · Free to learn, no sign-up · Your progress stays on this device</p>
+        <nav className="mt-2 flex flex-wrap justify-center gap-x-4 gap-y-1" aria-label="Footer">
+          <Link to="/terms" className="underline-offset-2 hover:underline">Terms of use</Link>
+          <Link to="/privacy" className="underline-offset-2 hover:underline">Privacy policy</Link>
+          <Link to="/curriculum" className="underline-offset-2 hover:underline">Curriculum map</Link>
+        </nav>
+        <p className="mx-auto mt-3 max-w-2xl">A free, supplementary learning aid, not official course material. IB MYP first, mapped to CBSE/NCERT; not affiliated with IB, CBSE or NCERT. Content may contain mistakes: if in doubt, check your course book or ask your teacher.</p>
       </footer>
       <Toaster />
     </div>

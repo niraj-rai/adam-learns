@@ -1,0 +1,54 @@
+{
+  "id": "probability",
+  "number": "9.5",
+  "title": "Probability and Sample Spaces",
+  "summary": "Listing all outcomes, counting favourable ones, complements, and whether games are fair.",
+  "emoji": "🔢",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Theoretical probability with sample spaces is MYP 3 Probability"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 4: Data Handling",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can list all outcomes in a sample space.",
+    "I can calculate probabilities of events.",
+    "I can use P(not A) = 1 − P(A) and judge whether a game is fair."
+  ],
+  "misconceptions": [
+    "All totals of two dice are equally likely.",
+    "P(not A) is found by counting again from scratch every time.",
+    "A game is fair if both players can win."
+  ],
+  "prerequisites": [
+    "mathematics/data/chance-and-experiments",
+    "mathematics/number-systems/fractions"
+  ],
+  "labs": [
+    "sample-space"
+  ],
+  "keyTerms": [
+    "sample space",
+    "event",
+    "equally likely",
+    "complement",
+    "fair"
+  ],
+  "estMinutes": 25
+}

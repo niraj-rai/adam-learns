@@ -33,10 +33,10 @@ function UnitPage() {
 
       <header className="rounded-3xl border-2 bg-card p-6">
         <p className="text-xs font-semibold text-muted-foreground uppercase">Unit {unit.number}</p>
-        <h1 className="font-heading text-4xl font-bold">{unit.title}</h1>
+        <h1 className="font-heading text-3xl font-bold break-words sm:text-4xl">{unit.title}</h1>
         <p className="mt-2 max-w-3xl text-muted-foreground">{unit.summary}</p>
         {first && (
-          <Button asChild size="lg" className="mt-4">
+          <Button asChild size="lg" className="mt-4 h-auto max-w-full py-2 whitespace-normal">
             <Link to="/$subject/$unit/$topic" params={{ subject: unit.subjectId, unit: unit.id, topic: first.id }}>
               {topics[first.key] ? 'Continue' : 'Start'}: {first.title} →
             </Link>

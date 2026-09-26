@@ -1,0 +1,46 @@
+<Stage kind="wonder" title="What's ‘average’?" />
+
+<Hook emoji="⚖️">
+A village has nine families earning about ₹20,000 a month, and one very rich family earning ₹10,00,000. A newspaper says “average income: over ₹1,00,000!” Is that fair? The answer depends on **which** average you use: mean, median or mode.
+</Hook>
+
+<PredictFirst
+  question="Which average is least affected by one extremely large value?"
+  options={["Mean", "Median", "Both change the same", "Neither is affected"]}
+  answer={1}
+>
+The **median** is just the middle value, so one huge value barely moves it. The **mean** adds everything up, so it gets dragged towards the outlier.
+</PredictFirst>
+
+<Stage kind="explain" title="Three averages and a spread" />
+
+<Compare
+  columns={[
+    { title: "Mean", emoji: "⚖️", points: ["Add all, divide by how many", "The balance point", "Pulled by outliers"] },
+    { title: "Median", emoji: "📏", points: ["Sort, take the middle", "Even count: average the middle two", "Resists outliers"] },
+    { title: "Mode", emoji: "👑", points: ["The most common value", "Works for categories too", "Can be none or several"] },
+    { title: "Range", emoji: "↔️", points: ["Largest − smallest", "Measures spread, not centre"] }
+  ]}
+/>
+
+<Formula tex="\text{mean} = \frac{\text{sum of values}}{\text{number of values}}" caption="The mean" />
+
+<Stage kind="try" title="Dot Plot Balance" />
+
+<Lab id="dot-plot-balance" />
+
+<RealLife>
+Cricket statisticians use the batting **average** (runs ÷ times out), economists use the **median** household income, and shoe shops care most about the **mode** size, the one they need to stock most.
+</RealLife>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="Which average is fairest?">
+Find a real data set (cricket scores, monthly temperatures, prices of phones). Calculate the mean, median, mode and range. Write a short report arguing which average best represents a ‘typical’ value, and why.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 7 Part 2 Ch 5 · Ganita Prakash 8 Part 2 Ch 5 · Earlier NCERT 7 Ch 3">
+- Mean, median, mode and range; using averages to compare data sets.
+</CbseCorner>
+
+<Reflect id="math-data-averages" prompt="Describe a situation where the mean would be misleading." />

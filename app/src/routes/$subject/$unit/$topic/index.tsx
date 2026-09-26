@@ -59,10 +59,10 @@ function LessonPage() {
 
         <header className="mt-3">
           <div className="flex items-start gap-4">
-            <span className="text-6xl">{topic.emoji}</span>
-            <div>
+            <span className="text-5xl sm:text-6xl">{topic.emoji}</span>
+            <div className="min-w-0">
               <p className="text-sm font-semibold text-muted-foreground">Topic {topic.number}</p>
-              <h1 className="font-heading text-4xl leading-tight font-bold">{topic.title}</h1>
+              <h1 className="font-heading text-3xl leading-tight font-bold break-words hyphens-auto sm:text-4xl">{topic.title}</h1>
               <div className="mt-2 flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
                 <ComplexityStars value={topic.complexity} />
                 <span className="inline-flex items-center gap-1">
@@ -131,18 +131,18 @@ function LessonPage() {
 
         <div className="mt-6 flex justify-between gap-3">
           {prev ? (
-            <Button asChild variant="ghost">
+            <Button asChild variant="ghost" className="min-w-0 max-w-[48%]">
               <Link to="/$subject/$unit/$topic" params={{ subject: prev.subjectId, unit: prev.unitId, topic: prev.id }}>
-                <ArrowLeft /> {prev.title}
+                <ArrowLeft /> <span className="truncate">{prev.title}</span>
               </Link>
             </Button>
           ) : (
             <span />
           )}
           {next && (
-            <Button asChild variant="ghost">
+            <Button asChild variant="ghost" className="min-w-0 max-w-[48%]">
               <Link to="/$subject/$unit/$topic" params={{ subject: next.subjectId, unit: next.unitId, topic: next.id }}>
-                {next.title} <ArrowRight />
+                <span className="truncate">{next.title}</span> <ArrowRight />
               </Link>
             </Button>
           )}

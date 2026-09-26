@@ -191,7 +191,7 @@ export function Formula({ tex, caption }: { tex: string; caption?: string }) {
   const html = useMemo(() => katex.renderToString(tex, { throwOnError: false, displayMode: true }), [tex])
   return (
     <figure className="not-prose my-4 rounded-xl border bg-card px-4 py-3 text-center">
-      <div dangerouslySetInnerHTML={{ __html: html }} />
+      <div className="overflow-x-auto" dangerouslySetInnerHTML={{ __html: html }} />
       {caption && <figcaption className="text-sm text-muted-foreground">{caption}</figcaption>}
     </figure>
   )

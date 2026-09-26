@@ -1,0 +1,115 @@
+{
+  "topicId": "chance-and-experiments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "On the probability scale, what number means ‘impossible’?",
+      "options": [
+        "½",
+        "−1",
+        "1",
+        "0"
+      ],
+      "answer": 3,
+      "explain": "Probabilities go from 0 (impossible) to 1 (certain)."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "How likely is it that a fair coin lands heads?",
+      "options": [
+        "Certain",
+        "Impossible",
+        "Even chance (½)",
+        "Very unlikely"
+      ],
+      "answer": 2,
+      "explain": "Heads and tails are equally likely."
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Write the probability as a fraction.",
+      "text": "P(rolling a 3 on a fair die) = ___",
+      "blanks": [
+        [
+          "1/6"
+        ]
+      ],
+      "explain": "1 favourable outcome out of 6.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "In 10 rolls of a die, 6 came up 4 times. Does this prove the die is unfair?",
+      "options": [
+        "Yes, because 4 is more than 1",
+        "No, dice are always fair",
+        "Yes, definitely",
+        "No: small samples vary a lot, so roll many more times"
+      ],
+      "answer": 3,
+      "explain": "Short runs are unpredictable; long runs settle down."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "B",
+      "prompt": "A fair coin is tossed 200 times. About how many heads would you expect?",
+      "answer": 100,
+      "unit": "heads",
+      "explain": "½ × 200 = 100.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Explain the difference between experimental and theoretical probability, using rolling a die as an example.",
+      "modelAnswer": "Theoretical probability is worked out by reasoning: a fair die has 6 equally likely outcomes, so P(6) = 1/6. Experimental probability comes from actually rolling: if you roll 60 times and get 12 sixes, the experimental probability is 12/60 = 1/5. With more and more rolls, the experimental probability usually gets closer to the theoretical 1/6.",
+      "rubric": [
+        "Defines theoretical",
+        "Defines experimental with an example",
+        "Mentions getting closer with more trials"
+      ],
+      "explain": "Criterion C: explain two ideas clearly."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "A fair coin has landed heads 5 times in a row. What is the probability that the next toss is heads?",
+      "options": [
+        "More than ½",
+        "Less than ½",
+        "½",
+        "0"
+      ],
+      "answer": 2,
+      "explain": "The coin has no memory: each toss is independent."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "A spinner has 8 equal sectors, 3 of them red. What is P(red) as a decimal?",
+      "answer": 0.375,
+      "explain": "3/8 = 0.375.",
+      "tolerance": 0
+    }
+  ]
+}

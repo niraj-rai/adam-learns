@@ -1,0 +1,55 @@
+{
+  "id": "data-detective",
+  "number": "9.6",
+  "title": "Boss Challenge: Data Detective",
+  "summary": "Ten cases on averages, charts and chance. Three lives!",
+  "emoji": "🕵️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 5: Tales by Dots and Lines",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 4: Data Handling",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can choose and apply statistics and probability to solve problems.",
+    "I can justify conclusions from data."
+  ],
+  "misconceptions": [
+    "A single statistic tells the whole story."
+  ],
+  "prerequisites": [
+    "mathematics/data/probability",
+    "mathematics/data/charts-and-graphs"
+  ],
+  "labs": [
+    "data-detective"
+  ],
+  "keyTerms": [
+    "mean",
+    "median",
+    "pie chart",
+    "probability"
+  ],
+  "estMinutes": 20
+}

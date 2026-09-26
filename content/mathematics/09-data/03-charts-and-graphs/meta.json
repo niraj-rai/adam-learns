@@ -1,0 +1,65 @@
+{
+  "id": "charts-and-graphs",
+  "number": "9.3",
+  "title": "Charts and Graphs",
+  "summary": "Bar graphs, pie charts and line graphs: choosing the right one, drawing pie charts, and spotting misleading graphs.",
+  "emoji": "📊",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Choosing and critiquing representations is MYP 3 Criterion D"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Ganita Prakash Ch 4: Data Handling and Presentation",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Part 2 Ch 3: Proportional Reasoning-2",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 4: Data Handling",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can draw and read bar graphs, pie charts and line graphs.",
+    "I can calculate pie chart angles.",
+    "I can spot misleading graphs."
+  ],
+  "misconceptions": [
+    "Any chart works for any data.",
+    "Pie chart angles are the same as percentages.",
+    "A graph is always honest."
+  ],
+  "prerequisites": [
+    "mathematics/data/collecting-data",
+    "mathematics/proportion/percentages"
+  ],
+  "labs": [
+    "chart-maker"
+  ],
+  "keyTerms": [
+    "bar graph",
+    "pie chart",
+    "sector",
+    "line graph",
+    "axis",
+    "misleading"
+  ],
+  "estMinutes": 25
+}

@@ -1,0 +1,57 @@
+{
+  "id": "collecting-data",
+  "number": "9.1",
+  "title": "Collecting and Organising Data",
+  "summary": "Statistical questions, tally marks, frequency tables, class intervals and histograms.",
+  "emoji": "📋",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Organising data is MYP 2 Statistics"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Ganita Prakash Ch 4: Data Handling and Presentation",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 4: Data Handling",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can ask statistical questions and collect data.",
+    "I can organise data in tally and frequency tables, including grouped data.",
+    "I can draw and read histograms."
+  ],
+  "misconceptions": [
+    "A histogram is the same as a bar graph.",
+    "A value on a class boundary goes in both classes.",
+    "Narrower classes are always better."
+  ],
+  "prerequisites": [],
+  "labs": [
+    "frequency-builder"
+  ],
+  "keyTerms": [
+    "data",
+    "statistical question",
+    "frequency",
+    "tally",
+    "class interval",
+    "histogram"
+  ],
+  "estMinutes": 25
+}

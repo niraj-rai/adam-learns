@@ -1,0 +1,104 @@
+{
+  "topicId": "data-detective",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find the mean of 4, 7, 9, 10, 15.",
+      "answer": 9,
+      "explain": "45 ÷ 5.",
+      "tolerance": 0
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the median of 3, 8, 5, 12, 7, 10.",
+      "answer": 7.5,
+      "explain": "Sorted: 3, 5, 7, 8, 10, 12 → (7 + 8) ÷ 2.",
+      "tolerance": 0
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "30 of 120 students chose cricket. What is the angle of its pie-chart slice?",
+      "answer": 90,
+      "unit": "°",
+      "explain": "¼ of 360°.",
+      "tolerance": 0
+    },
+    {
+      "id": "q4",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Write the probability as a fraction.",
+      "text": "P(two dice total 7) = ___",
+      "blanks": [
+        [
+          "1/6",
+          "6/36"
+        ]
+      ],
+      "explain": "6 of 36 outcomes."
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Choose one Data Detective case. Explain the method you used and why the wrong answers were tempting.",
+      "modelAnswer": "For the median case, I sorted the numbers (3, 5, 7, 8, 10, 12) and averaged the middle two, 7 and 8, to get 7.5. A tempting mistake is to take the middle of the unsorted list (5 and 12, giving 8.5), or to forget to average the two middle values.",
+      "rubric": [
+        "Explains the method",
+        "Identifies a tempting mistake",
+        "Explains why it's wrong"
+      ],
+      "explain": "Criterion C: communicate reasoning."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A graph's axis starts at 90 instead of 0. What should a careful reader think?",
+      "options": [
+        "Nothing: it makes no difference",
+        "The graph is more accurate",
+        "The differences may look bigger than they really are",
+        "The data must be wrong"
+      ],
+      "answer": 2,
+      "explain": "Always check the axis."
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Adam's mean score in 5 tests is 80. What is his total score?",
+      "answer": 400,
+      "explain": "Mean × count = 400.",
+      "tolerance": 0
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Write the probability as a fraction.",
+      "text": "A bag has 3 red and 5 blue marbles. P(red) = ___",
+      "blanks": [
+        [
+          "3/8"
+        ]
+      ],
+      "explain": "3 out of 8."
+    }
+  ]
+}

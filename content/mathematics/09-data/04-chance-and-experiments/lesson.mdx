@@ -1,0 +1,45 @@
+<Stage kind="wonder" title="Feeling lucky?" />
+
+<Hook emoji="🎲">
+Toss a coin 10 times and you might get 7 heads. Does that mean the coin is biased? Toss it 10,000 times and you'll get very close to 5,000 heads. **Probability** is the maths of chance: it can't predict one toss, but it's amazingly accurate over many.
+</Hook>
+
+<PredictFirst
+  question="A fair coin lands heads 5 times in a row. What's the chance the next toss is heads?"
+  options={["Less than ½: tails is due", "Exactly ½", "More than ½: it's on a streak", "0"]}
+  answer={1}
+>
+Still exactly **½**. The coin has no memory: every toss is independent. Believing tails is ‘due’ is called the **gambler's fallacy**.
+</PredictFirst>
+
+<Stage kind="explain" title="The probability scale" />
+
+<Compare
+  columns={[
+    { title: "0", emoji: "🚫", points: ["Impossible", "Rolling a 7 on a normal die"] },
+    { title: "½", emoji: "⚖️", points: ["Even chance", "Heads on a fair coin"] },
+    { title: "1", emoji: "✅", points: ["Certain", "Rolling a number less than 7"] }
+  ]}
+/>
+
+<Formula tex="\text{experimental probability} = \frac{\text{number of times the event happened}}{\text{number of trials}}" caption="From an experiment" />
+
+<Stage kind="try" title="Dice Lab" />
+
+<Lab id="dice-lab" />
+
+<DidYouKnow>
+Probability theory began with gamblers' questions in 17th-century France, when Blaise Pascal and Pierre de Fermat exchanged letters about dice games. Today it is used for weather forecasts, insurance, medicine and AI.
+</DidYouKnow>
+
+<Stage kind="apply" title="Communicate" />
+
+<Inquiry criterion="C" title="Is it fair?">
+Toss a coin (or a bottle cap, or a paper cup) 50 times and record the results. Calculate the experimental probability of each outcome. Is the object ‘fair’? Present your data in a table and a chart, and explain your conclusion.
+</Inquiry>
+
+<CbseCorner source="Earlier NCERT 7 Ch 3 · Earlier NCERT 8 Ch 4">
+- Chance and probability; outcomes of experiments; equally likely outcomes.
+</CbseCorner>
+
+<Reflect id="math-data-chance" prompt="Where do you see probability used in everyday life?" />
