@@ -1,0 +1,53 @@
+<Stage kind="wonder" title="Magic or maths?" />
+
+<Hook emoji="🔍">
+Add the digits of 918,082: 9 + 1 + 8 + 0 + 8 + 2 = 28. Not a multiple of 3, so 918,082 is not divisible by 3. You just checked a six-digit number without dividing! Divisibility tests feel like magic tricks. In this lesson, you'll find out *why* they work, and meet a number mystery involving powers of 2.
+</Hook>
+
+<PredictFirst
+  question="Is 123,456,789 divisible by 9?"
+  options={["Yes", "No", "Only with a calculator can you tell", "It's divisible by 9 but not 3"]}
+  answer={0}
+>
+1 + 2 + 3 + … + 9 = 45, and 45 is divisible by 9, so 123,456,789 is divisible by 9 (it equals 9 × 13,717,421).
+</PredictFirst>
+
+<Stage kind="explain" title="Why the tests work" />
+
+<StepReveal
+  steps={[
+    "Write 5274 by place value: 5 × 1000 + 2 × 100 + 7 × 10 + 4.",
+    "Each place value is a multiple of 9, plus 1: 1000 = 999 + 1, 100 = 99 + 1, 10 = 9 + 1.",
+    "So 5274 = (5 × 999 + 2 × 99 + 7 × 9) + (5 + 2 + 7 + 4).",
+    "The first bracket is always a multiple of 9. So 5274 and its digit sum 18 leave the same remainder when divided by 9.",
+    "18 is divisible by 9, so 5274 is too. The same idea works for 3, since 999, 99 and 9 are multiples of 3."
+  ]}
+/>
+
+<Compare
+  columns={[
+    { title: "Last digits", emoji: "🔚", points: ["2: last digit even", "4: last two digits", "8: last three digits", "5 and 10: last digit"] },
+    { title: "Digit sums", emoji: "➕", points: ["3: digit sum ÷ 3", "9: digit sum ÷ 9", "11: alternating sum ÷ 11", "6: tests for 2 and 3"] }
+  ]}
+/>
+
+<Stage kind="try" title="Number Play" />
+
+<Lab id="number-play" />
+
+<MythFact myth="If a number is divisible by 2 and by 4, it must be divisible by 8.">
+12 is divisible by 2 and 4, but not 8. The test for 8 needs the **last three digits**. Combined tests only work for co-prime pairs: 2 and 3 give 6, 3 and 4 give 12.
+</MythFact>
+
+<Stage kind="apply" title="Communicate" />
+
+<Inquiry criterion="C" title="Prove it with letters">
+Use algebra to prove two of these: (a) the sum of three consecutive numbers is divisible by 3; (b) the sum of two odd numbers is even; (c) the difference between a two-digit number and its reverse is divisible by 9. Write each proof clearly, then test it with an example.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Ch 5 · Ganita Prakash 7 Ch 6">
+- Divisibility rules and why they work; digit sums and remainders.
+- Consecutive numbers, parity (odd and even), and number puzzles.
+</CbseCorner>
+
+<Reflect id="math-sq-play" prompt="Which divisibility test surprised you most, and can you explain why it works?" />

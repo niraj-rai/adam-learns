@@ -21,11 +21,23 @@ CBSE mapping uses the new *Ganita Prakash* books (GP 6; GP 7 Parts 1–2; GP 8 P
 | 1.5 | Decimals and rational numbers | MYP 3 | GP 7 Ch 3 ✅, GP 7 P2 Ch 4 ✅, earlier NCERT 8 Ch 1 ✅ | ★★ | **Rational Zoom**: terminating vs recurring; density |
 | 1.6 | Boss: Number Ninja | MYP 3 | Mixed | ★★★ | 10 mixed problems (3 lives) |
 
-### Units 2–9 (planned)
+### Unit 2: Squares, Cubes and Roots ✅ built
+
+*IB Key Concept:* **Relationships** · *Related:* Pattern, Quantity, Generalization · *Global Context:* Scientific and technical innovation
+
+| # | Topic | IB | CBSE | ★ | Lab |
+|---|---|---|---|---|---|
+| 2.1 | Primes, factors and factor trees | MYP 2 | GP 6 Ch 5 ✅, GP 7 P2 Ch 3 ✅ | ★ | **Factor Tree**: split to primes; HCF/LCM Venn |
+| 2.2 | Square numbers and patterns | MYP 3 | GP 8 Ch 1 ✅, earlier NCERT 8 Ch 5 ✅ | ★★ | **Square Builder** (odd layers, last digits) + **The Locker Puzzle** |
+| 2.3 | Square roots | MYP 3 | GP 8 Ch 1 ✅, earlier NCERT 8 Ch 5 ✅ | ★★ | **Root Finder**: squeeze, pair primes, guess-divide-average |
+| 2.4 | Cubes and cube roots | MYP 3 | GP 8 Ch 1 ✅, earlier NCERT 8 Ch 6 ✅ | ★★ | **Cube Builder**: isometric cubes, prime triples, 1729 search |
+| 2.5 | Number play: divisibility and patterns | MYP 3 | GP 8 Ch 5 ✅, GP 7 Ch 6 ✅ | ★★ | **Number Play**: 9 divisibility tests with reasons; consecutive sums |
+| 2.6 | Boss: Root Raider | MYP 3 | Mixed | ★★★ | 10 mixed problems (3 lives) |
+
+### Units 3–9 (planned)
 
 | Unit | Topics | IB | CBSE | ★ | Signature labs |
 |---|---|---|---|---|---|
-| 2. Squares, Cubes & Roots | Square and cube numbers, roots, estimation, number play and divisibility | MYP 2–3 | GP 8 Ch 1, Ch 5; earlier NCERT 8 Ch 5–6 | ★★ | **Square Builder**, Divisibility Detective |
 | 3. Powers & Exponents | Exponent laws, negative exponents, scientific notation, history of number systems | MYP 2–3 | GP 8 Ch 2–3; earlier NCERT 8 Ch 10 | ★★ | **Power Tower**, Scale of the Universe |
 | 4. Algebra: Expressions & Identities | Letter-numbers, expressions, distributive property, identities, factorisation, algebra play | MYP 2–3 | GP 7 Ch 4; GP 8 Ch 6, P2 Ch 6; earlier NCERT 8 Ch 8, 12 | ★★★ | **Algebra Tiles** |
 | 5. Linear Equations & Graphs | Solving linear equations, coordinates, linear graphs, real-world graphs | MYP 2–3 | GP 7 P2 Ch 7; earlier NCERT 8 Ch 2, 13 | ★★★ | **Balance Scale** solver, **Plot It** |

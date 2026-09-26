@@ -1,0 +1,61 @@
+{
+  "id": "primes-and-factors",
+  "number": "2.1",
+  "title": "Primes, Factors and Factor Trees",
+  "summary": "Every whole number is built from primes. Factor trees, prime factorisation, HCF and LCM.",
+  "emoji": "🌳",
+  "complexity": 1,
+  "level": "L1",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 2,
+      "note": "Prime factorisation is MYP 1–2 Number"
+    },
+    "cbse": [
+      {
+        "class": 6,
+        "chapter": "Ganita Prakash Ch 5: Prime Time",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Part 2 Ch 3: Finding Common Ground",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can find the prime factorisation of a number using a factor tree.",
+    "I can find the HCF and LCM using prime factors.",
+    "I can use HCF and LCM to solve real problems."
+  ],
+  "misconceptions": [
+    "1 is a prime number.",
+    "All odd numbers are prime.",
+    "Different factor trees give different prime factors."
+  ],
+  "prerequisites": [
+    "mathematics/number-systems/multiplying-integers"
+  ],
+  "labs": [
+    "factor-tree"
+  ],
+  "keyTerms": [
+    "prime",
+    "composite",
+    "factor",
+    "multiple",
+    "prime factorisation",
+    "HCF",
+    "LCM",
+    "co-prime"
+  ],
+  "estMinutes": 25
+}

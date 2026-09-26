@@ -1,0 +1,138 @@
+{
+  "topicId": "square-numbers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which of these are perfect squares? Choose all that apply.",
+      "options": [
+        "144",
+        "200",
+        "225",
+        "350",
+        "441",
+        "484"
+      ],
+      "answer": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "explain": "144 = 12², 225 = 15², 441 = 21², 484 = 22².",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which number can you tell is NOT a perfect square just from its last digit?",
+      "options": [
+        "4087",
+        "1296",
+        "2025",
+        "6561"
+      ],
+      "answer": 0,
+      "explain": "Squares never end in 2, 3, 7 or 8. The others are all squares: 36², 45², 81²."
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Work out 1 + 3 + 5 + … + 29.",
+      "answer": 225,
+      "explain": "There are 15 odd numbers from 1 to 29, so the sum is 15² = 225.",
+      "tolerance": 0
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Work out 35² − 34² without finding either square.",
+      "answer": 69,
+      "explain": "(n + 1)² − n² = n + (n + 1), so 35² − 34² = 34 + 35 = 69.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "How many non-square whole numbers lie between 12² and 13²?",
+      "options": [
+        "24",
+        "25",
+        "12",
+        "13"
+      ],
+      "answer": 0,
+      "explain": "Between n² and (n + 1)² there are 2n numbers: 2 × 12 = 24 (from 145 to 168).",
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Work out 25².",
+      "answer": 625,
+      "explain": "25 × 25 = 625. Shortcut: 2 × 3 = 6, then write 25 → 625.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Explain why a perfect square can never end in 7.",
+      "modelAnswer": "The last digit of a square depends only on the last digit of the number being squared. Squaring 0–9 gives last digits 0, 1, 4, 9, 6, 5, 6, 9, 4, 1. None of these is 7, so no square can end in 7.",
+      "rubric": [
+        "Last digit depends only on the last digit",
+        "Checks all ten cases",
+        "Clear conclusion"
+      ],
+      "explain": "Criterion C: a complete, logical argument."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "In the locker puzzle, locker 36 is toggled by everyone whose number is a factor of 36. What happens to it?",
+      "options": [
+        "9 people toggle it, so it ends up open",
+        "8 people toggle it, so it ends up closed",
+        "6 people toggle it, so it ends up closed",
+        "36 people toggle it"
+      ],
+      "answer": 0,
+      "explain": "36 has 9 factors (1, 2, 3, 4, 6, 9, 12, 18, 36). An odd number of toggles leaves it open."
+    },
+    {
+      "id": "q9",
+      "type": "fill-blank",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Complete the sentence.",
+      "text": "A number multiplied by itself gives a ___ number.",
+      "blanks": [
+        [
+          "square"
+        ]
+      ],
+      "wordBank": [
+        "square",
+        "cube",
+        "prime"
+      ],
+      "explain": "7 × 7 = 49 is a square number."
+    }
+  ]
+}

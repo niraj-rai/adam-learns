@@ -1,0 +1,50 @@
+<Stage kind="wonder" title="The atoms of numbers" />
+
+<Hook emoji="🌳">
+Chemists know that every substance is built from atoms. Mathematicians have their own atoms: the **prime numbers**. Every whole number bigger than 1 is built by multiplying primes together, in exactly one way. Your phone even relies on this: online security uses numbers made from two giant primes that are almost impossible to split apart.
+</Hook>
+
+<PredictFirst
+  question="Is 1 a prime number?"
+  options={["Yes, it only divides by itself", "No, a prime has exactly two factors", "Yes, it's the first prime", "Only sometimes"]}
+  answer={1}
+>
+A **prime** has exactly two factors: 1 and itself. The number 1 has only one factor, so it is **not** prime. (If 1 were prime, prime factorisations wouldn't be unique: 6 = 2 × 3 = 1 × 2 × 3 = 1 × 1 × 2 × 3…)
+</PredictFirst>
+
+<Stage kind="explain" title="Factor trees" />
+
+<StepReveal
+  steps={[
+    "Start with 360. Split it into any two factors: 360 = 10 × 36.",
+    "Keep splitting anything that isn't prime: 10 = 2 × 5, and 36 = 6 × 6.",
+    "Split again: each 6 = 2 × 3.",
+    "Every branch now ends in a prime: 360 = 2 × 2 × 2 × 3 × 3 × 5.",
+    "Write it with powers: 360 = 2³ × 3² × 5. Any factor tree for 360 ends with these same primes."
+  ]}
+/>
+
+<ConceptCard title="HCF and LCM from primes">
+The <KeyTerm def="Highest Common Factor: the biggest number that divides both">HCF</KeyTerm> multiplies the primes the two numbers **share**. The <KeyTerm def="Lowest Common Multiple: the smallest number both divide into">LCM</KeyTerm> multiplies **all** the primes, counting shared ones once. For 12 = 2 × 2 × 3 and 18 = 2 × 3 × 3: HCF = 2 × 3 = 6, LCM = 2 × 2 × 3 × 3 = 36.
+</ConceptCard>
+
+<Stage kind="try" title="Factor Tree" />
+
+<Lab id="factor-tree" />
+
+<DidYouKnow>
+Around 300 BCE, Euclid proved there are **infinitely many primes**. The largest prime known today has over 41 million digits!
+</DidYouKnow>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="HCF and LCM in real life">
+Find (or invent) two real situations: one that needs an HCF (like cutting ribbons or tiling a floor with no waste) and one that needs an LCM (like timetables, traffic lights or planet alignments). Solve both, and explain how you knew which one to use.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 6 Ch 5 · Ganita Prakash 7 Part 2 Ch 3">
+- Primes, composites, co-primes; prime factorisation by factor trees and division.
+- HCF and LCM by prime factorisation; HCF × LCM = product of the two numbers.
+</CbseCorner>
+
+<Reflect id="math-sq-primes" prompt="Why do you think mathematicians call primes the ‘building blocks’ of numbers?" />

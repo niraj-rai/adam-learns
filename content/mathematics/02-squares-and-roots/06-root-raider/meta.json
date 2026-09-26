@@ -1,0 +1,56 @@
+{
+  "id": "root-raider",
+  "number": "2.6",
+  "title": "Boss Challenge: Root Raider",
+  "summary": "Ten problems on primes, squares, cubes and roots. Three lives!",
+  "emoji": "🏴‍☠️",
+  "complexity": 3,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Unit summative-style task (Criteria A, C and D)"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 1: A Square and A Cube",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 5: Number Play",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can choose a strategy for squares, cubes and roots problems.",
+    "I can explain and check my reasoning."
+  ],
+  "misconceptions": [
+    "You must always calculate: patterns can't give answers."
+  ],
+  "prerequisites": [
+    "mathematics/squares-and-roots/square-roots",
+    "mathematics/squares-and-roots/cubes-and-cube-roots"
+  ],
+  "labs": [
+    "root-raider"
+  ],
+  "keyTerms": [
+    "perfect square",
+    "perfect cube",
+    "square root",
+    "cube root",
+    "prime factorisation"
+  ],
+  "estMinutes": 20
+}

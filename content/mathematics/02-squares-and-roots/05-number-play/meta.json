@@ -1,0 +1,59 @@
+{
+  "id": "number-play",
+  "number": "2.5",
+  "title": "Number Play: Divisibility and Patterns",
+  "summary": "Why divisibility tests work, sums of consecutive numbers, and reasoning about odd and even.",
+  "emoji": "🔍",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Justifying patterns algebraically builds MYP Criteria B and C"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 5: Number Play",
+        "verified": true
+      },
+      {
+        "class": 7,
+        "chapter": "Ganita Prakash Ch 6: Number Play",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can use divisibility tests for 2, 3, 4, 5, 6, 8, 9, 10 and 11.",
+    "I can explain why some divisibility tests work.",
+    "I can investigate and justify number patterns."
+  ],
+  "misconceptions": [
+    "Divisibility tests are just tricks with no reason.",
+    "If a number is divisible by 2 and 4, it must be divisible by 8.",
+    "Every number can be written as a sum of consecutive numbers."
+  ],
+  "prerequisites": [
+    "mathematics/squares-and-roots/primes-and-factors"
+  ],
+  "labs": [
+    "number-play"
+  ],
+  "keyTerms": [
+    "divisible",
+    "digit sum",
+    "remainder",
+    "consecutive numbers",
+    "parity",
+    "power of 2"
+  ],
+  "estMinutes": 25
+}

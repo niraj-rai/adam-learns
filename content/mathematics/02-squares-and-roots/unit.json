@@ -1,0 +1,37 @@
+{
+  "id": "squares-and-roots",
+  "number": 2,
+  "title": "Squares, Cubes and Roots",
+  "summary": "Primes as the building blocks of numbers, square and cube numbers and their surprising patterns, how to find roots, the locker puzzle, and Ramanujan's taxicab number 1729.",
+  "ib": {
+    "keyConcept": "Relationships",
+    "relatedConcepts": [
+      "Pattern",
+      "Quantity",
+      "Generalization"
+    ],
+    "globalContext": "Scientific and technical innovation",
+    "statementOfInquiry": "Patterns in how numbers are built from primes help us generalize, predict and solve problems about squares, cubes and their roots."
+  },
+  "inquiryQuestions": {
+    "factual": [
+      "What is a prime factorisation?",
+      "How do we find square roots and cube roots?",
+      "Which last digits can a square number have?"
+    ],
+    "conceptual": [
+      "Why do perfect squares have an odd number of factors?",
+      "How does pairing prime factors reveal a square root?"
+    ],
+    "debatable": [
+      "Is it better to learn divisibility tricks or to understand why they work?",
+      "Should calculators be allowed when finding square roots?"
+    ]
+  },
+  "cbseChapters": [
+    "Class 8 (Ganita Prakash) Ch 1: A Square and A Cube",
+    "Class 8 (Ganita Prakash) Ch 5: Number Play",
+    "Class 6 (Ganita Prakash) Ch 5: Prime Time; Class 7 Part 2 Ch 3: Finding Common Ground",
+    "Earlier NCERT Class 8 Ch 5: Squares and Square Roots; Ch 6: Cubes and Cube Roots"
+  ]
+}

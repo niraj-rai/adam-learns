@@ -1,0 +1,136 @@
+{
+  "topicId": "cubes-and-cube-roots",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Which of these are perfect cubes? Choose all that apply.",
+      "options": [
+        "64",
+        "100",
+        "125",
+        "216",
+        "400",
+        "1000"
+      ],
+      "answer": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "explain": "64 = 4³, 125 = 5³, 216 = 6³, 1000 = 10³.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find ∛3375.",
+      "answer": 15,
+      "explain": "3375 = 3³ × 5³, so ∛3375 = 3 × 5 = 15.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the smallest number you must multiply 500 by to get a perfect cube?",
+      "answer": 2,
+      "explain": "500 = 2² × 5³. The 2s need one more 2 to make a triple: 500 × 2 = 1000 = 10³.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Work out 11³.",
+      "answer": 1331,
+      "explain": "11 × 11 = 121, and 121 × 11 = 1331.",
+      "tolerance": 0
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "A big cube is built from 512 small unit cubes. How many small cubes long is each edge?",
+      "answer": 8,
+      "explain": "8 × 8 × 8 = 512, so the edge is 8.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": 3,
+      "ibCriterion": "B",
+      "prompt": "Look: 1³ = 1, 2³ = 3 + 5, 3³ = 7 + 9 + 11. Which continues the pattern for 4³?",
+      "options": [
+        "13 + 15 + 17 + 19",
+        "11 + 13 + 15 + 17",
+        "13 + 15 + 17",
+        "15 + 17 + 19 + 21"
+      ],
+      "answer": 0,
+      "explain": "The next four odd numbers after 11 are 13, 15, 17, 19, and they add up to 64 = 4³."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "A number ends in 7. What is the last digit of its cube?",
+      "options": [
+        "3",
+        "7",
+        "9",
+        "1"
+      ],
+      "answer": 0,
+      "explain": "7 × 7 × 7 = 343, so the cube ends in 3. (Cubes can end in any digit.)"
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "Ramanujan's number: 1729 = 9³ + ?³. Find the missing number.",
+      "answer": 10,
+      "explain": "1729 − 729 = 1000 = 10³.",
+      "tolerance": 0
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the sign of the cube of a negative number?",
+      "options": [
+        "Negative",
+        "Positive",
+        "Zero",
+        "It depends"
+      ],
+      "answer": 0,
+      "explain": "(−2)³ = (−2) × (−2) × (−2) = −8: three negative factors give a negative answer."
+    },
+    {
+      "id": "q10",
+      "type": "numeric",
+      "difficulty": 3,
+      "ibCriterion": "D",
+      "prompt": "A metal block 8 cm × 4 cm × 2 cm is melted and recast as a cube. What is the edge of the cube?",
+      "answer": 4,
+      "unit": "cm",
+      "explain": "Volume = 64 cm³, and ∛64 = 4 cm.",
+      "tolerance": 0
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "square-roots",
+  "number": "2.3",
+  "title": "Square Roots",
+  "summary": "Finding square roots by prime factors and estimation, and meeting irrational numbers like √2.",
+  "emoji": "🎯",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Square roots and irrational numbers are MYP 3 Number"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 1: A Square and A Cube",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 5: Squares and Square Roots",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "C",
+    "D"
+  ],
+  "objectives": [
+    "I can find square roots of perfect squares using prime factorisation.",
+    "I can estimate square roots between whole numbers.",
+    "I can solve problems involving squares and square roots."
+  ],
+  "misconceptions": [
+    "√n means n ÷ 2.",
+    "Every square root is a whole number or a simple fraction.",
+    "√(a + b) = √a + √b."
+  ],
+  "prerequisites": [
+    "mathematics/squares-and-roots/square-numbers"
+  ],
+  "labs": [
+    "root-finder"
+  ],
+  "keyTerms": [
+    "square root",
+    "√",
+    "perfect square",
+    "estimate",
+    "irrational number"
+  ],
+  "estMinutes": 25
+}

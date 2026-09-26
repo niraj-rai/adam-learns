@@ -1,0 +1,59 @@
+{
+  "id": "square-numbers",
+  "number": "2.2",
+  "title": "Square Numbers and Patterns",
+  "summary": "Square numbers as square arrays, the odd-number pattern, last digits, and the locker puzzle.",
+  "emoji": "🟧",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Investigating number patterns builds MYP Criterion B"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 1: A Square and A Cube",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 5: Squares and Square Roots",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "C"
+  ],
+  "objectives": [
+    "I can recognise and calculate square numbers.",
+    "I can describe and explain patterns in square numbers.",
+    "I can use last digits to rule out perfect squares."
+  ],
+  "misconceptions": [
+    "Squaring means multiplying by 2.",
+    "If a number ends in 1, 4, 5, 6, 9 or 0, it must be a square.",
+    "Most numbers have an odd number of factors."
+  ],
+  "prerequisites": [
+    "mathematics/squares-and-roots/primes-and-factors"
+  ],
+  "labs": [
+    "square-builder",
+    "locker-puzzle"
+  ],
+  "keyTerms": [
+    "square number",
+    "perfect square",
+    "n²",
+    "odd number",
+    "factor pair"
+  ],
+  "estMinutes": 30
+}

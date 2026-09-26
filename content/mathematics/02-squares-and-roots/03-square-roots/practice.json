@@ -1,0 +1,115 @@
+{
+  "topicId": "square-roots",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find √1296.",
+      "answer": 36,
+      "explain": "1296 = 2⁴ × 3⁴, so √1296 = 2² × 3² = 36.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find √3136.",
+      "answer": 56,
+      "explain": "3136 = 2⁶ × 7², so √3136 = 2³ × 7 = 56.",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Between which two whole numbers does √70 lie?",
+      "options": [
+        "8 and 9",
+        "7 and 8",
+        "9 and 10",
+        "34 and 36"
+      ],
+      "answer": 0,
+      "explain": "64 < 70 < 81, so 8 < √70 < 9."
+    },
+    {
+      "id": "q4",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the smallest number you must multiply 180 by to get a perfect square?",
+      "answer": 5,
+      "explain": "180 = 2² × 3² × 5. The 5 has no partner, so multiply by 5: 900 = 30².",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the smallest number you must divide 252 by to get a perfect square?",
+      "answer": 7,
+      "explain": "252 = 2² × 3² × 7. Divide by the unpaired 7: 36 = 6².",
+      "tolerance": 0,
+      "cbseStyle": true
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "A square field has an area of 1225 m². How much fencing is needed to go all the way around it?",
+      "answer": 140,
+      "unit": "m",
+      "explain": "Side = √1225 = 35 m, so the perimeter is 4 × 35 = 140 m.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "2025 students stand in a square formation, with the same number in each row and column. How many are in each row?",
+      "answer": 45,
+      "unit": "students",
+      "explain": "√2025 = 45.",
+      "tolerance": 0
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Use “guess, divide, average” once to improve the guess 3 for √10. Show your working and check your answer.",
+      "modelAnswer": "10 ÷ 3 = 3.333… The average of 3 and 3.333 is 3.1667. Check: 3.1667² ≈ 10.03, much closer to 10 than 3² = 9.",
+      "rubric": [
+        "Divides 10 by 3",
+        "Averages the two values",
+        "Checks by squaring"
+      ],
+      "explain": "Criterion C: show clear, organised working."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Which of these is irrational (its decimal never ends or repeats)?",
+      "options": [
+        "√2",
+        "√49",
+        "√0.25",
+        "√(9/16)"
+      ],
+      "answer": 0,
+      "explain": "2 is not a perfect square, so √2 = 1.41421356… is irrational. √49 = 7, √0.25 = 0.5, √(9/16) = 3/4."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<Stage kind="wonder" title="Going backwards" />
+
+<Hook emoji="🎯">
+A square garden has an area of 1225 m². How long is each side? Squaring turns a side into an area; a **square root** goes backwards, from area to side. For 1225 it's a neat 35 m. But what about a square with an area of 2 m²? Its side is a number whose decimals go on forever without repeating.
+</Hook>
+
+<PredictFirst
+  question="What is √64?"
+  options={["32", "8", "4", "128"]}
+  answer={1}
+>
+√64 asks “which number times itself makes 64?” 8 × 8 = 64, so √64 = 8. It is **not** 64 ÷ 2.
+</PredictFirst>
+
+<Stage kind="explain" title="Three methods" />
+
+<StepReveal
+  steps={[
+    "Pair the primes: 324 = 2 × 2 × 3 × 3 × 3 × 3 = (2 × 2) × (3 × 3) × (3 × 3).",
+    "Take one from each pair: √324 = 2 × 3 × 3 = 18.",
+    "Squeeze: for a non-square like 50, find the squares either side: 49 < 50 < 64, so 7 < √50 < 8, very close to 7.",
+    "Refine: guess 7, work out 50 ÷ 7 ≈ 7.14, and average them: 7.07. Check: 7.07² ≈ 49.98.",
+    "√50 = 7.0710678… The decimals never end or repeat: it is irrational."
+  ]}
+/>
+
+<Formula tex="\sqrt{n} \times \sqrt{n} = n \qquad \sqrt{a \times b} = \sqrt{a} \times \sqrt{b}" caption="Square roots undo squaring" />
+
+<Stage kind="try" title="Root Finder" />
+
+<Lab id="root-finder" />
+
+<DidYouKnow>
+The **Śulba Sūtras**, ancient Indian texts on building fire altars (written roughly 800–500 BCE), give √2 ≈ 1 + 1/3 + 1/(3·4) − 1/(3·4·34) = 1.4142156…, correct to five decimal places.
+</DidYouKnow>
+
+<MythFact myth="√(9 + 16) = √9 + √16 = 3 + 4 = 7.">
+√(9 + 16) = √25 = **5**, not 7. Square roots split over multiplication (√(4 × 9) = 2 × 3), but **not** over addition.
+</MythFact>
+
+<Stage kind="apply" title="Apply" />
+
+<Inquiry criterion="D" title="Square roots at home">
+Measure a square (or nearly square) room, tile, or table top at home and find its area. Then imagine you only knew the area: use two different methods from this lesson to find the side, and compare with your measurement.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Ch 1 · Earlier NCERT 8 Ch 5">
+- Square roots by prime factorisation and by repeated subtraction of odd numbers.
+- Estimating square roots; smallest number to multiply or divide by to make a perfect square.
+</CbseCorner>
+
+<Reflect id="math-sq-roots" prompt="Which method for finding square roots do you prefer, and when would you use each one?" />

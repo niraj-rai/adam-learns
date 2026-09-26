@@ -1,0 +1,59 @@
+{
+  "id": "cubes-and-cube-roots",
+  "number": "2.4",
+  "title": "Cubes and Cube Roots",
+  "summary": "Cube numbers as stacks of unit cubes, cube roots by prime triples, and Ramanujan's number 1729.",
+  "emoji": "🧊",
+  "complexity": 2,
+  "level": "L2",
+  "core": true,
+  "grades": {
+    "ib": {
+      "programme": "MYP",
+      "year": 3,
+      "note": "Cubes and cube roots are MYP 3 Number"
+    },
+    "cbse": [
+      {
+        "class": 8,
+        "chapter": "Ganita Prakash Ch 1: A Square and A Cube",
+        "verified": true
+      },
+      {
+        "class": 8,
+        "chapter": "Earlier NCERT Ch 6: Cubes and Cube Roots",
+        "verified": true
+      }
+    ]
+  },
+  "ibCriteria": [
+    "A",
+    "B",
+    "D"
+  ],
+  "objectives": [
+    "I can calculate cube numbers and recognise perfect cubes.",
+    "I can find cube roots using prime factorisation.",
+    "I can describe patterns in cube numbers."
+  ],
+  "misconceptions": [
+    "Cubing means multiplying by 3.",
+    "The cube of a negative number is positive.",
+    "A perfect square can't also be a perfect cube."
+  ],
+  "prerequisites": [
+    "mathematics/squares-and-roots/primes-and-factors"
+  ],
+  "labs": [
+    "cube-builder"
+  ],
+  "keyTerms": [
+    "cube number",
+    "perfect cube",
+    "n³",
+    "cube root",
+    "∛",
+    "taxicab number"
+  ],
+  "estMinutes": 25
+}

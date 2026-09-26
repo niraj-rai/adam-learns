@@ -1,0 +1,111 @@
+{
+  "topicId": "root-raider",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "Find √576.",
+      "answer": 24,
+      "explain": "576 = 2⁶ × 3², so √576 = 2³ × 3 = 24.",
+      "tolerance": 0
+    },
+    {
+      "id": "q2",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "D",
+      "prompt": "In the locker puzzle with 50 lockers and 50 people, how many lockers end up open?",
+      "answer": 7,
+      "unit": "lockers",
+      "explain": "The squares up to 50: 1, 4, 9, 16, 25, 36, 49. That's 7.",
+      "tolerance": 0
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is 1 + 3 + 5 + … + 19?",
+      "options": [
+        "100",
+        "190",
+        "81",
+        "110"
+      ],
+      "answer": 0,
+      "explain": "Ten odd numbers, so 10² = 100."
+    },
+    {
+      "id": "q4",
+      "type": "short-answer",
+      "difficulty": 2,
+      "ibCriterion": "C",
+      "prompt": "Choose one Root Raider problem and explain the strategy you used, including how you checked your answer.",
+      "modelAnswer": "For ‘Make it square’, I factorised 72 = 2³ × 3². The 3s are paired, but one 2 is left over, so I multiply by 2 to get 144 = 2⁴ × 3² = 12². Check: 12 × 12 = 144.",
+      "rubric": [
+        "Names the strategy",
+        "Shows working",
+        "Includes a check"
+      ],
+      "explain": "Criterion C: communicate your method."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find ∛9261.",
+      "answer": 21,
+      "explain": "9261 = 3³ × 7³, so ∛9261 = 21.",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "D",
+      "prompt": "A square courtyard has an area of 324 m². How long is each side?",
+      "answer": 18,
+      "unit": "m",
+      "explain": "√324 = 18 m.",
+      "tolerance": 0
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "What is the smallest number to multiply 72 by to get a perfect square?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "answer": 0,
+      "explain": "72 = 2³ × 3²; one unpaired 2, so × 2 gives 144."
+    },
+    {
+      "id": "q8",
+      "type": "multi-select",
+      "difficulty": 3,
+      "ibCriterion": "A",
+      "prompt": "Which numbers are both perfect squares and perfect cubes? Choose all that apply.",
+      "options": [
+        "1",
+        "64",
+        "100",
+        "729",
+        "1000"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explain": "1 = 1² = 1³, 64 = 8² = 4³, 729 = 27² = 9³. These are sixth powers! 100 and 1000 are only one of the two."
+    }
+  ]
+}

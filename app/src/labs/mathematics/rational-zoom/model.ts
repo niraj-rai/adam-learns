@@ -22,10 +22,6 @@ export function terminates(q: number) {
   return q === 1
 }
 
-export function primeFactors(n: number) {
-  const out: number[] = []
-  for (let f = 2; n > 1; f++) while (n % f === 0) { out.push(f); n /= f }
-  return out
-}
+export { primeFactors } from '../_shared/number'
 
 export const midpoint = (a: Frac, b: Frac) => mul(add(a, b), frac(1, 2))

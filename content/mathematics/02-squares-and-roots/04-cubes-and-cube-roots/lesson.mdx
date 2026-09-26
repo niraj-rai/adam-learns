@@ -1,0 +1,50 @@
+<Stage kind="wonder" title="A dull number?" />
+
+<Hook emoji="🚕">
+In 1918, the English mathematician G. H. Hardy visited his friend **Srinivasa Ramanujan** in hospital. He mentioned that his taxi's number, 1729, seemed rather dull. Ramanujan replied instantly: *No, it is a very interesting number!* It is the smallest number that can be written as the sum of two cubes in two different ways. What are cubes, and how did he know?
+</Hook>
+
+<PredictFirst
+  question="What is 4³ (“4 cubed”)?"
+  options={["12", "64", "16", "43"]}
+  answer={1}
+>
+4³ = 4 × 4 × 4 = 64. It's the number of small cubes in a 4 × 4 × 4 block. Cubing is **not** multiplying by 3.
+</PredictFirst>
+
+<Stage kind="explain" title="Cubes and cube roots" />
+
+<ConceptCard title="Cube numbers">
+A <KeyTerm def="A number made by multiplying a whole number by itself three times, like 5 × 5 × 5 = 125">cube number</KeyTerm> is n³: 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000, … The <KeyTerm def="The number which, cubed, gives n; written ∛n">cube root</KeyTerm> goes backwards: ∛125 = 5.
+</ConceptCard>
+
+<StepReveal
+  steps={[
+    "Factorise: 1728 = 2 × 2 × 2 × 2 × 2 × 2 × 3 × 3 × 3.",
+    "Group the primes in threes: (2 × 2 × 2) × (2 × 2 × 2) × (3 × 3 × 3).",
+    "Take one from each triple: ∛1728 = 2 × 2 × 3 = 12.",
+    "If a prime can't make a full triple, the number isn't a perfect cube: 500 = 2² × 5³ needs one more 2.",
+    "Negative numbers have cube roots too: ∛(−8) = −2, because (−2)³ = −8."
+  ]}
+/>
+
+<Stage kind="try" title="Cube Builder" />
+
+<Lab id="cube-builder" />
+
+<DidYouKnow>
+1729 = 1³ + 12³ = 9³ + 10³. Numbers like this are now called **taxicab numbers** in honour of that conversation. The next one is 4104 = 2³ + 16³ = 9³ + 15³.
+</DidYouKnow>
+
+<Stage kind="apply" title="Investigate" />
+
+<Inquiry criterion="B" title="Odd numbers make cubes">
+1 = 1³, 3 + 5 = 2³, 7 + 9 + 11 = 3³. Continue the pattern to 6³. Describe how to find the first odd number in each row, and test whether your rule predicts 10³ correctly.
+</Inquiry>
+
+<CbseCorner source="Ganita Prakash 8 Ch 1 · Earlier NCERT 8 Ch 6">
+- Cube numbers and their properties; the Hardy–Ramanujan number 1729.
+- Cube roots by prime factorisation; smallest multiplier or divisor to make a perfect cube.
+</CbseCorner>
+
+<Reflect id="math-sq-cubes" prompt="Ramanujan noticed something special in an ‘ordinary’ number. What number is special to you, and why?" />

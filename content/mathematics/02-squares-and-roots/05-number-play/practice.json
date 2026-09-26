@@ -1,0 +1,120 @@
+{
+  "topicId": "number-play",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi-select",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "2376 is divisible by which of these? Choose all that apply.",
+      "options": [
+        "4",
+        "5",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": [
+        0,
+        2,
+        4
+      ],
+      "explain": "Last two digits 76 ÷ 4 ✓; digit sum 18 ✓ for 9; alternating sum 6 − 7 + 3 − 2 = 0 ✓ for 11. It doesn't end in 0 or 5.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q2",
+      "type": "fill-blank",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "Find the missing digit so that the number is divisible by 9.",
+      "text": "52___4",
+      "blanks": [
+        [
+          "7"
+        ]
+      ],
+      "explain": "5 + 2 + 4 = 11. The next multiple of 9 is 18, so the missing digit is 7.",
+      "cbseStyle": true
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "Which of these numbers can NOT be written as a sum of two or more consecutive positive numbers?",
+      "options": [
+        "32",
+        "15",
+        "21",
+        "30"
+      ],
+      "answer": 0,
+      "explain": "32 is a power of 2. 15 = 7 + 8, 21 = 10 + 11, 30 = 9 + 10 + 11."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": 2,
+      "ibCriterion": "B",
+      "prompt": "The sum of any three consecutive whole numbers is always…",
+      "options": [
+        "divisible by 3",
+        "even",
+        "odd",
+        "a square number"
+      ],
+      "answer": 0,
+      "explain": "(n − 1) + n + (n + 1) = 3n."
+    },
+    {
+      "id": "q5",
+      "type": "numeric",
+      "difficulty": 1,
+      "ibCriterion": "A",
+      "prompt": "What is the remainder when 1000 is divided by 9?",
+      "answer": 1,
+      "explain": "The digit sum of 1000 is 1, so the remainder is 1 (1000 = 999 + 1).",
+      "tolerance": 0
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "difficulty": 3,
+      "ibCriterion": "C",
+      "prompt": "Prove that the sum of any three consecutive whole numbers is divisible by 3.",
+      "modelAnswer": "Call the middle number n. The three numbers are n − 1, n and n + 1. Their sum is (n − 1) + n + (n + 1) = 3n, which is 3 times a whole number, so it is always divisible by 3. Example: 7 + 8 + 9 = 24 = 3 × 8.",
+      "rubric": [
+        "Uses a letter for the numbers",
+        "Simplifies the sum to 3n",
+        "States the conclusion (with an example)"
+      ],
+      "explain": "Criterion C: a general argument, not just examples."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": 1,
+      "ibCriterion": "B",
+      "prompt": "What kind of number do you always get when you multiply two odd numbers?",
+      "options": [
+        "Odd",
+        "Even",
+        "Prime",
+        "It depends"
+      ],
+      "answer": 0,
+      "explain": "Odd × odd has no factor of 2, so it is always odd (e.g. 3 × 5 = 15)."
+    },
+    {
+      "id": "q8",
+      "type": "numeric",
+      "difficulty": 2,
+      "ibCriterion": "A",
+      "prompt": "In how many ways can 15 be written as a sum of two or more consecutive positive numbers?",
+      "answer": 3,
+      "explain": "7 + 8, 4 + 5 + 6 and 1 + 2 + 3 + 4 + 5: three ways.",
+      "tolerance": 0
+    }
+  ]
+}
