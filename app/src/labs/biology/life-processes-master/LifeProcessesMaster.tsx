@@ -30,7 +30,7 @@ const PROBLEMS: Problem[] = [
     { text: 'Absorbs glucose', ok: false, why: 'Villi absorb glucose.' },
     { text: 'Kills all bacteria', ok: false, why: 'Stomach acid kills many microbes.' },
   ] },
-  { emoji: '🏃', title: 'Cramp', story: 'During a sprint, what builds up in muscles when oxygen runs short?', idea: 'Anaerobic respiration in muscle', options: [
+  { emoji: '🏃', title: 'Sprint', story: 'During a sprint, what builds up in muscles when oxygen runs short?', idea: 'Anaerobic respiration in muscle', options: [
     { text: 'Lactic acid', ok: true, why: 'Glucose → lactic acid + a little energy.' },
     { text: 'Ethanol', ok: false, why: 'That is made by yeast.' },
     { text: 'Starch', ok: false, why: 'Starch is stored, not made in sprinting.' },

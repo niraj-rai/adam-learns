@@ -99,7 +99,7 @@
       "type": "mcq",
       "difficulty": 1,
       "ibCriterion": "A",
-      "prompt": "Why do your muscles ache after a sprint?",
+      "prompt": "Why do your muscles tire and burn during a long sprint?",
       "options": [
         "Ethanol in the muscles",
         "The muscles ran out of water",
@@ -107,7 +107,7 @@
         "Too much oxygen"
       ],
       "answer": 2,
-      "explain": "It is removed when oxygen returns."
+      "explain": "Anaerobic respiration makes lactic acid, which is cleared when oxygen returns. (Next-day soreness has other causes, such as tiny muscle strains.)"
     },
     {
       "id": "q8",
@@ -115,7 +115,7 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Compare aerobic and anaerobic respiration in human muscle.",
-      "modelAnswer": "Aerobic respiration needs oxygen and breaks glucose down completely into carbon dioxide and water, releasing a lot of energy (as ATP), mostly in the mitochondria. Anaerobic respiration happens when oxygen is short; glucose is broken down only partly to lactic acid, releasing much less energy, and the lactic acid causes fatigue and cramps.",
+      "modelAnswer": "Aerobic respiration needs oxygen and breaks glucose down completely into carbon dioxide and water, releasing a lot of energy (as ATP), mostly in the mitochondria. Anaerobic respiration happens when oxygen is short; glucose is broken down only partly to lactic acid, releasing much less energy, and the build-up of lactic acid is linked to fatigue and cramps.",
       "rubric": [
         "Oxygen needed vs not",
         "Products: CO₂ + water vs lactic acid",

@@ -33,8 +33,7 @@
       "answer": 2.74,
       "tolerance": 0.01,
       "explain": "(4/3)(4.2)³ = 36h → h ≈ 2.744.",
-      "unit": "cm",
-      "cbseStyle": true
+      "unit": "cm"
     },
     {
       "id": "q4",
@@ -71,8 +70,7 @@
       "answer": 45000,
       "tolerance": 0,
       "explain": "6 × 1.5 × 5000.",
-      "unit": "m³",
-      "cbseStyle": true
+      "unit": "m³"
     },
     {
       "id": "q7",

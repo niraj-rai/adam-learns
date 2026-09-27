@@ -6,7 +6,7 @@ import { LabFrame, Readout } from '../../_kit/LabFrame'
 const PATHS = [
   { id: 'aerobic', name: 'Aerobic (with oxygen)', emoji: '🫁', where: 'Mitochondria of most cells', eq: 'Glucose + oxygen → carbon dioxide + water + lots of energy', atp: 38, note: 'Glucose is broken down completely. Most of your cells do this all the time.' },
   { id: 'yeast', name: 'Anaerobic in yeast', emoji: '🍞', where: 'Yeast cells', eq: 'Glucose → ethanol + carbon dioxide + a little energy', atp: 2, note: 'Fermentation: the CO₂ makes idli and bread batter rise; the ethanol is used to make fuel.' },
-  { id: 'muscle', name: 'Anaerobic in muscles', emoji: '🏃', where: 'Muscle cells during hard exercise', eq: 'Glucose → lactic acid + a little energy', atp: 2, note: 'When oxygen runs short, lactic acid builds up and can cause cramps. It is broken down later with oxygen.' },
+  { id: 'muscle', name: 'Anaerobic in muscles', emoji: '🏃', where: 'Muscle cells during hard exercise', eq: 'Glucose → lactic acid + a little energy', atp: 2, note: 'When oxygen runs short, lactic acid builds up: muscles tire and may burn or cramp. It is broken down later with oxygen.' },
 ]
 
 export default function RespirationLab() {
