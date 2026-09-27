@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import { persist } from 'zustand/middleware'
+import { createJSONStorage, persist } from 'zustand/middleware'
 import { DEFAULT_REMINDERS, normaliseReminders, type ReminderSettings } from '@/lib/reminders'
 import { normaliseSchedule, type StudySchedule } from '@/lib/schedule'
 
@@ -51,6 +51,9 @@ export const useProfile = create<ProfileState>()(
     {
       name: 'adamlearns-profile',
       version: 1,
+      storage: createJSONStorage(() => localStorage),
+      // Never drop a saved profile: without a migrate function zustand discards data saved under another version.
+      migrate: (saved) => saved as ProfileState,
       // profiles saved before study plans (or reminders) existed lack them: fill in defaults, keep everything else
       merge: (saved, current) => {
         const s = (saved ?? {}) as Partial<ProfileState>

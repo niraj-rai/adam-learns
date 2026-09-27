@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import { persist } from 'zustand/middleware'
+import { createJSONStorage, persist } from 'zustand/middleware'
 
 export type Theme = 'light' | 'dark' | 'system'
 /** Which board's mapping is emphasised. IB always leads; CBSE can be shown or hidden. */
@@ -24,7 +24,8 @@ export const useSettings = create<SettingsState>()(
       toggleSound: () => set((s) => ({ sound: !s.sound })),
       setBoardView: (boardView) => set({ boardView }),
     }),
-    { name: 'adamlearns-settings' },
+    // migrate keeps saved settings if the version is ever bumped
+    { name: 'adamlearns-settings', storage: createJSONStorage(() => localStorage), migrate: (saved) => saved as SettingsState },
   ),
 )
 

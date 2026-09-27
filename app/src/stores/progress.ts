@@ -191,6 +191,8 @@ export const useProgress = create<ProgressState>()(
     {
       name: 'adamlearns-progress',
       version: 1,
+      // Never drop saved progress: without a migrate function zustand discards data saved under another version.
+      migrate: (saved) => saved as ProgressState,
       storage: createJSONStorage(() => localStorage),
       partialize: (s) => ({
         xp: s.xp,

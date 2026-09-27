@@ -31,6 +31,8 @@ export const useTime = create<TimeState>()(
     {
       name: 'adamlearns-time',
       version: 1,
+      // Never drop saved time: merge() below checks the shape of whatever version was saved.
+      migrate: (saved) => saved as TimeState,
       storage: createJSONStorage(() => localStorage),
       partialize: pick,
       // saved data is checked field by field, so a damaged or older entry can't break the page
