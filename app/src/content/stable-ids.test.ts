@@ -1,10 +1,10 @@
 /// <reference types="node" />
 import fs from 'node:fs'
 import path from 'node:path'
-import { describe, expect, it } from 'vitest'
+import { beforeAll, describe, expect, it } from 'vitest'
 import { BADGES } from '@/lib/badges'
 import { LABS } from '@/labs/registry'
-import { getAllTopics, getPractice } from './loader'
+import { getAllTopics, getPractice, loadAllPractice } from './loader'
 
 /**
  * Learners' saved progress points at these ids: topic keys (progress, time), question ids (spaced review),
@@ -34,19 +34,25 @@ function current(): Ids {
   return { topics, labs: LABS.map((l) => l.id).sort(), badges: Object.keys(BADGES).sort(), reflections: [...reflections].sort() }
 }
 
+function update(now: Ids) {
+  const old: Ids = fs.existsSync(FILE) ? JSON.parse(fs.readFileSync(FILE, 'utf8')) : { topics: {}, labs: [], badges: [], reflections: [] }
+  const union = (a: string[], b: string[]) => [...new Set([...a, ...b])].sort()
+  const topics: Record<string, string[]> = { ...old.topics }
+  for (const [k, qs] of Object.entries(now.topics)) topics[k] = union(old.topics[k] ?? [], qs)
+  const merged: Ids = { topics: Object.fromEntries(Object.entries(topics).sort()), labs: union(old.labs, now.labs), badges: union(old.badges, now.badges), reflections: union(old.reflections, now.reflections) }
+  fs.writeFileSync(FILE, JSON.stringify(merged, null, 1) + '\n')
+}
+
 describe('ids that saved progress depends on', () => {
-  const now = current()
+  let now: Ids
+  let saved: Ids
+  beforeAll(async () => {
+    await loadAllPractice()
+    now = current()
+    if (process.env.UPDATE_IDS) update(now)
+    saved = JSON.parse(fs.readFileSync(FILE, 'utf8'))
+  })
 
-  if (process.env.UPDATE_IDS) {
-    const old: Ids = fs.existsSync(FILE) ? JSON.parse(fs.readFileSync(FILE, 'utf8')) : { topics: {}, labs: [], badges: [], reflections: [] }
-    const union = (a: string[], b: string[]) => [...new Set([...a, ...b])].sort()
-    const topics: Record<string, string[]> = { ...old.topics }
-    for (const [k, qs] of Object.entries(now.topics)) topics[k] = union(old.topics[k] ?? [], qs)
-    const merged: Ids = { topics: Object.fromEntries(Object.entries(topics).sort()), labs: union(old.labs, now.labs), badges: union(old.badges, now.badges), reflections: union(old.reflections, now.reflections) }
-    fs.writeFileSync(FILE, JSON.stringify(merged, null, 1) + '\n')
-  }
-
-  const saved: Ids = JSON.parse(fs.readFileSync(FILE, 'utf8'))
 
   it('keeps every topic key and question id', () => {
     const missing: string[] = []

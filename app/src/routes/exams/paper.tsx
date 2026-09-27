@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Answer } from '@/components/practice/QuestionView'
 import { Button } from '@/components/ui/button'
 import { findQuestion } from '@/components/exam/pool'
+import { usePracticeSets } from '@/content/usePractice'
 import { getTopicByKey } from '@/content/loader'
 import type { Question } from '@/content/schema'
 import { localDate } from '@/lib/dates'
@@ -26,8 +27,18 @@ type Entry = { item: PaperItem; q: Question; n: number; section: string }
 function PaperPage() {
   const active = useExams((s) => s.active)
   const lastFinished = useExams((s) => s.lastFinished)
+  const status = usePracticeSets(active ? active.paper.sections.flatMap((s) => s.items.map((i) => i.topicKey)) : [])
   if (!active) return lastFinished ? <Navigate to="/exams/result" search={{ id: lastFinished }} /> : <Navigate to="/exams" />
+  if (status !== 'ready') return <LoadingPaper failed={status === 'error'} />
   return active.submittedAt ? <MarkingStep exam={active} /> : <Writing exam={active} />
+}
+
+function LoadingPaper({ failed }: { failed: boolean }) {
+  return (
+    <p className="mx-auto max-w-xl rounded-2xl border p-6 text-center text-muted-foreground" role="status">
+      {failed ? 'Couldn’t load this paper’s questions. Check your internet connection and reload: your answers are saved.' : 'Loading your paper…'}
+    </p>
+  )
 }
 
 function useEntries(exam: ActiveExam): Entry[] {

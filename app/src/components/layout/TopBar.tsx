@@ -11,6 +11,7 @@ import { isOnboarded, useProfile } from '@/stores/profile'
 import { applyTheme, useSettings, type Theme } from '@/stores/settings'
 import { appSegments } from '@/lib/path'
 import { InstallAppButton } from './InstallApp'
+import { SaveOfflineButton } from './SaveOffline'
 import { Logo } from './Logo'
 
 const LINK = 'rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground data-[status=active]:bg-chem-soft data-[status=active]:text-foreground'
@@ -83,6 +84,7 @@ function SettingsPanel({ onNavigate }: { onNavigate?: () => void }) {
         </Link>
       )}
       <InstallAppButton />
+      <SaveOfflineButton />
     </div>
   )
 }

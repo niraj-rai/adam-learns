@@ -1,6 +1,7 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
 import { Button } from '@/components/ui/button'
 import { findQuestion } from '@/components/exam/pool'
+import { usePracticeSets } from '@/content/usePractice'
 import { getTopicByKey } from '@/content/loader'
 import { criterionName } from '@/lib/criteria'
 import { LENGTHS, criterionLevel, mypGrade, weakTopics, type Criterion, type PaperResult, type Tally } from '@/lib/exam'
@@ -33,6 +34,8 @@ function Bar({ label, t, href }: { label: string; t: Tally; href?: { subject: st
 function ResultPage() {
   const { id } = Route.useSearch()
   const record = useExams((s) => s.history.find((h) => h.id === id))
+  // the answer review needs the questions you lost marks on
+  usePracticeSets((record?.items ?? []).filter((i) => i.earned < i.marks).map((i) => i.topicKey))
   if (!record) {
     return (
       <div className="mx-auto max-w-xl space-y-3 py-10 text-center">

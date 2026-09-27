@@ -1,6 +1,9 @@
-import { describe, expect, it } from 'vitest'
+import { beforeAll, describe, expect, it } from 'vitest'
 import { getLab, LABS } from '@/labs/registry'
-import { getAllTopics, getPractice, getSubjects, getTopicByKey } from './loader'
+import { getAllTopics, getPractice, getSubjects, getTopicByKey, loadAllPractice } from './loader'
+
+// practice sets load lazily in the app; load them all up front here
+beforeAll(() => loadAllPractice())
 
 // Loading the module already validates every JSON file against the Zod schemas;
 // these tests add cross-file consistency checks that a schema can't express.

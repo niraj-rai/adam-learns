@@ -38,8 +38,9 @@ const NEEDS_CONTEXT = new RegExp(`\\b(lab|simulation|lesson|video|diagram|${LABS
  * A short skills check: a few questions per subject from the two grades before the learner's
  * (their prerequisites). With no earlier content, it uses the easiest topics of their own grade.
  */
-export function buildSkillsCheck(grade: Grade, perSubject = 3, rand: () => number = Math.random): CheckItem[] {
-  const items: CheckItem[] = []
+/** Pick the topics for the skills check (a few per subject, from the two grades below): uses topic info only. */
+export function pickCheckTopics(grade: Grade, perSubject = 3, rand: () => number = Math.random): Topic[] {
+  const picked: Topic[] = []
   for (const s of getSubjects()) {
     const g = effectiveGrade(grade, s.id)
     const ts = s.units.flatMap((u) => u.topics).filter((t) => t.hasPractice)
@@ -50,19 +51,28 @@ export function buildSkillsCheck(grade: Grade, perSubject = 3, rand: () => numbe
     const byUnit = new Map<string, Topic[]>()
     for (const t of pool) byUnit.set(t.unitId, [...(byUnit.get(t.unitId) ?? []), t])
     const units = [...byUnit.values()].map((list) => list.sort((a, b) => Number(b.core) - Number(a.core) || rand() - 0.5)).sort(() => rand() - 0.5)
-    const picked: Topic[] = []
-    for (let round = 0; picked.length < perSubject && units.some((u) => u.length > round); round++) {
-      for (const u of units) if (u[round] && picked.length < perSubject) picked.push(u[round])
+    const mine: Topic[] = []
+    for (let round = 0; mine.length < perSubject && units.some((u) => u.length > round); round++) {
+      for (const u of units) if (u[round] && mine.length < perSubject) mine.push(u[round])
     }
-    for (const t of picked) {
-      const mcqs = (getPractice(t.key)?.questions ?? []).filter((q): q is CheckItem['q'] => q.type === 'mcq' && q.difficulty <= 2 && !NEEDS_CONTEXT.test(q.prompt) && !NAMED_TOOL.test(q.prompt))
-      if (!mcqs.length) continue
-      const q = mcqs[Math.floor(rand() * mcqs.length)]
-      items.push({ subjectId: s.id, topicKey: t.key, q: ORDERED.test(q.options.join(' ')) ? q : shuffleOptions(q, rand) })
-    }
+    picked.push(...mine)
+  }
+  return picked
+}
+
+/** One multiple-choice question from each picked topic. Their practice sets must be loaded (loadPractices). */
+export function checkItems(picked: Topic[], rand: () => number = Math.random): CheckItem[] {
+  const items: CheckItem[] = []
+  for (const t of picked) {
+    const mcqs = (getPractice(t.key)?.questions ?? []).filter((q): q is CheckItem['q'] => q.type === 'mcq' && q.difficulty <= 2 && !NEEDS_CONTEXT.test(q.prompt) && !NAMED_TOOL.test(q.prompt))
+    if (!mcqs.length) continue
+    const q = mcqs[Math.floor(rand() * mcqs.length)]
+    items.push({ subjectId: t.subjectId, topicKey: t.key, q: ORDERED.test(q.options.join(' ')) ? q : shuffleOptions(q, rand) })
   }
   return items
 }
+
+export const buildSkillsCheck = (grade: Grade, perSubject = 3, rand: () => number = Math.random): CheckItem[] => checkItems(pickCheckTopics(grade, perSubject, rand), rand)
 
 function shuffleOptions(q: CheckItem['q'], rand: () => number): CheckItem['q'] {
   const order = q.options.map((_, i) => i).sort(() => rand() - 0.5)

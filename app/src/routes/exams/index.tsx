@@ -1,7 +1,8 @@
 import { Link, createFileRoute, useNavigate } from '@tanstack/react-router'
 import { useMemo, useState } from 'react'
 import { Button } from '@/components/ui/button'
-import { examPool, unitsForGrade } from '@/components/exam/pool'
+import { examPool, examTopicKeys, unitsForGrade } from '@/components/exam/pool'
+import { usePracticeSets } from '@/content/usePractice'
 import { getSubject, getSubjects } from '@/content/loader'
 import { LENGTHS, buildPaper, type ExamFormat, type ExamLength } from '@/lib/exam'
 import { effectiveGrade } from '@/lib/learner'
@@ -32,7 +33,9 @@ function ExamsPage() {
   const units = useMemo(() => unitsForGrade(subjectId, grade), [subjectId, grade])
   const [picked, setPicked] = useState<string[] | null>(null)
   const chosen = picked ?? units.map((u) => u.id)
-  const pool = useMemo(() => examPool(subjectId, grade, chosen), [subjectId, grade, chosen])
+  const topicKeys = useMemo(() => examTopicKeys(subjectId, grade, chosen), [subjectId, grade, chosen])
+  const status = usePracticeSets(topicKeys)
+  const pool = useMemo(() => (status === 'ready' ? examPool(topicKeys) : []), [status, topicKeys])
 
   const chooseSubject = (id: string) => {
     setSubjectId(id)
@@ -124,7 +127,7 @@ function ExamsPage() {
         <div className="flex flex-wrap items-center gap-3">
           <Button size="lg" onClick={begin} disabled={!!active || pool.length < 5}>Start the paper</Button>
           <p className="text-sm text-muted-foreground">
-            {active ? 'Finish or discard the paper in progress first.' : pool.length < 5 ? 'Choose at least one unit.' : `${pool.length} questions to choose from. The timer starts straight away.`}
+            {active ? 'Finish or discard the paper in progress first.' : status === 'loading' ? 'Loading questions…' : status === 'error' ? 'Couldn’t load the questions. Check your connection.' : pool.length < 5 ? 'Choose at least one unit.' : `${pool.length} questions to choose from. The timer starts straight away.`}
           </p>
         </div>
       </section>

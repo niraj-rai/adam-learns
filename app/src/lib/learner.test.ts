@@ -1,7 +1,10 @@
-import { describe, expect, it } from 'vitest'
+import { beforeAll, describe, expect, it } from 'vitest'
 import { getAllTopics } from '@/content/loader'
 import { buildSkillsCheck, effectiveGrade, gradeTopics, nextForLearner, scoreSkillsCheck, topicGrade } from './learner'
 import { rng } from '@/labs/mathematics/_shared/stats'
+import { loadAllPractice } from '@/content/loader'
+
+beforeAll(() => loadAllPractice())
 
 describe('learner', () => {
   it('maps IB years to school grades', () => {

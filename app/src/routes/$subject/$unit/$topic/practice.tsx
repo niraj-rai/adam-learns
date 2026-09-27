@@ -3,13 +3,13 @@ import { useState } from 'react'
 import { BoardTags } from '@/components/board/BoardTags'
 import { PracticePlayer } from '@/components/practice/PracticePlayer'
 import { BADGES, type BadgeId } from '@/lib/badges'
-import { getNextTopic, getPractice, getTopic, getUnit } from '@/content/loader'
+import { getNextTopic, getTopic, getUnit, loadPractice } from '@/content/loader'
 import { useProgress } from '@/stores/progress'
 
 export const Route = createFileRoute('/$subject/$unit/$topic/practice')({
-  loader: ({ params }) => {
+  loader: async ({ params }) => {
     const topic = getTopic(params.subject, params.unit, params.topic)
-    const practice = topic && getPractice(topic.key)
+    const practice = topic && (await loadPractice(topic.key))
     const unit = getUnit(params.subject, params.unit)
     if (!topic || !practice || !unit) throw notFound()
     return { topic, practice, unit }

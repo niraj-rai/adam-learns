@@ -21,7 +21,8 @@ import {
 const subjectFiles = import.meta.glob('../../../content/*/subject.json', { eager: true, import: 'default' })
 const unitFiles = import.meta.glob('../../../content/*/*/unit.json', { eager: true, import: 'default' })
 const topicFiles = import.meta.glob('../../../content/*/*/*/meta.json', { eager: true, import: 'default' })
-const practiceFiles = import.meta.glob('../../../content/*/*/*/practice.json', { eager: true, import: 'default' })
+// practice sets are loaded per topic when needed, so the first page load stays small
+const practiceFiles = import.meta.glob('../../../content/*/*/*/practice.json', { import: 'default' })
 type MdxModule = { default: ComponentType<{ components?: Record<string, unknown> }> }
 const lessonFiles = import.meta.glob<MdxModule>('../../../content/*/*/*/lesson.mdx')
 
@@ -93,18 +94,12 @@ function build() {
     unit.topics.push(topic)
   }
 
-  const practice = new Map<string, PracticeSetT>()
-  for (const [path, raw] of Object.entries(practiceFiles)) {
-    const [subjectId, unitDir] = segments(path)
-    const set = parse<PracticeSetT>(PracticeSet, raw, path)
-    const key = `${subjectId}/${stripOrder(unitDir)}/${set.topicId}`
-    if (!topics.has(key)) throw new Error(`${path}: topicId "${set.topicId}" has no matching meta.json`)
-    const ids = new Set<string>()
-    for (const q of set.questions) {
-      if (ids.has(q.id)) throw new Error(`${path}: duplicate question id "${q.id}"`)
-      ids.add(q.id)
-    }
-    practice.set(key, set)
+  const practice = new Map<string, () => Promise<unknown>>()
+  for (const [path, load] of Object.entries(practiceFiles)) {
+    const [subjectId, unitDir, topicDir] = segments(path)
+    const key = `${subjectId}/${stripOrder(unitDir)}/${stripOrder(topicDir)}`
+    if (!topics.has(key)) throw new Error(`${path}: no matching meta.json`)
+    practice.set(key, load)
   }
 
   for (const subject of subjects.values()) {
@@ -131,7 +126,41 @@ export const getTopic = (subjectId: string, unitId: string, topicId: string) =>
   content.topics.get(`${subjectId}/${unitId}/${topicId}`)
 export const getTopicByKey = (key: string) => content.topics.get(key)
 export const getAllTopics = () => [...content.topics.values()]
-export const getPractice = (topicKey: string) => content.practice.get(topicKey)
+const practiceCache = new Map<string, PracticeSetT>()
+const pending = new Map<string, Promise<PracticeSetT | undefined>>()
+
+/** A topic's practice set if it has been loaded (see loadPractice / usePracticeSets). */
+export const getPractice = (topicKey: string) => practiceCache.get(topicKey)
+
+/** Load (once) and validate a topic's practice set. */
+export function loadPractice(topicKey: string): Promise<PracticeSetT | undefined> {
+  const cached = practiceCache.get(topicKey)
+  if (cached) return Promise.resolve(cached)
+  const load = content.practice.get(topicKey)
+  if (!load) return Promise.resolve(undefined)
+  let p = pending.get(topicKey)
+  if (!p) {
+    p = load()
+      .then((raw) => {
+        const set = parse<PracticeSetT>(PracticeSet, raw, `${topicKey}/practice.json`)
+        if (set.topicId !== topicKey.split('/')[2]) throw new Error(`${topicKey}/practice.json: topicId "${set.topicId}" does not match its folder`)
+        const ids = new Set<string>()
+        for (const q of set.questions) {
+          if (ids.has(q.id)) throw new Error(`${topicKey}/practice.json: duplicate question id "${q.id}"`)
+          ids.add(q.id)
+        }
+        practiceCache.set(topicKey, set)
+        return set
+      })
+      .finally(() => pending.delete(topicKey))
+    pending.set(topicKey, p)
+  }
+  return p
+}
+
+export const loadPractices = (keys: string[]) => Promise.all([...new Set(keys)].map(loadPractice))
+/** Every practice set: for tests and the "save everything for offline" option. */
+export const loadAllPractice = () => loadPractices([...content.practice.keys()])
 
 /** Next topic in reading order across units of the same subject */
 export function getNextTopic(topic: Topic): Topic | undefined {

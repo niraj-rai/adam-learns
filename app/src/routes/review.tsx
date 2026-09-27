@@ -3,6 +3,7 @@ import { useMemo, useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { QuestionView } from '@/components/practice/QuestionView'
 import { getPractice, getTopicByKey } from '@/content/loader'
+import { usePracticeSets } from '@/content/usePractice'
 import { dueReviewItems, useProgress } from '@/stores/progress'
 
 export const Route = createFileRoute('/review')({ component: ReviewPage })
@@ -17,6 +18,8 @@ function ReviewPage() {
 
   const upcoming = useMemo(() => Object.values(review).filter((r) => !queue.some((q) => q.key === `${r.topicKey}#${r.questionId}`)).length, [review, queue])
   const item = queue[index]
+  // questions are loaded per topic, so fetch the ones in today's queue first
+  const status = usePracticeSets(queue.map((q) => q.topicKey))
   const question = item && getPractice(item.topicKey)?.questions.find((q) => q.id === item.questionId)
   const topic = item && getTopicByKey(item.topicKey)
 
@@ -51,6 +54,10 @@ function ReviewPage() {
             <Link to="/">Back home</Link>
           </Button>
         </div>
+      ) : status !== 'ready' ? (
+        <p className="rounded-2xl border p-6 text-center text-muted-foreground" role="status">
+          {status === 'error' ? 'Couldn’t load these questions. Check your internet connection and try again.' : 'Loading your review questions…'}
+        </p>
       ) : question && topic ? (
         <div className="rounded-3xl border-2 bg-card p-6">
           <p className="mb-3 text-sm text-muted-foreground">

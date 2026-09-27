@@ -56,16 +56,40 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // Precache the whole app (every lesson chunk) so it works fully offline after the first visit.
+        // Precache the app itself (pages, components, styles, fonts) so it opens offline. Lessons, practice
+        // sets and labs (hundreds of files) are cached the first time each is opened instead, which keeps the
+        // first visit light on phones; "Save everything for offline" in Settings fetches the rest on request.
         // KaTeX also ships .woff/.ttf fallbacks; every browser that runs a service worker uses .woff2.
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
+        globIgnores: ['assets/content/**', 'assets/labs/**'],
         maximumFileSizeToCacheInBytes: 6 * 1024 * 1024,
+        runtimeCaching: [
+          {
+            // file names include a content hash, so a cached copy never goes stale
+            urlPattern: /\/assets\/(content|labs)\//,
+            handler: 'CacheFirst',
+            options: { cacheName: 'adamlearns-content', expiration: { maxEntries: 3000, maxAgeSeconds: 365 * 24 * 60 * 60 } },
+          },
+        ],
         // SPA: any in-scope navigation (deep links) is answered with the cached index.html
         navigateFallback: 'index.html',
         cleanupOutdatedCaches: true,
       },
     }),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        // lessons, practice sets and labs go in their own folders, so the service worker can cache them on demand
+        chunkFileNames: (chunk) => {
+          const id = chunk.facadeModuleId ?? ''
+          if (id.includes('/content/')) return 'assets/content/[name]-[hash].js'
+          if (id.includes('/src/labs/') && !id.includes('/_kit/') && !id.includes('/_shared/')) return 'assets/labs/[name]-[hash].js'
+          return 'assets/[name]-[hash].js'
+        },
+      },
+    },
+  },
   resolve: {
     // content/*.mdx lives outside the app folder, so force these to resolve from app/node_modules
     dedupe: ['react', 'react-dom'],

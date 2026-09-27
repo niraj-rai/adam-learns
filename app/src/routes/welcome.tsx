@@ -4,8 +4,9 @@ import { useMemo, useState } from 'react'
 import { Logo } from '@/components/layout/Logo'
 import { StudyPlanStep } from '@/components/plan/StudyPlan'
 import { Button } from '@/components/ui/button'
-import { getSubject, getSubjects, getTopicByKey } from '@/content/loader'
-import { buildSkillsCheck, effectiveGrade, scoreSkillsCheck, strength, type CheckItem } from '@/lib/learner'
+import { getSubject, getSubjects, getTopicByKey, type Topic } from '@/content/loader'
+import { usePracticeSets } from '@/content/usePractice'
+import { checkItems, effectiveGrade, pickCheckTopics, scoreSkillsCheck, strength, type CheckItem } from '@/lib/learner'
 import { sfx } from '@/lib/sound'
 import { cn } from '@/lib/utils'
 import { GRADES, isOnboarded, useProfile, type Grade, type SkillsCheck } from '@/stores/profile'
@@ -173,7 +174,20 @@ function Welcome() {
 }
 
 function SkillsQuiz({ grade, onFinish }: { grade: Grade; onFinish: (r: SkillsCheck) => void }) {
-  const items = useMemo(() => buildSkillsCheck(grade), [grade])
+  // questions load per topic, so fetch just the picked topics' sets first
+  const topics = useMemo(() => pickCheckTopics(grade), [grade])
+  const status = usePracticeSets(topics.map((t) => t.key))
+  if (status !== 'ready')
+    return (
+      <p className="rounded-3xl border-2 bg-card p-7 text-center text-muted-foreground" role="status">
+        {status === 'error' ? 'Couldn’t load the questions. Check your internet connection, or skip the check for now.' : 'Getting your questions ready…'}
+      </p>
+    )
+  return <SkillsQuizItems topics={topics} onFinish={onFinish} />
+}
+
+function SkillsQuizItems({ topics, onFinish }: { topics: Topic[]; onFinish: (r: SkillsCheck) => void }) {
+  const items = useMemo(() => checkItems(topics), [topics])
   const [i, setI] = useState(0)
   const [answers, setAnswers] = useState<(number | null)[]>([])
   const [picked, setPicked] = useState<number | null | undefined>(undefined)
