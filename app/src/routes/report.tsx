@@ -17,6 +17,7 @@ import { cn } from '@/lib/utils'
 import { useProfile } from '@/stores/profile'
 import { currentStreak, dueReviewItems, useProgress } from '@/stores/progress'
 import { useTime } from '@/stores/time'
+import { ShareWithParent } from '@/components/progress/ShareWithParent'
 
 export const Route = createFileRoute('/report')({ component: ReportPage })
 
@@ -96,6 +97,8 @@ function ReportPage() {
           {attention.length ? ` ${attention.length} ${attention.length === 1 ? 'topic is' : 'topics are'} worth another look.` : ' Nothing needs extra attention right now. 🎉'}
         </p>
       </header>
+
+      <ShareWithParent />
 
       <section className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6 print:grid-cols-6" aria-label="Overall">
         <Readout label="Level" value={<span className="text-base">{level.current.emoji} {level.current.name}</span>} className="bg-card" />

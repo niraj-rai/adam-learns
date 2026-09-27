@@ -28,7 +28,7 @@ function usePathSegments() {
 }
 
 /** Pages a new learner can open before onboarding. */
-const OPEN_PAGES = new Set(['welcome', 'terms', 'privacy'])
+const OPEN_PAGES = new Set(['welcome', 'terms', 'privacy', 'parent'])
 
 /** Which subject's accent colour to use, based on the current page. */
 function useSubjectTheme() {
