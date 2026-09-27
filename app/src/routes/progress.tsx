@@ -12,6 +12,7 @@ import { strength } from '@/lib/learner'
 import { normaliseSchedule } from '@/lib/schedule'
 import { ReminderControls } from '@/components/plan/Reminders'
 import { normaliseReminders } from '@/lib/reminders'
+import { useExams } from '@/stores/exams'
 import { useProfile } from '@/stores/profile'
 import { TimeSpentCard } from '@/components/progress/TimeSpent'
 import { timeData, useTime } from '@/stores/time'
@@ -30,7 +31,7 @@ function ProgressPage() {
   const exportData = () => {
     const { xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones } = useProgress.getState()
     const { firstName, lastName, grade, onboardedAt, check, schedule, reminders } = useProfile.getState()
-    const blob = new Blob([JSON.stringify({ xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones, time: timeData(), profile: { firstName, lastName, grade, onboardedAt, check, schedule, reminders } }, null, 2)], { type: 'application/json' })
+    const blob = new Blob([JSON.stringify({ xp, topics, badges, activeDays, predictions, labsTried, review, labMilestones, time: timeData(), exams: useExams.getState().history, profile: { firstName, lastName, grade, onboardedAt, check, schedule, reminders } }, null, 2)], { type: 'application/json' })
     const a = document.createElement('a')
     a.href = URL.createObjectURL(blob)
     a.download = `adamlearns-progress-${new Date().toISOString().slice(0, 10)}.json`
@@ -219,6 +220,8 @@ function ProgressPage() {
                 const p = data.profile
                 // exports made before time tracking have no time: keep what this device has
                 if (data.time) useTime.getState().replace(data.time)
+                // likewise for exam results, which exports only include from exam mode onwards
+                if (Array.isArray(data.exams)) useExams.getState().replaceHistory(data.exams)
                 if (p && typeof p.firstName === 'string') useProfile.setState({ firstName: p.firstName, lastName: p.lastName ?? '', grade: p.grade ?? null, onboardedAt: p.onboardedAt ?? null, check: p.check ?? null, schedule: normaliseSchedule(p.schedule), reminders: p.reminders ? normaliseReminders(p.reminders) : useProfile.getState().reminders })
               }
               setMsg(ok ? '✅ Progress imported.' : '❌ That file does not look like a progress export.')
@@ -228,9 +231,10 @@ function ProgressPage() {
           <Button
             variant="destructive"
             onClick={() => {
-              if (window.confirm('Reset ALL progress (XP, badges, scores, time spent)? This cannot be undone. Export first if unsure.')) {
+              if (window.confirm('Reset ALL progress (XP, badges, scores, time spent, exam results)? This cannot be undone. Export first if unsure.')) {
                 reset()
                 useTime.getState().reset()
+                useExams.getState().reset()
                 setMsg('Progress reset.')
               }
             }}

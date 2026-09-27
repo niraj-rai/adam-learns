@@ -117,7 +117,8 @@ export function QuestionView({ q, onDone, subject }: { q: Question; onDone: (r: 
   )
 }
 
-function Answer({ q, response, onChange, locked, grade }: { q: Question; response: Response; onChange: (r: Response) => void; locked: boolean; grade: Grade | null }) {
+/** The input for one question (options, bins, blanks…), reused by exam mode. */
+export function Answer({ q, response, onChange, locked, grade }: { q: Question; response: Response; onChange: (r: Response) => void; locked: boolean; grade: Grade | null }) {
   switch (q.type) {
     case 'mcq':
       return <Mcq q={q} r={response as Extract<Response, { type: 'mcq' }>} onChange={onChange} locked={locked} />

@@ -36,11 +36,11 @@ const TIME = { total: 600, days: { '2026-09-26': 600 }, daySubjects: { '2026-09-
 async function load(storage: ReturnType<typeof memoryStorage>) {
   vi.resetModules()
   vi.stubGlobal('localStorage', storage)
-  const [{ useProgress }, { useProfile }, { useTime }, { useSettings }] = await Promise.all([
-    import('./progress'), import('./profile'), import('./time'), import('./settings'),
+  const [{ useProgress }, { useProfile }, { useTime }, { useSettings }, { useExams }] = await Promise.all([
+    import('./progress'), import('./profile'), import('./time'), import('./settings'), import('./exams'),
   ])
-  await Promise.all([useProgress.persist.rehydrate(), useProfile.persist.rehydrate(), useTime.persist.rehydrate(), useSettings.persist.rehydrate()])
-  return { useProgress, useProfile, useTime, useSettings }
+  await Promise.all([useProgress.persist.rehydrate(), useProfile.persist.rehydrate(), useTime.persist.rehydrate(), useSettings.persist.rehydrate(), useExams.persist.rehydrate()])
+  return { useProgress, useProfile, useTime, useSettings, useExams }
 }
 
 describe('saved learner data survives app updates', () => {
@@ -81,6 +81,16 @@ describe('saved learner data survives app updates', () => {
     // and the next save keeps it
     s.useProgress.getState().addXp(5)
     expect(JSON.parse(storage.getItem('adamlearns-progress')!).state.xp).toBe(1400)
+  })
+
+  it('keeps exam history and a paper in progress, dropping only malformed records', async () => {
+    const record = { id: 'e1', subjectId: 'physics', grade: 9, title: 'Physics', format: 'cbse', length: 'short', date: '2026-09-27', secondsUsed: 900, earned: 18, total: 22, sections: {}, topics: {}, criteria: {} }
+    const active = { id: 'e2', subjectId: 'maths', grade: 9, title: 'Maths', paper: { format: 'cbse', length: 'short', minutes: 20, sections: [], totalMarks: 0 }, startedAt: 1, deadline: 2, responses: { 'a#q1': { type: 'mcq', choice: 1 } } }
+    const storage = memoryStorage({ 'adamlearns-exams': saved({ history: [record, { broken: true }], active }, 1) })
+    const s = await load(storage)
+    expect(s.useExams.getState().history).toEqual([record])
+    expect(s.useExams.getState().active?.responses).toEqual(active.responses)
+    expect(s.useExams.getState().active?.flagged).toEqual([])
   })
 
   it('starts fresh (without crashing) when saved data is damaged', async () => {

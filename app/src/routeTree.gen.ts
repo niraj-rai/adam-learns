@@ -18,6 +18,9 @@ import { Route as ReviewRouteImport } from './routes/review'
 import { Route as TermsRouteImport } from './routes/terms'
 import { Route as WelcomeRouteImport } from './routes/welcome'
 import { Route as SubjectIndexRouteImport } from './routes/$subject/index'
+import { Route as ExamsIndexRouteImport } from './routes/exams/index'
+import { Route as ExamsPaperRouteImport } from './routes/exams/paper'
+import { Route as ExamsResultRouteImport } from './routes/exams/result'
 import { Route as LabsIndexRouteImport } from './routes/labs/index'
 import { Route as LabsLabIdRouteImport } from './routes/labs/$labId'
 import { Route as SubjectUnitIndexRouteImport } from './routes/$subject/$unit/index'
@@ -69,6 +72,21 @@ const SubjectIndexRoute = SubjectIndexRouteImport.update({
   path: '/$subject/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ExamsIndexRoute = ExamsIndexRouteImport.update({
+  id: '/exams/',
+  path: '/exams/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ExamsPaperRoute = ExamsPaperRouteImport.update({
+  id: '/exams/paper',
+  path: '/exams/paper',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ExamsResultRoute = ExamsResultRouteImport.update({
+  id: '/exams/result',
+  path: '/exams/result',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LabsIndexRoute = LabsIndexRouteImport.update({
   id: '/labs/',
   path: '/labs/',
@@ -105,8 +123,11 @@ export interface FileRoutesByFullPath {
   '/review': typeof ReviewRoute
   '/terms': typeof TermsRoute
   '/welcome': typeof WelcomeRoute
+  '/exams/paper': typeof ExamsPaperRoute
+  '/exams/result': typeof ExamsResultRoute
   '/labs/$labId': typeof LabsLabIdRoute
   '/$subject/': typeof SubjectIndexRoute
+  '/exams/': typeof ExamsIndexRoute
   '/labs/': typeof LabsIndexRoute
   '/$subject/$unit/': typeof SubjectUnitIndexRoute
   '/$subject/$unit/$topic/practice': typeof SubjectUnitTopicPracticeRoute
@@ -121,8 +142,11 @@ export interface FileRoutesByTo {
   '/review': typeof ReviewRoute
   '/terms': typeof TermsRoute
   '/welcome': typeof WelcomeRoute
+  '/exams/paper': typeof ExamsPaperRoute
+  '/exams/result': typeof ExamsResultRoute
   '/labs/$labId': typeof LabsLabIdRoute
   '/$subject': typeof SubjectIndexRoute
+  '/exams': typeof ExamsIndexRoute
   '/labs': typeof LabsIndexRoute
   '/$subject/$unit': typeof SubjectUnitIndexRoute
   '/$subject/$unit/$topic/practice': typeof SubjectUnitTopicPracticeRoute
@@ -138,8 +162,11 @@ export interface FileRoutesById {
   '/review': typeof ReviewRoute
   '/terms': typeof TermsRoute
   '/welcome': typeof WelcomeRoute
+  '/exams/paper': typeof ExamsPaperRoute
+  '/exams/result': typeof ExamsResultRoute
   '/labs/$labId': typeof LabsLabIdRoute
   '/$subject/': typeof SubjectIndexRoute
+  '/exams/': typeof ExamsIndexRoute
   '/labs/': typeof LabsIndexRoute
   '/$subject/$unit/': typeof SubjectUnitIndexRoute
   '/$subject/$unit/$topic/practice': typeof SubjectUnitTopicPracticeRoute
@@ -156,8 +183,11 @@ export interface FileRouteTypes {
     | '/review'
     | '/terms'
     | '/welcome'
+    | '/exams/paper'
+    | '/exams/result'
     | '/labs/$labId'
     | '/$subject/'
+    | '/exams/'
     | '/labs/'
     | '/$subject/$unit/'
     | '/$subject/$unit/$topic/practice'
@@ -172,8 +202,11 @@ export interface FileRouteTypes {
     | '/review'
     | '/terms'
     | '/welcome'
+    | '/exams/paper'
+    | '/exams/result'
     | '/labs/$labId'
     | '/$subject'
+    | '/exams'
     | '/labs'
     | '/$subject/$unit'
     | '/$subject/$unit/$topic/practice'
@@ -188,8 +221,11 @@ export interface FileRouteTypes {
     | '/review'
     | '/terms'
     | '/welcome'
+    | '/exams/paper'
+    | '/exams/result'
     | '/labs/$labId'
     | '/$subject/'
+    | '/exams/'
     | '/labs/'
     | '/$subject/$unit/'
     | '/$subject/$unit/$topic/practice'
@@ -205,8 +241,11 @@ export interface RootRouteChildren {
   ReviewRoute: typeof ReviewRoute
   TermsRoute: typeof TermsRoute
   WelcomeRoute: typeof WelcomeRoute
+  ExamsPaperRoute: typeof ExamsPaperRoute
+  ExamsResultRoute: typeof ExamsResultRoute
   LabsLabIdRoute: typeof LabsLabIdRoute
   SubjectIndexRoute: typeof SubjectIndexRoute
+  ExamsIndexRoute: typeof ExamsIndexRoute
   LabsIndexRoute: typeof LabsIndexRoute
   SubjectUnitIndexRoute: typeof SubjectUnitIndexRoute
   SubjectUnitTopicPracticeRoute: typeof SubjectUnitTopicPracticeRoute
@@ -278,6 +317,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SubjectIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/exams/': {
+      id: '/exams/'
+      path: '/exams'
+      fullPath: '/exams/'
+      preLoaderRoute: typeof ExamsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/exams/paper': {
+      id: '/exams/paper'
+      path: '/exams/paper'
+      fullPath: '/exams/paper'
+      preLoaderRoute: typeof ExamsPaperRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/exams/result': {
+      id: '/exams/result'
+      path: '/exams/result'
+      fullPath: '/exams/result'
+      preLoaderRoute: typeof ExamsResultRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/labs/': {
       id: '/labs/'
       path: '/labs'
@@ -325,8 +385,11 @@ const rootRouteChildren: RootRouteChildren = {
   ReviewRoute: ReviewRoute,
   TermsRoute: TermsRoute,
   WelcomeRoute: WelcomeRoute,
+  ExamsPaperRoute: ExamsPaperRoute,
+  ExamsResultRoute: ExamsResultRoute,
   LabsLabIdRoute: LabsLabIdRoute,
   SubjectIndexRoute: SubjectIndexRoute,
+  ExamsIndexRoute: ExamsIndexRoute,
   LabsIndexRoute: LabsIndexRoute,
   SubjectUnitIndexRoute: SubjectUnitIndexRoute,
   SubjectUnitTopicPracticeRoute: SubjectUnitTopicPracticeRoute,

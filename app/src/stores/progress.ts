@@ -37,6 +37,8 @@ type ProgressState = {
   recordLab: (labId: string) => void
   recordLabMilestone: (milestone: string) => void
   recordReview: (reviewKey: string, correct: boolean) => void
+  /** queue questions missed elsewhere (e.g. in an exam) for spaced review from tomorrow */
+  addToReview: (items: { topicKey: string; questionId: string }[]) => void
   reset: () => void
   importState: (json: string) => boolean
 }
@@ -161,6 +163,14 @@ export const useProgress = create<ProgressState>()(
         }
       },
 
+      addToReview: (items) => {
+        const review = { ...get().review }
+        for (const { topicKey, questionId } of items) {
+          const key = `${topicKey}#${questionId}`
+          if (!review[key]) review[key] = { topicKey, questionId, box: 1, due: addDays(BOX_DAYS[1]) }
+        }
+        set({ review })
+      },
       recordReview: (reviewKey, correct) => {
         const item = get().review[reviewKey]
         if (!item) return

@@ -160,6 +160,7 @@ function GradePlan() {
       <div className="flex flex-wrap items-end justify-between gap-2">
         <h2 className="font-heading text-2xl font-semibold">Your Grade {grade} path</h2>
         <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm font-semibold">
+          <Link to="/exams" className="text-muted-foreground hover:text-brand hover:underline">📝 Exam practice</Link>
           <Link to="/report" className="text-muted-foreground hover:text-brand hover:underline">📋 Progress report</Link>
           <Link to="/welcome" search={{ step: 'grade' }} className="text-muted-foreground hover:text-brand hover:underline">🎓 Change grade</Link>
           <Link to="/welcome" search={{ step: 'check' }} className="text-brand hover:underline">{check ? 'Retake skills check' : 'Take the skills check'} →</Link>

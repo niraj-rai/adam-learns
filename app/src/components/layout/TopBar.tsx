@@ -142,6 +142,7 @@ export function TopBar() {
           </Popover>
           <Link to="/labs" className={LINK}>Labs</Link>
           <Link to="/review" className={LINK}>Review{reviewBadge}</Link>
+          <Link to="/exams" className={LINK}>Exams</Link>
           <Link to="/progress" className={LINK}>Progress</Link>
         </nav>}
 
@@ -182,6 +183,7 @@ export function TopBar() {
                 <div className="my-2 border-t" />
                 <Link to="/labs" onClick={() => setOpen(false)} className={LINK}>🧪 Labs</Link>
                 <Link to="/review" onClick={() => setOpen(false)} className={LINK}>🔁 Review{reviewBadge}</Link>
+                <Link to="/exams" onClick={() => setOpen(false)} className={LINK}>📝 Exams</Link>
                 <Link to="/progress" onClick={() => setOpen(false)} className={LINK}>🏆 Progress</Link>
                 <Link to="/curriculum" onClick={() => setOpen(false)} className={LINK}>🗺️ Curriculum map</Link>
                 <div className="my-2 border-t" />
