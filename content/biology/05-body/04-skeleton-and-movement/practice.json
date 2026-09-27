@@ -88,11 +88,11 @@
       "type": "numeric",
       "difficulty": 1,
       "ibCriterion": "C",
-      "prompt": "An adult has 206 bones and a newborn about 300. About how many bones fuse together as a child grows?",
+      "prompt": "An adult has 206 bones and a newborn about 300. About how many fewer bones does an adult have than a newborn?",
       "answer": 94,
       "tolerance": 0,
       "unit": "bones",
-      "explain": "300 − 206 = 94."
+      "explain": "300 − 206 = 94 fewer bones, because many small bones fuse together as a child grows."
     },
     {
       "id": "q6",
@@ -107,7 +107,7 @@
         "Ligaments"
       ],
       "answer": 1,
-      "explain": "Ligaments connect bone to bone."
+      "explain": "Tendons connect muscle to bone; ligaments connect bone to bone."
     },
     {
       "id": "q7",

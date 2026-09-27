@@ -56,11 +56,11 @@
       "type": "numeric",
       "difficulty": 3,
       "ibCriterion": "C",
-      "prompt": "What is the smallest number of yes/no questions a key needs to separate 8 organisms, if every question splits a group exactly in half?",
+      "prompt": "A key sorts 8 organisms, and every question splits a group exactly in half. How many yes/no questions must you answer to reach the name of any one organism?",
       "answer": 3,
       "tolerance": 0,
       "unit": "questions",
-      "explain": "8 → 4 → 2 → 1: three levels of questions (2 × 2 × 2 = 8)."
+      "explain": "8 → 4 → 2 → 1: you answer three questions on the way to each name (2 × 2 × 2 = 8)."
     },
     {
       "id": "q5",

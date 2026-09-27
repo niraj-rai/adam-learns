@@ -78,7 +78,7 @@
       "type": "mcq",
       "difficulty": 2,
       "ibCriterion": "D",
-      "prompt": "Two pens and three pencils cost ₹40. One pen and three pencils cost ₹31. What does a pen cost?",
+      "prompt": "Two pens and three pencils cost ₹42. One pen and three pencils cost ₹33. What does a pen cost?",
       "options": [
         "₹20",
         "₹11",
@@ -86,7 +86,7 @@
         "₹3"
       ],
       "answer": 2,
-      "explain": "Subtract: 1 pen = ₹9."
+      "explain": "Subtract: 1 pen = 42 − 33 = ₹9 (and then 3 pencils cost ₹24)."
     },
     {
       "id": "q7",

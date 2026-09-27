@@ -8,7 +8,7 @@ import { fmt, solve2 } from '../_shared/coord'
 type Eq = { a: number; b: number; c: number }
 const PRESETS: { name: string; emoji: string; e1: Eq; e2: Eq; story: string }[] = [
   { name: 'Mangoes and bananas', emoji: '🥭', e1: { a: 1, b: 1, c: 7 }, e2: { a: 2, b: 1, c: 10 }, story: 'x mangoes and y bunches of bananas: 7 items in all, and (2 × mangoes) + bananas = 10. (Money in ₹10s.)' },
-  { name: 'Ages', emoji: '🎂', e1: { a: 1, b: -1, c: 3 }, e2: { a: 1, b: 1, c: 7 }, story: 'Riya (x) is 3 years older than her brother (y); together their ages add to 7 (in 2-year steps).' },
+  { name: 'Ages', emoji: '🎂', e1: { a: 1, b: -1, c: 3 }, e2: { a: 1, b: 1, c: 7 }, story: 'Riya (x) is 3 years older than her brother (y); together their ages add to 7.' },
   { name: 'Parallel', emoji: '🛤️', e1: { a: 1, b: -1, c: 1 }, e2: { a: 2, b: -2, c: -4 }, story: 'Two railway tracks that never meet: same slope, different intercepts.' },
   { name: 'Same line', emoji: '🔁', e1: { a: 1, b: 2, c: 4 }, e2: { a: 2, b: 4, c: 8 }, story: 'The second equation is just the first multiplied by 2: every point works.' },
 ]

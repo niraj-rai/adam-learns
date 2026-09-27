@@ -140,7 +140,7 @@
       "type": "short-answer",
       "difficulty": 3,
       "ibCriterion": "D",
-      "prompt": "Some Indian cities, such as Ahmedabad and the state of Telangana, promote ‘cool roofs’ painted white or light colours. Explain how cool roofs work and give one advantage and one limitation.",
+      "prompt": "Some places in India, such as the city of Ahmedabad and the state of Telangana, promote ‘cool roofs’ painted white or light colours. Explain how cool roofs work and give one advantage and one limitation.",
       "modelAnswer": "White roofs reflect most of the Sun's radiation instead of absorbing it, so less heat enters the building and indoor temperatures fall. Advantage: cooler homes and less need for fans or air conditioners, saving electricity and protecting people during heatwaves. Limitation: the paint gets dirty and must be cleaned or repainted; in cold places it can make winters colder, and it costs money to apply.",
       "rubric": [
         "White surfaces reflect radiation, so less is absorbed",

@@ -11,7 +11,7 @@ export const IMD = [
   { max: 61, name: 'Deep depression' },
   { max: 88, name: 'Cyclonic storm' },
   { max: 117, name: 'Severe cyclonic storm' },
-  { max: 165, name: 'Very severe cyclonic storm' },
+  { max: 166, name: 'Very severe cyclonic storm' },
   { max: 221, name: 'Extremely severe cyclonic storm' },
   { max: Infinity, name: 'Super cyclonic storm' },
 ]

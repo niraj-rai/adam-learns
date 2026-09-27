@@ -14,6 +14,7 @@ describe('idli chef orders', () => {
   })
   it('leftover sambar is safe overnight only if boiled and refrigerated, or refrigerated', () => {
     expect(safeOvernight('room')).toBe(false)
+    expect(safeOvernight('boil')).toBe(false)
     expect(safeOvernight('boilfridge')).toBe(true)
     expect(safeOvernight('fridge')).toBe(true)
   })

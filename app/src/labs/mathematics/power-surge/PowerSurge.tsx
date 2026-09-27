@@ -21,7 +21,7 @@ const PROBLEMS: Problem[] = [
     { text: '3⁶', ok: true, why: 'Three groups of two 3s make six 3s: 3²ˣ³ = 3⁶ = 729.' },
     { text: '3⁵', ok: false, why: 'Adding is for multiplying two powers; here, it’s a power of a power.' },
     { text: '9⁶', ok: false, why: '3² is 9, so (3²)³ = 9³, not 9⁶.' },
-    { text: '3⁹', ok: false, why: '2³ = 8 and 3² = 9 aren’t involved: the exponent is 2 × 3.' } ] },
+    { text: '3⁹', ok: false, why: 'The exponent is 2 × 3 = 6, not 3² = 9.' } ] },
   { emoji: '0️⃣', title: 'Zero power', story: 'What is 5⁰?', idea: 'Any non-zero number to the power 0 is 1', options: [
     { text: '1', ok: true, why: '5⁰ = 5¹ ÷ 5 = 1. The pattern down the power ladder gives 1.' },
     { text: '0', ok: false, why: 'It’s tempting, but 5³ ÷ 5³ = 1 and that equals 5⁰.' },

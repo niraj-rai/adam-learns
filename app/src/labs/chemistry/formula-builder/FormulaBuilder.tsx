@@ -146,7 +146,7 @@ export default function FormulaBuilder() {
           </div>
           {result && (
             <p role="status" className={cn('rounded-xl px-4 py-2 text-sm', result === 'right' ? 'bg-success-soft' : 'bg-warn-soft')}>
-              {result === 'right' ? `✅ Perfect! One molecule of ${target.name.toLowerCase()} has ${total} atoms.` : `Not yet. You need ${diff.join(', ')}.`}
+              {result === 'right' ? `✅ Perfect! The formula of ${target.name.toLowerCase()} shows ${total} atoms.` : `Not yet. You need ${diff.join(', ')}.`}
             </p>
           )}
         </div>

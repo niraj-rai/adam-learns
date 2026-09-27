@@ -106,7 +106,7 @@
       "prompt": "A solution of 50 g of a solid in 100 g of water at 70 °C is cooled to 30 °C, where the solubility is 25 g. What mass of crystals forms?",
       "answer": 25,
       "tolerance": 0,
-      "explain": "50 − 25 = 25 g (assuming it was saturated or unsaturated with 50 g dissolved at 70 °C).",
+      "explain": "All 50 g was dissolved at 70 °C, but only 25 g can stay dissolved at 30 °C: 50 − 25 = 25 g of crystals.",
       "unit": "g"
     }
   ]

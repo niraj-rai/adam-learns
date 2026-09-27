@@ -49,7 +49,7 @@
       "ibCriterion": "A",
       "prompt": "Who is protected by herd immunity?",
       "options": [
-        "Also people who can't be vaccinated, like newborns and people with weak immune systems",
+        "Vaccinated people and also those who can't be vaccinated, like newborns and people with weak immune systems",
         "No one",
         "Only vaccinated people",
         "Only doctors"
@@ -62,7 +62,7 @@
       "type": "sort-bins",
       "difficulty": 2,
       "ibCriterion": "C",
-      "prompt": "Order these diseases by how high the vaccination rate must be for herd immunity: low or high?",
+      "prompt": "Sort these diseases: does herd immunity need a lower or a higher vaccination rate?",
       "bins": [
         "Lower threshold",
         "Higher threshold"

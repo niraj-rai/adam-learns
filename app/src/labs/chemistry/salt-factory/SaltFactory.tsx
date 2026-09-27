@@ -33,7 +33,7 @@ export default function SaltFactory() {
   const cat = CATIONS.find((c) => c.name === base.cation)!
   const an = ANIONS.find((a) => a.name === acid.anion)!
   const salt = ionicFormula(cat, an).formula
-  const pH = acid.strong === base.strong ? 7 : acid.strong ? 5 : 9
+  const pH = acid.strong && base.strong ? 7 : acid.strong ? 5 : base.strong ? 9 : null
   // copper sulfate crystals: CuSO4·5H2O (249.5) lose 5H2O (90) when heated
   const water = (crystals * 90) / 249.5
   return (
@@ -46,9 +46,9 @@ export default function SaltFactory() {
       <div className="mt-2 grid gap-2 sm:grid-cols-3">
         <Readout label="Salt" value={`${base.cation.replace('(II)', '')} ${acid.anion.toLowerCase()}`} />
         <Readout label="Formula unit mass" value={`${molarMass(salt)} u`} />
-        <Readout label="Salt solution pH" value={pH === 7 ? '≈ 7 (neutral)' : pH < 7 ? '< 7 (acidic)' : '> 7 (basic)'} />
+        <Readout label="Salt solution pH" value={pH === null ? 'Depends (both weak)' : pH === 7 ? '≈ 7 (neutral)' : pH < 7 ? '< 7 (acidic)' : '> 7 (basic)'} />
       </div>
-      <p className="mt-2 text-xs text-muted-foreground">Strong acid + strong base → neutral salt; strong acid + weak base → acidic; weak acid + strong base → basic (like sodium carbonate).</p>
+      <p className="mt-2 text-xs text-muted-foreground">Strong acid + strong base → neutral salt; strong acid + weak base → acidic; weak acid + strong base → basic (like sodium carbonate). When both are weak, the pH depends on which is stronger (ammonium carbonate is slightly basic).</p>
       <div className="mt-4 grid gap-4 rounded-2xl border p-3 md:grid-cols-[1fr_1fr]">
         <div>
           <p className="font-semibold">💎 Water of crystallisation</p>

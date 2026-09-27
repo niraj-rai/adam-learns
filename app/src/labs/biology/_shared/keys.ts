@@ -29,7 +29,7 @@ export const PLANT_SPECIMENS: Specimen[] = [
 export const ANIMAL_KEY: Key = {
   start: 'backbone',
   nodes: {
-    backbone: { q: 'Does it have a backbone (a notochord or vertebral column)?', yes: 'fish', no: 'pores' },
+    backbone: { q: 'Does it have a backbone (vertebral column)?', yes: 'fish', no: 'pores' },
     pores: { q: 'Is its body full of pores, with no real tissues or organs?', yes: 'porifera', no: 'tentacles' },
     tentacles: { q: 'Is it a soft, hollow body with a single opening surrounded by stinging tentacles?', yes: 'cnidaria', no: 'jointed' },
     jointed: { q: 'Does it have jointed legs and a hard outer skeleton (exoskeleton)?', yes: 'arthropoda', no: 'spiny' },

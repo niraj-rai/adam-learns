@@ -49,7 +49,7 @@ export const SUBSTANCES: Substance[] = [
     tMax: 30,
     color: '#f87171',
     names: { solid: 'Solid oxygen', liquid: 'Liquid oxygen', gas: 'Oxygen gas' },
-    fact: 'Oxygen is a gas at room temperature because it boils at −183 °C. Liquid oxygen is used as rocket fuel by ISRO.',
+    fact: 'Oxygen is a gas at room temperature because it boils at −183 °C. ISRO’s cryogenic rocket engines burn liquid hydrogen fuel with liquid oxygen.',
   },
   {
     id: 'iron',
@@ -61,7 +61,7 @@ export const SUBSTANCES: Substance[] = [
     tMax: 3100,
     color: '#94a3b8',
     names: { solid: 'Solid iron', liquid: 'Molten iron', gas: 'Iron vapour' },
-    fact: 'Iron melts at 1538 °C, so steel plants need huge blast furnaces to shape it.',
+    fact: 'Iron melts at 1538 °C, so steel plants need huge, extremely hot furnaces to melt it.',
   },
   {
     id: 'dry-ice',

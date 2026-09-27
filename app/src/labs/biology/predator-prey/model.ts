@@ -2,14 +2,18 @@ export type Pops = { grass: number; deer: number; tigers: number }
 export type Flags = { patrol: boolean; corridor: boolean }
 export type Action = 'patrol' | 'corridor' | 'plant' | 'relocate' | 'none'
 
-/** One year in a forest: grass regrows, deer graze and breed, tigers hunt deer; poachers kill tigers unless there are patrols. */
+/**
+ * One year in a forest: grass regrows, deer graze and breed, tigers hunt deer; poachers kill tigers unless there are patrols.
+ * When deer are scarce they are harder for tigers to find, so hunting success falls off steeply (a type III response).
+ * This lets tigers and deer coexist instead of the tigers wiping the deer out.
+ */
 export function yearStep(p: Pops, f: Flags): Pops {
   const G = p.grass
   const D = p.deer
   const T = p.tigers
   const grass = Math.max(20, Math.min(1000, G + 0.9 * G * (1 - G / 1000) + 40 - (1.3 * D * G) / (G + 200)))
   const births = (0.45 * D * G) / (G + 300)
-  const pred = (12 * T * D) / (D + 50)
+  const pred = (12 * T * D * D) / (D * D + 100 * 100)
   const deer = Math.max(0, D + births - 0.1 * D - pred)
   const tigers = Math.max(0, T + 0.02 * pred - 0.15 * T - (f.patrol ? 0 : 0.35 * T) + (f.corridor ? 1 : 0))
   return { grass, deer, tigers }

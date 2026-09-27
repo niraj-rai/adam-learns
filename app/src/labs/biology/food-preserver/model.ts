@@ -4,7 +4,7 @@ export type Method = { id: string; name: string; emoji: string; growth: number; 
 export const METHODS: Method[] = [
   { id: 'room', name: 'Left out in a warm kitchen', emoji: '🌡️', growth: 1, startFactor: 1, note: 'Warm and moist: perfect for microbes.' },
   { id: 'fridge', name: 'Refrigerated (4 °C)', emoji: '🧊', growth: 0.12, startFactor: 1, note: 'Cold slows microbes down a lot, but doesn’t kill them.' },
-  { id: 'boil', name: 'Boiled, then covered and cooled', emoji: '♨️', growth: 1, startFactor: 0.001, note: 'Heat kills most microbes, but the survivors (and new ones) grow again at room temperature.' },
+  { id: 'boil', name: 'Boiled, then covered and cooled', emoji: '♨️', growth: 1, startFactor: 0.001, note: 'Heat kills most microbes, but the survivors (and new ones) grow again at room temperature. Cooked food should not be left out for more than about 2 hours.' },
   { id: 'boilfridge', name: 'Boiled, then refrigerated', emoji: '♨️🧊', growth: 0.12, startFactor: 0.001, note: 'Kill most microbes, then slow the rest.' },
   { id: 'salt', name: 'Salted / pickled in oil', emoji: '🧂', growth: 0, startFactor: 1, note: 'Salt draws water out of microbes, so they can’t grow: mango and lime pickles last for months.' },
   { id: 'sugar', name: 'Sugar syrup (jam, murabba)', emoji: '🍯', growth: 0, startFactor: 1, note: 'Lots of sugar also draws water out of microbes.' },

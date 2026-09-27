@@ -133,7 +133,7 @@
       "answer": 7,
       "tolerance": 0,
       "unit": "electrons",
-      "explain": "For groups 13–18, outer electrons = group number − 10. 17 − 10 = 7."
+      "explain": "For groups 13–17 (and 18, except helium), outer electrons = group number − 10. 17 − 10 = 7."
     },
     {
       "id": "q8",

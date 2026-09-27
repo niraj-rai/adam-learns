@@ -34,7 +34,7 @@ const PROBLEMS: Problem[] = [
     { text: '4√3', ok: true, why: '√48 = √(16 × 3) = 4√3.' },
     { text: '2√12', ok: false, why: 'Not simplest: √12 still has a square factor.' },
     { text: '16√3', ok: false, why: 'Take the square ROOT of 16.' },
-    { text: '3√4', ok: false, why: 'Find a square factor, not 4 × 12 the wrong way round.' },
+    { text: '3√4', ok: false, why: '3√4 = 6, but √48 ≈ 6.93. Take out the square factor 16: √16 = 4.' },
   ] },
   { emoji: '➕', title: 'Like surds', story: 'Work out 3√2 + 5√2 − √2.', idea: 'Add like surds like like terms', options: [
     { text: '7√2', ok: true, why: '(3 + 5 − 1)√2 = 7√2.' },

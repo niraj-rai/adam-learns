@@ -43,7 +43,7 @@
       "ibCriterion": "C",
       "prompt": "How many spherical lead shots of radius 1 cm can be made from a cube of lead with edge 11 cm? (π = 22/7)",
       "answer": 317,
-      "tolerance": 1,
+      "tolerance": 0,
       "explain": "1331 ÷ (88/21) = 317.6…, so 317 whole shots."
     },
     {

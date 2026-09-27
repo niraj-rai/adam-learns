@@ -58,7 +58,7 @@ function Hormones() {
           <b>{h.gland}</b><span className="text-chem">{h.hormone}</span><span>{h.job}</span>
         </div>
       ))}
-      <p className="rounded-xl bg-chem-soft px-4 py-2 text-sm"><b>Hormones</b> are chemical messengers made by <b>endocrine glands</b> and carried in the blood. At puberty, signals from the <b>pituitary gland</b> in the brain tell the testes (in boys) and ovaries (in girls) to make more hormones. These cause changes such as growth of body hair, a deeper voice in boys, and the start of periods (menstruation) in girls.</p>
+      <p className="rounded-xl bg-chem-soft px-4 py-2 text-sm"><b>Hormones</b> are chemical messengers made by <b>endocrine glands</b> and carried in the blood. At puberty, signals from the <b>pituitary gland</b>, at the base of the brain, tell the testes (in boys) and ovaries (in girls) to make more hormones. These cause changes such as growth of body hair, a deeper voice in boys, and the start of periods (menstruation) in girls.</p>
     </div>
   )
 }

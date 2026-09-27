@@ -54,7 +54,7 @@
       "type": "numeric",
       "difficulty": 2,
       "ibCriterion": "C",
-      "prompt": "A myopic person has a far point of 80 cm. What is the power of the lens needed? (1 d.p.)",
+      "prompt": "A myopic person has a far point of 80 cm. What is the power of the lens needed? (2 d.p.)",
       "answer": -1.25,
       "tolerance": 0.01,
       "explain": "P = −1/0.8 = −1.25 D.",

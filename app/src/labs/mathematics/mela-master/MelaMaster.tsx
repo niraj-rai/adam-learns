@@ -108,7 +108,7 @@ export default function MelaMaster() {
   const restart = () => { setRound((r) => r + 1); setI(0); setHearts(3); setPicked(null) }
 
   return (
-    <LabFrame labId="mela-master" title="Boss Challenge: Maths Mela Master" subtitle="Ten Grade 5 puzzles about big numbers, fractions, angles, measurement and data." howTo={<p>Choose the right answer. A wrong choice costs a ❤️. Work it out on paper first, then check the explanation.</p>}>
+    <LabFrame labId="mela-master" title="Boss Challenge: Maths Mela Master" subtitle="Ten Grade 5 puzzles about big numbers, fractions, angles, measurement and symmetry." howTo={<p>Choose the right answer. A wrong choice costs a ❤️. Work it out on paper first, then check the explanation.</p>}>
       {done && hearts > 0 && <Confetti />}
       <div className="mb-3 flex items-center justify-between text-lg">
         <span aria-label={`${hearts} lives left`}>{'❤️'.repeat(hearts)}{'🤍'.repeat(3 - hearts)}</span>

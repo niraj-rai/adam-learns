@@ -174,13 +174,13 @@
       "ibCriterion": "C",
       "prompt": "In the syringe lab, going from push force 0 to 20 squashes the gas a lot, but going from 80 to 100 squashes it only a little. Why?",
       "options": [
-        "As particles get closer together, there is less space left to remove",
+        "The squashed particles are closer together, so they hit the plunger more often and push back harder",
         "The gas turns into a solid",
         "The syringe is broken",
         "Gas particles get bigger when pushed"
       ],
       "answer": 0,
-      "explain": "The more squashed the gas, the less empty space is left, so each extra push has a smaller effect."
+      "explain": "The more squashed the gas, the more often its particles hit the plunger, so the gas pushes back harder and each extra push has a smaller effect. The particles themselves never change size."
     },
     {
       "id": "q10",

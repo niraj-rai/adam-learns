@@ -36,12 +36,12 @@
       "ibCriterion": "A",
       "prompt": "In uniform circular motion, what is the direction of the velocity at any point?",
       "options": [
-        "Along the tangent to the circle",
         "Away from the centre",
+        "Along the tangent to the circle",
         "Straight up",
         "Towards the centre"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "Velocity is always along the direction of motion."
     },
     {
@@ -51,12 +51,12 @@
       "ibCriterion": "B",
       "prompt": "A stone whirled on a string is released. Which way does it fly?",
       "options": [
-        "Along the tangent at the point of release",
         "Straight away from the centre",
         "Towards the centre",
+        "Along the tangent at the point of release",
         "It keeps circling"
       ],
-      "answer": 0,
+      "answer": 2,
       "explain": "No force now changes its direction."
     },
     {
@@ -77,12 +77,12 @@
       "ibCriterion": "D",
       "prompt": "What provides the inward force that lets a car turn around a bend on a flat road?",
       "options": [
-        "Friction between the tyres and the road",
         "The car's engine pushing outwards",
         "Gravity pulling sideways",
-        "Air pushing the car inwards"
+        "Air pushing the car inwards",
+        "Friction between the tyres and the road"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "That is why turning on wet or oily roads is dangerous."
     },
     {
@@ -102,12 +102,12 @@
       "ibCriterion": "A",
       "prompt": "A satellite moves in a circular orbit at constant speed. Which statement is true?",
       "options": [
-        "Its speed is constant but its velocity keeps changing",
         "It is not accelerating",
+        "Its speed is constant but its velocity keeps changing",
         "Both speed and velocity are constant",
         "Its speed keeps changing"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "Its direction changes continuously."
     }
   ]

@@ -60,7 +60,7 @@ const PROBLEMS: Problem[] = [
     { text: 'Stomata', ok: false, why: 'Stomata are pores for gas exchange.' },
     { text: 'Root hairs', ok: false, why: 'Root hairs absorb water.' },
   ] },
-  { emoji: '\U0001fad8', title: 'Nephron', story: 'What is the basic filtering unit of the kidney?', idea: 'Each kidney has about a million', options: [
+  { emoji: '🫘', title: 'Nephron', story: 'What is the basic filtering unit of the kidney?', idea: 'Each kidney has about a million', options: [
     { text: 'The nephron', ok: true, why: 'Blood is filtered in the glomerulus into Bowman’s capsule.' },
     { text: 'The neuron', ok: false, why: 'That is a nerve cell.' },
     { text: 'The alveolus', ok: false, why: 'That is an air sac in the lungs.' },

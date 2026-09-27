@@ -11,7 +11,7 @@ const MONTHS = [
   { m: 'June', season: 'Monsoon', weather: '🌧️ Monsoon reaches Kerala around 1 June', plants: 'Everything turns green', animals: 'Frogs croak; peacocks dance', people: 'Rath Yatra', farm: 'Kharif sowing (rice, cotton, maize)' },
   { m: 'July', season: 'Monsoon', weather: '⛈️ Heavy rain across India', plants: 'Rice paddies fill with water', animals: 'Earthworms and snails come out', people: 'Umbrellas and raincoats!', farm: 'Rice transplanting' },
   { m: 'August', season: 'Monsoon', weather: '🌦️ Rainy', plants: 'Forests are lush', animals: 'Insects everywhere; birds feed chicks', people: 'Independence Day, Onam, Raksha Bandhan', farm: 'Kharif crops growing' },
-  { m: 'September', season: 'Monsoon', weather: '🌈 Rain slowly withdraws', plants: 'Kaas plateau wildflowers bloom', animals: 'Frogs lay eggs in pools', people: 'Ganesh Chaturthi', farm: 'Crops maturing' },
+  { m: 'September', season: 'Monsoon', weather: '🌈 Rain slowly withdraws', plants: 'Kaas plateau wildflowers bloom', animals: 'Tadpoles in pools turn into froglets', people: 'Ganesh Chaturthi', farm: 'Crops maturing' },
   { m: 'October', season: 'Autumn', weather: '🌤️ Clear skies, cooler nights', plants: 'Some trees shed leaves', animals: 'Birds begin migrating south', people: 'Navratri, Durga Puja, Dussehra', farm: 'Kharif harvest' },
   { m: 'November', season: 'Autumn', weather: '🍂 Cool and dry', plants: 'Harvested fields', animals: 'Migratory ducks arrive', people: 'Diwali, Chhath', farm: 'Rabi sowing (wheat, gram)' },
   { m: 'December', season: 'Winter', weather: '❄️ Cold; snow in the Himalaya', plants: 'Winter vegetables: peas, carrots, cauliflower', animals: 'Some animals hibernate in the mountains', people: 'Christmas', farm: 'Rabi crops growing' },

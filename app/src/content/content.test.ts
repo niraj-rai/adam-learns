@@ -70,4 +70,13 @@ describe('content', () => {
       for (const c of t.ibCriteria.filter((c) => c !== 'D' && c !== 'B')) expect(criteria.has(c), `${t.key} criterion ${c}`).toBe(true)
     }
   })
+
+  it('spreads MCQ answers across positions (the player does not shuffle options)', () => {
+    const same: string[] = []
+    for (const t of getAllTopics()) {
+      const answers = (getPractice(t.key)?.questions ?? []).flatMap((q) => (q.type === 'mcq' ? [q.answer] : []))
+      if (answers.length >= 4 && new Set(answers).size === 1) same.push(`${t.key} (all at ${answers[0]})`)
+    }
+    expect(same, 'every MCQ answer in the same position is easy to guess').toEqual([])
+  })
 })

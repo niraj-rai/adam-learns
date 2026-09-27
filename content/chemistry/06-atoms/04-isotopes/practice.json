@@ -123,13 +123,13 @@
       "ibCriterion": "A",
       "prompt": "Which statement is TRUE?",
       "options": [
-        "Most isotopes are stable",
+        "Many isotopes are stable (not radioactive)",
         "All isotopes are radioactive",
         "Isotopes are different elements",
         "Isotopes have different numbers of electrons"
       ],
       "answer": 0,
-      "explain": "Only some isotopes are radioactive; most are stable."
+      "explain": "Only some isotopes are radioactive; many are stable, and almost all the atoms around us are stable isotopes."
     },
     {
       "id": "q8",

@@ -49,7 +49,7 @@ const PROBLEMS: Problem[] = [
     { text: 'x = 16, y = −4', ok: false, why: 'Divide 16 by 2.' },
   ] },
   { emoji: '🛤️', title: 'Parallel', story: 'How many solutions do 2x + 3y = 6 and 4x + 6y = 5 have?', idea: 'Same slope, different intercept means parallel lines', options: [
-    { text: 'None', ok: true, why: 'The second is not a multiple of the first on the right-hand side: the lines are parallel.' },
+    { text: 'None', ok: true, why: 'Doubling the first gives 4x + 6y = 12, not 5: same slope, different intercept, so the lines are parallel.' },
     { text: 'One', ok: false, why: 'The lines have the same slope, so they never cross.' },
     { text: 'Infinitely many', ok: false, why: 'They would need 4x + 6y = 12.' },
     { text: 'Two', ok: false, why: 'Two straight lines meet at most once.' },

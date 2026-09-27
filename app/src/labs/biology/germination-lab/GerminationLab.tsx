@@ -19,7 +19,7 @@ export default function GerminationLab() {
   const [day, setDay] = useState(0)
   const set = (i: number, patch: Partial<Pot>) => { setPots((p) => p.map((x, j) => (j === i ? { ...x, ...patch } : x))); setDay(0) }
   return (
-    <LabFrame labId="germination-lab" title="Germination Lab" subtitle="What does a seed need to start growing? Set up a fair test with four jars." howTo={<p>Each jar has bean seeds. Change ONE condition per jar, predict what will happen, then move the day slider forward to watch. Pot A is the <b>control</b>: everything a seed might need.</p>}>
+    <LabFrame labId="germination-lab" title="Germination Lab" subtitle="What does a seed need to start growing? Set up a fair test with four jars." howTo={<p>Each jar has bean seeds. Change ONE condition per jar, predict what will happen, then move the day slider forward to watch. Jar A is the <b>control</b>: everything a seed might need.</p>}>
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {pots.map((p, i) => {
           const h = seedlingHeight(p, day)

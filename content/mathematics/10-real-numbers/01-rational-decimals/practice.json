@@ -104,7 +104,7 @@
       "difficulty": 2,
       "ibCriterion": "C",
       "prompt": "Explain why the decimal of any fraction p/q must either terminate or repeat.",
-      "modelAnswer": "In long division by q, every remainder is one of 0, 1, 2, …, q − 1. If a remainder is 0 the decimal terminates. If not, after at most q − 1 steps a remainder must repeat, and from then on the division repeats the same steps, so the digits repeat forever.",
+      "modelAnswer": "In long division by q, every remainder is one of 0, 1, 2, …, q − 1. If a remainder is 0 the decimal terminates. If not, there are only q − 1 possible non-zero remainders, so within q steps a remainder must repeat, and from then on the division repeats the same steps, so the digits repeat forever.",
       "rubric": [
         "Remainders are less than q",
         "Remainder 0 means it terminates",

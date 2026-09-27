@@ -79,7 +79,7 @@ function StarchTest() {
         <line x1={120} y1={10} x2={120} y2={170} stroke="#15803d" />
       </svg>
       <div className="space-y-3">
-        <p className="text-sm">This leaf is <b>variegated</b>: the right half is green, the left half is pale (no chlorophyll).</p>
+        <p className="text-sm">This leaf is <b>variegated</b>: the right half is green, the left half is pale (no chlorophyll). The plant was first kept in the dark for 2 days, so its leaves start with no starch.</p>
         <Button size="sm" variant={cover ? 'default' : 'outline'} disabled={tested} onClick={() => setCover((c) => !c)}>⬛ {cover ? 'Black paper strip on' : 'No black paper'}</Button>
         <div className="flex gap-2">
           <Button onClick={() => setTested(true)} disabled={tested}>🧪 Sunlight 6 h → boil in alcohol → add iodine</Button>

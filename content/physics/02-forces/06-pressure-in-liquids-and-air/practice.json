@@ -7,7 +7,7 @@
       "difficulty": 1,
       "ibCriterion": "A",
       "cbseStyle": true,
-      "prompt": "A bottle of water has holes at three heights. Which hole squirts water the furthest?",
+      "prompt": "A bottle of water has holes at three heights. Which hole squirts water out the fastest?",
       "options": [
         "All the same",
         "The middle hole",
@@ -15,7 +15,7 @@
         "The bottom hole"
       ],
       "answer": 3,
-      "explain": "Liquid pressure increases with depth, so the bottom hole has the greatest pressure."
+      "explain": "Liquid pressure increases with depth, so the bottom hole has the greatest pressure and the fastest jet."
     },
     {
       "id": "q2",
@@ -103,7 +103,7 @@
       "difficulty": 3,
       "ibCriterion": "B",
       "prompt": "Design an experiment with a plastic bottle to test the hypothesis ‘liquid pressure increases with depth’. Include your variables.",
-      "modelAnswer": "Make three holes of the same size at different heights on one side of a bottle. Fill it with water to the same level each time and measure how far each jet lands from the bottle with a ruler. Independent variable: depth of the hole below the water surface. Dependent variable: horizontal distance of the jet. Control variables: hole size, liquid, starting water level, same bottle. If the deepest hole squirts furthest, the hypothesis is supported.",
+      "modelAnswer": "Make three holes of the same size at different heights on one side of a bottle, and stand it on a tall box over a tray. Fill it with water to the same level each time and measure how far each jet lands from the bottle with a ruler. Independent variable: depth of the hole below the water surface. Dependent variable: horizontal distance of the jet. Control variables: hole size, liquid, starting water level, same bottle. If the deepest hole squirts furthest, the hypothesis is supported.",
       "rubric": [
         "Holes at different depths (independent variable)",
         "Measure jet distance (dependent variable)",

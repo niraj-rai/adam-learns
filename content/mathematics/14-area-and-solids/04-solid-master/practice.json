@@ -50,7 +50,7 @@
       "type": "mcq",
       "difficulty": 1,
       "ibCriterion": "A",
-      "prompt": "Which has the greatest volume, for the same radius r and height 2r?",
+      "prompt": "A cone, a sphere and a cylinder each have radius r and height 2r. Which has the greatest volume?",
       "options": [
         "The sphere",
         "The cone",

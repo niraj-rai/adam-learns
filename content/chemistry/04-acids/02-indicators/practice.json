@@ -190,7 +190,7 @@
       "difficulty": 3,
       "ibCriterion": "C",
       "prompt": "You have three colourless liquids: an acid, a base and water. You only have red litmus. How can you identify all three?",
-      "modelAnswer": "Dip red litmus in each. The one that turns it blue is the base. Then add a drop of that base to the other two. Or: use the now-blue litmus paper from the base: dip it in the remaining two; the one that turns it red again is the acid and the one with no change is water.",
+      "modelAnswer": "Dip red litmus in each. The one that turns it blue is the base. Then dip that now-blue litmus paper into the other two liquids: the one that turns it red again is the acid, and the one with no change is water.",
       "rubric": [
         "Red litmus turning blue identifies the base",
         "I found a clever way to tell the acid from water (e.g. reuse the blue litmus)",

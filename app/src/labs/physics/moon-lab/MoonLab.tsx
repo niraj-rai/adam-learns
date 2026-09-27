@@ -68,7 +68,7 @@ export default function MoonLab() {
             <Readout label="Rises at about" value={`${Math.floor(rise)}:${String(Math.round((rise % 1) * 60)).padStart(2, '0')}`} />
             <Readout label="Paksha" value={paksha(day).split(':')[0]} />
           </div>
-          <p className="mt-3 rounded-xl bg-chem-soft px-4 py-2 text-sm">The Sun always lights half of the Moon. As the Moon orbits Earth every 29.5 days, we see more or less of that lit half. From Amavasya (new moon) the lit part grows (<b>waxing</b>, Shukla paksha) to Purnima (full moon), then shrinks (<b>waning</b>, Krishna paksha). The Moon also rises about 50 minutes later each day.</p>
+          <p className="mt-3 rounded-xl bg-chem-soft px-4 py-2 text-sm">The Sun always lights half of the Moon. As the Moon orbits Earth, we see more or less of that lit half, in a cycle that repeats every 29.5 days. From Amavasya (new moon) the lit part grows (<b>waxing</b>, Shukla paksha) to Purnima (full moon), then shrinks (<b>waning</b>, Krishna paksha). The Moon also rises about 50 minutes later each day.</p>
         </>
       ) : (
         <>

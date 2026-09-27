@@ -26,9 +26,9 @@ const PROBLEMS: Problem[] = [
   ] },
   { emoji: '🧩', title: 'Remainder theorem', story: 'Find the remainder when x³ − 4x + 5 is divided by (x − 2).', idea: 'Remainder = p(2)', options: [
     { text: '5', ok: true, why: 'p(2) = 8 − 8 + 5 = 5.' },
-    { text: '−5', ok: false, why: 'Use x = 2, not −2.' },
+    { text: '−5', ok: false, why: 'Sign slip: p(2) = 8 − 8 + 5 = +5.' },
     { text: '0', ok: false, why: 'That would make (x − 2) a factor.' },
-    { text: '21', ok: false, why: 'p(2) = 8 − 8 + 5.' },
+    { text: '21', ok: false, why: 'That adds 4x instead of subtracting it: p(2) = 8 − 8 + 5.' },
   ] },
   { emoji: '✅', title: 'Factor theorem', story: 'Which of these is a factor of x² − 7x + 12?', idea: '(x − a) is a factor if p(a) = 0', options: [
     { text: '(x − 3)', ok: true, why: 'p(3) = 9 − 21 + 12 = 0.' },

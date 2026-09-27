@@ -63,7 +63,7 @@ const PROBLEMS: Problem[] = [
   { emoji: '🌓', title: 'Semicircle', story: 'AB is a diameter and C is on the circle. What is ∠ACB?', idea: 'The angle in a semicircle is a right angle', options: [
     { text: '90°', ok: true, why: 'The diameter makes 180° at the centre, so 90° at the circumference.' },
     { text: '180°', ok: false, why: 'That’s the angle at the centre.' },
-    { text: '60°', ok: false, why: 'Only if the triangle were equilateral, which it can’t be.' },
+    { text: '60°', ok: false, why: 'Wherever C is on the circle, ∠ACB is always 90°.' },
     { text: '45°', ok: false, why: 'Not in general.' },
   ] },
   { emoji: '📏', title: 'Chords', story: 'A chord of length 16 cm is 6 cm from the centre of a circle. What is the radius?', idea: 'The perpendicular from the centre bisects the chord', options: [

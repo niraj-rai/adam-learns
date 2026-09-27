@@ -42,7 +42,7 @@ export default function FabricLab() {
       <h3 className="mt-4 font-semibold">Cotton’s journey</h3>
       <ol className="mt-2 space-y-1">{STEPS.slice(0, shown).map((s, i) => <li key={s} className="rounded-lg border px-3 py-1 text-sm">{i + 1}. {s}</li>)}</ol>
       {shown < STEPS.length && <button type="button" onClick={() => setShown(shown + 1)} className="mt-2 rounded-lg border-2 px-3 py-1 text-sm hover:bg-muted">Next step ➜</button>}
-      <p className="mt-3 rounded-xl bg-chem-soft px-4 py-2 text-sm">India has one of the oldest cotton-weaving traditions in the world: cotton cloth has been found at Mohenjo-daro, over 4,500 years old. Mahatma Gandhi’s <b>charkha</b> (spinning wheel) turned spinning into a symbol of self-reliance.</p>
+      <p className="mt-3 rounded-xl bg-chem-soft px-4 py-2 text-sm">The Indian subcontinent has one of the oldest cotton-weaving traditions in the world: cotton cloth over 4,500 years old has been found at Mohenjo-daro, a Harappan city. Mahatma Gandhi’s <b>charkha</b> (spinning wheel) turned spinning into a symbol of self-reliance.</p>
     </LabFrame>
   )
 }

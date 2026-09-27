@@ -67,7 +67,7 @@
       "type": "mcq",
       "difficulty": 2,
       "ibCriterion": "A",
-      "prompt": "Which enzymes-related reason explains why plastics don’t biodegrade?",
+      "prompt": "Which reason, linked to enzymes, explains why most plastics don’t biodegrade?",
       "options": [
         "Plastics dissolve too quickly",
         "Microbes lack enzymes to break down the plastic",
@@ -100,7 +100,7 @@
       "ibCriterion": "C",
       "prompt": "Why can even biodegradable waste cause problems when dumped in large amounts?",
       "options": [
-        "Rotting in piles produces bad smells, methane and breeds disease carriers",
+        "Rotting piles give off bad smells and methane, and attract flies and rats that spread disease",
         "It absorbs ozone",
         "It turns into plastic",
         "It cannot rot at all"

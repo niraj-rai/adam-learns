@@ -67,7 +67,7 @@ const PROBLEMS: Problem[] = [
     { text: 'The Earth spins faster in February', ok: false, why: 'The spin doesn’t change.' },
   ] },
   { emoji: '🌒', title: 'Moonlight', story: 'Why does the Moon shine?', idea: 'The Moon makes no light of its own', options: [
-    { text: 'It reflects sunlight', ok: true, why: 'Like a mirror in the sky.' },
+    { text: 'It reflects sunlight', ok: true, why: 'Its rocky surface bounces sunlight back to us.' },
     { text: 'It is on fire', ok: false, why: 'It is cold rock.' },
     { text: 'It is made of light', ok: false, why: 'It is rock and dust.' },
     { text: 'Electricity', ok: false, why: 'There is no electricity on the Moon.' },

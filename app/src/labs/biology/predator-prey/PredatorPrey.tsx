@@ -50,7 +50,7 @@ export default function PredatorPrey() {
           <Readout label="After 30 years" value={`${last.grass} grass · ${last.deer} deer · ${(last.tigers10 / 10).toFixed(1)} tigers`} />
         </div>
       </div>
-      <p className="mt-3 rounded-xl bg-chem-soft px-4 py-2 text-sm">Without tigers, deer multiply, overgraze the grass and then starve: a boom and a crash. With tigers, deer numbers are held in check and the grass stays healthy. A top predator like the tiger keeps the whole ecosystem in balance. This is one reason India launched <b>Project Tiger</b> in 1973. (A simplified model.)</p>
+      <p className="mt-3 rounded-xl bg-chem-soft px-4 py-2 text-sm">Without tigers, deer multiply, overgraze the grass and then starve: a boom and a crash. With enough tigers, deer and tiger numbers rise and fall in slow cycles, but the deer are held in check and the grass stays healthy. A top predator like the tiger keeps the whole ecosystem in balance. This is one reason India launched <b>Project Tiger</b> in 1973. (A simplified model.)</p>
     </LabFrame>
   )
 }

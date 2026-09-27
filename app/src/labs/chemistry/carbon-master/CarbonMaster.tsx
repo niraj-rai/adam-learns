@@ -48,7 +48,7 @@ const PROBLEMS: Problem[] = [
     { text: '–CHO (aldehyde)', ok: false, why: 'That’s ethanal.' },
     { text: '>C=O (ketone)', ok: false, why: 'That’s propanone and others.' },
   ] },
-  { emoji: '\U0001fad9', title: 'Vinegar', story: 'What is vinegar?', idea: 'A dilute carboxylic acid', options: [
+  { emoji: '🫙', title: 'Vinegar', story: 'What is vinegar?', idea: 'A dilute carboxylic acid', options: [
     { text: 'A 5–8% solution of ethanoic acid in water', ok: true, why: 'Ethanoic acid gives the sour taste.' },
     { text: 'Pure ethanol', ok: false, why: 'Ethanol is an alcohol.' },
     { text: 'A salt solution', ok: false, why: 'It is acidic.' },

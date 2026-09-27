@@ -12,7 +12,7 @@ type Option = { text: string; ok: boolean; why: string }
 type Problem = { emoji: string; title: string; story: string; options: Option[]; idea: string }
 
 const PROBLEMS: Problem[] = [
-  { emoji: '📏', title: 'Find sin', story: 'In a right triangle, the side opposite θ is 5 and the hypotenuse is 13. What is cos θ?', idea: 'Find the third side first', options: [
+  { emoji: '📏', title: 'Find cos', story: 'In a right triangle, the side opposite θ is 5 and the hypotenuse is 13. What is cos θ?', idea: 'Find the third side first', options: [
     { text: '12/13', ok: true, why: 'Adjacent = √(169 − 25) = 12.' },
     { text: '5/13', ok: false, why: 'That is sin θ.' },
     { text: '5/12', ok: false, why: 'That is tan θ.' },
@@ -30,7 +30,7 @@ const PROBLEMS: Problem[] = [
     { text: 'tan 10°', ok: false, why: 'Angles don’t subtract like that.' },
     { text: '5/4', ok: false, why: 'You can’t divide the angles.' },
   ] },
-  { emoji: '\U0001f7f0', title: 'Identity', story: 'Simplify (1 − cos²θ) ÷ sin θ.', idea: 'sin²θ + cos²θ = 1', options: [
+  { emoji: '🟰', title: 'Identity', story: 'Simplify (1 − cos²θ) ÷ sin θ.', idea: 'sin²θ + cos²θ = 1', options: [
     { text: 'sin θ', ok: true, why: '1 − cos²θ = sin²θ.' },
     { text: 'cos θ', ok: false, why: 'Use the identity.' },
     { text: '1', ok: false, why: 'One sin θ remains.' },

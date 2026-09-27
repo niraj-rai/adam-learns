@@ -53,7 +53,7 @@ export default function PaperFold() {
         {next
           ? <>Next stop: <b>{next.name}</b>. Predict how many more folds it takes, then check! Bars show folds so far compared with folds needed.</>
           : <>You passed the Sun! Doubling grows so fast that {n} folds of a paper sheet would be {formatLength(t)} thick.</>}
-        {' '}In real life, paper gets too thick to fold after about 7 folds (the record is 12, set with a very long sheet of toilet paper). But the maths is real: this is <b>exponential growth</b>, 0.1 mm × 2ⁿ.
+        {' '}In real life, paper gets too thick to fold after about 7 folds (the record is 13, set in 2011 with a roll of toilet paper about 16 km long). But the maths is real: this is <b>exponential growth</b>, 0.1 mm × 2ⁿ.
       </p>
     </LabFrame>
   )

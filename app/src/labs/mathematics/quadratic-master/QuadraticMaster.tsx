@@ -66,7 +66,7 @@ const PROBLEMS: Problem[] = [
     { text: '₹600', ok: false, why: 'That ignores the increase.' },
     { text: '₹1320', ok: false, why: 'Check: aₙ = 50 + 11 × 10 = 160; (50 + 160) × 6 = 1260.' },
   ] },
-  { emoji: '🪜', title: 'Middle term', story: 'Which term of the AP 21, 18, 15, … is −81?', idea: 'aₙ = 21 + (n − 1)(−3)', options: [
+  { emoji: '🪜', title: 'Which term?', story: 'Which term of the AP 21, 18, 15, … is −81?', idea: 'aₙ = 21 + (n − 1)(−3)', options: [
     { text: '35th', ok: true, why: '21 − 3(n − 1) = −81 → n − 1 = 34.' },
     { text: '34th', ok: false, why: 'n − 1 = 34, so n = 35.' },
     { text: '36th', ok: false, why: 'Check: 21 − 105 = −84.' },

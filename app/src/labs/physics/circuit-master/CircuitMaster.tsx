@@ -48,11 +48,11 @@ const PROBLEMS: Problem[] = [
     { text: 'It halves', ok: false, why: 'More current, more heat.' },
     { text: 'It stays the same', ok: false, why: 'Heat depends on current.' },
   ] },
-  { emoji: '📏', title: 'Resistivity', story: 'A wire is stretched to twice its length (same material and thickness). Its resistance…', idea: 'R = ρL/A', options: [
+  { emoji: '📏', title: 'Resistivity', story: 'A wire is replaced by one twice as long, of the same material and thickness. Its resistance…', idea: 'R = ρL/A', options: [
     { text: 'doubles', ok: true, why: 'R is proportional to length.' },
     { text: 'halves', ok: false, why: 'Longer wire, more resistance.' },
     { text: 'stays the same', ok: false, why: 'Length affects resistance.' },
-    { text: 'becomes four times', ok: false, why: 'Only if the area also halves.' },
+    { text: 'becomes four times', ok: false, why: 'Only if the area also halved (as when a wire is stretched); here the thickness is the same.' },
   ] },
   { emoji: '🧲', title: 'Thumb rule', story: 'A current flows upwards in a vertical wire. Looking down from above, what is the direction of the magnetic field around it?', idea: 'Right-hand thumb rule', options: [
     { text: 'Anticlockwise', ok: true, why: 'Thumb up, fingers curl anticlockwise (seen from above).' },
@@ -60,7 +60,7 @@ const PROBLEMS: Problem[] = [
     { text: 'Upwards along the wire', ok: false, why: 'The field circles the wire.' },
     { text: 'There is no field', ok: false, why: 'Every current makes a magnetic field.' },
   ] },
-  { emoji: '🌀', title: 'Motor rule', story: 'In Fleming’s left-hand rule, what does the thumb show?', idea: 'FBI: Field, current, Motion', options: [
+  { emoji: '🌀', title: 'Motor rule', story: 'In Fleming’s left-hand rule, what does the thumb show?', idea: 'First finger = Field, seCond finger = Current, thuMb = Motion', options: [
     { text: 'The direction of the force (motion)', ok: true, why: 'First finger field, second finger current, thumb motion.' },
     { text: 'The magnetic field', ok: false, why: 'That’s the first finger.' },
     { text: 'The current', ok: false, why: 'That’s the second finger.' },

@@ -61,7 +61,7 @@ const PROBLEMS: Problem[] = [
     { text: 'k = 7', ok: false, why: '2/4 ≠ 3/7.' },
   ] },
   { emoji: '♾️', title: 'Same line', story: 'x + 2y = 3 and 3x + 6y = 9. How many solutions?', idea: 'Check all three ratios', options: [
-    { text: 'Infinitely many', ok: true, why: 'Both ratios equal 1/3: the lines coincide.' },
+    { text: 'Infinitely many', ok: true, why: 'All three ratios equal 1/3: the lines coincide.' },
     { text: 'None', ok: false, why: 'The lines are not parallel and separate.' },
     { text: 'Exactly one', ok: false, why: 'They are the same line.' },
     { text: 'Two', ok: false, why: 'Two straight lines can’t meet twice.' },

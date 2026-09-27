@@ -68,7 +68,7 @@ export default function LiquidPressure() {
             </label>
             <Button className="w-full" variant={open ? 'default' : 'outline'} onClick={() => setOpen((o) => !o)}>{open ? '🔒 Close holes' : '🔓 Open the holes'}</Button>
             <Readout label="Pressure at the bottom hole" value={`${(liquidPressure(l.density, Math.max(0, (20 + tankH * 0.75 - surface) * (100 / tankH)) / 100) / 1000).toFixed(1)} kPa`} />
-            <p className="rounded-lg bg-chem-soft p-3 text-sm">The <b>lowest</b> hole squirts <b>furthest</b>: pressure increases with depth. That's why dam walls are much thicker at the bottom!</p>
+            <p className="rounded-lg bg-chem-soft p-3 text-sm">The <b>lowest</b> hole squirts out <b>fastest</b>: pressure increases with depth. That's why dam walls are much thicker at the bottom!</p>
           </div>
         </div>
       ) : (

@@ -1,11 +1,13 @@
 /**
  * Typical growth rate (cm per year) by age, simplified from growth-reference data.
- * Girls’ growth spurt tends to peak around 11–12, boys’ around 13–14. Every individual is different!
+ * Girls’ growth spurt tends to peak around 11–12, boys’ around 13–14, and boys usually keep growing
+ * for about two years longer. Every individual is different!
  */
 export function growthRate(age: number, sex: 'girls' | 'boys') {
   const peakAge = sex === 'girls' ? 11.5 : 13.5
   const peak = sex === 'girls' ? 8 : 9.5
-  const base = age < 10 ? 5.5 : Math.max(0.5, 5.5 - (age - 10) * 0.9)
+  const slowFrom = sex === 'girls' ? 10 : 12
+  const base = age < slowFrom ? 5.5 : Math.max(0.5, 5.5 - (age - slowFrom) * 0.9)
   const spurt = peak * Math.exp(-(((age - peakAge) / 1.2) ** 2))
   return Math.round(Math.max(base, spurt) * 10) / 10
 }

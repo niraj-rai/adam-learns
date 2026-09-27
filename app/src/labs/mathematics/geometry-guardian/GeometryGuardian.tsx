@@ -45,7 +45,7 @@ const PROBLEMS: Problem[] = [
   { emoji: '🔷', title: 'Rhombus', story: 'Which property does every rhombus have?', idea: 'A rhombus is a parallelogram with all sides equal', options: [
     { text: 'All four sides equal', ok: true, why: 'That’s the definition of a rhombus.' },
     { text: 'All angles 90°', ok: false, why: 'That’s only true for a square.' },
-    { text: 'Equal diagonals', ok: false, why: 'Only a square (or rectangle) has equal diagonals.' },
+    { text: 'Equal diagonals', ok: false, why: 'A rhombus has equal diagonals only when it is also a square.' },
     { text: 'Only one pair of parallel sides', ok: false, why: 'A rhombus has two pairs.' } ] },
   { emoji: '📐', title: 'Hypotenuse', story: 'A right-angled triangle has shorter sides 6 cm and 8 cm. How long is the hypotenuse?', idea: 'c² = a² + b²', options: [
     { text: '10 cm', ok: true, why: '36 + 64 = 100, √100 = 10.' },

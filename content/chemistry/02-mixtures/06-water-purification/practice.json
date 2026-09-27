@@ -88,7 +88,7 @@
       "feedback": {
         "2": "Clear ≠ safe! Germs are invisible."
       },
-      "explain": "Filtering removes particles, not most germs or dissolved substances. It still needs disinfection."
+      "explain": "Filtering removes particles, but not all germs or dissolved substances. It still needs disinfection."
     },
     {
       "id": "q6",

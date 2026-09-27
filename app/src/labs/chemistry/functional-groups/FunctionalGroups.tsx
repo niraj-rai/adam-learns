@@ -13,7 +13,7 @@ const GROUPS: { g: Group; label: string; formula: string; suffix: string; exampl
 ]
 const REACTIONS = [
   { name: 'Combustion', eq: 'C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O + heat', note: 'Ethanol burns with a clean blue flame.' },
-  { name: 'Oxidation', eq: 'C₂H₅OH → CH₃COOH (with alkaline KMnO₄ or K₂Cr₂O₇)', note: 'Alcohols are oxidised to carboxylic acids: why wine can turn to vinegar.' },
+  { name: 'Oxidation', eq: 'C₂H₅OH → CH₃COOH (with alkaline KMnO₄ or acidified K₂Cr₂O₇)', note: 'Alcohols are oxidised to carboxylic acids: why wine can turn to vinegar.' },
   { name: 'Esterification', eq: 'CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O (acid catalyst)', note: 'Esters smell fruity and are used in perfumes and flavourings.' },
   { name: 'With sodium', eq: '2Na + 2C₂H₅OH → 2C₂H₅ONa + H₂', note: 'Hydrogen gas is given off.' },
   { name: 'Acid + carbonate', eq: '2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂', note: 'Fizzing: a test for carboxylic acids.' },

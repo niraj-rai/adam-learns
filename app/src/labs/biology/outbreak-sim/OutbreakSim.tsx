@@ -40,7 +40,7 @@ export default function OutbreakSim() {
         <Readout label="Herd-immunity level (1 − 1/R₀)" value={`${Math.round(thr * 100)}%`} />
         <Readout label="Town protected?" value={safe ? '✅ yes' : '❌ not yet'} />
       </div>
-      <p className="mt-3 rounded-xl bg-chem-soft px-4 py-2 text-sm"><b>R₀</b> is how many people one ill person infects in a population where no one is immune. When enough people are immune, the germ can't find new people to infect, which protects even those who can't be vaccinated, like newborn babies. This is <b>herd immunity</b>. Measles spreads so easily that about 95% of people need to be vaccinated. India's Universal Immunisation Programme vaccinates millions of babies every year. (A simplified model.)</p>
+      <p className="mt-3 rounded-xl bg-chem-soft px-4 py-2 text-sm"><b>R₀</b> is how many people one ill person infects in a population where no one is immune. When enough people are immune, the germ can't find new people to infect, which protects even those who can't be vaccinated, like newborn babies. This is <b>herd immunity</b>. Measles spreads so easily that about 93% of people must be immune; health services aim to vaccinate 95%, because no vaccine protects every single person. India's Universal Immunisation Programme vaccinates millions of babies every year. (A simplified model.)</p>
     </LabFrame>
   )
 }

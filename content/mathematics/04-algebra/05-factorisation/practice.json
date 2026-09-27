@@ -111,7 +111,7 @@
       "type": "mcq",
       "difficulty": 3,
       "ibCriterion": "A",
-      "prompt": "Which of these cannot be factorised using whole numbers?",
+      "prompt": "Which of these cannot be factorised into brackets using integers?",
       "options": [
         "x² − 1",
         "x² + 2x + 1",
@@ -119,7 +119,7 @@
         "x² + 3x + 2"
       ],
       "answer": 2,
-      "explain": "No two whole numbers multiply to 1 and add to 1. The others: (x + 1)², (x + 1)(x − 1), (x + 1)(x + 2)."
+      "explain": "No two integers multiply to 1 and add to 1. The others: x² − 1 = (x + 1)(x − 1), x² + 2x + 1 = (x + 1)² and x² + 3x + 2 = (x + 1)(x + 2)."
     }
   ]
 }

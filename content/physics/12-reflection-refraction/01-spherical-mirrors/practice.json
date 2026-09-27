@@ -101,7 +101,7 @@
       "type": "short-answer",
       "difficulty": 2,
       "ibCriterion": "C",
-      "prompt": "A dentist uses a concave mirror with f = 2 cm held 1.5 cm from a tooth. Find the position and nature of the image, and explain why this helps the dentist.",
+      "prompt": "A dentist uses a concave mirror of focal length 2 cm held 1.5 cm from a tooth. Find the position and nature of the image, and explain why this helps the dentist.",
       "modelAnswer": "u = −1.5 cm, f = −2 cm. 1/v = 1/f − 1/u = −1/2 + 1/1.5 = 1/6, so v = +6 cm. The image is 6 cm behind the mirror: virtual and upright. m = −v/u = −6/−1.5 = +4, so it is magnified four times, letting the dentist see the tooth clearly.",
       "rubric": [
         "Correct v = +6 cm",

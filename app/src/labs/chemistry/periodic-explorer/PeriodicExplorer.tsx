@@ -84,7 +84,7 @@ export default function PeriodicExplorer() {
               const e = ELEMENTS.find((x) => x.period === period && x.group === g)
               if (!e) {
                 const future = period === 4 && g > 2
-                return <div key={`${period}-${g}`} className={cn('aspect-square rounded', future && 'border border-dashed opacity-40')} title={future ? 'Elements 21–36: coming in Grade 9' : undefined} />
+                return <div key={`${period}-${g}`} className={cn('aspect-square rounded', future && 'border border-dashed opacity-40')} title={future ? 'Elements 21–36 (not shown in this explorer)' : undefined} />
               }
               return (
                 <motion.button

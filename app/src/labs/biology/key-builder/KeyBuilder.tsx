@@ -51,7 +51,7 @@ export default function KeyBuilder() {
     if (!firstOpen(next) && !rewarded) { setRewarded(true); sfx.win(); addXp(10, 'Dichotomous key complete') }
   }
   return (
-    <LabFrame labId="key-builder" title="Key Builder" subtitle="A dichotomous key splits living things into two groups at each step, until each one stands alone." howTo={<p>Look at the highlighted group. Choose a yes/no question that splits it into two smaller groups. Keep going until every organism is on its own. Can you do it in as few questions as possible?</p>}>
+    <LabFrame labId="key-builder" title="Key Builder" subtitle="A dichotomous key splits living things into two groups at each step, until each one stands alone." howTo={<p>Look at the highlighted group. Choose a yes/no question that splits it into two smaller groups. Keep going until every organism is on its own. Can you build a key where every organism is reached after as few questions as possible?</p>}>
       {current && (
         <div className="mb-3 rounded-2xl border-2 border-chem bg-chem-soft p-3">
           <p className="text-sm font-semibold">Split this group:</p>

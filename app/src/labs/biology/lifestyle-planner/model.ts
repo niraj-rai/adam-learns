@@ -2,7 +2,7 @@ export type Day = { sleep: number; active: number; screen: number; junk: number;
 
 /** Recommended ranges for a 13-year-old (WHO and paediatric guidance, simplified). */
 export const GOALS = {
-  sleep: { min: 9, max: 11, unit: 'hours', tip: 'Teenagers need about 9–11 hours of sleep for growth, memory and mood.' },
+  sleep: { min: 9, max: 11, unit: 'hours', tip: 'At 13, you need about 9–11 hours of sleep (older teens about 8–10) for growth, memory and mood.' },
   active: { min: 1, max: 3, unit: 'hours', tip: 'At least 60 minutes of moderate-to-vigorous activity every day.' },
   screen: { min: 0, max: 2, unit: 'hours', tip: 'Keep recreational screen time to about 2 hours, and none just before bed.' },
   junk: { min: 0, max: 1, unit: 'servings', tip: 'Fried snacks, sweets and sugary drinks only occasionally.' },

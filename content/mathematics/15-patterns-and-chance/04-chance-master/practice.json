@@ -66,7 +66,7 @@
       "type": "mcq",
       "difficulty": 1,
       "ibCriterion": "A",
-      "prompt": "A card is drawn from 1–10. P(a prime number)?",
+      "prompt": "A card is drawn at random from ten cards numbered 1 to 10. P(a prime number)?",
       "options": [
         "2/5",
         "3/10",
@@ -81,7 +81,7 @@
       "type": "mcq",
       "difficulty": 2,
       "ibCriterion": "A",
-      "prompt": "A die and a coin. P(6 and heads)?",
+      "prompt": "A fair die is rolled and a fair coin is tossed. P(6 and heads)?",
       "options": [
         "2/3",
         "1/8",

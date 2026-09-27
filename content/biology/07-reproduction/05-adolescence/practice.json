@@ -43,7 +43,7 @@
       "type": "mcq",
       "difficulty": 2,
       "ibCriterion": "C",
-      "prompt": "On the growth-spurt graph, why is the girls' curve peak earlier than the boys'?",
+      "prompt": "On the growth-spurt graph, why does the girls' curve peak earlier than the boys'?",
       "options": [
         "On average, girls' puberty and growth spurt start earlier",
         "It's a mistake",

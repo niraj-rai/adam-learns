@@ -19,5 +19,11 @@ export const SPOTS = [
 
 export const curdReady = (milkTemp: number, starter: boolean, hours: number) => curdHours(milkTemp, starter) <= hours
 
-/** Leftovers are safe to serve the next morning if they don't reach the spoiled level in `hours`. */
-export const safeOvernight = (methodId: string, hours = 12) => hoursToSpoil(METHODS.find((m) => m.id === methodId)!) > hours
+/**
+ * Leftovers are safe to serve the next morning only if they were kept cold (so microbes grow slowly) and don't reach the
+ * spoiled level in `hours`. Cooked food should never be left at room temperature overnight, even after boiling.
+ */
+export const safeOvernight = (methodId: string, hours = 12) => {
+  const m = METHODS.find((x) => x.id === methodId)!
+  return m.growth < 1 && hoursToSpoil(m) > hours
+}

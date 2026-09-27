@@ -14,7 +14,7 @@
         "x(2x + 3) = x² + 1"
       ],
       "answer": 3,
-      "explain": "It simplifies to x² + 3x − 1 = 0. The first simplifies to x + 12 = 0 (linear), the second to 4 = 0, and the last is a cubic.",
+      "explain": "It simplifies to x² + 3x − 1 = 0. The first simplifies to 4 = 0 (no x at all), the second is a cubic, and the third simplifies to x + 12 = 0 (linear).",
       "cbseStyle": true
     },
     {

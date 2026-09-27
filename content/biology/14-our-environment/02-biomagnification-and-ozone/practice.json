@@ -95,7 +95,7 @@
       "type": "mcq",
       "difficulty": 1,
       "ibCriterion": "C",
-      "prompt": "Why did DDT affect birds of prey more than the insects it was sprayed on?",
+      "prompt": "DDT was sprayed on fields to kill insects, yet birds of prey that never touched the fields were harmed most. Why?",
       "options": [
         "Birds eat DDT directly from sprayers",
         "Insects are immune to DDT",

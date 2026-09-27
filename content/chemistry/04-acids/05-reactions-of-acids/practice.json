@@ -169,7 +169,7 @@
       "type": "short-answer",
       "difficulty": 3,
       "ibCriterion": "C",
-      "prompt": "Explain how baking powder makes idli or cake batter rise.",
+      "prompt": "Explain how baking powder makes rava idli or cake batter rise.",
       "modelAnswer": "Baking powder contains baking soda (a hydrogen carbonate) and a dry acid. When water is added and the batter is heated, the acid reacts with the baking soda to release carbon dioxide gas. The gas bubbles get trapped in the batter and make it rise and become soft and fluffy.",
       "rubric": [
         "Baking soda + acid react (with water/heat)",

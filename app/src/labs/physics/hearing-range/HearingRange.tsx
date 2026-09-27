@@ -12,7 +12,7 @@ const toS = (f: number) => ((Math.log10(f) - LO) / (HI - LO)) * 100
 const fmt = (f: number) => (f >= 1000 ? `${(f / 1000).toLocaleString('en-IN', { maximumFractionDigits: 1 })} kHz` : `${f} Hz`)
 
 const USES: Record<string, string[]> = {
-  infrasound: ['🐘 Elephants call to each other across kilometres', '🌋 Earthquakes and volcanoes give off infrasound before they strike', '🐋 Whales communicate with very low notes'],
+  infrasound: ['🐘 Elephants call to each other across kilometres', '🌋 Earthquakes and volcanoes give off infrasound', '🐋 Whales communicate with very low notes'],
   audible: ['🗣️ Speech is mostly 100 Hz – 4 kHz', '🎵 A piano spans about 27 Hz – 4.2 kHz', '👂 Our ears are most sensitive around 2 – 5 kHz'],
   ultrasound: ['🦇 Bats find insects by echolocation', '🚢 SONAR measures sea depth and finds submarines', '🩺 Medical scans (1 – 15 MHz) image babies and organs safely', '🔧 Finding cracks inside metal parts; ultrasonic cleaning'],
 }

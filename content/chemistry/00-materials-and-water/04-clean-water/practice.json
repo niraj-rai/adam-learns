@@ -6,7 +6,7 @@
       "type": "mcq",
       "difficulty": 1,
       "ibCriterion": "A",
-      "prompt": "Which is a source of groundwater?",
+      "prompt": "Which of these gives us groundwater?",
       "options": [
         "A cloud",
         "A well",

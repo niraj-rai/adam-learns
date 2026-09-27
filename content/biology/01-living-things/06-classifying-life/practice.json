@@ -137,11 +137,11 @@
       "type": "numeric",
       "difficulty": 2,
       "ibCriterion": "C",
-      "prompt": "About 1.2 million animal species have been named, and about 1 million of them are insects. Roughly what percentage of named animal species are insects?",
-      "answer": 83,
+      "prompt": "About 1.5 million animal species have been named, and about 1 million of them are insects. Roughly what percentage of named animal species are insects?",
+      "answer": 67,
       "tolerance": 3,
       "unit": "%",
-      "explain": "1 ÷ 1.2 × 100 ≈ 83%. Invertebrates dominate the animal kingdom!"
+      "explain": "1 ÷ 1.5 × 100 ≈ 67%, about two in every three. Invertebrates dominate the animal kingdom!"
     },
     {
       "id": "q8",

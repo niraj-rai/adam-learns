@@ -9,7 +9,7 @@ type Mode = 'mm' | 'mv' | 'vv'
 const MODES: { m: Mode; label: string; solute: string; unit: string }[] = [
   { m: 'mm', label: '% by mass (m/m)', solute: 'Sugar', unit: 'g' },
   { m: 'mv', label: '% mass by volume (m/v)', solute: 'Salt', unit: 'g' },
-  { m: 'vv', label: '% by volume (v/v)', solute: 'Vinegar (acetic acid)', unit: 'mL' },
+  { m: 'vv', label: '% by volume (v/v)', solute: 'Acetic (ethanoic) acid', unit: 'mL' },
 ]
 const CHALLENGES: { mode: Mode; text: string; check: (a: number, b: number) => boolean }[] = [
   { mode: 'mm', text: 'Make 200 g of a 10% (m/m) sugar solution.', check: (a, b) => a === 20 && a + b === 200 },
